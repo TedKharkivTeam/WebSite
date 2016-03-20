@@ -1,0 +1,15 @@
+.infoblock {
+	margin: 20px;
+	width: 45%;
+	text-align: left;
+	height:auto !important;
+	float: left;
+	word-wrap: break-word;
+	border-left: 1px solid Navy;
+	padding-left: 1%;
+	display: block;
+}
+
+.infoblock  img{
+	max-width: 100%;
+}

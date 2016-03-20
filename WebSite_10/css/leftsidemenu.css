@@ -1,0 +1,49 @@
+﻿.leftsidemenu {
+	padding: 20px;
+	margin-left: 15%;
+	list-style-type: none;
+	width: 20%;
+	float: left;
+	z-index: 9;
+	display: block;
+}
+
+.leftsidemenu li {
+	width: 195px;
+	margin: 0 0 1px 0;
+	border: 0;
+	height:32px;
+	overflow: hidden;
+}
+
+.leftsidemenu a {
+	background-color: white;
+	color: Navy;
+	padding: 5px;
+	padding-left: 0;
+	text-decoration: none;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.leftsidemenu a:hover {
+	background-color: Navy;
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin-right: 5px;
+	background: rgb(9,60,139);
+	color: rgb(255,255,255);
+}
+
+.selected  a {
+	background-color: Navy;
+	color: white;
+	margin-right: 5px;
+	background: rgb(9,60,139);
+	color: rgb(255,255,255);
+}
+
+
