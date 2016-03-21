@@ -1,7 +1,11 @@
 .content {
-	margin-left:10%;
+	margin: 0 auto;
 	color: black;
 	width: 80%;
-	float: left;
 	background-color: white;
+}
+.content:after{
+	content: '';
+	display: table;
+	clear: both;
 }

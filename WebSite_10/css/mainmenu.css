@@ -21,15 +21,15 @@
 	z-index: 20;
 	position: absolute;
 	display: none;
-	font-size: 12px;
-	top: 1px;
+	font-size: 14px;
+	top: 0;
     width: 190px;
-    left: 190px;
+    left: 200px;
     -moz-transition: all 1s linear;
     -o-transition: all 1s linear;
     -webkit-transition: all 1s linear;
 } 	
-.dropdown li a{
+.dropdown li {
 	display: block;
 	border-bottom: 2px solid #fff;
 	padding:10px 5px;

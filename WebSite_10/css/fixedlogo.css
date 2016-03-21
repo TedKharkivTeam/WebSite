@@ -2,7 +2,7 @@
 	box-shadow: 4px 4px 10px 1px #000000;
 	position: fixed;
     left: 9%;
-    top: 8%; 
+    top:74px; 
 	background-color:white;
 	z-index: 400;
 }

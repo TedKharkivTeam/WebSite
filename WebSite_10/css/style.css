@@ -30,7 +30,7 @@ blockquote,q { quotes:"" ""; }
 
 body { 
 	font: 14px/1.5 Helvetica, Arial, sans-serif;
-	/*letter-spacing:0;*/
+	letter-spacing:1px;
 	color:#434343;
 	background:#efefef url(../img/background.png) repeat top center;
 	padding:20px 0;
@@ -73,11 +73,10 @@ h6{
     margin: 9px 0 5px 0;
 }
 table{
-	margin: 33px 0;
-	width: 600px;
+	margin: 33px auto;
+	width: 50%;
 	padding: 0;
 	border:0;
-	border-collapse: collapse;
 }
 th{
     text-align: left;
