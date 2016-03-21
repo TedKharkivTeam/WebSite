@@ -51,6 +51,16 @@ input, textarea {
 	font-weight: bold;
 }
 .send {
-	padding-bottom:10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.field {
+	text-align: right;
+	padding-right: 70px;
+}
+.main {
+	font-size: 16px;
+	font-style: italic;
+	padding-top: 10px;
 }
 
