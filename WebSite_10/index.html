@@ -32,7 +32,9 @@
         this.oThumb.expander = this;
         this.oThumb.onclick = function() {
             this.expander.expand();
+			
         }
+		 
         this.smallWidth = oThumb.offsetWidth;
         this.smallHeight = oThumb.offsetHeight;
         this.bExpand = true;
@@ -75,6 +77,11 @@
                     window.aImageExpanders[i].reduce();
         }
     }
+	ImageExpander.prototype.gonah = function()
+	{
+	   location="pages/BscanPage.html"; 
+	   
+	}
     ImageExpander.prototype.expand = function() {
         this.bExpand = true;
         for (var i in window.aImageExpanders)
@@ -97,28 +104,34 @@
             var pThis = this;
             window.setTimeout(function() {
                 pThis.tick();
-            }, 200);
+            }, 4000);
         }
     }
     ImageExpander.prototype.reduce = function() {
         this.bExpand = false;
+	
     }
     ImageExpander.prototype.tick = function() {
         var cw = document.body.clientWidth;
         var ch = document.body.clientHeight;
         var cx = document.body.scrollLeft + cw / 2;
         var cy = document.body.scrollTop + ch / 2;
-        var tw, th, tx, ty;
+        var tw, th, tx, ty; var click=true;
         if (this.bExpand) {
             tw = this.bigWidth;
             th = this.bigHeight;
-            if (tw > cw) {
+             while(( tw == 1.4 * tx || th == 1.4 * ty)  ){
                 th *= cw / tw;
                 tw = cw;
-            }
-            if (th > ch) {
+				
                 tw *= ch / th;
                 th = ch;
+				if(tw == tx || th == ty)
+				{
+				console.log("text");
+				}
+			
+				
             }
             tx = cx - tw / 2;
             ty = cy - th / 2;
@@ -135,7 +148,7 @@
                 nHit++;
                 return tn;
             } else {
-                return n + dn / 10;
+                return n + dn /10 ;
             }
         }
         this.x = fMove(this.x, tx);
@@ -156,7 +169,7 @@
             var pThis = this;
             window.setTimeout(function() {
                 pThis.tick();
-            }, 80);
+            }, 160);
         }
     }
 </script>
@@ -246,9 +259,9 @@
 		</div>
 	
 	
-		<img class = "homepagepictures" src="images/dlsg.jpg" onload="new ImageExpander(this, 'images/dlsg.jpg');this.href = 'javascript:void(100000000);'">
+		<img class = "homepagepictures" src="images/dlsg.jpg" onload="new ImageExpander(this, 'images/dlsg.jpg');this.href = 'javascript:void(0);'" onmouseup="this.expander.gonah();">
 		<img class = "homepagepictures" src="images/bscan.jpg" onClick="new ImageExpander(this, 'images/bscan.jpg');this.href = 'javascript:void(0);'" >
-	
+	  
 		<div class="infoblock">
 				
 		</div>	
