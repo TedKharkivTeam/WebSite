@@ -26,152 +26,8 @@
 	<link rel="stylesheet" media="all" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/mainmenu.css">
 	<link rel="stylesheet" type="text/css" href="css/topbar.css">
-	<script type="text/javascript">
-    function ImageExpander(oThumb, sImgSrc) {
-        this.oThumb = oThumb;
-        this.oThumb.expander = this;
-        this.oThumb.onclick = function() {
-            this.expander.expand();
-			
-        }
-		 
-        this.smallWidth = oThumb.offsetWidth;
-        this.smallHeight = oThumb.offsetHeight;
-        this.bExpand = true;
-        this.bTicks = false;
-        if (!window.aImageExpanders) {
-            window.aImageExpanders = new Array();
-        }
-        window.aImageExpanders.push(this);
-        this.oImg = new Image();
-        this.oImg.expander = this;
-        this.oImg.onload = function() {
-            this.expander.onload();
-        }
-        this.oImg.src = sImgSrc;
-    }
-    ImageExpander.prototype.onload = function() {
-        this.oDiv = document.createElement("div");
-        document.body.appendChild(this.oDiv);
-        this.oDiv.appendChild(this.oImg);
-        this.oDiv.style.position = "absolute";
-        this.oDiv.expander = this;
-        this.oDiv.onclick = function() {
-            this.expander.toggle();
-        };
-        this.oImg.title = "Click to reduce.";
-        this.bigWidth = this.oImg.width;
-        this.bigHeight = this.oImg.height;
-        if (this.bExpand) {
-            this.expand();
-        } else {
-            this.oDiv.style.visibility = "hidden";
-            this.oImg.style.visibility = "hidden";
-        }
-    }
-    ImageExpander.prototype.toggle = function() {
-        this.bExpand = !this.bExpand;
-        if (this.bExpand) {
-            for (var i in window.aImageExpanders)
-                if (window.aImageExpanders[i] !== this)
-                    window.aImageExpanders[i].reduce();
-        }
-    }
-	ImageExpander.prototype.gonah = function()
-	{
-	   location="pages/BscanPage.html"; 
-	   
-	}
-    ImageExpander.prototype.expand = function() {
-        this.bExpand = true;
-        for (var i in window.aImageExpanders)
-            if (window.aImageExpanders[i] !== this)
-                window.aImageExpanders[i].reduce();
-        if (!this.oDiv) return;
-        this.oThumb.style.visibility = "hidden";
-        this.x = this.oThumb.offsetLeft;
-        this.y = this.oThumb.offsetTop;
-        this.w = this.oThumb.clientWidth;
-        this.h = this.oThumb.clientHeight;
-        this.oDiv.style.left = this.x + "px";
-        this.oDiv.style.top = this.y + "px";
-        this.oImg.style.width = this.w + "px";
-        this.oImg.style.height = this.h + "px";
-        this.oDiv.style.visibility = "visible";
-        this.oImg.style.visibility = "visible";
-        if (!this.bTicks) {
-            this.bTicks = true;
-            var pThis = this;
-            window.setTimeout(function() {
-                pThis.tick();
-            }, 4000);
-        }
-    }
-    ImageExpander.prototype.reduce = function() {
-        this.bExpand = false;
 	
-    }
-	  var tx, ty;
-    ImageExpander.prototype.tick = function() {
-        var cw = document.body.clientWidth;
-        var ch = document.body.clientHeight;
-        var cx = document.body.scrollLeft + cw / 2;
-        var cy = document.body.scrollTop + ch / 2;
-		var click=true;
-		var tw, th;
-        if (this.bExpand) {
-            tw = this.bigWidth;
-            th = this.bigHeight;
-             if(( tw >= 1.4 * tx || th >= 1.4 * ty)  ){
-				
-                th *= cw / tw;
-                tw = cw;
-				
-                tw *= ch / th;
-                th = ch;
-
-            }
-            tx = cx - tw / 2;
-            ty = cy - th / 2;
-        } else {
-			this.gonah();
-            tw = this.smallWidth;
-            th = this.smallHeight;
-            tx = this.oThumb.offsetLeft;
-            ty = this.oThumb.offsetTop;
-        }
-        var nHit = 0;
-        var fMove = function(n, tn) {
-            var dn = tn - n;
-            if (Math.abs(dn) < 3) {
-                nHit++;
-                return tn;
-            } else {
-                return n + dn /10 ;
-            }
-        }
-        this.x = fMove(this.x, tx);
-        this.y = fMove(this.y, ty);
-        this.w = fMove(this.w, tw);
-        this.h = fMove(this.h, th);
-        this.oDiv.style.left = this.x + "px";
-        this.oDiv.style.top = this.y + "px";
-        this.oImg.style.width = this.w + "px";
-        this.oImg.style.height = this.h + "px";
-        if (!this.bExpand && (nHit == 4)) {
-            this.oImg.style.visibility = "hidden";
-            this.oDiv.style.visibility = "hidden";
-            this.oThumb.style.visibility = "visible";
-            this.bTicks = false;
-        }
-        if (this.bTicks) {
-            var pThis = this;
-            window.setTimeout(function() {
-                pThis.tick();
-            }, 160);
-        }
-    }
-</script>
+	<script type="text/javascript" src="js/autozoom.js"></script>
 </head>
 <body class = "gradient">
 	<header id="header">
@@ -257,9 +113,11 @@
 			<img src = "images/IALogo.jpg">
 		</div>
 	
-	
-		<img class = "homepagepictures" src="images/dlsg.jpg" onload="new ImageExpander(this, 'images/dlsg.jpg');this.href = 'javascript:void(0);'" onmouseup="this.expander.gonah();">
-		<img class = "homepagepictures" src="images/bscan.jpg" onClick="new ImageExpander(this, 'images/bscan.jpg');this.href = 'javascript:void(0);'" >
+		<img class = "homepagepictures" src="images/dlsg.jpg"
+			onload="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'" >
+
+		<img class = "homepagepictures" src="images/bscan.jpg"
+			onclick="new ImageExpander(this, 'images/bscan.jpg', 'pages/BscanPage.html'); this.href = 'javascript:void(0);'" >
 	  
 		<div class="infoblock">
 				
