@@ -5,6 +5,11 @@
 .scanner-label {
 	margin-left: 175px;
 }
+
+.brochure-block .space{ 
+justify-content: space-between; 
+align-items: center; 
+}
 .brochure-block {
 	display: flex;
 	padding-top: 15px;
