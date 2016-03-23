@@ -111,31 +111,30 @@
         this.bExpand = false;
 	
     }
+	  var tx, ty;
     ImageExpander.prototype.tick = function() {
         var cw = document.body.clientWidth;
         var ch = document.body.clientHeight;
         var cx = document.body.scrollLeft + cw / 2;
         var cy = document.body.scrollTop + ch / 2;
-        var tw, th, tx, ty; var click=true;
+		var click=true;
+		var tw, th;
         if (this.bExpand) {
             tw = this.bigWidth;
             th = this.bigHeight;
-             while(( tw == 1.4 * tx || th == 1.4 * ty)  ){
+             if(( tw >= 1.4 * tx || th >= 1.4 * ty)  ){
+				
                 th *= cw / tw;
                 tw = cw;
 				
                 tw *= ch / th;
                 th = ch;
-				if(tw == tx || th == ty)
-				{
-				console.log("text");
-				}
-			
-				
+
             }
             tx = cx - tw / 2;
             ty = cy - th / 2;
         } else {
+			this.gonah();
             tw = this.smallWidth;
             th = this.smallHeight;
             tx = this.oThumb.offsetLeft;
