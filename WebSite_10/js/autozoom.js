@@ -115,7 +115,7 @@
             tw = this.bigWidth;
             th = this.bigHeight;
 
-            while( ( tw === 1.4 * tx || th === 1.4 * ty) ){ // WHAT ???
+            while( ( tw  === 1.4 * tx || th === 1.4 * ty) ){ // WHAT ???
                 th *= cw / tw;
                 tw = cw;
 				
@@ -123,7 +123,7 @@
                 th = ch;
 
                 // wtf?
-				if(tw == tx || th == ty)
+				if (tw == tx || th == ty)
 				{
 					console.log("Go Nah"); // that's simple
 				}	
