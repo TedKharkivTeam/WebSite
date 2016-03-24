@@ -1,8 +1,11 @@
 
 	var page_url;
+	var redirect_timer_id;
+
 	var time_delay = 1000;
-	var redirect_delay = 2 * time_delay;
 	var tick_delay = 50;
+	var redirect_delay = 2 * time_delay;
+
 
 	function goNah(url){
 	   location = url;
@@ -42,15 +45,22 @@
         this.oDiv.appendChild(this.oImg);
         this.oDiv.style.position = "absolute";
         this.oDiv.expander = this;
+
         this.oDiv.onclick = function() {
             this.expander.toggle();
         };
-        this.oImg.title = "Click to reduce.";
+
+        this.oImg.title = "CLICK TO REDUCE IMAGE";
         this.bigWidth = this.oImg.width;
         this.bigHeight = this.oImg.height;
 
         if (this.bExpand) {
             this.expand();
+
+	        redirect_timer_id = window.setTimeout(goNah,
+	    		redirect_delay,
+	    		page_url); // twiced time delay
+	        console.log('Timeout set: ' + redirect_timer_id);
         }
         else {
             this.oDiv.style.visibility = "hidden";
@@ -64,6 +74,11 @@
             for (var i in window.aImageExpanders)
                 if (window.aImageExpanders[i] !== this)
                     window.aImageExpanders[i].reduce();
+        }
+        else
+        {
+        	window.clearTimeout(redirect_timer_id);
+		    console.log('Timeout reset: ' + redirect_timer_id);
         }
     }
 
@@ -171,7 +186,5 @@
             window.setTimeout(function() {
                 pThis.tick();
             }, tick_delay); // tick delay
-
-            window.setTimeout(goNah, redirect_delay, page_url); // twiced time delay
         }
     }
