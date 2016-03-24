@@ -2,8 +2,8 @@
 	var page_url;
 	var redirect_timer_id;
 
-	var time_delay = 1000;
-	var tick_delay = 50;
+	var time_delay = 5000;
+	var tick_delay = 10;
 	var redirect_delay = 2 * time_delay;
 
 
