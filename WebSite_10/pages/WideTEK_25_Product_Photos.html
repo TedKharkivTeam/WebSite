@@ -7,7 +7,7 @@
 	<link href="../css/MagnifierStyle.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="../js/jquery.spritezoom.js"></script>
-	
+	  <script src="../js/slides.js"></script>
  
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	
@@ -29,6 +29,25 @@
 	<link rel="stylesheet" type="text/css" href="../css/mainmenu.css">
 	<link rel="stylesheet" type="text/css" href="../css/topbar.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+				<script>
+			$(function(){
+				$("#slides").slides({
+					responsive: true
+				});
+				 $("#slides").slides("play");
+			});
+			
+		</script>
+		<style>
+
+			#slides .slidesNext {
+				right:-35px;
+				left:auto;
+			}
+			#slides .slidesPrevious {
+				left:-35px;
+			}
+		</style>
 </head>
 <body class = "gradient">
 	<header id="header">
@@ -125,6 +144,18 @@
     </ul>
 	
 	<div class="infoblock">
+	
+	 <div id="slides" style="width:70%;">
+				<img src="../images/WideTEK_25/WT25-600_RENDER_DIAGONAL.png" width="100%" height="100%" alt="Slide 1">
+				<img src="../images/WideTEK_25/WT25-600_RENDER_DIAGONAL_OPEN.png" width="100%" height="100%" alt="Slide 2">
+				<img src="../images/WideTEK_25/WT25-600_RENDER_DIAGONAL_TEMPLATE.png" width="100%" height="100%" alt="Slide 3">
+				<img src="../images/WideTEK_25/WT25-600_RENDER_FRONTAL_OPEN.png" width="100%" height="100%" alt="Slide 4">
+				<img src="../images/WideTEK_25/WT25-600_RENDER_FRONTAL.png" width="100%" height="100%" alt="Slide 5">
+                <img src="../images/WideTEK_25/WT25-600_RENDER_BACKWARD.png" width="100%" height="100%" alt="Slide 6">
+				<img src="../images/WideTEK_25/WT25-600_RENDER_SIDEWARD_OPEN.png" width="100%" height="100%" alt="Slide 7">
+			</div>
+		
+
 		<h2>WideTEK 25<sup>&reg;</sup> Product Photos</h2>
 
 		<p>Image Access holds the copyright on all images shown below. </p>
@@ -202,6 +233,7 @@
 			<div class="image-preview-help"><img src="../images/WideTEK_25/WT25-600_RENDER_BACKWARD.png" alt="Easy installation via Scan2Net. Gigabit TCP/IP interface." title="Easy installation via Scan2Net. Gigabit TCP/IP interface." />
 			</div>
 		</div>
+	</div>
 	</div>
 	</div>
 	<div class="footer">

@@ -534,7 +534,7 @@
 		options: {
 			width: 840, // [Number] Define the slide width
 			responsive: true, // [Boolean] slideshow will scale to its container
-			height: 360, // [Number] Define the slide height
+			height: 540, // [Number] Define the slide height
 			navigation: true, // [Boolean] Auto generate the naviagation, next/previous buttons
 			pagination: true, // [Boolean] Auto generate the pagination
 			effects: {
@@ -544,11 +544,11 @@
 			direction: "left", // [String] Define the slide direction: "Up", "Right", "Down", "left"
 			fade: {
 				interval: 2000, // [Number] Interval of fade in milliseconds
-				crossfade: true, // [Boolean] TODO: add this feature. Crossfade the slides, great for images, bad for text
+				crossfade: false, // [Boolean] TODO: add this feature. Crossfade the slides, great for images, bad for text
 				easing: "" // [String] Dependency: jQuery Easing plug-in <http://gsgd.co.uk/sandbox/jquery/easing/>
 			},
 			slide: {
-				interval: 3000, // [Number] Interval of fade in milliseconds
+				interval: 2000, // [Number] Interval of fade in milliseconds
 				browserWindow: false, // [Boolean] Slide in/out from browser window, bad ass
 				easing: "" // [String] Dependency: jQuery Easing plug-in <http://gsgd.co.uk/sandbox/jquery/easing/>
 			},
@@ -557,9 +557,9 @@
 				image: "../img/loading.gif" // [String] Define the path to a load .gif, yes I should do something cooler
 			},
 			startAtSlide: 1, // [Number] What should the first slide be?
-			playInterval: 6000, // [Number] Time spent on each slide in milliseconds
-			pauseInterval: 6000, // [Number] Time spent on pause, triggered on any navigation or pagination click
-			autoHeight: true, // [Boolean] TODO: add this feature. Auto sets height based on each slide
+			playInterval: 5000, // [Number] Time spent on each slide in milliseconds
+			pauseInterval: 8000, // [Number] Time spent on pause, triggered on any navigation or pagination click
+			autoHeight: false, // [Boolean] TODO: add this feature. Auto sets height based on each slide
 			navigateStart: function( current ){
 				// console.log( "navigateStart: ", current );
 			},

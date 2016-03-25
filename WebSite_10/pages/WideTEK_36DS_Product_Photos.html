@@ -18,13 +18,32 @@
 	<link rel="stylesheet" type="text/css" href="../css/photostyles.css">
 	<link rel="stylesheet" type="text/css" href="../css/homepagepictures.css">
 	<link rel="stylesheet" href="../css/style.css">	
-
+  <script src="../js/slides.js"></script>
 
 	<link href="../css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" media="all" href="../css/animate.css">
 	<link rel="stylesheet" type="text/css" href="../css/mainmenu.css">
 	<link rel="stylesheet" type="text/css" href="../css/topbar.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<script>
+			$(function(){
+				$("#slides").slides({
+					responsive: true
+				});
+				 $("#slides").slides("play");
+			});
+			
+		</script>
+		<style>
+
+			#slides .slidesNext {
+				right:-35px;
+				left:auto;
+			}
+			#slides .slidesPrevious {
+				left:-35px;
+			}
+		</style>
 </head>
 <body class = "gradient">
 	<header id="header">
@@ -120,12 +139,20 @@
     </ul>
 
 	<div class="infoblock">
+	<div id="slides" style="width:70%;">
+				<img src="../images/WideTEK_36DS/WT36DS-200_01.png" width="100%" height="100%" alt="Slide 1">
+				<img src="../images/WideTEK_36DS/WT36DS-200_02.png" width="100%" height="100%" alt="Slide 2">
+				<img src="../images/WideTEK_36DS/WT36DS-200_Side_stage.png" width="100%" height="100%" alt="Slide 3">
+				
+                
+			
+			</div>
 			<h2>WideTEK<sup>&reg;</sup> 36DS Product Photos</h2>
 
 <p>Image Access holds the copyright on all images shown below.</p>
 
 <h3>Click on the thumbnail to view the image</h3>
-
+  
 <div class="image-preview"><div class="image-preview-help"><img src="../images/WideTEK_36DS/WT36DS-200_01.png" alt="Scans both sides of a newspaper in one pass through the scanner" title="Scans both sides of a newspaper in one pass through the scanner" /></div></div>
 <div class="image-preview"><div class="image-preview-help"><img src="../images/WideTEK_36DS/WT36DS-200_02.png" alt="Large touchscreen for easy operation, configurable interface" title="Large touchscreen for easy operation, configurable interface" /></div></div>
 <div class="image-preview"><div class="image-preview-help"><img src="../images/WideTEK_36DS/WT36DS-200_Side_stage.png" alt="Sturdy floorstand and output basket for high production rates" title="Sturdy floorstand and output basket for high production rates" /></div></div>		

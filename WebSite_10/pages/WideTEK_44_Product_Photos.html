@@ -23,13 +23,32 @@
 	<link rel="stylesheet" type="text/css" href="../css/photostyles.css">
 	<link rel="stylesheet" type="text/css" href="../css/homepagepictures.css">
 	<link rel="stylesheet" href="../css/style.css">	
-
+<script src="../js/slides.js"></script>
 
 	<link href="../css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" media="all" href="../css/animate.css">
 	<link rel="stylesheet" type="text/css" href="../css/mainmenu.css">
 	<link rel="stylesheet" type="text/css" href="../css/topbar.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<script>
+			$(function(){
+				$("#slides").slides({
+					responsive: true
+				});
+				 $("#slides").slides("play");
+			});
+			
+		</script>
+		<style>
+
+			#slides .slidesNext {
+				right:-35px;
+				left:auto;
+			}
+			#slides .slidesPrevious {
+				left:-35px;
+			}
+		</style>
 </head>
 <body class = "gradient">
 <header id="header">
@@ -132,7 +151,14 @@
 <p>Image Access holds the copyright on all images shown below.</p>
 
 <h3>Click on the thumbnail to view the image</h3>
-
+<div id="slides">
+				<img src="../images/WideTEK_44/WT44-600_RENDER_BACKWARD_big.png" width="100%" height="100%" alt="Slide 1">
+				<img src="../images/WideTEK_44/WT44-600_RENDER_DIAGONAL_big.png" width="100%" height="100%" alt="Slide 2">
+				<img src="../images/WideTEK_44/WT44-600_RENDER_DIAGONAL_IPAD_big.png" width="100%" height="100%" alt="Slide 3">
+				<img src="../images/WideTEK_44/WT44-600_RENDER_FRONTAL_big.png" width="100%" height="100%" alt="Slide 4">
+                <img src="../images/WideTEK_44/WT44-600_RENDER_FRONTAL_OPEN_big.png" width="100%" height="100%" alt="Slide 5">
+			    <img src="../images/WideTEK_44/WT44-600_RENDER_FRONTAL_TEMPLATE_IPAD_big.png" width="100%" height="100%" alt="Slide 6">
+			</div>
 <div class="image-preview"><a href="../images/WideTEK_44/WT44-600_RENDER_DIAGONAL_big.png" target="_blank"><div class="ui-icon ui-icon-zoomin" style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div></a><div class="image-preview-help">
 <img src="../images/WideTEK_44/WT44-600_RENDER_DIAGONAL_big.png" alt="64bit Linux based computer, fast and virus protected" title="64bit Linux based computer, fast and virus protected"></div></div><div class="image-preview"><a href="./images/WideTEK_44/WT44-600_RENDER_DIAGONAL_IPAD_big.png" target="_blank"><div class="ui-icon ui-icon-zoomin" style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div></a><div class="image-preview-help">
 <img src="../images/WideTEK_44/WT44-600_RENDER_DIAGONAL_IPAD_big.png" alt=" 1200 x 1200 dpi scanner resolution" title=" 1200 x 1200 dpi scanner resolution"></div></div><div class="image-preview"><a href="./images/WideTEK_44/WT44-600_RENDER_DIAGONAL_TEMPLATE_big.png" target="_blank"><div class="ui-icon ui-icon-zoomin" style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div></a><div class="image-preview-help">
