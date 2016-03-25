@@ -44,8 +44,8 @@ h2{
 	font-size: 18px;
 	margin: 0px;
 	color:rgb(9,60,139);
-	padding:5px 0;
-	height: 23px;
+	padding:5px 0 30px 0;
+	line-height: 1.4;
 }
 
 h3{
