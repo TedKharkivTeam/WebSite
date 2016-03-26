@@ -12,3 +12,9 @@
 .infoblock  img{
 	max-width: 100%;
 }
+.w-table{background: #fff;color: #000;font-weight: normal!important;}
+.b-table{
+	background:#2588D7;
+	color: #fff;
+	font-weight: normal!important; 
+}
