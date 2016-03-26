@@ -140,26 +140,13 @@
     </ul>
 	
 	<div class="infoblock">
-		<div class="video-preview"><a href="#" video="ImageVideo_en" target="_blank" title="">
-		<img src="../images/Company/iac.jpg" /></a></div><div class="video-links"><h3>Factory Tour</h3> English<br/>Time: 08:04Min<br/>
+			<img src="../images/Company/iac.jpg" />
+	</div>
+		<div class="video-links"><h3>Factory Tour</h3> English<br/>Time: 08:04Min<br/>
 		<a id="a_source_mp4" href="http://support.imageaccess.de/downloads/advertisement/Videos/ImageVideo_en">&dArr;MP4</a>&nbsp;
 		<a id="a_source_ogg" href="http://support.imageaccess.de/downloads/advertisement/Videos/ImageVideo_en">&dArr;OGG</a></div>	<script>
-		$.videoPath = 'http://support.imageaccess.de/downloads/advertisement/Videos/';
-		var videoLink = 'ImageVideo_en';
 		
-		var video = $('.stage-video').find('video').get(0);
-		console.log('video');
-		console.log(video);
-   		$('#source_mp4').attr('src', $.videoPath + videoLink +'.mp4');
-		$('#source_ogg').attr('src', $.videoPath + videoLink +'.ogg');
-		$('#source_flv').attr('value','controls=true&amp;src=http%3A%2F%2Fsupport.imageaccess.de%2Fdownloads%2Fadvertisement%2FVideos%2F' + videoLink + '.mp4');			
-		$('track').attr('src', '_Scanners/Videos/'+videoLink+'.vtt');
-		
-		if(typeof video != 'undefined')
-		    video.load();
-	</script>
-				</div>	
-			</div>
+	</div>	
 <div class="footer">
 		</div>
 </body>
