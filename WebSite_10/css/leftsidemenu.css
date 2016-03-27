@@ -1,12 +1,12 @@
 ﻿ .leftsidemenu {
 	padding: 20px;
 	margin-left: 3%;
+	margin-top: 11%;
 	list-style-type: none;
 	width: 25%;
 	z-index: 9;
 	display: block;
 	float: left;
-	padding-top:120px;
 }
 
 /*.leftsidemenu li {
