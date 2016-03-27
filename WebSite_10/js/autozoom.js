@@ -1,11 +1,11 @@
 
 	var page_url;
-	var redirect_timer_id;
+	var timers_count = 0;
+	var redirect_timers_id = new Array();
 
 	var time_delay = 5000;
 	var tick_delay = 10;
 	var redirect_delay = 2 * time_delay;
-
 
 	function goNah(url){
 	   location = url;
@@ -36,6 +36,7 @@
         this.oImg.onload = function() {
             this.expander.onload();
         }
+
         this.oImg.src = sImgSrc;
     }
 
@@ -57,10 +58,10 @@
         if (this.bExpand) {
             this.expand();
 
-	        redirect_timer_id = window.setTimeout(goNah,
+	        redirect_timers_id.push(window.setTimeout(goNah,
 	    		redirect_delay,
-	    		page_url); // twiced time delay
-	        console.log('Timeout set: ' + redirect_timer_id);
+	    		page_url)); // twiced time delay
+	        timers_count++;
         }
         else {
             this.oDiv.style.visibility = "hidden";
@@ -77,8 +78,8 @@
         }
         else
         {
-        	window.clearTimeout(redirect_timer_id);
-		    console.log('Timeout reset: ' + redirect_timer_id);
+        	for (var i = 0; i < timers_count; i++)
+        		window.clearTimeout(redirect_timers_id[i]);
         }
     }
 
@@ -136,12 +137,6 @@
 				
                 tw *= ch / th;
                 th = ch;
-
-                // wtf?
-				if (tw == tx || th == ty)
-				{
-					console.log("Go Nah"); // that's simple
-				}	
             }
 
             tx = cx - tw / 2;
