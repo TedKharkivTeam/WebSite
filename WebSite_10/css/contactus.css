@@ -25,13 +25,7 @@
 }
 .red{
  color: red;
-}
-#container {
-	float: left;
-	margin: 40px;
-	border: 3px solid Navy;
-	width: 400px;
-	border-radius: 10px;
+ padding: 0 10px;
 }
 input, textarea {
 	max-width: 200px;
@@ -45,22 +39,77 @@ input, textarea {
 	-moz-border-radius: 4px;
 	border-radius: 4px;	margin-top: 10px;
 }
-
+.mainform .main{
+	background: #fff;
+	z-index: 5;
+	position: absolute;
+	top:-10px;
+	left:5%;
+}
 .mainform {
+	padding: 20px 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
 	text-align: center;
 	font-weight: bold;
 }
+.mainform fieldset{
+	position: relative;
+	padding: 10px;
+	border: 1px solid #0000F0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+}
 .send {
-	padding-bottom: 10px;
+	border: none;
+	background: #2383D2;
+	color: #fff;
+	padding:10px 14px;
 	font-weight: bold;
+	margin-right: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
 }
+.send:hover{opacity: 0.7;}
 .field {
-	text-align: right;
-	padding-right: 70px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
 }
-.main {
+.field label {
 	font-size: 16px;
-	font-style: italic;
 	padding-top: 10px;
 }
-
+.one-form{display: flex;align-items: center; justify-content: space-between;}
+.one-form div{padding: 0 5px;}
+.tag{font-size: 20px;}
+.tag p{ color:#000; padding: 0 10px!important;}
+.tag span{font-size: 25px;padding-left: 25px;}
+.tag .little{font-size: 12px;}
+.tag a{color:#0000F0;}
+.tag a:hover{text-decoration: underline;}
+.tag .mini-p{font-size: 12px; font-style: italic;}
+.text-area{margin-left: 38px;width: 100%; max-width: 500px;}
+.address span {
+	font-size: 38px;
+	color: #fff;
+}
+.address p 
+	padding: 5px 0 !important;
+	font-size: 34px;
+	color: #fff !important;
+}
+.parkin{position: relative;}
+.adr-top{
+	position: absolute;
+	top: 0;
+	left: 18%;
+} 
+.adr-bottom{
+	position: absolute;
+	bottom: 0;
+	left: 15%;
+}

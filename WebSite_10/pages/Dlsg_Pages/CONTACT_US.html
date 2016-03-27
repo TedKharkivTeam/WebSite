@@ -69,7 +69,7 @@
 				</ul>
 			</li>
 			<li><a href="#">SOFTWARE</a>
-				<ul class="dropdown fadein animated">
+				<ul class="dropdown fadeIn animated">
 					<li><a href="../KIC_Software.html">KIC Software</a></li>
 					<li><a href="../Opus_Software.html">Opus Software</a></li>
 					<li><a href="../BSCAN_ILL_Software.html">BSCAN ILL Software</a></li>
@@ -98,7 +98,7 @@
 				</ul>
 			</li>
 			<li><a href="#">SERVICE</a>
-				<ul class="dropdown fadein animated">
+				<ul class="dropdown fadeIn animated">
 					<li><a href="../Open_a_Service_Ticket.html">Open a Service Ticket</a></li>
 					<li><a href="../Check_Service_Ticket_Status.html">Check Service Ticket Status</a></li>
 					<li><a href="../Worldwide_Service.html">Worldwide Service</a></li>
@@ -130,78 +130,105 @@
 			</ul>
 		</div>
     </header>
-<div class = "content">
+	<div class = "content">
 
 		<div class="logo">
 			<img src="../../images/IALogo.jpg">
 		</div>
-
-	<div id = "support-address">
-		<img src = "../../images/DSLG and IA Logos.jpg">
-		<p id="head">Digital Library Systems Group</p>
-		<p id="address">543 NW 77th Street Boca Raton, FL. USA 33487</p>
-		<p id = "contacts">Telephone: (561) 886-2900 or (800) 378-5432<br>
-			Fax: (561) 431-2766<br>
-			Email: <a href = "mailto:orders@dlsg.net">orders@dlsg.net</a><br>
-		</p>
-		<p id = "contacts">To receive more information, please contact our sales department at 800-378-5432 or fill out the form to the right</p>
-		<p id = "caption">Note: a red asterisk, (<span class = "red">*</span>), denotes a required field.</p>
-		<img src = "../../images/Collage_3_Products.jpg">
-	</div>
-	<div id = "container">
+		<div class="brochure-block centr-align" style="padding-top: 90px;">
+			<div class="brochure-block centr-align">
+				<div class="tag">
+					<p>Call: <span>800.378.5432</span></p>
+					<p>Email: <a href="ContactUs@DLSG.com" title="">ContactUs@DLSG.com</a></p>
+				</div>
+			</div>
+			<div class="brochure-block centr-align">
+				<img src="../../images/Email-green.jpg" alt="">
+				<span class="tag sitalic">Contact Us</span>
+			</div>	
+			<img src="../../images/contactus.png" alt="">
+		</div>
+		<div class="brochure-block centr-align">
+			<img src="../../images/headset_people.jpg" alt="">
+			<div class="tag" style="max-width: 550px">
+				<p class="little">To receive more information, contact us directly at 
+				800.378.5432 or complete the form below and submit.</p>	
+				<p class="mini-p">Note: a red asterisk, (*), denotes a required field.</p>
+			</div>
+			<img src="../../images/service_tech_with_van.png" alt="">
+		</div>	
 		<form class="mainform" >
-			<div class="main"><label for="main">About You</label>
-    		</div>
-			<div class="field"><label for="name">First Name <span class = "red">*</span></label>
-    			<input type="text" name="name" value="" />
-    		</div>
-   			<div class="field"><label for="last" >Last Name <span class = "red">*</span></label>
-    			<input type="text" name="last" value="" />
-			</div>
-			<div class="field"><label for="title" >Title</label>
-    			<input type="text" name="title" value="" />
-			</div>
-			<div class="field"><label for="email" >E-mail <span class = "red">*</span></label>
-    			<input type="text" name="email" value="" />
-			</div>
+			<fieldset class="form-left">
+					<div class="main"><label for="main">About You</label>
+		    		</div>
 
-			<div class="main"><label for="main">About Your company</label>
-    		</div>
-			<div class="field"><label for="company">Company</label>
-    			<input type="text" name="company" value="" />
-    		</div>
-   			<div class="field"><label for="telephone" >Telephone <span class = "red">*</span></label>
-    			<input type="text" name="telephone" value="" />
-			</div>
-			<div class="field"><label for="fax" >Fax</label>
-    			<input type="text" name="fax" value="" />
-			</div>
-			<div class="field"><label for="address" >Address</label>
-    			<input type="text" name="address" value="" />
-			</div>
-			<div class="field"><label for="city" >City</label>
-    			<input type="text" name="city" value="" />
-			</div>
-			<div class="field"><label for="state" >State</label>
-    			<input type="text" name="state" value="" />
-			</div>
-			<div class="field"><label for="email" >ZIP</label>
-    			<input type="text" name="email" value="" />
-			</div>
-			<div class="field"><label for="email" >Website</label>
-    			<input type="text" name="email" value="" />
-			</div>
-			<div class="main"><label for="main">Leave a comment:</label>
-    		</div>
-			<div class="field">
-    			<textarea rows = "10" cols = "40"></textarea>
-			</div>
-   			<div class="send" >
-    			<input type="submit" value="Submit"  />
-			</div>
+					<div class="field"><label for="name">First Name <span class = "red">*</span></label>
+		    			<input type="text" name="name" value="" required/>
+		    		</div>
+		   			<div class="field"><label for="last" >Last Name <span class = "red">*</span></label>
+		    			<input type="text" name="last" value=""  required/>
+					</div>
+					<div class="field"><label for="title" >Title</label>
+		    			<input type="text" name="title" value=""/>
+					</div>
+					<div class="field"><label for="email" >E-mail <span class = "red">*</span></label>
+		    			<input type="text" name="email" value="" required/>
+					</div>
+			</fieldset >
+			<fieldset class="form-right">
+					<div class="main"><label for="main">About Your company</label>
+		    		</div>
+		    		<div class="one-form">
+		    			<div>
+							<div class="field"><label for="company">Company</label>
+				    			<input type="text" name="company" value="" />
+				    		</div>
+				   			<div class="field"><label for="telephone" >Telephone #<span class = "red">*</span></label>
+				    			<input type="text" name="telephone" value="" required/>
+							</div>
+							<div class="field"><label for="fax" >Fax #</label>
+				    			<input type="text" name="fax" value="" />
+							</div>
+							<div class="field"><label for="address" >Address</label>
+				    			<input type="text" name="address" value="" />
+							</div>
+						</div>
+						<div>	
+							<div class="field"><label for="city" >City</label>
+				    			<input type="text" name="city" value="" />
+							</div>
+							<div class="field"><label for="state" >State</label>
+				    			<input type="text" name="state" value="" />
+							</div>
+							<div class="field"><label for="email" >ZIP</label>
+				    			<input type="text" name="email" value="" />
+							</div>
+							<div class="field"><label for="email" >Website</label>
+				    			<input type="text" name="email" value="" />
+							</div>
+						</div>	
+					</div>
+		    		<div class="one-form">	
+						<div class="field" >
+							<label for="text" >Comments:</label>
+			    			<textarea rows = "5" cols = "50" id="main" class="text-area"></textarea>
+						</div>
+			   			<button type="submit" class="send">SUBMIT</button>
+					</div>	
+			</fieldset>	
 		</form>
+		<div class="brochure-block to-down address">
+			<img class="img-holder parkin" src="../../images/parking_lot.jpg" alt="">
+			<div class="adr-top">
+				<span >DLSG is a division of Image Access, Inc.</span>
+				<p>543 NW 77th Street, Boca Raton, FL 33487 </p>
+			</div>
+			<span class="adr-bottom"> Image Access, Inc. </span>
+		</div>
+		<div class="brochure-block to-down" style="padding-top: 5px;">
+			<img class="img-holder" src="../../images/contact-lower.jpg" alt="">
+		</div>
 	</div>
-</div>
 		<div class="footer">
 		</div>		
 </body>
