@@ -156,3 +156,8 @@ td, th{
 .slidesPagination li.slidesCurrent a {
 	background-position:0 -14px;
 }
+
+.viewer {
+	width: 50%;
+	height: 600px;
+}
