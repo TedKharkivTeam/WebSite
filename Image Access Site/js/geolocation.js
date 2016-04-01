@@ -1,44 +1,49 @@
 
 // **********************************************************************************
 
-// var test = "suchka.edu"; // testing purposes
-
-var referrer = document.referrer;
-var regexp = /.edu/ig;
-
-var index = referrer.search(regexp);
-
 // include autozoom.js
-/*
-function include(url) {
-    var script = document.createElement('script');
-    script.src = url;
-    document.getElementsByTagName('head')[0].appendChild(script);
+// function include(url) {
+//     var script = document.createElement('script');
+//     script.src = url;
+//     document.getElementsByTagName('head')[0].appendChild(script);
+// }
+
+// include("js/autozoom.js");
+
+function glFromEdu(){
+	var regexp = /.edu/ig;
+	var referrer = document.referrer;
+
+	if (referrer.search(regexp) != -1)
+		return true;
+	else
+		return false;
 }
 
-include("js/autozoom.js");
-*/
+function glAnimate(){
+	var image;
+	var imageRoot;
+	var pageRoot;
 
-// last step - redirection
-var imageRoot;
-var pageRoot;
+	if (glFromEdu() == false)
+	{
+		image = document.getElementById("bscanImage");
+		imageRoot = 'images/bscan.jpg';
+		pageRoot = 'pages/BscanPage.html';
+	}
+	else
+	{
+		image = document.getElementById("dlsgImage");
+		imageRoot = 'images/dlsg.jpg';
+		pageRoot = 'pages/DlsgPage.html';
+	}
 
-if (index != -1)
-{
-	imageRoot = 'images/bscan.jpg';
-	pageRoot = 'pages/BscanPage.html';
+	var ie = new ImageExpander(image, imageRoot, pageRoot);
+	//this.href = 'javascript:void(0);';
+
+	console.log(index);
+	console.log(imageRoot);
+	console.log(pageRoot);
 }
-else
-{
-	imageRoot = 'images/dlsg.jpg';
-	pageRoot = 'pages/DlsgPage.html';
-}
-
-var ie = new ImageExpander(this, imageRoot, pageRoot);
-this.href = 'javascript:void(0);';
-
-console.log(index);
-console.log(imageRoot);
-console.log(pageRoot);
 
 // **********************************************************************************

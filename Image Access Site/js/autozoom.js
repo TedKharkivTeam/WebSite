@@ -1,11 +1,10 @@
 
 	var page_url;
-	var timers_count = 0;
-	var redirect_timers_id = new Array();
+	var redirect_timer_id;
 
 	var time_delay = 2000;
 	var tick_delay = 10;
-	var redirect_delay =4  * time_delay;
+	var redirect_delay = 2 * time_delay;
 
 	function goNah(url){
 	   location = url;
@@ -58,10 +57,9 @@
         if (this.bExpand) {
             this.expand();
 
-	        redirect_timers_id.push(window.setTimeout(goNah,
+	        redirect_timer_id = window.setTimeout(goNah,
 	    		redirect_delay,
-	    		page_url)); // twiced time delay
-	        timers_count++;
+	    		page_url); // twiced time delay
         }
         else {
             this.oDiv.style.visibility = "hidden";
@@ -78,8 +76,7 @@
         }
         else
         {
-        	for (var i = 0; i < timers_count; i++)
-        		window.clearTimeout(redirect_timers_id[i]);
+        	window.clearTimeout(redirect_timer_id);
         }
     }
 
@@ -186,18 +183,4 @@
             }, tick_delay); // tick delay
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
