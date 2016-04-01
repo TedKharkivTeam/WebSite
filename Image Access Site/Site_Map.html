@@ -8,6 +8,10 @@
 	
 	<link href="css/MagnifierStyle.css" rel="stylesheet" type="text/css" />
   	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	
 	<title>Home page</title>
 	
@@ -21,18 +25,18 @@
 	<link rel="stylesheet" type="text/css" href="css/photostyles.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/homepagepictures.css">
-	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/map.css">		
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" media="all" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/mainmenu.css">
 	<link rel="stylesheet" type="text/css" href="css/topbar.css">
-	
 	<script type="text/javascript" src="js/autozoom.js"></script>
 </head>
 <body class = "gradient">
 	<header id="header">
 		<ul class="mainmenu">
-			<li><a href="#">SOLUTIONS</a>
+			<li><a href="#">SOLUTIONS <i class="fa fa-caret-down"></i></a>
 				<ul class="dropdown fadeIn animated" >
 					<li><a href="pages/Dlsg_Pages/KIC_Bookeye_4.html">KIC Bookeye 4 V3, V2, V1</a></li>
 					<li><a href="pages/Dlsg_Pages/KIC_Click_and_KIC_Click_Mini.html">KIC Click and KIC Click Mini</a></li>
@@ -42,7 +46,7 @@
 					<li><a href="pages/Dlsg_Pages/KIC_Fleet_Manager.html">KIC Fleet Manager</a></li>
 				</ul>
 			</li>
-			<li><a href="#">SOFTWARE</a>
+			<li><a href="#">SOFTWARE <i class="fa fa-caret-down"></i></a>
 				<ul class="dropdown fadeIn animated">
 					<li><a href="pages/KIC_Software.html">KIC Software</a></li>
 					<li><a href="pages/Opus_Software.html">Opus Software</a></li>
@@ -50,7 +54,7 @@
 					<li><a href="pages/Digital_Library_Operating_System.html">Digital Library Operating System</a></li>
 				</ul>
 			</li>
-			<li><a href="#">SCANNERS</a>
+			<li><a href="#">SCANNERS <i class="fa fa-caret-down"></i></a>
 				<ul class="dropdown fadeIn animated">
 					<li><a href="pages/WideTEK_12.html">WideTEK 12</a></li>
 					<li><a href="pages/WideTEK_25.html">WideTEK 25</a></li>
@@ -71,7 +75,7 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="#">SERVICE</a>
+			<li><a href="#">SERVICE <i class="fa fa-caret-down"></i></a>
 				<ul class="dropdown fadeIn animated">
 					<li><a href="pages/Open_a_Service_Ticket.html">Open a Service Ticket</a></li>
 					<li><a href="pages/Check_Service_Ticket_Status.html">Check Service Ticket Status</a></li>
@@ -84,7 +88,7 @@
 					<li><a href="pages/The_Service_Team.html">The Service Team</a></li>
 				</ul>
 			</li>
-			<li><a href="#">EXPERTISE</a>
+			<li><a href="#">EXPERTISE <i class="fa fa-caret-down"></i></a>
 				<ul class="dropdown fadeIn animated">
 					<li><a href="pages/WP_Wide_Format_Guide.html">White Papers</a></li>
 					<li><a href="pages/File_Size_Calculator.html">Tools</a></li>
@@ -98,31 +102,18 @@
 		<div class="sub-bottom">
 			<ul class = "topbar">
 				<li><a href="index.html">Home</a></li>
-				<li><a class="fl-right" href="Site_Map.html">Site Map</a> 
-					<a class="fl-right" href="#">Login</a></li>
+				<li><a class="fl-right" href="site_map.html">Site Map</a> <a class="fl-right" href="#">Login</a></li>
+				
 			</ul>
 		</div>
 	</header>	
 	<div class = "content">
-	
-		<div id="container">
-			
-		</div>
-	
 		<div class = "logo">
 			<img src = "images/IALogo.jpg">
 		</div>
-	
-		<img class = "homepagepictures" src="images/dlsg.jpg"
-			onload="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'"
-			onclick="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'">
-
-		<img class = "homepagepictures" src="images/bscan.jpg"
-			onclick="new ImageExpander(this, 'images/bscan.jpg', 'pages/BscanPage.html'); this.href = 'javascript:void(0);'"></a>
-	  
-		<div class="infoblock">
-				
-		</div>	
+		<div class="map">
+			<embed class="map2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7146.17876534359!2d-80.093812!3d26.420592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xeecd3fafa5834860!2sImage+Access+Inc!5e0!3m2!1sru!2sus!4v1459240754320" frameborder="0" style="border:0" allowfullscreen></embed>
+		</div>
 	</div>
 
 	<div class = "footer">
