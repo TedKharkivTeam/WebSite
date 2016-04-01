@@ -112,6 +112,8 @@
             }, time_delay); // time delay
         }
     }
+  
+  
 
 
     ImageExpander.prototype.reduce = function() {
@@ -184,3 +186,18 @@
             }, tick_delay); // tick delay
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

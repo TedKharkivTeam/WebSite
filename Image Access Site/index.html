@@ -28,7 +28,7 @@
 	<link rel="stylesheet" type="text/css" href="css/topbar.css">
 	
 	<script type="text/javascript" src="js/autozoom.js"></script>
-	<!--<script type="text/javascript" src="js/geolocation.js"></script>-->
+	<script type="text/javascript" src="js/autozoom.js"></script>
 </head>
 <body class = "gradient">
 	<header id="header">
@@ -69,7 +69,7 @@
 						<ul class="drop fadeIn  animated">
 							<li><a href="pages/Factory_Tour.html">Factory Tour</a></li>
 						</ul>
-					<li/>
+					</li>
 				</ul>
 			</li>
 			<li><a href="#">SERVICE</a>
@@ -99,8 +99,8 @@
 		<div class="sub-bottom">
 			<ul class = "topbar">
 				<li><a href="index.html">Home</a></li>
-				<li><a class="fl-right" href="#">Site Map</a> <a class="fl-right" href="#">Login</a></li>
-				
+				<li><a class="fl-right" href="Site_Map.html">Site Map</a> 
+					<a class="fl-right" href="#">Login</a></li>
 			</ul>
 		</div>
 	</header>	
@@ -115,6 +115,7 @@
 		</div>
 	
 		<img class = "homepagepictures" src="images/dlsg.jpg"
+			onload="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);' "
 			onclick="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'">
 
 		<img class = "homepagepictures" src="images/bscan.jpg"
