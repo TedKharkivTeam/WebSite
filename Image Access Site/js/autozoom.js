@@ -3,9 +3,9 @@
 	var timers_count = 0;
 	var redirect_timers_id = new Array();
 
-	var time_delay = 5000;
+	var time_delay = 2000;
 	var tick_delay = 10;
-	var redirect_delay = 2 * time_delay;
+	var redirect_delay =4  * time_delay;
 
 	function goNah(url){
 	   location = url;
@@ -113,6 +113,7 @@
         }
     }
 
+
     ImageExpander.prototype.reduce = function() {
         this.bExpand = false;
     }
@@ -139,7 +140,7 @@
                 th = ch;
             }
 
-            tx = cx - tw / 2;
+            tx = cx - tw / 2 ;
             ty = cy - th / 2;
         }
         else {
@@ -168,7 +169,7 @@
         this.oDiv.style.top = this.y + "px";
         this.oImg.style.width = this.w + "px";
         this.oImg.style.height = this.h + "px";
-
+        
         if (!this.bExpand && (nHit == 4)) {
             this.oImg.style.visibility = "hidden";
             this.oDiv.style.visibility = "hidden";
