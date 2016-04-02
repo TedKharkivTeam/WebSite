@@ -30,6 +30,9 @@ align-items: center;
 .centr{
 	justify-content: center;
 }
+.flex--start{
+	justify-content: flex-start;
+}
 .centr-align{
 	align-items: center;
 	justify-content: space-between;
@@ -158,7 +161,7 @@ max-width: 200px;}
 }
 .brochure-block {
 	display: flex;
-	padding-top: 15px; 
+	padding-top: 15px!important; 
 	margin: 0;
 	padding: 0px;
 	position: relative;
@@ -180,11 +183,7 @@ max-width: 200px;}
 }
 .brochure-block h2 {
 	text-align: center;
-	font-style: italic;
 	color: #000;
-}
-.brochure-block img {
-	padding-left: 5px;
 }
 .ous-text p{
 	   font-weight: inherit;
@@ -380,7 +379,7 @@ div.dn_arrow {
 	background: -webkit-linear-gradient(top,  #9d9d9d 0%,#969696 3%,#959595 7%,#5a5a5a 63%,#434343 90%,#393939 97%,#6e6d6d 100%);
 	background: linear-gradient(to bottom,  #9d9d9d 0%,#969696 3%,#959595 7%,#5a5a5a 63%,#434343 90%,#393939 97%,#6e6d6d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9d9d', endColorstr='#6e6d6d',GradientType=0 );
-	padding: 2px 9.6% 3px 2%;
+	padding: 2px 2% 3px 2%;
 	position: relative;
 }
 .text-grey:after{
@@ -389,17 +388,22 @@ div.dn_arrow {
 	 right: 0;
     left: 100%;
     top: 0px;
-    	background: url('../images/spryte2.png') no-repeat 0 0;
+    	background: url('../images/spryte2.png') no-repeat -1px 0;
 	width: 32px;
     height: 32px;
 }
 .imgbook{
-	width: 200px;
+	width: 190px;
+    padding: 0 !important;
+    height: 100%;
 }
 .bbc{
 	align-items: center;
 }
-
+.bb--end{
+	align-items: flex-end;
+	margin-top: 10px;
+}
 .tabs_book{
 	    width: 100%;
     max-width: 700px;
@@ -426,9 +430,40 @@ div.dn_arrow {
 }
 .tabs--tabset p{
 	font-size: 12px;
-	max-width: 130px;
+    max-width: 130px;
+    text-align: center;
+    margin: 0 auto;
 }
 .h2--name{
-	font-size: 53px;
+	font-size: 50px;
 	font-weight: bold;
+}
+.brochure-block .frame--p{
+	font-size: 12px;
+	text-align: center;
+	margin: 0!important;
+	padding: 0!important;
+	font-weight: bold;
+}
+.text--red{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	color: #d83020;
+	font-weight: bold;
+	line-height: 0.9;
+}
+.fs--text--red{
+	font-size: 28px;
+}
+.bb--border{
+	padding-bottom: 20px;
+	border:1px solid #707070;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.h4--border{
+	background:#fff;
+	margin-top: -40px;
 }
