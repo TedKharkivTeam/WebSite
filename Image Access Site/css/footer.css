@@ -1,25 +1,21 @@
 .footer {
 	background: linear-gradient(to top, rgb(2,48,126), rgb(36,135,214));
 	width: 80%;
-	height: 150px;
-	margin: 0 auto;
+    margin: 0 auto;
+    height: 232px;
+	padding: 0;
 	border-radius:0 0 20px 20px;
 	padding: 0;
-    display: inline-block;
-}
-
-/* taken from imageaccess.de */
-/*.footer {
-    background-color: rgb(9,60,139);
-    margin: 0 0px 13px 0px;
-    width: 1200px;
-    height: 232px;
-    padding: 0;
-    display: inline-block;
+	display: block;
     -moz-border-radius: 0 0 40px 40px;
     -webkit-border-radius: 0 0 40px 40px;
     border-radius: 0 0 40px 40px;
-}*/
+}
+
+/* taken from imageaccess.de */
+.footer1 {
+    background-color: rgb(9,60,139);
+}
 
 .gradient4bar {
     background: #047bcb url(/Image/gradient4bar.png) repeat-x;
@@ -34,14 +30,40 @@
 
 .bottom-bar {
     font-size: 12px;
+	margin: 0 auto;
     margin-top: -5px;
-    position: relative;
-    width: 1200px;
+    width: 80%;
     height: 45px;
     padding: 0px;
     border: 0;
     display: block;
     color: rgb(255,255,255);
+}
+
+.footer .first {
+    width: 179px;
+    border-left: 0px;
+    padding: 16px 10px;
+    float: left;
+    display: block;
+    height: 200px;
+}
+.footer .col {
+    font-size: 12px;
+    width: 179px;
+    border-left: 1px solid #047bcb;
+    padding: 16px 10px;
+    display: block;
+    height: 200px;
+}
+
+.col {
+    width: 180px;
+    height: 19px;
+    padding: 13px 10px;
+    margin: 0;
+    float: left;
+    display: table-cell;
 }
 
 /* end of the story */

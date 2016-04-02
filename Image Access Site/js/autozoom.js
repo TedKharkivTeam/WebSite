@@ -48,11 +48,6 @@
 
         this.oDiv.onclick = function() {
             this.expander.toggle();
-            
-            window.clearTimeout(redirect_timer_id);
-            redirect_timer_id = window.setTimeout(goNah,
-	    		redirect_delay,
-	    		page_url); // twiced time delay
         };
 
         this.oImg.title = "CLICK TO REDUCE IMAGE";
@@ -61,10 +56,6 @@
 
         if (this.bExpand) {
             this.expand();
-
-	        redirect_timer_id = window.setTimeout(goNah,
-	    		redirect_delay,
-	    		page_url); // twiced time delay
         }
         else {
             this.oDiv.style.visibility = "hidden";
@@ -76,17 +67,33 @@
         this.bExpand = !this.bExpand;
         if (this.bExpand) {
             for (var i in window.aImageExpanders)
+            {
                 if (window.aImageExpanders[i] !== this)
                     window.aImageExpanders[i].reduce();
+            }
+
+            redirect_timer_id = window.setTimeout(goNah,
+	    		redirect_delay,
+	    		page_url); // twiced time delay
+
+            console.log("Timer started: " + redirect_timer_id);
         }
         else
         {
         	window.clearTimeout(redirect_timer_id);
+
+        	console.log("Timer cleared: " + redirect_timer_id);
         }
     }
 
     ImageExpander.prototype.expand = function() {
         this.bExpand = true;
+
+        redirect_timer_id = window.setTimeout(goNah,
+	    		redirect_delay,
+	    		page_url); // twiced time delay
+
+        console.log("Timer started: " + redirect_timer_id);
 
         for (var i in window.aImageExpanders)
             if (window.aImageExpanders[i] !== this)
