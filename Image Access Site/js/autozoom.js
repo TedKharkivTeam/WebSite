@@ -3,8 +3,8 @@
 	var redirect_timer_id;
 
 	var time_delay = 2000;
-	var tick_delay = 10;
-	var redirect_delay = 2 * time_delay;
+	var tick_delay = 1;
+	var redirect_delay = time_delay + 500;
 
 	function goNah(url){
 	   location = url;
@@ -48,6 +48,11 @@
 
         this.oDiv.onclick = function() {
             this.expander.toggle();
+            
+            window.clearTimeout(redirect_timer_id);
+            redirect_timer_id = window.setTimeout(goNah,
+	    		redirect_delay,
+	    		page_url); // twiced time delay
         };
 
         this.oImg.title = "CLICK TO REDUCE IMAGE";
@@ -110,9 +115,6 @@
         }
     }
   
-  
-
-
     ImageExpander.prototype.reduce = function() {
         this.bExpand = false;
     }
@@ -183,4 +185,3 @@
             }, tick_delay); // tick delay
         }
     }
-
