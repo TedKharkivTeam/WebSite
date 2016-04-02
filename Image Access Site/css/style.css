@@ -32,7 +32,7 @@ body {
 	font: 14px/1.5 Helvetica, Arial, sans-serif;
 	letter-spacing:1px;
 	color:#434343;
-	background:#efefef url(../img/background.png) repeat top center;
+	background:#efefef url(../resources/background.png) repeat top center;
 	padding:20px 0;
 	position:relative;
 	text-shadow:0 1px 0 rgba(255,255,255,.8);
@@ -120,12 +120,12 @@ td, th{
 	display:block;
 	z-index:101;
 	overflow:hidden;
-	background:url(../img/navigation-previous.png) no-repeat 0 0;
+	background:url(../resources/navigation-previous.png) no-repeat 0 0;
 }
 
 #slides .slidesNext {
 	left:798px;
-	background:url(../img/navigation-next.png) no-repeat 0 0;
+	background:url(../resources/navigation-next.png) no-repeat 0 0;
 }
 
 /*
@@ -148,7 +148,7 @@ td, th{
 	width:14px;
 	height:0;
 	padding-top:14px;
-	background-image:url(../img/pagination.png);
+	background-image:url(../resources/pagination.png);
 	background-position:0 0;
 	overflow:hidden;
 }
