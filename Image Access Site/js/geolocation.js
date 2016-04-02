@@ -39,9 +39,8 @@ function glAnimate(){
 	}
 
 	var ie = new ImageExpander(image, imageRoot, pageRoot);
-	//this.href = 'javascript:void(0);';
+	this.href = 'javascript:void(0);';
 
-	console.log(index);
 	console.log(imageRoot);
 	console.log(pageRoot);
 }

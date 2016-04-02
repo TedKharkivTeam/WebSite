@@ -4,4 +4,44 @@
 	height: 150px;
 	margin: 0 auto;
 	border-radius:0 0 20px 20px;
+	padding: 0;
+    display: inline-block;
 }
+
+/* taken from imageaccess.de */
+/*.footer {
+    background-color: rgb(9,60,139);
+    margin: 0 0px 13px 0px;
+    width: 1200px;
+    height: 232px;
+    padding: 0;
+    display: inline-block;
+    -moz-border-radius: 0 0 40px 40px;
+    -webkit-border-radius: 0 0 40px 40px;
+    border-radius: 0 0 40px 40px;
+}*/
+
+.gradient4bar {
+    background: #047bcb url(/Image/gradient4bar.png) repeat-x;
+    background: linear-gradient(to bottom, #047bcb 0%, #2989d8 49%,#207cca 50%,#002e7a 100%);
+    background: -moz-linear-gradient(top, #047bcb 0%, #2989d8 49%, #207cca 50%, #002e7a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#047bcb), color-stop(0.49,#2989d8), color-stop(0.50,#207cca), to(#002e7a));
+    background: -webkit-linear-gradient(top, #047bcb, #2989d8 0.48, #207cca 0.52, #002e7a);
+    background: -o-linear-gradient(top, #047bcb 0%, #2989d8 49%, #207cca 50%,#002e7a 100%);
+    background: -ms-linear-gradient(top, #047bcb 0%, #2989d8 49%,#207cca 50%,#002e7a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#047bcb, endColorstr=#002e7a,GradientType=0 );
+}
+
+.bottom-bar {
+    font-size: 12px;
+    margin-top: -5px;
+    position: relative;
+    width: 1200px;
+    height: 45px;
+    padding: 0px;
+    border: 0;
+    display: block;
+    color: rgb(255,255,255);
+}
+
+/* end of the story */
