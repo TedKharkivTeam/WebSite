@@ -554,7 +554,7 @@
 			},
 			preload: {
 				active: false, // [Boolean] Preload the slides before showing them, this needs some work
-				image: "../img/loading.gif" // [String] Define the path to a load .gif, yes I should do something cooler
+				image: "../resources/loading.gif" // [String] Define the path to a load .gif, yes I should do something cooler
 			},
 			startAtSlide: 1, // [Number] What should the first slide be?
 			playInterval: 5000, // [Number] Time spent on each slide in milliseconds
