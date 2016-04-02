@@ -49,8 +49,8 @@ input, textarea {
 .mainform {
 	padding: 20px 0px;
 	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
+	justify-content: flex-start;
+    align-items: stretch;
 	text-align: center;
 	font-weight: bold;
 }
@@ -97,16 +97,20 @@ input, textarea {
 	font-size: 38px;
 	color: #fff;
 }
-.address p 
-	padding: 5px 0 !important;
+.address p {
+	padding:0 !important;
 	font-size: 34px;
 	color: #fff !important;
+	text-shadow: none !important;
 }
-.parkin{position: relative;}
+.parkin{
+	position: relative;
+	padding: 0!important;
+}
 .adr-top{
 	position: absolute;
-	top: 0;
-	left: 18%;
+	top: 50px;
+    left: 28%;
 } 
 .adr-bottom{
 	position: absolute;
