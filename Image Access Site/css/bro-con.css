@@ -13,14 +13,12 @@ align-items: center;
 .brochure-block {
 	display: flex;
 	padding-top: 15px;
-	margin: 10px 0;
-	padding: 0px;
+	margin: 0;
 	position: relative;
 }
 .cc{
 	justify-content: center;
 	align-items: center;
-	padding: 20px 0 !important;
 }
 .to-down {
 	flex-direction:column;
@@ -36,6 +34,7 @@ align-items: center;
 .centr-align{
 	align-items: center;
 	justify-content: space-between;
+	padding: 0;
 }
 .centr-align3{
 	align-items: flex-start;
@@ -158,13 +157,6 @@ max-width: 200px;}
 }
 .scanner-label {
 	margin-left: 175px;
-}
-.brochure-block {
-	display: flex;
-	padding-top: 15px!important; 
-	margin: 0;
-	padding: 0px;
-	position: relative;
 }
 .to-down {
 	flex-direction:column;
@@ -466,4 +458,9 @@ div.dn_arrow {
 .h4--border{
 	background:#fff;
 	margin-top: -40px;
+}
+.world{
+	background: url(../images/world.png) no-repeat;
+    padding: 30px;
+    background-size: cover;
 }

@@ -1,24 +1,19 @@
-.footer {
-	background: linear-gradient(to top, rgb(2,48,126), rgb(36,135,214));
+#footer {
 	width: 80%;
     margin: 0 auto;
-    height: 232px;
 	padding: 0;
-	border-radius:0 0 20px 20px;
-	padding: 0;
-	display: block;
-    -moz-border-radius: 0 0 40px 40px;
-    -webkit-border-radius: 0 0 40px 40px;
-    border-radius: 0 0 40px 40px;
+    text-shadow: none;
 }
+.bottom-bar {
+    font-size: 12px;
+	margin: 0;
+    padding:12px 10px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255,255,255);
 
-/* taken from imageaccess.de */
-.footer1 {
-    background-color: rgb(9,60,139);
-}
-
-.gradient4bar {
-    background: #047bcb url(/Image/gradient4bar.png) repeat-x;
     background: linear-gradient(to bottom, #047bcb 0%, #2989d8 49%,#207cca 50%,#002e7a 100%);
     background: -moz-linear-gradient(top, #047bcb 0%, #2989d8 49%, #207cca 50%, #002e7a 100%);
     background: -webkit-gradient(linear, left top, left bottom, from(#047bcb), color-stop(0.49,#2989d8), color-stop(0.50,#207cca), to(#002e7a));
@@ -27,43 +22,50 @@
     background: -ms-linear-gradient(top, #047bcb 0%, #2989d8 49%,#207cca 50%,#002e7a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#047bcb, endColorstr=#002e7a,GradientType=0 );
 }
-
-.bottom-bar {
+#footer a{color: #fff;transition: 1.5s;}
+#footer a:hover{
+    color: #779E9F;
+    opacity: 0.8;
+}
+.footer--bottom{
+    overflow: hidden;
+    background:#093C8B;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+    align-items: flex-start;
+    padding-bottom: 40px;
+      border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+}
+#footer ul{
+    list-style: none;
+    text-align: left;
+    position: relative;
+}
+#footer ul:after{
+    position: absolute;
+    content: '';
+    border-right: 1px solid #047BCB;
+    top: -6px;
+    bottom: -200px;
+    right: -50px;
+}
+#footer a{
     font-size: 12px;
-	margin: 0 auto;
-    margin-top: -5px;
-    width: 80%;
-    height: 45px;
-    padding: 0px;
-    border: 0;
-    display: block;
-    color: rgb(255,255,255);
 }
-
-.footer .first {
-    width: 179px;
-    border-left: 0px;
-    padding: 16px 10px;
-    float: left;
-    display: block;
-    height: 200px;
+.footer--bottom ul li  span{
+    color:#779E9F;
+    font-size: 16px; 
+    line-height: 2.5;
+    font-weight: bold;
 }
-.footer .col {
-    font-size: 12px;
-    width: 179px;
-    border-left: 1px solid #047bcb;
-    padding: 16px 10px;
-    display: block;
-    height: 200px;
+.a--small{
+    padding-left: 7px;
 }
-
-.col {
-    width: 180px;
-    height: 19px;
-    padding: 13px 10px;
-    margin: 0;
-    float: left;
-    display: table-cell;
+.footer--bottom img{
+        padding-right: 5%;
+    margin-top: 50px;
+    width: 80px;
 }
-
-/* end of the story */
