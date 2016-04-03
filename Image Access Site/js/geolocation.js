@@ -11,7 +11,7 @@
 // include("js/autozoom.js");
 
 function glFromEdu(){
-	var regexp = /.edu/ig;
+	var regexp = / \.edu|imageaccess\.com /ig;
 	var referrer = document.referrer;
 
 	if (referrer.search(regexp) != -1)
