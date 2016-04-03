@@ -43,6 +43,7 @@
     list-style: none;
     text-align: left;
     position: relative;
+    padding-right: 10px;
 }
 #footer ul:after{
     position: absolute;
@@ -50,7 +51,7 @@
     border-right: 1px solid #047BCB;
     top: -6px;
     bottom: -200px;
-    right: -50px;
+    right: 0;
 }
 #footer a{
     font-size: 12px;
