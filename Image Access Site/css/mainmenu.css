@@ -1,4 +1,3 @@
-
 .dropdown{
     display: none;
     position: absolute;
@@ -43,8 +42,8 @@
 .mainmenu {
 	position: relative;
 	display: flex;
-	width: 80%;
-	list-style-type: none;	
+	width: 70%;
+	list-style-type: none;
 	margin: 0 auto;
 	background-color:rgb(38, 46, 57);
 	justify-content: space-between;
@@ -65,9 +64,8 @@
 .mainmenu ul li {
 	width: 100%;
 	 }
-.mainmenu li a:hover { 
-	opacity: 0.6;
+.mainmenu li a:hover {
 	margin: 0;
-	color: #207ECD;
+	color: #047BCB;
 }
 
