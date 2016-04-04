@@ -1,71 +1,75 @@
-.dropdown{
+.dropdown {
     display: none;
     position: absolute;
-	padding: 0;
-	z-index: 5;
-	list-style-type: none;
-	width: 240px;
-	z-index: 1000;
-	margin-left: -15px;
+    z-index: 2;
+    width: 240px;
+    margin-left: -15px;
 }
-.dropdown i{float: right;}
-.dropdown li{
-	position: relative;
-	background-color:rgb(38, 46, 57);
-	-moz-transition: all 1s linear;
+
+.dropdown li {
+    position: relative;
+    background-color: rgb(38, 46, 57);
+    -moz-transition: all 1s linear;
     -o-transition: all 1s linear;
     -webkit-transition: all 1s linear;
 }
-.drop{
-	z-index: 20;
-	position: absolute;
-	display: none;
-	font-size: 14px;
-	top: 0;
+
+.drop {
+    z-index: 20;
+    position: absolute;
+    display: none;
+    font-size: 14px;
+    top: 0;
     width: 190px;
     left: 250px;
     -moz-transition: all 1s linear;
     -o-transition: all 1s linear;
     -webkit-transition: all 1s linear;
-} 	
+}
+
 .dropdown li {
-	display: block;
-	border-bottom: 2px solid #fff;
-	padding:10px 5px;
+    display: block;
+    border-bottom: 2px solid #fff;
+    padding: 10px 5px;
 }
-.dropdown li:hover .drop{
-	display: block;
+
+.dropdown li:hover .drop {
+    display: block;
 }
-.mainmenu >li:hover .dropdown{
-	display: block;
+
+.mainmenu > li:hover .dropdown {
+    display: block;
 }
+
 .mainmenu {
-	position: relative;
-	display: flex;
-	width: 70%;
-	list-style-type: none;
-	margin: 0 auto;
-	background-color:rgb(38, 46, 57);
-	justify-content: space-between;
+    position: relative;
+    display: flex;
+    width: 70%;
+    list-style-type: none;
+    margin: 10px auto;
+    background-color: rgb(38, 46, 57);
+    justify-content: space-between;
 
 }
-.mainmenu >li {
-	padding: 10px 0;
-	font-weight: normal;
-	background-color:rgb(38, 46, 57);
+
+.mainmenu a {
+    color: #fff;
 }
-.mainmenu li a {
-	color: white;
-	font-family: Arial, Helvetica, Nimbus Sans L, sans-serif;
-	display: block;
-	width: auto;
-	transition: 1s;
+
+.mainmenu a:hover {
+    margin: 0;
+    color: #047BCB;
 }
+
+.mainmenu > li {
+    padding: 10px 0;
+    font-weight: normal;
+    background-color: rgb(38, 46, 57);
+}
+
 .mainmenu ul li {
-	width: 100%;
-	 }
-.mainmenu li a:hover {
-	margin: 0;
-	color: #047BCB;
+    width: 100%;
 }
+
+
 

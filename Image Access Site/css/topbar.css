@@ -1,29 +1,37 @@
-.sub-bottom{
-	width: 80%;
-	background: linear-gradient(to top, rgb(2,48,126), rgb(36,135,214));
-	border-radius: 10px;
-	margin: 0px auto;
+.sub-bottom {
+    width: 80%;
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0 ;
+    -webkit-border-radius: 10px 10px 0 0;
+    margin: 0 auto;
 }
+
 .topbar {
-	margin-left: 170px;
-	padding: 7px 0;
-	display: flex;
-	justify-content:space-between;
-	align-items:center;
+    margin-left: 170px;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .topbar li {
-	font-weight: normal;
-	list-style-type: none;
-	padding-left: 1%;
-	padding-right: 1%;
-	text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
 }
-.topbar a{
-	color: #fff;
+
+.topbar a {
+    color: #fff;
 }
-.topbar a:hover{
-	opacity: 0.5;
+
+.topbar a:hover {
+    opacity: 0.7;
 }
-.fl-right{
-	    margin: 0 20px 0 60px;
+
+.fl-right {
+    margin: 0 20px 0 60px;
 }
