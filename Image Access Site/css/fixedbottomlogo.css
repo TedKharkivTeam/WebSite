@@ -1,15 +1,13 @@
 .botlogo {
-	box-shadow: 4px 4px 10px 1px #000000;
-	position: fixed;
-	font-weight: bold;
-	padding-top: 7px;
-	padding-bottom: 7px;	
+    box-shadow: 4px 4px 10px 1px #000000;
+    position: fixed;
+    font-weight: bold;
+    padding: 7px 0 7px;
     left: 9%;
-    top: 168px; 
-	background-color:white;
-	z-index: 400;
-	text-align:center;
-	font-size: 14;
-	width: 180px;
-	height: auto;
+    top: 168px;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+    width: 180px;
+    height: auto;
 }
