@@ -1,4 +1,3 @@
-
 // **********************************************************************************
 
 // include autozoom.js
@@ -10,39 +9,32 @@
 
 // include("js/autozoom.js");
 
-function glFromEdu(){
-	var regexp = / \.edu|imageaccess\.com /ig;
-	var referrer = document.referrer;
+function glFromEdu() {
+    var regexp = / \.edu|imageaccess\.com /ig;
+    var referrer = document.referrer;
 
-	if (referrer.search(regexp) != -1)
-		return true;
-	else
-		return false;
+    if (referrer.search(regexp) != -1)
+        return true;
+    else
+        return false;
 }
 
-function glAnimate(){
-	var image;
-	var imageRoot;
-	var pageRoot;
+function glAnimate() {
+    var image;
+    var imageRoot;
+    var pageRoot;
 
-	if (glFromEdu() == false)
-	{
-		image = document.getElementById("bscanImage");
-		imageRoot = 'images/bscan.jpg';
-		pageRoot = 'pages/BscanPage.html';
-	}
-	else
-	{
-		image = document.getElementById("dlsgImage");
-		imageRoot = 'images/dlsg.jpg';
-		pageRoot = 'pages/DlsgPage.html';
-	}
+    if (glFromEdu() == false) {
+        image = document.getElementById("bscanImage");
+        imageRoot = 'images/bscan.jpg';
+        pageRoot = 'pages/BscanPage.html';
+    }
+    else {
+        image = document.getElementById("dlsgImage");
+        imageRoot = 'images/dlsg.jpg';
+        pageRoot = 'pages/DlsgPage.html';
+    }
 
-	var ie = new ImageExpander(image, imageRoot, pageRoot);
-	this.href = 'javascript:void(0);';
-
-	console.log(imageRoot);
-	console.log(pageRoot);
+    var ie = new ImageExpander(image, imageRoot, pageRoot);
+    this.href = 'javascript:void(0);';
 }
-
-// **********************************************************************************
