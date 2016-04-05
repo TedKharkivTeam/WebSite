@@ -1,6 +1,5 @@
-jQuery(function(){
-
-	$('.single-item').slick({
-		arrows: true,
-	});
+jQuery(function () {
+    $('.single-item').slick({
+        arrows: true
+    });
 });
