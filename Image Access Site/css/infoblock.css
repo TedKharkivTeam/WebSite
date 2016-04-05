@@ -1,20 +1,40 @@
 .infoblock {
-	padding: 20px;
-	width: 55%;
-	text-align: left;
-	height:auto !important;
-	float: left;
-	word-wrap: break-word;
-	border-left: 2px solid #E3E6DB;
-	display: block;
+    margin: 2px 0 0;
+    padding: 20px;
+    width: 55%;
+    text-align: left;
+    float: left;
+    word-wrap: break-word;
+    border-left: 2px solid #E3E6DB;
 }
-.infoblock p{padding-bottom: 5px;}
-.infoblock  img{
-	max-width: 100%;
+
+.infoblock p {
+    padding-bottom: 5px;
 }
-.w-table{background: #fff;color: #000;font-weight: normal!important;}
-.b-table{
-	background:#2588D7;
-	color: #fff;
-	font-weight: normal!important; 
+
+.infoblock span {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.infoblock img {
+    max-width: 100%;
+}
+
+.infoblock ul li {
+    background: url("../images/blue-bullet.png") no-repeat left 2px;
+    padding-left: 24px;
+    line-height: 24px;
+}
+
+.w-table {
+    background: #fff;
+    color: #000;
+    font-weight: normal !important;
+}
+
+.b-table {
+    background: #2588D7;
+    color: #fff;
+    font-weight: normal !important;
 }
