@@ -144,12 +144,12 @@ td, th {
     display: block;
     z-index: 101;
     overflow: hidden;
-    background: url(../resources/navigation-previous.png) no-repeat 0 0;
+    background: url(../images/resources/navigation-previous.png) no-repeat 0 0;
 }
 
 #slides .slidesNext {
     left: 798px;
-    background: url(../resources/navigation-next.png) no-repeat 0 0;
+    background: url(../images/resources/navigation-next.png) no-repeat 0 0;
 }
 
 /*
@@ -172,7 +172,7 @@ td, th {
     width: 14px;
     height: 0;
     padding-top: 14px;
-    background-image: url(../resources/pagination.png);
+    background-image: url(../images/resources/pagination.png);
     background-position: 0 0;
     overflow: hidden;
 }
