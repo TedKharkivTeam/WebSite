@@ -47,7 +47,7 @@
     width: 70%;
     list-style-type: none;
     margin: 10px auto;
-    background-color: rgb(38, 46, 57);
+    background-color: #262E39;
     justify-content: space-between;
 
 }
@@ -57,18 +57,22 @@
 }
 
 .mainmenu a:hover {
-    margin: 0;
+    color: #047BCB;
+}
+
+.mainmenu .dropdown li:hover a {
     color: #047BCB;
 }
 
 .mainmenu > li {
     padding: 10px 0;
     font-weight: normal;
-    background-color: rgb(38, 46, 57);
+    background-color: #262E39;
 }
 
 .mainmenu ul li {
     width: 100%;
+    cursor: pointer;
 }
 
 
