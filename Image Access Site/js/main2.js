@@ -1,7 +1,6 @@
-jQuery(function(){
-	
-	jQuery('#tabset').contentTabs({
-		addToParent:true,
-		tabLinks: 'a'
-	});
+jQuery(function () {
+    jQuery('#tabset').contentTabs({
+        addToParent: true,
+        tabLinks: 'a'
+    });
 });

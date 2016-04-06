@@ -59,3 +59,37 @@
     color: #fff;
     font-weight: normal !important;
 }
+
+.infoblock .scrolled_pic {
+    display: block;
+    overflow: visible;
+    align-items: baseline;
+    border: none;
+    box-shadow: none;
+}
+
+.infoblock .scrolled_pic > .images {
+    overflow: visible;
+    display: block;
+    align-items: center;
+    border-bottom: 1px solid #E3E6DB;
+    box-shadow: 0 0 5px #000;
+    margin: 0 0 14px;
+}
+
+.infoblock .scrolled_pic .images .image .back_image {
+    width: 50%;
+    background-size: contain;
+    margin: 20px;
+}
+
+.infoblock .scrolled_pic .images .image .back_text {
+    width: 39%;
+    float: right;
+    margin: 100px 10px 0 0;
+}
+
+.infoblock .scrolled_pic .images .image .back_text span {
+    color: #093C8B;
+    font-size: 18px;
+}
