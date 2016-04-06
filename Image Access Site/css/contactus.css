@@ -38,7 +38,6 @@ input, textarea {
     border: solid 1px #CCCCCC;
     padding: 4px;
     outline: 0;
-    font: Verdana, Geneva, sans-serif;
     width: 200px;
     background: #F9F9F9;
     -webkit-border-radius: 4px;
@@ -46,6 +45,7 @@ input, textarea {
     border-radius: 4px;
     margin-top: 10px;
 }
+
 .content .brochure-block .contact_list {
     list-style-image: none;
     margin: 0;
@@ -56,11 +56,13 @@ input, textarea {
     margin: 0;
     font-weight: bold;
 }
+
 .content .brochure-block .contact_list li i {
     display: inline;
     padding: 0 20px 0 0;
     color: #2487D6;
 }
+
 .mainform .main {
     background: #fff;
     z-index: 5;
@@ -71,8 +73,7 @@ input, textarea {
 
 .mainform {
     margin: 0 auto;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 50px 0 20px 90px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -107,12 +108,12 @@ input, textarea {
     border: none;
     background: #2383D2;
     color: #fff;
-    padding:10px 14px;
+    padding: 10px 14px;
     font-weight: bold;
     margin-right: 10px;
     border-radius: 10px;
     -moz-border-radius: 10px;
-    -webkit-border-radius:10px;
+    -webkit-border-radius: 10px;
     transition: 1s;
 }
 
@@ -131,8 +132,16 @@ input, textarea {
     font-size: 16px;
     padding-top: 10px;
 }
-.one-form{display: flex;align-items: center; justify-content: space-between;}
-.one-form div{padding: 0 5px;}
+
+.one-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one-form div {
+    padding: 0 5px;
+}
 
 .tag {
     font-size: 20px;
