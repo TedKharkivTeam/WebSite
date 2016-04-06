@@ -12,6 +12,26 @@
     padding-bottom: 5px;
 }
 
+.infoblock div.pdf_preview {
+    padding: 20px 0;
+}
+
+.infoblock div.pdf_preview > a {
+    float: left;
+}
+
+.infoblock a.pdf_version {
+    float: right;
+}
+
+.infoblock .technical_data {
+    width: 90%;
+}
+
+.infoblock .technical_data tbody tr th {
+    font-weight: bold;
+}
+
 .infoblock span {
     font-weight: bold;
     padding-bottom: 5px;

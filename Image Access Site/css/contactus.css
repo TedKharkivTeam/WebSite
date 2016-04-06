@@ -10,7 +10,7 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #address {
@@ -28,12 +28,21 @@
     font-style: italic;
 }
 
-.red {
-    color: red;
-    padding: 0 10px;
+.mainform .star {
+    position: relative;
+}
+
+.mainform .star:before {
+    content: '*';
+    position: absolute;
+    top: 10px;
+    right: 230px;
+    font-size: 18px;
+    color: #f00;
 }
 
 input, textarea {
+    margin: 10px 10px 0 50px;
     max-width: 200px;
     border: solid 1px #CCCCCC;
     padding: 4px;
@@ -43,7 +52,6 @@ input, textarea {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    margin-top: 10px;
 }
 
 .content .brochure-block .contact_list {
@@ -66,50 +74,48 @@ input, textarea {
 .mainform .main {
     background: #fff;
     position: absolute;
-    top: -10px;
+    top: -16px;
+    padding: 0 10px;
     left: 5%;
 }
 
+.mainform .main label {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
 .mainform {
-    margin: 0 auto;
     padding: 50px 0 20px 90px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     text-align: center;
     font-weight: bold;
 }
 
 .mainform fieldset {
+    margin: 0 15px;
     position: relative;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid grey;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
 
-.mainform fieldset:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-    z-index: -1;
-}
-
 .send {
-    font-size: 22px;
+    font-size: 18px;
     border: none;
-    background: #2383D2;
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
     color: #fff;
-    padding: 10px 14px;
+    padding: 10px 20px;
     font-weight: bold;
-    margin-right: 10px;
+    margin: 0 10px;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -130,16 +136,22 @@ input, textarea {
 .field label {
     font-size: 16px;
     padding-top: 10px;
+    font-weight: normal;
+    padding-right: 6px;
 }
 
 .one-form {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
 .one-form div {
     padding: 0 5px;
+}
+
+.to-bottom {
+    align-items: flex-end !important;
 }
 
 .tag {
