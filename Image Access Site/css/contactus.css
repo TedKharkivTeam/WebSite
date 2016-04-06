@@ -72,9 +72,10 @@ input, textarea {
 .mainform {
     margin: 0 auto;
     padding: 20px;
+    padding-top: 40px;
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: flex-start;
     text-align: center;
     font-weight: bold;
 }
@@ -86,7 +87,6 @@ input, textarea {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    z-index: 10;
 }
 
 .mainform fieldset:before {
@@ -103,21 +103,16 @@ input, textarea {
 }
 
 .send {
-    font-size: 24px;
+    font-size: 22px;
     border: none;
-    background: #89fc4e;
-    background: -moz-linear-gradient(top, #89fc4e 0%, #82f540 4%, #7ff03c 8%, #80f03d 12%, #7be83b 24%, #7ce93c 28%, #77e039 36%, #78e23a 44%, #74db37 52%, #6bca35 92%, #6dcb39 96%, #92ba85 100%);
-    background: -webkit-linear-gradient(top, #89fc4e 0%, #82f540 4%, #7ff03c 8%, #80f03d 12%, #7be83b 24%, #7ce93c 28%, #77e039 36%, #78e23a 44%, #74db37 52%, #6bca35 92%, #6dcb39 96%, #92ba85 100%);
-    background: linear-gradient(to bottom, #89fc4e 0%, #82f540 4%, #7ff03c 8%, #80f03d 12%, #7be83b 24%, #7ce93c 28%, #77e039 36%, #78e23a 44%, #74db37 52%, #6bca35 92%, #6dcb39 96%, #92ba85 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#89fc4e', endColorstr='#92ba85', GradientType=0);
+    background: #2383D2;
     color: #fff;
-    padding: 17px 36px;
+    padding:10px 14px;
     font-weight: bold;
     margin-right: 10px;
     border-radius: 10px;
     -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border: 1px solid #92da76;
+    -webkit-border-radius:10px;
     transition: 1s;
 }
 
@@ -136,10 +131,8 @@ input, textarea {
     font-size: 16px;
     padding-top: 10px;
 }
-
-.one-form div {
-    padding: 0 5px;
-}
+.one-form{display: flex;align-items: center; justify-content: space-between;}
+.one-form div{padding: 0 5px;}
 
 .tag {
     font-size: 20px;
