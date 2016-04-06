@@ -11,7 +11,9 @@
 .infoblock p {
     padding-bottom: 5px;
 }
-
+.infoblock a.pdf_version {
+    float: right;
+}
 .infoblock span {
     font-weight: bold;
     padding-bottom: 5px;
