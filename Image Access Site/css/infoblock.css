@@ -1,7 +1,7 @@
 .infoblock {
     margin: 2px 0 0;
     padding: 20px;
-    width: 55%;
+    width: 60%;
     text-align: left;
     float: left;
     word-wrap: break-word;
@@ -26,6 +26,7 @@
 
 .infoblock .technical_data {
     width: 90%;
+    margin: 0;
 }
 
 .infoblock .technical_data tbody tr th {
@@ -92,4 +93,65 @@
 .infoblock .scrolled_pic .images .image .back_text span {
     color: #093C8B;
     font-size: 18px;
+}
+
+.infoblock .table_comliance {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.infoblock .table_comliance .conf_sing {
+    width: 15%;
+    float: left;
+}
+
+.infoblock .table_comliance .conf_description {
+    width: 85%;
+    float: left;
+}
+
+.infoblock .table_comliance .conf_description span {
+    color: #093C8B;
+    margin: 10px 0 0;
+}
+
+.infoblock .table_comliance .conf_sing img {
+    margin: 20px auto;
+    display: block;
+    width: 75px;
+    height: auto;
+}
+
+.infoblock .table_comliance .conf_sing h2 {
+    width: 75px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.infoblock .table_video {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.infoblock .table_video .video-preview {
+    width: 60%;
+    float: left;
+}
+
+.infoblock .table_video .video-preview img {
+    width: 90%;
+    height: auto;
+}
+
+.infoblock .table_video .video-links {
+    width: 40%;
+    float: left;
+}
+
+.infoblock .table_video .video-links h3 {
+    font-weight: bold;
+}
+
+.infoblock .table_video .video-links a {
+    font-weight: bold;
 }
