@@ -2,14 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="cache-control" content="no-cache">
-    <link href="../css/MagnifierStyle.css" rel="stylesheet" type="text/css"/>
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/slides.js"></script>
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <script src="../js/slides.js"></script>
     <title>Product Photos WideTEK 48 :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/leftsidemenu.css">
     <link rel="stylesheet" type="text/css" href="../css/header.css">
@@ -18,34 +11,19 @@
     <link rel="stylesheet" type="text/css" href="../css/fixedbottomlogo.css">
     <link rel="stylesheet" type="text/css" href="../css/content.css">
     <link rel="stylesheet" type="text/css" href="../css/gradient_background.css">
-    <link rel="stylesheet" type="text/css" href="../css/photostyles.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/homepagepictures.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="../css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
     <link rel="stylesheet" type="text/css" href="../css/mainmenu.css">
     <link rel="stylesheet" type="text/css" href="../css/topbar.css">
-    <script>
-        $(function () {
-            $("#slides").slides({
-                responsive: true
-            });
-            $("#slides").slides("play");
-        });
+    <link rel="stylesheet" type="text/css" href="../css/gallery.css">
+    <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
+    <script src="../js/hammer.min.js" type="text/javascript"></script>
+    <script src="../js/gallery.js" type="text/javascript"></script>
+    <script src="../js/gallery-init.js" type="text/javascript"></script>
 
-    </script>
-    <style>
-
-        #slides .slidesNext {
-            right: -35px;
-            left: auto;
-        }
-
-        #slides .slidesPrevious {
-            left: -35px;
-        }
-    </style>
 </head>
 <body class="gradient">
 <header>
@@ -141,143 +119,140 @@
     </ul>
 
     <div class="infoblock">
-        <div id="slides">
-            <img src="../images/WideTEK_48/WT48-600_RENDER_BACKWARD.png" width="100%" height="100%" alt="Slide 1">
-            <img src="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE.png" width="100%" height="100%"
-                 alt="Slide 2">
-            <img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL.png" width="100%" height="100%" alt="Slide 3">
-            <img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_OPEN.png" width="100%" height="100%" alt="Slide 4">
-            <img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE.png" width="100%" height="100%"
-                 alt="Slide 5">
-            <img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_UMFS.png" width="100%" height="100%" alt="Slide 5">
-        </div>
-        <h2>WideTEK<sup>&reg;</sup> 48 Product Photos</h2>
-
-        <p>Image Access holds the copyright on all images shown below.</p>
-
-        <h3>Click on the thumbnail to view the image</h3>
-
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL.png"
-                                                 alt="64bit Linux based computer, fast and virus protected"
-                                                 title="64bit Linux based computer, fast and virus protected"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_IPAD_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_IPAD.png"
-                                                 alt="1200 x 1200 dpi scanner resolution"
-                                                 title="1200 x 1200 dpi scanner resolution"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE_big.png"
-                                      target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE.png"
-                                                 alt="Fastest color scanning at 15 inches per second (22.9 m/min)"
-                                                 title="Fastest color scanning at 15 inches per second (22.9 m/min)">
+        <div class="gallery scrolled_pic">
+            <div class="images">
+                <div class="image active">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_BACKWARD.png)"></div>
+                    <div class="back_text">
+                        <span>64bit Linux based computer, fast and virus protected</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL.png)"></div>
+                    <div class="back_text">
+                        <span>1200 x 1200 dpi scanner resolution</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_IPAD.png)"></div>
+                    <div class="back_text">
+                        <span>Fastest color scanning at 15 inches per second (22.9 m/min)</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE.png)"></div>
+                    <div class="back_text">
+                        <span>Face up scanning (no more "blind" scanning)</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE_IPAD.png)"></div>
+                    <div class="back_text">
+                        <span>Antistatic stainless steel paper guide, extremely long lasting</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL.png)"></div>
+                    <div class="back_text">
+                        <span>Flexible scanning from iPad or Android Tablet via Scan2Pad</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_IPAD.png)"></div>
+                    <div class="back_text">
+                        <span>Scan 48 inch wide documents</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_MONITOR.png)"></div>
+                    <div class="back_text">
+                        <span>Real time display of the scanned images</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_OPEN.png)"></div>
+                    <div class="back_text">
+                        <span>Large WVGA color touchscreen for simplified operation</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE.png)"></div>
+                    <div class="back_text">
+                        <span>Dual LED lamps with natural light diffusor, IR/UV free</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE_IPAD.png)"></div>
+                    <div class="back_text">
+                        <span>Full HD external touchscreen</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TOUCH_TEMPLATE.png)"></div>
+                    <div class="back_text">
+                        <span>WideTEK-UMFS, the most versatile MFP stand in the industry</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_UMFS.png)"></div>
+                    <div class="back_text">
+                        <span>Network scanning via any web browser</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_SIDEWARD.png)"></div>
+                    <div class="back_text">
+                        <span>Easy installation via Scan2Net technology</span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE_IPAD_big.png"
-                                      target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE_IPAD.png"
-                                                 alt="Face up scanning (no more &quot;blind&quot; scanning) "
-                                                 title="Face up scanning (no more &quot;blind&quot; scanning) "></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL.png"
-                                                 alt="Antistatic stainless steel paper guide, extremely long lasting"
-                                                 title="Antistatic stainless steel paper guide, extremely long lasting">
+            <h2>WideTEK<sup>&reg;</sup> 48 Product Photos</h2>
+            <p>Image Access holds the copyright on all images shown below.</p>
+            <h3>Click on the thumbnail to view the image</h3>
+            <div class="thumbs">
+                <div class="thumb active"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_BACKWARD.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_IPAD.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_DIAGONAL_TEMPLATE_IPAD.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_IPAD.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_MONITOR.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_OPEN.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE_IPAD.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TOUCH_TEMPLATE.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_FRONTAL_UMFS.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/WideTEK_48/WT48-600_RENDER_SIDEWARD.png)"></div>
             </div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_IPAD_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_IPAD.png"
-                                                 alt="Flexible scanning from iPad or Android Tablet via Scan2Pad"
-                                                 title="Flexible scanning from iPad or Android Tablet via Scan2Pad">
-            </div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE_big.png"
-                                      target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE.png"
-                                                 alt="Scan 48 inch wide documents" title="Scan 48 inch wide documents">
-            </div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE_IPAD_big.png"
-                                      target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TEMPLATE_IPAD.png"
-                                                 alt="Real time display of the scanned images"
-                                                 title="Real time display of the scanned images"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_MONITOR_big.png"
-                                      target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_MONITOR.png"
-                                                 alt="Large WVGA color touchscreen for simplified operation"
-                                                 title="Large WVGA color touchscreen for simplified operation"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_OPEN_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_OPEN.png"
-                                                 alt="Dual LED lamps with natural light diffusor, IR/UV free"
-                                                 title="Dual LED lamps with natural light diffusor, IR/UV free"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TOUCH_TEMPLATE_big.png"
-                                      target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_TOUCH_TEMPLATE.png"
-                                                 alt="Full HD external touchscreen"
-                                                 title="Full HD external touchscreen"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_UMFS_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_FRONTAL_UMFS.png"
-                                                 alt="WideTEK-UMFS, the most versatile MFP stand in the industry"
-                                                 title="WideTEK-UMFS, the most versatile MFP stand in the industry">
-            </div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_SIDEWARD_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_SIDEWARD.png"
-                                                 alt="Network scanning via any web browser"
-                                                 title="Network scanning via any web browser"></div>
-        </div>
-        <div class="image-preview"><a href="../images/WideTEK_48/WT48-600_RENDER_BACKWARD_big.png" target="_blank">
-            <div class="ui-icon ui-icon-zoomin"
-                 style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-        </a>
-            <div class="image-preview-help"><img src="../images/WideTEK_48/WT48-600_RENDER_BACKWARD.png"
-                                                 alt="Easy installation via Scan2Net technology"
-                                                 title="Easy installation via Scan2Net technology"></div>
         </div>
     </div>
 </div>
