@@ -2,12 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="cache-control" content="no-cache">
-
     <title>Product Photos &ndash; Bookeye&reg; 4 V1A :: Image Access 2016</title>
-
     <link rel="stylesheet" type="text/css" href="../css/leftsidemenu.css">
     <link rel="stylesheet" type="text/css" href="../css/header.css">
     <link rel="stylesheet" type="text/css" href="../css/infoblock.css">
@@ -15,36 +11,18 @@
     <link rel="stylesheet" type="text/css" href="../css/fixedbottomlogo.css">
     <link rel="stylesheet" type="text/css" href="../css/content.css">
     <link rel="stylesheet" type="text/css" href="../css/gradient_background.css">
-    <link rel="stylesheet" type="text/css" href="../css/photostyles.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/homepagepictures.css">
-    <link rel="stylesheet" href="../css/style.css">
-
-
-    <link href="../css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
     <link rel="stylesheet" type="text/css" href="../css/mainmenu.css">
     <link rel="stylesheet" type="text/css" href="../css/topbar.css">
-    <link rel="stylesheet" type="text/css" href="../css/footer.css">
-    <script>
-        $(function () {
-            $("#slides").slides({
-                responsive: true
-            });
-            $("#slides").slides("play");
-        });
-
-    </script>
-    <style>
-
-        #slides .slidesNext {
-            right: -35px;
-            left: auto;
-        }
-
-        #slides .slidesPrevious {
-            left: -35px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../css/gallery.css">
+    <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
+    <script src="../js/hammer.min.js" type="text/javascript"></script>
+    <script src="../js/gallery.js" type="text/javascript"></script>
+    <script src="../js/gallery-init.js" type="text/javascript"></script>
 </head>
 <body class="gradient">
 <header>
@@ -139,117 +117,94 @@
     </ul>
 
     <div class="infoblock">
-        <div id="slides" style="width:70%;">
-            <img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_BACKWARD.png" width="100%" height="100%" alt="Slide 1">
-            <img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png" width="100%" height="100%" alt="Slide 2">
-            <img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png" width="100%" height="100%" alt="Slide 3">
-            <img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png" width="100%" height="100%" alt="Slide 4">
-            <img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png" width="100%" height="100%" alt="Slide 5">
-        </div>
-        <h2>Bookeye<sup>&reg;</sup> 4 V1A Product Photos</h2>
-
-        <p>Image Access holds the copyright on all images shown below.</p>
-
-        <h3>Click on the thumbnail to view the image</h3>
-
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png"
-                                                 alt="Overhead book scanner for formats up to A1+"
-                                                 title="Overhead book scanner for formats up to A1+">
+        <div class="gallery scrolled_pic">
+            <div class="images">
+                <div class="image active">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png)"></div>
+                    <div class="back_text">
+                        <span>Overhead book scanner for formats up to A1+</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png)"></div>
+                    <div class="back_text">
+                        <span>Motorized cradle with lift up to 10 cm and glass plate</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png)"></div>
+                    <div class="back_text">
+                        <span>V-shaped cradle 140 - 180 degrees gently holds valuable books</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png)"></div>
+                    <div class="back_text">
+                        <span>Glass plate for perfect scans in flat mode</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png)"></div>
+                    <div class="back_text">
+                        <span>600 x 600 dpi scanner resolution</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png)"></div>
+                    <div class="back_text">
+                        <span>V-shaped cradle 140 - 180 degrees gently holds valuable books</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png)"></div>
+                    <div class="back_text">
+                        <span>Overhead book scanner with a motorized book cradle</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png)"></div>
+                    <div class="back_text">
+                        <span>Automatic Crop & Deskew, automatic finger and thumb removal</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="content back_image"
+                         style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png)"></div>
+                    <div class="back_text">
+                        <span>Large color WVGA touchscreen for simplified operation</span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png"
-                                                 alt="Motorized cradle with lift up to 10 cm and glass plate"
-                                                 title="Motorized cradle with lift up to 10 cm and glass plate">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png"
-                                                 alt="V-shaped cradle 140 &ndash; 180 degrees gently holds valuable books"
-                                                 title="V-shaped cradle 140 &ndash; 180 degrees gently holds valuable books">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png"
-                                                 alt="Glass plate for perfect scans in flat mode"
-                                                 title="Glass plate for perfect scans in flat mode">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png"
-                                                 alt="600 x 600 dpi scanner resolution"
-                                                 title="600 x 600 dpi scanner resolution">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png"
-                                                 alt="V-shaped cradle 140 &ndash; 180 degrees gently holds valuable books"
-                                                 title="V-shaped cradle 140 &ndash; 180 degrees gently holds valuable books">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png"
-                                                 alt="Automatic Crop &amp; Deskew, automatic finger and thumb removal"
-                                                 title="Automatic Crop &amp; Deskew, automatic finger and thumb removal">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png"
-                                                 alt="Large color WVGA touchscreen for simplified operation"
-                                                 title="Large color WVGA touchscreen for simplified operation">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png"
-                                                 alt="Book Fold Correction &ndash; Scan bound documents without shadows"
-                                                 title="Book Fold Correction &ndash; Scan bound documents without shadows">
-            </div>
-        </div>
-        <div class="image-preview">
-            <a href="../images/Bookeye_4_V1A/BE4V1A_RENDER_BACKWARD_big.png" target="_blank">
-                <div class="ui-icon ui-icon-zoomin"
-                     style="float:right; margin-top: 142px; margin-left:142px; position:absolute;"></div>
-            </a>
-            <div class="image-preview-help"><img src="../images/Bookeye_4_V1A/BE4V1A_RENDER_BACKWARD.png"
-                                                 alt="Easy installation via Scan2Net, Gigabit TCP/IP interface"
-                                                 title="Easy installation via Scan2Net, Gigabit TCP/IP interface">
+            <h2>Bookeye<sup>&reg;</sup> 4 V1 Product Photos</h2>
+            <p>Image Access holds the copyright on all images shown below.</p>
+            <h3>Click on the thumbnail to view the image</h3>
+            <div class="thumbs">
+                <div class="thumb active"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png)"></div>
+                <div class="thumb"
+                     style="background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png)"></div>
             </div>
         </div>
     </div>
