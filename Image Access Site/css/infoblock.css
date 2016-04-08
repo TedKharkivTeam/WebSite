@@ -88,19 +88,36 @@
     background-size: contain;
     margin: 20px;
 }
-.infoblock .scrolled_pic .images .image .back_image embed {
-    width: 100%;
-    height: 500px;
+
+.infoblock .scrolled_pic .images .image .back_pdf {
+    width: 75%;
+    margin: 10px;
 }
+
+.infoblock .scrolled_pic .images .image .back_pdf embed {
+    width: 100%;
+    height: 525px;
+}
+
 .infoblock .scrolled_pic .images .image .back_text {
     width: 39%;
     float: right;
     margin: 100px 10px 0 0;
 }
-
+.infoblock .scrolled_pic .images .image .back_text_pdf {
+    width: 20%;
+    float: right;
+    margin: 100px 10px 0 0;
+}
 .infoblock .scrolled_pic .images .image .back_text span {
     color: #093C8B;
     font-size: 18px;
+}
+
+.infoblock .scrolled_pic .images .image .back_text_pdf a {
+    color: #093C8B;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .infoblock .table_comliance {
