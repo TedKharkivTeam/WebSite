@@ -2,9 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016f9b22-49e0-4ab9-b10d-e5e5de4d386c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.html" afterPath="$PROJECT_DIR$/includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.html" afterPath="$PROJECT_DIR$/includes/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4_BSCAN_ILL_Capture_Workflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4_Old_and_New.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Amount_of_served_students.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Born_Digital.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Face_Down_or_Face_Up.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Fleet_Management.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_In_case_you_didnt_know.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Product_Family.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Searchable_Collections.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_SmartDock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Tech_Specs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_KIC_Click_Mini.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Digitize_on_Demand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_The_KIC_Product_Family.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Fleet_Manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Collection_Composer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Hierarchical_Metadata_Capture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Image_Treatment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_Workflow.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4_BSCAN_ILL_Capture_Workflow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4_Old_and_New.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Amount_of_served_students.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Born_Digital.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Face_Down_or_Face_Up.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Fleet_Management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_In_case_you_didnt_know.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Product_Family.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Searchable_Collections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_SmartDock.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Tech_Specs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_KIC_Click_Mini.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Digitize_on_Demand.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_The_KIC_Product_Family.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Fleet_Manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Collection_Composer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Hierarchical_Metadata_Capture.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Image_Treatment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_Workflow.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4.html" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4_Company_History.html" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4_Company_History.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/CONTACT_US.html" afterPath="$PROJECT_DIR$/pages/CONTACT_US.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Beauty_Images.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Beauty_Images.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Bookeye_vs_Copiers.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Bookeye_vs_Copiers.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Digital_Age_System.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Digital_Age_System.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Hybrid_Library.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Hybrid_Library.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Message_to_Students.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Message_to_Students.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_True_2_Touch.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_True_2_Touch.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_A_True_Digital_Age_Multifunction_System.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_A_True_Digital_Age_Multifunction_System.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_A_message_to_students.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_A_message_to_students.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Beautiful_Images_Fast_and_Easy.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Beautiful_Images_Fast_and_Easy.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_In_case_you_didnt_know.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_In_case_you_didnt_know.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_KIC_Bookeye_vs_Copiers.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_KIC_Bookeye_vs_Copiers.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_KIC_Makes_Your_Print_Collections_Searchable.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_KIC_Makes_Your_Print_Collections_Searchable.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_KIC_SmartDock.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_KIC_SmartDock.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Technical_Specifications.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Technical_Specifications.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_The_Hybrid_Library.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_The_Hybrid_Library.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Two_Large_Screens_for_Simplicity_Power.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Two_Large_Screens_for_Simplicity_Power.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Your_Choice_Scan_Face_Down_or_Face_Up.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Your_Choice_Scan_Face_Down_or_Face_Up.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_FreeFlow.html" afterPath="$PROJECT_DIR$/pages/Opus_FreeFlow.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_FreeFlow_vs_Opus_WorkFlow.html" afterPath="$PROJECT_DIR$/pages/Opus_FreeFlow_vs_Opus_WorkFlow.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_A_new_Era_in_Digitization.html" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_A_new_Era_in_Digitization.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Elements_of_Opus.html" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Elements_of_Opus.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Highlights.html" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Highlights.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V2_Documentation.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V2_Documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V2_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V2_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V3_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V3_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Factory_Tour.html" afterPath="$PROJECT_DIR$/pages/Factory_Tour.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/KIC_Software.html" afterPath="$PROJECT_DIR$/pages/KIC_Software.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Knowledge_Access_Tool_KAT.html" afterPath="$PROJECT_DIR$/pages/Knowledge_Access_Tool_KAT.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Opus_Software.html" afterPath="$PROJECT_DIR$/pages/Opus_Software.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Output_to_3D_Digital_Library.html" afterPath="$PROJECT_DIR$/pages/Output_to_3D_Digital_Library.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Output_to_KAT_Stacks_View.html" afterPath="$PROJECT_DIR$/pages/Output_to_KAT_Stacks_View.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Output_to_content_managers.html" afterPath="$PROJECT_DIR$/pages/Output_to_content_managers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/PDF_output.html" afterPath="$PROJECT_DIR$/pages/PDF_output.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Scan2Net.html" afterPath="$PROJECT_DIR$/pages/Scan2Net.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Scan2iPF.html" afterPath="$PROJECT_DIR$/pages/Scan2iPF.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/TIFF_JPEG_PNG_Output.html" afterPath="$PROJECT_DIR$/pages/TIFF_JPEG_PNG_Output.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Users_Gallery.html" afterPath="$PROJECT_DIR$/pages/Users_Gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Compliance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Downloads_Tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Functions_Features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Product_Brochures.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Product_Videos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Product_Videos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Downloads_Tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Functions_Features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Presentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Documentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Downloads_Tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Functions_Features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Markets_Applications.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Presentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Presentation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Product_Photos.html" />
     </list>
     <ignored path="Image Access Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,66 +130,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WideTEK_48C_Product_Photos.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="infoblock.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/infoblock.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CONTACT_US.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Dlsg_Pages/CONTACT_US.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-337">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/gallery.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,6 +237,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,23 +256,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Image Access Site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Image Access Site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,10 +270,11 @@
     <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tempFlick\WebSite\Image Access Site\pages" />
       <recent name="C:\Users\user\Documents\GitHub\WebSite\Image Access Site\images" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\GitHub\WebSite\Image Access Site\images" />
     </key>
   </component>
@@ -319,11 +356,12 @@
       <workItem from="1460024395987" duration="3834000" />
       <workItem from="1460029308302" duration="10119000" />
       <workItem from="1460097159316" duration="8919000" />
+      <workItem from="1460109262689" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54662000" />
+    <option name="totallyTimeSpent" value="54732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -381,14 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/mainmenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/WideTEK_44_Compliance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -446,7 +476,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4.html">
+    <entry file="file://$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
@@ -645,10 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="117" column="61" selection-start-line="116" selection-start-column="8" selection-end-line="117" selection-end-column="61" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,56 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="144" column="83" selection-start-line="144" selection-start-column="83" selection-end-line="144" selection-end-column="83" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/infoblock.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Dlsg_Pages/CONTACT_US.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,6 +703,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CONTACT_US.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/infoblock.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
