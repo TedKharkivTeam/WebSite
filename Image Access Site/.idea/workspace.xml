@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016f9b22-49e0-4ab9-b10d-e5e5de4d386c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/About_Image_Access.html" afterPath="$PROJECT_DIR$/pages/About_Image_Access.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Accessibility_VPAT.html" afterPath="$PROJECT_DIR$/pages/Accessibility_VPAT.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Application_Report.html" afterPath="$PROJECT_DIR$/pages/Application_Report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Archiving.html" afterPath="$PROJECT_DIR$/pages/Archiving.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/BookEdge.html" afterPath="$PROJECT_DIR$/pages/BookEdge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Book_Copier.html" afterPath="$PROJECT_DIR$/pages/Book_Copier.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Book_Scanner.html" afterPath="$PROJECT_DIR$/pages/Book_Scanner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Compliance.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Brochures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/CONTACT_US.html" afterPath="$PROJECT_DIR$/pages/CONTACT_US.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Compliance.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Compliance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Brochures.html" />
     </list>
     <ignored path="Image Access Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,13 +27,36 @@
       <file leaf-file-name="Archiving.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/Archiving.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bookeye_4_V1A_Compliance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_Compliance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bookeye_4_V1A_Documentation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_Documentation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Videos.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Technical_Data.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Brochures.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html" />
         <option value="$PROJECT_DIR$/pages/Worldwide_Service.html" />
@@ -120,6 +126,8 @@
         <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html" />
         <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Brochures.html" />
         <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_Compliance.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Brochures.html" />
       </list>
     </option>
   </component>
@@ -294,12 +302,12 @@
       <workItem from="1460024395987" duration="3834000" />
       <workItem from="1460029308302" duration="10119000" />
       <workItem from="1460097159316" duration="8919000" />
-      <workItem from="1460109262689" duration="6409000" />
+      <workItem from="1460109262689" duration="7198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61071000" />
+    <option name="totallyTimeSpent" value="61860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -357,27 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V2_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="169" column="44" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" column="44" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_44_Product_Brochures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Product_Brochures.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -567,18 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -599,14 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/include.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -815,12 +782,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Archiving.html">
+    <entry file="file://$PROJECT_DIR$/js/include.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Brochures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_Compliance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_Documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Archiving.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="9" />
+          <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
