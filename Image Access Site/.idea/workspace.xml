@@ -2,114 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016f9b22-49e0-4ab9-b10d-e5e5de4d386c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4_BSCAN_ILL_Capture_Workflow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4_Old_and_New.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Amount_of_served_students.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Born_Digital.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Face_Down_or_Face_Up.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Fleet_Management.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_In_case_you_didnt_know.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Product_Family.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Searchable_Collections.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_SmartDock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Tech_Specs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_KIC_Click_Mini.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Digitize_on_Demand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_The_KIC_Product_Family.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/KIC_Fleet_Manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Collection_Composer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Hierarchical_Metadata_Capture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Image_Treatment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/Opus_Workflow.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4_BSCAN_ILL_Capture_Workflow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4_Old_and_New.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Amount_of_served_students.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Born_Digital.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Face_Down_or_Face_Up.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Fleet_Management.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_In_case_you_didnt_know.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Product_Family.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Searchable_Collections.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_SmartDock.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Tech_Specs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_KIC_Click_Mini.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Digitize_on_Demand.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_The_KIC_Product_Family.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Fleet_Manager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Collection_Composer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Hierarchical_Metadata_Capture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Image_Treatment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_Workflow.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4.html" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4_Company_History.html" afterPath="$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4_Company_History.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/CONTACT_US.html" afterPath="$PROJECT_DIR$/pages/CONTACT_US.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Beauty_Images.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Beauty_Images.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Bookeye_vs_Copiers.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Bookeye_vs_Copiers.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Digital_Age_System.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Digital_Age_System.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Hybrid_Library.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Hybrid_Library.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_Message_to_Students.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_Message_to_Students.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Bookeye_4_True_2_Touch.html" afterPath="$PROJECT_DIR$/pages/KIC_Bookeye_4_True_2_Touch.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_A_True_Digital_Age_Multifunction_System.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_A_True_Digital_Age_Multifunction_System.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_A_message_to_students.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_A_message_to_students.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Beautiful_Images_Fast_and_Easy.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Beautiful_Images_Fast_and_Easy.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_In_case_you_didnt_know.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_In_case_you_didnt_know.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_KIC_Bookeye_vs_Copiers.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_KIC_Bookeye_vs_Copiers.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_KIC_Makes_Your_Print_Collections_Searchable.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_KIC_Makes_Your_Print_Collections_Searchable.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_KIC_SmartDock.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_KIC_SmartDock.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Technical_Specifications.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Technical_Specifications.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_The_Hybrid_Library.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_The_Hybrid_Library.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Two_Large_Screens_for_Simplicity_Power.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Two_Large_Screens_for_Simplicity_Power.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/KIC_Click_and_Mini_Your_Choice_Scan_Face_Down_or_Face_Up.html" afterPath="$PROJECT_DIR$/pages/KIC_Click_and_Mini_Your_Choice_Scan_Face_Down_or_Face_Up.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_FreeFlow.html" afterPath="$PROJECT_DIR$/pages/Opus_FreeFlow.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_FreeFlow_vs_Opus_WorkFlow.html" afterPath="$PROJECT_DIR$/pages/Opus_FreeFlow_vs_Opus_WorkFlow.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_A_new_Era_in_Digitization.html" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_A_new_Era_in_Digitization.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Elements_of_Opus.html" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Elements_of_Opus.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pages/Dlsg_Pages/Opus_WorkFlow_Highlights.html" afterPath="$PROJECT_DIR$/pages/Opus_WorkFlow_Highlights.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/include.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/header.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.html" afterPath="$PROJECT_DIR$/includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.html" afterPath="$PROJECT_DIR$/includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/About_Image_Access.html" afterPath="$PROJECT_DIR$/pages/About_Image_Access.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Accessibility_VPAT.html" afterPath="$PROJECT_DIR$/pages/Accessibility_VPAT.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Application_Report.html" afterPath="$PROJECT_DIR$/pages/Application_Report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Archiving.html" afterPath="$PROJECT_DIR$/pages/Archiving.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/BookEdge.html" afterPath="$PROJECT_DIR$/pages/BookEdge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Book_Copier.html" afterPath="$PROJECT_DIR$/pages/Book_Copier.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Book_Scanner.html" afterPath="$PROJECT_DIR$/pages/Book_Scanner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Compliance.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Compliance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Downloads_Tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Functions_Features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V2_Documentation.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V2_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V2_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V2_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V3_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V3_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Factory_Tour.html" afterPath="$PROJECT_DIR$/pages/Factory_Tour.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/KIC_Software.html" afterPath="$PROJECT_DIR$/pages/KIC_Software.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Knowledge_Access_Tool_KAT.html" afterPath="$PROJECT_DIR$/pages/Knowledge_Access_Tool_KAT.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Opus_Software.html" afterPath="$PROJECT_DIR$/pages/Opus_Software.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Output_to_3D_Digital_Library.html" afterPath="$PROJECT_DIR$/pages/Output_to_3D_Digital_Library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Output_to_KAT_Stacks_View.html" afterPath="$PROJECT_DIR$/pages/Output_to_KAT_Stacks_View.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Output_to_content_managers.html" afterPath="$PROJECT_DIR$/pages/Output_to_content_managers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/PDF_output.html" afterPath="$PROJECT_DIR$/pages/PDF_output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Scan2Net.html" afterPath="$PROJECT_DIR$/pages/Scan2Net.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Scan2iPF.html" afterPath="$PROJECT_DIR$/pages/Scan2iPF.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/TIFF_JPEG_PNG_Output.html" afterPath="$PROJECT_DIR$/pages/TIFF_JPEG_PNG_Output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Users_Gallery.html" afterPath="$PROJECT_DIR$/pages/Users_Gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Product_Brochures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44_Product_Videos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44_Product_Videos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Presentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Presentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Markets_Applications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Presentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Presentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48_Product_Photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html" afterPath="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/CONTACT_US.html" afterPath="$PROJECT_DIR$/pages/CONTACT_US.html" />
     </list>
     <ignored path="Image Access Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,12 +45,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="CONTACT_US.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/CONTACT_US.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="130" column="9" selection-start-line="128" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bookeye_4_V1A_C35_Technical_Data.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +79,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -155,16 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/Frames/Frame_5B.html" />
-        <option value="$PROJECT_DIR$/css/bro-con.css" />
-        <option value="$PROJECT_DIR$/pages/Frames/Frame_5A.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" />
-        <option value="$PROJECT_DIR$/js/slides.js" />
-        <option value="$PROJECT_DIR$/pages/BscanPage.html" />
-        <option value="$PROJECT_DIR$/css/footer.css" />
-        <option value="$PROJECT_DIR$/pages/Dlsg_Pages/BSCAN_ILL_Bookeye_4.html" />
-        <option value="$PROJECT_DIR$/css/mainmenu.css" />
         <option value="$PROJECT_DIR$/pages/WideTEK_44.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Product_Videos.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Technical_Data.html" />
@@ -175,7 +100,6 @@
         <option value="$PROJECT_DIR$/js/gallery-init.js" />
         <option value="$PROJECT_DIR$/js/hammer.min.js" />
         <option value="$PROJECT_DIR$/js/gallery.js" />
-        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" />
         <option value="$PROJECT_DIR$/pages/Bookeye_4_V3_Product_Photos.html" />
         <option value="$PROJECT_DIR$/pages/Bookeye_4_V2_Product_Photos.html" />
         <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_Product_Photos.html" />
@@ -197,6 +121,26 @@
         <option value="$PROJECT_DIR$/pages/Dlsg_Pages/CONTACT_US.html" />
         <option value="$PROJECT_DIR$/includes/header.html" />
         <option value="$PROJECT_DIR$/includes/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/css/all.css" />
+        <option value="$PROJECT_DIR$/js/include.js" />
+        <option value="$PROJECT_DIR$/pages/CONTACT_US.html" />
+        <option value="$PROJECT_DIR$/pages/About_Image_Access.html" />
+        <option value="$PROJECT_DIR$/pages/Accessibility_VPAT.html" />
+        <option value="$PROJECT_DIR$/pages/Application_Report.html" />
+        <option value="$PROJECT_DIR$/pages/Archiving.html" />
+        <option value="$PROJECT_DIR$/pages/Book_Copier.html" />
+        <option value="$PROJECT_DIR$/pages/Book_Scanner.html" />
+        <option value="$PROJECT_DIR$/pages/BookEdge.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Compliance.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Downloads_Tools.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Functions_Features.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html" />
+        <option value="$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html" />
       </list>
     </option>
   </component>
@@ -256,6 +200,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Image Access Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Image Access Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -268,6 +226,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="editor.config.accepted" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -356,33 +315,33 @@
       <workItem from="1460024395987" duration="3834000" />
       <workItem from="1460029308302" duration="10119000" />
       <workItem from="1460097159316" duration="8919000" />
-      <workItem from="1460109262689" duration="70000" />
+      <workItem from="1460109262689" duration="5741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54732000" />
+    <option name="totallyTimeSpent" value="60403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17123288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,117 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_44_Compliance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="239" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_44.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="192" column="68" selection-start-line="192" selection-start-column="68" selection-end-line="192" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Technical_Data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Product_Videos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="216" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/slides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17408">
-          <caret line="1032" column="27" selection-start-line="1032" selection-start-column="17" selection-end-line="1032" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/BSCAN_ILL_Bookeye_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Simple-Responsive-jQuery-Gallery-with-Thumbnail-Navigation/js/main.js" />
-    <entry file="file://$USER_HOME$/Downloads/Simple-Responsive-jQuery-Gallery-with-Thumbnail-Navigation/js/gallery.js" />
-    <entry file="file://$USER_HOME$/Downloads/Simple-Responsive-jQuery-Gallery-with-Thumbnail-Navigation/css/main.css" />
-    <entry file="file://$USER_HOME$/Downloads/Simple-Responsive-jQuery-Gallery-with-Thumbnail-Navigation/css/normalize.css" />
-    <entry file="file://$USER_HOME$/Downloads/Simple-Responsive-jQuery-Gallery-with-Thumbnail-Navigation/css/gallery.css" />
-    <entry file="file://$PROJECT_DIR$/js/hammer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gallery-init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="207" column="10" selection-start-line="116" selection-start-column="4" selection-end-line="207" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="172" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V3_Product_Photos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -657,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C_Technical_Data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="119" column="15" selection-start-line="119" selection-start-column="15" selection-end-line="119" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/Worldwide_Service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -675,6 +516,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="117" column="61" selection-start-line="116" selection-start-column="8" selection-end-line="117" selection-end-column="61" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,6 +527,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,14 +542,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="144" column="83" selection-start-line="144" selection-start-column="83" selection-end-line="144" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,22 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CONTACT_US.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -752,11 +579,265 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/gradient_background.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/include.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/About_Image_Access.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Application_Report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Archiving.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Book_Copier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Book_Scanner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/BookEdge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Compliance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Downloads_Tools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Functions_Features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Markets_Applications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Product_Photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Accessibility_VPAT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CONTACT_US.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="130" column="9" selection-start-line="128" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C_Technical_Data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="127" column="37" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Bookeye_4_V1A_C35_Technical_Data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
