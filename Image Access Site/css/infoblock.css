@@ -31,12 +31,20 @@
 
 .infoblock .technical_data tbody tr th {
     font-weight: bold;
+    width: 200px;
 }
 
 .infoblock span {
     font-weight: bold;
     padding-bottom: 5px;
     display: block;
+}
+
+.infoblock span.new {
+    padding: 0;
+    font-style: italic;
+    display: inline-block;
+    color: #f00;
 }
 
 .infoblock img {
@@ -104,11 +112,13 @@
     float: right;
     margin: 100px 10px 0 0;
 }
+
 .infoblock .scrolled_pic .images .image .back_text_pdf {
     width: 20%;
     float: right;
     margin: 100px 10px 0 0;
 }
+
 .infoblock .scrolled_pic .images .image .back_text span {
     color: #093C8B;
     font-size: 18px;
@@ -176,3 +186,27 @@
 .infoblock .table_video .video-links a {
     font-weight: bold;
 }
+
+.infoblock .table_documentation {
+    width: 100%;
+}
+
+.infoblock .table_documentation tbody tr :nth-child(1) {
+    font-weight: bold;
+}
+
+.infoblock img.mainpage_img {
+    float: right;
+    width: 235px;
+    margin: 2px;
+}
+
+/* start temporary style */
+
+.infoblock p.waiting {
+    color: #f00;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* end temporary style */

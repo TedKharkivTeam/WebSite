@@ -54,8 +54,7 @@
           behavior     : "hover",        // interaction strategy
           layout       : "inner",        // layout strategy. may be "inner", "top", "right", "bottom", "left", "magnify" or empty
           border       : 4,              // invisible border around the view. Used to offset the zoom layer
-          magSize      : 0.3,
-          // parameter for the preview image
+          magSize      : 0.3,            // parameter for the preview image
           source       : undefined,      // the uri to the image
           image        : undefined,      // the loaded image object (is set by this script)
           title        : undefined,      // the optional title for the preview image
