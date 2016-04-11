@@ -237,3 +237,8 @@ strong {
 .gallery .slick-slide {
     height: 480px;
 }
+
+ul.temporary li a {
+    font-size: 30px;
+    color: #f00;
+}

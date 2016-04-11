@@ -10,6 +10,7 @@
 
 .infoblock p {
     padding-bottom: 5px;
+    text-align: justify;
 }
 
 .infoblock div.pdf_preview {
@@ -18,6 +19,14 @@
 
 .infoblock div.pdf_preview > a {
     float: left;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+    color: #093C8B;
+}
+
+.infoblock div.pdf_preview > a > img {
+    float: left;
+    box-shadow: 3px 3px 5px #8E8E8E;
 }
 
 .infoblock a.pdf_version {
@@ -51,9 +60,12 @@
     max-width: 100%;
 }
 
+.infoblock ul {
+    padding: 0 0 0 24px;
+    list-style: disc;
+}
+
 .infoblock ul li {
-    background: url("../images/blue-bullet.png") no-repeat left 2px;
-    padding-left: 24px;
     line-height: 24px;
 }
 
