@@ -3,54 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="016f9b22-49e0-4ab9-b10d-e5e5de4d386c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spritezoominit.js" afterPath="$PROJECT_DIR$/js/spritezoominit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Markets_Applications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Presentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Presentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Product_Brochures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_12_Technical_Data.html" afterPath="$PROJECT_DIR$/pages/WideTEK_12_Technical_Data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Markets_Applications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Product_Brochures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_25_Technical_Data.html" afterPath="$PROJECT_DIR$/pages/WideTEK_25_Technical_Data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Markets_Applications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Presentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Presentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Brochures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Videos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Product_Videos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36C_Technical_Data.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36C_Technical_Data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36DS_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36DS_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Compliance.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Compliance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Documentation.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Documentation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Downloads_Tools.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Downloads_Tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Functions_Features.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Functions_Features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Markets_Applications.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Markets_Applications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Product_Brochures.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Product_Brochures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Product_Photos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Product_Photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Product_Videos.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Product_Videos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_36_Technical_Data.html" afterPath="$PROJECT_DIR$/pages/WideTEK_36_Technical_Data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_44.html" afterPath="$PROJECT_DIR$/pages/WideTEK_44.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/WideTEK_48C.html" afterPath="$PROJECT_DIR$/pages/WideTEK_48C.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/infoblock.css" afterPath="$PROJECT_DIR$/css/infoblock.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.html" afterPath="$PROJECT_DIR$/includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Premium_Annual_Maintenance.html" afterPath="$PROJECT_DIR$/pages/Premium_Annual_Maintenance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Preservation.html" afterPath="$PROJECT_DIR$/pages/Preservation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Problem_Determination_Procedures.html" afterPath="$PROJECT_DIR$/pages/Problem_Determination_Procedures.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Productivity_Calculator.html" afterPath="$PROJECT_DIR$/pages/Productivity_Calculator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Remote_Web_Service_Procedures.html" afterPath="$PROJECT_DIR$/pages/Remote_Web_Service_Procedures.html" />
     </list>
     <ignored path="Image Access Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +29,7 @@
     <favorites_list name="Image Access Site" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,13 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Presentation.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Markets_Applications.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Functions_Features.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Downloads_Tools.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Documentation.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS_Compliance.html" />
-        <option value="$PROJECT_DIR$/pages/WideTEK_36DS.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36C_Technical_Data.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36C_Product_Videos.html" />
         <option value="$PROJECT_DIR$/pages/WideTEK_36C_Product_Photos.html" />
@@ -137,6 +89,13 @@
         <option value="$PROJECT_DIR$/pages/WideTEK_12_Compliance.html" />
         <option value="$PROJECT_DIR$/js/spritezoominit.js" />
         <option value="$PROJECT_DIR$/pages/WideTEK_12.html" />
+        <option value="$PROJECT_DIR$/pages/Remote_Web_Service_Procedures.html" />
+        <option value="$PROJECT_DIR$/css/infoblock.css" />
+        <option value="$PROJECT_DIR$/pages/Productivity_Calculator.html" />
+        <option value="$PROJECT_DIR$/includes/header.html" />
+        <option value="$PROJECT_DIR$/pages/Problem_Determination_Procedures.html" />
+        <option value="$PROJECT_DIR$/pages/Preservation.html" />
+        <option value="$PROJECT_DIR$/pages/Premium_Annual_Maintenance.html" />
       </list>
     </option>
   </component>
@@ -317,32 +276,33 @@
       <workItem from="1460186611156" duration="16552000" />
       <workItem from="1460208519015" duration="5651000" />
       <workItem from="1460355338357" duration="10929000" />
+      <workItem from="1460376163938" duration="1604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110455000" />
+    <option name="totallyTimeSpent" value="112059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14330874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,128 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Compliance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="154" column="60" selection-start-line="154" selection-start-column="60" selection-end-line="154" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Product_Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36C_Product_Brochures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Presentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="84" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Product_Brochures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36C_Markets_Applications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36C_Functions_Features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36C_Downloads_Tools.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS_Documentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="46" column="85" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36C_Compliance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="157" column="10" selection-start-line="157" selection-start-column="10" selection-end-line="157" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C_Presentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_36DS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_44.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48C.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="108" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/WideTEK_36_Technical_Data.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
@@ -517,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="71" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
           <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,7 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="63" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="53" column="89" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="109" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="46" column="90" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="129" column="89" selection-start-line="129" selection-start-column="89" selection-end-line="129" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="145" column="20" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,6 +610,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Site_Map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Remote_Web_Service_Procedures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Standard_Maintenance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/WideTEK_48_Presentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Productivity_Calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/include.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Production_Digitization_for_Journal_Article_Lending.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Production_Image_Processing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/infoblock.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Problem_Determination_Procedures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Preservation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Premium_Annual_Maintenance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Press_Releases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
           <folding />
         </state>
       </provider>

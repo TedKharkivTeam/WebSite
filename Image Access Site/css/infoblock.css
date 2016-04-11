@@ -10,6 +10,7 @@
 
 .infoblock p {
     padding-bottom: 5px;
+    text-align: justify;
 }
 
 .infoblock div.pdf_preview {
