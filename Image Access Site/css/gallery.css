@@ -62,3 +62,9 @@
 .gallery .thumbs .thumb.active {
     border-color: #2487D6;
 }
+
+.gallery .thumbs .brochure {
+    width: 100%;
+    height: auto;
+    border: none;
+}

@@ -67,12 +67,14 @@ h2 {
     color: #093C8B;
     padding: 5px 0 30px 0;
     line-height: 1.4;
+    font-weight: bold;
 }
 
 h3 {
     color: #093C8B;
     font-size: 14px;
     margin: 18pt 0 6pt 0;
+    font-weight: bold;
 }
 
 h4 {

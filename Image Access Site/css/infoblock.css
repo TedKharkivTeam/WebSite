@@ -1,7 +1,7 @@
 .infoblock {
     margin: 2px 0 0;
     padding: 20px;
-    width: 55%;
+    width: 60%;
     text-align: left;
     float: left;
     word-wrap: break-word;
@@ -26,16 +26,25 @@
 
 .infoblock .technical_data {
     width: 90%;
+    margin: 0;
 }
 
 .infoblock .technical_data tbody tr th {
     font-weight: bold;
+    width: 200px;
 }
 
 .infoblock span {
     font-weight: bold;
     padding-bottom: 5px;
     display: block;
+}
+
+.infoblock span.new {
+    padding: 0;
+    font-style: italic;
+    display: inline-block;
+    color: #f00;
 }
 
 .infoblock img {
@@ -46,6 +55,11 @@
     background: url("../images/blue-bullet.png") no-repeat left 2px;
     padding-left: 24px;
     line-height: 24px;
+}
+
+.infoblock embed.pdf_view {
+    width: 85%;
+    height: 700px;
 }
 
 .w-table {
@@ -83,8 +97,24 @@
     margin: 20px;
 }
 
+.infoblock .scrolled_pic .images .image .back_pdf {
+    width: 75%;
+    margin: 10px;
+}
+
+.infoblock .scrolled_pic .images .image .back_pdf embed {
+    width: 100%;
+    height: 525px;
+}
+
 .infoblock .scrolled_pic .images .image .back_text {
     width: 39%;
+    float: right;
+    margin: 100px 10px 0 0;
+}
+
+.infoblock .scrolled_pic .images .image .back_text_pdf {
+    width: 20%;
     float: right;
     margin: 100px 10px 0 0;
 }
@@ -93,3 +123,90 @@
     color: #093C8B;
     font-size: 18px;
 }
+
+.infoblock .scrolled_pic .images .image .back_text_pdf a {
+    color: #093C8B;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.infoblock .table_comliance {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.infoblock .table_comliance .conf_sing {
+    width: 15%;
+    float: left;
+}
+
+.infoblock .table_comliance .conf_description {
+    width: 85%;
+    float: left;
+}
+
+.infoblock .table_comliance .conf_description span {
+    color: #093C8B;
+    margin: 10px 0 0;
+}
+
+.infoblock .table_comliance .conf_sing img {
+    margin: 20px auto;
+    display: block;
+    width: 75px;
+    height: auto;
+}
+
+.infoblock .table_comliance .conf_sing h2 {
+    width: 75px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.infoblock .table_video {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.infoblock .table_video .video-preview {
+    width: 60%;
+    float: left;
+}
+
+.infoblock .table_video .video-preview img {
+    width: 90%;
+    height: auto;
+}
+
+.infoblock .table_video .video-links {
+    width: 40%;
+    float: left;
+}
+
+.infoblock .table_video .video-links a {
+    font-weight: bold;
+}
+
+.infoblock .table_documentation {
+    width: 100%;
+}
+
+.infoblock .table_documentation tbody tr :nth-child(1) {
+    font-weight: bold;
+}
+
+.infoblock img.mainpage_img {
+    float: right;
+    width: 235px;
+    margin: 2px;
+}
+
+/* start temporary style */
+
+.infoblock p.waiting {
+    color: #f00;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* end temporary style */
