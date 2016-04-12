@@ -86,12 +86,17 @@ input, textarea {
 }
 
 .mainform {
-    padding: 50px 0 20px 90px;
+    padding: 50px 90px 20px 90px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
     font-weight: bold;
+    height: 300px;
+}
+
+.mainform .form-left {
+    min-height: calc(100% - 44px);
 }
 
 .mainform fieldset {
@@ -189,6 +194,7 @@ input, textarea {
     margin-left: 38px;
     width: 100%;
     max-width: 500px;
+
 }
 
 .address span {
@@ -206,6 +212,7 @@ input, textarea {
 .parkin {
     position: relative;
     padding: 0 !important;
+    max-width: none!important;
 }
 
 .adr-top {
@@ -217,7 +224,7 @@ input, textarea {
 .adr-bottom {
     position: absolute;
     bottom: 0;
-    left: 15%;
+    left: 10%;
 }
 
 .sub--images {
@@ -230,3 +237,4 @@ input, textarea {
     left: 0;
     font-size: 14px;
 }
+
