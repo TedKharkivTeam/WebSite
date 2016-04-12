@@ -1,5 +1,5 @@
 jQuery(function () {
-    jQuery('#tabset').contentTabs({
+    jQuery('#product-tab').contentTabs({
         addToParent: true,
         tabLinks: 'a'
     });
