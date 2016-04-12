@@ -207,10 +207,9 @@ strong {
     position: absolute;
     border: none;
     z-index: 1;
-    font-size: 22px;
     border-radius: 3px;
     color: #2D338B;
-    padding: 0 10px;
+    padding: 0 13px;
     opacity: 0.7;
 }
 
@@ -219,13 +218,13 @@ strong {
 }
 
 .slick-prev {
-    bottom: 2px;
+    bottom: 10px;
     left: 10px;
 }
 
 .slick-next {
-    bottom: 2px;
-    left: 44px;
+    bottom: 10px;
+    left: 60px;
 }
 
 .gallery:after {
