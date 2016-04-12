@@ -61,7 +61,13 @@ body {
     width: 100%;
     min-width: 960px;
 }
-
+h1 {
+    font-size: 22px;
+    color: #02307E;
+    text-shadow: 2px 3px 7px #3371b3;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
 h2 {
     font-size: 18px;
     color: #093C8B;
