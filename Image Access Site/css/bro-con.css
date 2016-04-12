@@ -439,7 +439,7 @@ div.dn_arrow {
 }
 
 .grean-left {
-    padding-left: 7%;
+    padding-left: 12%;
     padding-right: 5px;
     position: relative;
 }
@@ -457,7 +457,7 @@ div.dn_arrow {
 
 .grean-right {
     padding-left: 5px;
-    padding-right: 7%;
+    padding-right: 20%;
     position: relative;
 }
 
@@ -620,4 +620,67 @@ div.dn_arrow {
 .brochure-block .a--contact:hover {
     text-decoration: none;
     color: #3b4b9d;
+}
+
+.content-block {
+    width: calc(100% - 50px);
+    display: block;
+    padding: 15px 25px;
+}
+
+.content-block .left-block {
+    width: 35%;
+    float: left;
+}
+
+.content-block .right-block {
+    width: 65%;
+    float: right;
+}
+
+.chart-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+    margin-bottom: 15px;
+}
+
+.chart-title p {
+    line-height: 35px;
+}
+
+.chart-title .circle {
+    background: black;
+    border-radius: 50%;
+    color: white;
+    padding: 7px;
+    font-size: 29px;
+    vertical-align: top;
+}
+
+.chart-name {
+    font-size: 39px;
+    color: #73be6c;
+    padding: 0px;
+    line-height: 35px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.content-block .left-block .info-text {
+    font-size: 21px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.kic_logo {
+    width: 115%;
+}
+
+.chart-img {
+    width: 95%;
+    float: right;
 }
