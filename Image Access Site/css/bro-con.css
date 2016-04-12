@@ -367,12 +367,12 @@ h4 {
     margin-bottom: 0.2em;
 }
 
-.brochure-block ul {
+/*.brochure-block ul {
     margin: 2.5em 2em 1em 0;
     width: 90%;
     float: left;
     list-style-image: url("../images/Dlsg/KIC/green-bullet.png");
-}
+}*/
 
 .brochure-block ul.peppermint {
     list-style-image: url("../images/Dlsg/KIC/blue-bullet.png");
@@ -495,11 +495,9 @@ div.dn_arrow {
 }
 
 .imgbook {
-    width: 190px;
+    max-width: 190px;
     padding: 0 !important;
-    height: 100%;
     position: relative;
-    top: 25px;
 }
 
 .imgbook.large {
