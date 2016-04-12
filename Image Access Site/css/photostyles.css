@@ -35,7 +35,7 @@
 .image-preview-team {
     width: 370px;
     text-align: left;
-    margin: 33px 0px 0 0px;
+    margin: 33px 0 0 0;
     padding: 8px;
     cursor: auto;
 }
@@ -58,7 +58,7 @@
 .image-preview-partner {
     width: 382px;
     height: 55px;
-    margin: 13px 0px 23px 0px;
+    margin: 13px 0 23px 0;
     padding: 10px 0;
     float: left;
     text-align: left;
