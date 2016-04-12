@@ -10,6 +10,19 @@
 
 .infoblock p {
     padding-bottom: 5px;
+    text-align: justify;
+}
+
+.infoblock p.opus {
+    width: 80%;
+    background: #2487D6;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto 10px;
+    border: 1px solid #000;
+    box-shadow: 3px 3px 5px #8E8E8E;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .infoblock div.pdf_preview {
@@ -18,6 +31,14 @@
 
 .infoblock div.pdf_preview > a {
     float: left;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+    color: #093C8B;
+}
+
+.infoblock div.pdf_preview > a > img {
+    float: left;
+    box-shadow: 3px 3px 5px #8E8E8E;
 }
 
 .infoblock a.pdf_version {
@@ -49,29 +70,42 @@
 
 .infoblock img {
     max-width: 100%;
+    height: auto;
+}
+
+.infoblock ul {
+    padding: 0 0 0 24px;
+    list-style: disc;
 }
 
 .infoblock ul li {
-    background: url("../images/blue-bullet.png") no-repeat left 2px;
-    padding-left: 24px;
     line-height: 24px;
+}
+
+.infoblock ul.opus_list {
+    list-style: none;
+    columns: 2;
+    column-gap: 2em;
+    -moz-columns: 2;
+    -moz-column-gap: 2em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 2em;
+}
+
+.infoblock ul.opus_list li {
+    margin: 0 0 20px;
+    text-align: justify;
+}
+
+.infoblock ul.opus_list li span {
+    font-size: 18px;
+    margin: 0 0 10px;
+    text-align: left;
 }
 
 .infoblock embed.pdf_view {
     width: 85%;
     height: 700px;
-}
-
-.w-table {
-    background: #fff;
-    color: #000;
-    font-weight: normal !important;
-}
-
-.b-table {
-    background: #2588D7;
-    color: #fff;
-    font-weight: normal !important;
 }
 
 .infoblock .scrolled_pic {
@@ -201,6 +235,42 @@
     margin: 2px;
 }
 
+.infoblock table.opus_table {
+    width: 100%;
+}
+.infoblock table.opus_table tbody tr :nth-child(1) {
+    width: 70%;
+}
+.infoblock table.opus_table tbody tr :nth-child(n+2) {
+    text-align: center;
+}
+.infoblock table.opus_table tbody tr th {
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    color: #fff;
+}
+
+.infoblock div.title_opus {
+    width: 100%;
+    overflow: hidden;
+}
+.infoblock div.title_opus img {
+    float: left;
+}
+.infoblock div.title_opus div {
+    float: left;
+}
+.infoblock div.title_opus span.freedom {
+    font-size: 26px;
+    line-height: 28px;
+    color: #315080;
+}
+.infoblock p.opus_p {
+    margin: 10px 0;
+}
 /* start temporary style */
 
 .infoblock p.waiting {
