@@ -100,7 +100,6 @@
 .centr-align {
     align-items: center;
     justify-content: space-between;
-    padding: 0;
 }
 
 .centr-align3 {
@@ -367,12 +366,6 @@ h4 {
     margin-bottom: 0.2em;
 }
 
-/*.brochure-block ul {
-    margin: 2.5em 2em 1em 0;
-    width: 90%;
-    float: left;
-    list-style-image: url("../images/Dlsg/KIC/green-bullet.png");
-}*/
 
 .brochure-block ul.peppermint {
     list-style-image: url("../images/Dlsg/KIC/blue-bullet.png");
@@ -384,15 +377,6 @@ h4 {
 
 .brochure-block ul.bullet {
     list-style-type: disc;
-}
-
-.brochure-block li {
-    margin: 0.6em 3em;
-    font-size: 120%;
-}
-
-.brochure-block ul.bullet li {
-    margin: 0.35em 3em;
 }
 
 .scanner-label p {
@@ -493,6 +477,33 @@ div.dn_arrow {
     width: 32px;
     height: 32px;
 }
+.new-red{
+    background: #ca3731;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+    z-index: 0;
+}
+   .text-grey-pbd:before {
+      content: '';
+    position: absolute;
+    left: -70px;
+    bottom: -70px;
+    border: 70px solid transparent;
+    border-bottom: 70px solid #ca3731;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 0;
+   }
 
 .imgbook {
     max-width: 190px;
@@ -502,7 +513,27 @@ div.dn_arrow {
 
 .imgbook.large {
     width: 250px;
+    height: 100%;
 }
+.img-frame{
+    width: 40%;
+    border: 1px solid #b0b0b0;
+    margin: 0 4.5%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.brochure-block .frame--text{
+    font-size: 16px;
+    padding: 5px 20px;
+}
+.pbd--frame{
+    width: 35%;
+}
+.mt{
+    margin-top: -50px;
+}
+
 
 .bbc {
     align-items: center;
@@ -511,6 +542,9 @@ div.dn_arrow {
 .bb--end {
     align-items: flex-end;
     margin-top: 10px;
+}
+.fr5c{
+    width: 60%!important;
 }
 
 .tabs_book {
@@ -681,4 +715,37 @@ div.dn_arrow {
 .chart-img {
     width: 95%;
     float: right;
+}
+.indentation{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.kat--arrow{
+    position: relative;
+}
+.green--arrow{
+    position: absolute;
+    top: -92px;
+    right: -70px;
+}
+.italic-text{
+    font-style: italic;
+    padding-left: 20px;
+}
+.dlos-logo{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 0;
+}
+.frame--text--top{
+    padding-top: 60px!important;
+}
+.frame--text--width{width: 30%;}
+.p-top{
+    padding-bottom: 100px;
+}
+.DLOS_Icon{
+    max-width: 200px;
 }
