@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product Video &ndash; WideTEK 44 wide format scanner :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/gallery.css">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
+    <script src="../js/hammer.min.js" type="text/javascript"></script>
+    <script src="../js/gallery.js" type="text/javascript"></script>
+    <script src="../js/gallery-init.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
-</head>
 <body class="gradient">
 <header>
     <div id="includeHeader"></div>
@@ -32,46 +35,57 @@
     <div class="infoblock">
         <h2>WideTEK&reg; 44 Product Videos</h2>
         <p>Image Access has the copyright on all images shown below. </p>
-        <div class="table_video">
-            <div class="video-preview">
-                <a href="#" video="Produktvideo_WT36-42-48-600" target="_blank" title=""><img
-                        src="../images/WideTEK_44/CoverWT36-600.jpg"></a></div>
-            <div class="video-links"><h3>WideTEK Wide Format Scanner Product Video</h3> English<br>Time: 05:29Min<br>
-                <a id="a_source_mp4"
-                   href="http://support.imageaccess.de/downloads/advertisement/Videos/Produktvideo_WT36-42-48-600">⇓MP4</a>&nbsp;<a
-                        id="a_source_ogg"
-                        href="http://support.imageaccess.de/downloads/advertisement/Videos/Produktvideo_WT36-42-48-600">⇓OGG</a>
+        <div class="gallery scrolled_pic">
+            <div class="images">
+                <div class="image active">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/WideTEK_36,42.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+                <div class="image">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/Universal_Multi_Function_Stand.mp4"
+                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
             </div>
-        </div>
-        <div class="table_video">
-            <div class="video-preview">
-                <a href="#" video="UNIVERSAL_MULTI_FUNCTION_STAND" target="_blank" title=""><img
-                        src="../images/WideTEK_44/CoverWT_Tutorial_01.jpeg"></a></div>
-            <div class="video-links"><h3>Assembling the Universal Multi Function Stand</h3> English<br>Time:
-                06:44Min<br>
-                <a id="a_source_mp4"
-                   href="http://support.imageaccess.de/downloads/advertisement/Videos/UNIVERSAL_MULTI_FUNCTION_STAND">⇓MP4</a>&nbsp;<a
-                        id="a_source_ogg"
-                        href="http://support.imageaccess.de/downloads/advertisement/Videos/UNIVERSAL_MULTI_FUNCTION_STAND">⇓OGG</a>
+            <p>Image Access has the copyright on all images shown below. </p>
+            <div class="thumbs">
+                <div class="thumb brochure active">
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/WideTEK_44/CoverWT36-600.jpg" width="910" height="511"
+                                     alt="coverWT44-600">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>WideTEK Wide Format Scanner Product Video</h3>
+                            English<br>Time: 05:29Min<br>
+                            <a
+                                    href="../video/WideTEK_36,42.mp4" download>Download ⇓MP4</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumb brochure">
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/WideTEK_44/CoverWT36-600.jpg">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>Assembling the Universal Multi Function Stand</h3> English<br>Time: 06:44Min<br>
+                            <a href="../video/Universal_Multi_Function_Stand.mp4">Download⇓MP4</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <p>
+                <a href="http://www.youtube.com/user/ImageAccessScanners" target="_blank">Click here to visit us on
+                    YouTube!</a>
+            </p>
         </div>
-        <!--<script>-->
-        <!--$.videoPath = 'http://support.imageaccess.de/downloads/advertisement/Videos/';-->
-        <!--var videoLink = 'UNIVERSAL_MULTI_FUNCTION_STAND';-->
-
-        <!--var video = $('.stage-video').find('video').get(0);-->
-        <!--console.log('video');-->
-        <!--console.log(video);-->
-        <!--$('#source_mp4').attr('src', $.videoPath + videoLink + '.mp4');-->
-        <!--$('#source_ogg').attr('src', $.videoPath + videoLink + '.ogg');-->
-        <!--$('#source_flv').attr('value', 'controls=true&amp;src=http%3A%2F%2Fsupport.imageaccess.de%2Fdownloads%2Fadvertisement%2FVideos%2F' + videoLink + '.mp4');-->
-        <!--$('track').attr('src', '_Scanners/Videos/' + videoLink + '.vtt');-->
-
-        <!--if (typeof video != 'undefined')-->
-        <!--video.load();-->
-        <!--</script>-->
-        <p><a href="http://www.youtube.com/user/ImageAccessScanners" title="" target="_blank">Click here to visit us on
-            YouTube!</a></p>
     </div>
 </div>
 <footer>
