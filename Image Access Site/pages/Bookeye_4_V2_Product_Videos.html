@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product Videos :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/gallery.css">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
+    <script src="../js/gallery.js" type="text/javascript"></script>
+    <script src="../js/gallery-init.js" type="text/javascript"></script>
+    <script src="../js/hammer.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
 </head>
 <body class="gradient">
@@ -36,67 +40,111 @@
         <h2>Bookeye<sup>&reg;</sup> 4 V2 Basic Product Videos</h2>
 
         <p>Image Access holds the copyright on all images shown below. </p>
-
-        <div class="video-preview"><a href="#" video="BE4-V2P" target="_blank" title="">
-            <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-SGS-V2Pro.JPG"></a></div>
-        <div class="video-links"><h3>Bookeye 4 V2 Professional Product Video</h3> English<br>Time: 03:33Min<br><a
-                id="a_source_mp4" href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4-V2P">⇓MP4</a>&nbsp;<a
-                id="a_source_ogg" href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4-V2P">⇓OGG</a>
+        <div class="gallery scrolled_pic">
+            <div class="images">
+                <div class="image active">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/Bookeye_4_V2_Kiosk_Book_Scanner_in_A2_Format.mp4"
+                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+                <div class="image">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/Feature_overview_of_your_Bookeye_4V2.mp4"
+                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+                <div class="image">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/Unpacking_your_Bookeye_4V2.mp4"
+                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+                <div class="image">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/Installation_of_your_Bookeye_4V2.mp4"
+                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+                <div class="image">
+                    <video width="100%" height="auto" controls="controls">
+                        <source src="../video/Calibration_of_your_Bookeye_4V2.mp4"
+                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+            </div>
+            <p>Image Access has the copyright on all images shown below. </p>
+            <div class="thumbs">
+                <div class="thumb brochure active">
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-SGS-V2Pro.JPG" width="357"
+                                     height="197"
+                                     alt="coverWT36-600">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>WideTEK Wide Format Scanner Product Video</h3>
+                            English<br>Time: 03:33Min<br>
+                            <a href="../video/Bookeye_4_V2_Kiosk_Book_Scanner_in_A2_Format.mp4" download>Download
+                                ⇓MP4</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumb brochure">
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_01.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>Assembling the Universal Multi Function Stand</h3> English<br>Time: 04:36Min<br>
+                            <a href="../video/Feature_overview_of_your_Bookeye_4V2.mp4">Download⇓MP4</a>
+                        </div>
+                    </div>
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_02.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>Assembling the Universal Multi Function Stand</h3> English<br>Time: 04:15Min<br>
+                            <a href="../video/Unpacking_your_Bookeye_4V2.mp4">Download⇓MP4</a>
+                        </div>
+                    </div>
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_03.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>Assembling the Universal Multi Function Stand</h3> English<br>Time: 06:42Min<br>
+                            <a href="../video/Installation_of_your_Bookeye_4V2.mp4">Download⇓MP4</a>
+                        </div>
+                    </div>
+                    <div class="table_video">
+                        <div class="video-preview">
+                            <a href="#">
+                                <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_04.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-links">
+                            <h3>Assembling the Universal Multi Function Stand</h3> English<br>Time: 04:23Min<br>
+                            <a href="../video/Calibration_of_your_Bookeye_4V2.mp4">Download⇓MP4</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <a href="http://www.youtube.com/user/ImageAccessScanners" target="_blank">Click here to visit us on
+                    YouTube!</a>
+            </p>
         </div>
-        <div class="video-preview"><a href="#" video="BE4V2_01_FEATURE_OVERVIEW" target="_blank" title="">
-            <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_01.jpeg"></a></div>
-        <div class="video-links"><h3>Feature overview of your Bookeye&reg; 4V2</h3> English<br>Time: 04:36Min<br><a
-                id="a_source_mp4"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_01_FEATURE_OVERVIEW">⇓MP4</a>&nbsp;<a
-                id="a_source_ogg"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_01_FEATURE_OVERVIEW">⇓OGG</a>
-        </div>
-        <div class="video-preview"><a href="#" video="BE4V2_02_UNPACKING" target="_blank" title="">
-            <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_02.jpeg"></a></div>
-        <div class="video-links"><h3>Unpacking your Bookeye&reg; 4V2</h3> English<br>Time: 04:15Min<br><a
-                id="a_source_mp4"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_02_UNPACKING">⇓MP4</a>&nbsp;<a
-                id="a_source_ogg"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_02_UNPACKING">⇓OGG</a></div>
-        <div class="video-preview"><a href="#" video="BE4V2_03_INSTALLATION" target="_blank" title="">
-            <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_03.jpeg"></a></div>
-        <div class="video-links"><h3>Installation of your Bookeye&reg; 4V2</h3> English<br>Time: 06:42Min<br><a
-                id="a_source_mp4"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_03_INSTALLATION">⇓MP4</a>&nbsp;<a
-                id="a_source_ogg"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_03_INSTALLATION">⇓OGG</a></div>
-        <div class="video-preview"><a href="#" video="BE4V2_04_CALIBRATION" target="_blank" title="">
-            <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-V2_Tutorial_04.jpeg"></a></div>
-        <div class="video-links"><h3> Calibration of your Bookeye&reg; 4V2</h3> English<br>Time: 04:23Min<br><a
-                id="a_source_mp4"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_04_CALIBRATION">⇓MP4</a>&nbsp;<a
-                id="a_source_ogg"
-                href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4V2_04_CALIBRATION">⇓OGG</a></div>
-        <div class="video-preview"><a href="#" video="BE4-V2P_es" target="_blank" title="">
-            <img src="../images/Bookeye_4_V2/Bookeye_4_V2/CoverBE4-SGS-V2Pro.JPG"></a></div>
-        <div class="video-links"><h3>Bookeye 4 V2 Professional Video Producto</h3> Spanish<br>Time: 03:33Min<br><a
-                id="a_source_mp4" href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4-V2P_es.mp4">⇓MP4</a>&nbsp;<a
-                id="a_source_ogg" href="http://support.imageaccess.de/downloads/advertisement/Videos/BE4-V2P_es.ogg">⇓OGG</a>
-        </div>
-        <script>
-            $.videoPath = 'http://support.imageaccess.de/downloads/advertisement/Videos/';
-            var videoLink = 'BE4-V2P_es';
-
-            var video = $('.stage-video').find('video').get(0);
-            console.log('video');
-            console.log(video);
-            $('#source_mp4').attr('src', $.videoPath + videoLink + '.mp4');
-            $('#source_ogg').attr('src', $.videoPath + videoLink + '.ogg');
-            $('#source_flv').attr('value', 'controls=true&amp;src=http%3A%2F%2Fsupport.imageaccess.de%2Fdownloads%2Fadvertisement%2FVideos%2F' + videoLink + '.mp4');
-            $('track').attr('src', '_Scanners/Videos/' + videoLink + '.vtt');
-
-            if (typeof video != 'undefined')
-                video.load();
-        </script>
-
-
-        <p><a href="http://www.youtube.com/user/ImageAccessScanners" title="" target="_blank">Click here to visit us on
-            YouTube!</a></p></div>
+    </div>
 </div>
 <footer>
     <div id="includeFooter"></div>
