@@ -1,0 +1,43 @@
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spritezoom-container {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.spritezoom-view {
+    /*border: 1px solid #ccc;*/
+    /*margin: 2px;*/
+}
+
+.spritezoom-zoom {
+    /*border: 1px solid #ccc;*/
+    /*margin: 2px;*/
+}
+
+.spritezoom-tint {
+    background: #ccc;
+}
+
+.spritezoom-lens {
+    /*border: 2px solid #ccc;*/
+    /*margin: 2px;*/
+}
+
+.spritezoom-title {
+    background: #2487D6;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+.example {
+    cursor: none;
+    margin: 0 0 20px 0;
+}

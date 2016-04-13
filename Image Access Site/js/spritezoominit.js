@@ -70,3 +70,39 @@ $(function () {
         title: "WideTEK 12"
     });
 });
+$(function () {
+    $(".zoom4v3").spritezoom({
+        border: 0,
+        source: "../images/magnifier/BE4V3_KIOSK_RENDER_DIAGONAL_big.png",
+        zSource: "../images/magnifier/BE4V3_KIOSK_RENDER_DIAGONAL_big1.png",
+        layout: "right",
+        title: "Bookeye 4 V3"
+    });
+});
+$(function () {
+    $(".zoom4v2").spritezoom({
+        border: 0,
+        source: "../images/magnifier/BE4V2_BASIC_RENDER_DIAGONAL_big.png",
+        zSource: "../images/magnifier/BE4V2_BASIC_RENDER_DIAGONAL_big1.png",
+        layout: "right",
+        title: "Bookeye 4 V2"
+    });
+});
+$(function () {
+    $(".zoom4v1AC35").spritezoom({
+        border: 0,
+        source: "../images/magnifier/BE4-SGS-V1-C35_Front_big.png",
+        zSource: "../images/magnifier/BE4-SGS-V1-C35_Front_big1.png",
+        layout: "right",
+        title: "Bookeye 4 V1A C35"
+    });
+});
+$(function () {
+    $(".zoom4v1A").spritezoom({
+        border: 0,
+        source: "../images/magnifier/BE4V1A_RENDER_DIAGONAL_big.png",
+        zSource: "../images/magnifier/BE4V1A_RENDER_DIAGONAL_big1.png",
+        layout: "right",
+        title: "Bookeye 4 V1"
+    });
+});

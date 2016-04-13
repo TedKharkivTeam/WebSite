@@ -203,17 +203,18 @@
 }
 
 .infoblock .table_video .video-preview {
-    width: 60%;
+    width: 50%;
     float: left;
 }
 
 .infoblock .table_video .video-preview img {
     width: 90%;
     height: auto;
+    box-shadow: 3px 3px 5px #8E8E8E;
 }
 
 .infoblock .table_video .video-links {
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
@@ -238,12 +239,15 @@
 .infoblock table.opus_table {
     width: 100%;
 }
+
 .infoblock table.opus_table tbody tr :nth-child(1) {
     width: 70%;
 }
+
 .infoblock table.opus_table tbody tr :nth-child(n+2) {
     text-align: center;
 }
+
 .infoblock table.opus_table tbody tr th {
     background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
     background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
@@ -257,27 +261,42 @@
     width: 100%;
     overflow: hidden;
 }
+
 .infoblock div.title_opus img {
     float: left;
 }
+
 .infoblock div.title_opus div {
     float: left;
 }
+
 .infoblock div.title_opus span.freedom {
     font-size: 26px;
     line-height: 28px;
     color: #315080;
 }
+
 .infoblock p.opus_p {
     margin: 10px 0;
 }
+
 .infoblock div.kic_div {
     overflow: hidden;
 }
+
 .infoblock div.kic_div img {
     float: left;
     margin: 0 10px 0 0;
 }
+
+.infoblock div.book_scaner {
+    overflow: hidden;
+}
+
+.infoblock div.book_scaner img {
+    float: left;
+}
+
 /* start temporary style */
 
 .infoblock p.waiting {
