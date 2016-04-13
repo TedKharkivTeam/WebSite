@@ -289,6 +289,14 @@
     margin: 0 10px 0 0;
 }
 
+.infoblock div.book_scaner {
+    overflow: hidden;
+}
+
+.infoblock div.book_scaner img {
+    float: left;
+}
+
 /* start temporary style */
 
 .infoblock p.waiting {
