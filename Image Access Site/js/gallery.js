@@ -1,7 +1,7 @@
 ;(function ($) {
     var gallery = function () {
         var $elem = $(this);
-        var activatedImage
+        var activatedImage;
 
         var activateImage = function (index) {
             if (!$elem.find('.thumb').eq(index).length) {
@@ -13,7 +13,7 @@
 
             $elem.find('.image').removeClass('active');
             $elem.find('.image').eq(index).addClass('active');
-
+            
             return;
         };
 
