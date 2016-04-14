@@ -8,7 +8,7 @@
     <title>Landing Page :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="css/homepage.css">
     <link rel="stylesheet" type="text/css" href="css/all.css">
-    <script type="text/javascript" src="js/autozoom.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
     <script type="text/javascript" src="js/geolocation.js"></script>
 </head>
 <body class="gradient">
@@ -89,7 +89,7 @@
         <img src="images/IALogo.jpg" width="1244" height="582" alt="logo"/>
     </div>
 </header>
-<div class="content">
+<div id="home-container" class="content">
     <!--<img id="dlsgImage" class="homepagepictures" src="images/dlsg.jpg" alt="dlsgimage">-->
          <!--&lt;!&ndash;onclick="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'"/>&ndash;&gt;-->
     <!--<img id="bscanImage" class="homepagepictures" src="images/bscan.jpg" alt="bscanimage">-->
@@ -97,7 +97,7 @@
     <!--&lt;!&ndash;<script type="text/javascript">glAnimate();</script>&ndash;&gt;-->
 
 
-    <div class="homepagepictures dlsgBlock clearfix">
+    <div id="dlsg-banner" class="homepagepictures dlsgBlock noselect clearfix">
         <div class="logo-block">
             <img src="images/DLSG-index-logo.png" class="logo-image" alt="dlsg-logo">
         </div>
@@ -106,45 +106,35 @@
             Self-serve Ad Hoc Digitization Kiosks, Archival Preservation, and Digital Document Delivery Products
         </div>
 
-        <div class="images light-green">
+        <div class="images clearfix light-green">
             <p class="heading">
                 Serving 60% of Students at U.S. Universities <span class="divider green-divider"></span> Serving Public Libraries Across America
             </p>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
         </div>
     </div>
 
-    <div class="homepagepictures bscanBlock clearfix">
+    <div id="bscan-banner" class="homepagepictures bscanBlock noselect clearfix">
         <div class="logo-block">
             <img src="images/BSCAN-image-logo.png" class="logo-image" alt="BSCAN-logo">
         </div>
@@ -153,39 +143,29 @@
             Custom Scanning Application, High volume Forms Processing and Image Treatment
         </div>
 
-        <div class="images light-blue">
+        <div class="images clearfix light-blue">
             <p class="heading">
                 for Medical, Manufacturing, Distribution, Transportation, Financial, Government,...
             </p>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
             <div class="img-wrapper">
-                <div class="img-block">
-                    <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
-                </div>
+                <img src="images/Dlsg/kba-0801.jpg" alt="preview" class="preview-image">
             </div>
 
         </div>
