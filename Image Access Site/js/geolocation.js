@@ -20,21 +20,20 @@ function glFromEdu() {
 }
 
 function glAnimate() {
-    var image;
+    var block;
     var imageRoot;
     var pageRoot;
 
     if (glFromEdu() == false) {
-        image = document.getElementById("bscanImage");
+        block = $(".dlsgBlock");
         imageRoot = 'images/bscan.jpg';
         pageRoot = 'pages/BscanPage.html';
     }
     else {
-        image = document.getElementById("dlsgImage");
+        block = $(".bscanBlock");
         imageRoot = 'images/dlsg.jpg';
         pageRoot = 'pages/DlsgPage.html';
     }
 
-    var ie = new ImageExpander(image, imageRoot, pageRoot);
-    this.href = 'javascript:void(0);';
+
 }

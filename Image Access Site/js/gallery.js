@@ -11,7 +11,10 @@
             $elem.find('.thumb').removeClass('active');
             $elem.find('.thumb').eq(index).addClass('active');
 
-            $elem.find('.image').removeClass('active');
+            var $image = $elem.find('.image').removeClass('active');
+            $image.find('video').each(function () {
+                $(this).get(0).pause();
+            });
             $elem.find('.image').eq(index).addClass('active');
             
             return;
