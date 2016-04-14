@@ -194,8 +194,8 @@ strong {
     max-width: 1122px;
     position: relative;
     border: 1px solid #E3E6DB;
-    padding: 2px;
-    box-shadow: 0 0 5px #000;
+    /*padding: 2px;*/
+    /*box-shadow: 0 0 5px #000;*/
 }
 
 .single-item img {
