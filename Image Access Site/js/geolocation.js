@@ -39,7 +39,6 @@ function glAnimate() {
 }
 
 function animateBlock(block, page_url) {
-    block.attr('data-element-reseted', false);
     block.css('z-index', 999).animate({width: '200%', top: 0}, animationDuration, function onAnimationComplete() { window.location = page_url; });
     block.find('.text-stripe').animate({fontSize: '60px'}, animationDuration);
     block.find('.heading').animate({fontSize: '58px'}, animationDuration);
