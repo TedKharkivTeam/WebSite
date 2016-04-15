@@ -7,8 +7,8 @@ var animationDuration = 1500;
 var animatedBlock = null;
 var preventDefaultAnimation = false;
 
-var bscanPageRoot = '/Image Access Site/pages/BscanPage.html';
-var dlsgPageRoot = '/Image Access Site/pages/DlsgPage.html';
+var bscanPageRoot = '/Image Access Site/pages/Frames/Frame_2A.html';
+var dlsgPageRoot = '/Image Access Site/pages/Frames/Frame_2B.html';
 
 function glFromEdu() {
     var regexp = / \.edu|imageaccess\.com /ig;
