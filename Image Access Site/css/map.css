@@ -3,15 +3,12 @@
 }
 
 .map {
-    width: 90%;
+    width: 95%;
     height: 600px;
     margin: 0 auto;
     box-shadow: 0 0 20px;
     -webkit-box-shadow: 0 0 20px;
     -moz-box-shadow: 0 0 20px;
-    -webkit-filter: grayscale(80%) brightness(0.9); /* Chrome 19+ & Safari 6+ */
-    -moz-filter: grayscale(80%) brightness(0.9);
-    filter: grayscale(80%) brightness(0.9);
 }
 
 .map2 {

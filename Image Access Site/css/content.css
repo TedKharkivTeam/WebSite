@@ -1,4 +1,6 @@
 .content {
+    padding-top: 1px;
+    position: relative;
     margin: 0 auto;
     color: black;
     width: 80%;
@@ -6,8 +8,31 @@
     overflow: hidden;
 }
 
+.content .kic_software {
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #E3E6DB;
+    box-shadow: 0 0 5px #000;
+}
+
+.content .kic_software .logoKic {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: 100px 0 0 0;
+}
+
+.content .kic_software .kic_soft {
+    width: 73%;
+    height: auto;
+    float: left;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /*.content:after {*/
-    /*content: '';*/
-    /*display: table;*/
-    /*clear: both;*/
+/*content: '';*/
+/*display: table;*/
+/*clear: both;*/
 /*}*/

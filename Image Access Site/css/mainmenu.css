@@ -14,7 +14,7 @@
     -webkit-transition: all 1s linear;
     display: block;
     border-bottom: 1px rgba(246, 246, 246, 0.1) solid;;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 20px;
 }
 
 .drop {
@@ -70,4 +70,8 @@
 .mainmenu ul li {
     width: 100%;
     cursor: pointer;
+}
+.mainmenu .dropdown li.group_link {
+    text-transform: uppercase;
+    padding: 10px 20px 10px 5px;
 }

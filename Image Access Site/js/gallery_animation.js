@@ -1,6 +1,16 @@
 var startTimeout = 700;
 var animationDuration = 3000;
-var imagesCount = window.imagesCount;
+var imagesCount = 4;
+
+var requestAnimationFrame =
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.msRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    function (callback) {
+        return setTimeout(callback, 16.67);
+    };
 
 animationPresets = {
     "preset_for_3_images": {
@@ -10,7 +20,7 @@ animationPresets = {
         },
         "image_1": {
             stage1: {left: "52%", top: "10px", width: "45%", height: "45%"},
-            stage2: {left: "48%", top: "10%"}
+            stage2: {left: "48%", top: "14%"}
         },
         "image_2": {
             stage1: {top: "52%", left: "28%", width: "45%", height: "45%"},
@@ -20,50 +30,40 @@ animationPresets = {
     "preset_for_4_images": {
         "image_0": {
             stage1: {left: "0", top: "0", width: "48%", height: "48%"},
-            stage2: {left: "1%", top: "1%"}
+            stage2: {left: "3%", top: "3%"}
         },
         "image_1": {
             stage1: {left: "51%", top: "0", width: "48%", height: "48%"},
-            stage2: {left: "50%", top: "1%"}
+            stage2: {left: "47%", top: "3%"}
         },
         "image_2": {
             stage1: {left: "0",  top: "52%", width: "48%", height: "48%"},
-            stage2: {left: "1%", top: "51%"}
+            stage2: {left: "3%", top: "47%"}
         },
         "image_3": {
             stage1: {left: "51%", top: "52%", width: "48%", height: "48%"},
-            stage2: {left: "50%", top: "51%"}
+            stage2: {left: "47%", top: "47%"}
         }
     }
 };
 
 $(document).ready(function () {
+    var canvas = document.getElementById("animation-canvas");
+    var context = canvas.getContext('2d');
+    context.translate(0.5, 0.5);
+
     var $container = $(".gallery-container");
-    var images = $(".gallery-container .gallery-image");
+    var images = $(".gallery-container .animate-image");
+    var animatedImages = [];
+    imagesCount = images.length;
 
-    var currentIndexes = [];
-    var previousIndexes = [];
-
-    function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
-    function generateIndexes(number) {
-        previousIndexes = currentIndexes;
-        currentIndexes = [];
-
-        for (var i = 0; i < number; i++) {
-            var index = getRandomInt(0, images.length - 1);
-
-            while (currentIndexes.contains(index) || previousIndexes.contains(index)) {
-                index = getRandomInt(0, images.length - 1);
-            }
-
-            currentIndexes.push(index);
-        }
-
-        return currentIndexes;
-    }
+    //setting canvas height and width equals to container;
+    var $canvas = $('#animation-canvas');
+    setTimeout(function () {
+        console.log($container.width(), $container.height());
+        $canvas.attr('width', $container.width());
+        $canvas.attr('height', $container.height());
+    }, 500);
 
     function getPreset(count) {
         if (count == 3) {
@@ -73,66 +73,119 @@ $(document).ready(function () {
         }
     }
 
-    function animateImages(number, timeout) {
-        var reseted = false;
-        var fadeIn = false;
-        var imgs = [];
-
-        generateIndexes(number);
-        for (var k in currentIndexes) {
-            if (currentIndexes.hasOwnProperty(k)) {
-                imgs.push(images[currentIndexes[k]]);
-            }
-        }
-
+    (function animateImages(number, timeout) {
         setTimeout(function () {
             var preset = getPreset(number);
+            images.each(function (index) {
+                var $defaultImage = $(this);
+                var $image = $(this).clone().addClass("animated").appendTo($container);
+                var $image2 = $(this).clone().appendTo($container);
 
-            $(".gallery-container .gallery-image").fadeOut(animationDuration);
-            imgs.forEach(function (img, index) {
-                var $defaultImage = $(img);
-                var $image = $(img).clone().addClass("animated").appendTo($container);
                 var $imgPosition = $defaultImage.position();
-                var $imgWidth = $defaultImage.width();
-                var $imgHeight = $defaultImage.height();
+                var defaultWidth = $defaultImage.width();
+                var defaultHeight = $defaultImage.height();
+
                 $image.css({left: $imgPosition.left, top: $imgPosition.top, "z-index": 20000 + index});
+                $image2.css({left: $imgPosition.left, top: $imgPosition.top, "z-index": 10000 + index, position: 'absolute'});
+                animatedImages.push({
+                    default_position: $imgPosition,
+                    default_width: defaultWidth,
+                    default_height: defaultHeight,
+                    clone_img: $image
+                });
 
                 $image.animate(preset["image_" + index].stage1, animationDuration, function onFirstStageComplete() {
-                    $image.animate(preset["image_" + index].stage2, animationDuration, function onSecondStageComplete() {
-                        setTimeout(function () {
-                            if(!fadeIn) {
-                                $(".gallery-container .gallery-image").fadeIn(animationDuration);
-                                fadeIn = true;
-                            }
-                            $image.animate({
-                                left: $imgPosition.left,
-                                top: $imgPosition.top,
-                                width: $imgWidth,
-                                height: $imgHeight
-                            }, animationDuration, function ResetImages() {
-                                $image.remove();
-                                if (!reseted) {
-                                    reseted = true;
-                                    animateImages(number, timeout);
-                                }
-                            });
-                        }, timeout);
-                    });
+                    $image.animate(preset["image_" + index].stage2, animationDuration / 3);
                 });
-            })
+
+            });
+            $(".gallery-container .gallery-image:not(.animated)").fadeOut(animationDuration + 1000);
+            $canvas.fadeOut(animationDuration + 1000);
+            render();
 
         }, timeout);
+    })(imagesCount, startTimeout);
+
+    function render() {
+        // Clear canvas
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.fillStyle = "#35ea1c";
+        if (animatedImages.length > 0) {
+            animatedImages.forEach(function (img, idx) {
+                var pointsObj = getImagePositions(img);
+                var startPoints = pointsObj.startPoints;
+                var endPoints = pointsObj.endPoints;
+
+
+                if (startPoints.center.top <= endPoints.center.top) {
+                    if (startPoints.center.left >= endPoints.center.left) {
+                        context.beginPath();
+                        context.moveTo(endPoints.top_left.left, endPoints.top_left.top);
+                        context.lineTo(startPoints.top_left.left, startPoints.top_left.top);
+                        context.lineTo(startPoints.bottom_right.left, startPoints.bottom_right.top);
+                        context.lineTo(endPoints.bottom_right.left, endPoints.bottom_right.top);
+                        context.fill();
+                    } else {
+                        context.beginPath();
+                        context.moveTo(endPoints.top_right.left, endPoints.top_right.top);
+                        context.lineTo(startPoints.top_right.left, startPoints.top_right.top);
+                        context.lineTo(startPoints.bottom_left.left, startPoints.bottom_left.top);
+                        context.lineTo(endPoints.bottom_left.left, endPoints.bottom_left.top);
+                        context.fill();
+                    }
+                } else {
+                    if (startPoints.center.left >= endPoints.center.left) {
+                        // draw right to left rect
+                        context.beginPath();
+                        context.moveTo(endPoints.top_right.left, endPoints.top_right.top);
+                        context.lineTo(startPoints.top_right.left, startPoints.top_right.top);
+                        context.lineTo(startPoints.bottom_left.left, startPoints.bottom_left.top);
+                        context.lineTo(endPoints.bottom_left.left, endPoints.bottom_left.top);
+                        context.fill();
+                    } else {
+                        // draw left to right rect
+                        context.beginPath();
+                        context.moveTo(endPoints.top_left.left, endPoints.top_left.top);
+                        context.lineTo(startPoints.top_left.left, startPoints.top_left.top);
+                        context.lineTo(startPoints.bottom_right.left, startPoints.bottom_right.top);
+                        context.fill();
+                    }
+                }
+
+            });
+        }
+        requestAnimationFrame(render);
     }
 
-    animateImages(imagesCount, startTimeout);
-});
 
-Array.prototype.contains = function (obj) {
-    var i = this.length;
-    while (i--) {
-        if (this[i] == obj) {
-            return true;
+    function getImagePositions(obj) {
+        //start data
+        var startPos = obj.default_position;
+        var startWidth = obj.default_width;
+        var startHeight = obj.default_height;
+
+        //current image data
+        var imgPos = obj.clone_img.position();
+        var imgWidth = obj.clone_img.width();
+        var imgHeight = obj.clone_img.height();
+
+        return {
+            startPoints: { //Bounding box for starting image;
+                top_left: {top: startPos.top, left: startPos.left},
+                top_right: {top: startPos.top, left: startPos.left + startWidth},
+                bottom_left: {top: startPos.top + startHeight, left: startPos.left},
+                bottom_right: {top: startPos.top + startHeight, left: startPos.left + startWidth},
+                center: {top: startPos.top + startHeight / 2, left: startPos.left + startWidth / 2}
+            },
+            endPoints: { //Bounding box for animated image;
+                top_left: {top: imgPos.top, left: imgPos.left},
+                top_right: {top: imgPos.top, left: imgPos.left + imgWidth},
+                bottom_left: {top: imgPos.top + imgHeight, left: imgPos.left},
+                bottom_right: {top: imgPos.top + imgHeight, left: imgPos.left + imgWidth},
+                center: {top: imgPos.top + imgHeight / 2, left: imgPos.left + imgWidth / 2}
+            }
         }
     }
-    return false;
-};
+
+
+});
