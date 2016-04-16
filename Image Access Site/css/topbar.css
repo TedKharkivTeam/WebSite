@@ -89,7 +89,7 @@
 }
 
 #sitemap .column {
-    width: calc(25% - 20px);
+    width: 25%;
     height: 100%;
     float: left;
     padding: 5px 10px;
