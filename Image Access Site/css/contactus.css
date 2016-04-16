@@ -220,11 +220,13 @@ input, textarea {
     top: 50px;
     left: 28%;
 }
-
+.adr-top span {
+    font-weight: bold;
+}
 .adr-bottom {
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 2%;
 }
 
 .sub--images {
