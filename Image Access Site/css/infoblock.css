@@ -345,6 +345,9 @@
     width: 50%;
     padding-left: 2%;
 }
+.infoblock .product_preview div p {
+    margin-top: 3%;
+}
 /* start temporary style */
 
 .infoblock p.waiting {
