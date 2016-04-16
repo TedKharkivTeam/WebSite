@@ -101,7 +101,6 @@ function aminate(onAnimationComplete) {
                 $(".gallery-container .gallery-image:not(.animated)").fadeOut(animationDuration + 1000);
                 $canvas.fadeOut(animationDuration + 1000);
                 render();
-                alert("end?");
             }, timeout);
         })(imagesCount, startTimeout);
 
