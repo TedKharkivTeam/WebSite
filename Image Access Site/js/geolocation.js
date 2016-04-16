@@ -1,39 +1,23 @@
+
 var animationDuration = 1500;
-
-
 
 //==============================================================
 
 var animatedBlock = null;
 var preventDefaultAnimation = false;
 
-var bscanPageRoot = '/Image Access Site/pages/BscanPage.html';
-var dlsgPageRoot = '/Image Access Site/pages/DlsgPage.html';
+var bscanPageRoot = "../Image Access Site/pages/BscanPage.html";
+var dlsgPageRoot = "../Image Access Site/pages/DlsgPage.html";
 
-function glFromEdu() {
-    var regexp = / \.edu|imageaccess\.com /ig;
-    var referrer = document.referrer;
-
-    if (referrer.search(regexp) != -1)
-        return true;
-    else
-        return false;
+function IsUserFromEduSite() {
+    return (/ \.edu|imageaccess\.com /ig).test(document.referrer) === true;
 }
 
-function glAnimate() {
-    var $block;
-    var pageRoot;
-
-    console.log(glFromEdu());
-
-    if (glFromEdu() != false) {
-        $block = $(".dlsgBlock");
-        pageRoot = bscanPageRoot;
-    }
-    else {
-        $block = $(".bscanBlock");
-        pageRoot = dlsgPageRoot;
-    }
+function StartRedirectionAnimation() {
+	var eduFlag = IsUserFromEduSite() === true;
+	
+    var $block = eduFlag ? $(".dlsgBlock") : $(".bscanBlock");
+    var pageRoot = eduFlag ? bscanPageRoot : dlsgPageRoot;
 
     animateBlock($block, pageRoot);
 }
@@ -73,7 +57,7 @@ $(function () {
 
         setTimeout(function () {
             if(!preventDefaultAnimation) {
-                glAnimate();
+                StartRedirectionAnimation();
             }
         }, 4000);
     }, 50);
@@ -94,18 +78,10 @@ $(function () {
                 $('.homepagepictures').css('z-index', 0).stop(true, false);
                 resetImage(animatedBlock);
 
-                if(blockId == "dlsg-banner") {
-                    animateBlock(currentBlock, dlsgPageRoot);
-                } else {
-                    animateBlock(currentBlock, bscanPageRoot);
-                }
+				animateBlock(currentBlock, blockId == "dlsg-banner" ? dlsgPageRoot : bscanPageRoot);
             }
         } else {
-            if(blockId == "dlsg-banner") {
-                animateBlock(currentBlock, dlsgPageRoot);
-            } else {
-                animateBlock(currentBlock, bscanPageRoot);
-            }
+            animateBlock(currentBlock, blockId == "dlsg-banner" ? dlsgPageRoot : bscanPageRoot);
         }        
     })
 });
