@@ -5,7 +5,9 @@
     width: 25%;
     float: left;
 }
-
+.leftsidemenu__KIC{
+    margin-top:7.5%;
+}
 .leftsidemenu a {
     color: #02307E;
     padding: 5px;
@@ -176,8 +178,8 @@ strong {
     background: #F2F2F2;
 }
 
-.logoKic img {
-    max-width: 400px;
+.logoKic {
+    width:100%;
     height: auto;
 }
 
