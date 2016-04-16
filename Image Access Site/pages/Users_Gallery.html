@@ -7,44 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/all.css">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
-    <style type="text/css">
-        a.button7 {
-            position: absolute;
-            top: 340px;
-            left: 23px;
-            font-weight: 700;
-            color: white;
-            text-decoration: none;
-            padding: 10px 30px;
-            border-radius: 3px;
-            background: rgb(64,199,129);
-            box-shadow: 0 -3px rgb(53,167,110) inset;
-            transition: 0.2s;
-        }
-        a.button7:hover { background: rgb(53, 167, 110); }
-        a.button7:active {
-            background: rgb(33,147,90);
-            box-shadow: 0 3px rgb(33,147,90) inset;
-        }
-        a.button8 {
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            font-weight: 700;
-            color: white;
-            text-decoration: none;
-            padding: 10px 30px;
-            border-radius: 3px;
-            background: rgb(64,199,129);
-            box-shadow: 0 -3px rgb(53,167,110) inset;
-            transition: 0.2s;
-        }
-        a.button8:hover { background: rgb(53, 167, 110); }
-        a.button8:active {
-            background: rgb(33,147,90);
-            box-shadow: 0 3px rgb(33,147,90) inset;
-        }
-    </style>
+    <script src="../js/users-gallery-init.js" type="text/javascript"></script>
 </head>
 <body onload="init()" class="gradient">
 <header>
@@ -52,33 +15,15 @@
 </header>
 <div class="content">
     <div class="logo">
-        <img src="../images/IALogo.jpg">
+        <a href="../index.html"><img src="../images/IALogo.jpg" width="1244" height="582" alt="logo"/></a>
         <div class="botlogo">User Gallery</div>
     </div>
-    <iframe style="z-index: 70000; height: 700px;" id = "mainframe" frameborder = "no" src="index1.html"></iframe>
-    <a href="#" class="button7" onClick = "changepart();">See more</a>
-    <a href="../index.html" class="button8">Back to DLSG</a>
-    <script>
-        function changepart() {
-            var frame = document.getElementById("mainframe");
-            if(frame.src.indexOf('index1.html') + 1) {frame.src = "index2.html";}
-            else if(frame.src.indexOf('index2.html') + 1) {frame.src = "index3.html";}
-            else if(frame.src.indexOf('index2.html') + 1) {frame.src = "index3.html";}
-            else if(frame.src.indexOf('index3.html') + 1) {frame.src = "index4.html";}
-            else if(frame.src.indexOf('index4.html') + 1) {frame.src = "index5.html";}
-            else if(frame.src.indexOf('index5.html') + 1) {frame.src = "index1.html";}
-        }
-    </script>
-    <script type="text/javascript">
-        function init () {
-            var frame = document.getElementById("mainframe");
-            frame.width = "100%";
-            frame.height = "100%";
-        }
-    </script>
+    <iframe class="gallery-frame" id="mainframe" frameborder="no" src="users_gallery1.html"></iframe>
+    <a href="#" class="button7" onClick="changepart();">See more</a>
 </div>
 <footer>
     <div id="includeFooter"></div>
 </footer>
+<script src="../js/users-gallery-change.js" type="text/javascript"></script>
 </body>
 </html>
