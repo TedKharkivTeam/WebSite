@@ -110,3 +110,18 @@
     width: 100%;
     height: 100%;
 }
+@-webkit-keyframes opacity {
+    to {opacity: 0;}
+}
+@keyframes opacity {
+    to {opacity: 0;}
+}
+
+
+
+.gallery-header{
+    -webkit-animation: opacity  3s 1 linear;
+    animation: opacity 3s 1 linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
