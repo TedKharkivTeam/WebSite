@@ -14,10 +14,10 @@ function IsUserFromEduSite() {
 }
 
 function StartRedirectionAnimation() {
-	var eduFlag = IsUserFromEduSite() === true;
+	var eduFlag = IsUserFromEduSite();
 	
     var $block = eduFlag ? $(".dlsgBlock") : $(".bscanBlock");
-    var pageRoot = eduFlag ? bscanPageRoot : dlsgPageRoot;
+    var pageRoot = eduFlag ? dlsgPageRoot : bscanPageRoot;
 
     animateBlock($block, pageRoot);
 }
@@ -80,8 +80,9 @@ $(function () {
 
 				animateBlock(currentBlock, blockId == "dlsg-banner" ? dlsgPageRoot : bscanPageRoot);
             }
+			
         } else {
             animateBlock(currentBlock, blockId == "dlsg-banner" ? dlsgPageRoot : bscanPageRoot);
-        }        
+        }
     })
 });
