@@ -330,6 +330,21 @@
     color: #000;
     font-size: 12px;
 }
+
+.infoblock .product_preview {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.infoblock .product_preview img {
+    float: left;
+    width: 50%;
+}
+.infoblock .product_preview div {
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+}
 /* start temporary style */
 
 .infoblock p.waiting {
