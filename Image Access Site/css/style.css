@@ -14,8 +14,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-
-
 * {
     box-sizing: border-box!important;
 }
@@ -66,6 +64,8 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
     width: 100%;
     min-width: 960px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 h1 {
     font-size: 22px;
@@ -186,8 +186,7 @@ td, th {
     width: 14px;
     height: 0;
     padding-top: 14px;
-    background-image: url(../images/resources/pagination.png);
-    background-position: 0 0;
+    background: url(../images/resources/pagination.png) 0 0;
     overflow: hidden;
 }
 
@@ -212,4 +211,30 @@ html {
     -ms-user-select: none;       /* IE/Edge */
     user-select: none;           /* non-prefixed version, currently
                                   not supported by any browser */
+}
+
+.gallery-frame {
+    z-index: 70000;
+    height: 700px;
+    margin: -1px 0 -6px;
+}
+
+a.button7 {
+    position: absolute;
+    top: 340px;
+    right: 17px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 29px;
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: 0.2s;
+    text-transform: uppercase;
 }
