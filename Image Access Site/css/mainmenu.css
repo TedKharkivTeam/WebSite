@@ -71,10 +71,12 @@
     width: 100%;
     cursor: pointer;
 }
+
 .mainmenu .dropdown li.group_link {
     text-transform: uppercase;
     padding: 10px 20px 10px 5px;
 }
-.mainmenu .active{
+
+.mainmenu .activeHeader {
     color: #d83020;
 }
