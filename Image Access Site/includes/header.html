@@ -1,9 +1,9 @@
 <ul class="mainmenu">
-    <li><a href="#">SOLUTIONS</a>
+    <li><a href="#" id="kic_bookeye">SOLUTIONS</a>
         <ul class="dropdown fadeIn animated">
             <li class="group_link"><a href="Self_serve_Ad_Hoc_Digitization_Kiosks.html">Self-serve Ad Hoc Digitization Kiosks</a>
             </li>
-            <li><a href="KIC_Bookeye_4.html">Bookeye</a></li>
+            <li><a href="KIC_Bookeye_4.html" >Bookeye</a></li>
             <li><a href="KIC_Click_and_KIC_Click_Mini.html">Click & Click Mini</a></li>
             <li><a href="KIC_BookEdge.html">BookEdge</a></li>
             <li class="group_link"><a href="Digital_Asset_Creation_Digital_Archival_Preservation.html">Digital Asset Creation &
@@ -56,6 +56,15 @@
     <li><a href="How_to_order.html">HOW TO ORDER</a></li>
     <li><a href="CONTACT_US.html">CONTACT US</a></li>
 </ul>
+
+<script>
+    $(function () {
+        if(window.currentTab) {
+            $(window.currentTab).addClass('active');
+        }
+    })
+</script>
+
 <div class="sub-bottom">
     <ul class="topbar">
         <li><a href="../index.html">Home</a></li>
