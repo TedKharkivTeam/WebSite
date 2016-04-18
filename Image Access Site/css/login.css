@@ -1,9 +1,3 @@
-*, *:before, *:after {
-    -webkit-border-sizing: border-box;
-    -moz-border-sizing: border-box;
-    border-sizing: border-box;
-}
-
 .loginContainer {
     width: 190px;
     position: absolute;

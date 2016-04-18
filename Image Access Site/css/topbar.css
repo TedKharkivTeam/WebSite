@@ -38,6 +38,7 @@
 }
 
 .fast-nav {
+    margin: -1px;
     width: 800px;
     position: absolute;
     z-index: 99999;
