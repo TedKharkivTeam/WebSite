@@ -46,13 +46,12 @@
 }
 
 .infoblock .technical_data {
-    width: 90%;
+    width: 100%;
     margin: 0;
 }
 
 .infoblock .technical_data tbody tr th {
     font-weight: bold;
-    width: 200px;
 }
 
 .infoblock span {
