@@ -53,6 +53,7 @@ function aminate(onAnimationComplete) {
         var context = canvas.getContext("2d");
         context.translate(0.5, 0.5);
 
+        var allImages = $(".gallery-container .gallery-image");
         var $container = $(".gallery-container");
         var images = $(".gallery-container .animate-image");
         var animatedImages = [];

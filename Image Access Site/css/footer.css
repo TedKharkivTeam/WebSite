@@ -67,8 +67,8 @@ footer ul:after {
 }
 
 .footer--bottom img {
-    padding-right: 3%;
-    margin-top: 50px;
-    width: 150px;
+    margin-top: 60px;
+    width: 100%;
+    max-width: 120px;
     height: auto;
 }

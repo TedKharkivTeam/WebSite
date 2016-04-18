@@ -94,8 +94,8 @@
 
 .gallery-image {
     float: left;
-    width: calc(5% - 5px);
-    height: calc(5% - 5px);
+    width: calc(5% - 5px); /* Calculate this value depending on images count*/
+    height: calc(5% - 5px); /* Calculate this value depending on images count*/
     margin-right: 5px;
     margin-bottom: 5px;
 }
