@@ -197,7 +197,7 @@ var m3D = function () {
             /* ---- изображения ---- */
             var x = 1500 * ((i % 4) - 1.5);
             var y = Math.round(Math.random() * 4000) - 2000;
-            var z = i * (5000 / n);
+            var z = i * (8000 / n);
             diapo.push(new Diapo(i - 1, o, x, y, z));
             /* ---- прозрачные рамки ---- */
             var k = diapo.length - 1;

@@ -21,38 +21,47 @@
         <div class="botlogo">Service & Support</div>
     </div>
     <ul class="leftsidemenu">
-        <li class="selected"><a href="#">Check Order Status</a></li>
-        <li><a href="#">Open/Check a Service Ticket</a></li>
-        <li><a href="#">Contact Service Department</a></li>
-        <li><a href="#">Maintenance Agreements</a></li>
-        <li><a href="#">Global Service Areas</a></li>
-        <li><a href="#">The Service & Support Team</a></li>
+        <li data-toggle="#checkOrderStatus" class="selected"><a href="#">Check Order Status</a></li>
+        <li data-toggle="#checkServiceTicket"><a href="#">Open/Check a Service Ticket</a></li>
+        <li data-toggle="#contactServiceDepartment"><a href="#">Contact Service Department</a></li>
+        <li data-toggle="#maintenanceAgreements"><a href="#">Maintenance Agreements</a></li>
+        <li data-toggle="#globalServiceAreas"><a href="#">Global Service Areas</a></li>
+        <li data-toggle="#serviceAndSupport"><a href="#">The Service & Support Team</a></li>
     </ul>
     <div class="infoblock">
-        <fieldset class="form">
-            <div class="main">
-                <label>Check order status</label>
-            </div>
-            <div class="field star">
-                <label for="name">Ship to</label>
-                <input type="text" id="name" value="">
-            </div>
-            <div class="field star">
-                <label for="last">PO Number</label>
-                <input type="text" id="last" value="">
-            </div>
-            <div class="one-form to-bottom">
-                <button type="FIND" class="send">FIND</button>
-            </div>
-            <div class="field">
-                <label for="city">Order Number</label>
-                <input type="text" id="city" value=""/>
-            </div>
+        <div style="display: none" id="checkOrderStatus">
+            <fieldset class="form">
+                <div class="main">
+                    <label>Check order status</label>
+                </div>
+                <div class="field star">
+                    <label for="name">Ship to</label>
+                    <input type="text" id="name" value="">
+                </div>
+                <div class="field star">
+                    <label for="last">PO Number</label>
+                    <input type="text" id="last" value="">
+                </div>
+                <div class="one-form to-bottom">
+                    <button type="FIND" class="send">FIND</button>
+                </div>
+                <div class="field">
+                    <label for="city">Order Number</label>
+                    <input type="text" id="city" value=""/>
+                </div>
 
-            <div class="one-form to-bottom">
-                <button type="FIND" class="send">FIND</button>
-            </div>
-        </fieldset>
+                <div class="one-form to-bottom">
+                    <button type="FIND" class="send">FIND</button>
+                </div>
+            </fieldset>
+        </div>
+        <div style="display: none" id="checkServiceTicket"></div>
+        <div style="display: none" id="contactServiceDepartment"></div>
+        <div style="display: none" id="maintenanceAgreements"></div>
+        <div style="display: block" id="globalServiceAreas">
+            <div id="map"></div>
+        </div>
+        <div style="display: none" id="serviceAndSupport"></div>
     </div>
 </div>
 <footer>
