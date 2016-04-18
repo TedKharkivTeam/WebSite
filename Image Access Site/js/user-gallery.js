@@ -10,7 +10,8 @@ var m3D = function () {
         previewNumber = 1,
         camera = {x: 0, y: 0, z: -650, s: 0, fov: 500},
         nw = 0,
-        nh = 0;
+        nh = 0,
+        previousPosition;
     /* ==== метод сдвоенной камеры ==== */
     camera.setTarget = function (c0, t1, p) {
         if (Math.abs(t1 - c0) > .1) {
@@ -34,7 +35,9 @@ var m3D = function () {
     };
     /* ==== Конструктор diapo ==== */
     var Diapo = function (n, img, x, y, z) {
+        defaultPosition = null;
         if (img) {
+            this.uuid = guid();
             this.url = img.url;
             this.title = img.title;
             this.color = img.color;
@@ -54,16 +57,26 @@ var m3D = function () {
             }
             /* ---- обработка событие onclick ---- */
             this.img.onclick = function () {
+                var self = this;
+
                 if (camera.s) return;
                 if (this.diapo.isLoaded) {
                     if (this.diapo.urlActive) {
                         /* ---- гиперссылка для перехода ---- */
                         top.location.href = this.diapo.url;
                     } else {
-                        /* ---- позиционирование цели ---- */
-                        camera.tz = this.diapo.z - camera.fov;
-                        camera.tx = this.diapo.x;
-                        camera.ty = this.diapo.y;
+                        if (selected && selected.uuid == self.diapo.uuid) {
+                            camera.tz = previousPosition.z - this.diapo.h;
+                            camera.tx = previousPosition.x;
+                            camera.ty = previousPosition.y;
+                        } else {
+                            previousPosition = JSON.parse(JSON.stringify(camera));
+
+                            camera.tz = self.diapo.z - this.diapo.h;
+                            camera.tx = self.diapo.x;
+                            camera.ty = self.diapo.y;
+                        }
+
                         /* ---- disable previously selected img ---- */
                         if (selected) {
                             selected.but.className = "button viewed";
@@ -72,10 +85,13 @@ var m3D = function () {
                             selected.urlActive = false;
                             urlInfo.style.visibility = "hidden";
                         }
+
                         /* ---- выбираем текущее изображение ---- */
-                        this.diapo.but.className = "button selected";
+                        self.diapo.but.className = "button selected";
                         interpolation(false);
-                        selected = this.diapo;
+                        selected = self.diapo;
+
+
                     }
                 }
             };
@@ -239,6 +255,18 @@ var m3D = function () {
         /* ---- цикл ---- */
         setTimeout(run, 32);
     };
+
+    function guid() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1);
+        }
+
+        return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+            s4() + '-' + s4() + s4() + s4();
+    }
+
     return {
         ////////////////////////////////////////////////////////////////////////////
         /* ==== скрипт инициализации ==== */

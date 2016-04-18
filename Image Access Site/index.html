@@ -63,7 +63,10 @@
         }
 
         $(function () {
-            var $container = $("#home-container").css({ minHeight: "930px" });
+            //.homepagepictures (margin-top = 70px + margin-bottom = 30px) * 2 = 200;
+            var height = 200 + $('.homepagepictures').height() * 2;
+
+            var $container = $("#home-container").css({ minHeight: height +"px" });
 
             setTimeout(function () {
                 $(".homepagepictures").each(function () {
