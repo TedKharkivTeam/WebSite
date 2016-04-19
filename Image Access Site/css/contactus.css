@@ -221,7 +221,7 @@ input, textarea {
     left: 28%;
 }
 .adr-top span {
-    font-weight: bold;
+    font-family: "Arial Narrow",SansSerif;
 }
 .adr-bottom {
     position: absolute;
@@ -271,6 +271,8 @@ input, textarea {
 }
 .contactus-holder__triple__div--contact {
     float: left;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .contactus-holder__triple__p {
     width: 100%;
