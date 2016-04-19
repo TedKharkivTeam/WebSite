@@ -88,7 +88,7 @@
     position: absolute;
     top: -10px;
     bottom: 0;
-    left: 0px;
+    left: 0;
     right: 0;
 }
 
@@ -100,10 +100,10 @@
     margin-bottom: 5px;
 }
 
-.animated {
-    position: absolute;
-    border: 1px solid black;
-}
+/*.animated {*/
+    /*position: absolute;*/
+    /*border: 1px solid black;*/
+/*}*/
 
 .gallery-canvas {
     position: absolute;
