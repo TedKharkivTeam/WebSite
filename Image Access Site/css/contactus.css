@@ -221,7 +221,7 @@ input, textarea {
     left: 28%;
 }
 .adr-top span {
-    font-weight: bold;
+    font-family: "Arial Narrow",SansSerif;
 }
 .adr-bottom {
     position: absolute;
@@ -239,4 +239,42 @@ input, textarea {
     left: 0;
     font-size: 14px;
 }
-
+.contactus-holder {
+    width: 80%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+.contactus-holder__triple {
+    width: 33%;
+    float: left;
+}
+.contactus-holder__triple__image--right {
+    float: right;
+}
+.contactus-holder__triple__image--left {
+    float: left;
+    margin-top: 109px;
+}
+.contactus-holder__triple__strong {
+    background: url("../images/email.jpg") no-repeat;
+    background-size: 20%;
+    line-height: 80px;
+    font-size: 40px;
+    padding: 0 0 0 93px;
+    height: 80px;
+    display: block;
+}
+.contactus-holder__triple__div--text {
+    text-align: right;
+    font-size: 22px;
+    float: left;
+}
+.contactus-holder__triple__div--contact {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.contactus-holder__triple__p {
+    width: 100%;
+    display: inline-block;
+}

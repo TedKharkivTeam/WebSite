@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Service & Support :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
-    <link rel="stylesheet" type="text/css" href="../css/service-support.css">
     <link rel="stylesheet" type="text/css" href="../css/bro-con.css">
+    <link rel="stylesheet" type="text/css" href="../css/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="../css/service-and-support.css">
      <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
@@ -21,15 +22,15 @@
         <div class="botlogo">Service & Support</div>
     </div>
     <ul class="leftsidemenu">
-        <li data-toggle="#checkOrderStatus" class="selected"><a href="#">Check Order Status</a></li>
-        <li data-toggle="#checkServiceTicket"><a href="#">Open/Check a Service Ticket</a></li>
-        <li data-toggle="#contactServiceDepartment"><a href="#">Contact Service Department</a></li>
-        <li data-toggle="#maintenanceAgreements"><a href="#">Maintenance Agreements</a></li>
-        <li data-toggle="#globalServiceAreas"><a href="#">Global Service Areas</a></li>
-        <li data-toggle="#serviceAndSupport"><a href="#">The Service & Support Team</a></li>
+        <li data-toggle="#checkOrderStatus" class="menu-toggle-button selected"><a href="#">Check Order Status</a></li>
+        <li data-toggle="#checkServiceTicket" class="menu-toggle-button"><a href="#">Open/Check a Service Ticket</a></li>
+        <li data-toggle="#contactServiceDepartment" class="menu-toggle-button"><a href="#">Contact Service Department</a></li>
+        <li data-toggle="#maintenanceAgreements" class="menu-toggle-button"><a href="#">Maintenance Agreements</a></li>
+        <li data-toggle="#globalServiceAreas" class="menu-toggle-button"><a href="#">Global Service Areas</a></li>
+        <li data-toggle="#serviceAndSupport" class="menu-toggle-button"><a href="#">The Service & Support Team</a></li>
     </ul>
-    <div class="infoblock">
-        <div style="display: none" id="checkOrderStatus">
+    <div class="infoblock support-block">
+        <div class="block-toggle" style="display: block" id="checkOrderStatus">
             <fieldset class="form">
                 <div class="main">
                     <label>Check order status</label>
@@ -55,13 +56,13 @@
                 </div>
             </fieldset>
         </div>
-        <div style="display: none" id="checkServiceTicket"></div>
-        <div style="display: none" id="contactServiceDepartment"></div>
-        <div style="display: none" id="maintenanceAgreements"></div>
-        <div style="display: block" id="globalServiceAreas">
+        <div class="block-toggle" style="display: none" id="checkServiceTicket"><h2> check service ticket </h2></div>
+        <div class="block-toggle" style="display: none" id="contactServiceDepartment"><h2> contact service </h2></div>
+        <div class="block-toggle" style="display: none" id="maintenanceAgreements"><h2> maintenance </h2></div>
+        <div class="block-toggle" style="display: none" id="globalServiceAreas">
             <div id="map"></div>
         </div>
-        <div style="display: none" id="serviceAndSupport"></div>
+        <div class="block-toggle" style="display: none" id="serviceAndSupport"><h2>service and support</h2></div>
     </div>
 </div>
 <footer>
@@ -70,5 +71,8 @@
 <script>
     window.currentTab = '#service_support';
 </script>
+
+<script src="../js/leaflet.js"></script>
+<script src="../js/service.js"></script>
 </body>
 </html>

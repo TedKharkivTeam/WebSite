@@ -41,9 +41,9 @@ footer .bottom-bar span {
 }
 
 footer ul {
+    width: 14%;
     text-align: left;
     position: relative;
-    padding-right: 45px;
 }
 
 footer ul:after {
