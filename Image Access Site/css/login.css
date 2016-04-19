@@ -2,7 +2,7 @@
     width: 190px;
     position: absolute;
     right: 10px;
-    z-index: 1000000;
+    z-index: 1;
 }
 
 .loginDropdown a {
