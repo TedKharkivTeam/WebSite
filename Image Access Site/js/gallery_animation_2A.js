@@ -29,7 +29,7 @@ animationPresets = {
     },
     "preset_for_4_images": {
         "image_0": {
-            stage1: { left: "0", top: "0", width: "74%", height: "65%" },
+            stage1: { left: "20%", top: "0", width: "74%", height: "65%" },
             stage2: { left: "-28%", top: "-23%" }
         },
         "image_1": {
