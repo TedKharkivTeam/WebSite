@@ -18,10 +18,17 @@
 }
 
 .homepagepictures .img-wrapper {
-    width: calc(20% - 15px);
+    width: 12%;
     display: inline-block;
     position: relative;
-    margin: 0 5px;
+    margin: 7px 0 7px 1px;
+}
+
+.homepagepictures .img-wrapper-bscan {
+    width: 16%;
+    display: inline-block;
+    position: relative;
+    margin: 7px 2px;
 }
 
 .homepagepictures .img-block {
