@@ -8,6 +8,30 @@
      <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
+
+    <style>
+        .content__news-wrapper {
+            display: block;
+            margin: 0 auto;
+            width: 70%;
+        }
+        .list__news-item {
+            margin-bottom: 3%;
+        }
+        .news-item__time {
+            font-weight: bold;
+        }
+        .news-item__title {
+            font-weight: bold;
+        }
+        .popup-article__header {
+            font-style: italic;
+        }
+        .popup-article__link {
+            text-decoration: underline;
+        }
+    </style>
+
 </head>
 <body class="gradient">
 <header>
@@ -18,14 +42,93 @@
         <a href="../index.html"><img src="../images/IALogo.jpg" width="1244" height="582" alt="logo"/></a>
         <div class="botlogo">News & Hot Topics</div>
     </div>
-    <ul class="leftsidemenu temporary">
-        <li class="selected"><a href="#">coming soon...</a></li>
-        <li><a href="#">coming soon...</a></li>
-        <li><a href="#">coming soon...</a></li>
-        <li><a href="#">coming soon...</a></li>
-    </ul>
-    <div class="infoblock">
-        <p class="waiting">coming soon...</p>
+    <h2 style="text-align: center;">News & Hot Topics (PAGE MUST BE REDONE)</h2>
+    <div class="content__news-wrapper">
+        <ul class="news-wrapper__list">
+
+            <li class="list__news-item">
+                <time class="news-item__time">8/24/11</time>
+                <span class="news-item__title">Binghamton University Adds KIC</span>
+                <article class="news-item__popup-article">
+                    <span class="popup-article__header">Binghamton University, NY</span>
+                    <p>"The Libraries announce the addition of a new state-of-the-art document scanning kiosk",
+                        begins the post announcing the latest addition to student resources. Student response is
+                        "thank you, thank you, thank you for the addition of this great scanner!".</p>
+                    <p><a class="popup-article__link"
+                          href="http://library2.binghamton.edu/news/blog/2011/08/24/fast-walk-up-scanner-bartle-library/">
+                        Read the original story here.</a></p>
+                </article>
+            </li>
+
+            <li class="list__news-item">
+                <time class="news-item__time">9/23/11</time>
+                <span class="news-item__title">KIC Bookeye 4 System at Kentucky Historical Society</span>
+                <article class="news-item__popup-article">
+                    <span class="popup-article__header">Frankfort, KY</span>
+                    <p>The Kentucky Historical Society announces ScanFest, a series of sessions for patrons
+                        to bring in their fragile books and KHS will use the Bookeye 4 scanner to create
+                        several digital images for the patron on a USB flash drive.</p>
+                    <p><a class="popup-article__link"
+                          href="http://www.historyburgoo.com/historyburgoo/2011/09/scanfest-is-coming-to-the-library.html">
+                        Read the original story here.</a></p>
+                </article>
+            </li>
+
+            <li class="list__news-item">
+                <time class="news-item__time">9/26/11</time>
+                <span class="news-item__title">Scan And Deliver Webinar Report</span>
+                <article class="news-item__popup-article">
+                    <span class="popup-article__header">Online Webinar</span>
+                    <p>Beth Doyle shares her notes and insights during the OCLC "Scan and Deliver" webinar.
+                        Bookeye scanners are mentioned several times, "Much of the Q&A session was about the
+                        Bookeye book scanner which most of these institutions are using for their DoD requests..."</p>
+                    <p><a class="popup-article__link"
+                          href="http://prescan.wordpress.com/2011/09/26/scan-and-deliver-webinar-report-2/">Read the original story here.</a></p>
+                    <p><a class="popup-article__link"
+                              href="http://www.oclc.org/research/events/20110922sd.pdf">
+                            OCLC Scan and Deliver Webinar Slides</a>, OCLC Research</p>
+                    <p><a class="popup-article__link"
+                              href="http://www.oclc.org/research/publications/library/2011/2011-05.pdf">
+                            Scan and Deliver Report</a>, OCLC</p>
+                </article>
+            </li>
+
+            <li class="list__news-item">
+                <time class="news-item__time">11/14/11</time>
+                <span class="news-item__title">BSCAN ILL System with Bookeye at University of St. Thomas</span>
+                <article class="news-item__popup-article">
+                    <span class="popup-article__header">St. Paul, MN</span>
+                <p>Julie Kimlinger posted in the UST Libraries Blog the news from InterLibrary Loan Coordinator Faith Bonitz about the arrival of the new "dream scanner".</p>
+                <p>"The BSCAN software automates many of the steps of scanning, sending, and updating of the lending article requests that we fill. First,
+                    it can read the pick slip, and choose the correct method of transmission, grabbing needed ILL and transaction numbers for OCLC and ILLiad.
+                    It can also read and enter Ariel, Odyssey, and email addresses, and patron names. After we scan the article, the software can automatically
+                    de-skew crooked pages, correct for book curvature, and clean up the margins, so there are no black borders and fingers in the scan. It scans
+                    two pages at a time, but separates the one scan into two images. Additionally, by means of ILLiad's Odyssey Helper, BSCAN can update the requests
+                    in ILLiad/OCLC to "shipped," as it sends the article via Ariel, Odyssey, or email. We have been very pleased with this scanner and software, both
+                    with the quality of the scans and with the workflow efficiencies it offers. Support for the product by the vendor has also been very satisfactory."</p>
+                <p><a class="popup-article__link"
+                      href="http://blogs.stthomas.edu/libraries/2011/11/14/ust-interlibrary-loan-coordinator-faith-bonitz-shares-news-about-new-scanner/">
+                    Read the original story here.</a></p>
+                </article>
+            </li>
+
+            <li class="list__news-item">
+                <time class="news-item__time">1/09/12</time>
+                <span class="news-item__title">New KIC Scanner Will Make Research Much Easier</span>
+                <article class="news-item__popup-article">
+                    <span class="popup-article__header">Darien, CT</span>
+                <p>The Darien Library of Darien, Connecticut announces the addition of a KIC Bookeye 4 to the host of services provided to their patrons.</p>
+                <p>"This will allow students to highlight text while studying PDFs, or easily drag the material into the notes on their computer while studying.
+                    Other Library patrons will have the ability to work with reference material from their own home through the use of the new system. "</p>
+                <p><a class="popup-article__link"
+                      href="http://www.darienlibrary.org/2012/01/09/new-kic-scanner-will-make-research-much-easier">
+                    Read the original story here.</a></p>
+                </article>
+            </li>
+
+
+
+        </ul>
     </div>
 </div>
 <footer>
