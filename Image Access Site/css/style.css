@@ -243,3 +243,11 @@ a.button7 {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
+
+.content .logo-frame-block .logo-image {
+    width: 95%;
+    margin: 35px auto 0;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #ccc;
+}
