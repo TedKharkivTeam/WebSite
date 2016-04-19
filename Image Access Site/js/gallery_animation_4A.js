@@ -14,17 +14,17 @@ var requestAnimationFrame =
 
 animationPresets = {
     "preset_for_3_images": {
-        "image_0": {
-            stage1: {left: "0", top: "10px", width: "68%", height: "68%"},
-            stage2: {left: "-15%", top: "-23%"}
+        "image_2": {
+            stage1: {left: "0", top: "10px", width: "65%", height: "65%"},
+            stage2: {left: "-13%", top: "-23%"}
         },
         "image_1": {
-            stage1: {left: "52%", top: "10px", width: "60%", height: "60%"},
-            stage2: {left: "40%", top: "0%"}
+            stage1: {left: "52%", top: "10px", width: "65%", height: "65%"},
+            stage2: {left: "51%", top: "0%"}
         },
-        "image_2": {
-            stage1: {top: "39%", left: "4%", width: "60%", height: "60%"},
-            stage2: {left: "-12%", top: "40%"}
+        "image_0": {
+            stage1: {top: "39%", left: "4%", width: "65%", height: "65%"},
+            stage2: {left: "-5%", top: "35%"}
         }
     },
     "preset_for_4_images": {
