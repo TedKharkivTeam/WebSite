@@ -79,7 +79,7 @@ function aminate(onAnimationComplete) {
                 var preset = getPreset(number);
                 images.each(function (index) {
                     var $defaultImage = $(this);
-                    var $image = $(this).clone().addClass("animated").appendTo($container);
+                    var $image = $(this).clone().addClass("animated-image-block").appendTo($container);
                     var $image2 = $(this).clone().appendTo($container);
 
                     var $imgPosition = $defaultImage.position();
