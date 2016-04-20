@@ -66,9 +66,11 @@
             //.homepagepictures (margin-top = 70px + margin-bottom = 30px) * 2 = 200;
             var height = 200 + $('.homepagepictures').height() * 2;
 
-            var $container = $("#home-container").css({ minHeight: height +"px" });
+            var $container = $("#home-container").css({ minHeight: height < 900 ? 900 : height +"px" });
+            console.log($container);
 
             setTimeout(function () {
+                console.log('start shit');
                 $(".homepagepictures").each(function () {
                     var $block = $(this);
                     $block.css("top", $block.position().top + 86 + "px");
@@ -84,7 +86,7 @@
                         glAnimate();
                     }
                 }, 4000);
-            }, 50);
+            }, 100);
 
             $(".homepagepictures").click(function (e) {
                 preventDefaultAnimation = true;
