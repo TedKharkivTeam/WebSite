@@ -1,0 +1,20 @@
+.content__infoblock__fleetmanager__text
+{
+	position: absolute;
+	top: 22%;
+	width: 23%;
+}
+.content__infoblock__fleetmanager__text1
+{
+	position: absolute;
+	top: 38%;
+	width:35%;
+}
+.content__infoblock__fleetmanager__text2
+{
+	font-style:italic;
+	position: absolute;
+	top: 65%;
+	right:0;
+	
+}
