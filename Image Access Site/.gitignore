@@ -14,6 +14,12 @@
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 
+.idea/workspace.xml
+.idea/Image Access Site.iml
+.idea/codeStyleSettings.xml
+.idea/modules.xml
+.idea/vcs.xml
+
 # Gradle:
 .idea/gradle.xml
 .idea/libraries
