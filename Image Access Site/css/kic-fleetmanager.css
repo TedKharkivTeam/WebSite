@@ -1,20 +1,97 @@
-.content__infoblock__fleetmanager__text
-{
-	position: absolute;
-	top: 22%;
-	width: 23%;
+.infoblock__top{
+    overflow: hidden;
 }
-.content__infoblock__fleetmanager__text1
-{
-	position: absolute;
-	top: 38%;
-	width:35%;
+
+.infoblock .top__logo{
+    max-width: 340px;
+    float: left;
 }
-.content__infoblock__fleetmanager__text2
-{
-	font-style:italic;
-	position: absolute;
-	top: 65%;
-	right:0;
-	
+.top__h1{
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+    font-size: 64px;
+    margin: 0;
+}
+.top__h2{
+    text-align: center;
+    color: #8ca1c9;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 0;
+    line-height:1;
+    letter-spacing: 0;
+}
+.infoblock__center{
+    overflow: hidden;
+    margin-top: -80px;
+}
+.center__img{
+    float: right;
+    width: 65%;
+    padding-left:20px;
+}
+.center__text--padding{
+    padding-top: 90px;
+    position: relative;
+}
+.center__text--margin{
+    padding-top:25px;
+    position: absolute;
+    width: 33%;
+}
+.infoblock__nav{
+    padding-top:20px;
+    overflow: hidden;
+}
+.nav__li{
+    float: left;
+    width:38%;
+}
+.nav__img{
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+.li--width{
+    width:80%;
+}
+.nav__li li:first-child{
+    list-style: none;
+}
+.nav__li--margin{
+    margin-left:20px;
+}
+.infoblock .infoblock__bottom{
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+.infoblock__bottom li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 17%;
+}
+.infoblock .bottom__img{
+    width:24%;
+    margin-left: 25px;
+}
+.infoblock .bottom__a{
+    width: 20%;
+    position: relative;
+    top: -15px;
+}
+.bottom__a a{
+    font-size: 26px;
+    color: #454733;
+    margin-bottom:10px;
+}
+.a--rel{
+    position: absolute;
+    bottom: 76px;
+    font-size: 30px;
+    color: #8c897d;
+    width: 230%;
+    right: 0;
 }
