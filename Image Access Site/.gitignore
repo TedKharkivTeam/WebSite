@@ -4,7 +4,11 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
 .idea/dataSources.ids
@@ -13,12 +17,6 @@
 .idea/sqlDataSources.xml
 .idea/dynamic.xml
 .idea/uiDesigner.xml
-
-.idea/workspace.xml
-.idea/Image Access Site.iml
-.idea/codeStyleSettings.xml
-.idea/modules.xml
-.idea/vcs.xml
 
 # Gradle:
 .idea/gradle.xml
@@ -46,3 +44,4 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
