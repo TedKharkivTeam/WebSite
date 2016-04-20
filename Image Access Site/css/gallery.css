@@ -100,10 +100,10 @@
     margin-bottom: 5px;
 }
 
-/*.animated {*/
-    /*position: absolute;*/
-    /*border: 1px solid black;*/
-/*}*/
+.animated-image-block {
+    position: absolute;
+    border: 1px solid black;
+}
 
 .gallery-canvas {
     position: absolute;
