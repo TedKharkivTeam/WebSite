@@ -68,14 +68,14 @@ build/
 *.tlb
 *.tli
 *.tlh
-*.tmp
+#*.tmp
 *.tmp_proj
 *.log
 *.vspscc
 *.vssscc
 .builds
 *.pidb
-*.log
+#*.log
 *.scc
 
 # Visual C++ cache files
@@ -194,7 +194,7 @@ $RECYCLE.BIN/
 *.egg
 *.egg-info
 dist/
-build/
+#build/
 eggs/
 parts/
 var/
@@ -223,10 +223,11 @@ pip-log.txt
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/workspace.xml
+.idea/
+#.idea/workspace.xml
 .idea/tasks.xml
 .idea/dictionaries
-.idea/vcs.xml
+#.idea/vcs.xml
 .idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
