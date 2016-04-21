@@ -1075,19 +1075,120 @@ var PopupsData = {
         }]
     },
     "Estonia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "IT Gama",
+            contacts: [{
+                type: 'site',
+                value: 'www.itgama.lt'
+            }, {
+                type: 'tel',
+                value: '+370 5 2034270'
+            }]
+        }]
     },
     "France" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Progeima",
+            contacts: [{
+                type: 'site',
+                value: 'www.progeima.com'
+            }]
+        }, {
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "SPIGRAPH France SAS",
+            contacts: [{
+                type: 'site',
+                value: 'www.spigraph.com'
+            }, {
+                type: 'tel',
+                value: '+33 (0)4 74 94 62 60    '
+            }]
+        }]
     },
     "Georgia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Polygraph",
+            contacts: [{
+                type: 'site',
+                value: 'www.poly.ge'
+            }, {
+                type: 'tel',
+                value: '+99 (532) 231 24 53'
+            }]
+        }]
     },
     "Germany" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Acribit GmbH",
+            contacts: [{
+                type: 'site',
+                value: 'www.acribit.de'
+            }, {
+                type: 'tel',
+                value: '+49 (0351) 500 700 70'
+            }]
+        },{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Arcscan GmbH",
+            contacts: [{
+                type: 'site',
+                value: 'www.arcscan.de'
+            }, {
+                type: 'tel',
+                value: '+49 4102 2001930'
+            }]
+        },{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Dicom Deutschland GmbH",
+            contacts: [{
+                type: 'site',
+                value: 'www.spigraph.de'
+            }, {
+                type: 'tel',
+                value: '+49 (0)208 8804-5700'
+            }]
+        },{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Heindl Bürotechnik",
+            contacts: [{
+                type: 'site',
+                value: 'www.heindl-buerotechnik.de'
+            }]
+        },{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "SMA Electronic Document GmbH",
+            contacts: [{
+                type: 'site',
+                value: 'www.sma-edocument.com'
+            }, {
+                type: 'tel',
+                value: '+49 6036 98930-10'
+            }]
+        }]
     },
     "Greece" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Interlease DSA S.A.",
+            contacts: [{
+                type: 'site',
+                value: 'www.dsahellas.gr'
+            }]
+        }]
     },
     "Hungary" : {
         default: true,
@@ -1115,34 +1216,197 @@ var PopupsData = {
         }]
     },
     "Ireland" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Covergold Limited",
+            contacts: [{
+                type: 'site',
+                value: 'www.covergold.co.uk'
+            }, {
+                type: 'tel',
+                value: '+44 (0)1604 490300'
+            }]
+        }]
     },
     "Italy" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "BLUE Document",
+            contacts: [{
+                type: 'site',
+                value: 'www.blue-document.it'
+            }, {
+                type: 'tel',
+                value: '335 7228036'
+            }]
+        }]
     },
     "Kosovo" : {
-
+        default: true,
+        exclude: "(excluding WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "OSA Računarski inženjering",
+            contacts: [{
+                type: 'site',
+                value: 'www.osa.rs'
+            }, {
+                type: 'tel',
+                value: '+381 (11) 3290-362'
+            }, {
+                type: 'tel',
+                value: '+381 (11) 3291-353'
+            }]
+        }]
     },
     "Latvia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "IT GAMA",
+            contacts: [{
+                type: 'site',
+                value: 'www.itgama.lt'
+            }, {
+                type: 'tel',
+                value: '+370 5 2034270'
+            }]
+        }]
     },
     "Lithuania" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "IT GAMA",
+            contacts: [{
+                type: 'site',
+                value: 'www.itgama.lt'
+            }, {
+                type: 'tel',
+                value: '+370 5 2034270'
+            }]
+        }]
     },
     "Luxembourg" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "BouwXP",
+            contacts: [{
+                type: 'site',
+                value: 'www.bouwxp.nl'
+            }, {
+                type: 'tel',
+                value: '+31 40 78 78 990'
+            }]
+        }]
     },
     "Macedonia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ImageWare Austria GmbH",
+            contacts: [{
+                type: 'site',
+                value: 'www.imageware.at'
+            }, {
+                type: 'tel',
+                value: '+43 (0)1 641 88 55'
+            }]
+        }]
     },
     "Netherlands" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "A-Vision Imaging",
+            contacts: [{
+                type: 'site',
+                value: 'www.avision.biz'
+            }, {
+                type: 'tel',
+                value: '+31 320 750535'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "BouwXP",
+            contacts: [{
+                type: 'site',
+                value: 'www.bouwxp.nl'
+            }, {
+                type: 'tel',
+                value: '+31 40 78 78 990'
+            }]
+        }, {
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ECM Services",
+            contacts: [{
+                type: 'site',
+                value: 'www.ecm-services.nl'
+            }, {
+                type: 'tel',
+                value: '+31 320 236 155'
+            }]
+        }, {
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "SPIGRAPH Netherlands BV",
+            contacts: [{
+                type: 'site',
+                value: 'www.spigraph.nl'
+            }, {
+                type: 'tel',
+                value: '+31 10 798-1060'
+            }]
+        }]
     },
     "Poland" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Agraf Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.agraf.com.pl'
+            }, {
+                type: 'tel',
+                value: '+48 (42) 25 03 120'
+            }]
+        }, {
+            products: "Bookeye, WideTEK 25",
+            companyName: "Digital Document Professionals",
+            contacts: [{
+                type: 'site',
+                value: 'www.ddp.pl'
+            }, {
+                type: 'tel',
+                value: '(22) 622-91-44 do 46'
+            }]
+        }]
     },
     "Portugal" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "DICOM Portugal LDA",
+            contacts: [{
+                type: 'site',
+                value: 'www.spigraph.com'
+            }, {
+                type: 'tel',
+                value: '+33 (0)4 74 94 62 60'
+            }]
+        }]
     },
     "Romania" : {
         default: true,
@@ -1170,10 +1434,34 @@ var PopupsData = {
         }]
     },
     "Russia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ELAR Corporation",
+            contacts: [{
+                type: 'site',
+                value: 'www.elar.ru'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "San Marino" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "BLUE Document",
+            contacts: [{
+                type: 'site',
+                value: 'www.blue-document.it'
+            }, {
+                type: 'tel',
+                value: '335 7228036'
+            }]
+        }]
     },
     "Republic of Serbia" : {
         default: true,
@@ -1226,7 +1514,19 @@ var PopupsData = {
         }]
     },
     "Slovakia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Microform S.R.O.",
+            contacts: [{
+                type: 'site',
+                value: 'www.microform.sk'
+            }, {
+                type: 'tel',
+                value: '+421-905-20 76 09'
+            }]
+        }]
     },
     "Slovenia" : {
         default: true,
@@ -1254,188 +1554,1086 @@ var PopupsData = {
         }]
     },
     "Spain" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "SPIGRAPH Spain SL",
+            contacts: [{
+                type: 'site',
+                value: 'www.spigraph.com'
+            }, {
+                type: 'tel',
+                value: '+33 (0)4 74 94 62 60'
+            }]
+        }]
     },
     "Sweden" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Molander & Son AB",
+            contacts: [{
+                type: 'site',
+                value: 'www.molanders.se'
+            }, {
+                type: 'tel',
+                value: '08-680 15 70'
+            }]
+        }]
     },
     "Switzerland" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Tecnocor ACC GB",
+            contacts: [{
+                type: 'site',
+                value: 'www.tecnocor.ch'
+            }, {
+                type: 'tel',
+                value: '+41 (0)41 440 74 22'
+            }]
+        }]
     },
     "Turkey" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Limeks",
+            contacts: [{
+                type: 'site',
+                value: 'www.limeksofis.com'
+            }, {
+                type: 'tel',
+                value: '+90 (312) 475 15 16'
+            }]
+        }]
     },
     "Ukraine" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ELAR Corporation",
+            contacts: [{
+                type: 'site',
+                value: 'www.elar.ru'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "United Kingdom" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Covergold Limited",
+            contacts: [{
+                type: 'site',
+                value: 	'www.covergold.co.uk'
+            }, {
+                type: 'tel',
+                value: '+44 (0)1604 490300'
+            }]
+        }]
     },
     //==========MiddleEast=================
     "Bahrain" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Iran" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Pooya Parand Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.pooyaparand.com'
+            }]
+        }]
     },
     "Iraq" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Israel" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Sun Electronic Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.sun.co.il'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "Wietec",
+            contacts: [{
+                type: 'site',
+                value: 'www.wietec.com'
+            }, {
+                type: 'tel',
+                value: '09-8859889'
+            }]
+        }]
     },
     "Jordan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Kuwait" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Lebanon" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Oman" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Qatar" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Saudi Arabia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Syria" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "United Arab Emirates" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Yemen" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Forefront Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.forefrontec.com'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     //==========Asia=======================
     "Bangladesh" : {
-
+        default: true,
+        exclude: "(excluding WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Bridge Computer Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.bridgecomputerbd.com'
+            }]
+        }]
     },
     "Bhutan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Vikmans Multimedia Pvt.",
+            contacts: [{
+                type: 'site',
+                value: 'www.vikmans.com'
+            }, {
+                type: 'tel',
+                value: '+91 11 26212325'
+            }, {
+                type: 'tel',
+                value: '+91 11 26472325'
+            }, {
+                type: 'tel',
+                value: '+91 11 26429547'
+            }, {
+                type: 'tel',
+                value: '+91 11 26280025'
+            }]
+        }]
     },
     "Brunei" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "E.J. Motiwalla & Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.ejmotiwalla.com.sg'
+            }, {
+                type: 'tel',
+                value: '+65 67452786'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "Pericom Imaging",
+            contacts: [{
+                type: 'site',
+                value: 'www.pericomimaging.com'
+            }, {
+                type: 'tel',
+                value: '+65 6684 5500'
+            }]
+        }]
     },
     "China" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Beijing Mio",
+            contacts: [{
+                type: 'site',
+                value: 'www.bjmio.com'
+            }, {
+                type: 'tel',
+                value: '400-688-4290'
+            }]
+        }]
     },
     "India" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Vikmans Multimedia Pvt.",
+            contacts: [{
+                type: 'site',
+                value: 'www.vikmans.com'
+            }, {
+                type: 'tel',
+                value: '+91 11 26212325'
+            }, {
+                type: 'tel',
+                value: '+91 11 26472325'
+            }, {
+                type: 'tel',
+                value: '+91 11 26429547'
+            }, {
+                type: 'tel',
+                value: '+91 11 26280025'
+            }]
+        }]
     },
     "Indonesia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "E.J. Motiwalla & Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.ejmotiwalla.com.sg'
+            }, {
+                type: 'tel',
+                value: '+65 67452786'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "Pericom Imaging",
+            contacts: [{
+                type: 'site',
+                value: 'www.pericomimaging.com'
+            }, {
+                type: 'tel',
+                value: '+65 6684 5500'
+            }]
+        }]
     },
     "Japan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Microtek",
+            contacts: [{
+                type: 'site',
+                value: 'www.microteknet.com'
+            }, {
+                type: 'tel',
+                value: '03-3798-5661'
+            }]
+        }, {
+            products: "Bookeye",
+            companyName: "Universal Business Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.ubtc.jp'
+            }, {
+                type: 'tel',
+                value: '03-3287-1170'
+            }]
+        }]
     },
     "Kazakstan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ELAR Corporation",
+            contacts: [{
+                type: 'site',
+                value: 'www.elar.ru'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Korea" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "FlowTEC Co LTD",
+            contacts: [{
+                type: 'site',
+                value: 'www.flowtec21.com'
+            }]
+        }]
     },
     "Malaysia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "E.J. Motiwalla & Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.ejmotiwalla.com.sg'
+            }, {
+                type: 'tel',
+                value: '+65 67452786'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "Pericom Imaging",
+            contacts: [{
+                type: 'site',
+                value: 'www.pericomimaging.com'
+            }, {
+                type: 'tel',
+                value: '+65 6684 5500'
+            }]
+        }]
     },
     "Maldives" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Vikmans Multimedia Pvt.",
+            contacts: [{
+                type: 'site',
+                value: 'www.vikmans.com'
+            }, {
+                type: 'tel',
+                value: '+91 11 26212325'
+            }, {
+                type: 'tel',
+                value: '+91 11 26472325'
+            }, {
+                type: 'tel',
+                value: '+91 11 26429547'
+            }, {
+                type: 'tel',
+                value: '+91 11 26280025'
+            }]
+        }]
     },
     "Pakistan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "Shirazi Trading Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.shirazitrading.com'
+            }, {
+                type: 'tel',
+                value: '1-303-893-0552'
+            }]
+        }]
     },
     "Philippines" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "E.J. Motiwalla & Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.ejmotiwalla.com.sg'
+            }, {
+                type: 'tel',
+                value: '+65 67452786'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "Pericom Imaging",
+            contacts: [{
+                type: 'site',
+                value: 'www.pericomimaging.com'
+            }, {
+                type: 'tel',
+                value: '+65 6684 5500'
+            }]
+        }]
     },
     "Singapore" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "E.J. Motiwalla & Co",
+            contacts: [{
+                type: 'site',
+                value: 'www.ejmotiwalla.com.sg'
+            }, {
+                type: 'tel',
+                value: '+65 67452786'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "Pericom Imaging",
+            contacts: [{
+                type: 'site',
+                value: 'www.pericomimaging.com'
+            }, {
+                type: 'tel',
+                value: '+65 6684 5500'
+            }]
+        }]
     },
     "Taiwan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye",
+            companyName: "All-Rich DIGITAL Enterprise Co., Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.ar-digital.com.tw'
+            }]
+        }, {
+            products: "WideTEK & Wide Format",
+            companyName: "China System Company Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.chinasystem.com.hk'
+            }]
+        }]
     },
     "Thailand" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "PJ Intercare Co., Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.pj.co.th'
+            }]
+        }]
     },
     "Uzbekistan" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ELAR Corporation",
+            contacts: [{
+                type: 'site',
+                value: 'www.elar.ru'
+            }, {
+                type: 'tel',
+                value: '8 800 700-04-04'
+            }]
+        }]
     },
     "Vietnam" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Bookeye Vietnam",
+            contacts: [{
+                type: 'site',
+                value: 'www.bookeye-vn.vn'
+            }]
+        }]
     },
     //==========AustraliaAndNewZealand=====
     "Australia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Inotec Pty Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.smithsoffice.com.au'
+            }, {
+                type: 'tel',
+                value: '02 6921 5579'
+            }, {
+                type: 'tel',
+                value: '02 6025 6322'
+            }]
+        }, {
+            products: "Bookeye",
+            companyName: "Proscan Australia",
+            contacts: [{
+                type: 'site',
+                value: 'www.proscan.com.au'
+            }, {
+                type: 'tel',
+                value: '1300 132 001'
+            }]
+        }]
     },
     "Fiji" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Inotec Pty Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.smithsoffice.com.au'
+            }, {
+                type: 'tel',
+                value: '02 6921 5579'
+            }, {
+                type: 'tel',
+                value: '02 6025 6322'
+            }]
+        }, {
+            products: "Bookeye",
+            companyName: "Proscan Australia",
+            contacts: [{
+                type: 'site',
+                value: 'www.proscan.com.au'
+            }, {
+                type: 'tel',
+                value: '1300 132 001'
+            }]
+        }]
     },
     "New Caledonia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Inotec Pty Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.smithsoffice.com.au'
+            }, {
+                type: 'tel',
+                value: '02 6921 5579'
+            }, {
+                type: 'tel',
+                value: '02 6025 6322'
+            }]
+        }, {
+            products: "Bookeye",
+            companyName: "Proscan Australia",
+            contacts: [{
+                type: 'site',
+                value: 'www.proscan.com.au'
+            }, {
+                type: 'tel',
+                value: '1300 132 001'
+            }]
+        }]
     },
     "New Zealand" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Inotec Pty Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.smithsoffice.com.au'
+            }, {
+                type: 'tel',
+                value: '02 6921 5579'
+            }, {
+                type: 'tel',
+                value: '02 6025 6322'
+            }]
+        }, {
+            products: "Bookeye",
+            companyName: "Proscan Australia",
+            contacts: [{
+                type: 'site',
+                value: 'www.proscan.com.au'
+            }, {
+                type: 'tel',
+                value: '1300 132 001'
+            }]
+        }]
     },
     "Papua New Guinea" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "WideTEK & Wide Format",
+            companyName: "Inotec Pty Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.smithsoffice.com.au'
+            }, {
+                type: 'tel',
+                value: '02 6921 5579'
+            }, {
+                type: 'tel',
+                value: '02 6025 6322'
+            }]
+        }, {
+            products: "Bookeye",
+            companyName: "Proscan Australia",
+            contacts: [{
+                type: 'site',
+                value: 'www.proscan.com.au'
+            }, {
+                type: 'tel',
+                value: '1300 132 001'
+            }]
+        }]
     },
     //==========Africa=====================
     "Algeria" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "ILIAS",
+            contacts: [{
+                type: 'site',
+                value: 'http://www.ilias.com/'
+            }, {
+                type: 'tel',
+                value: '01 60 79 80 59'
+            }]
+        }]
     },
     "Burundi" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Dash-s Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.dash-s.com'
+            }, {
+                type: 'tel',
+                value: '(+250)252 580068'
+            }, {
+                type: 'tel',
+                value: '(+256)0414599293'
+            }]
+        }]
     },
     "Comoros" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Jet Solutions Provider Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.jets-pro.com'
+            }, {
+                type: 'tel',
+                value: '(230) 283 4860'
+            }, {
+                type: 'tel',
+                value: '(230) 283 9775'
+            }]
+        }]
     },
     "Egypt" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Al-Ola Modern Systems",
+            contacts: [{
+                type: 'site',
+                value: 'www.alola-eg.com'
+            }, {
+                type: 'tel',
+                value: '+2 02 24181621'
+            }, {
+                type: 'tel',
+                value: '+2 02 26901298'
+            }]
+        }]
     },
     "Ghana" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Josanti Infoimaging Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.josanti.com'
+            }, {
+                type: 'tel',
+                value: '+233 (0)30 224 7334'
+            }, {
+                type: 'tel',
+                value: '+233 (0)30 225 0999'
+            }, {
+                type: 'tel',
+                value: '+233 (0)24 488 8285'
+            }]
+        }]
     },
     "Kenya" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Datahouse Limited",
+            contacts: [{
+                type: 'site',
+                value: 'www.datahouseetza.com'
+            }]
+        }]
     },
     "Libya" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Delta IT Company",
+            contacts: [{
+                type: 'site',
+                value: 'www.delta.ly'
+            }, {
+                type: 'tel',
+                value: '00218 61 2227008'
+            }]
+        }]
     },
     "Madagascar" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Jet Solutions Provider Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.jets-pro.com'
+            }, {
+                type: 'tel',
+                value: '(230) 283 4860'
+            }, {
+                type: 'tel',
+                value: '(230) 283 9775'
+            }]
+        }]
     },
     "Mauritius" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Jet Solutions Provider Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.jets-pro.com'
+            }, {
+                type: 'tel',
+                value: '(230) 283 4860'
+            }, {
+                type: 'tel',
+                value: '(230) 283 9775'
+            }]
+        }]
     },
     "Mayotte" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Jet Solutions Provider Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.jets-pro.com'
+            }, {
+                type: 'tel',
+                value: '(230) 283 4860'
+            }, {
+                type: 'tel',
+                value: '(230) 283 9775'
+            }]
+        }]
     },
     "Namibia" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Infobolt (PTY) Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.infobolt.co.za'
+            }, {
+                type: 'tel',
+                value: '+27 (0)11 215 3860'
+            }]
+        }]
     },
     "Nigeria" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Library & Information Support Services",
+            contacts: [{
+                type: 'site',
+                value: 'www.softlinkint.com'
+            }, {
+                type: 'tel',
+                value: '+44 (0) 1993 883 401'
+            }]
+        }]
     },
     "Réunion" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Jet Solutions Provider Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.jets-pro.com'
+            }, {
+                type: 'tel',
+                value: '(230) 283 4860'
+            }, {
+                type: 'tel',
+                value: '(230) 283 9775'
+            }]
+        }]
     },
     "Rwanda" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Dash-s Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.dash-s.com'
+            }, {
+                type: 'tel',
+                value: '(+250)252 580068'
+            }, {
+                type: 'tel',
+                value: '(+256)0414599293'
+            }]
+        }]
     },
     "Seychelles" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Jet Solutions Provider Ltd",
+            contacts: [{
+                type: 'site',
+                value: 'www.jets-pro.com'
+            }, {
+                type: 'tel',
+                value: '(230) 283 4860'
+            }, {
+                type: 'tel',
+                value: '(230) 283 9775'
+            }]
+        }]
     },
     "South Africa" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Infobolt (PTY) Ltd.",
+            contacts: [{
+                type: 'site',
+                value: 'www.infobolt.co.za'
+            }, {
+                type: 'tel',
+                value: '+27 (0)11 215 3860'
+            }]
+        }]
     },
     "Tanzania" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Datahouse Limited",
+            contacts: [{
+                type: 'site',
+                value: 'www.datahouseetza.com'
+            }]
+        }]
     },
     "Uganda" : {
-
+        default: true,
+        exclude: "(excluding Bookeye, WideTEK & Wide Format)",
+        additionalDistributors: [{
+            products: "Bookeye, WideTEK & Wide Format",
+            companyName: "Dash-s Technologies",
+            contacts: [{
+                type: 'site',
+                value: 'www.dash-s.com'
+            }, {
+                type: 'tel',
+                value: '(+250)252 580068'
+            }, {
+                type: 'tel',
+                value: '(+256)0414599293'
+            }]
+        }]
     },
     //==============Rest of the world=====
     "RestOfTheWorld": {
