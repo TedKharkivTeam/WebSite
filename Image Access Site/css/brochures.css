@@ -1,0 +1,38 @@
+﻿div.infoblock span {
+    display: inline;
+}
+
+h1.title {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.article-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div.article-container p {
+    font-size: 12px;
+    line-height: 1.16em;
+}
+
+div.column {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span.caption {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.green-radial-gradient {
+    background: radial-gradient(#578E6B, #B6CBBF, #FFFFFF);
+}

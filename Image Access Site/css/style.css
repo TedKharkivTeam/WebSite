@@ -251,3 +251,7 @@ a.button7 {
     border-radius: 10px;
     box-shadow: 3px 3px 15px #ccc;
 }
+
+.flip-horizontal {
+    transform: scaleX(-1);
+}
