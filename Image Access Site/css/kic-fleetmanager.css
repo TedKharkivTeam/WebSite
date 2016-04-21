@@ -27,7 +27,7 @@
     overflow: hidden;
     margin-top: -80px;
 }
-.center__img{
+.infoblock .center__img{
     float: right;
     width: 65%;
     padding-left:20px;
@@ -45,16 +45,16 @@
     padding-top:20px;
     overflow: hidden;
 }
-.nav__li{
+.infoblock .nav__li{
     float: left;
     width:38%;
 }
-.nav__img{
+.infoblock .nav__img{
     float: left;
     width: 60%;
     margin-right: 20px;
 }
-.li--width{
+.infoblock .li--width{
     width:80%;
 }
 .nav__li li:first-child{
