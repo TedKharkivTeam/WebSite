@@ -94,7 +94,7 @@
                 var blockId = currentBlock.attr("id");
                 e.preventDefault();
 
-                var url = blockId === "dlsg-banner" ? eduRedirectUrl : nonEduRedirectUrl;
+                var url = blockId !== "dlsg-banner" ? eduRedirectUrl : nonEduRedirectUrl;
 
                 if (animatedBlock) {
                     if (animatedBlock.attr("id") === blockId) {
