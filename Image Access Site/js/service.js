@@ -47,11 +47,17 @@ $(function () {
         $(this).addClass('selected');
     });
 
-    var UnitedStatesAndCanada_LayerGroup = L.featureGroup().addTo(map);
+    var popup = L.popup({offset: [0, -3], closeButton: false}).setLatLng([0, 0]).setContent('').addTo(map);
+    map.closePopup(popup);
+
+
+    var UnitedStatesAndCanada_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.UnitedStatesAndCanada, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            UnitedStatesAndCanada_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            UnitedStatesAndCanada_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'blue',
                 weight: 1,
                 opacity: 0.5,
@@ -59,14 +65,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var Caribbean_LayerGroup = L.featureGroup().addTo(map);
+    var Caribbean_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.Caribbean, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            Caribbean_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            Caribbean_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'Cyan',
                 weight: 1,
                 opacity: 0.5,
@@ -74,14 +90,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var CentralAmerica_LayerGroup = L.featureGroup().addTo(map);
+    var CentralAmerica_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.CentralAmerica, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            CentralAmerica_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            CentralAmerica_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'Black',
                 weight: 1,
                 opacity: 0.5,
@@ -89,14 +115,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var SouthAmerica_LayerGroup = L.featureGroup().addTo(map);
+    var SouthAmerica_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.SouthAmerica, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            SouthAmerica_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            SouthAmerica_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'purple',
                 weight: 1,
                 opacity: 0.5,
@@ -104,14 +140,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var Europe_LayerGroup = L.featureGroup().addTo(map);
+    var Europe_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.Europe, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            Europe_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            Europe_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'brown',
                 weight: 1,
                 opacity: 0.5,
@@ -119,14 +165,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var MiddleEast_LayerGroup = L.featureGroup().addTo(map);
+    var MiddleEast_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.MiddleEast, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            MiddleEast_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            MiddleEast_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'orange',
                 weight: 1,
                 opacity: 0.5,
@@ -134,14 +190,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var Asia_LayerGroup = L.featureGroup().addTo(map);
+    var Asia_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.Asia, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            Asia_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            Asia_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'red',
                 weight: 1,
                 opacity: 0.5,
@@ -149,14 +215,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var AustraliaAndNewZealand_LayerGroup = L.featureGroup().addTo(map);
+    var AustraliaAndNewZealand_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.AustraliaAndNewZealand, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            AustraliaAndNewZealand_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            AustraliaAndNewZealand_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'green',
                 weight: 1,
                 opacity: 0.5,
@@ -164,14 +240,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var Africa_LayerGroup = L.featureGroup().addTo(map);
+    var Africa_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.Africa, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            Africa_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            Africa_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'yellow',
                 weight: 1,
                 opacity: 0.5,
@@ -179,14 +265,24 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0.6
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
-    var RestOfTheWorld_LayerGroup = L.featureGroup().addTo(map);
+    var RestOfTheWorld_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
+        map.closePopup(popup);
+    });
     L.geoJson(mapAreas.RestOfTheWorld, {
-        onEachFeature: function (feature, layer) {
-            // TODO: Replace color in setStyle option.
-            RestOfTheWorld_LayerGroup.addLayer(L.GeoJSON.geometryToLayer(feature).setStyle({
+        onEachFeature: function (feature, gjson_layer) {
+            var layer = L.GeoJSON.geometryToLayer(feature)
+            RestOfTheWorld_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'white',
                 weight: 1,
                 opacity: 0.5,
@@ -194,6 +290,14 @@ $(function () {
                 dashArray: '5',
                 fillOpacity: 0
             }));
+
+            layer.on('mouseover', function (e) {
+                popup.setContent('<p>' + feature.properties.name +'</p>');
+                map.openPopup(popup);
+            });
+            layer.on('mousemove', function (e) {
+                popup.setLatLng(e.latlng);
+            });
         }
     });
 
@@ -498,7 +602,6 @@ var defaultIAData = {
         value: '561-995-6939'
     }]
 };
-
 var PopupsData = {
     //============US & CANADA=============
     "United States of America" : {
@@ -2635,7 +2738,7 @@ var PopupsData = {
             }]
         }]
     },
-    //==============Rest of the world=====
+    //========Rest of the world==========
     "RestOfTheWorld": {
         default: true,
         exclude: "(excluding Bookeye, WideTEK & Wide Format)",
