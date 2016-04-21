@@ -68,7 +68,7 @@
 }
 
 .infoblock img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -337,7 +337,7 @@
 }
 .infoblock .product_preview img {
     float: left;
-    width: 50%;
+    width: 20%;
 }
 .infoblock .product_preview div {
     float: left;
