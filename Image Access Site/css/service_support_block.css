@@ -93,13 +93,19 @@ input, textarea {
 .mainform .form-left {
     width: 60%;
     margin: 20px auto 40px;
+    background: white;
+}
+
+.mainform .form-left legend{
+    padding: 5px 15px;
+    background: white;
+    border-radius: 10px;
 }
 
 .mainform fieldset {
     margin: 0 15px;
     position: relative;
     padding: 20px;
-    border: 1px solid grey;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
