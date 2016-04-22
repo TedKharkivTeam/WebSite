@@ -9,7 +9,6 @@
 .unyver__h2{
     font-size: 42px;
     color: #000000;
-    /*color: #01fe18;*/
     margin:0;
     padding:0;
 }
@@ -35,4 +34,59 @@
 }
 .unyver__taxt img{
     padding-top:25px;
+}
+.content__pod{
+    display: inline-block;
+    overflow: hidden;
+}
+.frame--text{
+    text-align: justify;
+    padding: 10px 20px;
+}
+.inform-preview{
+    width: 60%;
+    margin: 0 15px;
+}
+.pod__inform{
+    text-align: center;
+    margin-top: -10px;
+}
+.frame7-content{
+    overflow: hidden;
+    text-align: center;
+}
+.frame7-content__dlos{
+    width: 49%;
+    float: left;
+    margin-left: 10%;
+}
+.dlos__logo{
+    overflow: hidden;
+    margin-left: 10%;
+}
+.dlos__logo img,
+.dlos__logo ul{
+    float: left;
+}
+.dlos__logo ul{
+    margin: 15px 0px 0 -8px;
+    text-align: left;
+}
+.frame--width{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.frame7-content__inform{
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.frame--text__inform{
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+}
+.unyver__h2--margin{
+    margin: 0 20px;
 }

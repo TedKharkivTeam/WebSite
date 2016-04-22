@@ -72,6 +72,7 @@
 /* Animated gallery styles */
 /* FRAMES 2-4 */
 .gallery-wrapper {
+    width: 50%;
     position: relative;
     display: block;
 }
@@ -120,6 +121,7 @@
 
 
 .gallery-header{
+    width: 100%;
     -webkit-animation: opacity  3s 1 linear;
     animation: opacity 3s 1 linear;
     -webkit-animation-fill-mode: forwards;
