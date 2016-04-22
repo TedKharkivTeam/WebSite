@@ -28,35 +28,31 @@
         <li><a href="S_Service_Support.html">Global Service Areas</a></li>
         <li><a href="S_The_Service_and_Support_Team.html">The Service & Support Team</a></li>
     </ul>
-    <div class="infoblock support-block1">
-        <div class="block-toggle" style="display: block" id="checkOrderStatus">
-            <form class="mainform">
-                <fieldset class="form-left">
-                        <legend>Get Status on an Open Service Ticket</legend>
-                        <label for="name1">Enter Existing Service Ticket Number</label>
-                        <input type="text" id="name1" value="">
-                        <button class="send">FIND SERVICE TICKET</button>
-                </fieldset>
-            </form>
-        </div>
-        <div class="block-toggle" style="display: block" id="checkOrderStatus1">
-            <form class="mainform">
-                <fieldset class="form-left">
-                        <legend>Open a New Service Request</legend>
-                        <div class="field">
-                            <label for="city1">Software: </label>
-                            <input type="text" id="city1" title="" value=""/>
-                        </div>
-                        <div class="field">
-                            <label for="city1">Hardware: </label>
-                            <input type="text" id="city2" value=""/>
-                        </div>
-                        <div class="one-form to-bottom">
-                            <button class="send">OPEN NEW SERVICE TICKET</button>
-                        </div>
-                </fieldset>
-            </form>
-        </div>
+    <div class="infoblock support-block service-ticket">
+        <form class="mainform">
+            <fieldset class="form-left">
+                <legend>OPEN A NEW SERVICE REQUEST</legend>
+                <p class="infoblock__mainform__fieldset__p">
+                    <label for="software">Software</label>
+                    <input type="text" id="software" value="">
+                </p>
+                <p class="infoblock__mainform__fieldset__p">
+                    <label for="hardware">Hardware</label>
+                    <input type="text" id="hardware" value="">
+                </p>
+                <button class="service-support-button">OPEN NEW SERVICE TICKET</button>
+            </fieldset>
+        </form>
+        <form class="mainform">
+            <fieldset class="form-left">
+                <legend>GET STATUS ON AN OPEN SERVICE TICKET</legend>
+                <p class="infoblock__mainform__fieldset__p">
+                    <label for="ticketnumber">Enter Existing Service Ticket Number</label>
+                    <input type="text" id="ticketnumber" value="">
+                </p>
+                <button class="service-support-button">FIND SERVICE TICKET</button>
+            </fieldset>
+        </form>
     </div>
 </div>
 </div>

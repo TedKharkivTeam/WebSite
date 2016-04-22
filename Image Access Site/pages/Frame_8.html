@@ -15,8 +15,10 @@
     <script src="../js/frames.js"></script>
     <script>
         $(document).ready(function () {
-            simulateAnimation(function () {
-                redirect("Frame_2A.html");
+            fadeIn(function () {
+                aminate(function () {
+                    redirect("Frame_2A.html");
+                });
             });
         });
     </script>

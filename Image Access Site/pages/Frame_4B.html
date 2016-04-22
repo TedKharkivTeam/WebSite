@@ -14,8 +14,10 @@
     <script src="../js/frames.js"></script>
     <script>
         $(document).ready(function () {
-            simulateAnimation(function () {
-                redirect("Frame_4C.html");
+            fadeIn(function () {
+                aminate(function () {
+                    redirect("Frame_4C.html");
+                });
             });
         });
     </script>

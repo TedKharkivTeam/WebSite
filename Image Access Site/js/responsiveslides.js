@@ -1,31 +1,15 @@
 $(document).ready(function () {
-    $("#contactGallery").responsiveSlides({
-        auto: false,
-        random: true,
-        pager: false,
-        nav: false,
-        maxwidth: 1250,
-        namespace: "list"
-    });
     $("#slide_contact").responsiveSlides({
-        manualControls: '#slide-switcher',
-        maxwidth: 800,
-        namespace: "list"
+        namespace: "list",
+        timeout: 4000,
+        auto: true
     });
 });
 $(document).ready(function () {
-    $("#contactGallery2").responsiveSlides({
-        auto: false,
-        pager: true,
-        random: true,
-        nav: true,
-        maxwidth: 1250,
-        namespace: "list"
-    });
     $("#slide_contact2").responsiveSlides({
-        manualControls: '#slide-switcher',
-        maxwidth: 800,
-        namespace: "list"
+        namespace: "list",
+        timeout: 7000,
+        auto: true
     });
 });
 /*! ResponsiveSlides.js v1.54
