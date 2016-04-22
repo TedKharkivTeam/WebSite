@@ -25,6 +25,7 @@
 .leaflet-popup-content p.products {
     text-decoration: underline;
 }
+
 .leaflet-popup-content p.exclude-products {
     font-size: 9px;
 }

@@ -16,8 +16,10 @@
     <script src="../js/gallery_animation_2B.js"></script>
     <script>
         $(document).ready(function () {
-            aminate(function () {
-//                redirect("Frame_2C.html");
+            fadeIn(function () {
+                aminate(function () {
+                    redirect("Frame_2C.html");
+                });
             });
         });
     </script>
@@ -32,7 +34,13 @@
         <!--<div class="botlogo">KIC Bookeye 4</div>-->
     </div>
     <div class="logo-frame-block">
-        <img src="../images/DLSG-index-logo.png" class="logo-image" alt="dlsg-logo">
+        <div class="logo-frame-block__dlsg-logo">
+            <img src="../images/logoBSCAN2.png" alt="dlsg-logo">
+        </div>
+        <div class="logo-frame-block__caption">
+            <h1 class="caption__h">Superior 21st Century</h1>
+            <h2 class="caption__h caption--bold">Hybrid Library Technology</h2>
+        </div>
     </div>
     <div class="brochure-block centr-align">
         <span class="text-grean grean-left">Serving 60% of Students at U.S. Universities</span>
@@ -44,9 +52,10 @@
             <div class="brochure-block bbc">
                 <img class="imgbook" src="../images/logoKic.png">
                 <h4 class="h2--name">Click & Click Mini<img
-                    src="../images/new.png"></h4>
+                        src="../images/new.png"></h4>
             </div>
-            <img class="content__frame--leftside__img" src="../images/pictures_for_frames_left_side/frame2b.png" width=" " height="" alt="">
+            <img class="content__frame--leftside__img" src="../images/pictures_for_frames_left_side/frame2b.png"
+                 width=" " height="" alt="">
         </div>
         <div class="gallery-wrapper">
             <img src="../images/gallery_header.png" alt="" class="gallery-header">

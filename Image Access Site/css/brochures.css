@@ -2,7 +2,7 @@
     display: inline;
 }
 
-h1.title {
+div.infoblock h1 {
     color: #000000;
     font-size: 25px;
     font-weight: bold;
@@ -16,10 +16,10 @@ div.article-container {
     padding-right: 30px;
 }
 
-div.article-container p {
-    font-size: 12px;
-    line-height: 1.16em;
-}
+    div.article-container p {
+        font-size: 12px;
+        line-height: 1.16em;
+    }
 
 div.column {
     float: left;
@@ -34,5 +34,5 @@ span.caption {
 }
 
 .green-radial-gradient {
-    background: radial-gradient(#578E6B, #B6CBBF, #FFFFFF);
+    background: radial-gradient(#578E6B, #A6C2B3, #FFFFFF);
 }
