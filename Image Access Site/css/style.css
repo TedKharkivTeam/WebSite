@@ -117,25 +117,25 @@ td, th {
     float: right;
 }
 
-    .slidesPagination li {
-        float: left;
-        margin: 0 1px;
-        list-style: none;
-    }
+.slidesPagination li {
+    float: left;
+    margin: 0 1px;
+    list-style: none;
+}
 
-        .slidesPagination li a {
-            display: block;
-            width: 14px;
-            height: 0;
-            padding-top: 14px;
-            background-image: url(../images/resources/pagination.png);
-            background-position: 0 0;
-            overflow: hidden;
-        }
+.slidesPagination li a {
+    display: block;
+    width: 14px;
+    height: 0;
+    padding-top: 14px;
+    background-image: url(../images/resources/pagination.png);
+    background-position: 0 0;
+    overflow: hidden;
+}
 
-        .slidesPagination li.slidesCurrent a {
-            background-position: 0 -14px;
-        }
+.slidesPagination li.slidesCurrent a {
+    background-position: 0 -14px;
+}
 
 .viewer {
     width: 50%;
@@ -152,8 +152,9 @@ html {
     -khtml-user-select: none; /* Konqueror */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE/Edge */
-    user-select: none; /* non-prefixed version, currently
-                                  not supported by any browser */
+    user-select: none;
+    /* non-prefixed version, currently
+                                     not supported by any browser */
 }
 
 .gallery-frame {
@@ -246,40 +247,44 @@ a.button7 {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
-.logo-frame-block{
+
+.logo-frame-block {
     overflow: hidden;
-    padding: 2px 0;
+    padding: 6px 0;
 }
-.logo-frame-block__dlsg-logo{
+
+.logo-frame-block__dlsg-logo {
     float: left;
-    padding-left:22%;
+    padding-left: 14%;
     padding-top: 2px;
 }
-.logo-frame-block__dlsg-logo img{
-    padding-right:10px;
-    border-right:1px solid #000;
+
+.logo-frame-block__dlsg-logo img {
+    height: 135px;
+    padding-right: 10px;
+    border-right: 1px solid #000;
 }
-.logo-frame-block__caption{
+
+.logo-frame-block__caption {
     margin-left: 10px;
     display: inline-block;
     background: url("../images/frames/map-bg.png") no-repeat;
     background-size: cover;
 }
-.caption__h{
+
+.caption__h {
     text-shadow: none;
     color: #000;
-    font-size: 42px;
-    font-weight:normal;
+    font-size: 70px;
+    line-height: 72px;
+    font-weight: normal;
     margin: 0;
-    padding:0;
-    line-height:1;
-}
-.caption--bold{
-    font-weight:bold;
+    padding: 0;
 }
 
-
-
+.caption--bold {
+    font-weight: bold;
+}
 
 .flip-horizontal {
     transform: scaleX(-1);

@@ -40,12 +40,12 @@
                     <label for="last">Your PO Number</label>
                     <input type="text" id="last" value="">
                 </p>
-                <button class="service-support-button">FIND</button>
+                <button id="inval" class="service-support-button">FIND</button>
                 <p class="infoblock__mainform__fieldset__p">
                     <label for="city">Our Order Number</label>
                     <input type="text" id="city" value=""/>
                 </p>
-                <button class="service-support-button">FIND</button>
+                <button id="inval2" class="service-support-button">FIND</button>
             </fieldset>
         </form>
     </div>
@@ -55,6 +55,14 @@
 </footer>
 <script>
     window.currentTab = '#service_support';
+</script>
+<script>
+    document.getElementById('inval').onclick = function () {
+        alert('NOT FOUND');
+    };
+    document.getElementById('inval2').onclick = function () {
+        alert('NOT FOUND');
+    };
 </script>
 </body>
 </html>

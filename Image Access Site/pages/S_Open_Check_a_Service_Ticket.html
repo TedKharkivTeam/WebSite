@@ -40,7 +40,7 @@
                     <label for="hardware">Hardware</label>
                     <input type="text" id="hardware" value="">
                 </p>
-                <button class="service-support-button">OPEN NEW SERVICE TICKET</button>
+                <button id="inval" class="service-support-button">OPEN NEW SERVICE TICKET</button>
             </fieldset>
         </form>
         <form class="mainform">
@@ -50,7 +50,7 @@
                     <label for="ticketnumber">Enter Existing Service Ticket Number</label>
                     <input type="text" id="ticketnumber" value="">
                 </p>
-                <button class="service-support-button">FIND SERVICE TICKET</button>
+                <button id="inval2" class="service-support-button">FIND SERVICE TICKET</button>
             </fieldset>
         </form>
     </div>
@@ -61,6 +61,14 @@
 </footer>
 <script>
     window.currentTab = '#service_support';
+</script>
+<script>
+    document.getElementById('inval').onclick = function () {
+        alert('INVALID NUMBER');
+    };
+    document.getElementById('inval2').onclick = function () {
+        alert('INVALID NUMBER');
+    }
 </script>
 </body>
 </html>
