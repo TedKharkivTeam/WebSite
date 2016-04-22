@@ -1,0 +1,38 @@
+.content__unyver{
+    background: url("../images/MIT_Building_10.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: right;
+}
+.unyver__h2{
+    font-size: 42px;
+    color: #000000;
+    /*color: #01fe18;*/
+    margin:0;
+    padding:0;
+}
+@-webkit-keyframes color-text {
+    from {color: #01fe18;}
+    to {color: #01fe18;}
+}
+@keyframes color-text {
+    from {color: #000000;}
+    to {color: #01fe18;}
+}
+.h2--color {
+    -webkit-animation: color-text  3s 1 linear;
+    animation: color-text 3s 1 linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.unyver__taxt{
+    width: 57%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 16%;
+}
+.unyver__taxt img{
+    padding-top:25px;
+}
