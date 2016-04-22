@@ -246,14 +246,40 @@ a.button7 {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
-
-.content .logo-frame-block .logo-image {
-    width: 95%;
-    margin: 5px auto 0;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 3px 3px 15px #ccc;
+.logo-frame-block{
+    overflow: hidden;
+    padding: 2px 0;
 }
+.logo-frame-block__dlsg-logo{
+    float: left;
+    padding-left:22%;
+    padding-top: 2px;
+}
+.logo-frame-block__dlsg-logo img{
+    padding-right:10px;
+    border-right:1px solid #000;
+}
+.logo-frame-block__caption{
+    margin-left: 10px;
+    display: inline-block;
+    background: url("../images/frames/map-bg.png") no-repeat;
+    background-size: cover;
+}
+.caption__h{
+    text-shadow: none;
+    color: #000;
+    font-size: 42px;
+    font-weight:normal;
+    margin: 0;
+    padding:0;
+    line-height:1;
+}
+.caption--bold{
+    font-weight:bold;
+}
+
+
+
 
 .flip-horizontal {
     transform: scaleX(-1);
