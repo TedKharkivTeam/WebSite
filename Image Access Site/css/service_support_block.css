@@ -42,12 +42,11 @@
 }
 
 input, textarea {
-    margin: 10px 10px 0 50px;
-    max-width: 200px;
+    margin: 10px auto;
     border: solid 1px #CCCCCC;
-    padding: 4px;
+    padding: 1%;
     outline: 0;
-    width: 200px;
+    width: 400px;
     background: #F9F9F9;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -91,15 +90,18 @@ input, textarea {
 }
 
 .mainform .form-left {
-    width: 60%;
-    margin: 20px auto 40px;
-    background: white;
+    width: 70%;
+    margin: 70px auto 40px;
+    background: rgba(198,198,198,0.8);
 }
 
-.mainform .form-left legend{
+.mainform .form-left legend {
     padding: 5px 15px;
-    background: white;
+    background: rgba(198,198,198,0.8);
     border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .mainform fieldset {
@@ -135,7 +137,7 @@ input, textarea {
 }
 
 .field {
-    padding-bottom:15px;
+    padding-bottom: 15px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -209,7 +211,7 @@ input, textarea {
 .parkin {
     position: relative;
     padding: 0 !important;
-    max-width: none!important;
+    max-width: none !important;
 }
 
 .adr-top {
@@ -217,9 +219,11 @@ input, textarea {
     top: 50px;
     left: 28%;
 }
+
 .adr-top span {
-    font-family: "Arial Narrow",SansSerif;
+    font-family: "Arial Narrow", SansSerif;
 }
+
 .adr-bottom {
     position: absolute;
     bottom: 0;
@@ -236,22 +240,27 @@ input, textarea {
     left: 0;
     font-size: 14px;
 }
+
 .contactus-holder {
     width: 80%;
     overflow: hidden;
     margin: 50px auto 0;
 }
+
 .contactus-holder__triple {
     width: 33%;
     float: left;
 }
+
 .contactus-holder__triple__image--right {
     float: right;
 }
+
 .contactus-holder__triple__image--left {
     float: left;
     margin-top: 109px;
 }
+
 .contactus-holder__triple__strong {
     background: url("../images/email.jpg") no-repeat;
     background-size: 20%;
@@ -261,24 +270,54 @@ input, textarea {
     height: 80px;
     display: block;
 }
+
 .contactus-holder__triple__div--text {
     text-align: right;
     font-size: 22px;
     float: left;
 }
+
 .contactus-holder__triple__div--contact {
     float: left;
     margin-left: 20px;
     margin-top: 10px;
 }
+
 .contactus-holder__triple__p {
     width: 100%;
     display: inline-block;
 }
-.support-block1{
+
+.support-block1 {
     background: url("../images/collage.png") no-repeat;
     width: 70%;
     height: 90vh;
     background-size: cover;
     opacity: 1;
+}
+
+/*new ss*/
+.infoblock__mainform__fieldset__p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.infoblock__mainform__fieldset__p label {
+    width: 200px;
+    display: inline-block;
+}
+
+.service-support-button {
+    width: 100px;
+    border: 2px solid #02307E;
+    border-radius: 4px;
+    background: #fff;
+    color: #02307E;
+    padding: 1%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.check-order {
+    background: url("../images/serviceSupportBG.jpg") no-repeat;
+    background-size: cover;
 }
