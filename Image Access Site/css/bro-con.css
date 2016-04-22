@@ -20,7 +20,7 @@
 
 .brochure-block {
     display: flex;
-    padding-top: 15px;
+    padding-top: 5px;
     margin: 0;
     position: relative;
 }
@@ -514,14 +514,15 @@ div.dn_arrow {
 }
 
 .imgbook.large {
+    margin-left: 6%;
     width: 250px;
     height: 100%;
 }
 
 .img-frame {
-    width: 40%;
+    width: 47%;
     border: 1px solid #b0b0b0;
-    margin: 0 4.5%;
+    margin: 0 1%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -534,13 +535,12 @@ div.dn_arrow {
 
 .pbd--frame {
     width: 35%;
-}
-
-.mt {
-    margin-top: -50px;
+    float: left;
+    text-align: center;
 }
 
 .bbc {
+    justify-content: center;
     align-items: center;
 }
 
@@ -750,10 +750,6 @@ div.dn_arrow {
     line-height: 0;
 }
 
-.frame--text--top {
-    padding-top: 60px !important;
-}
-
 .frame--text--width {
     width: 30%;
 }
@@ -764,4 +760,16 @@ div.dn_arrow {
 
 .DLOS_Icon {
     max-width: 200px;
+}
+.content__frame--leftside {
+    width: 50%;
+}
+.content__frame--leftside__img {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+.content__brochure-block__img {
+    margin-left: 10%;
 }

@@ -12,37 +12,37 @@ var requestAnimationFrame =
         return setTimeout(callback, 16.67);
     };
 
-animationPresets = {
+var animationPresets = {
     "preset_for_3_images": {
         "image_0": {
-            stage1: {left: "0", top: "10px", width: "65%", height: "65%"},
-            stage2: {left: "-5%", top: "-23%"}
+            stage1: {left: "0", top: "10px", width: "87%", height: "64%"},
+            stage2: {left: "-11%", top: "0"}
         },
         "image_1": {
-            stage1: {left: "52%", top: "10px", width: "65%", height: "65%"},
-            stage2: {left: "55%", top: "0%"}
+            stage1: {left: "52%", top: "10px", width: "65%", height: "80%"},
+            stage2: {left: "50%", top: "16%"}
         },
         "image_2": {
-            stage1: {top: "39%", left: "4%", width: "65%", height: "65%"},
-            stage2: {left: "-13%", top: "40%"}
+            stage1: {top: "39%", left: "4%", width: "90%", height: "66%"},
+            stage2: {top: "48%"}
         }
     },
     "preset_for_4_images": {
         "image_0": {
-            stage1: { left: "0", top: "0", width: "74%", height: "65%" },
-            stage2: { left: "-28%", top: "-23%" }
+            stage1: {left: "0", top: "0", width: "48%", height: "48%"},
+            stage2: {left: "3%", top: "3%"}
         },
         "image_1": {
-            stage1: { left: "51%", top: "0", width: "67%", height: "62%" },
-            stage2: { left: "47%", top: "-20%" }
+            stage1: {left: "51%", top: "0", width: "48%", height: "48%"},
+            stage2: {left: "47%", top: "3%"}
         },
         "image_2": {
-            stage1: { left: "0", top: "52%", width: "67%", height: "62%" },
-            stage2: { left: "-21%", top: "43%" }
+            stage1: {left: "0",  top: "52%", width: "48%", height: "48%"},
+            stage2: {left: "3%", top: "47%"}
         },
         "image_3": {
-            stage1: { left: "51%", top: "52%", width: "72%", height: "65%" },
-            stage2: { left: "47%", top: "43%" }
+            stage1: {left: "51%", top: "52%", width: "48%", height: "48%"},
+            stage2: {left: "47%", top: "47%"}
         }
     }
 };
@@ -99,7 +99,7 @@ function aminate(onAnimationComplete) {
                         $image.animate(preset["image_" + index].stage2, animationDuration / 3, onAnimationComplete);
                     });
                 });
-                $(".gallery-container .gallery-image:not(.animated)").fadeOut(animationDuration + 1000);
+                $(".gallery-container .gallery-image:not(.animated-image-block)").fadeOut(animationDuration + 1000);
                 $canvas.fadeOut(animationDuration + 1000);
                 render();
             }, timeout);
