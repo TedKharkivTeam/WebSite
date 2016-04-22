@@ -295,6 +295,7 @@ input, textarea {
     background-size: cover;
     opacity: 1;
 }
+<<<<<<< HEAD
 
 /*new ss*/
 .infoblock__mainform__fieldset__p {
@@ -320,4 +321,12 @@ input, textarea {
 .check-order {
     background: url("../images/serviceSupportBG.jpg") no-repeat;
     background-size: cover;
+=======
+.support-block2{
+    background: url("../images/Sergej40.png") no-repeat;
+    width: 70%;
+    height: 90vh;
+    background-size: cover;
+    opacity: 1;
+>>>>>>> origin/master
 }
