@@ -19,11 +19,12 @@
 
 .homepagepictures .img-wrapper {
     width: 12%;
-    display: inline-block;
     position: relative;
-    margin: 7px 0 7px 1px;
 }
-
+.light-green--flex{
+    display: flex;
+    justify-content:space-around;
+}
 .homepagepictures .img-wrapper-bscan {
     width: 15%;
     display: inline-block;

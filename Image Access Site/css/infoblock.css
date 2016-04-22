@@ -325,6 +325,7 @@
     font-size: 12px;
     font-weight: bold;
 }
+
 .infoblock .technical_data_pdf .back_text_pdf span {
     color: #000;
     font-size: 12px;
@@ -335,18 +336,26 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 .infoblock .product_preview img {
     float: left;
     width: 50%;
 }
+
 .infoblock .product_preview div {
     float: left;
     width: 50%;
     padding-left: 2%;
 }
+
 .infoblock .product_preview div p {
     margin-top: 3%;
 }
+.infoblock_gallery-holder {
+    width: 100%;
+    overflow: hidden;
+}
+
 /* start temporary style */
 
 .infoblock p.waiting {
