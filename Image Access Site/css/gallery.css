@@ -120,6 +120,7 @@
 
 
 .gallery-header{
+    width: 100%;
     -webkit-animation: opacity  3s 1 linear;
     animation: opacity 3s 1 linear;
     -webkit-animation-fill-mode: forwards;
