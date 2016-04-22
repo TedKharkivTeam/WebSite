@@ -72,6 +72,7 @@
 /* Animated gallery styles */
 /* FRAMES 2-4 */
 .gallery-wrapper {
+    width: 50%;
     position: relative;
     display: block;
 }
