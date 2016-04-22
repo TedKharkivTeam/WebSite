@@ -9,6 +9,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
+
 h1 {
     font-size: 22px;
     color: #02307E;
@@ -16,6 +17,7 @@ h1 {
     font-weight: bold;
     margin: 0 0 20px;
 }
+
 h2 {
     font-size: 18px;
     color: #093C8B;
@@ -115,25 +117,25 @@ td, th {
     float: right;
 }
 
-.slidesPagination li {
-    float: left;
-    margin: 0 1px;
-    list-style: none;
-}
+    .slidesPagination li {
+        float: left;
+        margin: 0 1px;
+        list-style: none;
+    }
 
-.slidesPagination li a {
-    display: block;
-    width: 14px;
-    height: 0;
-    padding-top: 14px;
-    background-image: url(../images/resources/pagination.png);
-    background-position: 0 0;
-    overflow: hidden;
-}
+        .slidesPagination li a {
+            display: block;
+            width: 14px;
+            height: 0;
+            padding-top: 14px;
+            background-image: url(../images/resources/pagination.png);
+            background-position: 0 0;
+            overflow: hidden;
+        }
 
-.slidesPagination li.slidesCurrent a {
-    background-position: 0 -14px;
-}
+        .slidesPagination li.slidesCurrent a {
+            background-position: 0 -14px;
+        }
 
 .viewer {
     width: 50%;
@@ -146,13 +148,14 @@ html {
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none;   /* Chrome/Safari/Opera */
-    -khtml-user-select: none;    /* Konqueror */
-    -moz-user-select: none;      /* Firefox */
-    -ms-user-select: none;       /* IE/Edge */
-    user-select: none;           /* non-prefixed version, currently
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* non-prefixed version, currently
                                   not supported by any browser */
 }
+
 .gallery-frame {
     z-index: 70000;
     height: 700px;
