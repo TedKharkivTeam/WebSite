@@ -258,3 +258,9 @@ a.button7 {
 .flip-horizontal {
     transform: scaleX(-1);
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
