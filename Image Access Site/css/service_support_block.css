@@ -282,3 +282,10 @@ input, textarea {
     background-size: cover;
     opacity: 1;
 }
+.support-block2{
+    background: url("../images/Sergej40.png") no-repeat;
+    width: 70%;
+    height: 90vh;
+    background-size: cover;
+    opacity: 1;
+}
