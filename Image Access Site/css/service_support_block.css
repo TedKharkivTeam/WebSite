@@ -269,3 +269,10 @@ input, textarea {
     width: 100%;
     display: inline-block;
 }
+.support-block1{
+    background: url("../images/background_picture.png") no-repeat;
+    width: 70%;
+    height: 90vh;
+    background-size: cover;
+    opacity: 1;
+}
