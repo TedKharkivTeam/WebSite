@@ -6,7 +6,6 @@
     <title>News & Hot Topics :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
     <link rel="stylesheet" type="text/css" href="../css/slick.css">
-    <link rel="stylesheet" type="text/css" href="../css/popModal.css">
     <link rel="stylesheet" type="text/css" href="../css/new_hot_topics.css">
 
     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
@@ -15,7 +14,9 @@
     <script src="../js/include.js" type="text/javascript"></script>
     <script src="../js/slick.min.js" type="text/javascript"></script>
     <script src="../js/slick-init.js" type="text/javascript"></script>
-    <script src="../js/popModal.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/popups.js"></script>
+
+
 </head>
 <body class="gradient">
 <header>
@@ -49,21 +50,234 @@
                 <img src="../images/new_hot/University_of_Texas_Arlington.jpg" alt="slick">
             </div>
         </div>
-
         <div class="news-wrapper__popup">
-            <span class="popuop__text">News Feed</span>
+            <span class="popuop__text text--popup">News Feed</span>
             <ul class="popup__menu">
-                <li id="popModal_ex1">
-                    <time>3/15/15</time>
-                    <span>KIC Scanner at ENSSIB</span>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup1" href="#">
+                        <time>3/15/15</time>
+                        <span>KIC Scanner at ENSSIB</span>
+                    </a>
                 </li>
-                <li><a  class="menu__a" href="">
-                    <time>1/14/15</time>
-                    <span>Flagler Museum Awarded Grants - Bookeye 4 V1A</span>
-                </a></li>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup2" href="#">
+                        <time>1/14/15</time>
+                        <span>Flagler Museum Awarded Grants - Bookeye 4 V1A</span>
+                    </a>
+                </li>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup3" href="#">
+                        <time>12/12/14</time>
+                        <span>University of Kentucky offers self-serve scanning with the KIC Bookeye 4 Scan Station</span>
+                    </a>
+                </li>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup4" href="#">
+                        <time>12/12/14</time>
+                        <span>Greenville County Library System has added a new Bookeye 4 KIC System</span>
+                    </a>
+                </li>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup5" href="#">
+                        <time>10/22/14</time>
+                        <span>Scanner Enhances Public Accessibility to Newspapers of 1800s - by Janice De Jesus, Contra Costa Times</span>
+                    </a>
+                </li>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup6" href="#">
+                        <time>4/25/14</time>
+                        <span>Kansas State University - New KIC scanner features</span>
+                    </a>
+                </li>
+                <li class="news_item">
+                    <a class="menu__a show_popup" rel="popup7" href="#">
+                        <time>3/18/14</time>
+                        <span>Try Lila D Bunch Library’s new walk-up KIC scanner</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="popup1 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <p class="news_location">Lyon, France</p>
+                <p>"Composé d’un scanner à livres, d’un scanner à feuillets (recto-verso automatique)
+                    d’un écran de commande tactile et d’un écran de visualisation, le système KIC ne permet pas d’impression directe."</p>
+                <p> "Installé dans le Salon, le scanner peut être utilisé librement sans authentification,
+                    dans le respect des droits d’auteur. Un mode d’emploi est à votre disposition.".</p>
+                <div class="img--right">
+                    <img src="../images/new_hot/logo-enssib_0.png" alt="menu">
+                </div>
+                <p><a href="http://www.enssib.fr/actualites/service-de-numerisation-kic-scanner" target="_blank"> Read the original announcement here.</a>(French)</p>
+            </div>
+            <div class="popup2 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <p class="news_location">Palm Beach, Florida</p>
+                <p>The Flagler Museum was recently awarded several generous grants that will significantly impact its ability to
+                    preserve and interpret its collections.</p>
+                <p>The Mosaic Foundation (of R. & P. Heydon) the SmARTBiz Grant Program ( a collaborative Council of Palm
+                    Beach County), and The Fortin Foundation of Florida have all provided funding to support the Museum’s
+                    purchase of the specialized Bookeye 4 V1A Professional Scanner.  This high resolution machine can scan
+                    fragile books and documents from the Museum’s collections while safely holding them in place in a  special
+                    cradle.  The specialized scanner will allow the Museum to greatly enhance its collections research and
+                    interpretation capabilities while meeting professional collections care standards.</p>
+                <img class="news_content__img" src="../images/new_hot/FlaglerPhoto2015.jpg" alt="">
+                <p> <a href="http://issuu.com/flaglermuseum/docs/winter_magazine_2014_for_web/" target="_blank"> Read the original article in the Flagler Museum Magazine here</a>. </p>
+            </div>
+            <div class="popup3 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <div class="img--left"><img src="../images/new_hot/UKY-logo.jpg" alt=""></div>
+                <p class="news_location">Lexington, Kentucky</p>
+                <p>With a KIC station already in place in the Law Library, the University of Kentucky has now added two BSCAN ILL stations for their interlibrary loan department and a second KIC station to serve their students with the latest in walk-up scanning in the Margaret I. King Library..</p>
+                <div class="img--right"><img class="img--border" src="../images/new_hot/UKY-1.JPG" alt=""></div>
+                <p> <a href="http://uklibrariesbirdseye.blogspot.com/2014/12/special-collections-research-center.html" target="_blank"> Read original post here</a>.
+                    <a href="files/UKY-news-2014.pdf" target="_blank"><img src="../images/new_hot/PDF_symbol_small.gif" alt=""></a></p>
+            </div>
+            <div class="popup4 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <div class="img--left"><img src="../images/new_hot/GCLS-logo.jpg" alt=""></div>
+                <p class="news_location">Greenville, South Carolina</p>
+                <p>The new KIC system is located in Hughes Main Library. With its
+                    scanning area of 24' x 17' it includes an adjustable cradle to support fragile
+                    items at various angles. The system has an advantage
+                    of software upgrades to add color and to increase resolu
+                    tion to up to 600dpi in the future.</p>
+                <div class="img--right"><img class="img--border" src="../images/new_hot/GCLS-KIC.jpg" alt=""></div>
+                <p> <a href="https://cusch.wordpress.com/2014/12/10/gcls-bookeye-4-kic-system/" target="_blank"> Read original post here</a>.
+                    <a href="files/GCLS-news.pdf" target="_blank"><img src="../images/new_hot/PDF_symbol_small.gif" alt=""></a></p>
+            </div>
+            <div class="popup5 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <p class="news_location">Martinez, California</p>
+                <p>Volunteers at the history center want to ensure the news is carefully preserved for the public for years to come.</p>
+                <p>Enter the Bookeye 4 -- a state-of-the-art scanner that has blended traditionally-archived news with modern technology. The county history
+                    center now has the best of both worlds as they continue to provide the public with access to news archives, thanks to the large-scale scanner that can now preserve the
+                    images of the oldest and most fragile newspapers, said Priscilla Couden, executive director of the Contra Costa County Historical Society.</p>
+                <img class="news_content__img" src="../images/new_hot/Contra_Costa1.jpg" alt="">
+                <p> <a href="http://www.nlr.ru/eng/tus/eng_vid_news_str.php?id=47" target="_blank"> Read original post here</a>. </p>
+            </div>
+            <div class="popup6 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <div class="img--left"><img src="../images/new_hot/KansasState.JPG" alt=""></div>
+                <p class="news_location">Manhattan, Kansas</p>
+                <p>Check it out at the Veterinary Medical Library...</p>
+                <p>Lifelines - a newsletter of the College of Veterinary Medicine highlights some updated features on the new scann
+                    er that include a V-cradle that allows scanning from books in a natural position. A foot pedal enables users to scan books almost as fast as pages can be turned. The new scanner also
+                    adds the capability to send scans to FTP, network drive, cloud storage or directly to mobile devices such as smart p
+                    hones and tablets via Smart Dock or QR Code.</p>
+                <div class="img--right"><img class="img--border" src="../images/new_hot/Kansas.png" alt=""></div>
+                <p> <a href="http://www.contracostatimes.com/concord/ci_26777239/martinez-scanner-enhances-public-accessibility-newspapers-1800s" target="_blank"> Read original article here</a>. </p>
+            </div>
+            <div class="popup7 news_content fadeIn animated" >
+                <a class="close" href="#">X</a>
+                <div class="img--left"><img src="../images/new_hot/Belmont-logo.jpg" alt=""></div>
+                <p class="news_location">Nashville, Tennessee</p>
+                <p>Lila D Bunch Library at Belmont University introduces new KIC Click table top scanner.
+                </p>
+                <p>"Easy, fast, high-quality scans of documents and photos. Simply scan,
+                    modify and save scans as Searchable PDF, Quick PDF, JPEG, PNG, RTF or Audio
+                    file to USB or send to your Google Drive or Email."</p>
+                <div class="img--right"><img class="img--border" src="../images/new_hot/Lila-KIC.JPG" alt=""></div>
+                <p> <a href="http://www.vet.k-state.edu/DEPTS/development/lifelines/1404.htm/" target="_blank"> Read original article here</a>. </p>
+            </div>
+        </div>
+        <div class="drop-box">
+            <span class="popuop__text">News Feed</span>
+            <ul class="drop-box__icon">
+                <li class="icon__img">
+                    <a href="http://placonference.org" target="_blank"><img src="../images/new_hot/PLA_2014.jpg" alt=""></a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="http://www.infotoday.com/cil2014/" target="_blank"><img src="../images/new_hot/CIL_2014.jpg" alt="">
+                    </a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="http://www.txla.org/annual-conference" target="_blank"><img src="../images/new_hot/TXLA_2014.jpg" alt="">
+                    </a>
+                    <div class="event_content">
+                        <div class="content__text fadeIn animated">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="https://m360.tnla.org/frontend/event/schedule.aspx?EventId=50113" target="_blank"><img src="../images/new_hot/TNLA_2014.jpg" alt="">
+                    </a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="http://ala14.ala.org/" target="_blank"><img src="../images/new_hot/ALA_LasVegas_2014.JPG" alt="">
+                    </a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="http://www.aallnet.org/conference/" target="_blank"><img src="../images/new_hot/AALL_San Antonio_2014.JPG" alt="">
+                    </a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="http://conference.ifla.org/ifla80/" target="_blank"><img src="../images/new_hot/IFLA_Lyon_2014.JPG" alt="">
+                    </a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
+                <li class="icon__img">
+                    <a href="http://www.klaonline.org/conferences620.cfm" target="_blank"><img src="../images/new_hot/KLA_2014.jpg" alt=""></a>
+                    <div class="event_content fadeIn animated">
+                        <div class="content__text">
+                            <span class="text--bold" > KLA/KASL </span>
+                            <span class="text--padding">Louisville, KY</span>
+                            <time class="text--bold"> 9/18/2014 </time>
+                        </div>
+                        <p> Come visit our booth #14 for a personal demonstration and learn how to bring your library into the digital age. </p>
+                    </div>
+                </li>
             </ul>
         </div>
-
     </div>
 </div>
 <footer>
