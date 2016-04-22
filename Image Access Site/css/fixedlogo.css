@@ -1,13 +1,13 @@
 .logo {
     box-shadow: 4px 0 10px 1px #000000;
     position: fixed;
-    left: 9%;
-    top: 74px;
+    left: 8%;
+    top: 54px;
     background-color: white;
     z-index: 1;
 }
 
 .logo img {
-    width: 180px;
-    height: 84px;
+    width: 247px;
+    height: 116px;
 }
