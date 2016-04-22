@@ -2,7 +2,9 @@ var stopFrameRedirect = false;
 
 function redirect(url) {
     if (!stopFrameRedirect) {
-        window.location.href = url;
+        $("div.content").fadeOut(5000, function () {
+            window.location.href = url;
+        });
     }
 }
 
@@ -15,5 +17,5 @@ $(document).ready(function () {
 });
 
 function simulateAnimation(onAnimationComplete) {
-    setTimeout(onAnimationComplete, 2000);
+    setTimeout(onAnimationComplete, 4000);
 }

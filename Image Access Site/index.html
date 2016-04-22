@@ -42,8 +42,7 @@
 
         function animateBlock(block, pageUrl) {
             block.css("z-index", 999).animate({ width: "200%", top: 0 }, animationDuration, function () {
-                stopFrameRedirect = false;
-                redirect(pageUrl);
+                window.location.href = pageUrl;
             });
             block.find(".text-stripe").animate({ fontSize: "60px" }, animationDuration);
             block.find(".heading").animate({ fontSize: "58px" }, animationDuration);
@@ -66,7 +65,7 @@
             //.homepagepictures (margin-top = 70px + margin-bottom = 30px) * 2 = 200;
             var height = 200 + $('.homepagepictures').height() * 2;
 
-            var $container = $("#home-container").css({ minHeight: height < 900 ? 900 : height +"px" });
+            var $container = $("#home-container").css({ minHeight: height < 900 ? 900 : height + "px" });
             console.log($container);
 
             setTimeout(function () {
@@ -158,7 +157,7 @@
 					<li><a href="pages/Book_Scanner.html">Scan2Net Book Scanners</a></li>
 				</ul>
 			</li>
-			<li><a href="pages/Service_Support.html" id="service_support">SERVICE & SUPPORT</a>
+			<li><a href="pages/S_Service_Support.html" id="service_support">SERVICE & SUPPORT</a>
 				<ul class="dropdown fadeIn animated">
 				</ul>
 			</li>
@@ -271,11 +270,11 @@
 							<span>Portal Login</span>
 							<input type="text" maxlength="64" name="AnmeldeName" placeholder="Login">
 							<input type="password" maxlength="64" name="Passwort" placeholder="Password">
-							<input class="submit" type="submit" value="Login"/>
+							<input class="submit" type="submit" value="Login" />
 							<a href="" class="">Password change</a>
 							<!--<div class="horizontal-divider"></div>-->
 							<!--<span>Newsletter</span>-->
-							<!--<input type="hidden" name="lang" value="en"/>-->
+							<!--<input type="hidden" name="lang" value="en" />-->
 							<!--<select name="title">-->
 								<!--<option value="no">Title</option>-->
 								<!--<option value="Ms.">Ms.</option>-->
@@ -301,9 +300,9 @@
     </header>
     <div id="home-container" class="content">
         <!--<img id="dlsgImage" class="homepagepictures" src="images/dlsg.jpg" alt="dlsgimage">-->
-        <!--&lt;!&ndash;onclick="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;onclick="new ImageExpander(this, 'images/dlsg.jpg', 'pages/DlsgPage.html'); this.href = 'javascript:void(0);'" />&ndash;&gt;-->
         <!--<img id="bscanImage" class="homepagepictures" src="images/bscan.jpg" alt="bscanimage">-->
-        <!--&lt;!&ndash;onclick="new ImageExpander(this, 'images/bscan.jpg', 'pages/BscanPage.html'); this.href = 'javascript:void(0);'"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;onclick="new ImageExpander(this, 'images/bscan.jpg', 'pages/BscanPage.html'); this.href = 'javascript:void(0);'" />&ndash;&gt;-->
         <!--&lt;!&ndash;<script type="text/javascript">glAnimate();</script>&ndash;&gt;-->
         <div id="dlsg-banner" class="homepagepictures dlsgBlock noselect clearfix">
             <div class="logo-block">
@@ -388,80 +387,79 @@
 						<img src="images/index/013.png" alt="preview" class="preview-image">
 					</div>
 
-					<div class="img-wrapper-bscan">
-						<img src="images/index/014.png" alt="preview" class="preview-image">
-					</div>
-				</div>
+                <div class="img-wrapper-bscan">
+                    <img src="images/index/014.png" alt="preview" class="preview-image">
+                </div>
             </div>
         </div>
     </div>
     <footer>
         <div class="bottom-bar">
-			<a href="#"> </a>
-			<a href="#"> </a>
-			<a href="docs/AGBS-en-0110.pdf" target="_blank"> </a>
-			<a href="#"> </a>
-			<a href="#"> </a>
-			<span>Image&nbsp;Access,&nbsp;Inc.&nbsp;&copy;&nbsp;2016</span>
-		</div>
-		<div class="footer--bottom">
-			<ul>
-				<li><span>News</span></li>
-				<li><a href="pages/News_Hot_Topics.html">News & Hot Topics</a></li>
-				<li><a href="pages/Event_Calendar.html">Event Calendar</a></li>
-			</ul>
-			<ul>
-				<li><span>Press</span></li>
-				<li><a href="pages/Copiers_vs_Book_Scanners">Copiers vs. Book Scanners</a></li>
-				<li><a href="pages/60_percents_of_Students_at_Universities.html">60% of Students at Universities</a></li>
-			</ul>
-			<ul>
-				<li><span>Company</span></li>
-				<li><a href="pages/Focus_on_Libraries.html">About Image Access</a></li>
-				<li><a href="pages/Factory_Tour.html">Scan2Net Factory Tour</a></li>
-				<li><a href="pages/Locations.html">Locations</a></li>
-			</ul>
-			<ul>
-				<li><span>Contact</span></li>
-				<li><a href="pages/CONTACT_US.html">Contact Us</a></li>
-			</ul>
-			<ul>
-				<li><span>Tags</span></li>
+            <a href="#"> </a>
+            <a href="#"> </a>
+            <a href="docs/AGBS-en-0110.pdf" target="_blank"> </a>
+            <a href="#"> </a>
+            <a href="#"> </a>
+            <span>Image&nbsp;Access,&nbsp;Inc.&nbsp;&copy;&nbsp;2016</span>
+        </div>
+        <div class="footer--bottom">
+            <ul>
+                <li><span>News</span></li>
+                <li><a href="pages/News_Hot_Topics.html">News & Hot Topics</a></li>
+                <li><a href="pages/Event_Calendar.html">Event Calendar</a></li>
+            </ul>
+            <ul>
+                <li><span>Press</span></li>
+                <li><a href="pages/Copiers_vs_Book_Scanners">Copiers vs. Book Scanners</a></li>
+                <li><a href="pages/60_percents_of_Students_at_Universities.html">60% of Students at Universities</a></li>
+            </ul>
+            <ul>
+                <li><span>Company</span></li>
+                <li><a href="pages/Focus_on_Libraries.html">About Image Access</a></li>
+                <li><a href="pages/Factory_Tour.html">Scan2Net Factory Tour</a></li>
+                <li><a href="pages/Locations.html">Locations</a></li>
+            </ul>
+            <ul>
+                <li><span>Contact</span></li>
+                <li><a href="pages/CONTACT_US.html">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><span>Tags</span></li>
 
-				<li>
-					<a href="pages/Book_Scanner.html">book scanner</a>
-					<a href="https://www.youtube.com/watch?v=3Qcc-NMor5g" class="a--small" target="_blank"> video</a>
-				</li>
-				<li>
-					<a href="pages/WP_Wide_Format_Guide.html">white papers</a>
-					<a href="pages/Book_Copier.html" class="a--small"> book copier</a>
-				</li>
-				<li><a href="pages/Wide_Format.html">wide format scanner</a></li>
-				<li>
-					<a href="pages/Archiving.html">archiving</a>
-					<a href="pages/Digitize_Photos.html" class="a--small"> digitize photos</a>
-				</li>
-				<li>
-					<a href="pages/KIC_Software.html">software</a>
-					<a href="pages/Preservation.html" class="a--small"> preservation</a>
-				</li>
+                <li>
+                    <a href="pages/Book_Scanner.html">book scanner</a>
+                    <a href="https://www.youtube.com/watch?v=3Qcc-NMor5g" class="a--small" target="_blank"> video</a>
+                </li>
+                <li>
+                    <a href="pages/WP_Wide_Format_Guide.html">white papers</a>
+                    <a href="pages/Book_Copier.html" class="a--small"> book copier</a>
+                </li>
+                <li><a href="pages/Wide_Format.html">wide format scanner</a></li>
+                <li>
+                    <a href="pages/Archiving.html">archiving</a>
+                    <a href="pages/Digitize_Photos.html" class="a--small"> digitize photos</a>
+                </li>
+                <li>
+                    <a href="pages/KIC_Software.html">software</a>
+                    <a href="pages/Preservation.html" class="a--small"> preservation</a>
+                </li>
 
-				<li>
-					<a href="#">Archival</a>
-					<a href="#">BSCAN ILL</a>
-				</li>
-				<li>
-					<a href="#">Opus</a>
-					<a href="#">KIC</a>
-					<a href="#">KAT</a>
-				</li>
-				<li>
-					<a href="#">POD</a>
-					<a href="#">DLOS</a>
-				</li>
-			</ul>
-			<a href="index.html"><img src="images/Logo_ImageAccess_color_revers.png" width="73" height="40" alt="Logo Image Access white"/></a>
-		</div>
+                <li>
+                    <a href="#">Archival</a>
+                    <a href="#">BSCAN ILL</a>
+                </li>
+                <li>
+                    <a href="#">Opus</a>
+                    <a href="#">KIC</a>
+                    <a href="#">KAT</a>
+                </li>
+                <li>
+                    <a href="#">POD</a>
+                    <a href="#">DLOS</a>
+                </li>
+            </ul>
+            <a href="index.html"><img src="images/Logo_ImageAccess_color_revers.png" width="73" height="40" alt="Logo Image Access white" /></a>
+        </div>
     </footer>
 </body>
 </html>
