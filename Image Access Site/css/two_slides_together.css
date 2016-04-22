@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	color: #000;
+	background: #fff;
+	font: 10px/12px arial, helvetica, sans-serif;
+}
+/* General reset */
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+img {border-style: none;}
+input, select, textarea {
+	vertical-align: middle;
+	font: 100% arial, helvetica, sans-serif;
+}
+a {
+	color: #f00;
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+/* General settings */
+#wrapper {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+.gallery-holder, .gallery-holder1{
+	width: 100%;
+	position: relative;
+	padding: 40px 0;
+}
+.list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+.list li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.list li.first. {
+  position: relative;
+  display: block;
+  float: left;
+}
+.list img {
+  height: auto;
+  float: left;
+  width: 100%;
+}
+ .list_tabs {
+ 	margin: 0;
+ 	padding: 10px 0 0;
+ 	list-style: none;
+ 	left: 50%;
+ 	position: relative;
+ 	float: left;
+}
+ .list_tabs li{
+ 	float: left;
+ 	right: 50%;
+ 	position: relative;
+ 	padding: 0 5px;
+}
+.list_tabs li a{
+	float: left;
+	text-indent: -9999px;
+	background: url("../img/bg-rslides_tabs-a.png") no-repeat;
+  	width: 17px;
+  	height: 16px;
+}
+.list_tabs li.list_here a{ background: url("../img/bg-rslides_here-a.png") no-repeat;}
+.prev, .next{
+	width: 25px;
+	height: 63px;
+	display: block;
+	text-indent: -3000px;
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	margin-top: -31px;
+	z-index: 10;
+}
+.prev{background: url(../img/prev.png) no-repeat;}
+.next{
+	background: url(../img/next.png) no-repeat;
+	right: 7%;
+	left: auto;
+}
+#slide-switcher{
+	margin: 0;
+ 	padding: 10px 0 40px;
+ 	list-style: none;
+ 	left: 50%;
+ 	position: relative;
+ 	float: left;
+}
+#slide-switcher li a{
+	width: auto;
+	height: auto;
+	background: none;
+}
+#slide-switcher li img{
+	display: block;
+}

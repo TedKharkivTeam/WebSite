@@ -76,7 +76,6 @@
     padding:10px;
     margin-left: 5px;
     display: none;
-    overflow: auto;
     background: #fff;
     border: 1px solid #888;
     border-radius: 4px;
@@ -84,11 +83,12 @@
     top: 0;
     left:100%;
     width: 500px;
-    height: auto;
     z-index: 10;
-    overflow-y: auto;
-    max-height: 460px;
     text-align: left;
+}
+.popup__scroll{
+    max-height: 460px;
+    overflow: auto;
 }
 .news_content__img{
     width: 100%;
@@ -116,12 +116,11 @@
 .news_content .close{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 25px;
     color: #000000;
     text-decoration: none;
     padding: 4px;
     font-size: 18px;
-    margin-right: 2px;
 }
 .drop-box{
     width: 700px;

@@ -46,7 +46,7 @@
     margin: 2px auto;
     background-color: #262E39;
     justify-content: space-between;
-
+    z-index: 10000000;
 }
 
 .mainmenu a {

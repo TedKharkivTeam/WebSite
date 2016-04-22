@@ -10,7 +10,10 @@
     <link rel="stylesheet" type="text/css" href="../css/service-and-support.css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <link rel="stylesheet" type="text/css" href="../css/service_support_block.css">
-    <link rel="stylesheet" href="../css/style_for_slides.css">
+
+    <link rel="stylesheet" href="../css/two_slides_together.css">
+
+    <script src="../js/jquery-1.8.3.min.js" type="text/javascript"></script>
 
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
@@ -29,9 +32,9 @@
     </div>
     <ul class="leftsidemenu">
         <li class=""><a href="Check_Order_Status.html">Check Order Status</a></li>
-        <li class="selected"><a href="Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a>
+        <li class=""><a href="Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a>
         </li>
-        <li class=""><a href="Contact_Service_Department.html">Contact Service
+        <li class="selected"><a href="#">Contact Service
             Department</a></li>
         <li class=""><a href="#">Maintenance Agreements</a></li>
         <li class="" id="globalServiceArea"><a href="Service_Support.html">Global Service Areas</a>
@@ -50,39 +53,28 @@
         </li>
         <li data-toggle="#serviceAndSupport" class="menu-toggle-button"><a href="#">The Service & Support Team</a></li>
     </ul>
-    <div class="infoblock support-block1">
+    <div class="infoblock support-block" style="text-align: center">
+        <strong>Image Access Service & Support Team</strong><br><br>
+        <strong>ServiceTeam@ImageAccess.com</strong><br><br>
+        <strong style="color:#4eb1ff;">561-995-6939</strong><br>
+        <div class="gallery-holder1">
+            <ul class="list" id="slide">
+                <li><img src="../images/sliders_two/1slide.png" width="800" height="400" alt=""></li>
+                <li><img src="../images/sliders_two/2slide.png" width="800" height="400" alt=""></li>
+                <li><img src="../images/sliders_two/3slide.png" width="800" height="400" alt=""></li>
+                <li><img src="../images/sliders_two/4slide.png" width="800" height="400" alt=""></li>
+                <li><img src="../images/sliders_two/5slide.png" width="800" height="400" alt=""></li>
+                <li><img src="../images/sliders_two/6slide.png" width="800" height="400" alt=""></li>
+            </ul>
 
-        <div class="block-toggle" style="display: block" id="checkOrderStatus">
-            <form class="mainform">
-                <fieldset class="form-left">
-                        <legend>Get Status on an Open Service Ticket</legend>
-                        <label for="name1">Enter Existing Service Ticket Number</label>
-                        <input type="text" id="name1" value="">
-                        <button class="send">FIND SERVICE TICKET</button>
-                </fieldset>
-            </form>
         </div>
-        <div class="block-toggle" style="display: block" id="checkOrderStatus1">
-            <form class="mainform">
-                <fieldset class="form-left">
-                        <legend>Open a New Service Request</legend>
-                        <div class="field">
-                            <label for="city1">Software: </label>
-                            <input type="text" id="city1" title="" value=""/>
-                        </div>
-                        <div class="field">
-                            <label for="city1">Hardware: </label>
-                            <input type="text" id="city2" value=""/>
-                        </div>
-                        <div class="one-form to-bottom">
-                            <button class="send">OPEN NEW SERVICE TICKET</button>
-                        </div>
+        <div class="gallery-holder1">
+            <ul class="list" id="slidess">
 
-                </fieldset>
-            </form>
+            </ul>
+
         </div>
     </div>
-</div>
 </div>
 <footer>
     <div id="includeFooter"></div>
@@ -90,7 +82,7 @@
 <script>
     window.currentTab = '#service_support';
 </script>
-<script src="../js/leaflet.js"></script>
-<script src="../js/slides.js" type="text/javascript"></script>
+
+<script src="../js/responsiveslides.js" type="text/javascript" ></script>
 </body>
 </html>
