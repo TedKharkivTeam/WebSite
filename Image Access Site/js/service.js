@@ -1,28 +1,24 @@
 $(function () {
-    var map = L.map('map', {zoomControl: false}).setView([29.464554, 10.810547], 1.5);
+    var map = L.map('map').setView([29.464554, 10.810547], 1.5);
     var currentZoom = 2;
 
     L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: 'abcd',
-        maxZoom: 12,
+        maxZoom: 7,
         minZoom: 2,
         ext: 'png',
     }).addTo(map);
-
     map.on('zoomend', function (e) {
         if (e.target._zoom <= 2) {
-            map.dragging.disable();
             map.scrollWheelZoom.disable();
         } else {
-            map.dragging.enable();
             map.scrollWheelZoom.enable();
         }
         currentZoom = e.target._zoom;
     });
 
     map.scrollWheelZoom.disable();
-    map.dragging.disable();
     map.touchZoom.disable();
     map.doubleClickZoom.disable();
     map.boxZoom.disable();
@@ -39,15 +35,20 @@ $(function () {
 
         if (id == "#globalServiceAreas") {
             map.invalidateSize();
-            map.setView([29.464554, 10.810547], 1.5);
             $('.sub-menu__map_toggle').removeClass('selected');
-            $('#wholeWorldToggle').addClass('selected');
+            $('#UnitedStates').addClass('selected');
+            map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
         }
 
         $(this).addClass('selected');
     });
 
-    var popup = L.popup({offset: [0, -3], closeButton: false}).setLatLng([0, 0]).setContent('').addTo(map);
+    var popup = L.popup({
+        offset: [0, -3],
+        closeButton: false,
+        autoPan: true,
+        autoPanPadding: [1, 1]
+    }).setLatLng([0, 0]).setContent('').addTo(map);
     map.closePopup(popup);
 
 
@@ -56,7 +57,7 @@ $(function () {
     });
     L.geoJson(mapAreas.UnitedStatesAndCanada, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             UnitedStatesAndCanada_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'blue',
                 weight: 1,
@@ -67,7 +68,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -81,7 +82,7 @@ $(function () {
     });
     L.geoJson(mapAreas.Caribbean, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             Caribbean_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'Cyan',
                 weight: 1,
@@ -92,7 +93,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -106,7 +107,7 @@ $(function () {
     });
     L.geoJson(mapAreas.CentralAmerica, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             CentralAmerica_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'Black',
                 weight: 1,
@@ -117,7 +118,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -131,7 +132,7 @@ $(function () {
     });
     L.geoJson(mapAreas.SouthAmerica, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             SouthAmerica_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'purple',
                 weight: 1,
@@ -142,7 +143,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -156,7 +157,7 @@ $(function () {
     });
     L.geoJson(mapAreas.Europe, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             Europe_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'brown',
                 weight: 1,
@@ -167,7 +168,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -181,7 +182,7 @@ $(function () {
     });
     L.geoJson(mapAreas.MiddleEast, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             MiddleEast_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'orange',
                 weight: 1,
@@ -192,7 +193,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -206,7 +207,7 @@ $(function () {
     });
     L.geoJson(mapAreas.Asia, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             Asia_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'red',
                 weight: 1,
@@ -217,7 +218,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -231,7 +232,7 @@ $(function () {
     });
     L.geoJson(mapAreas.AustraliaAndNewZealand, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             AustraliaAndNewZealand_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'green',
                 weight: 1,
@@ -242,7 +243,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -256,7 +257,7 @@ $(function () {
     });
     L.geoJson(mapAreas.Africa, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             Africa_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'yellow',
                 weight: 1,
@@ -267,7 +268,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -281,7 +282,7 @@ $(function () {
     });
     L.geoJson(mapAreas.RestOfTheWorld, {
         onEachFeature: function (feature, gjson_layer) {
-            var layer = L.GeoJSON.geometryToLayer(feature)
+            var layer = L.GeoJSON.geometryToLayer(feature);
             RestOfTheWorld_LayerGroup.addLayer(layer.setStyle({
                 fillColor: 'white',
                 weight: 1,
@@ -292,7 +293,7 @@ $(function () {
             }));
 
             layer.on('mouseover', function (e) {
-                popup.setContent('<p>' + feature.properties.name +'</p>');
+                popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -311,44 +312,44 @@ $(function () {
         switch (region) {
             case "US":
                 map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
-                console.log('US');
+                $('.leaflet-control-zoom').show();
                 break;
             case "CAR":
                 map.fitBounds(Caribbean_LayerGroup.getBounds());
-                console.log('CAR');
+                $('.leaflet-control-zoom').show();
                 break;
             case "CEA":
                 map.fitBounds(CentralAmerica_LayerGroup.getBounds());
-                console.log('CEA');
+                $('.leaflet-control-zoom').show();
                 break;
             case "SOA":
                 map.fitBounds(SouthAmerica_LayerGroup.getBounds());
-                console.log('SOA');
+                $('.leaflet-control-zoom').show();
                 break;
             case "EU":
                 map.fitBounds(Europe_LayerGroup.getBounds());
-                console.log('EU');
+                $('.leaflet-control-zoom').show();
                 break;
             case "ME":
                 map.fitBounds(MiddleEast_LayerGroup.getBounds());
-                console.log('ME');
+                $('.leaflet-control-zoom').show();
                 break;
             case "AS":
                 map.fitBounds(Asia_LayerGroup.getBounds());
-                console.log('AS');
+                $('.leaflet-control-zoom').show();
                 break;
             case "AU":
                 map.fitBounds(AustraliaAndNewZealand_LayerGroup.getBounds());
-                console.log('AU');
+                $('.leaflet-control-zoom').show();
                 break;
             case "AF":
                 map.fitBounds(Africa_LayerGroup.getBounds());
-                console.log('AF');
+                $('.leaflet-control-zoom').show();
                 break;
             case "WW":
             default:
-                console.log('WW');
                 map.setView([29.464554, 10.810547], 1.5);
+                $('.leaflet-control-zoom').hide();
         }
     });
 });
@@ -602,6 +603,7 @@ var defaultIAData = {
         value: '561-995-6939'
     }]
 };
+
 var PopupsData = {
     //============US & CANADA=============
     "United States of America" : {
@@ -2745,3 +2747,68 @@ var PopupsData = {
         additionalDistributors: []
     }
 };
+
+function getPopupContent(popupData) {
+    var data = popupData || PopupsData['RestOfTheWorld'];
+    var str = '';
+
+    if(data.default) {
+        str += '<p class="products">'+defaultIAData.products+'</p>';
+        
+        if(data.exclude && data.exclude != '') {
+            str += '<p class="exclude-products">'+data.exclude+'</p>';
+        }
+
+        str += '<p>'+defaultIAData.companyName+'</p>';
+    }
+
+    
+    defaultIAData.contacts.forEach(function (item) {
+        switch (item.type) {
+            case "site":
+                str += '<p><a class="site" href="'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                break;
+            case "tel":
+                str += '<p><a href="tel:'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                break;
+            case "tel:sales":
+                str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Sales: </span>'+item.value+'</a></p>';
+                break;
+            case "tel:service":
+                str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Service: </span>'+item.value+'</a></p>';
+                break;
+        }
+    });
+    
+    if(data.additionalDistributors.length > 0) {
+        str += '<br/>';
+        
+        data.additionalDistributors.forEach(function (company, index) {
+            str += '<p class="products">'+company.products+'</p>';
+            str += '<p>'+company.companyName+'</p>';
+
+            company.contacts.forEach(function (item) {
+                switch (item.type) {
+                    case "site":
+                        str += '<p><a class="site" href="'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                        break;
+                    case "tel":
+                        str += '<p><a href="tel:'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                        break;
+                    case "tel:sales":
+                        str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Sales: </span>'+item.value+'</a></p>';
+                        break;
+                    case "tel:service":
+                        str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Service: </span>'+item.value+'</a></p>';
+                        break;
+                }
+            });
+            
+            if(index < data.additionalDistributors.length - 1) {
+                str += '<br/>';
+            }
+        })
+    }
+
+    return str;
+}
