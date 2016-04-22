@@ -41,7 +41,7 @@
     margin: -1px;
     width: 800px;
     position: absolute;
-    z-index: 99999;
+    z-index: 100002;
     display: none;
     right: 41px;
     top: 50%;

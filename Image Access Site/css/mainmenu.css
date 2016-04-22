@@ -13,8 +13,8 @@
     -o-transition: all 1s linear;
     -webkit-transition: all 1s linear;
     display: block;
-    border-bottom: 1px rgba(246, 246, 246, 0.1) solid;;
-    padding: 10px 15px 10px 20px;
+    border-bottom: 1px rgba(246, 246, 246, 0.1) solid;
+    padding: 5px 15px 5px 20px;
 }
 
 .drop {
@@ -43,7 +43,7 @@
     display: flex;
     width: 70%;
     list-style-type: none;
-    margin: 10px auto;
+    margin: 2px auto;
     background-color: #262E39;
     justify-content: space-between;
 
@@ -74,7 +74,7 @@
 
 .mainmenu .dropdown li.group_link {
     text-transform: uppercase;
-    padding: 10px 20px 10px 5px;
+    padding: 5px 20px 5px 5px;
 }
 
 .mainmenu .activeHeader {

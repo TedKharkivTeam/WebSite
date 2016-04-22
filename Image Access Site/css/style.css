@@ -9,6 +9,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
+
 h1 {
     font-size: 22px;
     color: #02307E;
@@ -16,6 +17,7 @@ h1 {
     font-weight: bold;
     margin: 0 0 20px;
 }
+
 h2 {
     font-size: 18px;
     color: #093C8B;
@@ -146,13 +148,15 @@ html {
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none;   /* Chrome/Safari/Opera */
-    -khtml-user-select: none;    /* Konqueror */
-    -moz-user-select: none;      /* Firefox */
-    -ms-user-select: none;       /* IE/Edge */
-    user-select: none;           /* non-prefixed version, currently
-                                  not supported by any browser */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
+    /* non-prefixed version, currently
+                           not supported by any browser */
 }
+
 .gallery-frame {
     z-index: 70000;
     height: 700px;
@@ -246,7 +250,7 @@ a.button7 {
 
 .content .logo-frame-block .logo-image {
     width: 95%;
-    margin: 35px auto 0;
+    margin: 5px auto 0;
     display: block;
     border-radius: 10px;
     box-shadow: 3px 3px 15px #ccc;
