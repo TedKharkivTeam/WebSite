@@ -1,0 +1,271 @@
+#support-address {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+#head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+#address {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+#contacts {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+#caption {
+    font-size: 90%;
+    font-style: italic;
+}
+
+.mainform .star {
+    position: relative;
+}
+
+.mainform .star:before {
+    content: '*';
+    position: absolute;
+    top: 10px;
+    right: 230px;
+    font-size: 18px;
+    color: #f00;
+}
+
+input, textarea {
+    margin: 10px 10px 0 50px;
+    max-width: 200px;
+    border: solid 1px #CCCCCC;
+    padding: 4px;
+    outline: 0;
+    width: 200px;
+    background: #F9F9F9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.content .brochure-block .contact_list {
+    list-style-image: none;
+    margin: 0;
+}
+
+.content .brochure-block .contact_list li {
+    font-size: 35px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.content .brochure-block .contact_list li i {
+    display: inline;
+    padding: 0 20px 0 0;
+    color: #2487D6;
+}
+
+.mainform .main {
+    background: #fff;
+    position: absolute;
+    top: -16px;
+    padding: 0 10px;
+    left: 5%;
+}
+
+.mainform .main label {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.mainform {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainform .form-left {
+    width: 60%;
+    margin: 20px auto 40px;
+}
+
+.mainform fieldset {
+    margin: 0 15px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.send {
+    font-size: 18px;
+    border: none;
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 0 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: 1s;
+}
+
+.send:hover {
+    opacity: 0.7;
+    box-shadow: 0 0 5px #000;
+}
+
+.field {
+    padding-bottom:15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.field label {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: normal;
+    padding-right: 6px;
+}
+
+.one-form {
+
+}
+
+.one-form div {
+    padding: 0 5px;
+}
+
+.tag {
+    font-size: 20px;
+}
+
+.tag p {
+    color: #000;
+    padding: 0 10px !important;
+}
+
+.tag span {
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.tag .little {
+    font-size: 12px;
+}
+
+.tag a {
+    color: #0000F0;
+}
+
+.tag a:hover {
+    text-decoration: underline;
+}
+
+.tag .mini-p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.text-area {
+    margin-left: 38px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.address span {
+    font-size: 38px;
+    color: #fff;
+}
+
+.address p {
+    padding: 0 !important;
+    font-size: 34px;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+.parkin {
+    position: relative;
+    padding: 0 !important;
+    max-width: none!important;
+}
+
+.adr-top {
+    position: absolute;
+    top: 50px;
+    left: 28%;
+}
+.adr-top span {
+    font-family: "Arial Narrow",SansSerif;
+}
+.adr-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+}
+
+.sub--images {
+    position: relative;
+}
+
+.text--sub--images {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    font-size: 14px;
+}
+.contactus-holder {
+    width: 80%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+.contactus-holder__triple {
+    width: 33%;
+    float: left;
+}
+.contactus-holder__triple__image--right {
+    float: right;
+}
+.contactus-holder__triple__image--left {
+    float: left;
+    margin-top: 109px;
+}
+.contactus-holder__triple__strong {
+    background: url("../images/email.jpg") no-repeat;
+    background-size: 20%;
+    line-height: 80px;
+    font-size: 40px;
+    padding: 0 0 0 93px;
+    height: 80px;
+    display: block;
+}
+.contactus-holder__triple__div--text {
+    text-align: right;
+    font-size: 22px;
+    float: left;
+}
+.contactus-holder__triple__div--contact {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.contactus-holder__triple__p {
+    width: 100%;
+    display: inline-block;
+}

@@ -24,25 +24,6 @@ $(function () {
     map.boxZoom.disable();
     map.keyboard.disable();
 
-    $('.menu-toggle-button').click(function (e) {
-        e.preventDefault();
-        $('.menu-toggle-button').removeClass('selected');
-
-        $('.block-toggle').hide();
-        var id = $(this).attr('data-toggle');
-
-        $(id).show();
-
-        if (id == "#globalServiceAreas") {
-            map.invalidateSize();
-            $('.sub-menu__map_toggle').removeClass('selected');
-            $('#UnitedStates').addClass('selected');
-            map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
-        }
-
-        $(this).addClass('selected');
-    });
-
     var popup = L.popup({
         offset: [0, -3],
         closeButton: false,
@@ -76,6 +57,7 @@ $(function () {
             });
         }
     });
+    map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
 
     var Caribbean_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
         map.closePopup(popup);
@@ -101,6 +83,8 @@ $(function () {
             });
         }
     });
+
+    map.invalidateSize();
 
     var CentralAmerica_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
         map.closePopup(popup);
