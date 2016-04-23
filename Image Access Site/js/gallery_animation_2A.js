@@ -29,20 +29,20 @@ var animationPresets = {
     },
     "preset_for_4_images": {
         "image_0": {
-            stage1: {left: "0", top: "0", width: "48%", height: "48%"},
-            stage2: {left: "3%", top: "3%"}
+            stage1: {left: "-10%", top: "-4%", width: "52%", height: "52%"},
+            stage2: {left: "-5%", top: "-10%"}
         },
         "image_1": {
-            stage1: {left: "51%", top: "0", width: "48%", height: "48%"},
-            stage2: {left: "47%", top: "3%"}
+            stage1: {left: "54%", top: "-6%", width: "48%", height: "48%"},
+            stage2: {left: "48%", top: "-6%"}
         },
         "image_2": {
-            stage1: {left: "0",  top: "52%", width: "48%", height: "48%"},
-            stage2: {left: "3%", top: "47%"}
+            stage1: {left: "-4%",  top: "52%", width: "48%", height: "48%"},
+            stage2: {left: "-1%", top: "43%"}
         },
         "image_3": {
-            stage1: {left: "51%", top: "52%", width: "48%", height: "48%"},
-            stage2: {left: "47%", top: "47%"}
+            stage1: {left: "51%", top: "52%", width: "50%", height: "50%"},
+            stage2: {left: "48%", top: "43%"}
         }
     }
 };

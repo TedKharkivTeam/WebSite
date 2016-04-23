@@ -1,0 +1,34 @@
+.pod-content{
+    overflow: hidden;
+    padding: 0 5px;
+}
+.content__bird{
+    float: right;
+    width: 55%;
+}
+.content__bird img{
+    width: 100%;
+    height: auto;
+}
+.content__pod-text p{
+    font-size: 18px;
+    padding: 20px 0 10px 20px;
+}
+.content__pod-text{
+    padding-top:20px;
+}
+.pod-text__girl{
+    text-align: center;
+    width: 45%;
+    position: relative;
+}
+.pod-text__girl img{
+    width: 100%;
+    position: relative;
+}
+.girl__speak{
+    position: absolute;
+    top:33px;
+    left: 79%;
+    width: 250px;
+}
