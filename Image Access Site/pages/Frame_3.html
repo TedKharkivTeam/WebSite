@@ -18,7 +18,9 @@
         $(document).ready(function () {
             fadeIn(function () {
                 aminate(function () {
-                    redirect("Frame_4A.html");
+                    simulateAnimation(function () {
+                        redirect("Frame_4A.html");
+                    });
                 });
             });
         });
