@@ -218,3 +218,25 @@
     margin-left:0;
     font-weight:bold;
 }
+.infoblock__photo{
+    overflow: hidden;
+    text-align: left;
+    padding-top:20px;
+}
+.infoblock__photo .photo__img{
+    width: 50%;
+    height:auto;
+    float: left;
+}
+.infoblock span{
+    font-weight:normal;
+}
+.infoblock__photo{
+    font-size: 16px;
+}
+.infoblock__photo .photo__table{
+    width: 49%;
+}
+.infoblock__photo .photo__double{
+    width: 95%;
+}
