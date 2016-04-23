@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -16,61 +16,69 @@
     <script>
         $(document).ready(function () {
             fadeIn(function () {
-                redirect("Frame_8.html");
+                simulateAnimation(function () {
+                    redirect("Frame_8.html");
+                });
             });
         });
     </script>
 </head>
 <body class="gradient">
-<header>
-    <div id="includeHeader"></div>
-</header>
-<div class="content">
-    <div class="logo">
-        <img src="../images/IALogo.jpg">
-        <!--<div class="botlogo">KIC Bookeye 4</div>-->
-    </div>
-    <div class="logo-frame-block">
-        <div class="logo-frame-block__dlsg-logo">
-            <img src="../images/logoBSCAN2.png" alt="dlsg-logo">
+    <header>
+        <div id="includeHeader"></div>
+    </header>
+    <div class="content">
+        <div class="logo">
+            <img src="../images/IALogo.jpg">
+            <!--<div class="botlogo">KIC Bookeye 4</div>-->
         </div>
-        <div class="logo-frame-block__caption">
-            <h1 class="caption__h">Superior 21st Century</h1>
-            <h2 class="caption__h caption--bold">Hybrid Library Technology</h2>
-        </div>
-    </div>
-    <div class="brochure-block centr-align">
-        <span class="text-grean grean-left">Seving 60% of Students at U.S. Universities</span>
-        <span class="text-grean grean-right">Serving Public Libraries Across America</span>
-    </div>
-    <span class="text-grey">Digital Library Operating System</span>
-    <div class="frame7-content">
-        <div class="frame7-content__dlos">
-            <div class="dlos__logo">
-                <img class="DLOS_Icon" src="../images/frames/DLOS_Icon.png" alt="dlos">
-                <ul>
-                    <li><strong class="dlos-logo">digital</strong></li>
-                    <li><strong class="dlos-logo">library</strong></li>
-                    <li><strong class="dlos-logo">operating</strong></li>
-                    <li><strong class="dlos-logo">system</strong></li>
-                </ul>
+        <div class="logo-frame-block">
+            <div class="logo-frame-block__dlsg-logo">
+                <img src="../images/logoBSCAN2.png" alt="dlsg-logo">
             </div>
-            <p class="frame--text frame--width">Not everyone is comfortable with using computers to find what they
-                need. DLOS gives users with little or no experience with browsers simplified view where they can touch a
-                visual representation of what they're looking for</p>
-            <p class="frame--text frame--width">For example patrons can look for a lob by touching icons to Find Work,
-                Print Tax
-                Forms Icon, Write Letter, Read My Email and more!</p>
+            <div class="logo-frame-block__caption">
+                <h1 class="caption__h">Superior 21st Century</h1>
+                <h2 class="caption__h caption--bold">Hybrid Library Technology</h2>
+            </div>
         </div>
-        <section class="frame7-content__inform">
-            <h2 class="unyver__h2 unyver__h2--margin">Your Very Own PC for Just $5</h2>
-            <p class="frame--text frame--text__inform">Users can save files and images to the cloud or
-                to their own Use drives that they can purchase for Just a few dollars at the reference desk. </p>
-        </section>
+        <div class="brochure-block centr-align">
+            <span class="text-grean grean-left">Seving 60% of Students at U.S. Universities</span>
+            <span class="text-grean grean-right">Serving Public Libraries Across America</span>
+        </div>
+        <span class="text-grey">Digital Library Operating System</span>
+        <div class="frame7-content">
+            <div class="frame7-content__dlos">
+                <div class="dlos__logo">
+                    <img class="DLOS_Icon" src="../images/frames/DLOS_Icon.png" alt="dlos">
+                    <ul>
+                        <li><strong class="dlos-logo">digital</strong></li>
+                        <li><strong class="dlos-logo">library</strong></li>
+                        <li><strong class="dlos-logo">operating</strong></li>
+                        <li><strong class="dlos-logo">system</strong></li>
+                    </ul>
+                </div>
+                <p class="frame--text frame--width">
+                    Not everyone is comfortable with using computers to find what they
+                    need. DLOS gives users with little or no experience with browsers simplified view where they can touch a
+                    visual representation of what they're looking for
+                </p>
+                <p class="frame--text frame--width">
+                    For example patrons can look for a lob by touching icons to Find Work,
+                    Print Tax
+                    Forms Icon, Write Letter, Read My Email and more!
+                </p>
+            </div>
+            <section class="frame7-content__inform">
+                <h2 class="unyver__h2 unyver__h2--margin">Your Very Own PC for Just $5</h2>
+                <p class="frame--text frame--text__inform">
+                    Users can save files and images to the cloud or
+                    to their own Use drives that they can purchase for Just a few dollars at the reference desk.
+                </p>
+            </section>
+        </div>
     </div>
-</div>
-<footer>
-    <div id="includeFooter"></div>
-</footer>
+    <footer>
+        <div id="includeFooter"></div>
+    </footer>
 </body>
 </html>
