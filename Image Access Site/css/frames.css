@@ -166,7 +166,7 @@
 .saw{
     text-align: center;
 }
-.saw-hend{
+.saw .saw-hend{
     width:40px;
 }
 .saw h3{
@@ -174,6 +174,7 @@
     color: #000;
     margin:0;
     padding:0;
+    font-weight:normal;
 }
 .saw__green-text{
     font-style: italic;
