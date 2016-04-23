@@ -8,8 +8,6 @@
  * Copyright 2014, Codrops
  * http://www.codrops.com
  */
- var delayTime = 2000;
- 
 ;( function( window ) {
 
 	'use strict';
