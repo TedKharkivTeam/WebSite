@@ -514,6 +514,7 @@ div.dn_arrow {
 }
 
 .imgbook.large {
+    margin-top: 3%;
     margin-left: 6%;
     width: 250px;
     height: 100%;
@@ -761,15 +762,18 @@ div.dn_arrow {
 .DLOS_Icon {
     max-width: 200px;
 }
+
 .content__frame--leftside {
     width: 50%;
 }
+
 .content__frame--leftside__img {
     width: 95%;
     margin: 0 auto;
     height: auto;
     display: block;
 }
+
 .content__brochure-block__img {
     margin-left: 10%;
 }
