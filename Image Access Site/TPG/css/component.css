@@ -92,15 +92,15 @@
 
 /* Navigation dots */
 .photostack nav {
-	position: absolute;
+	/*position: absolute;
 	width: 100%;
 	bottom: 30px;
 	z-index: 90;
 	text-align: center;
 	left: 0;
 	-webkit-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-	/*display: hidden;*/
+	transition: opacity 0.3s;*/
+	display: hidden;
 }
 
 .photostack-start nav {
