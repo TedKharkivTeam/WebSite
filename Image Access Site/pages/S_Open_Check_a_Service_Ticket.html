@@ -40,7 +40,15 @@
                     <label for="hardware">Hardware</label>
                     <input type="text" id="hardware" value="">
                 </p>
-                <button id="inval" class="service-support-button">OPEN NEW SERVICE TICKET</button>
+                <div id="Wrapp4" style="display:none">
+                    <div id='tt4'>
+                        <div class="close" onclick="openbox('Wrapp4')">x</div>
+                        Error during open
+                    </div>
+                </div>
+                <button id="inval" class="service-support-button" onclick="openbox('Wrapp4');return false;">OPEN NEW
+                    SERVICE TICKET
+                </button>
             </fieldset>
         </form>
         <form class="mainform">
@@ -50,7 +58,15 @@
                     <label for="ticketnumber">Enter Existing Service Ticket Number</label>
                     <input type="text" id="ticketnumber" value="">
                 </p>
-                <button id="inval2" class="service-support-button">FIND SERVICE TICKET</button>
+                <div id="Wrapp5" style="display:none">
+                    <div id='tt5'>
+                        <div class="close" onclick="openbox('Wrapp5')">x</div>
+                        Can't find
+                    </div>
+                </div>
+                <button id="inval2" class="service-support-button" onclick="openbox('Wrapp5');return false;">FIND
+                    SERVICE TICKET
+                </button>
             </fieldset>
         </form>
     </div>
@@ -61,14 +77,6 @@
 </footer>
 <script>
     window.currentTab = '#service_support';
-</script>
-<script>
-    document.getElementById('inval').onclick = function () {
-        alert('INVALID NUMBER');
-    };
-    document.getElementById('inval2').onclick = function () {
-        alert('INVALID NUMBER');
-    }
 </script>
 </body>
 </html>
