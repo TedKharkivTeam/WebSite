@@ -1,20 +1,23 @@
 ﻿.leftsidemenu {
     padding: 20px;
     margin-left: 3%;
-    margin-top: 11%;
+    margin-top: 12%;
     width: 25%;
     float: left;
 }
-.opus_pages
-{
-	padding: 20px;
+
+.opus_pages {
+    padding: 20px;
+    padding-top: 5%;
     margin-left: 3%;
     width: 25%;
     float: left;
 }
-.leftsidemenu__KIC{
-    margin-top:9.5%;
+
+.leftsidemenu__KIC {
+    margin-top: 9.5%;
 }
+
 .leftsidemenu a {
     color: #02307E;
     padding: 5px;
@@ -186,7 +189,7 @@ strong {
 }
 
 .logoKic {
-    width:100%;
+    width: 100%;
     height: auto;
 }
 

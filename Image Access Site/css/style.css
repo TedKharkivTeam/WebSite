@@ -117,25 +117,25 @@ td, th {
     float: right;
 }
 
-    .slidesPagination li {
-        float: left;
-        margin: 0 1px;
-        list-style: none;
-    }
+.slidesPagination li {
+    float: left;
+    margin: 0 1px;
+    list-style: none;
+}
 
-        .slidesPagination li a {
-            display: block;
-            width: 14px;
-            height: 0;
-            padding-top: 14px;
-            background-image: url(../images/resources/pagination.png);
-            background-position: 0 0;
-            overflow: hidden;
-        }
+.slidesPagination li a {
+    display: block;
+    width: 14px;
+    height: 0;
+    padding-top: 14px;
+    background-image: url(../images/resources/pagination.png);
+    background-position: 0 0;
+    overflow: hidden;
+}
 
-        .slidesPagination li.slidesCurrent a {
-            background-position: 0 -14px;
-        }
+.slidesPagination li.slidesCurrent a {
+    background-position: 0 -14px;
+}
 
 .viewer {
     width: 50%;
@@ -152,8 +152,9 @@ html {
     -khtml-user-select: none; /* Konqueror */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE/Edge */
-    user-select: none; /* non-prefixed version, currently
-                                  not supported by any browser */
+    user-select: none;
+    /* non-prefixed version, currently
+                                     not supported by any browser */
 }
 
 .gallery-frame {
@@ -247,12 +248,42 @@ a.button7 {
     animation-name: fadeInDown;
 }
 
-.content .logo-frame-block .logo-image {
-    width: 95%;
-    margin: 5px auto 0;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 3px 3px 15px #ccc;
+.logo-frame-block {
+    overflow: hidden;
+    padding: 6px 0;
+}
+
+.logo-frame-block__dlsg-logo {
+    float: left;
+    padding-left: 14%;
+    padding-top: 2px;
+}
+
+.logo-frame-block__dlsg-logo img {
+    height: 135px;
+    padding-right: 10px;
+    border-right: 1px solid #000;
+}
+
+.logo-frame-block__caption {
+    margin-left: 10px;
+    display: inline-block;
+    background: url("../images/frames/map-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.caption__h {
+    text-shadow: none;
+    color: #000;
+    font-size: 70px;
+    line-height: 72px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.caption--bold {
+    font-weight: bold;
 }
 
 .flip-horizontal {
@@ -263,4 +294,38 @@ a.button7 {
     content: "";
     display: table;
     clear: both;
+}
+body {
+ margin:0;
+ width:100%;
+  height:100%;
+}
+#Wrapp,#Wrapp2 {
+ top:0;
+ left:0;
+ position:fixed;
+ background-color:#000;
+ opacity: 1;
+ width:100%;
+ height:100%;
+ z-index:10000;
+}
+#tt,#tt2 {
+  position:relative;
+  background-color:#fff;
+  width:200px;
+  padding:12px;
+  height:100px;
+  margin:20% auto auto auto;
+  border:red solid 1px;
+
+}
+div.close {
+  cursor:pointer;
+  position:absolute;
+  font-weight:700;
+  text-shadow:#000 1px 1px 0;
+  color:red;
+  right:7px;
+  top:2px;
 }

@@ -16,8 +16,10 @@
     <script src="../js/gallery_animation_4A.js"></script>
     <script>
         $(document).ready(function () {
-            aminate(function () {
-//                redirect("Frame_4B.html");
+            fadeIn(function () {
+                aminate(function () {
+                    redirect("Frame_4B.html");
+                });
             });
         });
     </script>
@@ -32,7 +34,13 @@
         <!--<div class="botlogo">KIC Bookeye 4</div>-->
     </div>
     <div class="logo-frame-block">
-        <img src="../images/DLSG-index-logo.png" class="logo-image" alt="dlsg-logo">
+        <div class="logo-frame-block__dlsg-logo">
+            <img src="../images/logoBSCAN2.png" alt="dlsg-logo">
+        </div>
+        <div class="logo-frame-block__caption">
+            <h1 class="caption__h">Superior 21st Century</h1>
+            <h2 class="caption__h caption--bold">Hybrid Library Technology</h2>
+        </div>
     </div>
     <div class="brochure-block centr-align">
         <span class="text-grean grean-left">Serving 60% of Students at U.S. Universities</span>
