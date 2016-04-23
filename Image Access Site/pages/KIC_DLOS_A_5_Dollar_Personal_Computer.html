@@ -10,6 +10,50 @@
     <script src="../js/include.js" type="text/javascript"></script>
 
     <link rel="stylesheet" type="text/css" href="../css/frames.css">
+
+    <style>
+        .infoblock .complex-header {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0 auto;
+            margin-top: -3%;
+            background-color: white;
+            padding: 5px;
+            width: 425px;
+        }
+
+        .infoblock .complex-header__bottom {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .text-section {
+            padding: 40px 15%;
+        }
+
+        .border-wrapper {
+            border: 1px solid black;
+            border-radius: 8px;
+            position: relative;
+            margin: 5%;
+        }
+
+        .bottom-text {
+            position: relative;
+            width: 65%;
+            font-size: 18px;
+            padding-bottom: 80px!important;
+        }
+
+        .infoblock .flash-hand {
+            position: absolute;
+            width: 35%;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+
 </head>
 <body class="gradient">
 <header>
@@ -41,22 +85,28 @@
             How many people use FaceBook? Maybe a Billion!
         </span>
 
-        <p>
-            Plug a USB Thumb Drive into a DLOS PC and it instantly becomes your very own personal computer.
-            It remembers your browser cookies and browser history. Your documents and photos become
-            instantly accessible and can be viewed, organized, faxed and printed via an interface that is designed especially for the
-            technically timid.
-        </p>
+        <div class="text-section">
+            <p>
+                Plug a USB Thumb Drive into a DLOS PC and it instantly becomes your very own personal computer.
+                It remembers your browser cookies and browser history. Your documents and photos become
+                instantly accessible and can be viewed, organized, faxed and printed via an interface that is designed especially for the
+                technically timid.
+            </p>
 
-        <p>Information created/gathered and managed by DLOS applications such as My$$ is stored in an area called My Stuff.</p>
+            <p>Information created/gathered and managed by DLOS applications such as My$$ is stored in an area called My Stuff.</p>
+        </div>
 
-        <span style="text-align: center; font-size: 18px;">A $5 Personal Computer <span>that Fits in the Palm of Your Hand</span></span>
+        <div class="border-wrapper">
+            <span class="complex-header">A $5 Personal Computer <span class="complex-header__bottom">that Fits in the Palm of Your Hand</span></span>
 
-        <p>
-            Users can save files and images to the cloud or to their own USB drives that they can purchase for just a few dollars
-            at the reference desk.
-        </p>
+            <p class="text-section bottom-text">
+                Users can save files and images to the cloud or to their own USB drives that they can purchase for just a few dollars
+                at the reference desk.
+            </p>
 
+            <img class="flash-hand" src="../images/Flash_Hand.png" width="" height="" alt="flash hand"/>
+
+        </div>
     </div>
 </div>
 <footer>
