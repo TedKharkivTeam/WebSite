@@ -299,6 +299,10 @@ input, textarea {
     margin: 0 auto;
 }
 
+ .service-support  {
+     margin-top: 50px !important;
+}
+
 .infoblock__mainform__fieldset__p label {
     min-width: 200px;
     display: inline-block;
@@ -306,7 +310,7 @@ input, textarea {
 
 .service-support-button {
     min-width: 100px;
-    border: 2px solid #02307E;
+    border: 0px solid #02307E;
     border-radius: 4px;
     background: #fff;
     color: #02307E;
