@@ -743,11 +743,11 @@ div.dn_arrow {
 }
 
 .dlos-logo {
-    font-size: 14px;
+    font-size: 1.4vw;
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 5px;
-    line-height: 0;
+    line-height: 1;
 }
 
 .frame--text--width {
