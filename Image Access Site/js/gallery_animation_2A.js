@@ -37,7 +37,7 @@ var animationPresets = {
             stage2: {left: "48%", top: "-6%"}
         },
         "image_2": {
-            stage1: {left: "-4%",  top: "52%", width: "48%", height: "48%"},
+            stage1: {left: "-4%", top: "52%", width: "48%", height: "48%"},
             stage2: {left: "-1%", top: "43%"}
         },
         "image_3": {
@@ -86,8 +86,13 @@ function aminate(onAnimationComplete) {
                     var defaultWidth = $defaultImage.width();
                     var defaultHeight = $defaultImage.height();
 
-                    $image.css({ left: $imgPosition.left, top: $imgPosition.top, "z-index": 20000 + index });
-                    $image2.css({ left: $imgPosition.left, top: $imgPosition.top, "z-index": 10000 + index, position: "absolute" });
+                    $image.css({left: $imgPosition.left, top: $imgPosition.top, "z-index": 20000 + index});
+                    $image2.css({
+                        left: $imgPosition.left,
+                        top: $imgPosition.top,
+                        "z-index": 10000 + index,
+                        position: "absolute"
+                    });
                     animatedImages.push({
                         default_position: $imgPosition,
                         default_width: defaultWidth,
@@ -99,7 +104,9 @@ function aminate(onAnimationComplete) {
                         $image.animate(preset["image_" + index].stage2, animationDuration / 3, onAnimationComplete);
                     });
                 });
-                $(".gallery-container .gallery-image:not(.animated-image-block)").fadeOut(animationDuration + 1000);
+                $(".gallery-container .gallery-image:not(.animated-image-block)").animate({
+                    opacity: 0.7
+                }, animationDuration);
                 $canvas.fadeOut(animationDuration + 1000);
                 render();
             }, timeout);
@@ -167,18 +174,18 @@ function aminate(onAnimationComplete) {
 
             return {
                 startPoints: { // bounding box for starting image
-                    top_left: { top: startPos.top, left: startPos.left },
-                    top_right: { top: startPos.top, left: startPos.left + startWidth },
-                    bottom_left: { top: startPos.top + startHeight, left: startPos.left },
-                    bottom_right: { top: startPos.top + startHeight, left: startPos.left + startWidth },
-                    center: { top: startPos.top + startHeight / 2, left: startPos.left + startWidth / 2 }
+                    top_left: {top: startPos.top, left: startPos.left},
+                    top_right: {top: startPos.top, left: startPos.left + startWidth},
+                    bottom_left: {top: startPos.top + startHeight, left: startPos.left},
+                    bottom_right: {top: startPos.top + startHeight, left: startPos.left + startWidth},
+                    center: {top: startPos.top + startHeight / 2, left: startPos.left + startWidth / 2}
                 },
                 endPoints: { // bounding box for animated image
-                    top_left: { top: imgPos.top, left: imgPos.left },
-                    top_right: { top: imgPos.top, left: imgPos.left + imgWidth },
-                    bottom_left: { top: imgPos.top + imgHeight, left: imgPos.left },
-                    bottom_right: { top: imgPos.top + imgHeight, left: imgPos.left + imgWidth },
-                    center: { top: imgPos.top + imgHeight / 2, left: imgPos.left + imgWidth / 2 }
+                    top_left: {top: imgPos.top, left: imgPos.left},
+                    top_right: {top: imgPos.top, left: imgPos.left + imgWidth},
+                    bottom_left: {top: imgPos.top + imgHeight, left: imgPos.left},
+                    bottom_right: {top: imgPos.top + imgHeight, left: imgPos.left + imgWidth},
+                    center: {top: imgPos.top + imgHeight / 2, left: imgPos.left + imgWidth / 2}
                 }
             }
         }

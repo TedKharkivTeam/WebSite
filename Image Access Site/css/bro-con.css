@@ -777,3 +777,7 @@ div.dn_arrow {
 .content__brochure-block__img {
     margin-left: 10%;
 }
+
+.img-preview {
+    width: 100%;
+}
