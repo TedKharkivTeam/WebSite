@@ -1,0 +1,56 @@
+@media screen and (max-width:1885px){
+    .wrapper-for-img .inf--padding{
+        top:80%;
+    }
+}
+@media screen and (max-width:1880px){
+    .brochure-block .grean-right {
+        padding-right: 10%;
+    }
+    .brochure-block .grean-left {
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width:1800px){
+    .logo-frame-block {
+        padding-left: 5%;
+    }
+    .logo-frame-block__dlsg-logo img {
+        height: 100px;
+    }
+    .caption__h {
+        font-size: 50px;
+        line-height: 1;
+    }
+}
+@media screen and (max-width:1700px){
+    .wrapper-for-img .inf--padding{
+        position: relative;
+    }
+}
+@media screen and (max-width:1700px){
+    .logo-frame-block {
+        padding-left: 10%;
+    }
+    .logo-frame-block__dlsg-logo img {
+        height: 80px;
+    }
+    .caption__h {
+        font-size: 44px;
+        line-height: 1;
+    }
+    .brochure-block .grean-right {
+        padding-right: 2%;
+    }
+    .brochure-block .grean-left {
+        padding-left: 2%;
+    }
+}
+@media screen and (max-width:1535px){
+     .brochure-block .content__brochure-block__img {
+        margin-left: 7%;
+    }
+    .frame7-content__dlos .dlos-hend{
+        max-width: 160px;
+    }
+}
