@@ -1,36 +1,262 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Business Automation Forms Processing :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
-     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <link href="../css/bscan-brochures.css" rel="stylesheet" />
+
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
+
+    <style>
+        .image-header {
+            font-size: 8px;
+            color: black;
+            text-shadow: 1px 1px 1px #3F3218;
+            font-weight: bold;
+        }
+
+        #optical-mark-recognition-container {
+            float: left;
+            width: 24%;
+            margin-left: 6%;
+        }
+
+        #intelligent-character-recognition-container {
+            float: left;
+            width: 24%;
+            margin-left: 6%;
+        }
+
+        #optical-character-recognition-container {
+            float: right;
+            width: 33%;
+        }
+
+        #table-with-twos-and-nines {
+            float: left;
+            width: 23%;
+            margin-right: 10px;
+        }
+
+        #form-abc {
+            float: right;
+            margin-left: 10px;
+            width: 20%;
+        }
+
+        #features-container {
+            margin-bottom: 10px;
+        }
+
+        #using-barcode-separator-sheets-container {
+            padding: 10px;
+            background-color: #FDFDD8;
+            margin-bottom: 10px;
+        }
+
+        ol#using-barcode-separator-sheets-list {
+            list-style: none;
+            display: table;
+            border-collapse: separate;
+            border-spacing: 0 5px;
+        }
+
+            ol#using-barcode-separator-sheets-list li {
+                counter-increment: item;
+                padding-bottom: 5px;
+                display: table-row;
+            }
+
+                ol#using-barcode-separator-sheets-list li div {
+                    display: table-cell;
+                    vertical-align: middle;
+                    background: linear-gradient(to right, #A09EB4 35%, #ECE3D4);
+                    padding: 5px;
+                }
+
+                ol#using-barcode-separator-sheets-list li:before {
+                    padding-left: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-right: 20px;
+                    background: linear-gradient(to right, #ECE3D4, #A09EB4 40%);
+                    content: counter(item);
+                    color: white;
+                    font-size: 50px;
+                    text-align: center;
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+    </style>
 </head>
 <body class="gradient">
-<header>
-    <div id="includeHeader"></div>
-</header>
-<div class="content">
-    <div class="logo">
-        <a href="../index.html"><img src="../images/IALogo.jpg" width="1244" height="582" alt="logo"/></a>
-        <div class="botlogo">Business Automation Forms Processing</div>
+    <header>
+        <div id="includeHeader"></div>
+    </header>
+    <div class="content">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/IALogo.jpg" width="1244" height="582" alt="logo" /></a>
+            <div class="botlogo">Business Automation Forms Processing</div>
+        </div>
+        <ul class="leftsidemenu">
+            <li class="selected"><a href="#">Automated Forms Processing</a></li>
+        </ul>
+        <div class="infoblock">
+            <img src="../images/BSCAN%20Automatic%20Forms%20Processing-1.jpg" alt="">
+
+           <div class="text-container">
+                <img src="../images/Business_Automation_Forms_Processing/Automated_Forms_Processing.png" alt="" />
+
+                <div id="features-container" class="clearfix">
+                    <div id="optical-mark-recognition-container">
+                        <p class="image-header">Optical Mark Recognition</p>
+                        <img src="../images/Business_Automation_Forms_Processing/Window_With_Crossed_Visa.png" alt=""/>
+                    </div>
+
+                    <div id="intelligent-character-recognition-container">
+                        <p class="image-header">Intelligent Character Recognition</p>
+                        <img src="../images/Business_Automation_Forms_Processing/Image_With_32_0_Number.png" alt=""/>
+                    </div>
+
+                    <div id="optical-character-recognition-container">
+                        <p class="image-header">Optical Character Recognition</p>
+                        <img src="../images/Business_Automation_Forms_Processing/Number_81999.png" alt=""/>
+                    </div>
+                    <h2 class="blue-shadow-title">Automated Recognition Engines</h2>
+                    <p>
+                        BSCAN's powerful recognition engines work quickly and accurately using the
+                        latest technology in forms recognition, registration and data extraction. Its all
+                        new setup interface simplifies the of the most sophisticated forms processing
+                        tools available today
+                    </p>
+                    <img id="table-with-twos-and-nines" src="../images/Business_Automation_Forms_Processing/Table_With_Twos_And_Nines.png" alt=""/>
+                    <h2 class="blue-shadow-title">Rapid Character Correction</h2>
+                    <p>
+                        Standard OCR and ICR engines cannot determine
+                        precisely which character have been misread,
+                        but they do indicate those read with low confidence.
+                    </p>
+                    <h2 class="blue-shadow-title">Rapid Character Review</h2>
+                    <img id="form-abc" src="../images/Business_Automation_Forms_Processing/Form_ABC.png" alt=""/>
+                    <p>
+                        Characters are sorted for fast and accurate
+                        review. BSCAN's RCC feature allows users
+                        to select errors with the mouse for
+                        correction.
+                    </p>
+                    <h2 class="blue-shadow-title">Full Page Review</h2>
+                    <p>
+                        Review all data at once. For
+                        "classified" projects, this is the
+                        only stage that requires proper
+                        security clearances.
+                    </p>
+                </div>
+
+                <div id="using-barcode-separator-sheets-container">
+                    <table>
+                        <tr>
+                            <td>
+                                <h2 class="blue-shadow-title">Using Barcode Separator Sheets</h2>
+
+                                <ol id="using-barcode-separator-sheets-list">
+                                    <li>
+                                        <div>
+                                            Print Barcode Separator Sheets from a list
+                                            file, or directly from an SQL database.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            Perform document preparation, insert
+                                            separator sheets, then scan.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            BSCAN reads the Separator Sheet barcode,
+                                            looks it up in a list or SQL database,
+                                            and applies associated indexes.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            BSCAN exports images and index
+                                            information to the imaginf database, SQL
+                                            database, flat file, DiskViewer, or the Web.
+                                        </div>
+                                    </li>
+                                </ol>
+                            </td>
+                            <td class="valign-middle">
+                                <img src="../images/Business_Automation_Forms_Processing/Using_Barcode_Separator_Sheets.png" alt="" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="copyright-and-contacts-footer clearfix">
+                    <div class="copyright">
+                        &copy; 1993 - 2003 Image Access, Inc. All rights reserved. BSCAN is a registered
+                        trademark of Image Access, Inc. in the United and/or other countries
+                    </div>
+                    <img class="bscan-and-image-access-logo" src="../images/Business_Automation_Scanning/BSCAN_And_Image_Access_Logo.png" alt="" />
+                    <div class="contact">
+                        <p class="region">UNITED STATES</p>
+                        <p>
+                            543 NW 77th Street, #210<br />
+                            Boca Ration, FL 33487<br />
+                            Tel 561.995.8334<br />
+                            Fax 561.995.8036
+                        </p>
+                        <p>
+                            <a href="mailto:info@bscan.com">info@bscan.com</a>
+                        </p>
+                        <p>
+                            <a href="mailto:info@imageaccess.com">info@imageaccess.com</a>
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <p class="region">EUROPE</p>
+                        <p>
+                            Hatzfelder Str. 161-163<br />
+                            D-42281 Wuppertal<br />
+                            Germany<br />
+                            Tel 49-202-27058-0<br />
+                            Fax 49-202-279058-40
+                        </p>
+                        <p>
+                            <a href="mailto:info@imageaccess.de">info@imageaccess.de</a>
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <p class="region">SOUTH AMERICA</p>
+                        <p>
+                            R. Cristano Viana, 413<br />
+                            Sao Paulo, SP<br />
+                            05411-000<br />
+                            Tel 5511-3061-2520<br />
+                            Fax 5511-3064-8896
+                        </p>
+                        <p>
+                            <a href="mailto:vendas@bscan.br">vendas@bscan.br</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="../images/BSCAN%20Automatic%20Forms%20Processing-2.jpg" alt="">
+        </div>
     </div>
-    <ul class="leftsidemenu">
-        <li class="selected"><a href="#">Automated Forms Processing</a></li>
-    </ul>
-    <div class="infoblock">
-        <img src="../images/BSCAN%20Automatic%20Forms%20Processing-1.jpg" width="" height="" alt="">
-        <img src="../images/BSCAN%20Automatic%20Forms%20Processing-2.jpg" width="" height="" alt="">
-    </div>
-</div>
-<footer>
-    <div id="includeFooter"></div>
-</footer>
-<script>
-    window.currentTab = '#software';
-</script>
+    <footer>
+        <div id="includeFooter"></div>
+    </footer>
+    <script>
+        window.currentTab = '#software';
+    </script>
 </body>
 </html>

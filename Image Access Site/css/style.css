@@ -295,6 +295,11 @@ a.button7 {
     display: table;
     clear: both;
 }
+
+.valign-middle {
+    vertical-align: middle;
+}
+
 #Wrapp,#Wrapp2,#Wrapp3,#Wrapp4,#Wrapp5,#Wrapp6 {
     top:0;
     left:0;
