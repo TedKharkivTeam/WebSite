@@ -82,7 +82,7 @@ $(function () {
             });
         }
     });
-    map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
+    map.setView({lat: 54.77534585936447, lng: -95.67306518554689}, 4);
 
     var Caribbean_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
 
@@ -365,7 +365,7 @@ $(function () {
 
         switch (region) {
             case "US":
-                map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
+                map.setView({lat: 54.77534585936447, lng: -95.67306518554689}, 4);
                 $('.leaflet-control-zoom').show();
                 break;
             case "CAR":
@@ -377,11 +377,11 @@ $(function () {
                 $('.leaflet-control-zoom').show();
                 break;
             case "SOA":
-                map.fitBounds(SouthAmerica_LayerGroup.getBounds());
+                map.setView({lat: -15.961329081596647, lng: -62.67425537109376}, 4);
                 $('.leaflet-control-zoom').show();
                 break;
             case "EU":
-                map.fitBounds(Europe_LayerGroup.getBounds());
+                map.setView({lat: 58.28940590271679, lng: 13.774795532226564}, 4);
                 $('.leaflet-control-zoom').show();
                 break;
             case "ME":
@@ -389,7 +389,7 @@ $(function () {
                 $('.leaflet-control-zoom').show();
                 break;
             case "AS":
-                map.fitBounds(Asia_LayerGroup.getBounds());
+                map.setView({lat: 31.728167146023935, lng: 98.16873168945314}, 4);
                 $('.leaflet-control-zoom').show();
                 break;
             case "AU":
@@ -397,7 +397,7 @@ $(function () {
                 $('.leaflet-control-zoom').show();
                 break;
             case "AF":
-                map.fitBounds(Africa_LayerGroup.getBounds());
+                map.setView({lat: 3.36246686553575, lng: 19.99099731445313}, 4);
                 $('.leaflet-control-zoom').show();
                 break;
             case "WW":
@@ -407,6 +407,7 @@ $(function () {
         }
     });
 });
+
 
 
 
