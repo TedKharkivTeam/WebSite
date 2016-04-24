@@ -21,7 +21,7 @@
 }
 
 .topbar li {
-    padding-left: 9%;
+    padding-left: 5%;
     padding-right: 1%;
 }
 
@@ -43,7 +43,7 @@
     position: absolute;
     z-index: 100002;
     display: none;
-    right: 41px;
+    right: 10px;
     top: 50%;
     padding: 18px 0 0 0;
 }

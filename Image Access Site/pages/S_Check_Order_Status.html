@@ -34,20 +34,31 @@
                 <legend>Check order status</legend>
                 <p class="infoblock__mainform__fieldset__p">
                     <label for="name">Your “Ship to” Zip Code</label>
-                    <input type="text" id="name" value="">
+                    <input style="width: 100px;" type="text" id="name" value="">
                 </p>
                 <p class="infoblock__mainform__fieldset__p">
                     <label for="last">Your PO Number</label>
-                    <input type="text" id="last" value="">
+                    <input style="width:250px;" type="text" id="last" value="">
                 </p>
-                <button id="inval" class="service-support-button">FIND</button>
-
+                <div id="Wrapp2" style="display:none">
+                    <div id='tt2'>
+                        <div class="close" onclick="openbox('Wrapp2')">x</div>
+                        Not found
+                    </div>
+                </div>
+                <button id="inval" class="service-support-button" onclick="openbox('Wrapp2');return false;">FIND</button>
 
                 <p class="infoblock__mainform__fieldset__p service-support">
                     <label for="city">Our Order Number</label>
-                    <input type="text" id="city" value=""/>
+                    <input style="width: 200px;" type="text" id="city" value=""/>
                 </p>
-                <button id="inval2" class="service-support-button">FIND</button>
+                <div id="Wrapp" style="display:none">
+                    <div id='tt'>
+                        <div class="close" onclick="openbox('Wrapp')">x</div>
+                        Not found
+                    </div>
+                </div>
+                <button id="inval2" class="service-support-button" onclick="openbox('Wrapp');return false;">FIND</button>
             </fieldset>
         </form>
     </div>
@@ -57,14 +68,6 @@
 </footer>
 <script>
     window.currentTab = '#service_support';
-</script>
-<script>
-    document.getElementById('inval').onclick = function () {
-        alert('NOT FOUND');
-    };
-    document.getElementById('inval2').onclick = function () {
-        alert('NOT FOUND');
-    };
 </script>
 </body>
 </html>
