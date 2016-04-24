@@ -300,33 +300,35 @@ a.button7 {
     vertical-align: middle;
 }
 
-#Wrapp,#Wrapp2,#Wrapp3,#Wrapp4,#Wrapp5,#Wrapp6 {
-    top:0;
-    left:0;
-    position:fixed;
-    background-color:#000;
-    opacity: 1;
-    width:100%;
-    height:100%;
-    z-index:10000;
+#Wrapp, #Wrapp2, #Wrapp3, #Wrapp4, #Wrapp5, #Wrapp6 {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(64, 154, 213, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    border-radius: 10px;
 }
-#tt,#tt2,#tt3,#tt4,#tt5 {
-    position:relative;
-    background-color:#fff;
-    width:150px;
-    padding:12px;
-    height:100px;
-    margin:20% auto auto auto;
-    border:navy solid 1px;
-    border-radius:10px;
+
+#tt, #tt2, #tt3, #tt4, #tt5 {
+    position: relative;
+    background-color: #fff;
+    width: 150px;
+    padding: 25px;
+    height: 100px;
+    margin: 20% auto auto auto;
+    border: navy solid 1px;
+    border-radius: 10px;
 
 }
+
 div.close {
-    cursor:pointer;
-    position:absolute;
-    font-weight:700;
-    text-shadow:#000 1px 1px 0;
-    color:navy;
-    right:7px;
-    top:2px;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 700;
+    text-shadow: #000 1px 1px 0;
+    color: navy;
+    right: 7px;
+    top: 2px;
 }
