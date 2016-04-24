@@ -456,6 +456,7 @@ div.dn_arrow {
 }
 
 .text-grey {
+    z-index: 1;
     font-size: 24px;
     color: #fff;
     background: #9d9d9d;
@@ -776,4 +777,8 @@ div.dn_arrow {
 
 .content__brochure-block__img {
     margin-left: 10%;
+}
+
+.img-preview {
+    width: 100%;
 }
