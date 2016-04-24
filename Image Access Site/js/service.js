@@ -26,8 +26,6 @@ $(function () {
         ext: 'png'
     }).addTo(map);
     map.on('zoomend', function (e) {
-        console.log(e.target._zoom);
-
         if (e.target._zoom <= 2) {
             map.scrollWheelZoom.disable();
         } else {
@@ -84,7 +82,7 @@ $(function () {
             });
         }
     });
-    map.fitBounds(UnitedStatesAndCanada_LayerGroup.getBounds());
+    map.setView({lat: 54.77534585936447, lng: -95.67306518554689}, 4);
 
     var Caribbean_LayerGroup = L.featureGroup().addTo(map).on('mouseout', function (e) {
 
@@ -408,8 +406,6 @@ $(function () {
                 $('.leaflet-control-zoom').hide();
         }
     });
-
-    map.on('click', function(e) {console.log(e.latlng)});
 });
 
 
