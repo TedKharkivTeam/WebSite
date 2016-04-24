@@ -15,7 +15,9 @@
     <script>
         $(document).ready(function () {
             fadeIn(function () {
-                redirect("Frame_4D.html");
+                simulateAnimation(function () {
+                    redirect("Frame_4D.html");
+                });
             });
         });
     </script>
@@ -46,7 +48,7 @@
     <div class="brochure-block flex--start">
         <img class="content__brochure-block__img" src="../images/logoBE.png">
     </div>
-    <div class="brochure-block centr-align2">
+    <div class="brochure-block centr-align2" style="margin-bottom: 50px;">
         <div class="brochure-block to-down">
             <h4 class="text--red fs--text--red">Economical</h4>
             <img class="img-holder" src="../images/Skan-BE3.png">
