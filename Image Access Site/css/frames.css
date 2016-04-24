@@ -1,10 +1,10 @@
 .content__unyver {
     background: url("../images/MIT_Building_10.png") no-repeat;
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
-    height: 100vh;
     position: relative;
     text-align: right;
+    margin-top: -2%;
 }
 
 .unyver__h2 {
@@ -43,7 +43,8 @@
     width: 57%;
     text-align: center;
     display: inline-block;
-    margin-top: 16%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .unyver__taxt img {
