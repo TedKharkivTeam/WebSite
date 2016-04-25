@@ -82,6 +82,10 @@
     .infoblock .infoblock__center{
         margin-top: 0;
     }
+    .mainform input{
+        width: 100%;
+        max-width: none;
+    }
 }
 
 @media screen and (max-width: 1535px) {
@@ -94,6 +98,11 @@
     }
     .content .infoblock .bottom__a {
         top: 0;
+    }
+    .contactus-holder__triple__image--left {
+        margin-top: 80px;
+        width: 100%;
+        height: auto;
     }
 }
 
