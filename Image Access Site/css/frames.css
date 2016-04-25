@@ -227,6 +227,11 @@
     vertical-align: top;
     padding-top: 10px;
 }
+.infoblock .block__ul{
+    list-style: none;
+    padding: 0 4px;
+    padding-top: 10px;
+}
 
 .block__ul li {
     color: #5d5d5d;
