@@ -27,6 +27,12 @@
         font-size: 50px;
         line-height: 1;
     }
+    .infoblock__center .center__text--margin {
+        position: relative;
+    }
+    .content .infoblock .nav__li {
+        width: 32%;
+    }
 }
 
 @media screen and (max-width: 1700px) {
@@ -68,6 +74,16 @@
     }
 }
 
+@media screen and (max-width: 1640px){
+    .infoblock .a--rel{
+        position: relative;
+        bottom:0;
+    }
+    .infoblock .infoblock__center{
+        margin-top: 0;
+    }
+}
+
 @media screen and (max-width: 1535px) {
     .brochure-block .content__brochure-block__img {
         margin-left: 7%;
@@ -75,5 +91,31 @@
 
     .frame7-content__dlos .dlos-hend {
         max-width: 160px;
+    }
+    .content .infoblock .bottom__a {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .content .infoblock .center__img {
+        float: none;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .infoblock__center .center__text--margin {
+        width:100%;
+    }
+    .content .infoblock .nav__img {
+        float: none;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .content .infoblock .nav__li {
+        width: 100%;
+        float: none;
+    }
+    .content .infoblock .bottom__a {
+        width: 40%;
     }
 }
