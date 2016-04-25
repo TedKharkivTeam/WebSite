@@ -117,25 +117,25 @@ td, th {
     float: right;
 }
 
-.slidesPagination li {
-    float: left;
-    margin: 0 1px;
-    list-style: none;
-}
+    .slidesPagination li {
+        float: left;
+        margin: 0 1px;
+        list-style: none;
+    }
 
-.slidesPagination li a {
-    display: block;
-    width: 14px;
-    height: 0;
-    padding-top: 14px;
-    background-image: url(../images/resources/pagination.png);
-    background-position: 0 0;
-    overflow: hidden;
-}
+        .slidesPagination li a {
+            display: block;
+            width: 14px;
+            height: 0;
+            padding-top: 14px;
+            background-image: url(../images/resources/pagination.png);
+            background-position: 0 0;
+            overflow: hidden;
+        }
 
-.slidesPagination li.slidesCurrent a {
-    background-position: 0 -14px;
-}
+        .slidesPagination li.slidesCurrent a {
+            background-position: 0 -14px;
+        }
 
 .viewer {
     width: 50%;
@@ -259,11 +259,11 @@ a.button7 {
     padding-top: 2px;
 }
 
-.logo-frame-block__dlsg-logo img {
-    height: 135px;
-    padding-right: 10px;
-    border-right: 1px solid #000;
-}
+    .logo-frame-block__dlsg-logo img {
+        height: 135px;
+        padding-right: 10px;
+        border-right: 1px solid #000;
+    }
 
 .logo-frame-block__caption {
     margin-left: 10px;
@@ -300,6 +300,10 @@ a.button7 {
     vertical-align: middle;
 }
 
+.font-weight-normal {
+    font-weight: normal;
+}
+
 #Wrapp, #Wrapp2, #Wrapp3, #Wrapp4, #Wrapp5, #Wrapp6 {
     top: 0;
     left: 0;
@@ -320,7 +324,6 @@ a.button7 {
     margin: 20% auto auto auto;
     border: navy solid 1px;
     border-radius: 10px;
-
 }
 
 div.close {
