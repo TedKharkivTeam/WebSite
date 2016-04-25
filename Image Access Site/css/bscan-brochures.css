@@ -6,7 +6,6 @@
 div.text-container {
     padding-left: 5%;
     padding-right: 5%;
-    margin-bottom: 10px;
 }
 
 div.content h1 {
@@ -26,9 +25,7 @@ div.content h2 {
     margin-bottom: 10px;
 }
 
-    div.content h2.blue-shadow-title,
-    div.content span.blue-shadow-title {
-        font-size: 20px;
+    div.content h2.blue-shadow-title {
         padding: 0;
         text-align: left;
         color: #291769;
@@ -36,35 +33,36 @@ div.content h2 {
     }
 
 .copyright-and-contacts-footer {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-    .copyright-and-contacts-footer .copyright-container {
+    .copyright-and-contacts-footer .copyright {
+        float: left;
         width: 20%;
-        font-size: 9px;
-        padding-bottom: 20px;
+        font-size: 8px;
     }
 
-    .copyright-and-contacts-footer .bscan-and-image-access-logo-container {
+    .copyright-and-contacts-footer .bscan-and-image-access-logo {
+        float: left;
         width: 25%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
-    .copyright-and-contacts-footer .regions-container {
-        width: 53%;
+    .copyright-and-contacts-footer div.contact {
+        float: left;
+        width: 16%;
+        margin-left: 1%;
     }
 
-    .copyright-and-contacts-footer .regions td {
-        width: 33%;
-    }
+        .copyright-and-contacts-footer div.contact .region {
+            font-weight: bold;
+            color: #C53F2E;
+            font-size: 11px;
+        }
 
-    .copyright-and-contacts-footer .regions .region-header {
-        font-weight: bold;
-        color: #C53F2E;
-        font-size: 11px;
-    }
-
-    .copyright-and-contacts-footer .regions p {
-        font-size: 9px;
-        margin: 0;
-        padding: 0;
-    }
+        .copyright-and-contacts-footer div.contact p {
+            font-size: 9px;
+            margin: 0;
+            padding: 0;
+        }
