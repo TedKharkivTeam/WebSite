@@ -80,7 +80,31 @@
 .back_image--21{
     background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_SIDEWARD_big.png)!important;
 }
-
+/*4page*/
+.back_image--22{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL.png)!important;
+}
+.back_image--23{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL_BOOK.png)!important;
+}
+.back_image--24{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL_FOLDER.png)!important;
+}
+.back_image--25{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL_V.png)!important;
+}
+.back_image--26{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_FRONTAL.png)!important;
+}
+.back_image--27{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_FRONTAL_BOOK.png)!important;
+}
+.back_image--28{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_FRONTAL_V.png)!important;
+}
+.back_image--29{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_SIDEWARD.png)!important;
+}
 /*-----product photos mini------*/
 /*1page*/
 .thumb--1{
@@ -148,4 +172,29 @@
 }
 .thumb--21{
     background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_SIDEWARD_big.png)!important;
+}
+/*4page*/
+.thumb--22{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL.png)!important;
+}
+.thumb--23{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL_BOOK.png)!important;
+}
+.thumb--24{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL_FOLDER.png)!important;
+}
+.thumb--25{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_DIAGONAL_V.png)!important;
+}
+.thumb--26{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_FRONTAL.png)!important;
+}
+.thumb--27{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_FRONTAL_BOOK.png)!important;
+}
+.thumb--28{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_FRONTAL_V.png)!important;
+}
+.thumb--29{
+    background-image: url(../images/Bookeye_4_V3/BE4V3_RENDER_SIDEWARD.png)!important;
 }
