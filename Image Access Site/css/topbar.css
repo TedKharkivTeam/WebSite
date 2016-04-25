@@ -39,7 +39,7 @@
 
 .fast-nav {
     margin: -1px;
-    width: 800px;
+    width: 1000px;
     position: absolute;
     z-index: 100002;
     display: none;
@@ -50,7 +50,7 @@
 
 .fast-nav-content {
     display: block;
-    width: 800px;
+    width: 1000px;
     background: rgb(9, 60, 139);
     opacity: 0.9;
     color: rgb(255, 255, 255);
@@ -65,12 +65,13 @@
 .horizontal-divider {
     width: 100%;
     border-bottom: 1px solid white;
+    margin-bottom: 10px;
 }
 
 .fast-nav-content h4 {
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(255, 255, 255);
-    margin: 0px;
+    margin: 0;
     font-weight: bold;
 }
 
