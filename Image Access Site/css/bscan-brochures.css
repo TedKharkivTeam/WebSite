@@ -8,6 +8,18 @@ div.text-container {
     padding-right: 5%;
 }
 
+div.content h1 {
+    color: #000000;
+    text-align: center;
+    text-shadow: none;
+}
+
+div.content div.introduction {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 40px;
+}
+
 div.content h2 {
     font-size: 20px;
     margin-bottom: 10px;
