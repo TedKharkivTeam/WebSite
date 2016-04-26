@@ -87,7 +87,11 @@
         max-width: none;
     }
 }
-
+@media screen and (max-width: 1600px){
+    .leftsidemenu{
+        margin-top: 16%;
+    }
+}
 @media screen and (max-width: 1535px) {
     .brochure-block .content__brochure-block__img {
         margin-left: 7%;

@@ -51,7 +51,7 @@ footer ul:after {
     content: '';
     border-right: 1px solid #047BCB;
     top: -6px;
-    bottom: -200px;
+    bottom: -20000px;
     right: 0;
 }
 
