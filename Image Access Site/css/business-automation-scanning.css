@@ -1,0 +1,52 @@
+div.content p {
+    margin-bottom: 10px;
+}
+
+div.content span {
+    display: inline;
+}
+
+div.content span.title {
+    color: #323275;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.content span.heading {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+div.content div.indent {
+    padding-left: 3%;
+}
+
+#bscan-standard-production-capture {
+    margin-bottom: 20px;
+}
+
+#white-pages {
+    float: right;
+    width: 40%;
+    margin-left: 20px;
+}
+
+#left-column {
+    float: left;
+    width: 50%;
+}
+
+#right-column {
+    float: right;
+    width: 45%;
+}
+
+#screen-acam,
+#screen-bscan-wizard,
+#screen-markham,
+#screen-bscan-user-administration {
+    margin-bottom: 10px;
+}

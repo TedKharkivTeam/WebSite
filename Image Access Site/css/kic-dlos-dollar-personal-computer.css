@@ -1,0 +1,39 @@
+.infoblock .complex-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: -3% auto 0;
+    background-color: white;
+    padding: 5px;
+    width: 425px;
+}
+
+.infoblock .complex-header__bottom {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text-section {
+    padding: 40px 15%;
+}
+
+.border-wrapper {
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+    margin: 5%;
+}
+
+.bottom-text {
+    position: relative;
+    width: 65%;
+    font-size: 18px;
+    padding-bottom: 80px !important;
+}
+
+.infoblock .flash-hand {
+    position: absolute;
+    width: 35%;
+    bottom: 0;
+    right: 0;
+}
