@@ -105,7 +105,8 @@ $(function () {
             });
 
             layer.on('mouseover', function (e) {
-                if(popupMovement) popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
+                var popupContent = PopupsData[feature.properties.name] || PopupsData['OtherCaribbean'];
+                if(popupMovement) popup.setContent(getPopupContent(popupContent));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -135,9 +136,9 @@ $(function () {
             layer.on('click', function (e) {
                 popupMovement = !popupMovement;
             });
-
             layer.on('mouseover', function (e) {
-                if(popupMovement) popup.setContent(getPopupContent(PopupsData[feature.properties.name]));
+                var popupContent = PopupsData[feature.properties.name] || PopupsData['OtherCentralAmerica'];
+                if(popupMovement) popup.setContent(getPopupContent(popupContent));
                 map.openPopup(popup);
             });
             layer.on('mousemove', function (e) {
@@ -724,7 +725,7 @@ var PopupsData = {
     },
     "OtherCaribbean" : {
         default: true,
-        exclude: "(excluding Wide Format scanners)",
+        exclude: "",
         additionalDistributors: [{
             products: "WideTEK, Wide Format",
             companyName: "Image Access GmbH",
@@ -2807,7 +2808,7 @@ function getPopupContent(popupData) {
     var data = popupData || PopupsData['RestOfTheWorld'];
     var str = '';
 
-    if(data.default) {
+    if(data.default && data.default != false) {
         str += '<p class="products">'+defaultIAData.products+'</p>';
         
         if(data.exclude && data.exclude != '') {
@@ -2815,29 +2816,28 @@ function getPopupContent(popupData) {
         }
 
         str += '<p>'+defaultIAData.companyName+'</p>';
-    }
 
-    
-    defaultIAData.contacts.forEach(function (item) {
-        switch (item.type) {
-            case "site":
-                str += '<p><a class="site" href="//'+item.value+'" target="_blank">'+item.value+'</a></p>';
-                break;
-            case "tel":
-                str += '<p><a href="tel:'+item.value+'" target="_blank">'+item.value+'</a></p>';
-                break;
-            case "tel:sales":
-                str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Sales: </span>'+item.value+'</a></p>';
-                break;
-            case "tel:service":
-                str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Service: </span>'+item.value+'</a></p>';
-                break;
-        }
-    });
+        defaultIAData.contacts.forEach(function (item) {
+            switch (item.type) {
+                case "site":
+                    str += '<p><a class="site" href="//'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                    break;
+                case "tel":
+                    str += '<p><a href="tel:'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                    break;
+                case "tel:sales":
+                    str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Sales: </span>'+item.value+'</a></p>';
+                    break;
+                case "tel:service":
+                    str += '<p><a href="tel:'+item.value+'" target="_blank"><span>Service: </span>'+item.value+'</a></p>';
+                    break;
+            }
+        });
+    }
     
     if(data.additionalDistributors.length > 0) {
-        str += '<br/>';
-        
+        if(data.default && data.default != false) str += '<br/>';
+
         data.additionalDistributors.forEach(function (company, index) {
             str += '<p class="products">'+company.products+'</p>';
             str += '<p>'+company.companyName+'</p>';
