@@ -88,3 +88,40 @@
  h2 {
      padding-bottom:  0;
  }
+
+ h5 {
+     font-family: verdana;
+     color: black;
+     font-size: 110%;
+     font-weight: bold;
+ }
+
+ .infoblock__white-rectangulars {
+     overflow: hidden;
+     background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
+     width: 100%;
+     background-size: contain;
+ }
+
+ .white-rectangulars__articles {
+     float: left;
+     width: calc(9.09% - 5px);
+     margin-left: -16px;
+
+ }
+
+ .white-rectangulars__articles p{
+     word-spacing: -1pt;
+     letter-spacing: 0;
+     font-size: 65%;
+     line-height: 7pt;
+     width: 100%;
+     text-align: left;
+ }
+
+  .white-rectangulars__articles h6{
+      text-align: center;
+      margin-top: 4px;
+ }
+
+  
