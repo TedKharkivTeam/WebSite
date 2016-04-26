@@ -1,0 +1,91 @@
+#bscan-logo-forms-processing {
+    margin-bottom: 15px;
+}
+
+.image-header {
+    font-size: 8px;
+    color: black;
+    text-shadow: 1px 1px 1px #3F3218;
+    font-weight: bold;
+}
+
+#optical-mark-recognition-container {
+    float: left;
+    width: 24%;
+    margin-left: 6%;
+}
+
+#intelligent-character-recognition-container {
+    float: left;
+    width: 24%;
+    margin-left: 6%;
+}
+
+#optical-character-recognition-container {
+    float: right;
+    width: 33%;
+}
+
+#table-with-twos-and-nines {
+    float: left;
+    width: 23%;
+    margin-right: 10px;
+}
+
+#form-abc {
+    float: right;
+    margin-left: 10px;
+    width: 20%;
+}
+
+#features-container {
+    margin-bottom: 10px;
+}
+
+#using-barcode-separator-sheets-container {
+    padding: 10px;
+    background-color: #FDFDD8;
+    margin-bottom: 10px;
+}
+
+ol#using-barcode-separator-sheets-list {
+    list-style: none;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+ol#using-barcode-separator-sheets-list li {
+    counter-increment: item;
+    padding-bottom: 5px;
+    display: table-row;
+}
+
+ol#using-barcode-separator-sheets-list li div {
+    display: table-cell;
+    vertical-align: middle;
+    background: linear-gradient(to right, #A09EB4 35%, #ECE3D4);
+    padding: 5px;
+}
+
+ol#using-barcode-separator-sheets-list li:before {
+    padding: 5px 25px 5px 20px;
+    background: linear-gradient(to right, #ECE3D4, #A09EB4 40%);
+    content: counter(item);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#left-column {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#right-column {
+    float: right;
+    width: 45%;
+}
