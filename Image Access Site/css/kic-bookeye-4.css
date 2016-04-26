@@ -21,3 +21,52 @@
     color: #282a28;
 
 }
+.infoblock div img{
+    width: 65%;
+    position: relative;
+
+}
+.infoblock div .infoblock__h2__p{
+     position: absolute;
+     font-weight: bold;
+     padding-left: 25%;
+     top:9%;
+ }
+.infoblock div .infoblock__h2__p h2{
+    font-size: 22px;
+}
+.infoblock div .infoblock__h2__p p{
+    text-align: center;
+}
+
+.infoblock .infoblock__h3__p{
+    position: absolute;
+    padding-left: 47%;
+    top: 14%;
+    text-align: center;
+}
+.infoblock .infoblock__h3__p h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infoblock .infoblock__h3__p p{
+     font-size: 12px;
+}
+
+.infoblock .infoblock__h3__p img{
+    width: 30%;
+}
+
+.infoblock .infoblock__div{
+    position: absolute;
+    width: 30%;
+    left: 73%;
+    top: 23%;
+    height: auto;
+}
+
+.infoblock div .infoblock__img{
+    width: 60%;
+}
+
