@@ -1,4 +1,6 @@
-﻿.infoblock__opus-logo {
+﻿/*First page*/
+
+.infoblock__opus-logo {
     margin-left: 15%;
     width: 80%;
 }
@@ -75,4 +77,14 @@
      vertical-align: middle;
      margin-left: 8px;
      font-size: 120%;
+ }
+
+ /*Second page*/
+
+ .infoblock__title {
+     text-align: center;
+ }
+
+ h2 {
+     padding-bottom:  0;
  }
