@@ -1,0 +1,22 @@
+.infoblock__bscan-ill{
+    text-align: left;
+    position: relative;
+}
+.infoblock__bscan-ill .bscan-ill__logo{
+    width: 25%;
+}
+.infoblock__bscan-ill--absolut{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.bscan-ill__bolt{
+    display: block;
+    padding: 0;
+}
+.bscan-ill__bolt--fs1{
+    font-size: 24px;
+}
+.bscan-ill__bolt--fs2{
+    font-size: 20px;
+}
