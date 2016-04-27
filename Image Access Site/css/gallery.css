@@ -188,27 +188,27 @@
 }
 
 .gallery-container-2A {
-    background: url("../images/new_frames/atlases/20x20_2A.png");
+    background: url("../images/new_frames/atlases/20x20_2A.png") no-repeat center;
     background-size: contain;
 }
 
 .gallery-container-2B {
-    background: url("../images/new_frames/atlases/11x11_2B.png");
+    background: url("../images/new_frames/atlases/11x11_2B.png") no-repeat center;
     background-size: contain;
 }
 
 .gallery-container-2C {
-    background: url("../images/new_frames/atlases/14x14_2C.png");
+    background: url("../images/new_frames/atlases/14x14_2C.png") no-repeat center;
     background-size: contain;
 }
 
 .gallery-container-3 {
-    background: url("../images/new_frames/atlases/10x10_3.png");
+    background: url("../images/new_frames/atlases/10x10_3.png") no-repeat center;
     background-size: contain;
 }
 
 .gallery-container-4A {
-    background: url("../images/new_frames/atlases/14x14_4A.png");
+    background: url("../images/new_frames/atlases/14x14_4A.png") no-repeat center;
     background-size: contain;
 }
 
