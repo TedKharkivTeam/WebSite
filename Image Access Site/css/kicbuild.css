@@ -1,5 +1,6 @@
 #build_your_kic {
     height: auto;
+    margin: 0 auto !important;
 }
 
 #build_your_kic p.warning {
@@ -22,7 +23,7 @@
 
 #build_your_kic .intro h3 {
     font-size: 15px;
-    margin: -0.5em 0.5em 0.5em 0em;
+    margin: -0.5em 0.5em 0.5em 0;
 }
 
 #build_your_kic .intro p {
@@ -217,9 +218,8 @@
 }
 
 #build_your_kic .expand .hide {
-    display:block;
+    display: block;
 }
-
 
 #build_your_kic .formset {
     width: auto;

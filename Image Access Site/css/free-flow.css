@@ -199,6 +199,7 @@
     width: 10%;
     font-size: larger;
     font-weight: 600;
+    margin-top: 1%;
 }
 
 .infoblock .opus_output_block5 {
@@ -214,10 +215,129 @@
 }
 
 .infoblock .images_metadata1 {
- margin-left: -4.5%;
+    margin-left: -4.5%;
     width: 98%;
     margin-top: -1%;
 }
 
+.infoblock .treated {
+    font-size: xx-large;
+}
 
+.infoblock .content_stabilization {
+    border: solid 3px;
+    border-radius: 2%;
+    padding: 1%;
+}
 
+.infoblock .content_stabilization1 {
+    width: 47%;
+}
+
+.infoblock .content_stabilization2 {
+    width: 47%;
+    margin-left: 50%;
+    margin-top: -8.6%;
+}
+
+.infoblock .content_stabilization3 {
+    width: 44%;
+}
+
+.infoblock .content_stabilization4 {
+    margin-left: 49%;
+    width: 50%;
+    margin-top: -3.5%;
+}
+
+.infoblock .content_stabilization5 {
+    margin-left: 11%;
+    margin-top: -30%;
+    width: 18%;
+}
+
+.infoblock .content_stabilization6 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization7 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization8 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization9 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization10 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization11 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization12 {
+    margin-left: 11%;
+}
+
+.infoblock .content_stabilization13 {
+    width: 45%;
+}
+
+.infoblock .versus1 {
+    width: 90%;
+    margin-left: 3%;
+}
+
+.infoblock .versus2 {
+    width: 90%;
+    margin-left: 3%;
+}
+
+.styleForTitle {
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    font-weight: bold;
+    color: rgb(90, 107, 177);
+    letter-spacing: -1pt;
+    word-spacing: 1pt;
+    font-size: 43px;
+    text-align: center;
+    font-family: arial black, sans-serif;
+    line-height: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.infoblock .free_logo_logo1 {
+    width: 97%;
+}
+
+.versus3 {
+    color: #0000ff;
+    font-size: x-large;
+    margin-left: 18%;
+}
+
+.versus4 {
+    color: #0000ff;
+    font-size: x-large;
+    margin-left: 60%;
+    margin-top: -4%;
+}
+
+.table_1 {
+    width: 90%;
+    border: groove 3px;
+    border-collapse: collapse;
+
+}
+
+.table_1 td {
+    border: groove 3px  ;
+    border-collapse: collapse;
+
+}

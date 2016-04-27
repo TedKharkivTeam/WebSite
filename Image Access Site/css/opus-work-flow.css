@@ -1,0 +1,126 @@
+﻿/*First page*/
+
+.infoblock__opus-logo {
+    width: 80%;
+    text-align: center;
+}
+
+    .infoblock__opus-logo img {
+        width: 50%;
+    }
+
+.infoblock__opus-logo__subtitle {
+    font-weight: normal;
+    color: rgb(6,93,170);
+    letter-spacing: -2pt;
+    word-spacing: 2pt;
+    font-size: 27px;
+    text-align: left;
+    font-family: arial black, sans-serif;
+    line-height: 1;
+    margin-top: -10px;
+}
+
+.infoblock__book-stack-and-feature-enumeration {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+    .infoblock__book-stack-and-feature-enumeration img {
+        width: 48%;
+        vertical-align: central;
+        float: left;
+    }
+
+    .infoblock__book-stack-and-feature-enumeration h2 {
+        margin-left: 3%;
+    }
+
+    .book-stack-and-feature-enumeration__feature-enumeration {
+        float: left;
+        width: 45%;
+        margin-left: 3%;
+    }
+
+ .infoblock__a-new-era-in-digitization {
+     overflow: hidden;
+     margin-left: 2%;
+     margin-top: 20px;
+ }
+
+  .infoblock__a-new-era-in-digitization h2 {
+      text-align: center;
+ }
+
+ .a-new-era-in-digitization__columns {
+     float: left;
+     width: 44%;
+     margin-left: 3%;
+ }
+
+ .infoblock__bottom-logos {
+     float: right;
+     margin-right: -9%;
+     margin-top: 30px;
+ }
+
+ .infoblock__bottom-logos img{
+     display: inline-block;
+     width: 40%;
+ }
+
+ .infoblock__bottom-logos p{
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 8px;
+     font-size: 120%;
+ }
+
+ /*Second page*/
+
+ .infoblock__title {
+     text-align: center;
+ }
+
+ h2 {
+     padding-bottom:  0;
+ }
+
+ h5 {
+     font-family: verdana;
+     color: black;
+     font-size: 110%;
+     font-weight: bold;
+ }
+
+ .infoblock__white-rectangulars {
+     overflow: hidden;
+     background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
+     width: 100%;
+     background-size: contain;
+ }
+
+ .white-rectangulars__articles {
+     float: left;
+     width: calc(9.09% - 5px);
+     margin-left: 8px;
+ }
+
+ .white-rectangulars__articles p{
+     word-spacing: -1pt;
+     letter-spacing: 0;
+     font-size: 65%;
+     line-height: 7pt;
+     width: 100%;
+     padding-left: 10px;
+ }
+
+  .white-rectangulars__articles h6{
+      text-align: center;
+      margin-top: 4px;
+      line-height: 9pt;
+ }
+
+  

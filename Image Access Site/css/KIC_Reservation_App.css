@@ -1,0 +1,89 @@
+.reservation{
+    text-align: center;
+}
+.reservation__h1{
+    font-size: 70px;
+    text-shadow: none;
+    color: #000;
+    margin:0;
+}
+.reservation__h2{
+    color: #000;
+    font-size:26px;
+    margin: 0;
+    padding:0;
+    padding-bottom:10px;
+}
+.reservation__h3{
+    color: #000;
+    font-size:24px;
+    font-style: italic;
+    font-weight:normal;
+    margin:0;
+    padding:0 ;
+}
+.reservation__text{
+    text-align: left;
+    width: 49%;
+    padding:10px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+.reservation__text-img{
+    margin:0 auto;
+}
+.infoblock .text-img__touch{
+    text-align: center;
+    width:31%;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 5px;
+}
+.img__touch--after{
+    position: relative;
+}
+.img__touch--after:after{
+    position: absolute;
+    content: '';
+    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
+    bottom: -120px;
+    left: 35px;
+    background-size: contain;
+    width: 100%;
+    height: 130px;
+}
+.reservation__two-tel{
+    padding-top:107px;
+    position: relative;
+}
+.infoblock .two-tel__text-top{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 45%;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+.footer__left{
+    display: inline-block;
+    width: 27%;
+    vertical-align: middle;
+}
+.footer__center{
+    display: inline-block;
+    width: 42%;
+    vertical-align: middle;
+}
+.footer__right{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+.left__link{
+    text-decoration: none;
+    font-size:22px;
+    color: #4a504e;
+    font-weight: bold;
+}
