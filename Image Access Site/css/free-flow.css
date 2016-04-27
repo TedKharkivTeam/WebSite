@@ -287,3 +287,57 @@
 .infoblock .content_stabilization13 {
     width: 45%;
 }
+
+.infoblock .versus1 {
+    width: 90%;
+    margin-left: 3%;
+}
+
+.infoblock .versus2 {
+    width: 90%;
+    margin-left: 3%;
+}
+
+.styleForTitle {
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    font-weight: bold;
+    color: rgb(90, 107, 177);
+    letter-spacing: -1pt;
+    word-spacing: 1pt;
+    font-size: 43px;
+    text-align: center;
+    font-family: arial black, sans-serif;
+    line-height: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.infoblock .free_logo_logo1 {
+    width: 97%;
+}
+
+.versus3 {
+    color: #0000ff;
+    font-size: x-large;
+    margin-left: 18%;
+}
+
+.versus4 {
+    color: #0000ff;
+    font-size: x-large;
+    margin-left: 60%;
+    margin-top: -4%;
+}
+
+.table_1 {
+    width: 90%;
+    border: groove 3px;
+    border-collapse: collapse;
+
+}
+
+.table_1 td {
+    border: groove 3px  ;
+    border-collapse: collapse;
+
+}
