@@ -33,6 +33,18 @@
     .content .infoblock .nav__li {
         width: 32%;
     }
+    .img__touch--after:after {
+        bottom: -108px;
+        left: 35px;
+        width: 72%;
+        height: 120px;
+    }
+    .infoblock .two-tel__text-top {
+        top: 34px;
+    }
+    .left__link {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1700px) {
@@ -108,6 +120,14 @@
         width: 100%;
         height: auto;
     }
+    .infoblock .two-tel__text-top {
+        top: 20px;
+        width: 48%;
+    }
+    .left__link {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -130,5 +150,18 @@
     }
     .content .infoblock .bottom__a {
         width: 40%;
+    }
+    .infoblock .two-tel__text-top {
+        top: 12px;
+    }
+    .reservation__h2 {
+        font-size: 20px;
+        padding:0;
+    }
+    .reservation__h3 {
+        font-size: 19px;
+    }
+    .reservation__h1 {
+        font-size: 50px;
     }
 }

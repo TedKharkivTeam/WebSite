@@ -60,7 +60,6 @@
 
 }
 .menu__a{
-    display: flex;
     font-weight:bold;
     color: #000;
 }
@@ -68,6 +67,12 @@
     width:60px;
     margin-left:30px;
     margin-right: 5px;
+    display: inline-block;
+}
+.a__text{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
 }
 .news_content p{
     padding-bottom:5px;
