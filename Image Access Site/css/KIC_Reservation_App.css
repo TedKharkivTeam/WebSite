@@ -68,11 +68,22 @@
 }
 .footer__left{
     display: inline-block;
+    width: 27%;
+    vertical-align: middle;
 }
 .footer__center{
     display: inline-block;
-    width: 40%;
+    width: 42%;
+    vertical-align: middle;
 }
 .footer__right{
     display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+.left__link{
+    text-decoration: none;
+    font-size:22px;
+    color: #4a504e;
+    font-weight: bold;
 }
