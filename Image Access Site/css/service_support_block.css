@@ -334,8 +334,8 @@ input, textarea {
 }
 
 .check-order {
-    background: url("../images/serviceSupportBG.jpg") no-repeat;
-    background-size: cover;
+    background: url("../images/serviceSupportBG.png") no-repeat;
+    background-size: contain;
 }
 
 .service-ticket {
