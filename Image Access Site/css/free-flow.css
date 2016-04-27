@@ -199,6 +199,7 @@
     width: 10%;
     font-size: larger;
     font-weight: 600;
+    margin-top: 1%;
 }
 
 .infoblock .opus_output_block5 {
@@ -214,10 +215,37 @@
 }
 
 .infoblock .images_metadata1 {
- margin-left: -4.5%;
+    margin-left: -4.5%;
     width: 98%;
     margin-top: -1%;
 }
 
+.infoblock .treated {
+    font-size: xx-large;
+}
 
+.infoblock .content_stabilization {
+    border: solid 3px;
+    border-radius: 2%;
+    padding: 1%;
+}
 
+.infoblock .content_stabilization1 {
+    width: 47%;
+}
+
+.infoblock .content_stabilization2 {
+    width: 47%;
+    margin-left: 50%;
+    margin-top: -8.6%;
+}
+
+.infoblock .content_stabilization3 {
+    width: 44%;
+}
+
+.infoblock .content_stabilization4 {
+    margin-left: 49%;
+    width: 50%;
+    margin-top: -3.5%;
+}
