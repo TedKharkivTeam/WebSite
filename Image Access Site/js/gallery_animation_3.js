@@ -1,4 +1,4 @@
-var startTimeout = 700;
+var startTimeout = 100;
 var animationDuration = 3000;
 var imagesCount = 4;
 
@@ -12,6 +12,9 @@ var requestAnimationFrame =
         return setTimeout(callback, 16.67);
     };
 
+//Total images count on frame
+var totalImagesCount = 100;
+//Animation presets
 var animationPresets = {
     "preset_for_3_images": {
         "image_0": {
@@ -46,6 +49,12 @@ var animationPresets = {
         }
     }
 };
+//Starting positions to animate
+var startingPositions = {
+    'Image_0': {top: 228.328125, left: 225.328125},
+    'Image_1': {top: 228.328125, left: 600.875},
+    'Image_2': {top: 304.4375, left: 600.875}
+};
 
 function aminate(onAnimationComplete) {
     var canvas = document.getElementById("animation-canvas");
@@ -53,6 +62,7 @@ function aminate(onAnimationComplete) {
     context.translate(0.5, 0.5);
 
     var $container = $(".gallery-container");
+    var $galleryHover = $('.gallery-hover');
     var images = $(".gallery-container .animate-image");
     var animatedImages = [];
     imagesCount = images.length;
@@ -79,28 +89,28 @@ function aminate(onAnimationComplete) {
                 var $defaultImage = $(this);
                 var $image = $(this).clone().addClass("animated-image-block").appendTo($container);
                 var $image2 = $(this).clone().appendTo($container);
-
-                var $imgPosition = $defaultImage.position();
+                $defaultImage.hide();
                 var defaultWidth = $defaultImage.width();
                 var defaultHeight = $defaultImage.height();
 
-                $image.css({left: $imgPosition.left, top: $imgPosition.top, "z-index": 20000 + index});
+                $image.css({left: startingPositions['Image_' + index].left, top: startingPositions['Image_' + index].top, "z-index": 20000 + index});
                 $image2.css({
-                    left: $imgPosition.left,
-                    top: $imgPosition.top,
+                    left: startingPositions['Image_' + index].left,
+                    top: startingPositions['Image_' + index].top,
                     "z-index": 10000 + index,
                     position: "absolute"
                 });
                 animatedImages.push({
-                    default_position: $imgPosition,
+                    default_position: startingPositions['Image_' + index],
                     default_width: defaultWidth,
                     default_height: defaultHeight,
                     clone_img: $image
                 });
-
+                
                 $image.animate(preset["image_" + index].stage1, animationDuration, function onFirstStageComplete() {
                     $image.animate(preset["image_" + index].stage2, animationDuration / 3, onAnimationComplete);
                 });
+                
             });
             $(".gallery-container .gallery-image:not(.animated-image-block)").animate({
                 opacity: 0.7
@@ -189,12 +199,39 @@ function aminate(onAnimationComplete) {
     }
 }
 
+function AnimateImagesLoading(callback) {
+    var imagesPerSecond = 6;
+    var rowsCount = Math.floor(Math.sqrt(totalImagesCount));
+    var rowLoadTime = 1000 / imagesPerSecond * (rowsCount / imagesPerSecond);
+    var rowHeight = $('.gallery-container').height() / rowsCount;
+    var rows = [];
+
+    for(var k = 0; k < rowsCount; k++) {
+        var row = $('<div></div>').addClass('gallery-mask-stripe').css({height: rowHeight + (rowHeight / 10), top: rowHeight * k}).appendTo('.gallery-container');
+        rows.push(row);
+    }
+
+    $('.gallery-hover').hide();
+    rows.forEach(function (row, index) {
+        setTimeout(function () {
+            row.animate({left: '100%', width: 0}, rowLoadTime, function onAnimationFinished() {
+                if(index == rows.length - 1) {
+                    callback();
+                }
+                row.remove();
+            });
+        }, rowLoadTime * index);
+    })
+}
+
 $(document).ready(function () {
-    fadeIn(function () {
-        aminate(function () {
-            simulateAnimation(function () {
-                redirect("Frame_4A.html");
+    setTimeout(function () {
+        AnimateImagesLoading(function () {
+            aminate(function () {
+                simulateAnimation(function () {
+                    redirect("Frame_4A.html");
+                });
             });
         });
-    });
+    }, 500);
 });

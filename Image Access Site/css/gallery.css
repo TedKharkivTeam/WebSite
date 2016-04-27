@@ -76,6 +76,7 @@
     width: 50%;
     position: relative;
     display: block;
+    padding-right: 10px;
 }
 
 .gallery-block {
@@ -170,10 +171,50 @@
 /*}*/
 
 .gallery-header {
-    padding-right: 4px;
     width: 100%;
     -webkit-animation: opacity 3s 1 linear;
     animation: opacity 3s 1 linear;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+.gallery-hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+}
+
+.gallery-container-2A {
+    background: url("../images/new_frames/atlases/20x20_2A.png");
+    background-size: contain;
+}
+
+.gallery-container-2B {
+    background: url("../images/new_frames/atlases/11x11_2B.png");
+    background-size: contain;
+}
+
+.gallery-container-2C {
+    background: url("../images/new_frames/atlases/14x14_2C.png");
+    background-size: contain;
+}
+
+.gallery-container-3 {
+    background: url("../images/new_frames/atlases/10x10_3.png");
+    background-size: contain;
+}
+
+.gallery-container-4A {
+    background: url("../images/new_frames/atlases/14x14_4A.png");
+    background-size: contain;
+}
+
+.gallery-mask-stripe {
+    position: absolute;
+    background: white;
+    left: 0;
+    width: 100%;
 }
