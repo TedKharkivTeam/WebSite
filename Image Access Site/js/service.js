@@ -370,7 +370,7 @@ $(function () {
                 $('.leaflet-control-zoom').show();
                 break;
             case "CAR":
-                map.fitBounds(Caribbean_LayerGroup.getBounds());
+                map.setView({lat: 20.88722, lng: -76.26306}, 6);
                 $('.leaflet-control-zoom').show();
                 break;
             case "CEA":
