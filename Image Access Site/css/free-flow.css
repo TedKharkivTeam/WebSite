@@ -57,7 +57,7 @@
 .infoblock .opus_p3 {
     width: 45%;
     margin-left: 49%;
-    margin-top: -20%;
+    margin-top: -16%;
 }
 
 .infoblock .opus_p4 {
@@ -74,6 +74,9 @@
 .infoblock .infoblock_no_compromise {
     margin-left: 65%;
     margin-top: 2%;
+    color: black;
+    text-shadow: none;
+    font-size: x-large;
 }
 
 .infoblock .infoblock_do_before_1 {
@@ -81,6 +84,14 @@
     border-radius: 2%;
     padding: 1%;
     text-align: center;
+    color: black;
+
+}
+
+.infoblock_curve_collection {
+    font-size: larger;
+    text-align: center;
+    color: black;
 }
 
 .infoblock .infoblock_do_before_2 {
@@ -93,10 +104,12 @@
 
 .hierarchical {
     text-align: center;
+    font-size: x-large;
 }
 
 .templates {
     text-align: center;
+    font-size: larger;
 }
 
 .OAI {
@@ -120,10 +133,14 @@
 
 .metadata_capture {
     margin-top: 3%;
+    font-size: x-large;
+    font-weight: 600;
+
 }
 
 .OAI5 {
     width: 92%;
+
 }
 
 .OAI6 {
@@ -133,7 +150,7 @@
 .infoblock .table1_freeflow {
     width: 68%;
     margin-left: 24%;
-    margin-top: -31%;
+    margin-top: -29%;
 }
 
 .OAI7 {
@@ -157,7 +174,50 @@
     margin-left: 44%;
 }
 
-.opus_output {
+.infoblock .opus_output {
     text-align: center;
-    margin-top: 2%;
+    font-size: x-large;
+
 }
+
+.infoblock .opus_output_block1 {
+    width: 49%;
+}
+
+.infoblock .opus_output_block2 {
+    width: 47%;
+    margin-left: 51%;
+    margin-top: -14.5%;
+}
+
+.infoblock .opus_output_block3 {
+    width: 47%;
+    margin-left: 51%;
+}
+
+.infoblock .opus_output_block4 {
+    width: 10%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.infoblock .opus_output_block5 {
+    width: 12%;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 11%;
+    margin-top: -5.3%;
+}
+
+.images_metadata {
+    margin-left: -4%;
+}
+
+.infoblock .images_metadata1 {
+ margin-left: -4.5%;
+    width: 98%;
+    margin-top: -1%;
+}
+
+
+
