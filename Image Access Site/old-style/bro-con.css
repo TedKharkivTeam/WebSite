@@ -1,0 +1,1195 @@
+.brochure-block-wrap{width:1200px;margin:0px;box-shadow:2px 3px 5px 5px #ddd;border:1px solid #ccc;border-radius:5px;}
+div.brochure-block{clear:both;width:1200px;margin:0;padding:0px;min-height:10em;border-radius:0px;position:relative;overflow:hidden;}
+div.brochure-block.hide{display:none;}
+h1.block-tag{visibility:hidden;position:absolute;top:-15px;left:10px;width:auto;padding:6px;font-style:italic;text-align:center;color:#f00;color:rgba(256,0,0,0.7);background-color:#ccc;background-color:rgba(200,200,200,0.3);border:2px solid #ccc;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;z-index:0;}
+.brochure-block h1.block-title{margin:0 0 0.5em 0;font-size:300%;text-align:center;line-height:1.2em;color:#333;z-index:10;}
+.brochure-block h1.block-title-sub{margin:-15px .3em 25px 2em;font-size:225%;text-align:center;font-style:italic;color:#666;}
+.brochure-block h2{margin:10px;}
+.brochure-block h2.list-head{color:#a4d7bb;text-shadow:1px 1px 1px #333;}
+.brochure-block img{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.brochure-block .two-col{width:1200px;}
+.brochure-block .two-col .left-col{width:500px;float:left;margin-left:75px;}
+.brochure-block .two-col .left-col2{width:555px;float:left;margin-left:loca35px;}
+.brochure-block .two-col .right-col{width:500px;float:right;margin-right:75px;}
+.brochure-block .two-col .right-col2{width:548px;float:right;margin-right:40px;}
+.brochure-block .two-col div div{width:99%;float:left;}
+.brochure-block .two-col img{margin:0.1em 5.5em;float:left;}
+.brochure-block .two-col p{padding:.3em;}
+.brochure-block .two-col h2{margin:0.4em;}
+.brochure-block .two-col ul{margin:0;width:99%;}
+.brochure-block p{margin-bottom:3px;padding:5px;text-align:left;line-height:1.3em;font-size:150%;color:#000;}
+.brochure-block p.caption{font-size:90%;font-style:italic;margin-top:0.2em;margin-bottom:0.2em;}
+.brochure-block ul{margin:2.5em 2em 1em 0;width:90%;float:left;list-style-image:url(../images/green-bullet.png);}
+.brochure-block ul.peppermint{list-style-image:url(../images/blue-bullet.png);}
+.brochure-block ul.peppermint2{list-style-image:url(../images/blue-bullet2.png);}
+.brochure-block ul.bullet{list-style-type:disc;list-style-image:none;}
+.brochure-block li{margin:0.6em 3em;font-size:120%;}
+.brochure-block ul.bullet li{margin:0.35em 3em;}
+.scanner-label{margin-left:175px;}
+.scanner-label p{font-size:200%;font-style:italic;color:#555;text-shadow:2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;}
+div.rt_arrow{width:46px;height:80px;background:url(../images/rt_arrow.png) no-repeat 10px 30px;float:left;}
+div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) no-repeat 0 0;float:left;}
+#K-00 img{border-radius:0px;}
+#KBE-01{height:220px;}
+#KBE-01 img{height:200px;width:200px;}
+#kb-be0101{height:200px;width:200px;margin:15px;float:left;}
+#kb-be01{height:200px;width:900px;float:left;}
+#KBE-01 h1.block-title{font-size:350%;margin-top:60px;margin-bottom:25px;margin-left:10px;text-shadow:1px 1px 3px #333;text-align:left;}
+#KBE-01 h1.block-title-sub{font-size:200%;margin-top:-15px;margin-bottom:0;margin-left:20px;font-style:italic;text-align:left;}
+#KBE-02{height:26em;}
+#KBE-02 h1.block-title{font-style:italic;}
+#kbe2-title2{margin-top:-15px;}
+#KBE-03{min-height:3em;width:1050px;margin-left:75px;}
+#KBE-03 .two-col{width:1050px;}
+#KBE-03 .left-col{width:750px;margin-left:0px;}
+#KBE-03 .left-col ul{width:700px;margin:0 15px 0 35px;}
+#KBE-03 .left-col ul li{margin:0;}
+#KBE-03 .right-col{width:300px;margin-right:0px;}
+#KBE-03 .right-col img{margin:0px;float:none;}
+#KBE-04{height:35em;}
+#KBE-04 img{margin:0 208px 0 208px;}
+#KBE-04 p{margin:3px 200px 10px 200px;}
+#KBE-04 p.caption{margin-left:290px;width:600px;}
+#kbe-t0401 th{background:#ccc;}
+#kbe-t0401 .t_col1{width:320px;text-align:left;}
+#kbe-t0401 .t_col2{width:120px;}
+#kbe-t0401 .t_col3{width:120px;}
+#kbe-t0401 .t_col4{width:120px;}
+#kbe-t0402 th{background:#ccc;}
+#kbe-t0402 .t_col1{width:350px;text-align:center;}
+#kbe-t0402 .t_col2{width:350px;}
+#kbe-t0501 .t_col1{width:160px;text-align:right;}
+#kbe-t0501 .t_col2{width:270px;}
+#kbe-t0502 .t_col1{width:200px;text-align:center;}
+#kbe-t0502 .t_col2{width:200px;}
+#kbe-stacks{margin:0 0 0 315px;}
+#KBE4-01{height:270px;}
+#KBE4-01 img{height:250px;width:240px;}
+#kb-be40101{height:250px;width:240px;margin:10px;float:left;}
+#kb-be401{height:200px;width:940px;float:left;}
+#KBE4-01 h1.block-title{font-size:350%;margin-top:60px;margin-bottom:25px;margin-left:10px;text-shadow:1px 1px 3px #333;text-align:left;}
+#KBE4-01 h1.block-title-sub{font-size:200%;margin-top:-15px;margin-bottom:0;margin-left:20px;font-style:italic;text-align:left;}
+#KBE4-02{height:26em;}
+#KBE4-02 h1.block-title{text-align:left;margin-left:75px;margin-right:75px;font-size:200%;}
+#KBE4-03{min-height:3em;}
+#KBE4-03-01{margin:20px 400px;}
+#KBE4-03-01 img{margin-left:100px;}
+#KBE4-03-01 p{text-align:center;}
+#KBE4-04{height:35em;}
+#KBE4-04 img{margin:0 208px 0 208px;}
+#KBE4-04 p{margin:3px 200px 10px 200px;}
+#K-05{padding-top:10px;}
+#K-05 h1.block-title{margin-left:200px;text-align:left;width:800px;}
+#K-05 h1.block-title-sub{margin-left:200px;margin-top:-15px;text-align:left;font-style:italic;width:800px;}
+#K-0500{margin-left:75px;}
+#K-0500 img{height:200px;width:200px;float:left;margin:0px;}
+#K-0501{position:relative;float:right;margin-top:25px;}
+#K-0501 img{height:282px;width:475px;margin-right:70px;}
+#K-05 p{float:left;width:340px;margin:10px 0;}
+#K-06{margin:0px;width:1050px;}
+#K-06 .two-col{width:1050px;}
+#K-06 .left-col, #K-06 .right-col{width:500px;margin:0px;}
+#K-06 img{margin:0;padding:0;}
+#K-0601{margin-left:175px;}
+#K-06 .dn_arrow{width:190px;height:30px;margin-left:0px;background-position:90px 0px;}
+#K-06-pages{margin-left:25px;width:400px;}
+#K-0602{margin-left:50px;}
+#K-0603{width:150px;margin:5px 20px;padding:0;float:left;border:1px solid #888;border-radius:5px;box-shadow:4px 4px 8px 2px #aaa;}
+#K-0604{width:150px;margin:5px 20px;padding:0;float:left;border:1px solid #888;border-radius:5px;box-shadow:4px 4px 8px 2px #aaa;}
+#K-07 p{margin-top:10px;font-size:150%;font-style:italic;text-align:center;}
+#K-0701{margin-left:375px;float:left;border:1px solid #888;border-radius:5px;}
+#K-0702{margin-left:50px;float:left;border:1px solid #888;border-radius:5px;}
+#K-07 h1.block-title{font-style:italic;}
+#k7-title2{font-style:italic;margin-top:-20px;}
+#K-08 h1.block-title{margin:20px;}
+#K-0801{float:left;margin-left:190px;}
+#K-09{margin-top:25px;}
+#K-09 .block-title{font-size:280%;}
+#K-0901{float:right;margin-right:75px;}
+#K-09 p{width:400px;margin-left:75px;}
+#K-10{margin-bottom:25px;}
+#K-10 img{float:right;margin:20px 175px 0 0;}
+#K-11 h2{text-align:center;font-style:italic;margin-top:-15px;text-shadow:none;}
+#K-11 img{margin:0 280px;height:400px;width:640px;}
+#K-11 ul{display:none;}
+#K-12{height:auto;width:1050px;padding:0 75px;}
+#K-t1201{border:1px solid #888;border-collapse:collapse;}
+#K-t1201 th{height:30px;}
+#K-t1201 .dk{background:#86ab99;}
+#K-t1201 .md{background:#c0d4cb;}
+#K-t1201 .lt{background:#fff;}
+#K-t1201 .col_1{width:240px;}
+#K-t1201 .col_2{width:230px;}
+#K-t1201 .col_3{width:230px;}
+#k-12-1201{margin:0 5px 0 5px;float:left;}
+#k-12-1202{margin:0 5px 0 70px;}
+#k-12-1204{margin:0 5px 0 41px;float:left;}
+#K-12 h2{clear:both;margin:0.5em;}
+#K-12 div{width:99%;margin:0.6em 0.1em;}
+#K-12 div div div{width:99%;float:left;}
+#K-13{height:auto;width:1050px;padding:0 75px;}
+#K-13 p{float:left;width:700px;}
+#K-13 img{float:left;margin-right:10px;height:400px;width:320px;}
+#K-14 p{margin:0.1em 0.7em;}
+#K-14 img{margin:5px;float:left;}
+#K-14 h3{margin-top:15px;}
+#K-14r1{background:url(../images/kb-a1406.jpg) no-repeat 0 0;min-height:340px;}
+#K-14r1 h3{margin-left:225px;margin-top:210px;}
+#K-14r1 p{margin-left:225px;margin-top:10px;padding:0;}
+#K-15{height:auto;width:1050px;padding:0 75px;}
+#K-1501{margin:5px 20px;float:left;}
+#K-15 p{margin:15px 0 0 350px;padding:0;}
+#K-18{width:1200px;margin:0 0px;}
+#K-19{height:auto;width:1200px;margin:0 0px;}
+#K-19 h2.headline{width:100%;text-align:center;font-size:200%;}
+#K-19 ul.customer-list{width:100%;list-style-type:none;list-style-image:none;margin:30px 40px;}
+#K-19 ul.customer-list li{min-height:18px;height:auto;font-size:12px;line-height:14px;float:left;width:30%;margin:1px 3px;}
+#K-20{width:1100px;margin:0 50px;}
+#K-21{width:1200px;margin:0 0px;}
+#K-22{width:1100px;margin:0 50px;}
+#K-23{background:url(../images/3_points.jpg) no-repeat 0 0;height:1680px;margin-left:42px;width:1100px;}
+#K-23 h1 {font-size:30px;text-align:left;line-height:98%;}
+#K-23 div.c01 {height:750px;}
+#K-23 div.c02 {height:450px;}
+#K-23 div.c01 h1.block-title.c01 {padding-top:50px;margin-left:200px;} 
+#K-23 div.c01 h1.block-title.c02 {margin-left:420px;}
+#K-23 div.c01 p {margin-left:200px;font-size:16px;}
+#K-23 div.c01 p.c01 {padding-top:380px;}
+#K-23 div.c01 p.c02 {padding-top:50px;}
+#K-23 div.c02 h1.block-title {text-align:center;line-height:96%;}
+#K-23 div.c03 h1 {margin-left:350px;line-height:100%;}
+#K-23 div.c03 h1.block-title-sub {font-size:25px;}
+#K-23 div.c03 h1.block-title-sub.c02 {font-size:19px;}
+#fleet-01 div {}
+#fleet-0103 {}
+#fleet-0103 ul {position:absolute;top:1080px;left:805px;margin:0;list-style:disc url("../images/green-bullet.png");}
+#fleet-0103 li {margin:5px 2px;line-height:140%;}
+
+#ILL-01 p.delivery-list{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:30px;line-height:95%;color:rgb(32,42,95);}
+#ILL-0101 {position:absolute;top:583px;left:881px;width:250px;}
+#ILL-01 h1.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:italic;font-size:43px;color:black;}
+#ILL-0102 {position:absolute;top:781px;left:105px;width:755px;}
+#ILL-0103 {position:absolute;top:825px;left:280px;width:805px;}
+#ILL-01 h2.block-title-sub{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:italic;font-size:31px;color:rgb(34,63,139);}
+#ILL-0104 {position:absolute;top:866px;left:170px;width:850px;}
+#ILL-01 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:115%;}
+#ILL-0105 {position:absolute;top: 929px;left: 43px; width: 540px;}
+#ILL-0106 {position:absolute;top: 1133px;left: 43px; width: 540px;}
+#ILL-0107 {position:absolute;top: 1202px;left: 350px; width: 235px;}
+#ILL-0108 {position:absolute;top: 929px;left: 625px; width: 520px;}
+#ILL-0109 {position:absolute;top: 1163px;left: 625px; width: 519px;}
+#ILL-0110 {position:absolute;top: 1259px;left: 625px; width: 519px;}
+#ILL-02 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:115%;}
+#ILL-02 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:right;font-size:19px;line-height:115%;}
+#ILL-0201 {position:absolute;top: 101px;left: 180px; width: 275px;}
+#ILL-0202 {position:absolute;top: 122px;left: 195px; width: 435px;}
+#ILL-0203 {position:absolute;top: 165px;left: 215px; width: 505px;}
+#ILL-0204 {position:absolute;top: 186px;left: 230px; width: 425px;}
+#ILL-0205 {position:absolute;top: 220px;left: 246px; width: 490px;}
+#ILL-0206 {position:absolute;top: 240px;left: 267px; width: 460px;}
+#ILL-0207 {position:absolute;top: 262px;left: 282px; width: 310px;}
+#ILL-0208 {position:absolute;top: 84px;left: 691px; width: 449px;}
+#ILL-0209 {position:absolute;top: 211px;left: 771px; width: 125px;}
+#ILL-02 h1.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:42px;color:black;line-height:90%;}
+#ILL-0210 {position:absolute;top:313px;left:290px;width:770px;}
+#ILL-02 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#ILL-0211 {position:absolute;top:408px;left:45px;width:525px;}
+#ILL-0212 {position:absolute;top:552px;left:45px;width:525px;}
+#ILL-0213 {position:absolute;top:408px;left:602px;width:545px;}
+#ILL-02 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:16px;line-height:120%;font-weight:bold;}
+#ILL-0214 {position:absolute;top:508px;left:649px;width:505px;}
+#ILL-0215 {position:absolute;top:576px;left:649px;width:505px;}
+#ILL-0216 {position:absolute;top:644px;left:649px;width:475px;}
+#ILL-0217 {position:absolute;top:674px;left:649px;width:495px;}
+#ILL-0218 {position:absolute;top:705px;left:649px;width:490px;}
+#ILL-0219 {position:absolute;top:734px;left:649px;width:480px;}
+#ILL-0220 {position:absolute;top:783px;left:649px;width:517px;}
+#ILL-0221 {position:absolute;top:833px;left:649px;width:500px;}
+#ILL-0222 {position:absolute;top:901px;left:0px;width:1200px;}
+#ILL-02 p.block_text6 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:110%;}
+#ILL-0223 {position:absolute;top: 947px;left: 155px; width: 510px;font:32px "Arial",Helvetica,Arial,Verdana,sans-serif;font-weight:bold;text-align:left;}
+#ILL-02 p.block_text7 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:27px;}
+#ILL-0224 {position:absolute;top: 960px;left: 689px; width: 310px;}
+#ILL-02 p.block_label2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:105%;}
+#ILL-0225 {position:absolute;top: 1007px;left: 48px; width: 90px;}
+#ILL-0226 {position:absolute;top: 1188px;left: 46px; width: 100px;}
+#ILL-0227 {position:absolute;top: 1255px;left: 219px; width: 410px;font:32px "Arial",Helvetica,Arial,Verdana,sans-serif;font-weight:bold;text-align:left;}
+#ILL-0228 {position:absolute;top: 1268px;left: 651px; width: 280px;}
+#ILL-0229 {position:absolute;top: 1261px;left: 37px; width: 120px;}
+#ILL-0230 {position:absolute;top: 1475px;left: 101px; width: 70px;}
+#ILL-0231 {position:absolute;top: 1316px;left: 630px; width: 505px;}
+#ILL-0232 {position:absolute;top: 1374px;left: 630px; width: 505px;}
+#ILL-03 h1.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:41px;color:black;line-height:100%;}
+#ILL-0301 {position:absolute;top:33px;left:0px;width:1200px;}
+#ILL-0302 {position:absolute;top: 61px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:24px;font-weight:bold;text-align:center;font-style:italic;}
+#ILL-03 h2.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:36px;color:black;line-height:100%;}
+#ILL-0303 {position:absolute;top: 917px;left: 0px; width: 1200px;}
+#ILL-03 h3.block-title3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:27px;color:black;}
+#ILL-0304 {position:absolute;top: 987px;left: 236px; width: 120px;}
+#ILL-03 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:115%;}
+#ILL-03 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#ILL-0305 {position:absolute;top: 1033px;left: 194px; width: 370px;}
+#ILL-0306 {position:absolute;top: 987px;left: 772px; width: 150px;}
+#ILL-0307 {position:absolute;top: 1014px;left: 738px; width: 310px;}
+#ILL-0308 {position:absolute;top: 1058px;left: 732px; width: 370px;}
+#ILL-0309 {position:absolute;top: 1191px;left: 92px; width: 710px;}
+#ILL-0310 {position:absolute;top: 1228px;left: 86px; width: 305px;}
+#ILL-03 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:18px;line-height:115%;}
+#ILL-03 h3.block-title4{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:25px;color:black;}
+#ILL-0311 {position:absolute;top: 1261px;left: 52px; width: 205px;}
+#ILL-0312 {position:absolute;top: 1303px;left: 46px; width: 200px;}
+#ILL-0313 {position:absolute;top: 1261px;left: 441px; width: 160px;}
+#ILL-0314 {position:absolute;top: 1303px;left: 435px; width: 240px;}
+#ILL-0315 {position:absolute;top: 1261px;left: 863px; width: 220px;}
+#ILL-0316 {position:absolute;top: 1300px;left: 857px; width: 200px;}
+#ILL-03 p.scanner_name {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:12px;font-style:italic;line-height:125%;font-weight:bold;}
+#ILL-0317 {position:absolute;top: 1451px;left: 254px; width: 139px;}
+#ILL-0318 {position:absolute;top: 1440px;left: 746px; width: 90px;}
+#ILL-0319 {position:absolute;top: 1430px;left: 1072px; width: 100px;}
+#ILL-04 h1.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:41px;color:black;line-height:100%;}
+#ILL-0401 {position:absolute;top:35px;left:0px;width:1200px;}
+#ILL-04 h3.block-title3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:25px;color:black;}
+#ILL-0402 {position:absolute;top: 62px;left: 0px; width: 1200px;}
+#ILL-04 h2.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:24px;color:black;line-height:100%;}
+#ILL-0403 {position:absolute;top: 625px;left: 33px; width: 320px;}
+#ILL-04 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:115%;}
+#ILL-0404 {position:absolute;top: 660px;left: 37px; width: 470px;}
+#ILL-0405 {position:absolute;top: 725px;left: 37px; width: 470px;}
+#ILL-0406 {position:absolute;top: 653px;left: 547px; width: 480px;}
+#ILL-0407 {position:absolute;top: 1160px;left: 32px; width: 140px;}
+#ILL-0408 {position:absolute;top: 1198px;left: 37px; width: 200px;}
+#ILL-05 h2.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:24px;color:black;line-height:100%;}
+#ILL-05 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:120%;}
+#ILL-0501 {position:absolute;top: 516px;left: 43px; width: 320px;}
+#ILL-0502 {position:absolute;top: 553px;left: 48px; width: 480px;}
+#ILL-0503 {position:absolute;top: 516px;left: 603px; width: 330px;}
+#ILL-0504 {position:absolute;top: 553px;left: 609px; width: 480px;}
+#ILL-0505 {position:absolute;top: 1187px;left: 42px; width: 160px;}
+#ILL-0506 {position:absolute;top: 1224px;left: 48px; width: 375px;}
+#ILL-0507 {position:absolute;top: 1292px;left: 892px; width: 100px;}
+#ILL-0508 {position:absolute;top: 1331px;left: 846px; width: 290px;}
+#ILL-0509 {position:absolute;top: 1354px;left: 796px; width: 320px;}
+#ILL-0510 {position:absolute;top: 1378px;left: 746px; width: 390px;}
+#ILL-0511 {position:absolute;top: 1401px;left: 698px; width: 450px;}
+#ILL-0512 {position:absolute;top: 1425px;left: 649px; width: 470px;}
+#ILL-06 h1.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:41px;color:black;line-height:100%;}
+#ILL-0601 {position:absolute;top:31px;left:0px;width:1200px;}
+#ILL-06 h3.block-title3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:italic;font-size:25px;color:black;;line-height:110%;}
+#ILL-0602 {position:absolute;top: 69px;left: 0px; width: 1200px;}
+#ILL-06 h2.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:32px;color:black;line-height:100%;}
+#ILL-0603 {position:absolute;top: 208px;left: 145px; width: 160px;}
+#ILL-0604 {position:absolute;top: 477px;left: 155px; width: 100px;}
+#ILL-0605 {position:absolute;top: 731px;left: 124px; width: 160px;}
+#ILL-0606 {position:absolute;top: 997px;left: 123px; width: 160px;}
+#ILL-06 p.block_text1 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:italic;font-size:16px;}
+#ILL-0607 {position:absolute;top: 1175px;left: 47px; width: 347px;}
+#ILL-06 h2.block-title2{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:21px;color:black;line-height:95%;}
+#ILL-0608 {position:absolute;top: 1269px;left: 119px; width: 240px;}
+#ILL-06 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-weight:normal;font-style:italic;font-size:18px;line-height:110%;}
+#ILL-0609 {position:absolute;top: 974px;left: 668px; width: 480px;}
+#ILL-0610 {position:absolute;top: 993px;left: 646px; width: 500px;}
+#ILL-0611 {position:absolute;top: 1128px;left: 668px; width: 470px;}
+#ILL-0612 {position:absolute;top: 1146px;left: 646px; width: 500px;}
+#ILL-0613 {position:absolute;top: 1302px;left: 663px; width: 480px;}
+#ILL-0614 {position:absolute;top: 1322px;left: 646px; width: 475px;}
+#ILL-0615 {position:absolute;top:1310px;left:623px;width:585px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:15px;font-weight:normal;line-height:110%;}
+#ILL-07 h1.block-title{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:42px;color:black;line-height:100%;}
+#ILL-0701 {position:absolute;top:32px;left:0px;width:1200px;}
+#ILL-07 h3.block-title3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:italic;font-size:25px;color:black;line-height:110%;}
+#ILL-0702 {position:absolute;top: 62px;left: 0px; width: 1200px;}
+#ILL-07 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:normal;font-size:19px;line-height:110%;}
+#ILL-0703 {position:absolute;top: 112px;left: 48px; width: 505px;}
+#ILL-07 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:italic;font-size:20px;line-height:110%;}
+#ILL-0704 {position:absolute;top: 112px;left: 560px; width: 468px;}
+#ILL-07 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:18px;line-height:110%;}
+#ILL-0705 {position:absolute;top: 690px;left: 116px; width: 608px;}
+#ILL-0706 {position:absolute;top: 685px;left: 885px; width: 236px;}
+#ILL-07 h1.block-title2{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:32px;color:black;line-height:100%;}
+#ILL-0707 {position:absolute;top:797px;left:0px;width:1200px;}
+#ILL-07 h3.block-title4{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:normal;font-style:italic;font-size:18px;color:black;line-height:110%;}
+#ILL-0708 {position:absolute;top:822px;left:0px;width:1200px;}
+#ILL-07 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:normal;font-size:18px;line-height:115%;}
+#ILL-0709 {position:absolute;top: 869px;left: 48px; width: 530px;}
+#ILL-07 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-style:normal;font-size:18px;line-height:115%;}
+#ILL-0710 {position:absolute;top: 869px;left: 622px; width: 513px;}
+#ILL-07 p.block_text6 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:italic;font-size:18px;line-height:115%;}
+#ILL-0711 {position:absolute;top: 954px;left: 821px; width: 320px;}
+#ILL-0712 {position:absolute;top: 1038px;left: 622px; width: 513px;}
+#ILL-0713 {position:absolute;top: 1087px;left: 143px; width: 320px;}
+#ILL-07 h1.block-title5{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:41px;color:black;line-height:100%;}
+#ILL-0714 {position:absolute;top:1170px;left:0px;width:1200px;}
+#ILL-07 h3.block-title6{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:normal;font-style:italic;font-size:26px;color:black;line-height:110%;}
+#ILL-0715 {position:absolute;top:1200px;left:0px;width:1200px;}
+#ILL-07 p.block_text7 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:27px;color:black;line-height:100%;}
+#ILL-0716 {position:absolute;top:1287px;left:70px;width:170px;}
+#ILL-07 p.block_text8 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-weight:bold;font-style:normal;font-size:15px;color:black;line-height:100%;}
+#ILL-0717 {position:absolute;top:1390px;left:264px;width:160px;}
+#ILL-0718 {position:absolute;top:1470px;left:80px;width:120px;}
+#ILL-0719 {position:absolute;top:1475px;left:408px;width:145px;}
+#ILL-0720 {position:absolute;top:1288px;left:625px;width:210px;}
+#ILL-0721 {position:absolute;top:1404px;left:638px;width:115px;}
+#ILL-0722 {position:absolute;top:1476px;left:815px;width:140px;}
+#ILL-0723 {position:absolute;top:1401px;left:956px;width:176px;}
+#ILL-08 h3.block-title1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:29px;color:black;line-height:110%;}
+#ILL-0801 {position:absolute;top: 50px;left: 324px; width: 315px;}
+#ILL-08 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-weight:normal;font-style:italic;font-size:17px;line-height:115%;}
+#ILL-0802 {position:absolute;top: 115px;left: 323px; width: 304px;}
+#ILL-08 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:17px;line-height:110%;}
+#ILL-0803 {position:absolute;top: 177px;left: 332px; width: 215px;}
+#ILL-0804 {position:absolute;top: 210px;left: 335px; width: 291px;}
+#ILL-0805 {position:absolute;top: 269px;left: 425px; width: 200px;}
+#ILL-0806 {position:absolute;top: 308px;left: 347px; width: 278px;}
+#ILL-0807 {position:absolute;top: 347px;left: 418px; width: 185px;}
+#ILL-0808 {position:absolute;top: 394px;left: 56px; width: 570px;}
+#ILL-0809 {position:absolute;top: 434px;left: 217px; width: 220px;}
+#ILL-08 h1.block-title2{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:30px;color:black;line-height:110%;}
+#ILL-0810 {position:absolute;top: 63px;left: 703px; width: 395px;}
+#ILL-08 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-weight:normal;font-style:normal;font-size:18px;line-height:115%;}
+#ILL-0811 {position:absolute;top: 95px;left: 698px; width: 447px;}
+#ILL-0812 {position:absolute;top: 241px;left: 698px; width: 266px;}
+#ILL-08 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:normal;font-style:normal;font-size:18px;line-height:115%;}
+#ILL-0813 {position:absolute;top: 339px;left: 698px; width: 105px;}
+#ILL-08 h1.block-title3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:28px;color:black;line-height:110%;}
+#ILL-0814 {position:absolute;top: 658px;left: 83px; width: 240px;}
+#ILL-08 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:16px;line-height:115%;}
+#ILL-0815 {position:absolute;top: 689px;left: 78px; width: 740px;}
+#ILL-0816 {position:absolute;top: 797px;left: 79px; width: 800px;}
+#ILL-0817 {position:absolute;top: 940px;left: 79px; width: 780px;}
+#ILL-0818 {position:absolute;top: 1029px;left: 79px; width: 765px;}
+
+.blue-header-1 {color:rgb(45,82,164);}
+#WF-01 h2.blue-header-1{font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:36px;font-weight:bold;}
+#WF-01 h3{font-weight:bold;}
+#WF-0101 {position:absolute;top: 243px;left: 209px;}
+#WF-0102 {position:absolute;top:332px;left:634px;width: 520px;text-align:center;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:34px;line-height:108%;}
+#WF-0103 {position:absolute;top:381px;left:620px;width:600px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:20px;font-weight:normal;line-height:111%;}
+#WF-0104 {position:absolute;top:895px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:46px;text-align:center;}
+#WF-0105 {position:absolute;top:990px;}
+#WF-0106 p{text-align:justify;}
+#WF-02 h1.block-title{text-align:center;}
+#WF-02 img{float:right;margin-right:10px;}
+#WF-0201 {position:absolute;top: 10px; width: 1200px; font:14px "Arial Black",Helvetica,Arial,Verdana,sans-serif; font-size:23px; font-weight:bold;}
+#WF-0202 {position:absolute;top: 27px; width: 1200px; font-size:18px; font-weight:bold;text-align:center;}
+#WF-02 p{font-size:10px;line-height:0.8em;}
+#WF-02 p.stage-name{font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-weight:bold;font-size:11px;text-align:center;font-weight:bold;line-height:0.9em;}
+#WF-02 p.stage-body{position:absolute; top: 22px;}
+#WF-02-define {position:absolute;top: 68px; left:20px; width: 100px;  }
+#WF-02-scan {position:absolute;top: 68px; left:128px; width: 100px;  }
+#WF-02-raw_arch {position:absolute;top: 68px; left:239px; width: 98px;  }
+#WF-02-auto_it {position:absolute;top: 68px; left:340px; width: 98px;  }
+#WF-02-manual_it {position:absolute;top: 68px; left:441px; width: 98px;  }
+#WF-02-treated_image_arch {position:absolute;top: 68px; left:541px; width: 98px;}
+#WF-02-auto_metadata {position:absolute;top: 68px; left:640px; width: 98px;}
+#WF-02-manual_metadata {position:absolute;top: 68px; left:747px; width: 110px;}
+#WF-02-metadata_arch {position:absolute;top: 68px; left:856px; width: 101px;}
+#WF-02-compose {position:absolute;top: 68px; left:962px; width: 98px;}
+#WF-02-create {position:absolute;top: 68px; left:1066px; width: 98px;}
+#WF-0301 {position:absolute;top:33px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:43px;text-align:center;font-weight:bold;}
+#WF-03 p.block_text {text-align:justify;font-size:17px;line-height:1.25em;}
+#WF-03 p.block_text2 {text-align:right;font-size:17px;line-height:1.25em;}
+#WF-03 p.block_header {font-weight:bold;font-size:18px;}
+#WF-0302 {position:absolute;top:117px;left:39px;}
+#WF-0303 {position:absolute;top:140px;left:39px;width:538px}
+#WF-0304 {position:absolute;top:327px;left:39px;}
+#WF-0305 {position:absolute;top:349px;left:39px;width:538px}
+#WF-0306 {position:absolute;top:494px;left:39px;}
+#WF-0307 {position:absolute;top:516px;left:39px;width:538px}
+#WF-0308 {position:absolute;top:724px;left:39px;;width:538px}
+#WF-0309 {position:absolute;top:748px;left:39px;width:538px}
+#WF-0310 {position:absolute;top:768px;left:39px;width:538px}
+#WF-0311 {position:absolute;top:913px;left:39px;}
+#WF-0312 {position:absolute;top:936px;left:39px;width:538px}
+#WF-0313 {position:absolute;top:140px;left:611px;width:538px}
+#WF-0314 {position:absolute;top:268px;left:611px;}
+#WF-0315 {position:absolute;top:290px;left:611px;width:538px}
+#WF-0316 {position:absolute;top:499px;left:611px;}
+#WF-0317 {position:absolute;top:522px;left:611px;width:538px}
+#WF-0318 {position:absolute;top:753px;left:611px;}
+#WF-0319 {position:absolute;top:775px;left:611px;width:538px}
+#WF-0320 {position:absolute;top:1070px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:43px;text-align:center;font-weight:bold;}
+#WF-0321 {position:absolute;top:1092px;left:14px;width:615px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:14px;font-weight:bold;line-height:130%;}
+#WF-0322 {position:absolute;top:1092px;left:586px;width:600px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:14px;font-weight:bold;line-height:130%;}
+#WF-03 ul li{margin-bottom: -5px;}
+#WF-04 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:110%;}
+#WF-04 p.thumb_title {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:17px;font-weight:bold;}
+#WF-0401 {position:absolute;top:33px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:43px;text-align:center;font-weight:bold;}
+#WF-0402 {position:absolute;top:125px;left:60px;width:1075px;}
+#WF-0403 {position:absolute;top:225px;left:241px;}
+#WF-0404 {position:absolute;top:225px;left:533px;}
+#WF-0405 {position:absolute;top:225px;left:855px;}
+#WF-0406 {position:absolute;top:533px;left:101px;width:987px;}
+#WF-0407 {position:absolute;top:602px;left:260px;}
+#WF-0408 {position:absolute;top:599px;left:760px;}
+#WF-0409 {position:absolute;top:798px;left:101px;width:987px;}
+#WF-0410 {position:absolute;top:880px;left:201px;}
+#WF-0411 {position:absolute;top:881px;left:553px;}
+#WF-0412 {position:absolute;top:880px;left:908px;}
+#WF-0413 {position:absolute;top:1133px;left:101px;width:987px;}
+#WF-0414 {position:absolute;top:1216px;left:146px;}
+#WF-0415 {position:absolute;top:1217px;left:462px;}
+#WF-0416 {position:absolute;top:1215px;left:763px;}
+#WF-0417 {position:absolute;top:1212px;left:954px;}
+#WF-0418 {position:absolute;top:1407px;left:102px;width:546px;}
+#WF-0419 {position:absolute;top:1450px;left:734px;width:367px;}
+#WF-05 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:120%;}
+#WF-05 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:125%;}
+#WF-05 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:italic;font-size:27px;line-height:105%;color:white;}
+#WF-0501 {position:absolute;top:34px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:43px;text-align:center;font-weight:bold;}
+#WF-0502 {position:absolute;top:110px;left:45px;width:1104px;}
+#WF-0503 {position:absolute;top:240px;left:45px;width:245px;}
+#WF-0504 {position:absolute;top:667px;left:45px;width:1104px;}
+#WF-0505 {position:absolute;top:755px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:43px;text-align:center;font-weight:bold;}
+#WF-0506 {position:absolute;top:831px;left:225px;width:770px;}
+#WF-0507 {position:absolute;top:1010px;left:811px;width:345px;}
+#WF-0508 {position:absolute;top:1270px;left:811px;width:345px;}
+#WF-06 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:125%;}
+#WF-0601 {position:absolute;top:34px;width:inherit;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:43px;text-align:center;font-weight:bold;}
+#WF-0602 {position:absolute;top:110px;}
+#WF-0603 p{text-align:justify;line-height:1.2em}
+#WF-0604 {position:absolute;top:1065px;left:43px;width:405px;}
+
+#FF-01{height:14em;}
+#FF-01 img{height:131px;width:305px;float:left;margin:15px;}
+#FF-01 h1.block-title{margin:25px 0 25px 325px;padding:1px 50px;color:#8ad;font-size:250%;font-weight:bolder;text-shadow:1px 1px 3px #333;}
+#FF-01 h2{margin:0 0 0 430px;font-style:italic;}
+#FF-0201{margin-left:100px;}
+#FF-03{width:1050px;margin-left:75px;}
+#FF-03 .two-col{width:1050px;}
+#FF-03 .left-col{width:500px;margin-left:0px;}
+#FF-03 .right-col{width:500px;margin-right:0px;}
+#ff-t0303 .t_col1{width:850px;}
+#FF-04{width:1050px;margin-left:75px;}
+#FF-04 h1.block-title{text-align:center;}
+#FF-0401{width:800px;margin-left:125px;}
+#FF-0402{width:500px;margin-left:275px;}
+
+#BE-01 h2.blue-header-1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:26px;font-weight:bold;}
+#BE-0101 {position:absolute;top: 139px;left: 503px;}
+#BE-0102 {position:absolute;top: 168px;left: 808px;}
+#BE-0103 {position:absolute;top: 347px;left: 72px; width: 375px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
+#BE-0104 {position:absolute;top: 382px;left: 72px; width: 145px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
+#BE-0105 {position:absolute;top: 395px;left: 201px; width: 20px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:15px;font-weight:bold;}
+#BE-0106 {position:absolute;top: 383px;left: 224px; width: 235px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
+#BE-01 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-style:italic;font-size:27px;font-weight:bold;}
+#BE-0107 {position:absolute;top: 616px;left: 95px;}
+#BE-0108 {position:absolute;top: 639px;left: 78px;}
+#BE-01 p.block_quote{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:23px;font-weight:bold;color:rgb(79,85,83);line-height:110%;}
+#BE-01 span.italic {font-style: italic;}
+#BE-0109 {position:absolute;top: 807px;left: 36px;width: 395px;}
+#BE-01 p.block_author{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;font-weight:bold;font-style:italic;color:rgb(79,85,83);}
+#BE-0110 {position:absolute;top: 889px;left: 98px;}
+#BE-0111 {position:absolute;top: 1085px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:38px;font-weight:bold;text-align:center;color:black;line-height:100%}
+#BE-01 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;font-weight:normal;}
+#BE-01 span.bold {font-weight:bold;}
+#BE-0112 {position:absolute;top: 1171px;left: 43px; width: 534px;}
+#BE-0113 {position:absolute;top: 1265px;left: 43px; width: 534px;}
+#BE-0114 {position:absolute;top: 1171px;left: 612px; width: 534px;}
+#BE-0115 {position:absolute;top: 1290px;left: 612px; width: 534px;}
+#BE-01 p.block_label {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;font-weight:bold;}
+#BE-0116 {position:absolute;top: 1488px;left: 196px; width: 175px;}
+#BE-0201 {position:absolute;top: 35px;left: -10px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:36px;font-weight:bold;text-align:center;}
+#BE-02 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#BE-0202 {position:absolute;top: 77px;left: 63px; width: 1037px;}
+#BE-0203 {position:absolute;top: 611px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:33px;font-weight:bold;text-align:center;}
+#BE-02 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:28px;font-weight:bold;text-align:center;}
+#BE-0204 {position:absolute;top: 658px;left: 29px; width: 215px;}
+#BE-02 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#BE-02 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#BE-0205 {position:absolute;top: 702px;left: 40px; width: 655px;}
+#BE-0206 {position:absolute;top: 843px;left: 347px; width: 290px;}
+#BE-0207 {position:absolute;top: 888px;left: 362px; width: 362px;}
+#BE-0208 {position:absolute;top: 928px;left: 362px; width: 779px;}
+#BE-0209 {position:absolute;top: 999px;left: 361px; width: 779px;}
+#BE-0210 {position:absolute;top: 1059px;left: 361px; width: 477px;}
+#BE-0211 {position:absolute;top: 1153px;left: 31px; width: 200px;}
+#BE-0212 {position:absolute;top: 1196px;left: 39px; width: 712px;}
+#BE-0213 {position:absolute;top: 1338px;left: 399px; width: 140px;}
+#BE-0214 {position:absolute;top: 1379px;left: 410px; width: 697px;}
+#BE-0215 {position:absolute;top: 1431px;left: 410px; width: 703px;}
+#BE-0301 {position:absolute;top: 37px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE-0302 {position:absolute;top: 72px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:24px;font-weight:normal;text-align:center;}
+#BE-03 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:110%;}
+#BE-0303 {position:absolute;top: 135px;left: 77px; width: 572px;}
+#BE-0304 {position:absolute;top: 238px;left: 77px; width: 572px;}
+#BE-0305 {position:absolute;top:90px;left:695px;width:430px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:17px;font-weight:normal;line-height:90%;}
+#BE-03 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:110%;}
+#BE-0306 {position:absolute;top: 684px;left: 289px; width: 210px;}
+#BE-0307 {position:absolute;top: 681px;left: 796px; width: 352px;}
+#BE-0308 {position:absolute;top: 1325px;left: 153px; width: 242px;}
+#BE-03 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:20px;line-height:110%;}
+#BE-0309 {position:absolute;top: 1387px;left: 1023px; width: 92px;}
+#BE-0401 {position:absolute;top: 30px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:41px;font-weight:bold;text-align:center;}
+#BE-0402 {position:absolute;top: 91px;left: 124px; width: 350px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE-04 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#BE-0403 {position:absolute;top: 148px;left: 45px; width: 520px;}
+#BE-0404 {position:absolute;top: 301px;left: 45px; width: 524px;}
+#BE-0405 {position:absolute;top: 498px;left: 45px; width: 525px;}
+#BE-0406 {position:absolute;top: 557px;left: 45px; width: 333px;}
+#BE-0407 {position:absolute;top: 652px;left: 45px; width: 333px;}
+#BE-0408 {position:absolute;top: 770px;left: 390px; width: 170px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:15px;line-height:115%;font-weight:bold;}
+#BE-0409 {position:absolute;top: 91px;left: 671px; width: 400px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE-0410 {position:absolute;top: 148px;left: 590px; width: 555px;}
+#BE-0411 {position:absolute;top: 726px;left: 590px; width: 540px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE-0412 {position:absolute;top: 779px;left: 595px; width: 515px;}
+#BE-0413 {position:absolute;top: 872px;left: 46px; width: 510px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:left;}
+#BE-04 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:19px;line-height:115%;}
+#BE-0414 {position:absolute;top: 910px;left: 138px; width: 324px;}
+#BE-0415 {position:absolute;top: 964px;left: 45px; width: 515px;}
+#BE-0416 {position:absolute;top: 1036px;left: 45px; width: 515px;}
+#BE-0417 {position:absolute;top: 897px;left: 595px; width: 250px;}
+#BE-0418 {position:absolute;top: 886px;left:582px;width:600px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:15px;font-weight:normal;line-height:115%;}
+#BE-0419 {position:absolute;top: 1108px;left: 611px; width: 330px;}
+#BE-0420 {position:absolute;top: 1251px;left: 611px; width: 515px;}
+#BE-0421 {position:absolute;top: 1389px;left: 611px; width: 515px;}
+#BE-04 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:18px;line-height:115%;}
+#BE-0422 {position:absolute;top: 1470px;left: 105px; width: 410px;}
+#BE-0501 {position:absolute;top: 28px;left: 74px; width: 460px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE-05 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#BE-05 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#BE-0502 {position:absolute;top: 86px;left: 59px; width: 517px;}
+#BE-0503 {position:absolute;top: 150px;left: 59px; width: 241px;}
+#BE-0504 {position:absolute;top: 28px;left: 707px; width: 340px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE-0505 {position:absolute;top: 86px;left: 625px; width: 515px;}
+#BE-0506 {position:absolute;top: 263px;left: 625px; width: 515px;}
+#BE-0507 {position:absolute;top: 428px;left: 656px; width: 440px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE-05 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:17px;line-height:115%;font-weight:bold;}
+#BE-0508 {position:absolute;top: 467px;left: 696px; width: 375px;}
+#BE-0510 {position:absolute;top: 715px;left: 54px; width: 395px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;line-height:100%;}
+#BE-0511 {position:absolute;top: 793px;left: 59px; width: 391px;}
+#BE-0512 {position:absolute;top: 915px;left: 59px; width: 350px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE-05 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#BE-0513 {position:absolute;top: 959px;left: 63px; width: 514px;}
+#BE-05 p.label_gray1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;text-align:center;font-size:18px;font-weight:normal;color:rgb(138,142,145);line-height:110%;}
+#BE-0514 {position:absolute;top: 831px;left: 959px; width: 180px;}
+#BE-05 p.label_gray2{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;text-align:center;font-size:15px;font-weight:bold;color:rgb(138,142,145);line-height:115%;}
+#BE-0515 {position:absolute;top: 1014px;left: 607px; width: 160px;}
+#BE-0516 {position:absolute;top: 1059px;left: 53px; width: 355px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE-05 p.block_text6 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:15px;line-height:110%;font-weight:bold;}
+#BE-05 p.block_text7 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;line-height:110%;}
+#BE-0517 {position:absolute;top: 1105px;left: 59px; width: 135px;}
+#BE-0518 {position:absolute;top: 1105px;left: 215px; width: 140px;}
+#BE-0519 {position:absolute;top: 1484px;left: 51px; width: 527px;}
+#BE-0520 {position:absolute;top: 1349px;left: 632px; width: 506px;}
+#BE-0601 {position:absolute;top: 33px;left: 308px; width: 540px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE-06 span.superscript {font-size:11px;vertical-align:baseline;position:relative;top:-24px;left:-5px;}
+#BE-06 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#BE-0604 {position:absolute;top: 90px;left: 303px; width: 836px;}
+#BE-0605 {position:absolute;top: 230px;left: 231px; width: 340px;}
+#BE-0606 {position:absolute;top: 252px;left: 52px; width: 516px;}
+#BE-0607 {position:absolute;top: 380px;left: 310px; width: 256px;}
+#BE-06 p.block_text2 {font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:16px;line-height:110%;}
+#BE-06 span.superscript2 {font-size:11px;vertical-align:baseline;position:relative;top:-17px;left:-1px;}
+#BE-0608 {position:absolute;top: 530px;left: 69px; width: 225px;}
+#BE-0609 {position:absolute;top:201px;left:593px;width:622px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:12px;font-weight:bold;line-height:120%;}
+#BE-0610 {position:absolute;top: 503px;left: 591px; width: 535px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:center;line-height:100%}
+#BE-0611 {position:absolute;top:548px;left:545px;width:680px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:15px;font-weight:normal;line-height:125%;}
+#BE-06 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#BE-0612 {position:absolute;top: 995px;left: 215px; width: 790px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE-0613 {position:absolute;top: 1055px;left: 57px; width: 653px;}
+#BE-0614 {position:absolute;top: 1179px;left: 57px; width: 653px;}
+#BE-0615 {position:absolute;top: 1323px;left: 57px; width: 653px;}
+#BE-06 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:23px;line-height:130%;}
+#BE-0616 {position:absolute;top: 1383px;left: 73px; width: 630px;}
+#BE-0617 {position:absolute;top: 1493px;left: 841px; width: 220px;}
+#BE-0701 {position:absolute;top: 1036px;left: 59px; width: 370px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE-07 p.block_text14{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:26px;font-weight:normal;font-style:italic;line-height:120%;}
+#BE-0702 {position:absolute;top: 1083px;left: 60px; width: 370px;}
+#BE-07 p.block_text15{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:normal;font-style:italic;line-height:110%;}
+#BE-0703 {position:absolute;top: 1380px;left: 141px; width: 360px;text-align:left;}
+#BE-0704 {position:absolute;top: 1163px;left: 572px; width: 260px;text-align:right;}
+#BE-0705 {position:absolute;top: 1342px;left: 512px; width: 190px;text-align:right;}
+#BE-0801 {position:absolute;top: 32px;left: 42px; width: 495px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE-0802 {position:absolute;top: 64px;left: 79px; width: 530px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:29px;font-weight:normal;}
+#BE-08 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:left;}
+#BE-0803 {position:absolute;top: 141px;left: 179px; width: 230px;}
+#BE-08 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:110%;}
+#BE-0804 {position:absolute;top: 190px;left: 275px; width: 273px;}
+#BE-0805 {position:absolute;top: 372px;left: 275px; width: 272px;}
+#BE-0806 {position:absolute;top: 503px;left: 275px; width: 272px;}
+#BE-0807 {position:absolute;top: 788px;left: 275px; width: 282px;}
+#BE-0808 {position:absolute;top: 989px;left: 275px; width: 272px;}
+#BE-0809 {position:absolute;top: 35px;left: 825px; width: 200px;}
+#BE-0810 {position:absolute;top: 257px;left: 893px; width: 260px;}
+#BE-0811 {position:absolute;top: 430px;left: 642px; width: 160px;}
+#BE-08 h2#BE-0811{font-size:22px;}
+#BE-0812 {position:absolute;top: 469px;left: 648px; width: 225px;}
+#BE-0813 {position:absolute;top: 875px;left: 640px; width: 160px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#BE-0814 {position:absolute;top: 875px;left: 848px; width: 120px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#BE-0815 {position:absolute;top: 875px;left: 1009px; width: 150px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#BE-0816 {position:absolute;top: 1198px;left: 94px; width: 400px;}
+#BE-0817 {position:absolute;top: 1252px;left: 275px; width: 255px;}
+#BE-0818 {position:absolute;top: 932px;left: 706px; width: 370px;}
+#BE-0819 {position:absolute;top: 1227px;left: 644px; width: 180px;}
+#BE-0820 {position:absolute;top: 1221px;left: 884px; width: 230px;}
+#BE-08 h2#BE-0820{text-align:center;}
+#BE-08 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:18px;font-style:italic;font-weight:normal;line-height:115%;text-align:justify;}
+#BE-0821 {position:absolute;top: 1427px;left: 55px; width: 499px;}
+#BE-08 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:15px;font-style:italic;font-weight:normal;line-height:110%;text-align:justify;}
+#BE-0822 {position:absolute;top: 637px;left: 896px; width: 247px;}
+#BE-09 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#BE-09 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:105%;}
+#BE-09 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:30px;line-height:115%;font-weight:bold;}
+#BE-0901 {position:absolute;top: 32px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE-0902 {position:absolute;top: 62px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:23px;text-align:center;}
+#BE-0903 {position:absolute;top: 127px;left: 57px; width: 455px;}
+#BE-0904 {position:absolute;top: 338px;left: 57px; width: 455px;}
+#BE-0905 {position:absolute;top: 444px;left: 57px; width: 561px;}
+#BE-0906 {position:absolute;top: 636px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:36px;font-weight:bold;text-align:center;}
+#BE-0907 {position:absolute;top: 1200px;left: 430px; width: 190px;}
+#BE-0908 {position:absolute;top: 1206px;left: 614px; width: 143px;}
+#BE-1001 {position:absolute;top: 347px;left: 48px; width: 360px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;text-align:left;}
+#BE-10 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:115%;}
+#BE-1002 {position:absolute;top: 397px;left: 44px; width: 460px;}
+#BE-1003 {position:absolute;top: 556px;left: 44px; width: 480px;}
+#BE-1004 {position:absolute;top: 616px;left: 44px; width: 538px;}
+#BE-1005 {position:absolute;top: 689px;left: 43px; width: 540px;}
+#BE-1006 {position:absolute;top: 777px;left: 40px; width: 260px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE-10 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#BE-1007 {position:absolute;top: 825px;left: 43px; width: 536px;}
+#BE-1008 {position:absolute;top: 928px;left: 43px; width: 540px;}
+#BE-1009 {position:absolute;top: 1027px;left: 43px; width: 330px;}
+#BE-1010 {position:absolute;top: 1240px;left: 36px; width: 395px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE-1011 {position:absolute;top: 1289px;left: 44px; width: 615px;}
+#BE-1012 {position:absolute;top: 1412px;left: 44px; width: 655px;}
+#BE-1101 {position:absolute;top: 36px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;text-align:center;}
+#BE-11 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:14px;line-height:115%;font-weight:bold;}
+#BE-11 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:20px;line-height:115%;}
+#BE-1102 {position:absolute;top: 1008px;left: 437px; width: 335px;}
+#BE-1103 {position:absolute;top: 1057px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:28px;font-weight:bold;text-align:center;}
+#BE-1104 {position:absolute;top: 1094px;left: 0px; width: 1200px;}
+#BE-1105 {position:absolute;top:1192px;left:23px;width:571px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:12px;font-weight:bold;line-height:150%;}
+#BE-1201 {position:absolute;top: 32px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;font-style:normal;text-align:center;}
+#BE-12 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:110%;font-weight:normal;font-style:italic;}
+#BE-12 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:18px;font-weight:bold;font-style:normal;}
+#BE-1202 {position:absolute;top: 73px;left: 62px; width: 1082px;}
+#BE-1203 {position:absolute;top: 137px;left: 247px; width: 125px;}
+#BE-1204 {position:absolute;top: 137px;left: 436px; width: 125px;}
+#BE-1205 {position:absolute;top: 137px;left: 658px; width: 100px;}
+#BE-1206 {position:absolute;top: 137px;left: 833px; width: 110px;}
+#BE-1207 {position:absolute;top: 137px;left: 1017px; width: 135px;}
+#CCM-01 h2.blue-header-1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:26px;font-weight:bold;}
+#CCM-01 span.superscript {font-size:14px;vertical-align:baseline;position:relative;top:-17px;left:3px;font-weight:bold;}
+#CCM-01 span.superscript2 {font-size:10px;vertical-align:baseline;position:relative;top:-7px;left:0px;font-weight:bold;}
+#CCM-0101 {position:absolute;top: 133px;left: 505px;}
+#CCM-0102 {position:absolute;top: 247px;left: 634px; width: 498px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;text-align:center;}
+#CCM-0103 {position:absolute;top: 1136px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:46px;font-weight:bold;text-align:center;}
+#CCM-01 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#CCM-0104 {position:absolute;top: 1207px;left: 67px; width: 496px;}
+#CCM-0105 {position:absolute;top: 1207px;left: 618px; width: 512px;}
+#CCM-0106 {position:absolute;top: 1342px;left: 618px; width: 512px;}
+#CCM-01 p.block_label {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;font-weight:bold;}
+#CCM-0107 {position:absolute;top: 1475px;left: 200px; width: 135px;}
+#CCM-0108 {position:absolute;top: 1475px;left: 376px; width: 170px;}
+#CCM-0201 {position:absolute;top: 32px;left: -15px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:36px;font-weight:bold;text-align:center;}
+#CCM-02 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:110%;}
+#CCM-0202 {position:absolute;top: 74px;left: 63px; width: 1037px;font-weight:bold;}
+#CCM-0203 {position:absolute;top: 611px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:33px;font-weight:bold;text-align:center;}
+#CCM-02 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:center;}
+#CCM-0204 {position:absolute;top: 653px;left: 32px; width: 220px;}
+#CCM-02 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:110%;}
+#CCM-0205 {position:absolute;top: 697px;left: 43px; width: 655px;}
+#CCM-0206 {position:absolute;top: 813px;left: 352px; width: 290px;}
+#CCM-0207 {position:absolute;top: 857px;left: 364px; width: 373px;}
+#CCM-0208 {position:absolute;top: 897px;left: 364px; width: 781px;}
+#CCM-0209 {position:absolute;top: 990px;left: 364px; width: 781px;}
+#CCM-0210 {position:absolute;top: 1050px;left: 364px; width: 482px;}
+#CCM-0211 {position:absolute;top: 1122px;left: 35px; width: 200px;}
+#CCM-0212 {position:absolute;top: 1170px;left: 39px; width: 803px;}
+#CCM-0213 {position:absolute;top: 1287px;left: 35px; width: 140px;}
+#CCM-0214 {position:absolute;top: 1327px;left: 42px; width: 505px;}
+#CCM-0215 {position:absolute;top: 1392px;left: 241px; width: 306px;}
+#CCM-0216 {position:absolute;top: 1287px;left: 631px; width: 440px;}
+#CCM-0217 {position:absolute;top: 1367px;left: 794px; width: 352px;}
+#CCM-0301 {position:absolute;top: 37px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#CCM-0302 {position:absolute;top: 72px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:24px;font-weight:normal;text-align:center;}
+#CCM-03 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:110%;}
+#CCM-0303 {position:absolute;top: 135px;left: 77px; width: 572px;}
+#CCM-0304 {position:absolute;top: 238px;left: 77px; width: 572px;}
+#CCM-0305 {position:absolute;top:90px;left:695px;width:430px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:17px;font-weight:normal;line-height:90%;}
+#CCM-03 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:21px;line-height:110%;}
+#CCM-0306 {position:absolute;top: 620px;left: 255px; width: 300px;}
+#CCM-0307 {position:absolute;top: 622px;left: 823px; width: 300px;}
+#CCM-0308 {position:absolute;top: 1308px;left: 168px; width: 245px;}
+#CCM-03 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:21px;line-height:110%;}
+#CCM-0309 {position:absolute;top: 1349px;left: 1024px; width: 92px;}
+#CCM-0401 {position:absolute;top: 32px;left: 42px; width: 495px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#CCM-0402 {position:absolute;top: 64px;left: 79px; width: 560px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:30px;font-weight:normal;}
+#CCM-04 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:left;}
+#CCM-0403 {position:absolute;top: 141px;left: 179px; width: 230px;}
+#CCM-04 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:15px;font-style:italic;font-weight:normal;line-height:110%;text-align:justify;}
+#CCM-04 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:110%;}
+#CCM-0404 {position:absolute;top: 204px;left: 283px; width: 272px;}
+#CCM-0405 {position:absolute;top: 364px;left: 283px; width: 272px;}
+#CCM-0406 {position:absolute;top: 503px;left: 277px; width: 272px;}
+#CCM-0407 {position:absolute;top: 787px;left: 277px; width: 282px;}
+#CCM-0408 {position:absolute;top: 989px;left: 273px; width: 272px;}
+#CCM-0409 {position:absolute;top: 35px;left: 825px; width: 200px;}
+#CCM-0410 {position:absolute;top: 257px;left: 893px; width: 260px;}
+#CCM-0411 {position:absolute;top: 430px;left: 642px; width: 160px;}
+#CCM-04 h2#CCM-0411{font-size:22px;}
+#CCM-0412 {position:absolute;top: 469px;left: 648px; width: 230px;}
+#CCM-0413 {position:absolute;top: 875px;left: 640px; width: 170px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#CCM-0414 {position:absolute;top: 875px;left: 848px; width: 120px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#CCM-0415 {position:absolute;top: 875px;left: 1009px; width: 160px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#CCM-0416 {position:absolute;top: 1198px;left: 94px; width: 400px;}
+#CCM-0417 {position:absolute;top: 1251px;left: 280px; width: 257px;}
+#CCM-0418 {position:absolute;top: 932px;left: 706px; width: 370px;}
+#CCM-0419 {position:absolute;top: 1227px;left: 644px; width: 180px;}
+#CCM-0420 {position:absolute;top: 1221px;left: 884px; width: 230px;}
+#CCM-04 h2#CCM-0420{text-align:center;}
+#CCM-0421 {position:absolute;top: 637px;left: 896px; width: 247px;}
+#CCM-04 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:18px;font-style:italic;font-weight:normal;line-height:110%;text-align:justify;}
+#CCM-0422 {position:absolute;top: 1432px;left: 51px; width: 499px;}
+#CCM-0501 {position:absolute;top: 34px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#CCM-05 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#CCM-0502 {position:absolute;top: 86px;left: 47px; width: 485px;}
+#CCM-05 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#CCM-05 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:18px;line-height:120%;font-weight:normal;font-style:italic;}
+#CCM-0503 {position:absolute;top: 127px;left: 54px; width: 480px;}
+#CCM-0504 {position:absolute;top: 156px;left: 49px; width: 495px;}
+#CCM-0505 {position:absolute;top: 86px;left: 656px; width: 400px;}
+#CCM-0506 {position:absolute;top: 138px;left: 600px; width: 533px;}
+#CCM-0507 {position:absolute;top: 709px;left: 600px; width: 542px;}
+#CCM-0508 {position:absolute;top: 788px;left: 600px; width: 542px;}
+#CCM-05 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:110%;font-weight:normal;font-style:italic;}
+#CCM-0509 {position:absolute;top: 927px;left: 32px; width: 555px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:center;}
+#CCM-0510 {position:absolute;top: 1412px;left: 149px; width: 350px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:center;}
+#CCM-0511 {position:absolute;top: 1454px;left: 106px; width: 430px;}
+#CCM-0512 {position:absolute;top: 904px;left: 673px; width: 390px;}
+#CCM-0513 {position:absolute;top: 953px;left: 600px; width: 542px;}
+#CCM-05 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:19px;line-height:120%;}
+#CCM-0514 {position:absolute;top: 1463px;left: 723px; width: 350px;}
+#CCM-0601 {position:absolute;top: 35px;left: 280px; width: 525px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:38px;font-weight:bold;text-align:left;}
+#CCM-06 span.superscript {font-size:11px;vertical-align:baseline;position:relative;top:-24px;left:-5px;}
+#CCM-06 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#CCM-0604 {position:absolute;top: 87px;left: 274px; width: 870px;}
+#CCM-0610 {position:absolute;top: 235px;left: 568px; width: 535px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:center;line-height:95%}
+#CCM-06 span.superscript2 {font-size:11px;vertical-align:baseline;position:relative;top:-17px;left:-1px;}
+#CCM-0611 {position:absolute;top:288px;left:545px;width:680px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:15px;font-weight:normal;line-height:130%;}
+#CCM-06 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#CCM-0612 {position:absolute;top: 776px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#CCM-0613 {position:absolute;top: 846px;left: 57px; width: 496px;}
+#CCM-0614 {position:absolute;top: 1010px;left: 57px; width: 493px;}
+#CCM-0615 {position:absolute;top: 1194px;left: 57px; width: 494px;}
+#CCM-06 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:23px;line-height:130%;}
+#CCM-0616 {position:absolute;top: 1294px;left: 102px; width: 430px;}
+#CCM-0617 {position:absolute;top: 1467px;left: 762px; width: 220px;}
+#CCM-0701 {position:absolute;top: 32px;left: 627px; width: 310px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;text-align:center;}
+#CCM-07 span.superscript {font-size:11px;vertical-align:baseline;position:relative;top:-24px;left:-5px;}
+#CCM-07 p.block_text1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:21px;font-weight:normal;font-style:italic;line-height:120%;}
+#CCM-0702 {position:absolute;top: 74px;left: 527px; width: 484px;}
+#CCM-07 p.block_text2{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;font-weight:bold;font-style:normal;line-height:120%;}
+#CCM-0703 {position:absolute;top: 292px;left: 538px; width: 265px;}
+#CCM-0704 {position:absolute;top: 311px;left: 529px; width: 260px;}
+#CCM-0705 {position:absolute;top: 330px;left: 517px; width: 255px;}
+#CCM-0706 {position:absolute;top: 349px;left: 508px; width: 260px;}
+#CCM-0707 {position:absolute;top: 368px;left: 500px; width: 200px;}
+#CCM-07 p.label_gray1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;text-align:center;font-size:15px;font-weight:bold;color:rgb(138,142,145);line-height:110%;}
+#CCM-0708 {position:absolute;top: 698px;left: 260px; width: 185px;}
+#CCM-0709 {position:absolute;top: 808px;left: 697px; width: 205px;}
+#CCM-07 p.block_quote{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-style:italic;font-size:13px;font-weight:bold;color:rgb(79,85,83);line-height:110%;}
+#CCM-0710 {position:absolute;top: 966px;left: 75px;width: 150px;}
+#CCM-0711 {position:absolute;top: 966px;left: 247px;width: 180px;}
+#CCM-0712 {position:absolute;top: 966px;left: 483px;width: 170px;}
+#CCM-0713 {position:absolute;top: 1036px;left: 59px; width: 370px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#CCM-07 p.block_text3{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:26px;font-weight:normal;font-style:italic;line-height:120%;}
+#CCM-0714 {position:absolute;top: 1083px;left: 60px; width: 370px;}
+#CCM-07 p.block_text4{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:normal;font-style:italic;line-height:110%;}
+#CCM-0715 {position:absolute;top: 1380px;left: 141px; width: 360px;text-align:left;}
+#CCM-0716 {position:absolute;top: 1163px;left: 572px; width: 260px;text-align:right;}
+#CCM-0717 {position:absolute;top: 1342px;left: 512px; width: 190px;text-align:right;}
+#CCM-0801 {position:absolute;top: 38px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#CCM-0802 {position:absolute;top: 85px;left: 130px; width: 350px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#CCM-08 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#CCM-0803 {position:absolute;top: 138px;left: 50px; width: 523px;}
+#CCM-0804 {position:absolute;top: 302px;left: 50px; width: 523px;}
+#CCM-0805 {position:absolute;top: 505px;left: 50px; width: 525px;}
+#CCM-0806 {position:absolute;top: 570px;left: 50px; width: 329px;}
+#CCM-0807 {position:absolute;top: 668px;left: 50px; width: 333px;}
+#CCM-0808 {position:absolute;top: 768px;left: 396px; width: 170px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:15px;line-height:115%;font-weight:bold;}
+#CCM-0809 {position:absolute;top: 882px;left: 54px; width: 250px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
+#CCM-08 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#CCM-08 p.block_text8 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:120%;}
+#CCM-0810 {position:absolute;top: 931px;left: 57px; width: 585px;}
+#CCM-0811 {position:absolute;top: 1035px;left: 224px; width: 416px;}
+#CCM-0812 {position:absolute;top: 87px;left: 632px; width: 460px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#CCM-0813 {position:absolute;top: 140px;left: 620px; width: 517px;}
+#CCM-08 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:110%;}
+#CCM-0814 {position:absolute;top: 225px;left: 617px; width: 290px;}
+#CCM-0815 {position:absolute;top: 458px;left: 681px; width: 400px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#CCM-08 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:110%;font-style:italic;}
+#CCM-0816 {position:absolute;top: 503px;left: 643px; width: 490px;}
+#CCM-0817 {position:absolute;top: 605px;left: 625px; width: 540px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#CCM-0818 {position:absolute;top: 650px;left: 620px; width: 535px;}
+#CCM-0819 {position:absolute;top: 745px;left: 678px; width: 250px;}
+#CCM-0820 {position:absolute;top: 732px;left:657px;width:558px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:15px;font-weight:normal;line-height:115%;}
+#CCM-08 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#CCM-0821 {position:absolute;top: 956px;left: 750px; width: 167px;}
+#CCM-0822 {position:absolute;top: 1180px;left: 748px; width: 400px;}
+#CCM-0823 {position:absolute;top: 1351px;left: 748px; width: 400px;}
+#CCM-08 p.block_text6 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:115%;font-style:normal;font-weight:bold;}
+#CCM-08 p.block_text7 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:115%;font-style:normal;font-weight:bold;}
+#CCM-0824 {position:absolute;top: 1303px;left: 462px; width: 195px;}
+#CCM-0825 {position:absolute;top: 1491px;left: 74px; width: 620px;}
+#CCM-0826 {position:absolute;top: 359px;left: 617px; width: 290px;}
+#CCM-0901 {position:absolute;top: 35px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;text-align:center;}
+#CCM-0902 {position:absolute;top: 96px;left: 69px; width: 270px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:left;}
+#CCM-09 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#CCM-0903 {position:absolute;top: 144px;left: 62px; width: 515px;}
+#CCM-0904 {position:absolute;top: 209px;left: 62px; width: 517px;}
+#CCM-0905 {position:absolute;top: 144px;left: 605px; width: 512px;}
+#CCM-0906 {position:absolute;top: 286px;left: 605px; width: 512px;}
+#CCM-0907 {position:absolute;top: 394px;left: 163px; width: 519px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:35px;font-weight:bold;text-align:left;}
+#CCM-09 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:27px;}
+#CCM-0908 {position:absolute;top: 405px;left: 697px; width: 310px;}
+#CCM-09 p.block_label1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:105%;}
+#CCM-09 p.block_label2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:12px;font-weight:bold;line-height:105%;}
+#CCM-0909 {position:absolute;top: 443px;left: 48px; width: 90px;}
+#CCM-0910 {position:absolute;top: 631px;left: 46px; width: 100px;}
+#CCM-0911 {position:absolute;top: 715px;left: 207px; width: 420px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:35px;font-weight:bold;text-align:left;}
+#CCM-0912 {position:absolute;top: 727px;left: 643px; width: 280px;}
+#CCM-0913 {position:absolute;top: 707px;left: 48px; width: 100px;}
+#CCM-0914 {position:absolute;top: 957px;left: 80px; width: 80px;}
+#CCM-09 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:105%;}
+#CCM-0915 {position:absolute;top: 784px;left: 621px; width: 503px;}
+#CCM-0916 {position:absolute;top: 843px;left: 621px; width: 503px;}
+#CCM-0917 {position:absolute;top: 1038px;left: 36px; width: 430px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#CCM-0918 {position:absolute;top: 1068px;left: 35px; width: 380px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:23px;text-align:left;}
+#CCM-0919 {position:absolute;top: 1119px;left: 33px; width: 512px;}
+#CCM-0920 {position:absolute;top: 1309px;left: 33px; width: 512px;}
+#CCM-0921 {position:absolute;top: 1399px;left: 33px; width: 630px;}
+#CCM-0922 {position:absolute;top: 630px;left: 172px; width: 115px;}
+#CCM-0923 {position:absolute;top: 630px;left: 319px; width: 75px;}
+#CCM-0924 {position:absolute;top: 630px;left: 465px; width: 80px;}
+#CCM-0925 {position:absolute;top: 630px;left: 605px; width: 90px;}
+#CCM-0926 {position:absolute;top: 630px;left: 743px; width: 75px;}
+#CCM-0927 {position:absolute;top: 630px;left: 881px; width: 84px;}
+#CCM-0928 {position:absolute;top: 630px;left: 998px; width: 115px;}
+#CCM-0929 {position:absolute;top: 946px;left: 247px; width: 115px;}
+#CCM-0930 {position:absolute;top: 946px;left: 463px; width: 85px;}
+#CCM-0931 {position:absolute;top: 425px;left: 1041px; width: 85px;}
+#CCM-0932 {position:absolute;top: 758px;left: 1050px; width: 80px;}
+#CCM-1001 {position:absolute;top: 359px;left: 43px; width: 360px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;text-align:left;}
+#CCM-10 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:115%;}
+#CCM-1002 {position:absolute;top: 414px;left: 39px; width: 452px;}
+#CCM-1003 {position:absolute;top: 574px;left: 39px; width: 480px;}
+#CCM-1004 {position:absolute;top: 635px;left: 39px; width: 539px;}
+#CCM-1005 {position:absolute;top: 708px;left: 39px; width: 540px;}
+#CCM-1006 {position:absolute;top: 795px;left: 34px; width: 260px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#CCM-10 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#CCM-1007 {position:absolute;top: 844px;left: 39px; width: 540px;}
+#CCM-1008 {position:absolute;top: 947px;left: 38px; width: 540px;}
+#CCM-1009 {position:absolute;top: 1045px;left: 38px; width: 330px;}
+#CCM-1010 {position:absolute;top: 1242px;left: 32px; width: 395px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#CCM-1011 {position:absolute;top: 1291px;left: 38px; width: 615px;}
+#CCM-1012 {position:absolute;top: 1413px;left: 38px; width: 730px;}
+#CCM-1101 {position:absolute;top: 36px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:41px;font-weight:bold;text-align:center;}
+#CCM-1102 {position:absolute;top: 562px;left: 249px; width: 130px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:left;}
+#CCM-1103 {position:absolute;top: 562px;left: 792px; width: 200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:left;}
+#CCM-11 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:right;font-size:15px;line-height:135%;font-weight:bold;}
+#CCM-11 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;line-height:135%;font-weight:bold;}
+#CCM-1104 {position:absolute;top: 612px;left: 85px; width: 130px;}
+#CCM-1105 {position:absolute;top: 612px;left: 238px; width: 100px;}
+#CCM-1106 {position:absolute;top: 612px;left: 681px; width: 130px;}
+#CCM-1107 {position:absolute;top: 612px;left: 832px; width: 134px;}
+#CCM-1108 {position:absolute;top: 650px;left: 95px; width: 120px;}
+#CCM-1109 {position:absolute;top: 639px;left: 239px; width: 325px;}
+#CCM-1110 {position:absolute;top: 650px;left: 690px; width: 120px;}
+#CCM-1111 {position:absolute;top: 639px;left: 834px; width: 325px;}
+#CCM-1112 {position:absolute;top: 687px;left: 125px; width: 90px;}
+#CCM-1113 {position:absolute;top: 703px;left: 65px; width: 151px;color:gray;}
+#CCM-1114 {position:absolute;top: 684px;left: 239px; width: 255px;}
+#CCM-1115 {position:absolute;top: 687px;left: 721px; width: 90px;}
+#CCM-1116 {position:absolute;top: 703px;left: 660px; width: 151px;color:gray;}
+#CCM-1117 {position:absolute;top: 684px;left: 834px; width: 255px;}
+#CCM-1118 {position:absolute;top: 741px;left: 167px; width: 40px;}
+#CCM-1119 {position:absolute;top: 729px;left: 238px; width: 165px;}
+#CCM-1120 {position:absolute;top: 729px;left: 410px; width: 115px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-height:155%;}
+#CCM-1121 {position:absolute;top: 741px;left: 762px; width: 40px;}
+#CCM-1122 {position:absolute;top: 729px;left: 834px; width: 165px;}
+#CCM-1123 {position:absolute;top: 729px;left: 1001px; width: 115px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-height:155%;}
+#CCM-1124 {position:absolute;top: 778px;left: 70px; width: 145px;}
+#CCM-1125 {position:absolute;top: 778px;left: 238px; width: 120px;}
+#CCM-1126 {position:absolute;top: 778px;left: 666px; width: 145px;}
+#CCM-1127 {position:absolute;top: 778px;left: 832px; width: 120px;}
+#CCM-1128 {position:absolute;top: 815px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:center;}
+#CCM-11 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:right;font-size:15px;line-height:125%;font-weight:bold;}
+#CCM-11 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;line-height:115%;font-weight:bold;}
+#CCM-1129 {position:absolute;top: 866px;left: 372px; width: 145px;}
+#CCM-1130 {position:absolute;top: 866px;left: 541px; width: 280px;}
+#CCM-1131 {position:absolute;top: 892px;left: 401px; width: 115px;}
+#CCM-1132 {position:absolute;top: 893px;left: 540px; width: 125px;}
+#CCM-1133 {position:absolute;top: 918px;left: 362px; width: 155px;}
+#CCM-1134 {position:absolute;top: 919px;left: 539px; width: 345px;}
+#CCM-1135 {position:absolute;top: 960px;left: 357px; width: 160px;}
+#CCM-1136 {position:absolute;top: 960px;left: 540px; width: 280px;}
+#CCM-1137 {position:absolute;top: 1002px;left: 357px; width: 160px;}
+#CCM-1138 {position:absolute;top: 1003px;left: 540px; width: 240px;}
+#CCM-1139 {position:absolute;top: 1041px;left: 397px; width: 120px;}
+#CCM-1140 {position:absolute;top: 1042px;left: 540px; width: 290px;}
+#CCM-1141 {position:absolute;top: 1067px;left: 347px; width: 170px;}
+#CCM-1142 {position:absolute;top: 1067px;left: 540px; width: 310px;}
+#CCM-1143 {position:absolute;top: 1108px;left: 397px; width: 120px;}
+#CCM-1144 {position:absolute;top: 1109px;left: 536px; width: 305px;}
+#CCM-1145 {position:absolute;top: 1167px;left: 470px; width: 45px;}
+#CCM-1146 {position:absolute;top: 1167px;left: 535px; width: 225px;}
+#CCM-1147 {position:absolute;top: 1184px;left:383px;width:580px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:12px;line-height:150%;font-weight:bold;}
+#CCM-1201 {position:absolute;top: 29px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:41px;font-weight:bold;text-align:center;}
+#CCM-12 p.block_text1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;text-align:center;font-size:18px;line-height:115%;}
+#CCM-1202 {position:absolute;top: 70px;left: 0px; width: 1200px;}
+#CCM-12 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;text-align:center;font-size:18px;font-weight:bold;}
+#CCM-1203 {position:absolute;top: 134px;left: 236px; width: 130px;}
+#CCM-1204 {position:absolute;top: 134px;left: 426px; width: 130px;}
+#CCM-1205 {position:absolute;top: 134px;left: 609px; width: 130px;}
+#CCM-1206 {position:absolute;top: 134px;left: 804px; width: 130px;}
+#CCM-1207 {position:absolute;top: 134px;left: 991px; width: 130px;}
+
+#BE4-01 h2.blue-header-1{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:26px;font-weight:bold;}
+#BE4-0101 {position:absolute;top: 133px;left: 500px;}
+#BE4-0102 {position:absolute;top: 185px;left: 575px; width: 480px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
+#BE4-0103 {position:absolute;top: 220px;left: 630px; width: 140px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
+#BE4-0104 {position:absolute;top: 230px;left: 760px; width: 20px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:15px;font-weight:bold;}
+#BE4-0105 {position:absolute;top: 220px;left: 782px; width: 230px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:32px;font-weight:normal;}
+#BE4-01 p.block_quote{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:21px;font-weight:bold;color:rgb(79,85,83);}
+#BE4-0106 {position:absolute;top: 791px;left: 790px;width: 320px;}
+#BE4-01 p.block_author{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:15px;font-weight:bold;font-style:italic;color:rgb(79,85,83);}
+#BE4-0107 {position:absolute;top: 842px;left: 800px;}
+#BE4-0108 {position:absolute;top: 1087px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:46px;font-weight:bold;text-align:center;}
+#BE4-01 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:110%;}
+#BE4-0109 {position:absolute;top: 1144px;left: 50px; width: 524px;font-weight:bold;}
+#BE4-0110 {position:absolute;top: 1280px;left: 220px; width: 352px;font-weight:bold;}
+#BE4-0111 {position:absolute;top: 1144px;left: 612px; width: 520px;font-weight:bold}
+#BE4-0112 {position:absolute;top: 1280px;left: 612px; width: 522px;font-weight:bold}
+#BE4-0201 {position:absolute;top: 32px;left: -15px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:36px;font-weight:bold;text-align:center;}
+#BE4-02 p.block_text {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:110%;}
+#BE4-0202 {position:absolute;top: 74px;left: 63px; width: 1037px;font-weight:bold;}
+#BE4-0203 {position:absolute;top: 611px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:33px;font-weight:bold;text-align:center;}
+#BE4-02 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:center;}
+#BE4-0204 {position:absolute;top: 653px;left: 32px; width: 220px;}
+#BE4-02 p.block_text2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:110%;}
+#BE4-0205 {position:absolute;top: 697px;left: 43px; width: 655px;}
+#BE4-0206 {position:absolute;top: 813px;left: 352px; width: 290px;}
+#BE4-0207 {position:absolute;top: 857px;left: 364px; width: 372px;}
+#BE4-0208 {position:absolute;top: 897px;left: 364px; width: 781px;}
+#BE4-0209 {position:absolute;top: 990px;left: 364px; width: 781px;}
+#BE4-0210 {position:absolute;top: 1050px;left: 364px; width: 482px;}
+#BE4-0211 {position:absolute;top: 1122px;left: 35px; width: 200px;}
+#BE4-0212 {position:absolute;top: 1170px;left: 39px; width: 803px;}
+#BE4-0213 {position:absolute;top: 1287px;left: 35px; width: 140px;}
+#BE4-0214 {position:absolute;top: 1327px;left: 42px; width: 505px;}
+#BE4-0215 {position:absolute;top: 1392px;left: 241px; width: 306px;}
+#BE4-0216 {position:absolute;top: 1287px;left: 631px; width: 440px;}
+#BE4-0217 {position:absolute;top: 1367px;left: 794px; width: 352px;}
+#BE4-0301 {position:absolute;top: 37px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE4-0302 {position:absolute;top: 72px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:24px;font-weight:normal;text-align:center;}
+#BE4-03 p.block_text3 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:20px;line-height:110%;}
+#BE4-0303 {position:absolute;top: 135px;left: 77px; width: 572px;}
+#BE4-0304 {position:absolute;top: 238px;left: 77px; width: 572px;}
+#BE4-0305 {position:absolute;top:90px;left:695px;width:430px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:17px;font-weight:normal;line-height:90%;}
+#BE4-03 p.block_text4 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:110%;}
+#BE4-0306 {position:absolute;top: 686px;left: 312px; width: 210px;}
+#BE4-0307 {position:absolute;top: 681px;left: 791px; width: 352px;}
+#BE4-0308 {position:absolute;top: 1237px;left: 113px; width: 242px;}
+#BE4-03 p.block_text5 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:20px;line-height:110%;}
+#BE4-0309 {position:absolute;top: 1320px;left: 1024px; width: 92px;}
+#BE4-04 p.block_text6 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:110%;}
+#BE4-0401 {position:absolute;top: 32px;left: 42px; width: 495px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE4-0402 {position:absolute;top: 64px;left: 79px; width: 560px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:30px;font-weight:normal;}
+#BE4-04 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:left;}
+#BE4-0403 {position:absolute;top: 141px;left: 179px; width: 230px;}
+#BE4-04 p.block_text7 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:20px;line-height:110%;}
+#BE4-0404 {position:absolute;top: 204px;left: 283px; width: 272px;}
+#BE4-0405 {position:absolute;top: 364px;left: 283px; width: 272px;}
+#BE4-0406 {position:absolute;top: 503px;left: 277px; width: 272px;}
+#BE4-0407 {position:absolute;top: 779px;left: 279px; width: 282px;}
+#BE4-0408 {position:absolute;top: 989px;left: 273px; width: 272px;}
+#BE4-0409 {position:absolute;top: 35px;left: 825px; width: 200px;}
+#BE4-0410 {position:absolute;top: 257px;left: 893px; width: 255px;}
+#BE4-0411 {position:absolute;top: 430px;left: 642px; width: 160px;}
+#BE4-04 h2#BE4-0411{font-size:22px;}
+#BE4-0412 {position:absolute;top: 469px;left: 648px; width: 225px;}
+#BE4-0413 {position:absolute;top: 875px;left: 640px; width: 165px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#BE4-0414 {position:absolute;top: 875px;left: 848px; width: 120px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#BE4-0415 {position:absolute;top: 875px;left: 1009px; width: 155px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:bold;text-align:left}
+#BE4-0416 {position:absolute;top: 1198px;left: 94px; width: 400px;}
+#BE4-0417 {position:absolute;top: 1243px;left: 281px; width: 255px;}
+#BE4-0418 {position:absolute;top: 932px;left: 706px; width: 370px;}
+#BE4-0419 {position:absolute;top: 1227px;left: 644px; width: 180px;}
+#BE4-0420 {position:absolute;top: 1221px;left: 884px; width: 230px;}
+#BE4-04 h2#BE4-0420{text-align:center;}
+#BE4-0501 {position:absolute;top: 34px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:36px;font-weight:bold;text-align:center;}
+#BE4-05 h2 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
+#BE4-0502 {position:absolute;top: 84px;left: 99px; width: 420px;}
+#BE4-05 p.block_text8 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#BE4-0503 {position:absolute;top: 129px;left: 54px; width: 523px;}
+#BE4-0504 {position:absolute;top: 257px;left: 54px; width: 523px;}
+#BE4-0505 {position:absolute;top: 84px;left: 694px; width: 385px;}
+#BE4-0506 {position:absolute;top: 129px;left: 621px; width: 520px;}
+#BE4-05 p.block_text9{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:19px;font-weight:normal;font-style:italic;line-height:120%;}
+#BE4-0507 {position:absolute;top: 608px;left: 166px;width: 300px;}
+#BE4-05 p.block_text10{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:17px;font-weight:bold;font-style:italic;line-height:115%;}
+#BE4-0508 {position:absolute;top: 922px;left: 96px;width: 450px;}
+#BE4-05 p.block_text11{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:18px;font-weight:normal;font-style:italic;line-height:120%;}
+#BE4-0509 {position:absolute;top: 594px;left: 629px; width: 495px;}
+#BE4-0510 {position:absolute;top: 668px;left: 964px;width: 180px;}
+#BE4-0511 {position:absolute;top: 1032px;left: -20px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:center;}
+#BE4-05 p.block_text12{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;font-weight:normal;font-style:italic;line-height:120%;}
+#BE4-0512 {position:absolute;top: 1064px;left: 0px; width: 1200px;}
+#BE4-0513 {position:absolute;top: 1101px;left: 35px; width: 572px;}
+#BE4-0514 {position:absolute;top: 1101px;left: 645px; width: 508px;}
+#BE4-0515 {position:absolute;top: 1229px;left: 691px; width: 458px;}
+#BE4-0516 {position:absolute;top: 1381px;left: 837px; width: 330px;}
+#BE4-0601 {position:absolute;top: 41px;left: 468px; width: 285px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE4-0602 {position:absolute;top: 40px;left: 752px; width: 20px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:10px;font-weight:bold;}
+#BE4-06 p.block_text13{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:19px;font-weight:normal;font-style:italic;line-height:120%;}
+#BE4-0603 {position:absolute;top: 83px;left: 385px; width: 445px;}
+#BE4-0604 {position:absolute;top: 1036px;left: 59px; width: 370px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE4-06 p.block_text14{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:26px;font-weight:normal;font-style:italic;line-height:120%;}
+#BE4-0605 {position:absolute;top: 1083px;left: 60px; width: 370px;}
+#BE4-06 p.block_text15{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:normal;font-style:italic;line-height:110%;}
+#BE4-0606 {position:absolute;top: 1380px;left: 141px; width: 360px;text-align:left;}
+#BE4-0607 {position:absolute;top: 1163px;left: 572px; width: 260px;text-align:right;}
+#BE4-0608 {position:absolute;top: 1342px;left: 512px; width: 190px;text-align:right;}
+#BE4-0701 {position:absolute;top: 40px;left: 283px; width: 250px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE4-0702 {position:absolute;top: 35px;left: 516px; width: 20px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:10px;font-weight:bold;}
+#BE4-0703 {position:absolute;top: 40px;left: 547px; width: 270px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE4-07 p.block_text16 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#BE4-0704 {position:absolute;top: 88px;left: 255px; width: 879px;}
+#BE4-0705 {position:absolute;top: 220px;left: 42px; width: 590px;}
+#BE4-0706 {position:absolute;top: 300px;left: 42px; width: 610px;}
+#BE4-0707 {position:absolute;top: 420px;left: 42px; width: 520px;}
+#BE4-0708 {position:absolute;top: 467px;left: 618px; width: 270px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
+#BE4-0709 {position:absolute;top: 467px;left: 874px; width: 20px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:10px;font-weight:bold;}
+#BE4-0710 {position:absolute;top: 467px;left: 900px; width: 220px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
+#BE4-0711 {position:absolute;top: 500px;left: 613px; width: 550px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
+#BE4-0712 {position:absolute;top:502px;left:550px;width:650px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-weight:normal;line-height:130%;}
+#BE4-0713 {position:absolute;top: 957px;left: 215px; width: 790px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE4-0714 {position:absolute;top: 1028px;left: 61px; width: 653px;}
+#BE4-0715 {position:absolute;top: 1152px;left: 61px; width: 653px;}
+#BE4-0716 {position:absolute;top: 1295px;left: 60px; width: 653px;}
+#BE4-07 p.block_text17 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:23px;line-height:130%;}
+#BE4-0717 {position:absolute;top: 1355px;left: 70px; width: 627px;}
+#BE4-0718 {position:absolute;top: 1489px;left: 841px; width: 220px;}
+#BE4-0801 {position:absolute;top: 28px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE4-0802 {position:absolute;top: 70px;left: 136px; width: 350px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE4-08 p.block_text18 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#BE4-0803 {position:absolute;top: 124px;left: 46px; width: 545px;}
+#BE4-0804 {position:absolute;top: 275px;left: 46px; width: 545px;}
+#BE4-0805 {position:absolute;top: 469px;left: 46px; width: 545px;}
+#BE4-0806 {position:absolute;top: 527px;left: 46px; width: 335px;}
+#BE4-0807 {position:absolute;top: 621px;left: 46px; width: 335px;}
+#BE4-0808 {position:absolute;top: 741px;left: 405px; width: 170px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:15px;line-height:115%;font-weight:bold;}
+#BE4-0809 {position:absolute;top: 828px;left: 42px; width: 530px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE4-08 p.block_text19 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:120%;}
+#BE4-0810 {position:absolute;top: 872px;left: 46px; width: 545px;}
+#BE4-0811 {position:absolute;top: 978px;left: 220px; width: 371px;}
+#BE4-0812 {position:absolute;top: 70px;left: 630px; width: 460px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:31px;font-weight:bold;text-align:left;}
+#BE4-0813 {position:absolute;top: 124px;left: 620px; width: 515px;}
+#BE4-08 p.block_text20 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:110%;}
+#BE4-0814 {position:absolute;top: 208px;left: 620px; width: 280px;}
+#BE4-0815 {position:absolute;top: 504px;left: 658px; width: 400px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE4-08 p.block_text21 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:110%;font-style:italic;}
+#BE4-0816 {position:absolute;top: 553px;left: 623px; width: 490px;}
+#BE4-0817 {position:absolute;top: 662px;left: 608px; width: 540px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:32px;font-weight:bold;text-align:left;}
+#BE4-0818 {position:absolute;top: 714px;left: 620px; width: 515px;}
+#BE4-0819 {position:absolute;top: 832px;left: 620px; width: 250px;}
+#BE4-0820 {position:absolute;top: 822px;left:600px;width:600px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:15px;font-weight:normal;line-height:115%;}
+#BE4-08 p.block_text22 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:18px;line-height:115%;}
+#BE4-0821 {position:absolute;top: 1067px;left: 620px; width: 280px;}
+#BE4-0822 {position:absolute;top: 1233px;left: 620px; width: 515px;}
+#BE4-0823 {position:absolute;top: 1370px;left: 620px; width: 515px;}
+#BE4-0901 {position:absolute;top: 33px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:center;}
+#BE4-0902 {position:absolute;top: 94px;left: 73px; width: 270px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:27px;font-weight:bold;text-align:left;}
+#BE4-09 p.block_text23 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#BE4-0903 {position:absolute;top: 144px;left: 62px; width: 515px;}
+#BE4-0904 {position:absolute;top: 209px;left: 62px; width: 517px;}
+#BE4-0905 {position:absolute;top: 144px;left: 605px; width: 512px;}
+#BE4-0906 {position:absolute;top: 286px;left: 605px; width: 512px;}
+#BE4-0907 {position:absolute;top: 385px;left: 205px; width: 330px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:35px;font-weight:bold;text-align:left;}
+#BE4-09 p.block_text24 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:27px;}
+#BE4-0908 {position:absolute;top: 398px;left: 553px; width: 310px;}
+#BE4-09 p.block_label1 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:center;font-size:18px;line-height:105%;}
+#BE4-0909 {position:absolute;top: 434px;left: 48px; width: 90px;}
+#BE4-0910 {position:absolute;top: 623px;left: 48px; width: 100px;}
+#BE4-0911 {position:absolute;top: 706px;left: 219px; width: 283px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:35px;font-weight:bold;text-align:left;}
+#BE4-0912 {position:absolute;top: 717px;left: 520px; width: 280px;}
+#BE4-0913 {position:absolute;top: 699px;left: 39px; width: 120px;}
+#BE4-0914 {position:absolute;top: 933px;left: 103px; width: 70px;}
+#BE4-0915 {position:absolute;top: 775px;left: 633px; width: 504px;}
+#BE4-0916 {position:absolute;top: 830px;left: 633px; width: 504px;}
+#BE4-0917 {position:absolute;top: 1038px;left: 40px; width: 430px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:39px;font-weight:bold;text-align:left;}
+#BE4-0918 {position:absolute;top: 1068px;left: 41px; width: 380px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;font-size:23px;text-align:left;}
+#BE4-0919 {position:absolute;top: 1119px;left: 39px; width: 507px;}
+#BE4-0920 {position:absolute;top: 1309px;left: 39px; width: 505px;}
+#BE4-0921 {position:absolute;top: 1393px;left: 39px; width: 630px;}
+#BE4-1001 {position:absolute;top: 325px;left: 54px; width: 360px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:40px;font-weight:bold;text-align:left;}
+#BE4-10 p.block_text25 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:19px;line-height:115%;}
+#BE4-1002 {position:absolute;top: 380px;left: 50px; width: 452px;}
+#BE4-1003 {position:absolute;top: 540px;left: 50px; width: 480px;}
+#BE4-1004 {position:absolute;top: 599px;left: 50px; width: 540px;}
+#BE4-1005 {position:absolute;top: 673px;left: 50px; width: 540px;}
+#BE4-1006 {position:absolute;top: 768px;left: 45px; width: 260px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE4-10 p.block_text26 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:justify;font-size:19px;line-height:115%;}
+#BE4-1007 {position:absolute;top: 815px;left: 50px; width: 540px;}
+#BE4-1008 {position:absolute;top: 918px;left: 49px; width: 540px;}
+#BE4-1009 {position:absolute;top: 1017px;left: 47px; width: 330px;}
+#BE4-1010 {position:absolute;top: 1207px;left: 44px; width: 395px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:30px;font-weight:bold;text-align:left;}
+#BE4-1011 {position:absolute;top: 1265px;left: 49px; width: 525px;}
+#BE4-1012 {position:absolute;top: 1405px;left: 49px; width: 525px;}
+#BE4-1101 {position:absolute;top: 38px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:41px;font-weight:bold;text-align:center;}
+#BE4-1102 {position:absolute;top: 139px;left: 366px; width: 250px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:left;}
+#BE4-1103 {position:absolute;top: 139px;left: 800px; width: 250px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:29px;font-weight:bold;text-align:left;}
+#BE4-11 p.block_text27 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:right;font-size:18px;line-height:115%;}
+#BE4-11 p.block_text28 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:18px;line-height:115%;}
+#BE4-1104 {position:absolute;top: 709px;left: 114px; width: 151px;}
+#BE4-1105 {position:absolute;top: 709px;left: 312px; width: 140px;}
+#BE4-1106 {position:absolute;top: 709px;left: 744px; width: 155px;}
+#BE4-1107 {position:absolute;top: 747px;left: 171px; width: 95px;}
+#BE4-1108 {position:absolute;top: 747px;left: 309px; width: 300px;}
+#BE4-1109 {position:absolute;top: 747px;left: 744px; width: 260px;}
+#BE4-1110 {position:absolute;top: 784px;left: 124px; width: 141px;}
+#BE4-1111 {position:absolute;top: 784px;left: 313px; width: 370px;}
+#BE4-1112 {position:absolute;top: 784px;left: 744px; width: 360px;}
+#BE4-1113 {position:absolute;top: 854px;left: 173px; width: 90px;}
+#BE4-1114 {position:absolute;top: 874px;left: 114px; width: 151px;color:gray;}
+#BE4-1115 {position:absolute;top: 854px;left: 315px; width: 290px;}
+#BE4-1116 {position:absolute;top: 854px;left: 745px; width: 290px;}
+#BE4-1117 {position:absolute;top: 904px;left: 210px; width: 50px;}
+#BE4-1118 {position:absolute;top: 904px;left: 316px; width: 200px;}
+#BE4-1119 {position:absolute;top: 904px;left: 745px; width: 200px;}
+#BE4-1120 {position:absolute;top: 960px;left: 102px; width: 165px;}
+#BE4-1121 {position:absolute;top: 960px;left: 312px; width: 205px;}
+#BE4-1122 {position:absolute;top: 960px;left: 744px; width: 205px;}
+#BE4-1123 {position:absolute;top: 1045px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:28px;font-weight:bold;text-align:center;}
+#BE4-1124 {position:absolute;top: 1082px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:20px;font-weight:normal;text-align:center;}
+#BE4-1125 {position:absolute;top: 904px;left: 520px; width: 90px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-height:155%;}
+#BE4-1126 {position:absolute;top: 904px;left: 950px; width: 90px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:13px;font-weight:bold;text-align:left;line-height:155%;}
+#BE4-11 p.block_text29 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:right;font-size:15px;line-height:120%;font-weight:bold;}
+#BE4-11 p.block_text30 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-size:15px;line-height:120%;font-weight:bold;}
+#BE4-1127 {position:absolute;top: 1140px;left: 84px; width: 150px;}
+#BE4-1128 {position:absolute;top: 1140px;left: 275px; width: 280px;}
+#BE4-1129 {position:absolute;top: 1189px;left: 74px; width: 160px;}
+#BE4-1130 {position:absolute;top: 1181px;left: 275px; width: 340px;}
+#BE4-1131 {position:absolute;top: 1244px;left: 74px; width: 160px;}
+#BE4-1132 {position:absolute;top: 1235px;left: 275px; width: 280px;}
+#BE4-1133 {position:absolute;top: 1289px;left: 74px; width: 160px;}
+#BE4-1134 {position:absolute;top: 1289px;left: 275px; width: 240px;}
+#BE4-1135 {position:absolute;top: 1321px;left: 114px; width: 120px;}
+#BE4-1136 {position:absolute;top: 1321px;left: 275px; width: 290px;}
+#BE4-1137 {position:absolute;top: 1358px;left: 44px; width: 190px;}
+#BE4-1138 {position:absolute;top: 1350px;left: 275px; width: 310px;}
+#BE4-1139 {position:absolute;top: 1408px;left: 114px; width: 120px;}
+#BE4-1140 {position:absolute;top: 1399px;left: 275px; width: 310px;}
+#BE4-1141 {position:absolute;top: 1468px;left: 187px; width: 45px;}
+#BE4-1142 {position:absolute;top: 1468px;left: 275px; width: 230px;}
+#BE4-1143 {position:absolute;top: 1127px;left:647px;width:530px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;font-size:11px;font-weight:normal;line-height:165%;font-weight:bold;}
+#BE4-1201 {position:absolute;top: 19px;left: 0px; width: 1200px;font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-size:41px;font-weight:bold;text-align:center;}
+#BE4-12 p.block_text31 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:italic;text-align:center;font-size:18px;line-height:115%;}
+#BE4-1202 {position:absolute;top: 60px;left: 0px; width: 1200px;}
+#BE4-12 p.block_text32 {font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;font-style:normal;text-align:center;font-size:18px;font-weight:bold;}
+#BE4-1203 {position:absolute;top: 134px;left: 244px; width: 130px;}
+#BE4-1204 {position:absolute;top: 134px;left: 434px; width: 130px;}
+#BE4-1205 {position:absolute;top: 134px;left: 619px; width: 130px;}
+#BE4-1206 {position:absolute;top: 134px;left: 812px; width: 130px;}
+#BE4-1207 {position:absolute;top: 134px;left: 1000px; width: 130px;}
+

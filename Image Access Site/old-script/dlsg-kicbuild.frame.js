@@ -4,21 +4,21 @@ var model_validate_all = function() {
   model_validate('build-a-kic_3');
   model_validate('build-a-kic_4');
   model_validate('build-a-kic_5'); 
-};
+}
 var furniture_validate_all = function() {
   furniture_validate('build-a-kic_1');  
   furniture_validate('build-a-kic_2');
   furniture_validate('build-a-kic_3');
   furniture_validate('build-a-kic_4');
   furniture_validate('build-a-kic_5'); 
-};
+}
 var option_validate_all = function() {
   option_validate('build-a-kic_1');  
   option_validate('build-a-kic_2');
   option_validate('build-a-kic_3');
   option_validate('build-a-kic_4');
   option_validate('build-a-kic_5'); 
-};
+}
 var reset_form_all = function(sys_id) {
   $('input.disc_code').val('');
   $('input.disc2_code').val('');
@@ -31,8 +31,17 @@ var reset_form_all = function(sys_id) {
   reset_build_form('build-a-kic_2');
   reset_build_form('build-a-kic_3');
   reset_build_form('build-a-kic_4');
-  reset_build_form('build-a-kic_5'); 
-};
+  reset_build_form('build-a-kic_5');
+  $('select.select_country').val('us'); 
+}
+var set_roaming_all = function(){
+  set_roaming('build-a-kic_1');  
+  set_roaming('build-a-kic_2');
+  set_roaming('build-a-kic_3');
+  set_roaming('build-a-kic_4');
+  set_roaming('build-a-kic_5'); 
+}
+
 var get_system_selections = function(sys_id) {
   var data = new Object;
   data.model = get_model(sys_id);
@@ -60,11 +69,13 @@ var get_system_selections = function(sys_id) {
   data.expansion7 = 0;
   data.expansion8 = 0;
   data.expansion9 = 0;
-  data.expansion10 = 0;
+  //using expansion10 as bookeye export code (0 = we sell, 1 = we do not)
+  data.intl = be_is_intl_roaming($('select.select_country').val());
+  
   data.service = $('#'+sys_id+' .services input:radio:checked').val();
   data.qty = parseInt($('#'+sys_id+' input.quantity').val());     
   return data;
-};
+}
 var get_system_selections_string = function(sys_id) {
   var data = get_system_selections(sys_id);
   var output = "";
@@ -74,9 +85,10 @@ var get_system_selections_string = function(sys_id) {
   });
 
   return output;
-};
+}
 var model_validate = function(sys_id) {
   var model = get_model(sys_id);
+  var be_is_intl = be_is_intl_roaming($('select.select_country').val());
   
   $('#'+sys_id+' .feature .ocr').prop('checked', false);
   $('#'+sys_id+' .feature .turbo').prop('checked', false);
@@ -95,11 +107,23 @@ var model_validate = function(sys_id) {
   $('#'+sys_id+' .feature .neckview').prop('checked', false);
   $('#'+sys_id+' .service.one input').prop('checked', true);
   $('#'+sys_id+' .furniture .cabinet input').prop('checked', true);
-  $('#'+sys_id+' .feature .manager').prop('checked', false);  
+  $('#'+sys_id+' .feature .manager').prop('checked', false);
+  
+  $('#'+sys_id+' .feature').removeClass('be_intl_disabled');  
     
   $('#'+sys_id+' .images .neck_view_note').addClass('hide');
   $('#'+sys_id+' .images .PC_note').addClass('hide');
   $('#'+sys_id+' .images .printer_note').addClass('hide');
+  
+  //reset international conditionally disabled stuff
+  $('#'+sys_id+' .feature .neckview').prop('disabled',false);
+  $('#'+sys_id+' .feature .footpedal').prop('disabled',false);
+  $('#'+sys_id+' .feature .color').prop('disabled',false);
+  $('#'+sys_id+' .feature .dpi600').prop('disabled',false);
+  $('#'+sys_id+' .feature.neckview').removeClass("be_intl_disabled");
+  $('#'+sys_id+' .feature.footpedal').removeClass("be_intl_disabled");
+  $('#'+sys_id+' .feature.colorup').removeClass("be_intl_disabled");
+  $('#'+sys_id+' .feature.dpi600').removeClass("be_intl_disabled");
   
   switch (model) {
     case "BookEdge":
@@ -109,7 +133,7 @@ var model_validate = function(sys_id) {
      
      //alert( $('#'+sys_id+' .images .neck_view_note').css("marginTop" ) );       
 
-      $('#'+sys_id+' .furn.cabinet p').text("Cabinet / Stand");
+      $('#'+sys_id+' .furn.cabinet p').text("K-Stand");
 //      $('#'+sys_id+' .furn.tabletop.touch-on-top p').text("Tabletop");    
       $('#'+sys_id+' .furn.tabletop.touch_on_table p').text("Tabletop w/Touch & View Monitors"); 
       $('#'+sys_id+' .furn.tabletop.touch_only p').text("Tabletop w/ Single Touch Monitor");           
@@ -164,7 +188,7 @@ var model_validate = function(sys_id) {
     case "Click":    
       $('#'+sys_id+' .images .PC_note').css('marginTop' , '25px' ) ;             
     
-      $('#'+sys_id+' .furn.cabinet p').text("K-Stand w/ Touch-on-Top");
+      $('#'+sys_id+' .furn.cabinet p').text("K-Legs w/ Touch-on-Top");
       $('#'+sys_id+' .furn.tabletop.touch-on-top p').text("Tabletop w/ Touch-on-Top"); 
       $('#'+sys_id+' .furn.tabletop.touch_on_table p').text("Tabletop w/Touch & View Monitors"); 
       $('#'+sys_id+' .furn.tabletop.touch_only p').text("Tabletop w/ Single Touch Monitor");           
@@ -187,7 +211,7 @@ var model_validate = function(sys_id) {
     
       $('#'+sys_id+' .feature.dualpc p').text("Dual-Monitor w/Wedge");
       
-      $('#'+sys_id+' .furn.cabinet p').text("Cabinet");
+      $('#'+sys_id+' .furn.cabinet p').text("K-Cabinet");
 //      $('#'+sys_id+' .furn.tabletop.touch-on-top p').text("Tabletop");    
       $('#'+sys_id+' .furn.tabletop.touch_on_table p').text("Tabletop - For Standing Use"); 
       $('#'+sys_id+' .furn.tabletop.touch_only p').text("Tabletop - For Sitting Use");        
@@ -198,7 +222,7 @@ var model_validate = function(sys_id) {
       $('#'+sys_id+' .color.White').removeClass('hide');
       $('#'+sys_id+' .feature .ocr').prop('checked', true);
       $('#'+sys_id+' .feature .tts').prop('checked', true);
-	 $('#'+sys_id+' .furniture .tabletop').removeClass('hide');
+	    $('#'+sys_id+' .furniture .tabletop').removeClass('hide');
 	 
       $('#'+sys_id+' .furn.tabletop.touch-on-top').addClass('hide');      
 //      $('#'+sys_id+' .furn.tabletop.touch_on_table').addClass('hide');
@@ -208,13 +232,26 @@ var model_validate = function(sys_id) {
       $('#'+sys_id+' .feature .dualvideo').removeClass('hide');
       
       $('#'+sys_id+' .feature .neckview').parent().addClass('hide');       
-      $('#'+sys_id+' .feature .neckview').addClass('hide');       
+      $('#'+sys_id+' .feature .neckview').addClass('hide');
+      
+      //disable international stuff when req'd
+      if (be_is_intl == 1) {
+        $('#'+sys_id+' .feature .neckview').prop('disabled',true);
+        $('#'+sys_id+' .feature .footpedal').prop('disabled',true);
+        $('#'+sys_id+' .feature .color').prop('disabled',true);
+        $('#'+sys_id+' .feature .dpi600').prop('disabled',true);
+        $('#'+sys_id+' .feature.neckview').addClass("be_intl_disabled");
+        $('#'+sys_id+' .feature.footpedal').addClass("be_intl_disabled");
+        $('#'+sys_id+' .feature.colorup').addClass("be_intl_disabled");
+        $('#'+sys_id+' .feature.dpi600').addClass("be_intl_disabled");
+      }
+             
       break;
       
     case "Bookeye4V3":
       $('#'+sys_id+' .feature.colorup p').text("Color");      
     
-      $('#'+sys_id+' .furn.cabinet p').text("Cabinet");
+      $('#'+sys_id+' .furn.cabinet p').text("K-Table");
       //$('#'+sys_id+' .furn.tabletop.touch-on-top p').text("Tabletop");                
       $('#'+sys_id+' .furn.tabletop.touch_on_table p').text("Tabletop - For Standing Use"); 
       $('#'+sys_id+' .furn.tabletop.touch_only p').text("Tabletop - For Sitting Use");  
@@ -225,7 +262,7 @@ var model_validate = function(sys_id) {
       $('#'+sys_id+' .color.White').removeClass('hide');
       $('#'+sys_id+' .feature .ocr').prop('checked', true);
       $('#'+sys_id+' .feature .tts').prop('checked', true);
-	 $('#'+sys_id+' .furniture .tabletop').removeClass('hide');
+	    $('#'+sys_id+' .furniture .tabletop').removeClass('hide');
 	       
       $('#'+sys_id+' .furn.tabletop.touch-on-top').addClass('hide');      
 //      $('#'+sys_id+' .furn.tabletop.touch_on_table').addClass('hide');
@@ -236,6 +273,19 @@ var model_validate = function(sys_id) {
       
       $('#'+sys_id+' .feature .neckview').parent().addClass('hide');       
       $('#'+sys_id+' .feature .neckview').addClass('hide');             
+
+      $('#'+sys_id+' .feature .color').prop('checked',true);      
+      //disable international stuff when req'd
+      if (be_is_intl == 1) {
+        $('#'+sys_id+' .feature .neckview').prop('disabled',true);
+        $('#'+sys_id+' .feature .footpedal').prop('disabled',true);
+        $('#'+sys_id+' .feature .color').prop('disabled',true);
+        $('#'+sys_id+' .feature .dpi600').prop('disabled',true);
+        $('#'+sys_id+' .feature.neckview').addClass("be_intl_disabled");
+        $('#'+sys_id+' .feature.footpedal').addClass("be_intl_disabled");
+        $('#'+sys_id+' .feature.colorup').addClass("be_intl_disabled");
+        $('#'+sys_id+' .feature.dpi600').addClass("be_intl_disabled");
+      }
       break;      
   }
   $('#'+sys_id+' .summary .nameplate').addClass('hide');
@@ -774,9 +824,9 @@ var quantity_validate = function(sys_id) {
 }
 var get_discount = function() {
   var disc_code1 = $('input.disc_code').val();    
-  var url = "script/discount-code.asp";      
+  var url = "old-script/discount-code.asp";      
   $.get(url, { DisCode: disc_code1 }, function(data) { $('.disc_rate').val(data); build_pricing();});
-  url = "script/customer-list.asp"; 
+  url = "old-script/customer-list.asp"; 
   $.get(url, { DisCode: disc_code1 }, function(data) { $('#K-19').append(data); }); 
 }
 var pricecheck = function() {
@@ -785,7 +835,7 @@ var pricecheck = function() {
     $('#notifier p').append('Checking server for current pricing...');
     $('#notifier').removeClass('hide');
     var disc_rate = $('.disc_rate').val();
-    var url = "script/price-calc.asp";           
+    var url = "old-script/price-calc.asp";           
     data1 = get_system_selections_string("build-a-kic_1");
     data2 = get_system_selections_string("build-a-kic_2");
     data3 = get_system_selections_string("build-a-kic_3");
@@ -1466,7 +1516,7 @@ $('#kic_value #cost_graph .green-line p.greencost').empty().html(green_bar_cost)
   $('#kic_value #cost_graph .green-line').animate({bottom:green_bar_top}, 1000);
   return max_cost; 
 }
-//-#kic_value--------------------------------------------------------------------------------------------------------------------------------------
+//-#kic_value--------------------------------------------------------------------------------
 
 var fade_highlight = function() {
   time = 800;
@@ -1474,7 +1524,7 @@ var fade_highlight = function() {
   $('span.flabel').animate({color:"#e11"},time).animate({color:"#000"},time);
 }
 var load_feature_table = function() {
-  var url = "script/load_block.asp"; 
+  var url = "old-script/load_block.asp"; 
   $.get(url, {Request: 'kic-feature-table.html'}, function(data) {
     $('#feature_footnotes').html(data);
     $('#feature_footnotes p.headline').click(function() {
@@ -1487,10 +1537,273 @@ var load_feature_table = function() {
 }
 
 var load_lower = function(){
-  var url = "script/load_block.asp";     
-  $.get(url, {Request: 'build-your-kic-lower.html'}, function(data) { $('#newsTicker').before(data); lower_kic_visibility_swap() ; });
+  var url = "old-script/load_block.asp";     
+  $.get(url, {Request: 'build-your-kic-lower.html'}, function(data) { 
+    $('#kic_value').after(data);
+    $('iframe', window.parent.document).height('29200px'); 
+    lower_kic_visibility_swap();
+  });
 }
 
+var set_roaming = function(sys_id){
+  var be_is_intl = be_is_intl_roaming($('select.select_country').val());
+  var model = get_model(sys_id);
+  if (be_is_intl) {
+    switch (model) {
+      case "Bookeye4":
+        $('#'+sys_id+' .intl_roaming').removeClass('hide');
+        $('#'+sys_id+' .local_roaming').addClass('hide');
+        $('#'+sys_id+' .blotter.Bookeye4V2').removeClass('hide');
+        $('#'+sys_id+' .blotter.Bookeye4V3').addClass('hide');
+        $('#'+sys_id+' #scannerfuzz').removeClass('hide');
+        break;
+      case "Bookeye4V3":
+        $('#'+sys_id+' .intl_roaming').removeClass('hide');
+        $('#'+sys_id+' .local_roaming').addClass('hide');
+        $('#'+sys_id+' .blotter.Bookeye4V2').addClass('hide');
+        $('#'+sys_id+' .blotter.Bookeye4V3').removeClass('hide');
+        $('#'+sys_id+' #scannerfuzz').removeClass('hide');
+        break;
+      default:
+        $('#'+sys_id+' .intl_roaming').removeClass('hide');
+        $('#'+sys_id+' .scanner_list_intl.intl_roaming').addClass('hide');
+        $('#'+sys_id+' .local_roaming').addClass('hide');
+        $('#'+sys_id+' #scannerfuzz').addClass('hide');
+    };
+  } else {
+    $('#'+sys_id+' .intl_roaming').addClass('hide');
+    $('#'+sys_id+' .local_roaming').removeClass('hide');
+    $('#'+sys_id+' #scannerfuzz').addClass('hide');
+  };
+}
+
+var be_is_intl_roaming = function(country_id) {
+  var be_is_intl = 0;
+  switch (country_id) {
+    case "ca": be_is_intl = 1; break;
+    case "gu": be_is_intl = 0; break;
+    case "mp": be_is_intl = 0; break;
+    case "pr": be_is_intl = 0; break;
+    case "vi": be_is_intl = 0; break;
+    case "us": be_is_intl = 0; break;
+    
+    case "ai": be_is_intl = 0; break;
+    case "ag": be_is_intl = 0; break;
+    case "aw": be_is_intl = 0; break;
+    case "bs": be_is_intl = 0; break;
+    case "bb": be_is_intl = 0; break;
+    case "vg": be_is_intl = 0; break;
+    case "ky": be_is_intl = 0; break;
+    case "cu": be_is_intl = 0; break;
+    case "dm": be_is_intl = 0; break;
+    case "do": be_is_intl = 0; break;
+    case "gd": be_is_intl = 0; break;
+    case "gp": be_is_intl = 0; break;
+    case "ht": be_is_intl = 0; break;
+    case "jm": be_is_intl = 0; break;
+    case "mq": be_is_intl = 0; break;
+    case "ms": be_is_intl = 0; break;
+    case "an": be_is_intl = 0; break;
+    case "kn": be_is_intl = 0; break;
+    case "lc": be_is_intl = 0; break;
+    case "vc": be_is_intl = 0; break;
+    case "tt": be_is_intl = 0; break;
+    case "tc": be_is_intl = 0; break;
+    
+    case "bz": be_is_intl = 0; break;
+    case "cr": be_is_intl = 0; break;
+    case "sv": be_is_intl = 0; break;
+    case "gt": be_is_intl = 0; break;
+    case "hn": be_is_intl = 0; break;
+    case "mx": be_is_intl = 0; break;
+    case "ni": be_is_intl = 0; break;
+    case "pa": be_is_intl = 0; break;
+    
+    case "ar": be_is_intl = 1; break;
+    case "bo": be_is_intl = 0; break;
+    case "br": be_is_intl = 1; break;
+    case "cl": be_is_intl = 1; break;
+    case "co": be_is_intl = 1; break;
+    case "ec": be_is_intl = 1; break;
+    case "gf": be_is_intl = 1; break;
+    case "gy": be_is_intl = 1; break;
+    case "py": be_is_intl = 1; break;
+    case "pe": be_is_intl = 1; break;
+    case "sr": be_is_intl = 1; break;
+    case "uy": be_is_intl = 1; break;
+    case "ve": be_is_intl = 1; break;
+    
+    case "al": be_is_intl = 1; break;
+    case "ad": be_is_intl = 1; break;
+    case "am": be_is_intl = 1; break;
+    case "at": be_is_intl = 1; break;
+    case "by": be_is_intl = 1; break;
+    case "be": be_is_intl = 1; break;
+    case "ba": be_is_intl = 1; break;
+    case "bg": be_is_intl = 1; break;
+    case "hr": be_is_intl = 1; break;
+    case "cz": be_is_intl = 1; break;
+    case "dk": be_is_intl = 1; break;
+    case "ee": be_is_intl = 1; break;
+    case "fo": be_is_intl = 1; break;
+    case "fi": be_is_intl = 1; break;
+    case "fr": be_is_intl = 1; break;
+    case "ge": be_is_intl = 1; break;
+    case "de": be_is_intl = 1; break;
+    case "gi": be_is_intl = 1; break;
+    case "gr": be_is_intl = 1; break;
+    case "gg": be_is_intl = 1; break;
+    case "hu": be_is_intl = 1; break;
+    case "is": be_is_intl = 1; break;
+    case "ie": be_is_intl = 1; break;
+    case "im": be_is_intl = 1; break;
+    case "it": be_is_intl = 1; break;
+    case "je": be_is_intl = 1; break;
+    case "lv": be_is_intl = 1; break;
+    case "li": be_is_intl = 1; break;
+    case "lt": be_is_intl = 1; break;
+    case "lu": be_is_intl = 1; break;
+    case "mk": be_is_intl = 1; break;
+    case "mt": be_is_intl = 1; break;
+    case "md": be_is_intl = 1; break;
+    case "mc": be_is_intl = 1; break;
+    case "nl": be_is_intl = 1; break;
+    case "no": be_is_intl = 1; break;
+    case "pl": be_is_intl = 1; break;
+    case "pt": be_is_intl = 1; break;
+    case "ro": be_is_intl = 1; break;
+    case "sm": be_is_intl = 1; break;
+    case "rs": be_is_intl = 1; break;
+    case "sk": be_is_intl = 1; break;
+    case "si": be_is_intl = 1; break;
+    case "es": be_is_intl = 1; break;
+    case "se": be_is_intl = 1; break;
+    case "ch": be_is_intl = 1; break;
+    case "ua": be_is_intl = 1; break;
+    case "gb": be_is_intl = 1; break;
+    
+    case "dz": be_is_intl = 1; break;
+    case "ao": be_is_intl = 1; break;
+    case "bj": be_is_intl = 1; break;
+    case "bm": be_is_intl = 1; break;
+    case "bw": be_is_intl = 1; break;
+    case "bf": be_is_intl = 1; break;
+    case "bi": be_is_intl = 1; break;
+    case "cm": be_is_intl = 1; break;
+    case "cv": be_is_intl = 1; break;
+    case "cf": be_is_intl = 1; break;
+    case "td": be_is_intl = 1; break;
+    case "km": be_is_intl = 1; break;
+    case "cd": be_is_intl = 1; break;
+    case "cg": be_is_intl = 1; break;
+    case "ci": be_is_intl = 1; break;
+    case "dj": be_is_intl = 1; break;
+    case "eg": be_is_intl = 1; break;
+    case "gq": be_is_intl = 1; break;
+    case "er": be_is_intl = 1; break;
+    case "et": be_is_intl = 1; break;
+    case "ga": be_is_intl = 1; break;
+    case "gm": be_is_intl = 1; break;
+    case "gh": be_is_intl = 1; break;
+    case "gl": be_is_intl = 1; break;
+    case "gn": be_is_intl = 1; break;
+    case "gw": be_is_intl = 1; break;
+    case "ke": be_is_intl = 1; break;
+    case "ls": be_is_intl = 1; break;
+    case "lr": be_is_intl = 1; break;
+    case "ly": be_is_intl = 1; break;
+    case "mg": be_is_intl = 1; break;
+    case "mw": be_is_intl = 1; break;
+    case "ml": be_is_intl = 1; break;
+    case "mr": be_is_intl = 1; break;
+    case "mu": be_is_intl = 1; break;
+    case "yt": be_is_intl = 1; break;
+    case "ma": be_is_intl = 1; break;
+    case "mz": be_is_intl = 1; break;
+    case "na": be_is_intl = 1; break;
+    case "ne": be_is_intl = 1; break;
+    case "ng": be_is_intl = 1; break;
+    case "re": be_is_intl = 1; break;
+    case "rw": be_is_intl = 1; break;
+    case "sh": be_is_intl = 1; break;
+    case "st": be_is_intl = 1; break;
+    case "sn": be_is_intl = 1; break;
+    case "sc": be_is_intl = 1; break;
+    case "sl": be_is_intl = 1; break;
+    case "so": be_is_intl = 1; break;
+    case "za": be_is_intl = 1; break;
+    case "pm": be_is_intl = 1; break;
+    case "sd": be_is_intl = 1; break;
+    case "sz": be_is_intl = 1; break;
+    case "tz": be_is_intl = 1; break;
+    case "tg": be_is_intl = 1; break;
+    case "tn": be_is_intl = 1; break;
+    case "ug": be_is_intl = 1; break;
+    case "eh": be_is_intl = 1; break;
+    case "zm": be_is_intl = 1; break;
+    case "zw": be_is_intl = 1; break;
+    
+    case "bh": be_is_intl = 1; break;
+    case "cy": be_is_intl = 1; break;
+    case "gz": be_is_intl = 1; break;
+    case "iq": be_is_intl = 1; break;
+    case "il": be_is_intl = 1; break;
+    case "jo": be_is_intl = 1; break;
+    case "kw": be_is_intl = 1; break;
+    case "lb": be_is_intl = 1; break;
+    case "om": be_is_intl = 1; break;
+    case "qa": be_is_intl = 1; break;
+    case "sa": be_is_intl = 1; break;
+    case "sy": be_is_intl = 1; break;
+    case "tr": be_is_intl = 1; break;
+    case "ae": be_is_intl = 1; break;
+    case "we": be_is_intl = 1; break;
+    case "ye": be_is_intl = 1; break;
+    
+    case "af": be_is_intl = 1; break;
+    case "az": be_is_intl = 1; break;
+    case "bd": be_is_intl = 1; break;
+    case "bt": be_is_intl = 1; break;
+    case "bn": be_is_intl = 1; break;
+    case "bu": be_is_intl = 1; break;
+    case "kh": be_is_intl = 1; break;
+    case "cn": be_is_intl = 1; break;
+    case "tl": be_is_intl = 1; break;
+    case "hk": be_is_intl = 1; break;
+    case "in": be_is_intl = 1; break;
+    case "id": be_is_intl = 1; break;
+    case "ir": be_is_intl = 1; break;
+    case "jp": be_is_intl = 1; break;
+    case "kz": be_is_intl = 1; break;
+    case "kp": be_is_intl = 1; break;
+    case "kr": be_is_intl = 1; break;
+    case "kg": be_is_intl = 1; break;
+    case "la": be_is_intl = 1; break;
+    case "mo": be_is_intl = 1; break;
+    case "my": be_is_intl = 1; break;
+    case "mv": be_is_intl = 1; break;
+    case "mn": be_is_intl = 1; break;
+    case "np": be_is_intl = 1; break;
+    case "pk": be_is_intl = 1; break;
+    case "ph": be_is_intl = 1; break;
+    case "ru": be_is_intl = 1; break;
+    case "sg": be_is_intl = 1; break;
+    case "lk": be_is_intl = 1; break;
+    case "tw": be_is_intl = 1; break;
+    case "tj": be_is_intl = 1; break;
+    case "th": be_is_intl = 1; break;
+    case "tm": be_is_intl = 1; break;
+    case "uz": be_is_intl = 1; break;
+    case "vn": be_is_intl = 1; break;
+    
+    case "au": be_is_intl = 1; break;
+    case "nz": be_is_intl = 1; break;
+
+  };
+  return be_is_intl;
+}
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 $(document).ready(function() {		
 	$('.intro p.warning').remove();
   
@@ -1529,7 +1842,8 @@ $(document).ready(function() {
     } else {
       image_swap(sys_id);
       build_pricing();
-    } 
+    }
+    set_roaming(sys_id); 
   });
   $('.build-fieldset input.quantity').change(function(){
     var sys_id = $(this).parents('.build-fieldset').attr('id'); 
@@ -1579,6 +1893,12 @@ $(document).ready(function() {
     $('span.flabel').removeClass('highlight');
   });
   */
+  
+  $('select.select_country').change(function(){
+    model_validate_all();
+    set_roaming_all();
+    pricecheck();
+  });
     
   //value---------------------  
   $('#kic_value .inputs input, #kic_value .variables input').change(function(){ rebuild_value_chart(); });  
@@ -1622,6 +1942,7 @@ $(document).ready(function() {
   $('#build-a-kic_1 legend').siblings().toggleClass('hide');
   lower_kic_visibility_swap();
   image_swap('build-a-kic_1');
+  set_roaming_all();
   
   build_pricing();  
   
