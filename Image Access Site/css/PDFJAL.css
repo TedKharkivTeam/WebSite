@@ -1,3 +1,12 @@
+.infoblock{
+ font-size: 16px;
+    position: relative;
+}
+.infoblock span, p
+{
+    font-weight: normal;
+    line-height: 24px;
+}
 .infoblock__bscan-ill{
     text-align: left;
     position: relative;
@@ -60,4 +69,76 @@
     left: -64px;
     width: 65px;
     height:60px;
+}
+.infoblock--right{
+    text-align: right;
+}
+.infoblock .infoblock__title{
+    list-style: none;
+    display:inline-block;
+    width: 40%;
+    text-align: left;
+    padding:0;
+}
+.infoblock__title li{
+    padding-top: 10px;
+}
+.title__mark{
+    font-size: 45px;
+    font-weight: bold;
+    background: transparent;
+}
+.infoblock .infoblock__row{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.infoblock .woman_abs{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 25%;
+}
+.first-li{
+    margin-right: 20%;
+}
+.two-li{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.last-li{
+    margin-left: 20%;
+}
+.mark--margin{
+    margin-left:-20px;
+}
+.bscan--h2{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin:0;
+    padding:0;
+    line-height:1.2;
+}
+.infoblock__content{
+    display: inline-block;
+    width: 48%;
+    padding:0 5px;
+    vertical-align: top;
+}
+.infoblock .content__green-arrow{
+    padding-left: 50px;
+    list-style: none;
+}
+.content__green-arrow li{
+    position: relative;
+}
+.content__green-arrow li:before{
+    position: absolute;
+    content: '';
+    background: url("../images/green-arrow.png") no-repeat;
+    top:0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
 }
