@@ -66,13 +66,12 @@ var m3D = function () {
                         top.location.href = this.diapo.url;
                     } else {
                         if (selected && selected.uuid == self.diapo.uuid) {
-                            camera.tz = previousPosition.z - this.diapo.h;
+                            camera.tz = previousPosition.z - this.diapo.h + 200;
                             camera.tx = previousPosition.x;
                             camera.ty = previousPosition.y;
                         } else {
                             previousPosition = JSON.parse(JSON.stringify(camera));
-
-                            camera.tz = self.diapo.z - this.diapo.h;
+                            camera.tz = self.diapo.z - this.diapo.h + 200;
                             camera.tx = self.diapo.x;
                             camera.ty = self.diapo.y;
                         }
@@ -197,7 +196,7 @@ var m3D = function () {
             /* ---- изображения ---- */
             var x = 1500 * ((i % 4) - 1.5);
             var y = Math.round(Math.random() * 4000) - 2000;
-            var z = i * (8000 / n);
+            var z = i * (5000 / n) + 300;
             diapo.push(new Diapo(i - 1, o, x, y, z));
             /* ---- прозрачные рамки ---- */
             var k = diapo.length - 1;
