@@ -650,7 +650,7 @@ var defaultIAData = {
     companyName: "Image Access USA",
     contacts: [{
         type: 'site',
-        value: 'www.imageaccess.com/contact'
+        value: '../pages/Contact_Us.html'
     }, {
         type: 'tel:sales',
         value: '561-886-2900'
@@ -2820,7 +2820,7 @@ function getPopupContent(popupData) {
         defaultIAData.contacts.forEach(function (item) {
             switch (item.type) {
                 case "site":
-                    str += '<p><a class="site" href="//'+item.value+'" target="_blank">'+item.value+'</a></p>';
+                    str += '<p><a class="site" href="'+item.value+'" target="_blank">Contact Us</a></p>';
                     break;
                 case "tel":
                     str += '<p><a href="tel:'+item.value+'" target="_blank">'+item.value+'</a></p>';
