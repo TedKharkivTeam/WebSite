@@ -31,7 +31,6 @@
      font-weight: bold;
      padding-left: 25%;
      top:10%;
-     top:10%;
  }
 .infoblock div .infoblock__h2__p h2{
     font-size: 22px;
@@ -65,7 +64,7 @@
     /* overflow: hidden; */
     position: absolute;
     right: 10%;
-    padding-top: 6%;
+    padding-top: 2%;
 }
 
 .infoblock #infoblock__devices{
