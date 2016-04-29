@@ -159,7 +159,11 @@
     }
 
 }
-
+@media screen and (max-width: 1440px){
+    .two-step--img .two-step__all-scan {
+        top: -47px;
+    }
+}
 @media screen and (max-width: 1400px) {
     .content .infoblock .center__img {
         float: none;

@@ -7,6 +7,9 @@
     font-weight: normal;
     line-height: 24px;
 }
+.infoblock strong{
+    padding: 0;
+}
 .infoblock__bscan-ill{
     text-align: left;
     position: relative;
@@ -317,4 +320,49 @@
 .top--w3{
     width: 43%;
     padding-left: 5px;
+}
+h4 {
+    font-size: 23px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+}
+.two-step--width1{
+    width: 60%;
+}
+.two-step--width2{
+    width: 39%;
+}
+.two-step--bottom{
+    padding-top: 20%;
+}
+.two-step--img{
+    position: relative;
+}
+.two-step--img .two-step__all-scan{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 180%;
+    height: auto;
+}
+.block-grey{
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid #000;
+    text-align: center;
+    background: #bfdae2;
+}
+.infoblock .block-grey__ul{
+    margin: 0;
+    padding: 0;
+}
+.block-grey__ul li{
+    display: inline-block;
+    width: 13%;
+}
+.block-grey__ul p {
+    font-size: 12px;
+    text-align: center;
+    line-height:1.2;
 }
