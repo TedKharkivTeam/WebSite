@@ -11,7 +11,7 @@
 .infoblock__column {
     float: left;
     width: 50%;
-    padding: 7px;
+    padding: 10px;
 }
 .infoblock__column__a{
     padding-left: 60%;
@@ -30,7 +30,6 @@
      position: absolute;
      font-weight: bold;
      padding-left: 25%;
-     top:10%;
      top:10%;
  }
 .infoblock div .infoblock__h2__p h2{
@@ -58,21 +57,13 @@
      font-size: 12px;
 }
 
-.infoblock #infoblock__cloud{
-    width: 8%;
-    /* padding-top: 10%; */
-    /* float: right; */
-    /* overflow: hidden; */
-    position: absolute;
-    right: 10%;
-    padding-top: 6%;
-}
 
 .infoblock #infoblock__devices{
     position: absolute;
     width: 23%;
     left: 70%;
-    top: 26%;
+    top: 24%;
+
     height: auto;
 }
 

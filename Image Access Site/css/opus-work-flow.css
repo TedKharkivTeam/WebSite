@@ -1,4 +1,19 @@
-﻿/*First page*/
+﻿.vertical-gradient{
+	background: -moz-linear-gradient(bottom, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+	background: -webkit-linear-gradient(bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
+}
+
+
+
+/*First page*/
+
+.infoblock h2 {
+	color: black;
+	    text-align: center;
+	    font-size: 150%;
+}
 
 .infoblock__opus-logo {
     width: 80%;
@@ -11,7 +26,7 @@
 
 .infoblock__opus-logo__subtitle {
     font-weight: normal;
-    color: rgb(6,93,170);
+    color: rgb(6,90,163);
     letter-spacing: -2pt;
     word-spacing: 2pt;
     font-size: 27px;
@@ -19,6 +34,8 @@
     font-family: arial black, sans-serif;
     line-height: 1;
     margin-top: -10px;
+	text-align: center;
+	
 }
 
 .infoblock__book-stack-and-feature-enumeration {
@@ -36,6 +53,7 @@
 
     .infoblock__book-stack-and-feature-enumeration h2 {
         margin-left: 3%;
+	    
     }
 
     .book-stack-and-feature-enumeration__feature-enumeration {
@@ -47,12 +65,9 @@
  .infoblock__a-new-era-in-digitization {
      overflow: hidden;
      margin-left: 2%;
-     margin-top: 20px;
+     margin-top: 30px;
  }
 
-  .infoblock__a-new-era-in-digitization h2 {
-      text-align: center;
- }
 
  .a-new-era-in-digitization__columns {
      float: left;
@@ -69,14 +84,20 @@
  .infoblock__bottom-logos img{
      display: inline-block;
      width: 40%;
+
  }
 
  .infoblock__bottom-logos p{
      display: inline-block;
      vertical-align: middle;
      margin-left: 8px;
-     font-size: 120%;
+     font-size: 140%;
+	 font-weight: bolder;
+	 color: gray;
  }
+
+
+
 
  /*Second page*/
 
@@ -123,4 +144,50 @@
       line-height: 9pt;
  }
 
-  
+  /*Third Page*/
+
+  .infoblock ul.opus_list {
+    list-style: none;
+    columns: 2;
+    column-gap: 2em;
+    -moz-columns: 2;
+    -moz-column-gap: 2em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 2em;
+}
+
+.infoblock ul.opus_list li {
+    margin: 0 0 20px;
+    text-align: justify;
+	line-height: 1.1;
+}
+
+.infoblock ul.opus_list li span {
+    font-size: 18px;
+	margin: 0;
+    text-align: left;
+}
+
+.infoblock .infoblock__opus-bulleted-list {
+	margin-top: 3px;
+	list-style-type : none;
+	list-style-image: url('../images/JPGs of Opus Workflow Brochure/Opus_Bullet.png');
+	columns: 2;
+    column-gap: 3em;
+    -moz-columns: 2;
+    -moz-column-gap: 3em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 3em;
+}
+
+.infoblock .infoblock__opus-bulleted-list li {
+	text-align: justify;
+	line-height: 1.3;
+}
+
+/*Fourth page*/
+
+/*Fiveth page*/
+/*Watch opus-freeflow.css*/
+
+/*Sixth page*/
