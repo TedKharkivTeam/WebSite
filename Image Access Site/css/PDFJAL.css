@@ -366,3 +366,17 @@ h4 {
     text-align: center;
     line-height:1.2;
 }
+.center-br img{
+    width: 20%;
+}
+.center-br .two-step--inline{
+    vertical-align: top;
+}
+.block-grey__first{
+    display: inline-block;
+    width: 65%;
+}
+.block-grey__last{
+    display: inline-block;
+    width: 26%;
+}
