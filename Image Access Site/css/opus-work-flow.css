@@ -1,4 +1,13 @@
-﻿/*First page*/
+﻿.vertical-gradient{
+	background: -moz-linear-gradient(bottom, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+	background: -webkit-linear-gradient(bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
+}
+
+
+
+/*First page*/
 
 .infoblock h2 {
 	color: black;
@@ -135,4 +144,43 @@
       line-height: 9pt;
  }
 
-  
+  /*Third Page*/
+
+  .infoblock ul.opus_list {
+    list-style: none;
+    columns: 2;
+    column-gap: 2em;
+    -moz-columns: 2;
+    -moz-column-gap: 2em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 2em;
+}
+
+.infoblock ul.opus_list li {
+    margin: 0 0 20px;
+    text-align: justify;
+	line-height: 1.1;
+}
+
+.infoblock ul.opus_list li span {
+    font-size: 18px;
+	margin: 0;
+    text-align: left;
+}
+
+.infoblock .infoblock__opus-bulleted-list {
+	margin-top: 3px;
+	list-style-type : none;
+	list-style-image: url('../images/JPGs of Opus Workflow Brochure/Opus_Bullet.png');
+	columns: 2;
+    column-gap: 3em;
+    -moz-columns: 2;
+    -moz-column-gap: 3em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 3em;
+}
+
+.infoblock .infoblock__opus-bulleted-list li {
+	text-align: justify;
+	line-height: 1.3;
+}
