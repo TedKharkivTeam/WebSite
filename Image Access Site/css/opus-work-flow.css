@@ -1,5 +1,11 @@
 ﻿/*First page*/
 
+.infoblock h2 {
+	color: black;
+	    text-align: center;
+	    font-size: 150%;
+}
+
 .infoblock__opus-logo {
     width: 80%;
     text-align: center;
@@ -11,7 +17,7 @@
 
 .infoblock__opus-logo__subtitle {
     font-weight: normal;
-    color: rgb(6,93,170);
+    color: rgb(6,90,163);
     letter-spacing: -2pt;
     word-spacing: 2pt;
     font-size: 27px;
@@ -19,6 +25,8 @@
     font-family: arial black, sans-serif;
     line-height: 1;
     margin-top: -10px;
+	text-align: center;
+	
 }
 
 .infoblock__book-stack-and-feature-enumeration {
@@ -36,6 +44,7 @@
 
     .infoblock__book-stack-and-feature-enumeration h2 {
         margin-left: 3%;
+	    
     }
 
     .book-stack-and-feature-enumeration__feature-enumeration {
@@ -47,12 +56,9 @@
  .infoblock__a-new-era-in-digitization {
      overflow: hidden;
      margin-left: 2%;
-     margin-top: 20px;
+     margin-top: 30px;
  }
 
-  .infoblock__a-new-era-in-digitization h2 {
-      text-align: center;
- }
 
  .a-new-era-in-digitization__columns {
      float: left;
@@ -69,14 +75,20 @@
  .infoblock__bottom-logos img{
      display: inline-block;
      width: 40%;
+
  }
 
  .infoblock__bottom-logos p{
      display: inline-block;
      vertical-align: middle;
      margin-left: 8px;
-     font-size: 120%;
+     font-size: 140%;
+	 font-weight: bolder;
+	 color: gray;
  }
+
+
+
 
  /*Second page*/
 
