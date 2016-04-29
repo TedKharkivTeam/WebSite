@@ -490,6 +490,7 @@ div.dn_arrow {
 
 .imgbook {
     max-width: 190px;
+    max-height: 132px;
     padding: 0 !important;
     position: relative;
 }

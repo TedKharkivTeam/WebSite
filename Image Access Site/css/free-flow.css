@@ -337,7 +337,31 @@
 }
 
 .table_1 td {
-    border: groove 3px  ;
+    border: groove 3px;
     border-collapse: collapse;
 
+}
+
+.infoblock .label_versus {
+    font-size: x-large;
+    color: #2c89c6;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    display: block;
+}
+
+.table_2 {
+    width: 70%;
+    border: groove 3px;
+    border-collapse: collapse;
+
+}
+.table_2 td {
+    border: groove 3px;
+    border-collapse: collapse;
+
+}
+.infoblock .bottom_label{
+    text-align: center;
+    font-weight: 700;
 }
