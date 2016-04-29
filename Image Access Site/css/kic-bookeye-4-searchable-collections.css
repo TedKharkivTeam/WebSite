@@ -1,0 +1,79 @@
+.infoblock__block-title2{
+    font: 14px "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 39px;
+    font-weight: bold;
+    color:#000000;
+    text-shadow: none;
+    text-align: center;
+}
+.infoblock__block-title{
+    font: 14px "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color:#000000;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+}
+.infoblock__text-block {
+    float: left;
+    width: 55%;
+}
+.infoblock__text-block-2{
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.infoblock .infoblock__peppermint2 {
+    list-style-image: url(../images/KIC_Click_and_Click_Mini_Brochure3_blue-bullet2.png);
+}
+div .infoblock__block {
+    padding-top: 0%;
+    float:left;
+    width: 49%;
+}
+
+.infoblock__block .infoblock__number{
+     width: auto;
+     float:left;
+ }
+.infoblock__block-3 .infoblock__number{
+    width: auto;
+    float:left;
+}
+
+.infoblock__block-1{
+    float:left;
+    width: 70%;
+
+}
+
+.block_text2{
+    padding-top: 3%;
+}
+
+.infoblock__block-3 div .block_text2{
+    width: 50%;
+    padding-top: 1%;
+}
+.infoblock .infoblock__img{
+    width: auto;
+}
+#infoblock__man_pdf{
+    padding-left: 5%;
+}
+
+.infoblock__block-3{
+    position: absolute;
+    bottom: 35%;
+
+}
+div #infoblock__management{
+    width: 50%;
+    float:left;
+}
+div .infoblock__diagram{
+    width: 45%;
+    float:left;
+}
