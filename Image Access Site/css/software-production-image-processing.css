@@ -1,0 +1,90 @@
+.infoblock strong {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.infoblock__p--center-text {
+    margin: 10px auto;
+    display: block;
+    width: 70%;
+}
+
+.infoblock__content-holder {
+    width: 100%;
+    overflow: hidden;
+}
+
+.infoblock__content-holder--left {
+    width: 48%;
+    float: left;
+}
+
+.infoblock__content-holder--right {
+    width: 48%;
+    float: right;
+}
+
+.blue-shadow-title {
+    padding: 0;
+    text-align: left;
+    color: #291769;
+    text-shadow: 3px 1px 7px #333;
+}
+
+.infoblock__content-holder__content {
+    overflow: hidden;
+    padding: 0 0 20px 0;
+}
+
+.infoblock__content-holder__content img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock__content-holder__content__p {
+    float: left;
+    width: 50%;
+}
+
+.infoblock .infoblock__content-holder__content__image {
+    float: right;
+    width: 46%;
+}
+
+.infoblock__content-holder__tripple {
+    width: 33%;
+    float: left;
+    padding: 5px;
+}
+
+.infoblock .infoblock__content-holder--left__DRS-logo {
+    width: 40%;
+}
+
+.infoblock__content-holder__tripple span {
+    color: #3d3b8e;
+    font-size: 9px;
+    text-align: right;
+}
+
+.infoblock__content-holder__tripple table {
+    font-size: 9px;
+    border-collapse: collapse;
+}
+
+.infoblock__content-holder__tripple table tbody tr td {
+    border: 1px solid #000;
+}
+
+.infoblock__content-holder__content__bottom--left {
+    width: 48%;
+    float: left;
+}
+
+.infoblock__content-holder__content__bottom--right {
+    width: 48%;
+    float: right;
+}
