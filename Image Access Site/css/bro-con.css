@@ -244,11 +244,6 @@ h4 {
     margin-left: 175px;
 }
 
-.to-down {
-    flex-direction: column;
-
-}
-
 .brochure-block .block-title {
     padding: 1px 50px;
     color: #8ad;
@@ -307,7 +302,6 @@ h4 {
     color: #666;
 }
 
-
 .brochure-block .two-col {
     width: 120%;
     overflow: hidden;
@@ -346,7 +340,6 @@ h4 {
 .brochure-block .two-col p {
     padding: .3em;
 }
-
 
 .brochure-block .two-col ul {
     margin: 0;
@@ -472,7 +465,6 @@ div.dn_arrow {
     height: 32px;
 }
 
-
 .text-grey-pbd:before {
     content: '';
     position: absolute;
@@ -490,7 +482,7 @@ div.dn_arrow {
 
 .imgbook {
     max-width: 190px;
-    max-height: 132px;
+    height: auto;
     padding: 0 !important;
     position: relative;
 }
@@ -593,7 +585,9 @@ div.dn_arrow {
 }
 
 .bb--border {
-    padding: 16px 10px 20px 10px;
+    width: 30%;
+    height: 300px;
+    padding: 15px;
     border: 1px solid #707070;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -601,8 +595,11 @@ div.dn_arrow {
 }
 
 .h4--border {
+    font-family: 'LilyUPC', Arial, sans-serif;
     background: #fff;
-    margin-top: -40px;
+    margin-top: -45px;
+    font-size: 50px;
+    line-height: 1;
 }
 
 .world {
@@ -612,8 +609,8 @@ div.dn_arrow {
 }
 
 .span--bold {
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'LilyUPC', Arial, sans-serif;
+    font-size: 40px;
 }
 
 .absolute {
@@ -709,6 +706,8 @@ div.dn_arrow {
 }
 
 .green--arrow {
+    width: 136px;
+    height: auto;
     position: absolute;
     top: -92px;
     right: -70px;
@@ -752,5 +751,47 @@ div.dn_arrow {
 
 .content__brochure-block__img {
     margin-left: 10%;
+    width: auto;
+    height: 150px;
 }
 
+.h4--frames {
+    font-family: 'LilyUPC', Arial, sans-serif;
+    font-size: 90px;
+    line-height: 1;
+    padding: 0 0 0 1%;
+    font-weight: normal;
+}
+
+.label-new {
+    width: 70px;
+    height: auto;
+}
+.left-picture-frame4C {
+    width: 70%;
+    height: auto;
+    padding: 10px 0;
+}
+.right-picture-frame4C {
+    width: 90%;
+    height: auto;
+    padding: 10px 0;
+}
+.h2--frame5A {
+    font-family: 'LilyUPC', Arial, sans-serif;
+    margin: 0;
+    font-size: 70px !important;
+    line-height: 1;
+}
+.border-frame5a {
+    margin: 30px auto;
+    width: 97%;
+    padding: 15px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.image5B {
+    width: 100%;
+}

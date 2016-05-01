@@ -227,7 +227,8 @@
     vertical-align: top;
     padding-top: 10px;
 }
-.infoblock .block__ul{
+
+.infoblock .block__ul {
     list-style: none;
     padding: 0 4px;
     padding-top: 10px;
