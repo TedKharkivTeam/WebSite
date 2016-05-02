@@ -1547,6 +1547,12 @@ var load_lower = function(){
 
 var set_roaming = function(sys_id){
   var be_is_intl = be_is_intl_roaming($('select.select_country').val());
+  var show_disc_call_box = show_disc_call($('select.select_country').val());
+  if (show_disc_call_box) {
+    $('#build_your_kic .page-summary .flabel').removeClass('hide');
+    } else {
+      $('#build_your_kic .page-summary .flabel').addClass('hide');
+    };  
   var model = get_model(sys_id);
   if (be_is_intl) {
     switch (model) {
@@ -1576,6 +1582,20 @@ var set_roaming = function(sys_id){
     $('#'+sys_id+' #scannerfuzz').addClass('hide');
   };
 }
+
+var show_disc_call = function(country_id) {
+  var show_disc_call = 0;
+  switch (country_id) {
+    case "ca": show_disc_call = 1; break;
+    case "gu": show_disc_call = 1; break;
+    case "mp": show_disc_call = 1; break;
+    case "pr": show_disc_call = 1; break;
+    case "vi": show_disc_call = 1; break;
+    case "us": show_disc_call = 1; break;
+  };
+  return show_disc_call;
+}
+
 
 var be_is_intl_roaming = function(country_id) {
   var be_is_intl = 0;
