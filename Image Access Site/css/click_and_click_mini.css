@@ -142,3 +142,197 @@
 
     text-align: center;
 }
+
+.infoblock .dvfu1 {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 600;
+}
+
+.infoblock .dvfu2 {
+    float: left;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.infoblock .dv_block {
+
+    width: 48%;
+    display: block;
+    margin-top: 6%;
+    text-align: left;
+}
+
+.infoblock .dv_block1 {
+    float: left;
+    margin-left: 50%;
+    margin-top: -24.2%;
+    width: 48%;
+}
+
+.
+.infoblock__top {
+    overflow: hidden;
+}
+
+.infoblock .top__logo {
+    max-width: 340px;
+    float: left;
+}
+
+.top__h1 {
+    text-align: left;
+    color: #000;
+    text-shadow: none;
+    font-size: 32px;
+    margin: 0;
+}
+
+.top__h2 {
+    text-align: left;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 500;
+    color: #000000;
+}
+
+.infoblock__center {
+    overflow: hidden;
+    margin-top: -80px;
+}
+
+.infoblock .center__img {
+    float: right;
+    width: 58%;
+    padding-left: 20px;
+}
+
+.center__text--padding {
+    padding-top: 90px;
+    position: relative;
+}
+
+.center__text--margin {
+    padding-top: 25px;
+    width: 50%;
+}
+
+.infoblock__nav {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.infoblock .nav__li {
+    float: left;
+    width: 38%;
+}
+
+.infoblock .nav__img {
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.infoblock .li--width {
+    width: 80%;
+}
+
+.nav__li li:first-child {
+    list-style: none;
+}
+
+.nav__li--margin {
+    margin-left: 20px;
+}
+
+.infoblock .infoblock__bottom {
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+.infoblock__bottom li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 17%;
+}
+
+.infoblock .bottom__img {
+    width: 24%;
+    margin-left: 25px;
+}
+
+.infoblock .bottom__a {
+    width: 20%;
+    position: relative;
+    top: -15px;
+}
+
+.bottom__a a {
+    font-size: 26px;
+    color: #454733;
+    margin-bottom: 10px;
+}
+
+.a--rel {
+    position: absolute;
+    bottom: 76px;
+    font-size: 30px;
+    color: #8c897d;
+    width: 230%;
+    right: 0;
+}
+
+.infoblock .logos {
+    width: 17%;
+}
+
+.infoblock .true2 {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.infoblock .true2_save_to_usb {
+    width: 45%;
+    float: left;
+}
+
+.infoblock .true2_label {
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+}
+
+.infoblock .true2_block_usb {
+    width: 100%;
+    display: table-cell;
+}
+
+.infoblock .true2_label1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.infoblock .true2_block_2 {
+    width: 50%;
+}
+
+.infoblock .true2_block_3 {
+    width: 30%;
+    margin-left: 9%;
+    font-style: italic;
+}
+
+.infoblock .kic_div .true2_two_screens {
+    width: 47%;
+    float: right;
+}
+
+.infoblock .true2_label2 {
+    margin-top: 10%;
+    margin-left: 66%;
+}
