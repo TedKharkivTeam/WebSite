@@ -241,22 +241,76 @@ h5 {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.infoblock__bordered-block p{
+.infoblock__bordered-block p {
     color: aliceblue;
 }
 
-.infoblock__hierarchical-metadata-bottom-block{
+.infoblock__hierarchical-metadata-bottom-block {
     margin-top: 3%;
     overflow: hidden;
 }
 
-.infoblock__hierarchical-metadata-bottom-block img{
+.infoblock__hierarchical-metadata-bottom-block img {
     float: left;
     width: 65%;
 }
 
-.infoblock__hierarchical-metadata-bottom-paragraphs{
+.infoblock__hierarchical-metadata-bottom-paragraphs {
     float: left;
     margin-left: 2%;
     width: 30%;
+}
+
+/*Seventh page*/
+.infoblock__derivatives-top-columns {
+    margin-top: 2%;
+    columns: 2;
+    column-gap: 2em;
+    -moz-columns: 2;
+    -moz-column-gap: 2em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 2em;
+}
+
+.infoblock__derivatives-pictures {
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.derivatives-pictures__digital-masters {
+    float: left;
+    width: 10% !important;
+}
+
+.derivatives-pictures__final-destinations {
+    float: left;
+    width: 90% !important;
+    z-index: 2;
+    position: relative;
+}
+
+.derivatives-pictures__bottom-diagram {
+    margin-top: -5%;
+    z-index: 1;
+}
+
+.derivatives-pictures__bottom-paragraph {
+    position: absolute;
+    left: 30%;
+    top: 73%;
+    width: 20%;
+    z-index: 5;
+    line-height: 1.1;
+}
+
+.infoblock__derivatives-star-note {
+    font-size: 70%;
+}
+
+.infoblock__logo {
+
+}
+
+.infoblock__logo img {
+    width: 24%;
 }
