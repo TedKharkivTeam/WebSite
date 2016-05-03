@@ -33,9 +33,13 @@
 }
 
 .infoblock .infoblock__block-header1 {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
 
+    padding: 10px 0;
     text-align: right;
-
+    text-shadow: none;
     float: right;
     width: 56%;
     margin-right: 5%;
