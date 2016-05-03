@@ -72,11 +72,11 @@
 }
 
 .infoblock .infoblock_no_compromise {
-    margin-left: 65%;
+    text-align: center;
     margin-top: 2%;
     color: black;
     text-shadow: none;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .infoblock .infoblock_do_before_1 {
@@ -222,6 +222,7 @@
 
 .infoblock .treated {
     font-size: xx-large;
+    text-align: center;
 }
 
 .infoblock .content_stabilization {
