@@ -1,18 +1,16 @@
-﻿.vertical-gradient{
-	background: -moz-linear-gradient(bottom, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
-	background: -webkit-linear-gradient(bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
-	background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
+﻿.vertical-gradient {
+    background: -moz-linear-gradient(bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: -webkit-linear-gradient(bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    background: linear-gradient(to top, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0);
 }
-
-
 
 /*First page*/
 
 .infoblock h2 {
-	color: black;
-	    text-align: center;
-	    font-size: 150%;
+    color: black;
+    text-align: center;
+    font-size: 150%;
 }
 
 .infoblock__opus-logo {
@@ -20,13 +18,13 @@
     text-align: center;
 }
 
-    .infoblock__opus-logo img {
-        width: 50%;
-    }
+.infoblock__opus-logo img {
+    width: 50%;
+}
 
 .infoblock__opus-logo__subtitle {
     font-weight: normal;
-    color: rgb(6,90,163);
+    color: rgb(6, 90, 163);
     letter-spacing: -2pt;
     word-spacing: 2pt;
     font-size: 27px;
@@ -34,8 +32,8 @@
     font-family: arial black, sans-serif;
     line-height: 1;
     margin-top: -10px;
-	text-align: center;
-	
+    text-align: center;
+
 }
 
 .infoblock__book-stack-and-feature-enumeration {
@@ -45,108 +43,106 @@
     overflow: hidden;
 }
 
-    .infoblock__book-stack-and-feature-enumeration img {
-        width: 48%;
-        vertical-align: central;
-        float: left;
-    }
+.infoblock__book-stack-and-feature-enumeration img {
+    width: 52%;
+    vertical-align: central;
+    float: left;
+    display: inline-block;
+}
 
-    .infoblock__book-stack-and-feature-enumeration h2 {
-        margin-left: 3%;
-	    
-    }
+.infoblock__book-stack-and-feature-enumeration h2 {
+    margin-left: 3%;
 
-    .book-stack-and-feature-enumeration__feature-enumeration {
-        float: left;
-        width: 45%;
-        margin-left: 3%;
-    }
+}
 
- .infoblock__a-new-era-in-digitization {
-     overflow: hidden;
-     margin-left: 2%;
-     margin-top: 30px;
- }
+.book-stack-and-feature-enumeration__feature-enumeration {
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+}
 
+.infoblock__a-new-era-in-digitization {
+    overflow: hidden;
+    margin-left: 2%;
+    margin-top: 30px;
+}
 
- .a-new-era-in-digitization__columns {
-     float: left;
-     width: 44%;
-     margin-left: 3%;
- }
+.a-new-era-in-digitization__columns {
+    float: left;
+    width: 44%;
+    margin-left: 3%;
+}
 
- .infoblock__bottom-logos {
-     float: right;
-     margin-right: -9%;
-     margin-top: 30px;
- }
+.infoblock__bottom-logos {
+    float: right;
+    margin-right: 3%;
+    margin-top: 30px;
+}
 
- .infoblock__bottom-logos img{
-     display: inline-block;
-     width: 40%;
+.infoblock__bottom-logos img {
+    display: inline-block;
+    width: 60%;
 
- }
+}
 
- .infoblock__bottom-logos p{
-     display: inline-block;
-     vertical-align: middle;
-     margin-left: 8px;
-     font-size: 140%;
-	 font-weight: bolder;
-	 color: gray;
- }
+.infoblock__bottom-logos p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    font-size: 140%;
+    font-weight: bolder;
+    color: gray;
+}
 
+/*Second page*/
 
+.infoblock__title {
+    text-align: center;
+}
 
+h2 {
+    padding-bottom: 0;
+}
 
- /*Second page*/
+h5 {
+    font-family: verdana;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+}
 
- .infoblock__title {
-     text-align: center;
- }
+.infoblock__white-rectangulars {
+    overflow: hidden;
+    background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
+    width: 100%;
+    background-size: contain;
+}
 
- h2 {
-     padding-bottom:  0;
- }
+.white-rectangulars__articles {
+    float: left;
+    width: calc(9.09% - 5px);
+    margin-left: 8px;
+}
 
- h5 {
-     font-family: verdana;
-     color: black;
-     font-size: 110%;
-     font-weight: bold;
- }
+.white-rectangulars__articles p {
+    word-spacing: -1pt;
+    letter-spacing: 0;
+    font-size: 65%;
+    line-height: 7pt;
+    width: 100%;
+    padding-left: 10px;
+}
 
- .infoblock__white-rectangulars {
-     overflow: hidden;
-     background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
-     width: 100%;
-     background-size: contain;
- }
+.white-rectangulars__articles h6 {
+    text-align: center;
+    margin-top: 4px;
+    line-height: 9pt;
+    color: black;
+}
 
- .white-rectangulars__articles {
-     float: left;
-     width: calc(9.09% - 5px);
-     margin-left: 8px;
- }
+/*Third Page*/
 
- .white-rectangulars__articles p{
-     word-spacing: -1pt;
-     letter-spacing: 0;
-     font-size: 65%;
-     line-height: 7pt;
-     width: 100%;
-     padding-left: 10px;
- }
-
-  .white-rectangulars__articles h6{
-      text-align: center;
-      margin-top: 4px;
-      line-height: 9pt;
- }
-
-  /*Third Page*/
-
-  .infoblock ul.opus_list {
+.infoblock ul.opus_list {
     list-style: none;
     columns: 2;
     column-gap: 2em;
@@ -159,20 +155,20 @@
 .infoblock ul.opus_list li {
     margin: 0 0 20px;
     text-align: justify;
-	line-height: 1.1;
+    line-height: 1.1;
 }
 
 .infoblock ul.opus_list li span {
     font-size: 18px;
-	margin: 0;
+    margin: 0;
     text-align: left;
 }
 
 .infoblock .infoblock__opus-bulleted-list {
-	margin-top: 3px;
-	list-style-type : none;
-	list-style-image: url('../images/JPGs of Opus Workflow Brochure/Opus_Bullet.png');
-	columns: 2;
+    margin-top: 3px;
+    list-style-type: none;
+    list-style-image: url('../images/JPGs of Opus Workflow Brochure/Opus_Bullet.png');
+    columns: 2;
     column-gap: 3em;
     -moz-columns: 2;
     -moz-column-gap: 3em;
@@ -181,13 +177,86 @@
 }
 
 .infoblock .infoblock__opus-bulleted-list li {
-	text-align: justify;
-	line-height: 1.3;
+    text-align: justify;
+    line-height: 1.3;
 }
 
 /*Fourth page*/
+.infoblock__bottom-images {
+    overflow: hidden;
+}
+
+.bottom-images__removing-artifacts {
+    float: left;
+    width: 55%;
+}
+
+.bottom-images__inverting-photo {
+    float: left;
+    width: 37%;
+    margin-left: 3%;
+}
 
 /*Fiveth page*/
 /*Watch opus-freeflow.css*/
 
 /*Sixth page*/
+.infoblock__hierarchical-metadata-capture {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.infoblock__hierarchical-metadata_paragraph-with-image {
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.infoblock__hierarchical-metadata_paragraph-with-image img {
+    float: left;
+    width: 65%;
+    margin-left: 4%;
+}
+
+.infoblock__hierarchical-metadata_paragraph-with-image p {
+    float: left;
+    width: 30%;
+}
+
+.infoblock__hierarchical-metadata-paragraph-under-top-picture {
+    margin-top: 2%;
+}
+
+.infoblock__bordered-block {
+    background: rgb(69, 170, 204);
+    margin-top: 2%;
+    border: 2px solid black;
+    padding: 2%;
+    margin-left: 16%;
+    margin-right: 16%;
+    font-style: italic;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.infoblock__bordered-block p{
+    color: aliceblue;
+}
+
+.infoblock__hierarchical-metadata-bottom-block{
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+.infoblock__hierarchical-metadata-bottom-block img{
+    float: left;
+    width: 65%;
+}
+
+.infoblock__hierarchical-metadata-bottom-paragraphs{
+    float: left;
+    margin-left: 2%;
+    width: 30%;
+}
