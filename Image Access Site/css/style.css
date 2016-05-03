@@ -346,21 +346,21 @@ div.close {
     top: 2px;
 }
 
-.brochure-title-center {
+.infoblock .brochure-title-center {
     color: #000;
     font-size: 36px;
     line-height: 38px;
     text-align: center;
     padding: 10px 0;
 }
-.brochure-title-left {
+.infoblock .brochure-title-left {
     color: #000;
     font-size: 36px;
     line-height: 38px;
     text-align: left;
     padding: 5px 0;
 }
-.brochure-subtitle-center {
+.infoblock .brochure-subtitle-center {
     color: #000;
     font-size: 26px;
     line-height: 28px;
@@ -368,7 +368,7 @@ div.close {
     padding: 5px 0;
     margin: 0;
 }
-.brochure-subtitle-left {
+.infoblock .brochure-subtitle-left {
     color: #000;
     font-size: 26px;
     line-height: 28px;
