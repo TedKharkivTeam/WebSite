@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Production Image Processing :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
-     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <link rel="stylesheet" type="text/css" href="../css/software-production-image-processing.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
 </head>
@@ -22,8 +23,168 @@
         <li class="selected"><a href="#">Automated Image Processing</a></li>
     </ul>
     <div class="infoblock">
-        <img src="../images/BSCAN_Production_Image_Treatment_1.jpg" width="" height="" alt="">
-        <img src="../images/BSCAN_Production_Image_Treatment_2.jpg" width="" height="" alt="">
+        <img src="../images/Production_Image_Processing/BSCAN_Logo_With_Planet.png" width="" height="" alt=""/>
+        <strong>Automated Image Processing</strong>
+        <p class="infoblock__p--center-text">With BSCAN-IP automated and manual image cleanup and quality checking can
+            be performed on PCs without
+            scanners. A single BSCAN-IP station can process over a million images per day, depending on the number and
+            types of image processing functions are automaticalli checked and any images that may have a problem are
+            flagged for manual review and possible correction.</p>
+        <p class="infoblock__p--center-text">If BSCAN's Undo Image Processing feature is enabled, all image processing
+            performed automatically can be
+            manually undone and performed again with different parameters in later stage.</p>
+        <div class="infoblock__content-holder">
+            <div class="infoblock__content-holder--left">
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Crop & Deskew</h2>
+                    <p>Removes black borders and straightens sweked documents. If a questionable crop and deskew is
+                        preformed, the image is flagged for later rewiew and possible manual crop and deskew using the
+                        mouse.</p>
+                    <img src="../images/Production_Image_Processing/TwoYellowPages.png" width="375" height="227"
+                         alt="Crop and Deskew"/>
+                </div>
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Create Snippets</h2>
+                    <p>Automatically clip sections of images and create new image files. As shown below, this feature
+                        can be used to post signatures from contracts or delivery receipts to the WEB.</p>
+                    <img src="../images/Production_Image_Processing/Signature.png" width="" height=""
+                         alt="Create Snippets"/>
+                </div>
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Automatically Delete Blank Pages</h2>
+                    <p>With this feature, if a page is blank, it is automatically flagged for deletion. If there is a
+                        chance that it has any content, a small scribble for example, then the page is flagged for
+                        review. During review, the flag for deletion can be turned off and on.</p>
+                </div>
+            </div>
+            <div class="infoblock__content-holder--right">
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Automatic Rotation</h2>
+                    <p>This function is very effective with most types of documents. If BSCAN has any doubt that a
+                        rotated image should have been rotated, a flag is set for review and possible correction.</p>
+                    <img src="../images/Production_Image_Processing/TwoRedPages.png" width="381" height="223"
+                         alt="Automatic Rotation"/>
+                </div>
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Clip</h2>
+                    <p class="infoblock__content-holder__content__p">Automatically locate clip one more regions in
+                        bitonal, grayscale and color images, or setup a
+                        custom high-speed manual clipping facility to process images quickly and reliably.</p>
+                    <img class="infoblock__content-holder__content__image"
+                         src="../images/Production_Image_Processing/Pepers.png" width="300" height="205" alt="Clip"/>
+                </div>
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Despeckle</h2>
+                    <p class="infoblock__content-holder__content__p">This function has numerous filters for removing
+                        various speck sizes. If the text is very light, it is possible that despeck will furher lighten
+                        the text. During the auto-matic processing, if BSCAN despeckles an image and senses a possible
+                        loss of readability, the image is flagged for review and correction.</p>
+                    <img class="infoblock__content-holder__content__image"
+                         src="../images/Production_Image_Processing/TwoWhitePages.png" width="300" height="235"
+                         alt="Despeckle"/>
+                </div>
+            </div>
+        </div>
+        <img src="../images/Production_Image_Processing/BSCAN_Logo_Automated_Image_Processing.png" width="" height=""
+             alt=""/>
+        <div class="infoblock__content-holder">
+            <div class="infoblock__content-holder__tripple">
+                <h2 class="blue-shadow-title">Scan Quality Tests</h2>
+                <p>These tests check for the possibility of text dropout, badly skewed scanning and general clarity.</p>
+            </div>
+            <div class="infoblock__content-holder__tripple">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>Review Orientation</td>
+                        <td>May be upside-down</td>
+                    </tr>
+                    <tr>
+                        <td>Review DRS</td>
+                        <td>May need DRS tuning</td>
+                    </tr>
+                    <tr>
+                        <td>Review Crop & Deskew</td>
+                        <td>May need manual Crop & Deskew</td>
+                    </tr>
+                    <tr>
+                        <td>Review Color Dropout</td>
+                        <td>Color dropout needs review</td>
+                    </tr>
+                    <tr>
+                        <td>Review for Content Image</td>
+                        <td>May not be blank</td>
+                    </tr>
+                    <tr>
+                        <td>Review Borders for Content</td>
+                        <td>May have lost data around border</td>
+                    </tr>
+                    <tr>
+                        <td>Review Despeckle</td>
+                        <td>May have removed good data</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <span>* see software update information for the latest list</span>
+            </div>
+            <div class="infoblock__content-holder__tripple">
+                <h2 class="blue-shadow-title">And More</h2>
+                <p>A multitude of image processing functionality is available through scripting.</p>
+            </div>
+        </div>
+        <div class="infoblock__content-holder">
+            <div class="infoblock__content-holder--left">
+                <img class="infoblock__content-holder--left__DRS-logo"
+                     src="../images/Production_Image_Processing/logo_DRS.png" width="" height="" alt=""/>
+                <div class="infoblock__content-holder__content">
+                    <p>Dynamic Resampling Software allows images to be rescanned on a non-scanner workstation long after
+                        they were originally scanned. If DRS is automatically performed, images with potential problems
+                        are flagged for manual review and correction by changing DRS setting. A grayscale or color
+                        scanner is required.</p>
+                </div>
+                <div class="infoblock__content-holder__content">
+                    <p class="infoblock__content-holder__content__p">Color scanning seldom requires special scanner
+                        setting. With DRS and color scanners, any employee can scan their own documents at any personal
+                        or departmental color scanner and let a central BSCAN-IP station perform any cleanup that might
+                        be necessary. Before Committing the images the images to permanent storage, a trained worker can
+                        review and fix image clarity problems using DRS.</p>
+                    <img class="infoblock__content-holder__content__image"
+                         src="../images/Production_Image_Processing/YellowToWhitePage.png" width="" height=""
+                         alt="Dynamic Resampling Software"/>
+                </div>
+            </div>
+            <div class="infoblock__content-holder--right">
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Color Dropout</h2>
+                    <p>Everywhere on the page or in the specified region, the specified color is changed to the color of
+                        the surrounding background or to another color. Use color dropout on binary images, by scanning
+                        in color, performing one or more color dropout operations and then converting the image to
+                        binary.</p>
+                </div>
+                <div class="infoblock__content-holder__content">
+                    <h2 class="blue-shadow-title">Text Enchance</h2>
+                    <p>Scanning in color offers a whole new range of Image Processing functions. Our text enchance
+                        feature can dramatically improve readability. Faded text can be made clear. even when the
+                        background of the text is a dark color.</p>
+                    <img src="../images/Production_Image_Processing/BlueWhiteTable.png" width="" height=""
+                         alt="Color Dropout"/>
+                </div>
+            </div>
+        </div>
+        <div class="infoblock__content-holder">
+            <div class="infoblock__content-holder__content">
+                <h2 class="blue-shadow-title">Manual Review & Reprocessing</h2>
+                <p class="infoblock__content-holder__content__bottom--left">Performing QC after scanning can
+                    dramatically improve overall throughput. The scanner can be run at full speed. After scanning, QC
+                    can be performed rapidly when the images are good and slower when there are problems. View all
+                    images, or just the images that were automatically flagged for review during image processing. Undo
+                    is supported for all image processing functions.</p>
+                <p class="infoblock__content-holder__content__bottom--right">For example, if an image has delicate fine
+                    print and the Review Despeckle flag was set for that image, the despeckle function can be undone and
+                    less aggressive despeckle functions can be tried. With DRS, the image can be binarized again and
+                    again until it is right, without handling the paper or stopping the scanning process.</p>
+            </div>
+        </div>
     </div>
 </div>
 <footer>

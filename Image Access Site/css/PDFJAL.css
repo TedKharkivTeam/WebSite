@@ -1,3 +1,15 @@
+.infoblock{
+ font-size: 16px;
+    position: relative;
+}
+.infoblock span, p
+{
+    font-weight: normal;
+    line-height: 24px;
+}
+.infoblock strong{
+    padding: 0;
+}
 .infoblock__bscan-ill{
     text-align: left;
     position: relative;
@@ -60,4 +72,297 @@
     left: -64px;
     width: 65px;
     height:60px;
+}
+.infoblock--right{
+    text-align: right;
+}
+.infoblock .infoblock__title{
+    list-style: none;
+    display:inline-block;
+    width: 40%;
+    text-align: left;
+    padding:0;
+}
+.infoblock__title li{
+    padding-top: 10px;
+}
+.title__mark{
+    font-size: 45px;
+    font-weight: bold;
+    background: transparent;
+}
+.infoblock .infoblock__row{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.infoblock .woman_abs{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 25%;
+}
+.first-li{
+    margin-right: 20%;
+}
+.two-li{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.last-li{
+    margin-left: 20%;
+}
+.mark--margin{
+    margin-left:-20px;
+}
+.bscan--h2{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin:0;
+    padding:0;
+    line-height:1.2;
+}
+.infoblock__content{
+    display: inline-block;
+    width: 48%;
+    padding:0 5px;
+    vertical-align: top;
+}
+.infoblock .content__green-arrow{
+    padding-left: 50px;
+    list-style: none;
+}
+.content__green-arrow li{
+    position: relative;
+}
+.content__green-arrow li:before{
+    position: absolute;
+    content: '';
+    background: url("../images/green-arrow.png") no-repeat;
+    top:0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+}
+.seven-step{
+    text-align: center;
+    position: relative;
+}
+.seven-step:after{
+    content: 'VS';
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    background: #000;
+    border-radius: 50%;
+    bottom: -35px;
+    right: 50%;
+    padding: 0 20px;
+    margin: 0 -20px;
+    z-index: 1;
+}
+.seven-step__h3{
+    display: inline;
+    text-shadow: none;
+    color: #000;
+    font-size: 24px;
+    padding-right:20%;
+}
+.infoblock .seven-step__text{
+    display: inline;
+}
+.seven-step__scan{
+    margin-top:-40px;
+}
+.seven-step--border{
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.two-step{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.two-step:before{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    width: 115px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+.two-step:after{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
+    width: 47px;
+    height: 33px;
+    bottom: 0;
+    right:50%;
+}
+.two-step--inline{
+    padding: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.two-step--w1{
+    width: 14%;
+}
+.two-step--w2{
+    width: 35%;
+}
+.two-step--w3{
+    width: 49%;
+}
+.seven-step__h3--padding{
+    padding: 0;
+}
+
+.infoblock .blue-doth{
+    padding-left: 50px;
+    list-style: none;
+}
+.blue-doth li{
+    position: relative;
+}
+.blue-doth li:before{
+    position: absolute;
+    content: '';
+    background: #3052ad;
+    top: 4px;
+    left: -20px;
+    width: 14px;
+    height: 14px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    box-shadow: inset 0 3px 6px #fff;
+}
+.page3__inline{
+    display: inline-block;
+    padding: 0 10px;
+    width: 49%;
+    vertical-align: top;
+}
+.page3--right{
+    text-align: right;
+}
+.page3__block2{
+    text-align: left;
+    display: inline-block;
+    width: 34%;
+    margin-left: 10%;
+}
+.page3__block2 i{
+    font-size: 10px;
+}
+.method1{
+    position: relative;
+    text-align: center;
+}
+.method1:before{
+    position: absolute;
+    content: 'METHOD';
+    font-weight: bold;
+    font-size: 32px;
+    top: -10px;
+    line-height: 1;
+    left: -152px;
+    background-size: contain;
+    background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 27px 31px;
+    width: 153px;
+    height: 139px;
+}
+.method2{
+    position: relative;
+    text-align: center;
+    margin-left: 17%;
+}
+.method2:before{
+    content: 'METHOD';
+    position: absolute;
+    font-weight: bold;
+    font-size: 32px;
+    top: -10px;
+    line-height: 1;
+    left: -152px;
+    background-size: contain;
+    background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 24px 22px;
+    width: 154px;
+    height: 111px;
+}
+.page3__block3{
+    background-color: #9ccdff;
+    padding: 10px;
+    text-align: center;
+}
+.block3__top span{
+    font-size: 20px;
+    font-weight:bold;
+}
+.block3__top .top--width{
+    width:60%;
+}
+.block3__top{
+    display: inline-block;
+    width:20%;
+    vertical-align: middle;
+}
+.top--w2{
+     width: 35%;
+}
+.top--w3{
+    width: 43%;
+    padding-left: 5px;
+}
+h4 {
+    font-size: 23px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+}
+.two-step--width1{
+    width: 60%;
+}
+.two-step--width2{
+    width: 39%;
+}
+.two-step--bottom{
+    padding-top: 20%;
+}
+.two-step--img{
+    position: relative;
+}
+.two-step--img .two-step__all-scan{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 180%;
+    height: auto;
+}
+.block-grey{
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid #000;
+    text-align: center;
+    background: #bfdae2;
+}
+.infoblock .block-grey__ul{
+    margin: 0;
+    padding: 0;
+}
+.block-grey__ul li{
+    display: inline-block;
+    width: 13%;
+}
+.block-grey__ul p {
+    font-size: 12px;
+    text-align: center;
+    line-height:1.2;
 }

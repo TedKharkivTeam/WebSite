@@ -1,0 +1,60 @@
+html {
+    font-size: 12px;
+}
+
+#logo {
+    width: 24%;
+    height: 19%;
+    float: left;
+}
+
+#headline {
+    margin-left: 42%;
+    font-size: 6rem;
+    font-family: "Arial";
+    font-weight: bold;
+}
+#underheadline {
+    margin-top: -1rem;
+    margin-left: 42%;
+    color: navy;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#underheadline2 {
+    margin-left: 68%;
+    color: navy;
+    font-size: 1.6rem;    font-weight: bold;
+}
+#scanner {
+
+}
+
+#affordable {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    z-index: 10;
+}
+.infoblock__head {
+    font-size: 22px;
+    color: #282a28;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: none;
+    margin: 0;
+    text-align: center;
+}
+.infoblock__column {
+    float: left;
+    width: 50%;
+    padding: 7px;
+}
+.infoblock__column__a{
+    padding-left: 60%;
+    font-weight: bold;
+}
+#kiclogo {
+    width: 60%;
+}
+
