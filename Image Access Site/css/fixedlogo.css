@@ -9,5 +9,6 @@
 
 .logo img {
     width: 247px;
-    height: 116px;
+    height: auto;
+    padding: 4% 12%;
 }

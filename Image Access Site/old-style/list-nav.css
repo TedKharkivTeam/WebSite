@@ -1,0 +1,24 @@
+.list-nav-wrap{min-height:24px; width:1200px; margin:0 0 5px 0; background:#a2b3a1;background-image:url(../images/greengreenstrip-text.png); background-repeat:repeat-x;border-radius:4px; box-shadow:2px 3px 2px 1px #ddd;  }
+.list-nav-offset{position:relative; display:block;margin:0; padding:0;clear:left; float:left;left:50%; z-index:500;}
+.list-nav{position:relative; display:block;clear:left; float:left; right:50%;padding:0px; text-align:left; z-index:51; width:1080px;}
+.list-nav ul{width:100%; margin-left:auto; margin-right:auto;   font-size:0; list-style-type:none;padding:0; z-index:52;}
+.list-nav ul ul{position:absolute; z-index:54; top:100%; left:-9999px; width:14em; }
+.list-nav ul ul ul{position:absolute; z-index:56; display:none;}
+.list-nav li{margin:0; position:relative; display:inline; float:left; }
+.list-nav li:hover ul{left:10%; z-index:54; }
+.list-nav ul ul li:hover ul{display:block; top:0; left:100%; }
+.list-nav li a,.list-nav li li a, .list-nav li li li a{font:bold 16px/18px arial,helvetica,sans-serif;display:block;color:#000;text-decoration:none;width:auto; padding:.15em 1.8em .15em 1.8em;z-index:53;}
+.list-nav li li a, .list-nav li li li a{background-color:#aba; background-color:rgba(170,187,170,0.7);   border:1px solid;border-color:#ccc #888 #555 #bbb;padding:.15em 1em .15em 1em;z-index:55;  line-height:36px;}
+.list-nav a:hover,.list-nav li:hover a{color:#fff; }
+/* second level*/
+.list-nav li:hover li a{color:#111; background-color:#bcb; background-color:rgba(204,221,204,0.7); width:14em; }
+.list-nav li:hover li a:hover,.list-nav li:hover li:hover a{color:#eee; background-color:#aca; width:14.5em; }
+/* third level*/
+.list-nav li:hover li:hover li a{color:#000; background-color:#cdc; background-color:rgba(238,255,238,0.7); width:16em;}
+.list-nav li:hover li:hover li a:hover,.list-nav li:hover li:hover li:hover a{color:#000; background-color:#bcb; width:16.5em; }
+.lower-nav{margin:5px auto 2px auto; width:1200px; border:1px solid #888; border-bottom:0px; border-radius:5px 5px 0 0; }
+.lower-nav ul{display:inline; float:left; margin:5px 50px; }
+.lower-nav ul li{display:block; }
+.lower-nav p{color:#888; font-weight:bold; font-style:italic;}
+.lower-nav a{color:#888; text-decoration:none; }
+.lower-nav li.label p{font-style:normal; }

@@ -1,0 +1,18 @@
+#e_learning{height:auto; }
+#e_learning .intro{width:1200px; margin:0 10px 0 0; float: left; }
+#e_learning .intro h1{font:bolder 35px/48px "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;text-align: center;float: clear;margin: 3px 0 3px 0;}
+#e_learning .intro p{font-size: 100%; text-align: center;float: clear;margin:0 10px;line-height:120%;}
+#e_learning .signin  {width:1200px;float:left;margin:15px 0px;}
+#e_learning .signin p{font-size: 100%; text-align: right;float: clear;margin:0 10px;line-height:120%;}
+#e_learning .signin .fieldset fieldset{margin:0 110px 20px 0;width:200px;padding:10px;border-radius:8px; float: right;}
+#e_learning .signin .fieldset legend{font-size:150%;font-style:italic;}
+#e_learning .signin .fieldset p {text-align: center;}
+
+#el_signup {height:auto}
+#el_signup .intro{width:1200px; margin:0 10px 0 0; float: left; }
+#el_signup .intro h1{font:bolder 35px/48px "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;text-align: center;float: clear;margin: 3px 0 3px 0;}
+#el_signup .intro p{font-size: 100%; text-align: center;float: clear;margin:0 10px;line-height:120%;}
+#el_signup .signup .fieldset fieldset {padding:10px;border-radius:8px;}
+#el_signup .signup .fieldset legend {font-size:150%;font-style:italic;} 
+#el_signup .signup .fieldset p input {margin: 0 50px 0 0; float:right;}
+#el_signup .signup .fieldset p select {margin: 0 46px 0 0; float:right;}
