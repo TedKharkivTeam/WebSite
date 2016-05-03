@@ -23,7 +23,7 @@
 }
 
 .infoblock .infoblock__ul {
-    list-style-image: url(../images/KIC_Click_and_Click_Mini_Brochure3_blue-bullet2.png);
+    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
 }
 
 .infoblock .infoblock__text-block {
@@ -88,4 +88,12 @@
     float: right;
     height: 56%;
 }
+
+.infoblock__div-img .infoblock__opacity-text{
+    color:#898b8a;
+    margin-right: 40%;
+    text-align: center;
+    font-style: italic;
+}
+
 
