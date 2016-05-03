@@ -1,0 +1,97 @@
+.infoblock__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.infoblock__double__content {
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+    background: #D0E6FC;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.in-case-strong {
+    font-size: 38px;
+    line-height: 40px;
+    padding: 0;
+}
+
+.in-case-span {
+    text-align: right;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.in-case-span--center {
+    text-align: center;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.infoblock__double__content__double {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .in-case-enhance {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 15px 2%;
+    display: block;
+}
+
+.infoblock__double__content__double p {
+    padding: 24px 0;
+}
+
+.in-case-p--italic {
+    padding: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.for-study-p {
+    width: 225px;
+    float: right;
+    margin-top: -145px;
+    margin-right: 7%;
+}
+
+.infoblock .left-text {
+    padding: 0 10px;
+}
+
+.infoblock .left-text p {
+    padding: 0;
+}
+
+.infoblock .in-case-enhance--right {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .in-case-scan-artwork {
+    height: 180px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .in-case-scan-map {
+    height: 155px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}

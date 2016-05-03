@@ -345,3 +345,34 @@ div.close {
     right: 7px;
     top: 2px;
 }
+
+.infoblock .brochure-title-center {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: center;
+    padding: 10px 0;
+}
+.infoblock .brochure-title-left {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: left;
+    padding: 5px 0;
+}
+.infoblock .brochure-subtitle-center {
+    color: #000;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+}
+.infoblock .brochure-subtitle-left {
+    color: #000;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: left;
+    padding: 5px 0;
+    margin: 0;
+}
