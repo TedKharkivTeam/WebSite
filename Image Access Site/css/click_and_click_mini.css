@@ -147,17 +147,18 @@
     font-size: xx-large;
     text-align: center;
     font-weight: 600;
+    margin-top: 1%;
 }
 
 .infoblock .dvfu2 {
     float: left;
     font-weight: 600;
     font-size: x-large;
-    padding: 10px;
+    margin-top: 3%;
+
 }
 
 .infoblock .dv_block {
-
     width: 48%;
     display: block;
     margin-top: 6%;
@@ -167,7 +168,7 @@
 .infoblock .dv_block1 {
     float: left;
     margin-left: 50%;
-    margin-top: -24.2%;
+    margin-top: -21.5%;
     width: 48%;
 }
 
@@ -205,17 +206,19 @@
 .infoblock .center__img {
     float: right;
     width: 58%;
+    position: absolute;
     padding-left: 20px;
+    margin-left: 40%;
 }
 
-.center__text--padding {
-    padding-top: 90px;
+.infoblock .center__text--padding {
+    padding-top: 60px;
     position: relative;
+    width: 42%;
 }
 
-.center__text--margin {
-    padding-top: 25px;
-    width: 50%;
+.infoblock .center__text--margin {
+    width: 56%;
 }
 
 .infoblock__nav {
@@ -295,20 +298,24 @@
     margin-left: 2%;
 }
 
-.infoblock .true2_save_to_usb {
+.infoblock .kic_div .true2_save_to_usb {
     width: 45%;
-    float: left;
+    margin-top: 5%;
+
 }
 
 .infoblock .true2_label {
     font-weight: 600;
     font-size: x-large;
     text-align: center;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -3%;
 }
 
 .infoblock .true2_block_usb {
     width: 100%;
-    display: table-cell;
+    margin-top: 6%;
 }
 
 .infoblock .true2_label1 {
@@ -318,21 +325,38 @@
 }
 
 .infoblock .true2_block_2 {
-    width: 50%;
+    width: 64%;
 }
 
 .infoblock .true2_block_3 {
     width: 30%;
-    margin-left: 9%;
+    margin-left: 18%;
     font-style: italic;
 }
 
 .infoblock .kic_div .true2_two_screens {
-    width: 47%;
+    width: 33%;
     float: right;
 }
 
 .infoblock .true2_label2 {
-    margin-top: 10%;
-    margin-left: 66%;
+    margin-left: 74%;
+    font-weight: 600;
+}
+
+.infoblock .tablepot {
+    margin-left: 8%;
+}
+
+.infoblock .tablepot_mini {
+    margin-left: 28%;
+    margin-top: -2.5%;
+}
+
+.infoblock .text_undergorund_label {
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 25%;
+    text-align: center;
+    width: 70%;
 }
