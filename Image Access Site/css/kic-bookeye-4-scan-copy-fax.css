@@ -1,35 +1,7 @@
-.infoblock__block-devices .infoblock__block-title3{
-    color: #000000;
-}
-
-.infoblock .infoblock__block-title2{
-    color:#000000;
-    font-size: 20px;
-    text-shadow: none;
-    font-weight: bold;
-}
-#infoblock__header{
-    text-align: center;
-}
-.infoblock__text2 {
-    font: 14px "Arial",Helvetica,Arial,Verdana,sans-serif;
-    text-align: justify;
-}
-.infoblock__block-devices .infoblock__images{
-    width: 40%;
+.infoblock .columnKIC_Bookeye_4{
     float: left;
+    /* width: 50%; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.infoblock__block-devices div{
-    width: 58%;
-    float: left;
-}
-
-#infoblock__copy{
-    width: 68%;
-}
-
-#copy_images{
-    width: 30%;
-}
-
 
