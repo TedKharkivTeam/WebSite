@@ -1,94 +1,116 @@
 
-.infoblock__top{
+.infoblock__top {
     overflow: hidden;
 }
 
-.infoblock .top__logo{
+.infoblock .top__logo {
     max-width: 340px;
     float: left;
 }
-.top__h1{
+
+.top__h1 {
     text-align: center;
     color: #000;
     text-shadow: none;
     font-size: 64px;
     margin: 0;
 }
-.top__h2{
+
+.top__h2 {
     text-align: center;
     color: #8ca1c9;
     font-size: 28px;
     text-transform: uppercase;
     padding: 0;
-    line-height:1;
+    line-height: 1;
     letter-spacing: 0;
 }
-.infoblock__center{
+
+.infoblock__center {
     overflow: hidden;
     margin-top: -80px;
 }
-.infoblock .center__img{
+
+.infoblock .center__img {
     float: right;
     width: 65%;
-    padding-left:20px;
+    padding-left: 20px;
 }
-.center__text--padding{
+
+.center__text--padding {
     padding-top: 90px;
     position: relative;
 }
-.center__text--margin{
-    padding-top:25px;
+
+.center__text--margin {
+    padding-top: 25px;
     position: absolute;
     width: 33%;
 }
-.infoblock__nav{
-    padding-top:20px;
+
+.infoblock__nav {
+    padding-top: 20px;
     overflow: hidden;
 }
-.infoblock .nav__li{
+
+.infoblock .nav__li {
     float: left;
-    width:38%;
+    width: 38%;
 }
-.infoblock .nav__img{
+
+.infoblock .nav__img {
     float: left;
     width: 60%;
     margin-right: 20px;
 }
-.infoblock .li--width{
-    width:80%;
+
+.infoblock .li--width {
+    width: 80%;
 }
-.nav__li li:first-child{
+
+.nav__li li:first-child {
     list-style: none;
 }
-.nav__li--margin{
-    margin-left:20px;
+
+.nav__li--margin {
+    margin-left: 20px;
 }
-.infoblock .infoblock__bottom{
+
+.infoblock .infoblock__bottom {
     text-align: justify;
     padding: 0;
     margin: 0;
 }
-.infoblock__bottom li{
+
+.infoblock__bottom li {
     display: inline-block;
     list-style: none;
     text-align: center;
-    width: 17%;
+    /*width: 17%;*/
 }
-.infoblock .bottom__img{
-    width:24%;
+
+.infoblock__bottom li p {
+    text-align: center;
+}
+
+.infoblock .bottom__img {
+    width: 24%;
     margin-left: 25px;
 }
-.infoblock .bottom__a{
+
+.infoblock .bottom__a {
     width: 20%;
     position: relative;
     top: -15px;
 }
-.bottom__a a{
+
+.bottom__a a {
     font-size: 26px;
     color: #454733;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.a--rel{
+
+.a--rel {
     position: absolute;
     bottom: 76px;
     font-size: 30px;
