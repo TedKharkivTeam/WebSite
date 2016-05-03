@@ -51,7 +51,12 @@
 
 .infoblock__book-stack-and-feature-enumeration h2 {
     margin-left: 3%;
-
+	color:black;
+	text-align:center;
+	font-weight: bold;
+	margin-left:-5%;
+	font-size:23px;
+	letter-spacing: 0px;
 }
 
 .book-stack-and-feature-enumeration__feature-enumeration {
