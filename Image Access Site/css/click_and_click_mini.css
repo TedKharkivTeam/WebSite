@@ -79,27 +79,66 @@
 }
 
 .infoblock .text4 {
-    width: 45%;
+
 }
 
 .infoblock .scanner_600 {
-    width: 25%;
-    margin-left: 7%;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
 }
 
 .infoblock .text6 {
     font-style: italic;
     font-weight: 300;
+
+    margin-left: -2%;
+    text-align: center;
 }
 
 .infoblock .text5 {
     font-weight: 400;
     font-size: x-large;
-    margin-left: 1%;
+
+    margin-left: -2%;
+    text-align: center;
 }
 
 .infoblock .text7 {
     text-align: center;
     font-size: xx-large;
     margin-top: 1%;
+}
+
+.infoblock .two_newspapers {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .text8 {
+    font-weight: 400;
+    font-size: x-large;
+
+    margin-left: 48%;
+    text-align: center;
+}
+
+.infoblock .block1 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.infoblock .text9 {
+
+    text-align: center;
+}
+
+.infoblock .text10 {
+    font-weight: 400;
+    font-size: x-large;
+    width: 100%;
+
+    text-align: center;
 }
