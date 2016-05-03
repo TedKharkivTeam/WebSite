@@ -286,7 +286,6 @@ h5 {
 
 /*Seventh page*/
 .infoblock__derivatives-top-columns {
-    margin-top: 2%;
     columns: 2;
     column-gap: 2em;
     -moz-columns: 2;
