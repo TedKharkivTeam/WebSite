@@ -7,10 +7,9 @@
 
 /*First page*/
 
-.infoblock h2 {
-    color: black;
-    text-align: center;
-    font-size: 150%;
+.left__link{
+	float:right;
+	margin-top:50px;
 }
 
 .infoblock__opus-logo {
@@ -44,7 +43,7 @@
 }
 
 .infoblock__book-stack-and-feature-enumeration img {
-    width: 52%;
+    width: 60%;
     vertical-align: central;
     float: left;
     display: inline-block;
@@ -57,8 +56,29 @@
 
 .book-stack-and-feature-enumeration__feature-enumeration {
     float: left;
-    width: 45%;
-    margin-left: 3%;
+    width: 35%;
+    margin-left: 5%;
+
+}
+
+.book-stack-and-feature-enumeration__feature-enumeration .feature-enumeration__unordered-list{
+    list-style: none;
+}
+
+.feature-enumeration__unordered-list li{
+    position: relative;
+    font-style: italic;
+}
+
+.feature-enumeration__unordered-list li:before{
+    content: '';
+    position: absolute;
+    top:7px;
+    left: -14px;
+    background: #0000ff;
+    border-radius: 30px;
+    width: 10px;
+    height: 10px;
 }
 
 .infoblock__a-new-era-in-digitization {
@@ -80,8 +100,9 @@
 }
 
 .infoblock__bottom-logos img {
+    float: right;
     display: inline-block;
-    width: 60%;
+    width: 30%;
 
 }
 
@@ -127,10 +148,11 @@ h5 {
 .white-rectangulars__articles p {
     word-spacing: -1pt;
     letter-spacing: 0;
-    font-size: 65%;
+    font-size: 70%;
     line-height: 7pt;
     width: 100%;
     padding-left: 10px;
+    text-align: left;
 }
 
 .white-rectangulars__articles h6 {
@@ -138,6 +160,7 @@ h5 {
     margin-top: 4px;
     line-height: 9pt;
     color: black;
+    font-weight: bold;
 }
 
 /*Third Page*/
@@ -167,7 +190,7 @@ h5 {
 .infoblock .infoblock__opus-bulleted-list {
     margin-top: 3px;
     list-style-type: none;
-    list-style-image: url('../images/JPGs of Opus Workflow Brochure/Opus_Bullet.png');
+    list-style-image: url('../images/Bullet.png');
     columns: 2;
     column-gap: 3em;
     -moz-columns: 2;
@@ -209,18 +232,17 @@ h5 {
 
 .infoblock__hierarchical-metadata_paragraph-with-image {
     overflow: hidden;
-    margin-top: 4%;
 }
 
 .infoblock__hierarchical-metadata_paragraph-with-image img {
     float: left;
-    width: 65%;
+    width: 75%;
     margin-left: 4%;
 }
 
 .infoblock__hierarchical-metadata_paragraph-with-image p {
     float: left;
-    width: 30%;
+    width: 20%;
 }
 
 .infoblock__hierarchical-metadata-paragraph-under-top-picture {
@@ -252,13 +274,13 @@ h5 {
 
 .infoblock__hierarchical-metadata-bottom-block img {
     float: left;
-    width: 65%;
+    width: 70%;
 }
 
 .infoblock__hierarchical-metadata-bottom-paragraphs {
     float: left;
     margin-left: 2%;
-    width: 30%;
+    width: 25%;
 }
 
 /*Seventh page*/
@@ -297,7 +319,7 @@ h5 {
 .derivatives-pictures__bottom-paragraph {
     position: absolute;
     left: 30%;
-    top: 73%;
+    top: 70%;
     width: 20%;
     z-index: 5;
     line-height: 1.1;
