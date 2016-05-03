@@ -1,0 +1,48 @@
+.infoblock__double {
+    width: 50%;
+    float: left;
+    padding: 5px 10px;
+}
+
+.infoblock__double__content {
+    overflow: hidden;
+}
+
+.infoblock__double figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.infoblock__double figure img, .infoblock .diagram {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.infoblock__double figure figcaption {
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.infoblock__double__double-p {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .bookeye-vs-copiers__span {
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.infoblock .bookeye-vs-copiers__strong {
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+}
