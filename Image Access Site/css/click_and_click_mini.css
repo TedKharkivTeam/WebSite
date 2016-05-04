@@ -544,3 +544,20 @@
     margin-top: 7%;
     color: black;
 }
+
+.infoblock .img_versus_clickone {
+    width: 35%;
+    margin-left: 4%;
+}
+
+.infoblock .img_versus_clickone1 {
+    width: 28%;
+    margin-left: 18%;
+}
+
+.infoblock .kic_logo_for_versus {
+    width: 12%;
+    position: absolute;
+    margin-left: -32%;
+    margin-top: 8%;
+}
