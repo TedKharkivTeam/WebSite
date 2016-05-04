@@ -380,10 +380,21 @@ div.close {
     margin: 0;
 }
 
+.infoblock ul.blue-bullet li{
+    position: relative;
+    list-style: none;
+}
+
+.infoblock ul.green-bullet li{
+    position: relative;
+    list-style: none;
+}
+
+
 .infoblock ul.blue-bullet li:before {
     content: '';
     position: absolute;
-    top: 8px;
+    top: 4px;
     left: -23px;
     background: url("../images/blue-bullet.png") no-repeat;
     background-size: 16px;
@@ -394,7 +405,7 @@ div.close {
 .infoblock ul.green-bullet li:before {
     content: '';
     position: absolute;
-    top: 8px;
+    top: 4px;
     left: -23px;
     background: url("../images/green-bullet.png") no-repeat;
     background-size: 16px;
