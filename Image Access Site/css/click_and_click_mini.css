@@ -360,3 +360,182 @@
     text-align: center;
     width: 70%;
 }
+
+.infoblock .label_smart {
+    font-weight: 600;
+    position: absolute;
+    font-size: 36px;
+    line-height: 38px;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+.sup_index {
+    vertical-align: super;
+    font-size: 18px;
+}
+
+.infoblock .smart_image_background {
+
+}
+
+.infoblock .label_smart2 {
+    font-style: italic;
+    width: 30%;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.infoblock .label_smart3 {
+    position: absolute;
+    width: 15%;
+    font-size: smaller;
+    margin-left: 29%;
+    margin-top: 17%;
+    font-weight: 600;
+}
+
+.infoblock .label_smart4 {
+    position: absolute;
+    width: 13%;
+    text-align: center;
+    font-size: smaller;
+    color: #5C7681;
+    margin-top: 41%;
+    margin-left: 14%;
+}
+
+.infoblock .label_smart5 {
+    position: absolute;
+    width: 13%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    color: #5C7681;
+    margin-top: 47%;
+    margin-left: 39%;
+}
+
+.infoblock .label_smart6 {
+    position: absolute;
+    width: 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    color: #5C7681;
+    margin-top: 57%;
+    margin-left: 1%;
+}
+
+.infoblock .label_smart7 {
+    position: absolute;
+    width: 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    color: #5C7681;
+    margin-top: 57%;
+    margin-left: 13%;
+}
+
+.infoblock .label_smart8 {
+    position: absolute;
+    width: 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    color: #5C7681;
+    margin-top: 57%;
+    margin-left: 27%;
+}
+
+.infoblock .smart_hard_block {
+    border: solid 3px;
+    border-radius: 2%;
+}
+
+.infoblock .brochure-title-left {
+    margin-left: 3%;
+}
+
+.infoblock .label_smart9 {
+    font-size: 36px;
+    line-height: 38px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.infoblock .label_smart10 {
+    font-size: 21px;
+    line-height: 21px;
+    margin-left: 3%;
+    font-style: italic;
+}
+
+.infoblock .smart_restaurant_img {
+    margin-left: 35%;
+    width: 64%;
+    margin-top: -9%;
+}
+
+.infoblock .smart_scan_img_fax {
+    width: 24%;
+    margin-top: 5%;
+    margin-left: -68%;
+    position: absolute;
+
+}
+
+.infoblock .smart_scan_img_fax2 {
+    width: 45%;
+    margin-left: 53%;
+    position: initial;
+
+}
+
+.infoblock .label_smart11 {
+    width: 21%;
+    margin-left: 43%;
+    margin-top: -34%;
+    font-style: italic;
+    text-align: right;
+}
+
+.infoblock .label_smart12 {
+    width: 16%;
+    margin-left: 35%;
+    margin-top: 11%;
+    font-style: italic;
+    text-align: right;
+}
+
+.infoblock .label_smart13 {
+    width: 23%;
+    margin-left: 10%;
+    margin-top: -7%;
+    font-style: italic;
+    text-align: left;
+}
+
+.infoblock .triangle_pointer {
+    position: absolute;
+    margin-top: -26%;
+    width: 1.5%;
+    margin-left: 42%;
+}
+
+.infoblock .triangle_pointer1 {
+    position: absolute;
+    margin-top: -12%;
+    width: 1.5%;
+    margin-left: 33%;
+}
+.infoblock .triangle_pointer2 {
+    position: absolute;
+    margin-top: -8%;
+    width: 1.5%;
+    margin-left: 5%;
+}
