@@ -257,3 +257,21 @@ html {
     float: left;
 }
 
+#smdock_underheader {
+    font-style: italic;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#smdock_sign {
+    width:40%;
+    margin-left: 50%;
+    margin-top: -17%;
+}
+#smdock_small_sign {
+    width:50%;
+    margin-left: 16%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
