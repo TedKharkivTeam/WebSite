@@ -1,0 +1,135 @@
+.infoblock .infoblock__text-block {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.infoblock .infoblock__block-header-2 {
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 3%;
+}
+
+.infoblock .infoblock__block-header-3 {
+    color: #000;
+    font-size: 33px;
+    line-height: 38px;
+    margin-top: 0%;
+    float: left;
+    z-index: 100;
+
+    margin-left: 15%;
+}
+
+div .infoblock__comm-csan {
+    z-index: 1;
+    margin-top: -4%;
+}
+
+div .infoblock__block-p {
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.infoblock .seven-step--border {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.infoblock .two-step {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.two-step:before {
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    width: 9%;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+
+.infoblock .infoblock__block-header-31 {
+    color: #000;
+    font-size: 33px;
+    line-height: 38px;
+    margin-top: 0%;
+    float: left;
+    z-index: 100;
+
+    margin-left: 1%;
+}
+
+.infoblock .infoblock__margin-text {
+    margin-right: 50%;
+}
+
+.infoblock .infoblock__margin-text1 {
+    margin-left: 7%;
+}
+
+div .infoblock_photo {
+    float: right;
+    width: 60%;
+}
+
+div .infoblock__block-header {
+    color: #000;
+    font-size: 36px;
+    margin: 0%;
+}
+
+div .infoblock__text-block1 {
+    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 120%;
+}
+
+div .infoblock__block-left {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+div .infoblock__block-left2 {
+    float: right;
+    width: 65%;
+}
+
+div .infoblock_photo2 {
+    width: 40%;
+    margin-left: 20%;
+}
+
+div .infoblock__text-right{
+    width: 65%;
+    margin-top: -33%;
+    margin-right: -10%;
+    text-align:right;
+    font-style: italic;
+}
+
+div .infoblock__text-right2{
+    width: 52%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: right;
+    font-style: italic;
+    margin-left: 1%;
+}
+
+.infoblock__text-left{
+    font-style: italic;
+}
+.infoblock__margin-top{
+    margin-top: 3%;
+    background:linear-gradient(to bottom,#97a29c,#e2e3e5);
+}
