@@ -1,0 +1,44 @@
+.infoblock .infoblock__header-3{
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    margin-left: 25%;
+}
+
+.infoblock .infoblock__devices{
+    float: right;
+    width: 45%;
+    margin-right: 7%;
+}
+
+.infoblock .infoblock__scanner{
+    width: 90%;
+    margin-left: 2%;
+    margin-top: -20%;
+}
+
+.infoblock .infoblock__text-block-devices{
+    float:right;
+    width: 39%;
+    margin-top: -40%;
+    margin-right: 2%;
+    margin-left: 10%;
+    font-size: 14px;
+
+}
+.infoblock__margin-top{
+    margin-top: -17%;
+}
+
+.infoblock .infoblock__text-block-scanner{
+
+    float:right;
+    margin-right: 14%;
+    width: 23%;
+    font-size: 14px;
+}
+.infoblock .infoblock__margin-top{
+    margin-top: 5%;
+    background:linear-gradient(to bottom,#97a29c,#e2e3e5);
+}
