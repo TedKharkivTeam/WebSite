@@ -1,5 +1,10 @@
+.infoblock {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 .reservation{
     text-align: center;
+    margin-bottom: -6px;
 }
 .reservation__h1{
     font-size: 70px;
