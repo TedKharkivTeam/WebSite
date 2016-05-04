@@ -230,6 +230,24 @@
 	padding:1%;
 }
 
+.infoblock .content-stabilization__enumeration{
+    overflow: hidden;
+}
+
+.infoblock .content-stabilization__enumeration div{
+    float: left;
+    width: 48%;
+}
+
+.infoblock .content-stabilization__enumeration div ul{
+    margin-left: 10%;
+}
+
+.infoblock .content-stabilization__enumeration div p{
+    width: 100%;
+    margin-top: 3%;
+}
+
 .infoblock .content_stabilization1 {
     width: 47%;
 }
@@ -245,8 +263,8 @@
 }
 
 .infoblock .content_stabilization4 {
-    margin-left: 49%;
     width: 50%;
+    margin-left: 2%;
     margin-top: -3.5%;
 }
 

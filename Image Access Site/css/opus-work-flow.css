@@ -7,14 +7,15 @@
 
 /*First page*/
 
-.left__link{
-	float:right;
-	margin-top:50px;
+.left__link {
+    float: right;
+    margin-top: 50px;
 }
 
 .infoblock__opus-logo {
     width: 80%;
     text-align: center;
+    margin-left: 10%;
 }
 
 .infoblock__opus-logo img {
@@ -27,7 +28,6 @@
     letter-spacing: -2pt;
     word-spacing: 2pt;
     font-size: 27px;
-    text-align: left;
     font-family: arial black, sans-serif;
     line-height: 1;
     margin-top: -10px;
@@ -43,47 +43,32 @@
 }
 
 .infoblock__book-stack-and-feature-enumeration img {
-    width: 60%;
+    width: 50%;
     vertical-align: central;
     float: left;
     display: inline-block;
 }
 
 .infoblock__book-stack-and-feature-enumeration h2 {
-    margin-left: 3%;
-	color:black;
-	text-align:center;
-	font-weight: bold;
-	margin-left:-5%;
-	font-size:23px;
-	letter-spacing: 0px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -25%;
+    font-size: 23px;
+    letter-spacing: 0;
 }
 
 .book-stack-and-feature-enumeration__feature-enumeration {
     float: left;
-    width: 35%;
+    width: 45%;
     margin-left: 5%;
 
 }
 
-.book-stack-and-feature-enumeration__feature-enumeration .feature-enumeration__unordered-list{
-    list-style: none;
-}
-
-.feature-enumeration__unordered-list li{
-    position: relative;
+.infoblock .feature-enumeration__unordered-list li {
     font-style: italic;
-}
-
-.feature-enumeration__unordered-list li:before{
-    content: '';
-    position: absolute;
-    top:7px;
-    left: -14px;
-    background: #0000ff;
-    border-radius: 30px;
-    width: 10px;
-    height: 10px;
+    line-height: 16px;
+    margin-top: 5px;
 }
 
 .infoblock__a-new-era-in-digitization {
@@ -96,7 +81,7 @@
     float: left;
     width: 44%;
     margin-left: 3%;
-	
+
 }
 
 .infoblock__bottom-logos {
@@ -132,7 +117,7 @@ h2 {
 }
 
 h5 {
-    font-family: verdana;
+    font-family: verdana, Arial, sans-serif;
     color: black;
     font-size: 110%;
     font-weight: bold;
@@ -195,8 +180,6 @@ h5 {
 
 .infoblock .infoblock__opus-bulleted-list {
     margin-top: 3px;
-    list-style-type: none;
-    list-style-image: url('../images/Bullet.png');
     columns: 2;
     column-gap: 3em;
     -moz-columns: 2;
@@ -230,11 +213,6 @@ h5 {
 /*Watch opus-freeflow.css*/
 
 /*Sixth page*/
-.infoblock__hierarchical-metadata-capture {
-    font-size: 200%;
-    font-weight: bold;
-    text-align: center !important;
-}
 
 .infoblock__hierarchical-metadata_paragraph-with-image {
     overflow: hidden;
@@ -257,16 +235,14 @@ h5 {
 
 .infoblock__bordered-block {
     background: rgb(69, 170, 204);
-    margin-top: 2%;
     border: 2px solid black;
     padding: 2%;
     margin-left: 16%;
     margin-right: 16%;
     font-style: italic;
-
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .infoblock__bordered-block p {
