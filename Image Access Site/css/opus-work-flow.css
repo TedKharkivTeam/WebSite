@@ -28,7 +28,6 @@
     letter-spacing: -2pt;
     word-spacing: 2pt;
     font-size: 27px;
-    text-align: left;
     font-family: arial black, sans-serif;
     line-height: 1;
     margin-top: -10px;
@@ -51,13 +50,12 @@
 }
 
 .infoblock__book-stack-and-feature-enumeration h2 {
-    margin-left: 3%;
     color: black;
     text-align: center;
     font-weight: bold;
     margin-left: -25%;
     font-size: 23px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .book-stack-and-feature-enumeration__feature-enumeration {
@@ -66,7 +64,6 @@
     margin-left: 5%;
 
 }
-
 
 .infoblock .feature-enumeration__unordered-list li {
     font-style: italic;
@@ -120,7 +117,7 @@ h2 {
 }
 
 h5 {
-    font-family: verdana;
+    font-family: verdana, Arial, sans-serif;
     color: black;
     font-size: 110%;
     font-weight: bold;
@@ -243,10 +240,9 @@ h5 {
     margin-left: 16%;
     margin-right: 16%;
     font-style: italic;
-
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .infoblock__bordered-block p {
