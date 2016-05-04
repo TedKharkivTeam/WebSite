@@ -499,7 +499,7 @@
 .infoblock .label_smart11 {
     width: 21%;
     margin-left: 43%;
-    margin-top: -34%;
+    margin-top: -35%;
     font-style: italic;
     text-align: right;
 }
@@ -507,7 +507,7 @@
 .infoblock .label_smart12 {
     width: 16%;
     margin-left: 35%;
-    margin-top: 11%;
+    margin-top: 10%;
     font-style: italic;
     text-align: right;
 }
@@ -515,27 +515,21 @@
 .infoblock .label_smart13 {
     width: 23%;
     margin-left: 10%;
-    margin-top: -7%;
+    margin-top: -8%;
     font-style: italic;
     text-align: left;
 }
 
 .infoblock .triangle_pointer {
-    position: absolute;
-    margin-top: -26%;
-    width: 1.5%;
+    width:10%;
     margin-left: 42%;
 }
 
 .infoblock .triangle_pointer1 {
-    position: absolute;
-    margin-top: -12%;
-    width: 1.5%;
+    width: 15%;
     margin-left: 33%;
 }
 .infoblock .triangle_pointer2 {
-    position: absolute;
-    margin-top: -8%;
-    width: 1.5%;
+    width: 10%;
     margin-left: 5%;
 }
