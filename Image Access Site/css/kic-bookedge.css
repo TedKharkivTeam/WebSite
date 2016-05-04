@@ -250,7 +250,10 @@ html {
 }
 .ezcustomheadergolden {
     font-size: 2.1rem !important;
-
 }
 
+.microcolumn {
+    width: 33%;
+    float: left;
+}
 
