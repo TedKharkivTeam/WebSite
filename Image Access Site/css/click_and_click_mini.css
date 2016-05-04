@@ -393,8 +393,8 @@
 
 .infoblock .label_smart3 {
     position: absolute;
-    width: 15%;
-    font-size: smaller;
+    width: 13%;
+    font-size: 10px;
     margin-left: 29%;
     margin-top: 17%;
     font-weight: 600;
@@ -457,6 +457,7 @@
 .infoblock .smart_hard_block {
     border: solid 3px;
     border-radius: 2%;
+    margin-top:2% ;
 }
 
 .infoblock .brochure-title-left {
@@ -484,19 +485,19 @@
 }
 
 .infoblock .smart_scan_img_fax {
-    width: 24%;
+    width: 36%;
     margin-top: 5%;
-    margin-left: -68%;
-    position: absolute;
+
 
 }
 
 .infoblock .smart_scan_img_fax2 {
     width: 45%;
     margin-left: 53%;
-    position: initial;
-
+    margin-top: -30%;
 }
+
+
 
 .infoblock .label_smart11 {
     width: 21%;
