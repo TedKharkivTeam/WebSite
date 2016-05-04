@@ -422,3 +422,156 @@ h4 {
 .infoblock .rhomb{
     list-style-image: url("../images/rhomb.png");
 }
+.kic-product{
+    text-align: right;
+}
+.kic-product__row{
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100%/6);
+}
+.kic-product .row__title{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.row__column{
+    padding: 10px 5px 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px #000;
+    min-height: 500px;
+}
+.row__column .column__mini-title{
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    padding: 0;
+}
+.table{
+    width: 100%;
+    padding: 20px 0;
+}
+.table th{
+    width: calc(100%/6);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.table p{
+    text-align: center;
+}
+.table-bg{
+    background: rgba(0,0, 0, 0.1);
+}
+.table .table--ta-left{
+    text-align: right;
+    font-size: 12px;
+    padding-right: 20px;
+}
+th .table--img{
+    width: 100px;
+}
+.cicle{
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.green-cicle{
+    background: #40b149;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.green-cicle--after{
+    position: relative;
+
+}
+.green-cicle--after:after{
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 8px;
+    top: -1px;
+    left: -1px;
+}
+.green-cicle--after-big{
+    position: relative;
+}
+.green-cicle--after-big:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 5px 5px;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 13px;
+    top: -1px;
+    left: -1px;
+}
+.bold-line{
+    font-weight: bold;
+    font-size: 33px;
+}
+.table__arow{
+    position: relative;
+}
+.table__arow:before{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
+    top: -18px;
+    left: 37px;
+    width: 44px;
+    height: 26px;
+}
+.bold-dollar{
+    font-weight: bold;
+}
+.dollar-size-mini{font-size: 12px;}
+.dollar-size-midle{font-size: 20px}
+.dollar-size-subheight{ font-size: 24px;}
+.dollar-size-height{font-size: 28px}
+.tabl-star{
+    margin-left: 20px;
+    font-size: 13px;
+    vertical-align: text-top;
+    color: #e8383b;
+}
+.tabl-star-mini{
+    margin-left: 20px;
+    font-size: 9px;
+    vertical-align: text-top;
+    color: #e8383b;
+}
+.align-right{
+    text-align: right;
+}
+.first-column{
+    width: 200px;
+    text-align: right;
+}
+.table__footer{
+    font-size: 14px;
+}

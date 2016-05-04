@@ -16,6 +16,9 @@
         width: 80px;
         height: 40px;
     }
+    .table__arow:before {
+        left: 25px;
+    }
 }
 
 @media screen and (max-width: 1800px) {
@@ -48,6 +51,9 @@
     }
     .left__link {
         font-size: 18px;
+    }
+    .table__arow:before {
+        left: 0;
     }
 }
 
@@ -156,6 +162,10 @@
         width: 90px;
         background-size: contain;
         height: 70px;
+    }
+    .table__arow:before {
+        left: -10px;
+        width: 10px;
     }
 
 }
