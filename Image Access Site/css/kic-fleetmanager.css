@@ -71,7 +71,9 @@
 .nav__li li:first-child {
     list-style: none;
 }
-
+.infoblock ul.blue-bullet li:first-child:before {
+    background:transparent!important;
+}
 .nav__li--margin {
     margin-left: 20px;
 }
