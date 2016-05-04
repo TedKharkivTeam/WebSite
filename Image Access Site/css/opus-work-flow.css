@@ -216,11 +216,6 @@ h5 {
 /*Watch opus-freeflow.css*/
 
 /*Sixth page*/
-.infoblock__hierarchical-metadata-capture {
-    font-size: 200%;
-    font-weight: bold;
-    text-align: center !important;
-}
 
 .infoblock__hierarchical-metadata_paragraph-with-image {
     overflow: hidden;
@@ -243,7 +238,6 @@ h5 {
 
 .infoblock__bordered-block {
     background: rgb(69, 170, 204);
-    margin-top: 2%;
     border: 2px solid black;
     padding: 2%;
     margin-left: 16%;
