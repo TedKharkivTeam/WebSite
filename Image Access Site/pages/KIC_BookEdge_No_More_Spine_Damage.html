@@ -5,9 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BookEdge :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
-     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
+
+    <style>
+        .infoblock .row-style {
+            float: left;
+            position: relative;
+            width: 50%;
+            padding: 0 10px;
+        }
+
+        .infoblock .float-image-right {
+            float: right;
+            overflow: hidden;
+        }
+
+        .infoblock .section-1-image {
+            display: inline-block;
+            width: 33%;
+            margin-left: 5%;
+        }
+
+        .infoblock .section-2-image {
+            width: 17%;
+            margin: -5% 0 0 10px;
+        }
+
+        .infoblock .section-header {
+            font-size: 25px;
+            text-align: center;
+            color: black;
+            padding-top: 2%;
+            padding-bottom: 20px;
+        }
+
+        .infoblock .section-header--left {
+            text-align: left;
+        }
+
+        .infoblock .cursive-text-smaller-center {
+            font-style: italic;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .infoblock .cursive-text-smaller-left {
+            font-style: italic;
+            text-align: left;
+            font-size: 0.9em;
+        }
+
+        .infoblock .noborder-table {
+            border-style: hidden;
+            font-family: sans-serif !important;
+        }
+
+        .infoblock .noborder-table td {
+            padding: 0 5px !important;
+            margin: 0 5px !important;
+        }
+
+        .infoblock .sub-header {
+            margin-top: -20px;
+        }
+
+        .ugly-image {
+            margin-top: -60%;
+        }
+
+        .image-text {
+            position: relative;
+            color: gray;
+            font-size: 0.9em;
+        }
+
+        #left-image-text {
+            top: -310px;
+            left: 0;
+        }
+
+        #right-image-text {
+            text-align: right;
+            top: -440px;
+            right: 25px;
+        }
+
+        #last_p_fix {
+            margin-top: -100px;
+        }
+
+
+    </style>
 </head>
 <body class="gradient">
 <header>
@@ -15,13 +105,15 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access"></a>
+        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498"
+                                     alt="Image Access"></a>
         <div class="botlogo">KIC BookEdge</div>
     </div>
     <ul class="leftsidemenu">
         <li><a href="KIC_BookEdge.html">KIC BookEdge</a></li>
         <li><a href="KIC_BookEdge_Scan_Copy_Fax.html">Scan, Copy, Fax</a></li>
-        <li><a href="KIC_BookEdge_KIC_Makes_Print_Collections_Searchable.html">KIC Makes Print Collections Searchable</a></li>
+        <li><a href="KIC_BookEdge_KIC_Makes_Print_Collections_Searchable.html">KIC Makes Print Collections
+            Searchable</a></li>
         <li class="selected"><a href="KIC_BookEdge_No_More_Spine_Damage.html">No More Spine Damage</a></li>
         <li><a href="KIC_BookEdge_True_2_Touch.html">True 2 Touch User Interface</a></li>
         <li><a href="KIC_BookEdge_SmartDock.html">KIC SmartDock</a></li>
@@ -34,8 +126,153 @@
         <li><a href="KIC_BookEdge_The_KIC_Product_Family.html">The KIC Product Family</a></li>
     </ul>
     <div class="infoblock">
-        <img src="../images/JPGs%20for%20KIC%20BookEdge%20Brochure/KIC%20BookEdge%20Brochure%205.png" width="" height=""
-             alt="KIC BookEdge">
+        <div class="row-style">
+            <section>
+                <h2 class="section-header">No More Book Spine Damage!</h2>
+                <p>
+                    <img class="float-image-right section-1-image"
+                         src="../images/KIC_BookEdge/sec_1_img_1.png" alt="sec_1_img_1">
+                    Thick books with stiff spines and content that runs deep into the bookfold are often damaged when
+                    copied. KIC BookEdge easily captures content well into the bookfold without damaging the spine.
+                    Black edges are automatically removed and content is straightened, producing clean, professional
+                    looking images &mdash; important for electronic reserves, course curriculum materials and research
+                    reports. These automatic image treatment functions also save a lot of faculty, administrator, and
+                    student time.
+                </p>
+                <figure>
+                    <img src="../images/KIC_BookEdge/sec_1_img_2.png" alt="sec_1_img_2">
+                    <figcaption class="cursive-text-smaller-center">The scan-to-the-edge feature avoids damage to book
+                        bindings
+                    </figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2 class="section-header section-header--left">Compatible with Copy Card <br>& Cash Systems</h2>
+                <img class="float-image-right section-2-image" src="../images/KIC_BookEdge/sec_2_img_1.png"
+                     alt="sec_2_img_1">
+                <p>All KIC systems are compatible with all standard copy card and coin-op devices. Since KIC transfers
+                    images to users' computers electronically, costly expendables are avoided, even for color! The
+                    library can opt to keep all revenue it collects.
+                </p>
+            </section>
+            <section>
+                <h2 class="section-header section-header--left">Charge for Prints Only...</h2>
+                <p>
+                    or charge more for prints, less for images. When it comes to cost recovery, KIC systems have got you
+                    covered. KIC's fee administration feature lets you charge different amounts for color, B&W, 8.5 x
+                    11" and 11 x 17" images.
+                </p>
+            </section>
+            <section>
+                <h2 class="section-header section-header--left">Copy Card Compatibility</h2>
+                <table class="noborder-table">
+                    <tr>
+                        <td>ITC Systems 1010</td>
+                        <td>Danyl Systems</td>
+                    </tr>
+                    <tr>
+                        <td>NetLink</td>
+                        <td>Copy terminal</td>
+                    </tr>
+                    <tr>
+                        <td>ITC Systems 7010</td>
+                        <td>Debitek DCT Fam-</td>
+                    </tr>
+                    <tr>
+                        <td>NetLink</td>
+                        <td>ily of readers</td>
+                    </tr>
+                    <tr>
+                        <td>Access Control</td>
+                        <td>General Meters</td>
+                    </tr>
+                    <tr>
+                        <td>Devices EX2000</td>
+                        <td>DCT-2</td>
+                    </tr>
+                    <tr>
+                        <td>Blackboard</td>
+                        <td>Jarnex 7110</td>
+                    </tr>
+                    <tr>
+                        <td>CR1120</td>
+                        <td>Pharos PS100</td>
+                    </tr>
+                    <tr>
+                        <td>Blackboard</td>
+                        <td>Pharos Omega</td>
+                    </tr>
+                    <tr>
+                        <td>CR1122</td>
+                        <td>series rerminals</td>
+                    </tr>
+                    <tr>
+                        <td>Blackboard</td>
+                        <td>Vendapin 5500</td>
+                    </tr>
+                    <tr>
+                        <td>CR300</td>
+                        <td>Vendapin 5596</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <pre>CBord  C2005</pre>
+                        </td>
+                        <td>Virtual Cash Vend-</td>
+                    </tr>
+                    <tr>
+                        <td>Diebold C2005</td>
+                        <td>ing Terminals</td>
+                    </tr>
+                    <tr>
+                        <td>Copicard CX125</td>
+                    </tr>
+                </table>
+                <img class="ugly-image" src="../images/KIC_BookEdge/sec_4_img_1.png" alt="sec_4_img_1">
+                <p class="cursive-text-smaller-left">
+                    New models from major system vendors are supported as they become
+                    available
+                </p>
+            </section>
+        </div>
+
+        <div class="row-style">
+            <section>
+                <h2 class="section-header">Compact & Affordable</h2>
+                <p>
+                    The KIC BookEdge is the perfect choice for student walk-up scanning and copying in areas where space
+                    is a premium. It makes entire library collections available in digital form. The KIC BookEdge's
+                    clever design allows users to scan pages right up to the bound margin near the spine, without
+                    damaging books. The KIC BookEdge produces beautiful, ful-color images at no additional cost over
+                    black & white images! Even searchable PDF's and text-to-audio (MP3 files) are a snap to create.
+                </p>
+                <p>
+                    The KIC BookEdge was specifically designed to occupy the same space as a typical floor-standing
+                    photocopier. Replacing outmodded copiers in academic and research libraries is easy with KIC
+                    BookEdge's modern scanning, printing and interactive computerized touch screen technology. The
+                    optional ADF scanner and a printer gives the KIC BookEdge the functionality of a color copier at a
+                    fraction of the cost.
+                </p>
+            </section>
+            <section>
+                <h2 class="section-header">Convert Loose Paper to Digital</h2>
+                <p class="cursive-text-smaller-center sub-header">
+                    Scan and save a 40-page article in one minute using KIC's duplex
+                    ADF scanner option
+                </p>
+                <img src="../images/KIC_BookEdge/sec_6_img_1.png" alt="sec_6_img_1">
+                <p id="right-image-text" class="image-text">KIC BookEdge shown <br> here with ADF option</p>
+                <p id="left-image-text" class="image-text">ADF attachment scans <br> 40 pages in a minute <br> (20 sheets per minute) </p>
+                <p id="last_p_fix">
+                    Digital copiers are very mature products that certainly have their place in business and
+                    administration environments, but not the library floor. With its book edge feature that protects the
+                    spines of books, its ADF option that scans one or both sides of 20 loose-leaf pages per minute, and
+                    a generic high-speed printer, KIC gives new meaning to the phrase 'copiers are so old school.' When
+                    compared with copiers and MFC's, KIC book scanners are the only intelligent choice for the library
+                    floor.
+                </p>
+            </section>
+        </div>
     </div>
 </div>
 <footer>
