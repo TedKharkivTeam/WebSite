@@ -1,0 +1,93 @@
+/*KIC Software*/
+.infoblock__page1-Header {
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.infoblock__page1-Header img {
+    float: left;
+    width: 30%;
+}
+
+.infoblock__page1-subtitle {
+    font-weight: normal;
+    color: rgb(6, 90, 163);
+    letter-spacing: -2pt;
+    word-spacing: 2pt;
+    font-size: 27px;
+    font-family: arial black, sans-serif;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.infoblock__page1-row-of-scanners {
+    overflow: hidden;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: -7%;
+    position: relative;
+    z-index: 3;
+}
+
+.infoblock__page1-row-of-scanners img {
+    float: left;
+    width: 18%;
+    margin-left: 2%;
+}
+
+.infoblock__page1-italic-title {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+.infoblock__page1-two-columns-wrap {
+    list-style: none;
+    columns: 2;
+    column-gap: 2em;
+    -moz-columns: 2;
+    -moz-column-gap: 2em;
+    -webkit-columns: 2;
+    -webkit-column-gap: 2em;
+}
+
+.infoblock__page1-row-of-scanners-bottom {
+    overflow: hidden;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.infoblock__page1-row-of-scanners-bottom img {
+    float: left;
+    width: 18%;
+    margin-left: 2%;
+}
+
+.infoblock .infoblock__page1-bottom-text {
+    text-align: center;
+}
+
+.infoblock__central-image {
+    margin-top: -13%;
+}
+
+/*Page 3 KIC Makes Your Collection Searchable*/
+
+.infoblock__page3-number1 {
+    margin-left: 20%;
+    width: 50%;
+    margin-top: -3%;
+}
+
+.infoblock .infoblock__page3-number1 img {
+    float: left;
+    width: 30%;
+}
+
+.infoblock__page3-number1 div {
+    float: left;
+    width: 69%;
+}
