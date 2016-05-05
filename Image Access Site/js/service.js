@@ -437,11 +437,11 @@ $(function () {
                 $('.leaflet-control-zoom').show();
                 break;
             case "SOA":
-                map.setView({lat: -15.961329081596647, lng: -62.67425537109376}, 4);
+                map.setView({lat: -23.961329081596647, lng: -62.67425537109376}, 4);
                 $('.leaflet-control-zoom').show();
                 break;
             case "EU":
-                map.setView({lat: 58.28940590271679, lng: 13.774795532226564}, 4);
+                map.setView({lat: 51.78940590271679, lng: 13.074795532226564}, 5);
                 $('.leaflet-control-zoom').show();
                 break;
             case "ME":
@@ -449,7 +449,7 @@ $(function () {
                 $('.leaflet-control-zoom').show();
                 break;
             case "AS":
-                map.setView({lat: 31.728167146023935, lng: 98.16873168945314}, 4);
+                map.setView({lat: 51.728167146023935, lng: 98.16873168945314}, 3);
                 $('.leaflet-control-zoom').show();
                 break;
             case "AU":
