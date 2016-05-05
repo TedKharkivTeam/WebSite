@@ -24,10 +24,10 @@
     width:50%;
 }
 .infoblock .infoblock__right-images-clients{
-    width: 40%;
+    width: 50%;
     padding-top: 2%;
-    padding-right: 3%;
     float: right;
+    padding-left: 5%;
     padding-bottom: 2%;
 }
 
@@ -35,7 +35,7 @@
     width: 45%;
     position: absolute;
     right: 0;
-    bottom: -299%;
+    bottom: -275%;
 }
 
 .infoblock .infoblock_left-text-block{
@@ -69,5 +69,11 @@ padding-left: 2%;
 }
 .infoblock .font-color{
     color: #9d9d9d;
+}
+.table-bg{
+    background: rgba(0,0, 0, 0.1);
+}
+.infoblock p{
+    font-size: 14px;
 }
 

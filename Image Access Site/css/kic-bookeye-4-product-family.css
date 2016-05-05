@@ -1,0 +1,13 @@
+.float-left{
+    float:left;
+}
+.margin-top{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.infoblock table  th{
+    border: 1px solid black;
+}
+span{
+    display: inline;
+}
