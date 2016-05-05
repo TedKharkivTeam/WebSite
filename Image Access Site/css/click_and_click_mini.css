@@ -457,7 +457,7 @@
 .infoblock .smart_hard_block {
     border: solid 3px;
     border-radius: 2%;
-    margin-top:2% ;
+    margin-top: 2%;
 }
 
 .infoblock .brochure-title-left {
@@ -488,7 +488,6 @@
     width: 36%;
     margin-top: 5%;
 
-
 }
 
 .infoblock .smart_scan_img_fax2 {
@@ -496,8 +495,6 @@
     margin-left: 53%;
     margin-top: -30%;
 }
-
-
 
 .infoblock .label_smart11 {
     width: 21%;
@@ -561,4 +558,35 @@
     position: absolute;
     margin-left: -32%;
     margin-top: 8%;
+}
+
+.infoblock .diagram1 {
+
+}
+
+.infoblock .super_click_table {
+    width: 49%;
+    float: left;
+    padding: 2%;
+    height: 330px;
+}
+
+.infoblock .first_of_last_label {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    margin-left: 14%;
+    padding: 14px 0 10px;
+    font-weight: 600;
+    float: left;
+}
+
+.infoblock .second_of_last_label {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    margin-left: 30%;
+    padding: 14px 0 10px;
+    font-weight: 600;
+    float: left;
 }
