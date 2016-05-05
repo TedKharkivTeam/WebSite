@@ -1,0 +1,73 @@
+.infoblock__left-block{
+    float:left;
+    width: 50%;
+}
+
+.infoblock .infoblock__right-img{
+    float:right;
+    width:30%;
+    padding-left: 2%;
+}
+
+.infoblock .infoblock_text-block-after-table{
+    text-align: right;
+    font-style: italic;
+}
+
+.infoblock .infoblock__text-block-h3{
+    color: #000;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 0%;
+}
+.infoblock .infoblock__right-images{
+    width:50%;
+}
+.infoblock .infoblock__right-images-clients{
+    width: 40%;
+    padding-top: 2%;
+    padding-right: 3%;
+    float: right;
+    padding-bottom: 2%;
+}
+
+.infoblock .infoblock__map-planet{
+    width: 45%;
+    position: absolute;
+    right: 0;
+    bottom: -299%;
+}
+
+.infoblock .infoblock_left-text-block{
+    float:left;
+    width: 30%;
+padding-left: 2%;
+}
+
+.infoblock .infoblock__text-block{
+    padding-right: 5%;
+    padding-left: 52%;
+}
+
+.infoblock .infoblock__th{
+    width: 38%;
+
+}
+.infoblock table td,th{
+    padding: 0px 0px 0px 0px;
+}
+
+.infoblock .infoblock__text-block-h3-1{
+    color: #000;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 52%;
+}
+.infoblock .infoblock__rel{
+    position: relative;
+}
+.infoblock .font-color{
+    color: #9d9d9d;
+}
+
