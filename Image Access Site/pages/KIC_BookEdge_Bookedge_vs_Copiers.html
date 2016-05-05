@@ -13,6 +13,31 @@
 <body class="gradient">
 <header>
     <div id="includeHeader"></div>
+    <script>
+        function IsIE() {
+            var ms_ie = false;
+            var ua = window.navigator.userAgent;
+            var old_ie = ua.indexOf('MSIE ');
+            var new_ie = ua.indexOf('Trident/');
+
+            if ((old_ie > -1) || (new_ie > -1)) {
+                ms_ie = true;
+            }
+
+            return ms_ie;
+        }
+        onload = function () {
+            if(IsIE()) {
+                var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
+
+                for(var i = 0;i<2;)
+                {
+                    rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
+                    rainbowTextDivs[i].removeAttribute("class");
+                }
+            }
+        }
+    </script>
 </header>
 <div class="content">
     <div class="logo">
@@ -35,7 +60,7 @@
         <li><a href="KIC_BookEdge_The_KIC_Product_Family.html">The KIC Product Family</a></li>
     </ul>
     <div class="infoblock">
-        <h2 class="brochure-title-center">KIC Bookedge vs. Copiers &ndash; How KIC Compares</h2>
+        <h2 class="brochure-title-center">KIC Bookeye vs. Copiers &ndash; How KIC Compares</h2>
         <div class="infoblock__double-wrap">
             <div class="double-wrap__column">
                 <div class="infoblock__double__content">
@@ -92,14 +117,14 @@
                 </div>
 
                 <div class="infoblock__double__content">
-                    <h3 class="brochure-subtitle-center">KIC Bookedge Scanners vs. Copiers</h3>
-                    <p>This graph compares the total costs of one color KIC Bookedge system with three color copiers
+                    <h3 class="brochure-subtitle-center">KIC Bookeye 4 Scanners vs. Copiers</h3>
+                    <p>This graph compares the total costs of one color KIC Bookeye 4 system with three color copiers
                         and
                         with
                         three black and white copiers. Both copiers are the kinds typically seen in academic libraries.
                         One
                         KIC
-                        Bookedge 4 is compared with three copiers because its face-up operation yields well over two
+                        Bookeye 4 is compared with three copiers because its face-up operation yields well over two
                         times
                         the
                         performance of a typical copier. The costs are broken into three main areas: equipment and
@@ -125,7 +150,7 @@
                     <p>Thick books with stiff spines and content that runs deep into the bookfold are often damaged when
                         copied.
                         KIC
-                        Bookedge easily captures content without damaging book spines.
+                        Bookeye 4 easily captures content without damaging book spines.
                     </p>
                     <div class="double-content__text-and-picture-wrapper">
                         <p class="infoblock__double__double-p">
@@ -142,7 +167,7 @@
 
 
                 <h3 class="brochure-subtitle-center">Thick Books...No Problem</h3>
-                <p style="width: 90%;margin-left: 5%;"><i>KIC Bookedge handles thick books beautifully. Its
+                <p style="width: 90%;margin-left: 5%;"><i>KIC Bookeye 4 handles thick books beautifully. Its
                     contourfinding laser allows it
                     to flatten even the most curved books
                     and produce text that is clear and undistorted. KIC automatically adds margins for print-ready image
@@ -150,7 +175,7 @@
 
 
                 <div class="column__bookeye-scans">
-                    <h3 class="brochure-subtitle-center">KIC Bookedge Scans 3 Times Faster</h3>
+                    <h3 class="brochure-subtitle-center">KIC Bookeye Scans 3 Times Faster</h3>
                     <p>Statistics from five million scanning sessions across America revealed a median session length of
                         23
                         pages.
@@ -158,7 +183,7 @@
                         Face up scanning has been proven to be three times faster than face down scanning.
                         So why is speed so important</p>
                     <ul class="blue-bullet">
-                        <li>It's economical. One KIC Bookedge can replace multiple copiers or other face-down scanning
+                        <li>It's economical. One KIC Bookeye can replace multiple copiers or other face-down scanning
                             machines.
                         </li>
                         <li>It gives patrons another reason to visit your library.</li>
