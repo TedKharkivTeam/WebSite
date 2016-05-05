@@ -14,7 +14,7 @@
     color: rgb(6, 90, 163);
     letter-spacing: -2pt;
     word-spacing: 2pt;
-    font-size: 27px;
+    font-size: 25px;
     font-family: arial black, sans-serif;
     margin-top: -10px;
     text-align: center;
@@ -71,7 +71,7 @@
 }
 
 .infoblock__central-image {
-    margin-top: -13%;
+    margin-top: -5%;
 }
 
 /*Page 3 KIC Makes Your Collection Searchable*/
