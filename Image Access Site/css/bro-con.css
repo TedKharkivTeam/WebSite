@@ -770,13 +770,15 @@ div.dn_arrow {
 
 .left-picture-frame4C {
     width: 70%;
-    height: auto;
+    max-width: 550px;
+    height: 70%;
     padding: 10px 0;
 }
 
 .right-picture-frame4C {
+    max-width: 750px;
     width: 90%;
-    height: auto;
+    height: 90%;
     padding: 10px 0;
 }
 

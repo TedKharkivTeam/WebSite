@@ -275,3 +275,28 @@
     margin-top: -188px;
     width: 95%;
 }
+.frame7-content--padding{
+    padding-bottom:10%;
+}
+.frame7-content__dlos--width{
+    width: 100%;
+}
+.inf--padding--mini{
+    top:58%;
+}
+.content__frame--leftside {
+    position: relative;
+}
+.new-design{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    justify-content: flex-start;
+}
+.new-design .imgbook {
+    max-width: 160px;
+}
+.new-design .h4--frames {
+    font-size: 60px;
+}
+
