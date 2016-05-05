@@ -1,0 +1,158 @@
+.infoblock #huge-header {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 84px;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.infoblock #huge-header img {
+    height: 20%;
+    width: 20%;
+}
+
+.infoblock #sub-main-header {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.infoblock #sub-sub-header {
+    text-align: center;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.infoblock .row {
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.infoblock .image-text {
+    margin-left: 4%;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.infoblock .stacks-view-header {
+    margin-left: 25%;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: -5%;
+}
+
+.infoblock .stacks-view-image {
+    width: 120%;
+    height: 120%;
+}
+
+.infoblock .image-bottom-header {
+    font-weight: normal;
+    margin-left: 15%;
+    margin-top: -22%;
+}
+
+.infoblock .small-text-row {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    font-style: italic;
+    vertical-align: top;
+}
+
+.infoblock .small-image-row {
+    width: 59%;
+    display: inline-block;
+}
+
+.infoblock .big-bg-image {
+    height: 670px;
+    background: url("../images/KIC_KAT/kat_phones.png") no-repeat;
+    background-size: 100% 670px;
+    margin-top: -14%;
+    margin-bottom: 10%;
+}
+
+.infoblock .big-bg-image__header {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.infoblock .big-bg-image__header-1 {
+    top: 1%;
+    left: 15%;
+}
+
+.infoblock .big-bg-image__header-2 {
+    text-align: right;
+    right: 30%;
+    top: 18%;
+}
+
+.infoblock .big-bg-image__header-3 {
+    left: 13%;
+    top: 41%;
+}
+
+.infoblock .big-bg-image__note-1 {
+    font-size: 0.9em;
+    font-style: italic;
+    position: relative;
+    left: 81%;
+    top: 18%;
+    padding: 15px 0;
+}
+
+.infoblock .big-bg-image__note-2 {
+    font-style: italic;
+    font-size: 0.9em;
+    position: relative;
+}
+
+.infoblock .note-2__first {
+    left: 1%;
+    top: 2%;
+}
+
+.infoblock .note-2__second {
+    left: 1%;
+    top: 41%;
+}
+
+.infoblock .reading-list {
+    border-radius: 5px;
+    background-color: #DEDEDE;
+    position: absolute;
+    top: 80%;
+    width: 507px;
+    height: 225px;
+}
+
+.infoblock .reading-list .rl-header {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1em;
+    left: 14%
+}
+
+.infoblock .reading-list .rl-footer {
+    position: absolute;
+    margin-top: -7%;
+    left: 15%;
+}
+
+.infoblock .reading-list .professor-info {
+    position: absolute;
+    font-size: 0.9em;
+    left: 1%;
+    top: 65%;
+    line-height: 1em;
+}

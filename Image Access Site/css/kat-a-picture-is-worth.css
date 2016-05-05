@@ -1,0 +1,32 @@
+.infoblock #header {
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: none;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.infoblock .image {
+    width: 75%;
+    height: 75%;
+    margin: 5% 0 5% 13%;
+}
+
+.infoblock #sub-header {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: -3%;
+}
+
+.infoblock #center-text {
+    margin-top: -3%;
+    margin-left: 15%;
+    margin-bottom: -3%;
+}
+
+.infoblock #bottom-text {
+    position: absolute;
+    left: 62%;
+    top: 87%;
+}
