@@ -19,6 +19,11 @@
     .table__arow:before {
         left: 25px;
     }
+    .history:after{
+        bottom: -16%;
+        width: 80%;
+        height: 80%;
+    }
 }
 
 @media screen and (max-width: 1800px) {
@@ -94,6 +99,9 @@
     .brochure-block .grean-left {
         padding-left: 2%;
     }
+    .infoblock .vertical-text {
+        left: -65px;
+    }
 }
 
 @media screen and (max-width: 1640px){
@@ -118,6 +126,15 @@
     }
     .seven-step__scan{
         margin-top:-20px;
+    }
+    .history:after {
+        width: 35%;
+        height: 35%;
+        top: 0;
+    }
+    .content__frame--leftside .new-design{
+        top: 35px;
+        left: 5px;
     }
 }
 @media screen and (max-width: 1535px) {
@@ -206,6 +223,12 @@
         font-size: 19px;
     }
     .reservation__h1 {
+        font-size: 50px;
+    }
+    .new-design .imgbook {
+        max-width: 130px;
+    }
+    .new-design .h4--frames {
         font-size: 50px;
     }
 }

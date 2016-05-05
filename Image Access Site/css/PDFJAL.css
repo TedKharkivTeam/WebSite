@@ -603,12 +603,62 @@ th .table--img{
     text-align: center;
 }
 .selection{
-    font-size: 12px;
-    width: 80%;
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
 }
 .selection--bold td{
     font-weight: bold;
 }
 .selection td{
     text-align: center;
+    width: 50px;
+}
+.sup-text{
+    font-size: 8px;
+    vertical-align: super;
+    font-weight: normal;
+}
+.selection .more-text{
+    width:96px;
+}
+.infoblock .table-text{
+    font-size: 13px;
+    padding: 0;
+    text-align: left;
+}
+.country-wrapper{
+    overflow: hidden;
+}
+.country{
+    display: inline-block;
+    float: left;
+    width:calc(100%/5);
+    vertical-align: top;
+}
+.infoblock .country__text{
+    font-size: 13px;
+    text-align: center;
+}
+.infoblock .history__w1{
+    text-align: left;
+    width:65%;
+}
+.infoblock .history__w2{
+    text-align: left;
+    width:72%;
+}
+.history{
+    position: relative;
+    padding-bottom: 30%;
+}
+.history:after{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
+    background-size: contain;
+    width: 90%;
+    bottom: -7%;
+    right: 0;
+    height: 90%;
 }
