@@ -590,3 +590,9 @@
     font-weight: 600;
     float: left;
 }
+
+.infoblock .super_middle_table_click {
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
