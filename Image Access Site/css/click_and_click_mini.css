@@ -568,14 +568,13 @@
     width: 49%;
     float: left;
     padding: 2%;
-    height: 330px;
+    height: 335px;
 }
 
 .infoblock .first_of_last_label {
     color: #000;
-    font-size: 36px;
-    line-height: 38px;
-    margin-left: 14%;
+    font-size: 1.4rem;
+    margin-left: 17%;
     padding: 14px 0 10px;
     font-weight: 600;
     float: left;
@@ -583,16 +582,33 @@
 
 .infoblock .second_of_last_label {
     color: #000;
-    font-size: 36px;
-    line-height: 38px;
-    margin-left: 30%;
+    font-size: 1.4rem;
+    margin-left: 37%;
     padding: 14px 0 10px;
     font-weight: 600;
     float: left;
 }
 
 .infoblock .super_middle_table_click {
-    text-align: center;
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
+}
+
+.infoblock .bullet_click_label {
+    margin-left: 30%;
+    width: 50%;
+    padding: 1%;
+}
+
+.infoblock .middle_click_label {
+    font-size: 1.4rem;
+    color: black;
+    width: 75%;
+    margin-top: 3%;
+    margin-left: 18%;
+}
+
+.infoblock .back_ground_super_click {
+    background: url("../images/JPGs for KIC Click & Click Mini Brochure/back-ground_for_click_details.png") no-repeat bottom;
+
 }
