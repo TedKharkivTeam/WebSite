@@ -1,3 +1,7 @@
+/*************************************************************************************************************/
+/************************************************** KAT first page *******************************************/
+/*************************************************************************************************************/
+
 .infoblock #huge-header {
     color: black;
     font-family: Calibri, sans-serif;
@@ -150,9 +154,189 @@
 }
 
 .infoblock .reading-list .professor-info {
-    position: absolute;
+    position: relative;
     font-size: 0.9em;
     left: 1%;
-    top: 65%;
+    margin-top: -15%;
+    padding-bottom: 10%;
     line-height: 1em;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT second page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__header {
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: none;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.infoblock .infoblock__image {
+    width: 75%;
+    height: 75%;
+    margin: 5% 0 5% 13%;
+}
+
+.infoblock .infoblock__sub-header {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: -3%;
+    margin-left: 12%;
+    width: 75%;
+}
+
+.infoblock .infoblock__centered-text {
+    margin-top: -3%;
+    margin-left: 12%;
+    margin-bottom: -3%;
+    width: 75%;
+}
+
+.infoblock .infoblock__bottom-text {
+    position: relative;
+    left: 42%;
+    margin-top: -14%;
+    padding-bottom: 8%;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT third page *******************************************/
+/*************************************************************************************************************/
+
+
+
+
+
+/*************************************************************************************************************/
+/************************************************** KAT fourth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__header-2-info {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+}
+.infoblock .infoblock__header-2--bold {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    padding-bottom: 1%;
+}
+
+.infoblock .infoblock__sub-header-2 {
+    font-style: italic;
+    text-align: center;
+    margin-left: 12%;
+    width: 75%;
+}
+
+.infoblock .infoblock__image-2 {
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.infoblock .infoblock__centered-text-2 {
+    margin-left: 12%;
+    width: 75%;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT fifth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .text-row {
+    display: inline-block;
+    padding: 0 3%;
+    width: 49%;
+    vertical-align: top;
+}
+
+.infoblock .infoblock__h1-header {
+    color: black;
+    font-weight: bold;
+    font-size: 44px;
+    text-shadow: none;
+    margin-bottom: 1%;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.infoblock .infoblock__h2-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    margin-top: 15%;
+}
+
+.infoblock .infoblock__h2-header--centered {
+    margin-top: 14%;
+}
+
+.infoblock .infoblock__below-h2-header-info {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+    margin-top: -2%;
+    margin-left: 12%;
+    width: 80%;
+}
+
+.infoblock .above-image-title {
+    position: relative;
+    color: black;
+    font-weight: bold;
+}
+
+.infoblock .above-image-title--search-screen {
+    left: 35%;
+    margin-bottom: -5%;
+}
+
+.infoblock .bibliography-view-screen {
+    position: relative;
+}
+
+.infoblock .bibliography-view-screen__bvs-title {
+    position: relative;
+    left: 42%;
+    margin-bottom: -4%;
+}
+
+.infoblock .bibliography-view-screen__bvs-info {
+    position: relative;
+    margin-top: -25%;
+}
+
+.infoblock .bvs-info__p {
+    position: relative;
+    width: 28%;
+    left: 71%;
+    padding: 1%;
+}
+
+.infoblock .search-screen__info {
+    font-style: italic;
+    position: relative;
+    margin-top: -38%;
+    left: 70%;
+}
+
+.infoblock .professor-photo__text {
+    position: relative;
+    line-height: 1em;
+    left: 70%;
+    margin-top: -23%;
+    padding-top: 5px;
+}
+
+.infoblock .faculty-book-lists__text-rows {
+    margin-bottom: -5%;
 }
