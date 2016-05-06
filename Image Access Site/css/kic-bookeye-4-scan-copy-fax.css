@@ -1,12 +1,15 @@
 .infoblock .columnKIC_Bookeye_4{
     float: left;
     /* width: 50%; */
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left:  0.9375rem;
+    padding-right:  0.9375rem;
 }
 
 #hand-yellow-coin {
     float: left;
-    width: 40%;
-    margin-right: 5px;
+    width: 30%;
+}
+.infoblock .columnKIC_Bookeye_4__h2 {
+    margin-left: 30%;
+    margin-top: 4%;
 }

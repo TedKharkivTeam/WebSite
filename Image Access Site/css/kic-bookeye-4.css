@@ -1,6 +1,6 @@
 
 .infoblock__head {
-    font-size: 1.375rem;
+    font-size: 2.375rem;
     color: #282a28;
     font-style: italic;
     font-weight: bold;
@@ -35,7 +35,7 @@
     top: 50%;
  }
 .infoblock div .infoblock__h2__p h2{
-    font-size: 1.375rem;
+    font-size: 2.375rem;
     color:#000000;
     padding: 0%;
 }
@@ -50,13 +50,13 @@
     text-align: center;
 }
 .infoblock .infoblock__h3__p h3{
-    font-size: 0.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     color:#000000;
 }
 
 .infoblock .infoblock__h3__p p{
-     font-size: 0.75rem;
+     font-size: 1.6rem;
 }
 
 
@@ -83,43 +83,43 @@
 
 @media all and (min-width: 1200px) and (max-width: 1400px){
     .infoblock div .infoblock__h2__p h2 {
-        font-size: 1rem;
+        font-size: 2.2rem;
         color: #000000;
         padding: 0%;
     }
     .infoblock div .infoblock__h2__p p {
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 1.5rem;
     }
 
     .infoblock .infoblock__h3__p h3 {
-        font-size: 0.8rem;
+        font-size: 1.4rem;
         font-weight: bold;
         color: #000000;
     }
     .infoblock .infoblock__h3__p p {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
     .infoblock div .infoblock__h2__p h2 {
-        font-size: 0.9rem;
+        font-size: 1.7rem;
         color: #000000;
         padding: 0%;
     }
     .infoblock div .infoblock__h2__p p {
         text-align: center;
-        font-size: 0.5rem;
+        font-size: 1.1rem;
     }
 
     .infoblock .infoblock__h3__p h3 {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: bold;
         color: #000000;
     }
     .infoblock .infoblock__h3__p p {
-        font-size: 0.4rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -127,43 +127,43 @@
 
 @media all and (min-width: 768px) and (max-width: 991px) {
     .infoblock div .infoblock__h2__p h2 {
-        font-size: 0.8rem;
+        font-size: 1.4rem;
         color: #000000;
         padding: 0%;
     }
     .infoblock div .infoblock__h2__p p {
         text-align: center;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     .infoblock .infoblock__h3__p h3 {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         font-weight: bold;
         color: #000000;
     }
     .infoblock .infoblock__h3__p p {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
     }
 }
 
 @media all and (max-width: 767px) {
     .infoblock div .infoblock__h2__p h2 {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         color: #000000;
         padding: 0%;
     }
     .infoblock div .infoblock__h2__p p {
         text-align: center;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     .infoblock .infoblock__h3__p h3 {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: bold;
         color: #000000;
     }
     .infoblock .infoblock__h3__p p {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
     }
 }
 
