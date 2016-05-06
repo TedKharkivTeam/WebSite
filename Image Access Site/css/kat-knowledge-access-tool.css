@@ -340,3 +340,99 @@
 .infoblock .faculty-book-lists__text-rows {
     margin-bottom: -5%;
 }
+
+/*************************************************************************************************************/
+/************************************************** KAT sixth page *******************************************/
+/*************************************************************************************************************/
+
+.beautiful-girl-bg {
+    box-sizing: border-box;
+    background: url("../images/KIC_KAT/kat_6_img_bg.png") no-repeat;
+    background-size: contain;
+}
+
+.infoblock .infoblock__collage {
+
+}
+
+.infoblock .collage__image {
+    display: inline-block;
+    width: 60%;
+}
+
+.infoblock .collage__info {
+    width: 38%;
+    position: relative;
+    left: 21%;
+    margin-bottom: -15%;
+}
+
+.infoblock .infoblock__below-h2-header-info-2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+    margin-top: -5%;
+    margin-left: 12%;
+    width: 80%;
+    letter-spacing: normal;
+}
+
+.infoblock .kit-kat-go {
+
+}
+
+.infoblock .kit-kat-go__image {
+
+}
+
+.infoblock .kit-kat-go__image-text-1 {
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+    left: 17%;
+    margin-bottom: -2%;
+    padding-bottom: 2%;
+}
+
+.infoblock .kit-kat-go__image-text-2 {
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+    left: 61%;
+    margin-top: -30%;
+    padding-bottom: 30%;
+}
+
+.infoblock .bvs-section {
+
+}
+
+.infoblock .bvs-section__image {
+
+}
+
+.infoblock .kit-kat-go__image-text-3 {
+    width: 26%;
+    font-size: 0.9em;
+    position: relative;
+    left: 0;
+    margin-top: -22%;
+}
+
+.infoblock .bvs-section__image-title {
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+    left: 45%;
+    margin-top: -24%;
+    padding-bottom: 19%;
+}
+
+.infoblock .bvs-section__image-text {
+    position: relative;
+    width: 23%;
+    left: 77%;
+    margin-top: -12%;
+    padding-bottom: 12%;
+}
