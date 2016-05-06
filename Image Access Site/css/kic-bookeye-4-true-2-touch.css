@@ -22,6 +22,10 @@
     height: 75%;
 }
 
+.infoblock_relative-block{
+    position: relative;
+}
+
 .infoblock .infoblock__ul {
     list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
 }
@@ -67,13 +71,13 @@
 
 
     z-index:1;
-    margin-top: 75%;
+    margin-top: 65%;
 }
 
-.infoblock__div-img .infoblock__scanner{
+.infoblock__div-img .infoblock__scanner-bookeye-4{
     position:absolute;
-    width: 70%;
-    bottom: 3%;
+    width: 90%;
+    bottom: 100%;
 
 }
 
