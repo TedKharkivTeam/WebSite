@@ -169,10 +169,11 @@
 .infoblock .infoblock__header {
     color: black;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 46px;
     text-shadow: none;
     margin-bottom: 1%;
     text-align: center;
+    padding: 4% 0;
 }
 
 .infoblock .infoblock__image {
@@ -468,4 +469,11 @@
     background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
     background-size: contain;
     position: relative;
+}
+
+.temp-bg {
+    background: url("../images/KIC_KAT/kat_7_temp-bg.png") no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 1450px;
 }
