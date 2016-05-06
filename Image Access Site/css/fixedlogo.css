@@ -2,7 +2,7 @@
     box-shadow: 4px 0 10px 1px #000000;
     position: fixed;
     left: 8%;
-    top: 54px;
+    top: 45px;
     background-color: white;
     z-index: 2;
 }
@@ -11,4 +11,15 @@
     width: 247px;
     height: auto;
     padding: 4% 12%;
+}
+
+.botlogo {
+    box-shadow: 4px 4px 10px 1px #000000;
+    position: fixed;
+    margin: 10px 0 0 0;
+    padding: 14px 0;
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    width: 247px;
 }
