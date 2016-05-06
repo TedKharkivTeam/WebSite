@@ -1,6 +1,6 @@
 
 .infoblock__head {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #282a28;
     font-style: italic;
     font-weight: bold;
@@ -11,29 +11,31 @@
 .infoblock__column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 0.625rem;
 }
 .infoblock__column__a{
     padding-left: 60%;
     font-weight: bold;
 }
-#dlsg-ref{
-    color: #282a28;
 
-}
 .infoblock div img{
     width: 65%;
     position: relative;
 
 }
+
+.infoblock_relative-block{
+    position: relative;
+}
+
 .infoblock div .infoblock__h2__p{
-     position: absolute;
-     font-weight: bold;
-     padding-left: 25%;
-     top:10%;
+    position: absolute;
+    font-weight: bold;
+    padding-left: 45%;
+    top: 50%;
  }
 .infoblock div .infoblock__h2__p h2{
-    font-size: 22px;
+    font-size: 1.375rem;
     color:#000000;
     padding: 0%;
 }
@@ -43,39 +45,125 @@
 
 .infoblock .infoblock__h3__p{
     position: absolute;
-    padding-left: 47%;
-    top: 14%;
+    padding-left: 70%;
+    top: 70%;
     text-align: center;
 }
 .infoblock .infoblock__h3__p h3{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     color:#000000;
 }
 
 .infoblock .infoblock__h3__p p{
-     font-size: 12px;
+     font-size: 0.75rem;
 }
 
 
-.infoblock #infoblock__devices{
+.infoblock .infoblock__devices{
     position: absolute;
-    width: 23%;
-    left: 70%;
-    top: 24%;
-
+    width: 30%;
+    left: 60%;
+    top: 130%;
     height: auto;
 }
 
-.infoblock #infoblock__scanner{
+.infoblock .infoblock__scanner{
     width: 60%;
     padding-top: 10%;
 }
 
-.infoblock #infoblock__text{
-    width: 17%;
-    top: 40%;
-    right: 8%;
-    padding-top: 8%;
+.infoblock .infoblock__text{
+    width: 20%;
+    top: 55%;
+    right: 15%;
+    /* padding-top: 8%; */
     position: absolute;
 }
+
+@media all and (min-width: 1200px) and (max-width: 1400px){
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 1rem;
+        color: #000000;
+        padding: 0%;
+    }
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.6rem;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 0.9rem;
+        color: #000000;
+        padding: 0%;
+    }
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 0.5rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.4rem;
+    }
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 0.8rem;
+        color: #000000;
+        padding: 0%;
+    }
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 0.5rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.4rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 0.8rem;
+        color: #000000;
+        padding: 0%;
+    }
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 0.5rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.4rem;
+    }
+}
+
