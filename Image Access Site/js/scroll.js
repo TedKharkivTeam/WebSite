@@ -19,9 +19,10 @@ $(document).ready(function () {
 
     scrollSpy();
 
-    $(window).scroll(scrollSpy);
+    $(window).scroll(throttle(scrollSpy, 200));
 
     function scrollSpy() {
+        console.log('test');
         //Getting scroll top offset (excluding header height);
         var fromTop = $(this).scrollTop() + $('header').outerHeight()+30;
 
@@ -36,5 +37,28 @@ $(document).ready(function () {
         //And add this call only to the last filtered item.
         var id = $(items[items.length - 1]).attr('id');
         $("[href='#"+id+"']").parent().addClass('selected');
+    }
+
+    function throttle(fn, threshhold, scope) {
+        threshhold || (threshhold = 250);
+        var last,
+            deferTimer;
+        return function () {
+            var context = scope || this;
+
+            var now = +new Date,
+                args = arguments;
+            if (last && now < last + threshhold) {
+                // hold on to it
+                clearTimeout(deferTimer);
+                deferTimer = setTimeout(function () {
+                    last = now;
+                    fn.apply(context, args);
+                }, threshhold);
+            } else {
+                last = now;
+                fn.apply(context, args);
+            }
+        };
     }
 });
