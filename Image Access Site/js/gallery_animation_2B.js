@@ -1,6 +1,7 @@
 var startTimeout = 100;
 var animationDuration = 3000;
 var imagesCount = 4;
+var defaultAtlasWidth = 605;
 
 var requestAnimationFrame =
     window.requestAnimationFrame ||
@@ -51,9 +52,9 @@ var animationPresets = {
 };
 //Starting positions to animate
 var startingPositions = {
-    'Image_0': {top: 0, left: 409.6875},
-    'Image_1': {top: 69.1875, left: 341.40625},
-    'Image_2': {top: 138.375, left: 0}
+    'Image_0': {top: 11, left: 412.688},
+    'Image_1': {top: 78.1875, left: 344.406},
+    'Image_2': {top: 145.375, left: 6}
 };
 
 function aminate(onAnimationComplete) {
@@ -62,10 +63,24 @@ function aminate(onAnimationComplete) {
     context.translate(0.5, 0.5);
 
     var $container = $(".gallery-container");
-    var $galleryHover = $('.gallery-hover');
+    var containerScaleRatio = $container.width() / defaultAtlasWidth;
+    var calculatedImageSizes = calculateImageSizes();
     var images = $(".gallery-container .animate-image");
     var animatedImages = [];
     imagesCount = images.length;
+
+    function calculateImageSizes() {
+        var imagesPerOneRow = Math.floor(Math.sqrt(totalImagesCount));
+        var imageSize = (defaultAtlasWidth / imagesPerOneRow - 5) * containerScaleRatio;
+        var marginSize = 5 * containerScaleRatio;
+
+        return {
+            width: imageSize,
+            height: imageSize,
+            marginRight: marginSize,
+            marginBottom: marginSize
+        }
+    }
 
     // setting canvas height and width equals to container;
     var $canvas = $("#animation-canvas");
@@ -87,9 +102,17 @@ function aminate(onAnimationComplete) {
             var preset = getPreset(number);
             images.each(function (index) {
                 var $defaultImage = $(this);
+                $defaultImage
+                    .css({
+                        width: calculatedImageSizes.width,
+                        height: calculatedImageSizes.height,
+                        marginRight: calculatedImageSizes.marginRight,
+                        marginBottom: calculatedImageSizes.marginBottom,
+                        display: 'block'
+                    });
                 var $image = $(this).clone().addClass("animated-image-block").appendTo($container);
                 var $image2 = $(this).clone().appendTo($container);
-                $defaultImage.hide();
+                $defaultImage.remove();
                 var defaultWidth = $defaultImage.width();
                 var defaultHeight = $defaultImage.height();
                 

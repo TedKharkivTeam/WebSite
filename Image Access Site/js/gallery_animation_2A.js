@@ -1,6 +1,7 @@
 var startTimeout = 100;
 var animationDuration = 3000;
 var imagesCount = 4;
+var defaultAtlasWidth = 1100;
 
 var requestAnimationFrame =
     window.requestAnimationFrame ||
@@ -51,10 +52,10 @@ var animationPresets = {
 };
 //Starting positions to animate;
 var startingPositions = {
-    'Image_0': {top: 76.09375, left: 112.640625},
-    'Image_1': {top: 190.234375, left: 600.75},
-    'Image_2': {top: 266.328125, left: 713.390625},
-    'Image_3': {top: 380.46875, left: 37.546875}
+    'Image_0': {top: 82.0938, left: 115.641},
+    'Image_1': {top: 193.234, left: 601.75},
+    'Image_2': {top: 266.328, left: 713.391},
+    'Image_3': {top: 377.469, left: 40.5469}
 };
 
 function aminate(onAnimationComplete) {
@@ -63,9 +64,24 @@ function aminate(onAnimationComplete) {
     context.translate(0.5, 0.5);
 
     var $container = $(".gallery-container");
+    var containerScaleRatio = $container.width() / defaultAtlasWidth;
+    var calculatedImageSizes = calculateImageSizes();
     var images = $(".gallery-container .animate-image");
     var animatedImages = [];
     imagesCount = images.length;
+
+    function calculateImageSizes() {
+        var imagesPerOneRow = Math.floor(Math.sqrt(totalImagesCount));
+        var imageSize = (defaultAtlasWidth / imagesPerOneRow - 5) * containerScaleRatio;
+        var marginSize = 5 * containerScaleRatio;
+
+        return {
+            width: imageSize,
+            height: imageSize,
+            marginRight: marginSize,
+            marginBottom: marginSize
+        }
+    }
 
     // setting canvas height and width equals to container;
     var $canvas = $("#animation-canvas");
@@ -87,9 +103,17 @@ function aminate(onAnimationComplete) {
             var preset = getPreset(number);
             images.each(function (index) {
                 var $defaultImage = $(this);
+                $defaultImage
+                    .css({
+                        width: calculatedImageSizes.width,
+                        height: calculatedImageSizes.height,
+                        marginRight: calculatedImageSizes.marginRight,
+                        marginBottom: calculatedImageSizes.marginBottom,
+                        display: 'block'
+                    });
                 var $image = $(this).clone().addClass("animated-image-block").appendTo($container);
                 var $image2 = $(this).clone().appendTo($container);
-                $defaultImage.hide();
+                $defaultImage.remove();
                 var defaultWidth = $defaultImage.width();
                 var defaultHeight = $defaultImage.height();
 
@@ -199,7 +223,7 @@ function aminate(onAnimationComplete) {
 }
 
 function AnimateImagesLoading(callback) {
-    var imagesPerSecond = 10;
+    var imagesPerSecond = 12;
     var rowsCount = Math.floor(Math.sqrt(totalImagesCount));
     var rowLoadTime = 1000 / imagesPerSecond * (rowsCount / imagesPerSecond);
     var rowHeight = $('.gallery-container').height() / rowsCount;
