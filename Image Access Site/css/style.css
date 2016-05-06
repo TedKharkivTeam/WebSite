@@ -8,9 +8,130 @@
     url('../fonts/LilyUPC.svg#LilyUPC') format('svg');
 }
 
+@font-face {
+    font-family: 'AvenirLTStdBlack';
+    src: url('../fonts/AvenirLTStdBlack.eot');
+    src: url('../fonts/AvenirLTStdBlack.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdBlack.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdBlack.woff') format('woff'),
+    url('../fonts/AvenirLTStdBlack.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdBlack.svg#AvenirLTStdBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdBlackOblique';
+    src: url('../fonts/AvenirLTStdBlackOblique.eot');
+    src: url('../fonts/AvenirLTStdBlackOblique.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdBlackOblique.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdBlackOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStdBlackOblique.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdBlackOblique.svg#AvenirLTStdBlackOblique') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdBook';
+    src: url('../fonts/AvenirLTStdBook.eot');
+    src: url('../fonts/AvenirLTStdBook.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdBook.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdBook.woff') format('woff'),
+    url('../fonts/AvenirLTStdBook.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdBook.svg#AvenirLTStdBook') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdBookOblique';
+    src: url('../fonts/AvenirLTStdBookOblique.eot');
+    src: url('../fonts/AvenirLTStdBookOblique.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdBookOblique.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdBookOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStdBookOblique.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdBookOblique.svg#AvenirLTStdBookOblique') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdHeavy';
+    src: url('../fonts/AvenirLTStdHeavy.eot');
+    src: url('../fonts/AvenirLTStdHeavy.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdHeavy.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdHeavy.woff') format('woff'),
+    url('../fonts/AvenirLTStdHeavy.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdHeavy.svg#AvenirLTStdHeavy') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdHeavyOblique';
+    src: url('../fonts/AvenirLTStdHeavyOblique.eot');
+    src: url('../fonts/AvenirLTStdHeavyOblique.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdHeavyOblique.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdHeavyOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStdHeavyOblique.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdHeavyOblique.svg#AvenirLTStdHeavyOblique') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdLight';
+    src: url('../fonts/AvenirLTStdLight.eot');
+    src: url('../fonts/AvenirLTStdLight.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdLight.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdLight.woff') format('woff'),
+    url('../fonts/AvenirLTStdLight.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdLight.svg#AvenirLTStdLight') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdLightOblique';
+    src: url('../fonts/AvenirLTStdLightOblique.eot');
+    src: url('../fonts/AvenirLTStdLightOblique.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdLightOblique.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdLightOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStdLightOblique.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdLightOblique.svg#AvenirLTStdLightOblique') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdMedium';
+    src: url('../fonts/AvenirLTStdMedium.eot');
+    src: url('../fonts/AvenirLTStdMedium.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdMedium.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdMedium.woff') format('woff'),
+    url('../fonts/AvenirLTStdMedium.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdMedium.svg#AvenirLTStdMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdMediumOblique';
+    src: url('../fonts/AvenirLTStdMediumOblique.eot');
+    src: url('../fonts/AvenirLTStdMediumOblique.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdMediumOblique.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdMediumOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStdMediumOblique.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdMediumOblique.svg#AvenirLTStdMediumOblique') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdOblique';
+    src: url('../fonts/AvenirLTStdOblique.eot');
+    src: url('../fonts/AvenirLTStdOblique.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdOblique.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStdOblique.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdOblique.svg#AvenirLTStdOblique') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdRoman';
+    src: url('../fonts/AvenirLTStdRoman.eot');
+    src: url('../fonts/AvenirLTStdRoman.eot') format('embedded-opentype'),
+    url('../fonts/AvenirLTStdRoman.woff2') format('woff2'),
+    url('../fonts/AvenirLTStdRoman.woff') format('woff'),
+    url('../fonts/AvenirLTStdRoman.ttf') format('truetype'),
+    url('../fonts/AvenirLTStdRoman.svg#AvenirLTStdRoman') format('svg');
+}
+
 body {
-    font: 14px/1.5 Arial, Helvetica, Nimbus Sans L, sans-serif;
-    letter-spacing: 1px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
     color: #434343;
     position: relative;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -60,20 +181,9 @@ h6 {
     margin: 9px 0 5px 0;
 }
 
-table {
-    padding: 0;
-    border: 0;
-}
-
 th {
     text-align: left;
     font-weight: normal;
-}
-
-tr {
-    padding: 0;
-    margin: 0;
-    border: 0;
 }
 
 td, th {
@@ -380,16 +490,15 @@ div.close {
     margin: 0;
 }
 
-.infoblock ul.blue-bullet li{
+.infoblock ul.blue-bullet li {
     position: relative;
     list-style: none;
 }
 
-.infoblock ul.green-bullet li{
+.infoblock ul.green-bullet li {
     position: relative;
     list-style: none;
 }
-
 
 .infoblock ul.blue-bullet li:before {
     content: '';
