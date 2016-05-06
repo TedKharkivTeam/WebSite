@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/all.css">
     <link rel="stylesheet" type="text/css" href="../css/bokeye-vs-copiers.css">
     <link rel="stylesheet" type="text/css" href="../css/click_and_click_mini.css">
-     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
 </head>
@@ -28,11 +28,10 @@
             return ms_ie;
         }
         onload = function () {
-            if(IsIE()) {
+            if (IsIE()) {
                 var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
 
-                for(var i = 0;i<2;)
-                {
+                for (var i = 0; i < 2;) {
                     rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
                     rainbowTextDivs[i].removeAttribute("class");
                 }
@@ -42,25 +41,31 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access"></a>
+        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498"
+                                     alt="Image Access"></a>
         <div class="botlogo"> KIC Click & KIC Click Mini</div>
     </div>
-    <ul class="leftsidemenu">
-        <li><a href="KIC_Click_and_KIC_Click_Mini.html">KIC Click & Click Mini</a></li>
-        <li><a href="KIC_Click_and_Mini_Scan_Copy_Fax.html">Scan, Copy, Fax</a></li>
-        <li><a href="KIC_Click_and_Mini_KIC_Makes_Print_Collections_Searchable.html">KIC Makes Print Collections Searchable</a></li>
-        <li><a href="KIC_Click_and_Mini_Beautiful_Images_Fast_and_Easy.html">Beautiful Images – Fast and Easy, and 600dpi</a></li>
-        <li><a href="KIC_Click_and_Mini_KIC_Face_Down_vs_Face_Up.html">Scanning Face-Down vs Face-Up</a></li>
-        <li><a href="KIC_Click_and_Mini_True_2_Touch_User_Interface.html">True 2 Touch User Interface</a></li>
-        <li><a href="KIC_Click_and_Mini_KIC_SmartDock.html">KIC Smart Dock</a></li>
-        <li><a href="KIC_Click_and_Mini_Reservation_App.html">KIC Reservation App (part of Knowledge Access Tool)</a></li>
-        <li><a href="KIC_Click_and_Mini_KIC_Fleet_Manager.html">KIC Fleet Manager</a></li>
-        <li><a href="KIC_Click_and_Mini_Book_Printing.html">Self-Serve Book Printing</a></li>
-        <li><a href="KIC_Click_and_Mini_In_Case_You_Didnt_Know.html">In Case You Didn’t Know</a></li>
-        <li class="selected"><a href="KIC_Click_and_Mini_KIC_Click_vs_Copiers.html">KIC Click vs. Copiers</a></li>
-        <li><a href="KIC_Click_and_Mini_Technical_Details.html">Technical Details</a></li>
-        <li><a href="KIC_Click_and_Mini_The_KIC_Product_Family.html">The KIC Product Family</a></li>
-    </ul>
+    <div class="leftsidemenu-holder" id="menu">
+        <ul class="leftsidemenu">
+            <li><a href="KIC_Click_and_KIC_Click_Mini.html">KIC Click & Click Mini</a></li>
+            <li><a href="KIC_Click_and_Mini_Scan_Copy_Fax.html">Scan, Copy, Fax</a></li>
+            <li><a href="KIC_Click_and_Mini_KIC_Makes_Print_Collections_Searchable.html">KIC Makes Print Collections
+                Searchable</a></li>
+            <li><a href="KIC_Click_and_Mini_Beautiful_Images_Fast_and_Easy.html">Beautiful Images – Fast and Easy, and
+                600dpi</a></li>
+            <li><a href="KIC_Click_and_Mini_KIC_Face_Down_vs_Face_Up.html">Scanning Face-Down vs Face-Up</a></li>
+            <li><a href="KIC_Click_and_Mini_True_2_Touch_User_Interface.html">True 2 Touch User Interface</a></li>
+            <li><a href="KIC_Click_and_Mini_KIC_SmartDock.html">KIC Smart Dock</a></li>
+            <li><a href="KIC_Click_and_Mini_Reservation_App.html">KIC Reservation App (part of Knowledge Access
+                Tool)</a></li>
+            <li><a href="KIC_Click_and_Mini_KIC_Fleet_Manager.html">KIC Fleet Manager</a></li>
+            <li><a href="KIC_Click_and_Mini_Book_Printing.html">Self-Serve Book Printing</a></li>
+            <li><a href="KIC_Click_and_Mini_In_Case_You_Didnt_Know.html">In Case You Didn’t Know</a></li>
+            <li class="selected"><a href="KIC_Click_and_Mini_KIC_Click_vs_Copiers.html">KIC Click vs. Copiers</a></li>
+            <li><a href="KIC_Click_and_Mini_Technical_Details.html">Technical Details</a></li>
+            <li><a href="KIC_Click_and_Mini_The_KIC_Product_Family.html">The KIC Product Family</a></li>
+        </ul>
+    </div>
     <div class="infoblock">
         <h2 class="brochure-title-center">KIC Click vs. Copiers &ndash; How KIC Compares</h2>
         <div class="infoblock__double-wrap">
@@ -131,12 +136,15 @@
                         the
                         performance of a typical copier. The costs are broken into three main areas: equipment and
                         maintenance,
-                        consumables, and patron usage time. With KIC Click, electronic output is assumed to be preferred over
+                        consumables, and patron usage time. With KIC Click, electronic output is assumed to be preferred
+                        over
                         print
                         90% of the time. That ratio has ranged from 75-95% electronic in 2012, but is certain to rise in
                         the
                         future</p>
-                    <img class="diagram1" src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/forMax.png" width="772" height="519"
+                    <img class="diagram1"
+                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/forMax.png" width="772"
+                         height="519"
                          alt="KIC Bookeye vs. Copiers"/>
                     <strong class="bookeye-vs-copiers__strong">A five Year Comparison at a<br> Usage Rate of 100,000
                         pages
@@ -205,7 +213,7 @@
                         <img src="../images/Bookeye_vs_Copiers/StackOfPaper.png">
                     </div>
                 </div>
-                <div >
+                <div>
                     <h3 class="rainbow-text">Color Copies for Less</h3>
                 </div>
                 <p>
