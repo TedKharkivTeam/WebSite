@@ -22,7 +22,6 @@ $(document).ready(function () {
     $(window).scroll(throttle(scrollSpy, 200));
 
     function scrollSpy() {
-        console.log('test');
         //Getting scroll top offset (excluding header height);
         var fromTop = $(this).scrollTop() + $('header').outerHeight()+30;
 
