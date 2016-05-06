@@ -12,7 +12,7 @@
     font-size: 28px;
     position: absolute;
     top: 7px;
-    padding: 5px 0;
+    padding: 16px 0;
     left:0;
     right: 0;
     text-align: center;
@@ -39,7 +39,7 @@
     background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
     display: block;
-    padding: 5px 0;
+    padding: 10px 0;
     font-size: 27px;
     font-weight:bold;
     font-style: italic;
@@ -58,8 +58,7 @@
     background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
     margin: 9px 0;
-    padding:3px 0;
-    /*border: 1px solid #888;*/
+    padding:8px 0;
 }
 .menu__a{
     color: #fff;
@@ -134,8 +133,9 @@
     padding: 4px 11px;
 }
 .drop-box{
-    width: 600px;
-    position: absolute;
+    /*width: 600px;*/
+    width: 31vw;
+    position: relative;
     padding: 5px;
     border-radius: 8px;
     margin: 0px 4px 5px 0px;
@@ -143,44 +143,43 @@
 .drop-box--to-bottom{
     right: 0;
     bottom: 0;
+    height: 40%;
 }
 .drop-box--to-top{
     right: 0;
     top: 102px;
+    height: 60%;
 }
 .drop-box__icon{
     overflow: auto;
     position: relative;
     text-align: right;
 }
+.events-content-block__content-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.drop-box__icon--past,
 .drop-box__icon--coming{
-    height: 450px;
+    height: 100%;
 }
-.drop-box__icon--past{
-    height: 300px;
+.news-wrapper__events-content-block {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
+
 .icon__img{
     padding-top:10px;
     position: relative;
 }
-.icon__img img{
-    border: 1px solid #888;
-    border-radius: 4px;
-    max-width: 250px;
-    width: 100%;
-    background: #fff;
-    padding: 2px;
-}
+
 .event_content{
     display: none;
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: 250px;
+    top: 0;
+    left: -325px;
     background: #fff;
     border-radius: 8px;
     width: 320px;
@@ -199,6 +198,70 @@
     display: block;
     overflow: hidden;
 }
+.drop-box .popuop__text{
+    /*position: absolute;*/
+    /*top: -36px;*/
+    display: inline-block;
+    float: right;
+    right: 0;
+    padding: 10px 41px;
+    font-size: 20px;
+}
+.drop-box .popuop__text--coming{
+    padding: 10px 23px;
+}
+
+
+
+
+
+
+
+
+
+/*New styles*/
+.news-wrapper__events-block {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    width: 350px;
+    padding-right: 10px;
+}
+
+.events-block__events--coming {
+    height: 55%;
+}
+
+.events-block__events--past {
+    height: 45%;
+}
+
+.events__block-title {
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+    display: block;
+    padding: 10px 0;
+    font-size: 2.3rem;
+    font-weight:bold;
+    font-style: italic;
+    max-height: 40px;
+}
+
+.events__content-block {
+    height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
+.icon__img img{
+    border: 1px solid #888;
+    border-radius: 4px;
+    width: 100%;
+    background: #fff;
+    padding: 2px;
+}
 .text--pull-right{
     float: right;
 }
@@ -214,14 +277,4 @@
 }
 .text--padding{
     padding-left:5px;
-}
-.drop-box .popuop__text{
-    position: absolute;
-    top: -40px;
-    right: 0;
-    padding: 4px 21px;
-    font-size: 20px;
-}
-.drop-box .popuop__text--coming{
-    padding: 4px 5px;
 }

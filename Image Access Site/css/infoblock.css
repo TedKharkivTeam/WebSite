@@ -1,7 +1,7 @@
 .infoblock {
     margin: 2px 0 0;
     padding: 20px;
-    width: 72%;
+    width: 75%;
     text-align: left;
     float: left;
     word-wrap: break-word;
@@ -355,13 +355,3 @@
     width: 100%;
     overflow: hidden;
 }
-
-/* start temporary style */
-
-.infoblock p.waiting {
-    color: #f00;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-/* end temporary style */

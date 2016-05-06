@@ -40,7 +40,7 @@
 
 .infoblock .opus_p1 {
     width: 45%;
-    margin-top: 43%;
+    margin-top: 52%;
 }
 
 .infoblock .opus_p2 {
@@ -123,7 +123,7 @@
 .OAI3 {
     width: 45%;
     margin-left: 47%;
-    margin-top: -23%;
+    margin-top: -19.5%;
 }
 
 .OAI4 {
@@ -148,9 +148,9 @@
 }
 
 .infoblock .table1_freeflow {
-    width: 68%;
-    margin-left: 24%;
-    margin-top: -29%;
+    width: 65%;
+    margin-left: 25%;
+    margin-top: -27%;
 }
 
 .OAI7 {
@@ -187,7 +187,7 @@
 .infoblock .opus_output_block2 {
     width: 47%;
     margin-left: 51%;
-    margin-top: -14.5%;
+    margin-top: -12.5%;
 }
 
 .infoblock .opus_output_block3 {
@@ -199,7 +199,7 @@
     width: 10%;
     font-size: larger;
     font-weight: 600;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .infoblock .opus_output_block5 {
@@ -226,24 +226,24 @@
 }
 
 .infoblock .content_stabilization {
-    margin-top:-1%;
-	padding:1%;
+    margin-top: -1%;
+    padding: 1%;
 }
 
-.infoblock .content-stabilization__enumeration{
+.infoblock .content-stabilization__enumeration {
     overflow: hidden;
 }
 
-.infoblock .content-stabilization__enumeration div{
+.infoblock .content-stabilization__enumeration div {
     float: left;
     width: 48%;
 }
 
-.infoblock .content-stabilization__enumeration div ul{
+.infoblock .content-stabilization__enumeration div ul {
     margin-left: 10%;
 }
 
-.infoblock .content-stabilization__enumeration div p{
+.infoblock .content-stabilization__enumeration div p {
     width: 100%;
     margin-top: 3%;
 }
@@ -255,7 +255,7 @@
 .infoblock .content_stabilization2 {
     width: 47%;
     margin-left: 50%;
-    margin-top: -8.6%;
+    margin-top: -7.6%;
 }
 
 .infoblock .content_stabilization3 {
@@ -344,7 +344,7 @@
     color: #0000ff;
     font-size: x-large;
     margin-left: 60%;
-    margin-top: -4%;
+    margin-top: -2%;
 }
 
 .table_1 {
@@ -366,6 +366,7 @@
     -webkit-text-stroke: 1px black;
     text-align: center;
     display: block;
+    padding: 1%;
 }
 
 .table_2 {
@@ -374,12 +375,110 @@
     border-collapse: collapse;
 
 }
+
 .table_2 td {
     border: groove 3px;
     border-collapse: collapse;
 
 }
-.infoblock .bottom_label{
+
+.infoblock .bottom_label {
     text-align: center;
     font-weight: 700;
+}
+
+@media all and (min-width: 1200px) and (max-width: 1400px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 2.2rem;
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__h3__p p {
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 1.7rem;
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.8rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 1.4rem;
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.7rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .infoblock div .infoblock__h2__p h2 {
+        font-size: 1.5rem;
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__h2__p p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .infoblock .infoblock__h3__p h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__h3__p p {
+        font-size: 0.7rem;
+    }
+}
+
+.infoblock .super_fix {
+    margin-top: 4%;
 }

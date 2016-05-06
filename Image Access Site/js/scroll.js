@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    $(".leftsidemenu").find('a').on("click", function (event) {
+    var menu = $(".leftsidemenu");
+    var footerHeight = $('footer');
+    var defaultOffsetTop = menu.offset().top;
+    menu.find('a').on("click", function (event) {
 
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
@@ -19,11 +22,15 @@ $(document).ready(function () {
 
     scrollSpy();
 
-    $(window).scroll(throttle(scrollSpy, 200));
+    $(window).scroll(throttle(scrollSpy, 150));
+
+    $(window).scroll(function () {
+        moveMenu();
+    });
 
     function scrollSpy() {
         //Getting scroll top offset (excluding header height);
-        var fromTop = $(this).scrollTop() + $('header').outerHeight()+30;
+        var fromTop = $(this).scrollTop() + $('header').outerHeight() + 30;
 
         //Filter items. Getting only items with .top() value smaller than current fromTop position.
         var items = $('.scrollSpy').map(function () {
@@ -35,7 +42,7 @@ $(document).ready(function () {
         $('.selected').removeClass('selected');
         //And add this call only to the last filtered item.
         var id = $(items[items.length - 1]).attr('id');
-        $("[href='#"+id+"']").parent().addClass('selected');
+        $("[href='#" + id + "']").parent().addClass('selected');
     }
 
     function throttle(fn, threshhold, scope) {
@@ -59,5 +66,19 @@ $(document).ready(function () {
                 fn.apply(context, args);
             }
         };
+    }
+
+    function moveMenu() {
+        var newOffset = $(window).scrollTop();
+        if (newOffset > 0) {
+            var maxNewOffset = $('.content').height() - menu.height() - footerHeight.height();
+            if (newOffset > maxNewOffset) {
+                menu.css({top: maxNewOffset});
+            } else {
+                menu.css({top: newOffset});
+            }
+        } else {
+            menu.css({top: 0});
+        }
     }
 });
