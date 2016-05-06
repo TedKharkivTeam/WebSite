@@ -16,7 +16,10 @@
     left:0;
     right: 0;
     text-align: center;
-    background: rgba(255, 255, 255, 0.7);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    /*border-top: 1px solid #888;*/
+    /*border-bottom: 1px solid #888;*/
 }
 .content__news-wrapper{
     position: relative;
@@ -24,23 +27,23 @@
 }
 .news-wrapper__popup{
     position: absolute;
-    top: 75px;
-    left: 15%;
+    bottom: 10px;
+    left: 1%;
     width: 30%;
     text-align: center;
-    /*border: 1px solid #888;*/
     padding: 5px;
     border-radius: 8px;
 }
 .popuop__text{
-    background: rgba(255, 255, 255, 0.7);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
     display: block;
     padding: 5px 0;
     font-size: 27px;
     font-weight:bold;
     font-style: italic;
-    border: 1px solid #888;
+    /*border: 1px solid #888;*/
 }
 .text--popup{
     margin: 0px -3px 3px;
@@ -48,26 +51,26 @@
 .popup__menu{
     text-align: left;
     overflow: auto;
-    height: 400px;
+    height: 560px;
 }
 .news_item {
     position: relative;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
     margin: 9px 0;
     padding:3px 0;
-    border: 1px solid #888;
-
+    /*border: 1px solid #888;*/
 }
 .menu__a{
-    font-weight:bold;
-    color: #000;
+    color: #fff;
+    opacity: 0.9;
 }
 .popup__menu time{
     width:60px;
     margin-left:30px;
     margin-right: 5px;
     display: inline-block;
+    font-weight:bold;
 }
 .a__text{
     display: inline-block;
@@ -92,8 +95,9 @@
     text-align: left;
 }
 .popup__scroll{
-    max-height: 460px;
+    max-height: 426px;
     overflow: auto;
+    margin-top: 20px;
 }
 .news_content__img{
     width: 100%;
@@ -120,28 +124,40 @@
 }
 .news_content .close{
     position: absolute;
-    top: 0;
-    right: 25px;
+    top:0;
+    right:0;
     color: #000000;
     text-decoration: none;
-    padding: 4px;
     font-size: 18px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 4px 11px;
 }
 .drop-box{
-    width: 700px;
+    width: 600px;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    /*border: 1px solid #888;*/
     padding: 5px;
     border-radius: 8px;
     margin: 0px 4px 5px 0px;
 }
+.drop-box--to-bottom{
+    right: 0;
+    bottom: 0;
+}
+.drop-box--to-top{
+    right: 0;
+    top: 102px;
+}
 .drop-box__icon{
-    height: 450px;
     overflow: auto;
     position: relative;
     text-align: right;
+}
+.drop-box__icon--coming{
+    height: 450px;
+}
+.drop-box__icon--past{
+    height: 300px;
 }
 .icon__img{
     padding-top:10px;
@@ -150,35 +166,62 @@
 .icon__img img{
     border: 1px solid #888;
     border-radius: 4px;
+    max-width: 250px;
+    width: 100%;
+    background: #fff;
+    padding: 2px;
 }
 .event_content{
     display: none;
     position: absolute;
-    top: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
     right: 250px;
     background: #fff;
     border-radius: 8px;
-    width: 350px;
+    width: 320px;
     padding:5px;
     z-index: 10;
     text-align: left;
+    font-size: 13px;
 }
-.icon__img:hover .event_content{
+.icon__img a{
+    position: relative;
+}
+.icon__img a:hover + .event_content{
     display: block;
 }
 .content__text{
-    display: inline-block;
+    display: block;
+    overflow: hidden;
+}
+.text--pull-right{
+    float: right;
+}
+.text--pull-left{
+    position: absolute;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1px 3px;
 }
 .text--bold{
     font-weight:bold;
 }
 .text--padding{
     padding-left:5px;
-    padding-right:60px;
 }
 .drop-box .popuop__text{
     position: absolute;
-    top: -50px;
+    top: -40px;
     right: 0;
-    padding: 4px 62px;
+    padding: 4px 21px;
+    font-size: 20px;
+}
+.drop-box .popuop__text--coming{
+    padding: 4px 5px;
 }
