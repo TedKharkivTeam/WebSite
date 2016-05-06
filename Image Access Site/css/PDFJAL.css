@@ -617,19 +617,26 @@ th .table--img{
     display: inline;
 }
 .text-area{
+    padding-top:10px;
+    padding-bottom:20px;
     text-align: center;
 }
 .selection{
     font-size: 13px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 .selection--bold td{
     font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
 }
 .selection td{
     text-align: center;
-    width: 50px;
+    width:50px;
 }
 .sup-text{
     font-size: 8px;
@@ -678,4 +685,53 @@ th .table--img{
     bottom: -7%;
     right: 0;
     height: 90%;
+}
+.infoblock__line{
+    display: inline-block;
+    vertical-align: middle;
+}
+.infoblock .line--padding{
+    padding-bottom: 30px;
+}
+.line--midle{
+    vertical-align: middle;
+}
+.infoblock__line--w40{
+    width:40%;
+}
+.infoblock__line--w60{
+    width: calc(60% - 10px);
+}
+.infoblock__line--border{
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.infoblock .line--bold-text{
+    text-align: center;
+    font-weight:bold;
+}
+.line__persent1{
+    position: relative;
+}
+.line__persent4{
+    position: relative;
+}
+.line__persent1:after{
+    content: '1% Libraries';
+    position: absolute;
+    top: 25px;
+    right: -74px;
+    font-weight: bold;
+    width: 78px;
+    text-align: center;
+}
+.line__persent4:before{
+    content: '4% Businesses';
+    position: absolute;
+    left: -58px;
+    bottom: 41px;
+    font-weight: bold;
+    width: 99px;
+    text-align: center;
 }
