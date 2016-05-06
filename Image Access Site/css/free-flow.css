@@ -226,24 +226,24 @@
 }
 
 .infoblock .content_stabilization {
-    margin-top:-1%;
-	padding:1%;
+    margin-top: -1%;
+    padding: 1%;
 }
 
-.infoblock .content-stabilization__enumeration{
+.infoblock .content-stabilization__enumeration {
     overflow: hidden;
 }
 
-.infoblock .content-stabilization__enumeration div{
+.infoblock .content-stabilization__enumeration div {
     float: left;
     width: 48%;
 }
 
-.infoblock .content-stabilization__enumeration div ul{
+.infoblock .content-stabilization__enumeration div ul {
     margin-left: 10%;
 }
 
-.infoblock .content-stabilization__enumeration div p{
+.infoblock .content-stabilization__enumeration div p {
     width: 100%;
     margin-top: 3%;
 }
@@ -375,21 +375,25 @@
     border-collapse: collapse;
 
 }
+
 .table_2 td {
     border: groove 3px;
     border-collapse: collapse;
 
 }
-.infoblock .bottom_label{
+
+.infoblock .bottom_label {
     text-align: center;
     font-weight: 700;
 }
-@media all and (min-width: 1200px) and (max-width: 1400px){
+
+@media all and (min-width: 1200px) and (max-width: 1400px) {
     .infoblock div .infoblock__h2__p h2 {
         font-size: 2.2rem;
         color: #000000;
         padding: 0%;
     }
+
     .infoblock div .infoblock__h2__p p {
         text-align: center;
         font-size: 1.5rem;
@@ -400,6 +404,7 @@
         font-weight: bold;
         color: #000000;
     }
+
     .infoblock .infoblock__h3__p p {
         font-size: 1rem;
     }
@@ -411,6 +416,7 @@
         color: #000000;
         padding: 0%;
     }
+
     .infoblock div .infoblock__h2__p p {
         text-align: center;
         font-size: 1.1rem;
@@ -421,12 +427,11 @@
         font-weight: bold;
         color: #000000;
     }
+
     .infoblock .infoblock__h3__p p {
         font-size: 0.8rem;
     }
 }
-
-
 
 @media all and (min-width: 768px) and (max-width: 991px) {
     .infoblock div .infoblock__h2__p h2 {
@@ -434,6 +439,7 @@
         color: #000000;
         padding: 0%;
     }
+
     .infoblock div .infoblock__h2__p p {
         text-align: center;
         font-size: 1rem;
@@ -444,6 +450,7 @@
         font-weight: bold;
         color: #000000;
     }
+
     .infoblock .infoblock__h3__p p {
         font-size: 0.7rem;
     }
@@ -455,6 +462,7 @@
         color: #000000;
         padding: 0%;
     }
+
     .infoblock div .infoblock__h2__p p {
         text-align: center;
         font-size: 1rem;
@@ -465,8 +473,12 @@
         font-weight: bold;
         color: #000000;
     }
+
     .infoblock .infoblock__h3__p p {
         font-size: 0.7rem;
     }
 }
 
+.infoblock .super_fix {
+    margin-top: 4%;
+}
