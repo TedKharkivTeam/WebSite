@@ -355,13 +355,3 @@
     width: 100%;
     overflow: hidden;
 }
-
-/* start temporary style */
-
-.infoblock p.waiting {
-    color: #f00;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-/* end temporary style */
