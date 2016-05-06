@@ -27,11 +27,10 @@
             return ms_ie;
         }
         onload = function () {
-            if(IsIE()) {
+            if (IsIE()) {
                 var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
 
-                for(var i = 0;i<2;)
-                {
+                for (var i = 0; i < 2;) {
                     rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
                     rainbowTextDivs[i].removeAttribute("class");
                 }
@@ -41,24 +40,29 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access"></a>
+        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498"
+                                     alt="Image Access"></a>
         <div class="botlogo">KIC BookEdge</div>
     </div>
-    <ul class="leftsidemenu">
-        <li><a href="KIC_BookEdge.html">KIC BookEdge</a></li>
-        <li><a href="KIC_BookEdge_Scan_Copy_Fax.html">Scan, Copy, Fax</a></li>
-        <li><a href="KIC_BookEdge_KIC_Makes_Print_Collections_Searchable.html">KIC Makes Print Collections Searchable</a></li>
-        <li><a href="KIC_BookEdge_No_More_Spine_Damage.html">No More Spine Damage</a></li>
-        <li><a href="KIC_BookEdge_True_2_Touch.html">True 2 Touch User Interface</a></li>
-        <li><a href="KIC_BookEdge_SmartDock.html">KIC SmartDock</a></li>
-        <li><a href="KIC_BookEdge_KIC_Reservation_App.html">KIC Reservation App (part of Knowledge Access Tool)</a></li>
-        <li><a href="KIC_BookEdge_KIC_Fleet_Manager.html">KIC Fleet Manager</a></li>
-        <li><a href="KIC_BookEdge_Self_Serve_Book_Printing.html">Self-Serve Book Printing</a></li>
-        <li><a href="KIC_BookEdge_In_Case_You_Didnt_Know.html">In Case You Didn’t Know</a></li>
-        <li class="selected"><a href="KIC_BookEdge_Bookedge_vs_Copiers.html">KIC BookEdge vs. Copiers</a></li>
-        <li><a href="KIC_BookEdge_Technical_Details.html">Technical Details</a></li>
-        <li><a href="KIC_BookEdge_The_KIC_Product_Family.html">The KIC Product Family</a></li>
-    </ul>
+    <div class="leftsidemenu-holder">
+        <ul class="leftsidemenu">
+            <li><a href="KIC_BookEdge.html">KIC BookEdge</a></li>
+            <li><a href="KIC_BookEdge_Scan_Copy_Fax.html">Scan, Copy, Fax</a></li>
+            <li><a href="KIC_BookEdge_KIC_Makes_Print_Collections_Searchable.html">KIC Makes Print Collections
+                Searchable</a></li>
+            <li><a href="KIC_BookEdge_No_More_Spine_Damage.html">No More Spine Damage</a></li>
+            <li><a href="KIC_BookEdge_True_2_Touch.html">True 2 Touch User Interface</a></li>
+            <li><a href="KIC_BookEdge_SmartDock.html">KIC SmartDock</a></li>
+            <li><a href="KIC_BookEdge_KIC_Reservation_App.html">KIC Reservation App (part of Knowledge Access Tool)</a>
+            </li>
+            <li><a href="KIC_BookEdge_KIC_Fleet_Manager.html">KIC Fleet Manager</a></li>
+            <li><a href="KIC_BookEdge_Self_Serve_Book_Printing.html">Self-Serve Book Printing</a></li>
+            <li><a href="KIC_BookEdge_In_Case_You_Didnt_Know.html">In Case You Didn’t Know</a></li>
+            <li class="selected"><a href="KIC_BookEdge_Bookedge_vs_Copiers.html">KIC BookEdge vs. Copiers</a></li>
+            <li><a href="KIC_BookEdge_Technical_Details.html">Technical Details</a></li>
+            <li><a href="KIC_BookEdge_The_KIC_Product_Family.html">The KIC Product Family</a></li>
+        </ul>
+    </div>
     <div class="infoblock">
         <h2 class="brochure-title-center">KIC Bookeye vs. Copiers &ndash; How KIC Compares</h2>
         <div class="infoblock__double-wrap">
@@ -203,7 +207,7 @@
                         <img src="../images/Bookeye_vs_Copiers/StackOfPaper.png">
                     </div>
                 </div>
-                <div >
+                <div>
                     <h3 class="rainbow-text">Color Copies for Less</h3>
                 </div>
                 <p>
