@@ -57,3 +57,133 @@ html {
 
 
 
+/*fleet manager page*/
+
+.infoblock__page-9__top {
+    overflow: hidden;
+
+    padding-bottom: 5%;
+}
+
+.infoblock .infoblock__page-9__top__logo {
+    max-width: 34rem;
+    float: left;
+}
+
+.infoblock__page-9 ul.blue-bullet li:first-child:before {
+    background: transparent !important;
+}
+
+.infoblock__page-9__top__h1 {
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+    font-size: 6.4rem;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.infoblock__page-9__top__h2 {
+    text-align: center;
+    color: #8ca1c9;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 1;
+    margin-top: 5%;
+    letter-spacing: 0;
+}
+
+.infoblock__page-9__center {
+    overflow: hidden;
+    margin-top: -8rem;
+}
+
+.infoblock .infoblock__page-9__center__img {
+    float: right;
+    width: 65%;
+    padding-left: 2rem;
+}
+
+.infoblock__page-9__center__text--padding {
+    padding-top: 41px;
+    position: relative;
+}
+
+.infoblock__page-9__center__text--margin {
+    padding-top: 38px;
+    position: absolute;
+    width: 37%;
+}
+
+.infoblock__page-9__nav {
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.infoblock .infoblock__page-9__nav__li {
+    float: left;
+    width: 38%;
+}
+
+.infoblock .infoblock__page-9__nav__img {
+    float: left;
+    width: 60%;
+}
+
+.infoblock .infoblock__page-9__li--width {
+    width: 80%;
+}
+
+.infoblock__page-9__nav__li li:first-child {
+    list-style: none;
+}
+
+.infoblock__page-9__nav__li--margin {
+    margin-left: 2rem;
+}
+
+.infoblock .infoblock__page-9__bottom {
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+.infoblock__page-9__bottom li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 32%;
+}
+
+.infoblock__page-9__bottom li p {
+    text-align: center;
+}
+
+.infoblock .infoblock__page-9__bottom__img {
+    width: 24%;
+    margin-left: 2.5rem;
+}
+
+.infoblock .infoblock__page-9__bottom__a {
+    width: 20%;
+    position: relative;
+    top: -1.5rem;
+}
+
+.infoblock__page-9__bottom__a a {
+    font-size: 2.6rem;
+    color: #454733;
+    margin-bottom: 1rem;
+}
+
+.infoblock__page-9__a--rel {
+    position: absolute;
+    bottom: 7.6rem;
+    font-size: 3.0rem;
+    color: #8c897d;
+    width: 230%;
+    right: 0;
+}
+
+/*end fleet manager page*/
