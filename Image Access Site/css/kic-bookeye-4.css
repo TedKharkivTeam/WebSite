@@ -846,6 +846,7 @@ div .infoblock__page-7__block-left {
 .infoblock__page-8__reservation__h3 {
     color: #000;
     font-size: 2.4rem;
+    line-height: 2.6rem;
     font-style: italic;
     font-weight: normal;
     margin: 0;
@@ -1559,7 +1560,7 @@ tr th {
     margin-left: 5%;
 }
 
-@media all and (min-width: 1200px) and (max-width: 1400px) {
+@media all and (min-width: 1301px) and (max-width: 1400px) {
     .infoblock ul.blue-bullet li {
         position: relative;
         list-style: none;
@@ -1734,6 +1735,10 @@ tr th {
 
 
 }
+@media all and (min-width: 1200px) and (max-width: 1300px){
+
+}
+
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
 
