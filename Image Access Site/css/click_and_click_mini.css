@@ -99,9 +99,9 @@
 .infoblock .text5 {
     font-weight: 400;
     font-size: x-large;
-
-    margin-left: -2%;
+    /*margin-left: -2%;*/
     text-align: center;
+    line-height:1;
 }
 
 .infoblock .text7 {
@@ -151,24 +151,19 @@
 }
 
 .infoblock .dvfu2 {
-    float: left;
     font-weight: 600;
     font-size: x-large;
-    margin-top: 3%;
-
 }
 
 .infoblock .dv_block {
     width: 48%;
-    display: block;
-    margin-top: 6%;
+    display: inline-block;
     text-align: left;
 }
 
 .infoblock .dv_block1 {
-    float: left;
-    margin-left: 50%;
-    margin-top: -21.5%;
+    display: inline-block;
+    vertical-align: top;
     width: 48%;
 }
 
@@ -201,6 +196,8 @@
 .infoblock__center {
     overflow: hidden;
     margin-top: -80px;
+    padding-bottom: 15%;
+    line-height: 1.8;
 }
 
 .infoblock .center__img {
@@ -428,7 +425,7 @@
     font-style: italic;
     font-size: smaller;
     color: #5C7681;
-    margin-top: 57%;
+    margin-top: 59%;
     margin-left: 1%;
 }
 
@@ -439,7 +436,7 @@
     font-style: italic;
     font-size: smaller;
     color: #5C7681;
-    margin-top: 57%;
+    margin-top: 59%;
     margin-left: 13%;
 }
 
@@ -450,7 +447,7 @@
     font-style: italic;
     font-size: smaller;
     color: #5C7681;
-    margin-top: 57%;
+    margin-top: 59%;
     margin-left: 27%;
 }
 
@@ -458,6 +455,7 @@
     border: solid 3px;
     border-radius: 2%;
     margin-top: 2%;
+    padding-Bottom: 50px;
 }
 
 .infoblock .brochure-title-left {

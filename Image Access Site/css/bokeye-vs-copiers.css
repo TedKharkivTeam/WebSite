@@ -2,7 +2,7 @@
     overflow: hidden;
 }
 
-.infoblock h3{
+.infoblock h3 {
 
 }
 
@@ -59,26 +59,26 @@
     overflow: hidden;
 }
 
-.column__bookeye-scans{
-    width:90%;
-    margin-left:5% ;
+.column__bookeye-scans {
+    width: 90%;
+    margin-left: 5%;
 }
 
-.rainbow-text{
+.rainbow-text {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff00ff+16,0000ff+33,00ffff+50,00ff00+67,ffff00+83,ff0004+100,ff0000+100 */
     background: #ff0000; /* Old browsers */
-    background: -moz-linear-gradient(left,  #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #ff0000 0%,#ff00ff 16%,#0000ff 33%,#00ffff 50%,#00ff00 67%,#ffff00 83%,#ff0004 100%,#ff0000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #ff0000 0%,#ff00ff 16%,#0000ff 33%,#00ffff 50%,#00ff00 67%,#ffff00 83%,#ff0004 100%,#ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ff0000',GradientType=1 ); /* IE6-9 */
-    -webkit-background-clip: text;  /* подробнее про background-clip */
+    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text; /* подробнее про background-clip */
     color: transparent;
     font-size: 26px !important;
     text-align: center;
 }
 
-
-.infoblock h3{
+.infoblock h3 {
     color: transparent;
     font-size: 26px;
+    line-height: 28px;
 }

@@ -5,6 +5,7 @@
 }
 .reservation__h1{
     font-size: 70px;
+    line-height: 72px;
     text-shadow: none;
     color: #000;
     margin:0;
@@ -19,6 +20,7 @@
 .reservation__h3{
     color: #000;
     font-size:24px;
+    line-height: 26px;
     font-style: italic;
     font-weight:normal;
     margin:0;
