@@ -1,0 +1,109 @@
+.infoblock__content-holder {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-holder__forms {
+    width: 60%;
+    float: left;
+}
+
+.content-holder__pictures {
+    padding: 20px 10px 0;
+    width: 40%;
+    float: left;
+}
+
+.content-holder__forms input {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 2px 5px;
+    color: #202020;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.content-holder__forms label {
+    display: block;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 5px 2px;
+}
+
+.content-holder__forms button {
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    border: none;
+    width: 190px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px;
+}
+
+#Wrapp {
+    left: 30%;
+    top: 13%;
+    position: fixed;
+    background-color: rgba(64, 154, 213, 0.8);
+    width: 60%;
+    height: 81%;
+    z-index: 10000;
+    border-radius: 10px;
+}
+
+#tt {
+    position: relative;
+    background-color: #fff;
+    width: 200px;
+    padding: 25px;
+    height: 80px;
+    border: none;
+    margin: 17% auto;
+    border-radius: 10px;
+}
+
+.infoblock .close {
+    text-shadow: none;
+    color: #02307E;
+}
+
+.bottom-img {
+    margin: 15px auto 0;
+    width: 80% !important;
+    display: block;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .content-holder__forms {
+        width: 50%;
+    }
+    .content-holder__pictures {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .service-bg {
+        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
+        padding: 20px 20px 270px 20px;
+        background-size: contain;
+    }
+
+    .double-check-order-status__form {
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+}

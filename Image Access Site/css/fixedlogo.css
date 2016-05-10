@@ -23,3 +23,25 @@
     text-align: center;
     width: 247px;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        left: 3%;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    .botlogo {
+        width: 180px;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
