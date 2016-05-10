@@ -20,11 +20,12 @@ html {
 #custom_undertitle_bookedge {
     text-align: right;
     float: right;
-    margin: 0 20% 0 0;
+    margin: 2% 20% 0 0;
 }
 
 #columns_header {
     width: 100%;
+    float:left;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -32,248 +33,27 @@ html {
 }
 .two_columns {
     width: 45%;
-    margin: 0 2.5% 0 2.5%;
-    float:left;
+    margin: 1% 2.5% 0 2.5%;
+    float: left;
 }
 #dlsg_logo {
     width: 320px;
 }
 
-
-.infoblock__column {
-    float: left;
-    width: 50%;
-    padding: 7px;
-}
-
-.infoblock__column__a {
-    padding-left: 60%;
-    font-weight: bold;
-}
-
-#kiclogo {
-    width: 60%;
-}
-
-#mpcs_header {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
-}
-
-#mpcs_underheader {
-    font-size: 1.4rem;
-    font-style: italic;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#mpcs_leftcolumn {
-    text-align: justify;
-    margin-top: 2%;
-    margin-left: 3%;
-    width: 50%;
-    float: left;
-}
-
-#mpcs_rightcolumn {
-    float: left;
-    text-align: justify;
-    margin-top: 2%;
-    margin-right: 3%;
-    width: 30%;
-    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
-}
-
-#mpcs_images {
-}
-
-#mpcs_quote1 {
-    float: left;
-    margin-top: 3%;
-    margin-left: 1%;
-}
-
-#mpcs_quote2 {
-    float: left;
-    margin-top: 3%;
-    margin-left: 1%;
-}
-
-#mpcs_num1 {
-    margin-top: 3%;
-    margin-left: 10%;
-    float: left;
-    font-size: 3.5rem;
-}
-
-#cloud_img {
-    margin-top: -17%;
-}
-
-#other_img {
-    margin-top: 5%;
-}
-
-#mpcs_num2 {
-    margin-top: 2%;
-    margin-left: 20%;
-    float: left;
-    font-size: 3.5rem;
-}
-
-#mpcs_num3 {
-    margin-top: -23%;
-    margin-left: 1%;
-    float: left;
-    font-size: 3.5rem;
-    z-index: 10;
-}
-
-#mpcs_quote3 {
-    float: left;
-    margin-top: -23%;
-    margin-left: 5%;
-    z-index: 10;
-}
-
-#mpcs_quote4 {
-    float: left;
-    margin-top: -14%;
-    margin-left: 88%;
-    z-index: 10;
-}
-
-#td_head {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
-}
-
-.leftcolumn {
-    height: 2rem;
-    line-height: 2rem;
-    text-align: center;
-    width: 18.5%;
-    margin-left: 10%;
-    float: left;
-    margin-right: 1.5%;
-}
-
-.rightcolumn {
-    height: 2rem;
-    line-height: 2rem;
-    float: left;
-    width: 58.5%;
-    text-align: center;
-    margin-right: 10%;
-    margin-left: 1.5%;
-}
-
-#bookedge_big_scanner {
-    width: 20%;
-    margin-left: 10%;
-    float: left;
-}
-
-#bookedge_small_scanner {
-    width: 60%;
-    margin-left: 5%;
-    float: left;
-}
-
-#signa {
-    position: absolute;
-    margin-top: 29%;
-    margin-left: 28%;
-    z-index: 30;
-}
-
-#td_ul {
-    margin-top: 23%;
-    margin-left: -30%;
-    width: 60%;
-    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
-    float: left;
-}
-
-#td_ts {
-    position: absolute;
-    margin-top: 40%;
-    margin-left: 35%;
-    font-size: 2.5rem;
-    z-index: 30;
-}
-
-#blank {
-    width: 60%;
-    height: 100%;
-    float: left;
-    margin-top: 23%;
-}
-
-.leftcolumn2 {
-    text-align: center;
-    width: 40%;
-    float: left;
-}
-
-.rightcolumn2 {
-    float: left;
-    width: 60%;
-    text-align: center;
-}
-
-.nmsd_block {
-    float: left;
-    width: 50%;
-}
-
-.nmsd_picture_90 {
-    width: 90%;
-}
-
-.ezcustomheader {
-    font-size: 2.5rem !important;
-
-}
-
-.ezcustomheadergolden {
-    font-size: 2.1rem !important;
-}
-
-.microcolumn {
-    width: 33%;
-    float: left;
-}
-
-#smdock_underheader {
-    font-style: italic;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-#smdock_sign {
-    width: 40%;
-    margin-left: 50%;
-    margin-top: -17%;
-}
-
-#smdock_small_sign {
-    width: 50%;
-    margin-left: 16%;
-    margin-top: 8%;
-    margin-bottom: 10%;
-}
-
 .page_container {
     width: 100%;
+    overflow: hidden;
 }
+
+.column_container {
+    width: 100%;
+}
+
+.custom_subtitle_3 {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+
 
