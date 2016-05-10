@@ -44,7 +44,7 @@
 
 .infoblock__book-stack-and-feature-enumeration img {
     width: 50%;
-    vertical-align: central;
+    vertical-align: bottom;
     float: left;
     display: inline-block;
 }
@@ -357,8 +357,8 @@ div .derivatives-pictures__bottom-paragraph {
     width: 25%;
     z-index: 5;
     line-height: 1.1;
-    margin-top: -300px;
-    padding-bottom: 120px;
+    margin-top: -380px;
+    padding-bottom: 190px;
 }
 
 .infoblock__derivatives-star-note {
@@ -374,26 +374,61 @@ div .derivatives-pictures__bottom-paragraph {
     width: 24%;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px){
-    .infoblock__hierarchical-metadata-bottom-block img{
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .infoblock__hierarchical-metadata-bottom-block img {
         width: 50%;
     }
 
-    .infoblock__hierarchical-metadata-bottom-paragraphs{
+    .infoblock__hierarchical-metadata-bottom-paragraphs {
         width: 48%;
     }
 
-    .infoblock__hierarchical-metadata_paragraph-with-image img{
+    .infoblock__hierarchical-metadata_paragraph-with-image img {
         width: 55%;
     }
 
-    .infoblock__hierarchical-metadata_paragraph-with-image p{
+    .infoblock__hierarchical-metadata_paragraph-with-image p {
         width: 43%;
+    }
+
+    div .derivatives-pictures__bottom-paragraph{
+        margin-top:-300px;
+        padding-bottom: 120px;
+    }
+
+    .infoblock__book-stack-and-feature-enumeration img{
+        margin-top: 100px;
     }
 }
 
-@media(max-width: 1199px){
-    
+@media (max-width: 1199px) {
+    .infoblock__book-stack-and-feature-enumeration h2 {
+        font-size: 2.1rem;
+    }
+
+    .infoblock__hierarchical-metadata_paragraph-with-image img {
+        width: 48%;
+    }
+
+    .infoblock__hierarchical-metadata_paragraph-with-image p {
+        width: 50%;
+    }
+
+    .infoblock__hierarchical-metadata-bottom-block img {
+        width: 58%;
+    }
+
+    .infoblock__hierarchical-metadata-bottom-paragraphs {
+        width: 40%;
+    }
+
+    div .derivatives-pictures__bottom-paragraph{
+        margin-top: -280px;
+    }
+
+    .infoblock__book-stack-and-feature-enumeration img{
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 941px) {
