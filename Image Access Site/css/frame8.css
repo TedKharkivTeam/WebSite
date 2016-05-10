@@ -192,6 +192,7 @@
     margin: 0;
     padding: 0;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 .saw__green-text {
@@ -207,7 +208,7 @@
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .saw__block {

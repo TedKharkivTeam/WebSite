@@ -227,15 +227,24 @@
     .reservation__h1 {
         font-size: 50px;
     }
+    .saw h3{
+        padding-bottom: 5px!important;
+    }
+}
+@media screen and (max-width: 1290px){
+    .wrapper-for-img .inform__images{
+        max-width: 260px;
+    }
 
 }
+
 @media screen and (max-width: 1240px){
     .brochure-block .text-grean {
         font-size: 1.8rem;
     }
     .content .text-grey{
         font-size: 1.8rem;
-        padding: 5px 20px;
+        padding: 5px 25px 5px 20px;
     }
     .content .text-grey:after {
         left: 96%;
@@ -247,9 +256,7 @@
     .DLOS_Icon {
         padding-top: 17px;
     }
-    .inf--padding .inform__images {
-        max-width: 260px;
-    }
+
 }
 @media screen and (max-width: 1150px) {
     .line__persent1:after{
@@ -267,7 +274,7 @@
     }
     .logo-frame-block__dlsg-logo {
         float: left;
-        padding-left: 22%;
+        /*padding-left: 22%;*/
         padding-top: 2px;
     }
 }
