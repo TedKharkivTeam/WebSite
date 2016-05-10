@@ -295,7 +295,7 @@ button,
 input,
 select,
 textarea {
-    font: inherit; /* 1 */
+    font-family: 'AvenirLTStdBook', helvetica, arial, sans-serif;
     margin: 0; /* 2 */
 }
 
@@ -368,7 +368,6 @@ button:-moz-focusring,
  */
 
 fieldset {
-    border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }

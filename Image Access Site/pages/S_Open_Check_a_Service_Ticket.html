@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Service & Support :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
-    <link rel="stylesheet" type="text/css" href="../css/service-and-support.css">
-    <link rel="stylesheet" type="text/css" href="../css/service_support_block.css">
+    <link rel="stylesheet" type="text/css" href="../css/s-open-check-a-service-ticket.css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
@@ -17,61 +16,70 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access"></a>
+        <a href="../index.html">
+            <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
+        </a>
         <div class="botlogo">Service & Support</div>
     </div>
-    <div class="leftsidemenu-holder" id="menu">
-    <ul class="leftsidemenu">
-        <li><a href="S_Check_Order_Status.html">Check Order Status</a></li>
-        <li class="selected"><a href="S_Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a></li>
-        <li><a href="S_Contact_Service_Department.html">Contact Service Department</a></li>
-        <li><a href="S_Maintenance_Agreements.html">Maintenance Agreements</a></li>
-        <li><a href="S_Service_Support.html">Global Service Areas</a></li>
-        <li><a href="S_The_Service_and_Support_Team.html">The Service & Support Team</a></li>
-        <li><a href="S_The_Digitization_Advisory_Team.html">The Digitization Advisory Team</a></li>
-    </ul>
+    <div class="leftsidemenu-holder">
+        <ul class="leftsidemenu">
+            <li><a href="S_Check_Order_Status.html">Check Order Status</a></li>
+            <li class="selected"><a href="S_Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a></li>
+            <li><a href="S_Contact_Service_Department.html">Contact Service Department</a></li>
+            <li><a href="S_Maintenance_Agreements.html">Maintenance Agreements</a></li>
+            <li><a href="S_Service_Support.html">Global Service Areas</a></li>
+            <li><a href="S_The_Service_and_Support_Team.html">The Service & Support Team</a></li>
+            <li><a href="S_The_Digitization_Advisory_Team.html">The Digitization Advisory Team</a></li>
+        </ul>
+    </div>
+    <div class="infoblock">
+        <div class="infoblock__content-holder">
+            <div class="content-holder__forms">
+                <h2 class="brochure-title-left">Open a New Service Request</h2>
+                <fieldset>
+                    <form>
+                        <label for="software">Software:</label>
+                        <input type="text" id="software" value="">
+                        <label for="hardware">Hardware:</label>
+                        <input type="text" id="hardware" value="">
+                        <div id="Wrapp" style="display:none">
+                            <div id="tt">
+                                <div class="close" onclick="openbox('Wrapp')">x</div>
+                                Error during open
+                            </div>
+                        </div>
+                        <button id="inval" class="service-support-button" onclick="openbox('Wrapp');return false;">
+                            Open New Service Ticket
+                        </button>
+                    </form>
+                </fieldset>
+                <p>If you have questions, please <a href="Contact_Us.html">contact our Service Department</a> or call +1-561-995-6939</p>
+                <h2 class="brochure-title-left">Check Status on an Open Service Ticket</h2>
+                <fieldset>
+                    <form>
+                        <label for="ticket">Exiting Service Ticket Number:</label>
+                        <input type="text" id="ticket" value="">
+                        <div id="Wrapp" style="display:none">
+                            <div id="tt">
+                                <div class="close" onclick="openbox('Wrapp')">x</div>
+                                Error during open
+                            </div>
+                        </div>
+                        <button id="inval" class="service-support-button" onclick="openbox('Wrapp');return false;">
+                            Find Service Ticket
+                        </button>
+                    </form>
+                </fieldset>
+                <p>If you have questions, please <a href="Contact_Us.html">contact our Service Department</a> or call +1-561-995-6939</p>
+                <img class="bottom-img" src="../images/check-a-service-ticket.png" width="341" height="132" alt="Check a Service Ticket">
+            </div>
+            <div class="content-holder__pictures">
+                <img src="../images/check-a-service-ticket_picture001.jpg" width="299" height="124" alt="Check a Service Ticket">
+                <img src="../images/check-a-service-ticket_picture002.jpg" width="299" height="124" alt="Check a Service Ticket">
+                <img src="../images/check-a-service-ticket_picture003.jpg" width="299" height="124" alt="Check a Service Ticket">
+                <img src="../images/check-a-service-ticket_picture004.jpg" width="299" height="124" alt="Check a Service Ticket">
+            </div>
         </div>
-    <div class="infoblock support-block service-ticket">
-        <form class="mainform">
-            <fieldset style="width:60%;" class="form-left">
-                <legend>OPEN A NEW SERVICE REQUEST</legend>
-                <p class="infoblock__mainform__fieldset__p">
-                    <label for="software">Software</label>
-                    <input type="text" id="software" value="">
-                </p>
-                <p class="infoblock__mainform__fieldset__p">
-                    <label for="hardware">Hardware</label>
-                    <input type="text" id="hardware" value="">
-                </p>
-                <div id="Wrapp4" style="display:none">
-                    <div id='tt4'>
-                        <div class="close" onclick="openbox('Wrapp4')">x</div>
-                        Error during open
-                    </div>
-                </div>
-                <button id="inval" class="service-support-button" onclick="openbox('Wrapp4');return false;">OPEN NEW
-                    SERVICE TICKET
-                </button>
-            </fieldset>
-        </form>
-        <form class="mainform">
-            <fieldset style="width:60%;" class="form-left">
-                <legend>GET STATUS ON AN OPEN SERVICE TICKET</legend>
-                <p class="infoblock__mainform__fieldset__p">
-                    <label for="ticketnumber">Enter Existing Service Ticket Number</label>
-                    <input style="width: 300px;" type="text" id="ticketnumber" value="">
-                </p>
-                <div id="Wrapp5" style="display:none">
-                    <div id='tt5'>
-                        <div class="close" onclick="openbox('Wrapp5')">x</div>
-                        Can't find
-                    </div>
-                </div>
-                <button id="inval2" class="service-support-button" onclick="openbox('Wrapp5');return false;">FIND
-                    SERVICE TICKET
-                </button>
-            </fieldset>
-        </form>
     </div>
 </div>
 <footer>

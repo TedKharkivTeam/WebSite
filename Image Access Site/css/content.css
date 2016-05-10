@@ -29,3 +29,17 @@
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
