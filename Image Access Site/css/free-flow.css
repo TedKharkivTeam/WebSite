@@ -547,33 +547,59 @@
     }
 }
 
+.infoblock .content_stabilization_software {
+    width: 45%;
+    float: right;
+}
+
+.infoblock .templates_software1 {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.OAI5_Software {
+    width: 100%;
+    float: left;
+}
+
+.OAI_Software {
+    float: left;
+    width: 100%;
+}
+
 @media all and (min-width: 992px) and (max-width: 1199px) {
     .infoblock div .infoblock__h2__p h2 {
         font-size: 1.7rem;
         color: #000000;
         padding: 0;
     }
+
     .OAI5 {
         width: 100%;
         float: left;
         padding-top: 0;
     }
+
     .infoblock .templates_software {
         text-align: center;
         width: 100%;
         float: left;
         margin-top: 0;
     }
-    .OAI{
+
+    .OAI {
         margin-left: -2%;
         float: left;
         width: 100%;
     }
+
     .infoblock .content_stabilization_software {
         width: 54%;
         margin-left: 1%;
         margin-top: 0;
     }
+
     .versus3 {
         color: black;
         font-size: 2.4rem;
