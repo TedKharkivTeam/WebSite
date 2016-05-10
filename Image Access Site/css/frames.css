@@ -1,7 +1,7 @@
 .frame__logo{
     overflow: hidden;
     padding-top: 4.6%;
-    padding-left: 2%;
+    padding-left: 1.2%;
 }
 .content__frame--leftside {
     width: 50%;
@@ -53,15 +53,16 @@
 .text--red {
     margin: 0;
     padding: 0;
-    font-size: 30px;
+    font-size: 4.3rem;
     color: #d83020;
-    font-weight: bold;
-    line-height: 1.2;
+    line-height: 1;
     text-align: center;
+    font-family: 'LilyUPC', Arial, sans-serif;
+    font-weight: normal;
 }
 
 .fs--text--red {
-    font-size: 2.8rem;
+    font-size: 4rem;
 }
 .content__click{
     display: inline-block;
@@ -87,11 +88,13 @@
 .h4--border {
     background: #fff;
     position: relative;
-    top: -30px;
-    font-size: 3rem;
+    top: -38px;
+    font-size: 4.4rem;
     line-height: 1;
     display: inline;
     padding: 0 10px;
+    font-family: 'LilyUPC', Arial, sans-serif;
+    font-weight: normal;
 }
 .content__click--midle{
     vertical-align: middle;
@@ -156,10 +159,10 @@
         font-size: 3.4rem;
     }
     .text--red {
-        font-size: 2.2rem;
+        font-size: 3.2rem;
     }
     .fs--text--red {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .label-new {
         width: 50px;
