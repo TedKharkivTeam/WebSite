@@ -575,7 +575,9 @@
 .infoblock .requirements-section__req-table {
     border: 1px solid black;
     font-size: 1.5rem;
-    margin: 1% 0 1% 4%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .infoblock .table-data__data, .table-headers__header {
