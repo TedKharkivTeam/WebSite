@@ -72,7 +72,7 @@
 /* Animated gallery styles */
 /* FRAMES 2-4 */
 .gallery-wrapper {
-    margin: -38px 0 40px 0;
+    margin: -32px 0 40px 0;
     width: 50%;
     position: relative;
     display: block;
@@ -101,15 +101,15 @@
 }
 
 .wrapper-2C {
-    margin: -38px 0 0 0;
+    margin: -32px 0 0 0;
 }
 
 .wrapper-3 {
-    margin: -38px 0 15px 0;
+    margin: -32px 0 15px 0;
 }
 
 .wrapper-4A {
-    margin: -38px 0 0 0;
+    margin: -32px 0 0 0;
 }
 
 .animated-image-block {
