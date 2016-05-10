@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Service & Support :: Image Access 2016</title>
     <link rel="stylesheet" type="text/css" href="../css/all.css">
-    <link rel="stylesheet" type="text/css" href="../css/service-and-support.css">
-    <link rel="stylesheet" type="text/css" href="../css/service_support_block.css">
+    <link rel="stylesheet" type="text/css" href="../css/s-check-order-status.css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
@@ -17,53 +16,69 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access"></a>
+        <a href="../index.html">
+            <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
+        </a>
         <div class="botlogo">Service & Support</div>
     </div>
-    <div class="leftsidemenu-holder" id="menu">
-    <ul class="leftsidemenu">
-        <li class="selected"><a href="S_Check_Order_Status.html">Check Order Status</a></li>
-        <li><a href="S_Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a></li>
-        <li><a href="S_Contact_Service_Department.html">Contact Service Department</a></li>
-        <li><a href="S_Maintenance_Agreements.html">Maintenance Agreements</a></li>
-        <li><a href="S_Service_Support.html">Global Service Areas</a></li>
-        <li><a href="S_The_Service_and_Support_Team.html">The Service & Support Team</a></li>
-        <li><a href="S_The_Digitization_Advisory_Team.html">The Digitization Advisory Team</a></li>
-    </ul>
+    <div class="leftsidemenu-holder">
+        <ul class="leftsidemenu">
+            <li class="selected"><a href="S_Check_Order_Status.html">Check Order Status</a></li>
+            <li><a href="S_Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a></li>
+            <li><a href="S_Contact_Service_Department.html">Contact Service Department</a></li>
+            <li><a href="S_Maintenance_Agreements.html">Maintenance Agreements</a></li>
+            <li><a href="S_Service_Support.html">Global Service Areas</a></li>
+            <li><a href="S_The_Service_and_Support_Team.html">The Service & Support Team</a></li>
+            <li><a href="S_The_Digitization_Advisory_Team.html">The Digitization Advisory Team</a></li>
+        </ul>
+    </div>
+    <div class="infoblock service-bg">
+        <h2 class="brochure-title-left">Check Order Status</h2>
+        <p>Order information may not appear in the tracking system until shipment. Please wait 24 hours after receiving
+            your shipping confirmation email to track your shipment (you will receive this email only if you selected
+            the email confirmation option when placing your order).</p>
+        <p>To check the shiping status and details of an order, please enter your Order Number and Billing ZIP Code,
+            then click Submit.</p>
+        <div class="infoblock__double-check-order-status">
+            <div class="double-check-order-status__form border-right">
+                <fieldset>
+                    <form>
+                        <label for="POnumber">Your PO Number:</label>
+                        <input type="text" id="POnumber" value="">
+                        <label for="ZIPcode">Billing ZIP Code:</label>
+                        <input type="text" id="ZIPcode" value="">
+                        <div id="Wrapp" style="display:none">
+                            <div id="tt">
+                                <div class="close" onclick="openbox('Wrapp')">x</div>
+                                Error during open
+                            </div>
+                        </div>
+                        <button id="inval" class="service-support-button" onclick="openbox('Wrapp');return false;">
+                            Submit
+                        </button>
+                    </form>
+                </fieldset>
+            </div>
+            <div class="double-check-order-status__form">
+                <fieldset>
+                    <form>
+                        <label for="OrderNumber">Order Number:</label>
+                        <input type="text" id="OrderNumber" value="">
+                        <div id="Wrapp" style="display:none">
+                            <div id='tt'>
+                                <div class="close" onclick="openbox('Wrapp')">x</div>
+                                Error during open
+                            </div>
+                        </div>
+                        <button id="inval" class="service-support-button" onclick="openbox('Wrapp');return false;">
+                            Submit
+                        </button>
+                    </form>
+                </fieldset>
+            </div>
         </div>
-    <div class="infoblock support-block check-order">
-        <form class="mainform">
-            <fieldset class="form-left">
-                <legend>Check order status</legend>
-                <p class="infoblock__mainform__fieldset__p">
-                    <label for="name">Your “Ship to” Zip Code</label>
-                    <input style="width: 100px;" type="text" id="name" value="">
-                </p>
-                <p class="infoblock__mainform__fieldset__p">
-                    <label for="last">Your PO Number</label>
-                    <input style="width:250px;" type="text" id="last" value="">
-                </p>
-                <div id="Wrapp2" style="display:none">
-                    <div id='tt2'>
-                        <div class="close" onclick="openbox('Wrapp2')">x</div>
-                        Not found
-                    </div>
-                </div>
-                <button id="inval" class="service-support-button" onclick="openbox('Wrapp2');return false;">FIND</button>
-
-                <p class="infoblock__mainform__fieldset__p service-support">
-                    <label for="city">Our Order Number</label>
-                    <input style="width: 200px;" type="text" id="city" value=""/>
-                </p>
-                <div id="Wrapp" style="display:none">
-                    <div id='tt'>
-                        <div class="close" onclick="openbox('Wrapp')">x</div>
-                        Not found
-                    </div>
-                </div>
-                <button id="inval2" class="service-support-button" onclick="openbox('Wrapp');return false;">FIND</button>
-            </fieldset>
-        </form>
+        <p>If you have a questions about an order, please <a href="Contact_Us.html">contact Customers Service</a>.</p>
+        <!--<img class="check-order-status-plane" src="../images/serviceSupportBG.png" width="1000" height="572" alt="Service and Support Team" />-->
     </div>
 </div>
 <footer>

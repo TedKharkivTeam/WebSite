@@ -141,9 +141,9 @@
 }
 
 .infoblock .table1_freeflow {
-    width: 76%;
+    width: 70%;
     float: right;
-    padding-top: 2rem;
+
 }
 
 .OAI7 {
@@ -209,8 +209,7 @@
     overflow: hidden;
     width: 45%;
     float: left;
-    padding-left: 2rem
-;
+    padding-left: 2rem;
 }
 
 .infoblock .content-stabilization__enumeration div {
@@ -219,7 +218,7 @@
 }
 
 .infoblock .content-stabilization__enumeration div ul {
-   float: left;
+    float: left;
     width: 48%;
 }
 
@@ -316,20 +315,20 @@
 }
 
 .versus3 {
-    color: #0000ff;
-    font-size: x-large;
-    margin-left: 18%;
+    color: black;
+    font-size: 3.2rem;
+    margin-left: 17%;
 }
 
 .versus4 {
-    color: #0000ff;
-    font-size: x-large;
-    margin-left: 60%;
+    color: black;
+    font-size: 3.2rem;
+    margin-left: 59%;
     margin-top: -2%;
 }
 
 .table_1 {
-    width: 90%;
+    width: 100%;
     border: groove 3px;
     border-collapse: collapse;
 
@@ -341,9 +340,20 @@
 
 }
 
+.table_1 td {
+    border: groove 3px;
+    border-collapse: collapse;
+
+}
+
+.table_1 .table_center_label {
+    text-align: center;
+
+}
+
 .infoblock .label_versus {
     font-size: x-large;
-    color: #2c89c6;
+    color: black;
     -webkit-text-stroke: 1px black;
     text-align: center;
     display: block;
@@ -351,9 +361,14 @@
 }
 
 .table_2 {
-    width: 90%;
+    width: 100%;
     border: groove 3px;
     border-collapse: collapse;
+
+}
+
+.table_2 .table_center_label {
+    text-align: center;
 
 }
 
@@ -368,6 +383,74 @@
     font-weight: 700;
 }
 
+.infoblock .super_fix {
+    float: left;
+    width: 100%;
+}
+
+.infoblock .text_block1_page1 {
+    width: 48%;
+    float: left;
+}
+
+.infoblock .text_block2_page1 {
+    width: 48%;
+    float: right;
+}
+
+.infoblock .label_no_compromise_page1 {
+    padding-top: 19rem;
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+}
+
+.infoblock .block_hierarchical_metadata {
+    width: 100%;
+}
+
+.infoblock .block_hierarchical_metadata_table {
+    width: 21%;
+    float: left;
+    padding-top: 5rem;
+    margin-left: 3rem;
+
+}
+
+.infoblock .block_hierarchical_metadata_table2 {
+    width: 100%;
+    float: left;
+}
+
+.infoblock .block_hierarchical_metadata_table3 {
+    float: right;
+    width: 58%;
+}
+
+.infoblock .block_hierarchical_metadata_table4 {
+    float: left;
+    width: 48%;
+}
+
+.infoblock .block_hierarchical_metadata_table5 {
+    float: right;
+    width: 48%;
+}
+
+.infoblock .brochure-title-center-free-flow {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+}
+
+.infoblock .opus_output_absolute_text {
+    width: 27%;
+    position: absolute;
+    margin-top: -23%;
+}
+
 @media all and (min-width: 1200px) and (max-width: 1400px) {
     .infoblock div .infoblock__h2__p h2 {
         font-size: 2.2rem;
@@ -375,9 +458,64 @@
         padding: 0%;
     }
 
+    .infoblock .label_no_compromise_page1 {
+        padding-top: 29rem;
+        color: #000;
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+        text-align: center;
+    }
+
+    .infoblock .block_hierarchical_metadata_table3 {
+        float: right;
+        width: 58%;
+    }
+
     .infoblock div .infoblock__h2__p p {
         text-align: center;
         font-size: 1.5rem;
+    }
+
+    .infoblock .table1_freeflow {
+        width: 75%;
+        float: right;
+        padding-top: 4rem;
+
+    }
+
+    .infoblock .table2_freeflow {
+        width: 40%;
+        float: left;
+        padding-top: 2rem;
+
+    }
+
+    .versus3 {
+        color: black;
+        font-size: 3.2rem;
+        margin-left: 14%;
+    }
+
+    .versus4 {
+        color: black;
+        font-size: 3.2rem;
+        margin-left: 55%;
+        margin-top: -3%;
+    }
+
+    .infoblock .block_hierarchical_metadata_table {
+        width: 19%;
+        float: left;
+        padding-top: 0%;
+
+    }
+
+    .infoblock .brochure-title-center-free-flow {
+        color: #000;
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+        text-align: center;
+        padding-top: 34rem;
     }
 
     .infoblock .infoblock__h3__p h3 {
@@ -398,15 +536,77 @@
         padding: 0%;
     }
 
+    .versus3 {
+        color: black;
+        font-size: 2.4rem;
+        margin-left: 13%;
+    }
+
+    .versus4 {
+        color: rgb(0, 0, 0);
+        font-size: 2.4rem;
+        margin-left: 55%;
+        margin-top: -4%;
+    }
+
     .infoblock div .infoblock__h2__p p {
         text-align: center;
         font-size: 1.1rem;
+    }
+
+    .infoblock .label_versus {
+        font-size: 2.4rem;
+        text-align: center;
+        display: block;
+        padding: 2%;
+        line-height: 2.4rem;
+        color: black;
+        -webkit-text-stroke: initial;
     }
 
     .infoblock .infoblock__h3__p h3 {
         font-size: 1rem;
         font-weight: bold;
         color: #000000;
+    }
+
+    .infoblock .opus_output_absolute_text {
+        font-size: 1rem;
+    }
+
+    .infoblock .table1_freeflow {
+        width: 67%;
+        float: right;
+        padding-top: 4rem;
+
+    }
+
+    .infoblock .label_no_compromise_page1 {
+        padding-top: 37rem;
+        color: #000;
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+        text-align: center;
+    }
+    .infoblock .brochure-title-center-free-flow {
+        color: #000;
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+        text-align: center;
+        padding-top: 44rem;
+    }
+
+    .infoblock .block_hierarchical_metadata_table {
+        width: 32%;
+        float: left;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .infoblock .table2_freeflow {
+        width: 41%;
+        float: left;
+        padding-top: 8rem;
     }
 
     .infoblock .infoblock__h3__p p {
@@ -435,6 +635,10 @@
     .infoblock .infoblock__h3__p p {
         font-size: 0.7rem;
     }
+
+    .infoblock .opus_output_absolute_text {
+        font-size: 0.5rem;
+    }
 }
 
 @media all and (max-width: 767px) {
@@ -458,60 +662,4 @@
     .infoblock .infoblock__h3__p p {
         font-size: 0.7rem;
     }
-}
-
-.infoblock .super_fix {
-    float: left;
-}
-
-.infoblock .text_block1_page1 {
-    width: 48%;
-    float: left;
-}
-
-.infoblock .text_block2_page1 {
-    width: 48%;
-    float: right;
-}
-
-.infoblock .label_no_compromise_page1 {
-    padding-top: 28rem;
-    color: #000;
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    text-align: center;
-}
-
-.infoblock .block_hierarchical_metadata {
-    width: 100%;
-}
-
-.infoblock .block_hierarchical_metadata_table {
-    width: 20%;
-    float: left;
-    padding-top: 3rem;
-    margin-left: 2%;
-}
-
-.infoblock .block_hierarchical_metadata_table2 {
-    width: 100%;
-    float: left;
-}
-
-.infoblock .block_hierarchical_metadata_table3 {
-    float: right;
-    width: 58%;
-}
-
-.infoblock .block_hierarchical_metadata_table4 {
-    float: left;
-    width: 48%;
-}
-
-.infoblock .block_hierarchical_metadata_table5 {
-    float: right;
-    width: 48%;
-}
-.infoblock .brochure-title-center-free-flow{
-    float: left;
 }

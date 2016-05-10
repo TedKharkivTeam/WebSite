@@ -419,9 +419,10 @@ div.dn_arrow {
 .grean-left:after {
     content: '';
     position: absolute;
-    background: url('../images/spryte.png') no-repeat 0 0;
-    width: 32px;
-    height: 36px;
+    width: 0;
+    height: 0;
+    border-top: 36px solid #8ADC80;
+    border-right: 24px solid transparent;
     right: 0;
     left: 100%;
     top: 0;
@@ -436,9 +437,10 @@ div.dn_arrow {
 .grean-right:before {
     content: '';
     position: absolute;
-    background: url('../images/spryte.png') no-repeat -33px 0;
-    width: 32px;
-    height: 36px;
+    width: 0;
+    height: 0;
+    border-bottom: 36px solid #8ADC80;
+    border-left: 24px solid transparent;
     right: 100%;
     top: 0;
 }
@@ -452,7 +454,7 @@ div.dn_arrow {
     background: -webkit-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
     background: linear-gradient(to bottom, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d9d9d', endColorstr='#6e6d6d', GradientType=0);
-    padding: 2px 2% 3px 5%;
+    padding: 2px 3.5% 3px 5%;
     position: relative;
 }
 
@@ -460,11 +462,20 @@ div.dn_arrow {
     content: '';
     position: absolute;
     right: 0;
-    left: 100%;
+    left: 97%;
     top: 0;
-    background: url('../images/spryte2.png') no-repeat -1px 0;
-    width: 32px;
-    height: 32px;
+    bottom: 0;
+    /*background: url('../images/spryte2.png') no-repeat -1px 0;*/
+    background: #9d9d9d;
+    background: -moz-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    background: -webkit-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    background: linear-gradient(to bottom, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d9d9d', endColorstr='#6e6d6d', GradientType=0);
+    -webkit-transform: skew(-36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    transform: skew(-36deg);
+    width: 40px;
 }
 
 .text-grey-pbd:before {
@@ -480,13 +491,6 @@ div.dn_arrow {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     z-index: 0;
-}
-
-.imgbook {
-    max-width: 190px;
-    height: auto;
-    padding: 0 !important;
-    position: relative;
 }
 
 .imgbook.large {
@@ -571,37 +575,6 @@ div.dn_arrow {
     margin: 0 !important;
     padding: 0 !important;
     font-weight: bold;
-}
-
-.text--red {
-    margin: 0;
-    padding: 0;
-    font-size: 30px;
-    color: #d83020;
-    font-weight: bold;
-    line-height: 0.9;
-}
-
-.fs--text--red {
-    font-size: 28px;
-}
-
-.bb--border {
-    width: 30%;
-    height: 300px;
-    padding: 15px;
-    border: 1px solid #707070;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-}
-
-.h4--border {
-    font-family: 'LilyUPC', Arial, sans-serif;
-    background: #fff;
-    margin-top: -45px;
-    font-size: 50px;
-    line-height: 1;
 }
 
 .world {
@@ -703,10 +676,6 @@ div.dn_arrow {
     padding-right: 30px;
 }
 
-.kat--arrow {
-    position: relative;
-}
-
 .green--arrow {
     width: 136px;
     height: auto;
@@ -740,48 +709,9 @@ div.dn_arrow {
     max-width: 200px;
 }
 
-.content__frame--leftside {
-    width: 50%;
-}
-
-.content__frame--leftside__img {
-    width: 95%;
-    margin: 0 auto;
-    height: auto;
-    display: block;
-}
-
-.content__brochure-block__img {
-    margin-left: 10%;
-    width: auto;
-    height: 150px;
-}
-
-.h4--frames {
-    font-family: 'LilyUPC', Arial, sans-serif;
-    font-size: 90px;
-    line-height: 1;
-    padding: 0 0 0 1%;
-    font-weight: normal;
-}
-
 .label-new {
     width: 70px;
     height: auto;
-}
-
-.left-picture-frame4C {
-    width: 70%;
-    max-width: 550px;
-    height: 70%;
-    padding: 10px 0;
-}
-
-.right-picture-frame4C {
-    max-width: 750px;
-    width: 90%;
-    height: 90%;
-    padding: 10px 0;
 }
 
 .h2--frame5A {

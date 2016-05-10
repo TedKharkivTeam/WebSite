@@ -97,3 +97,17 @@
     float: left;
     padding: 5px 10px;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sub-bottom {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+
+}

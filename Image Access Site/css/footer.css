@@ -72,3 +72,16 @@ footer ul:after {
     max-width: 120px;
     height: auto;
 }
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    footer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
