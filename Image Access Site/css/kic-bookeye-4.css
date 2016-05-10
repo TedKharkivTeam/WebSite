@@ -10,6 +10,10 @@
 
 /* 1 page */
 
+
+.infoblock__page-1 .infoblock__page-1__logo{
+    width: 40%;
+}
 .infoblock__page-1__head {
     font-size: 2.375rem;
     color: #282a28;
@@ -127,6 +131,9 @@ div.infoblock h2 {
 .infoblock .columnKIC_Bookeye_4 {
     float: left;
     /* width: 50%; */
+    /* padding-top: 0; */
+
+    /* border: 0; */
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
 }
@@ -925,6 +932,8 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-9__top {
     overflow: hidden;
+
+    padding-bottom: 5%;
 }
 
 .infoblock .infoblock__page-9__top__logo {
@@ -1049,6 +1058,9 @@ div .infoblock__page-7__block-left {
     right: 0;
 }
 
+.infoblock__page-10{
+    position: relative;
+}
 /* 11 page*/
 
 .infoblock__page-11__double {
@@ -1236,7 +1248,8 @@ div .infoblock__page-7__block-left {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text; /* подробнее про background-clip */
     color: transparent;
-    font-size: 2.6rem !important;
+    font-size: 2.6rem ;
+    line-height: 2.8rem;
     text-align: center;
 }
 
@@ -1447,7 +1460,7 @@ div .infoblock__page-7__block-left {
     border-radius: 1.6rem;
     border-top: 0.2rem solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 0.3rem 0.6rem #000;
-    min-height: 50rem;
+    min-height: 51rem;
 }
 
 .infoblock__page-14__row__column .infoblock__page-14__column__mini-title {
@@ -1547,6 +1560,15 @@ tr th {
 }
 
 @media all and (min-width: 1200px) and (max-width: 1400px) {
+    .infoblock ul.blue-bullet li {
+        position: relative;
+        list-style: none;
+        font-size: 1.4rem;
+    }
+
+    .infoblock ul li {
+         line-height: 21px;
+    }
     /* 1 page */
     .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
         font-size: 2.2rem;
@@ -1601,8 +1623,18 @@ tr th {
 
     /* 4 page*/
 
-    /* 6 page*/
+    /* 5 page*/
 
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 52%;
+    }
+
+    /* 6 page*/
+    .infoblock .infoblock__page-6__block-header1 {
+
+        margin-top: 15%;
+        width: 49%;
+    }
 
     /* 7 page*/
     .infoblock .infoblock__page-7__text-block-devices {
@@ -1618,6 +1650,18 @@ tr th {
         margin-top: 10%;
         background: linear-gradient(to bottom, #97a29c, #e2e3e5);
     }
+    /* 8 page*/
+
+    .infoblock__page-8 .infoblock__page-8__reservation__h3 {
+        color: #000;
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+        font-style: italic;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+    }
+
     /* 9 page */
     .infoblock .infoblock__page-9__nav__img {
         float: left;
@@ -1682,6 +1726,10 @@ tr th {
         line-height: 3rem;
         text-align: justify;
         margin-top: 7%;
+    }
+    .infoblock__page-14__row__column {
+
+        min-height: 36rem;
     }
 
 
