@@ -2,54 +2,43 @@ html {
     font-size: 12px;
 }
 
-#logo {
+#kic_logo {
     width: 24%;
-    height: 19%;
     float: left;
 }
 
-#headline {
-    margin-left: 42%;
-    font-size: 6rem;
-    font-family: "Arial";
-    font-weight: bold;
+#custom_title_bookedge {
+    width: 76%;
+    color: #000;
+    float: left;
+    margin-top: 2%;
+    padding-left: 15%;
+    font-size: 5.6rem;
+    line-height: 2.8rem;
 }
 
-#underheadline {
-    margin-top: -1rem;
-    margin-left: 42%;
-    color: navy;
-    font-size: 1.5rem;
-    font-weight: bold;
+#custom_undertitle_bookedge {
+    text-align: right;
+    float: right;
+    margin: 0 20% 0 0;
 }
 
-#underheadline2 {
-    margin-left: 68%;
-    color: navy;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
-#scanner {
-
-}
-
-#affordable {
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 5%;
-    z-index: 10;
-}
-
-.infoblock__head {
-    font-size: 22px;
-    color: #282a28;
-    font-style: italic;
-    font-weight: bold;
-    text-shadow: none;
-    margin: 0;
+#columns_header {
+    width: 100%;
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1%;
 }
+.two_columns {
+    width: 45%;
+    margin: 0 2.5% 0 2.5%;
+    float:left;
+}
+#dlsg_logo {
+    width: 320px;
+}
+
 
 .infoblock__column {
     float: left;
@@ -187,22 +176,26 @@ html {
     margin-right: 10%;
     margin-left: 1.5%;
 }
+
 #bookedge_big_scanner {
-    width:20%;
+    width: 20%;
     margin-left: 10%;
     float: left;
 }
+
 #bookedge_small_scanner {
     width: 60%;
     margin-left: 5%;
     float: left;
 }
+
 #signa {
     position: absolute;
     margin-top: 29%;
     margin-left: 28%;
     z-index: 30;
 }
+
 #td_ul {
     margin-top: 23%;
     margin-left: -30%;
@@ -220,8 +213,8 @@ html {
 }
 
 #blank {
-    width:60%;
-    height:100%;
+    width: 60%;
+    height: 100%;
     float: left;
     margin-top: 23%;
 }
@@ -237,17 +230,21 @@ html {
     width: 60%;
     text-align: center;
 }
+
 .nmsd_block {
-    float:left;
+    float: left;
     width: 50%;
 }
+
 .nmsd_picture_90 {
-    width:90%;
+    width: 90%;
 }
+
 .ezcustomheader {
     font-size: 2.5rem !important;
 
 }
+
 .ezcustomheadergolden {
     font-size: 2.1rem !important;
 }
@@ -264,14 +261,19 @@ html {
 }
 
 #smdock_sign {
-    width:40%;
+    width: 40%;
     margin-left: 50%;
     margin-top: -17%;
 }
+
 #smdock_small_sign {
-    width:50%;
+    width: 50%;
     margin-left: 16%;
     margin-top: 8%;
     margin-bottom: 10%;
+}
+
+.page_container {
+    width: 100%;
 }
 
