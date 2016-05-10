@@ -385,6 +385,7 @@
 
 .infoblock .super_fix {
     float: left;
+    width: 100%;
 }
 
 .infoblock .text_block1_page1 {
