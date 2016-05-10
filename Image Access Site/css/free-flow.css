@@ -450,9 +450,22 @@
     position: absolute;
     margin-top: -23%;
 }
-.infoblock .table_blur_freflow_background{
+
+.infoblock .table_blur_freflow_background {
     background: #2487D6;
     color: #FFFFFF
+}
+
+.infoblock .templates_software {
+    text-align: center;
+    width: 100%;
+    margin-top: 25%;
+}
+
+.infoblock .brochure-title-center_software {
+    width: 100%;
+    float: left;
+    margin-top: 1%;
 }
 
 @media all and (min-width: 1200px) and (max-width: 1400px) {
@@ -538,9 +551,29 @@
     .infoblock div .infoblock__h2__p h2 {
         font-size: 1.7rem;
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
-
+    .OAI5 {
+        width: 100%;
+        float: left;
+        padding-top: 0;
+    }
+    .infoblock .templates_software {
+        text-align: center;
+        width: 100%;
+        float: left;
+        margin-top: 0;
+    }
+    .OAI{
+        margin-left: -2%;
+        float: left;
+        width: 100%;
+    }
+    .infoblock .content_stabilization_software {
+        width: 54%;
+        margin-left: 1%;
+        margin-top: 0;
+    }
     .versus3 {
         color: black;
         font-size: 2.4rem;
@@ -593,6 +626,7 @@
         line-height: 3.8rem;
         text-align: center;
     }
+
     .infoblock .brochure-title-center-free-flow {
         color: #000;
         font-size: 3.6rem;
