@@ -31,19 +31,22 @@ footer .bottom-bar span {
 .footer--bottom {
     overflow: hidden;
     background: #093C8B;
-    display: flex;
-    justify-content: space-between;
     padding: 5px 30px 40px;
-    align-items: flex-start;
     border-radius: 0 0 20px 20px;
     -moz-border-radius: 0 0 20px 20px;
     -webkit-border-radius: 0 0 20px 20px;
 }
 
 footer ul {
-    width: 14%;
+    float: left;
+    width: calc(18.3% - 5px);
+    padding: 0 12px;
     text-align: left;
     position: relative;
+}
+
+footer ul li {
+    padding: 5px 0 0;
 }
 
 footer ul:after {
@@ -51,14 +54,24 @@ footer ul:after {
     content: '';
     border-right: 1px solid #047BCB;
     top: -6px;
-    bottom: -20000px;
+    bottom: -1000px;
     right: 0;
+}
+
+footer ul:nth-last-child(1) {
+    width: 10%;
+}
+
+footer ul:nth-last-child(1):after {
+    position: absolute;
+    content: '';
+    border-right: none;
 }
 
 .footer--bottom ul li span {
     color: #6087C5;
-    font-size: 16px;
-    line-height: 2.5;
+    font-size: 1.6rem;
+    line-height: 2rem;
     font-weight: bold;
 }
 
@@ -72,13 +85,44 @@ footer ul:after {
     max-width: 120px;
     height: auto;
 }
-@media (min-width: 1200px) and (max-width: 1399px) {
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .footer--bottom {
+        padding: 5px 10px 40px;
+    }
+
+    .footer--bottom ul li span {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: normal;
+    }
+
+    .footer--bottom ul li a {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: normal;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     footer {
         width: 100%;
+    }
+
+    .footer--bottom {
+        padding: 5px 10px 40px;
+    }
+
+    .footer--bottom ul li span {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: normal;
+    }
+
+    .footer--bottom ul li a {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: normal;
     }
 }
 
