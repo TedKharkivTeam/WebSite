@@ -4,13 +4,10 @@
 
 .infoblock #huge-header {
     color: black;
-    font-family: Calibri, sans-serif;
-    font-weight: bold;
-    font-size: 84px;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 8.4rem;
     text-shadow: none;
     text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .infoblock #huge-header img {
@@ -19,17 +16,18 @@
 }
 
 .infoblock #sub-main-header {
-    font-size: 26px;
-    font-weight: bold;
+    font-size: 2.6rem;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
     text-align: center;
-    margin-top: -2%;
+    padding-bottom: 2%;
 }
 
 .infoblock #sub-sub-header {
     text-align: center;
     font-style: italic;
-    font-size: 26px;
-    font-weight: normal;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    padding-bottom: 2%;
 }
 
 .infoblock .row {
@@ -46,10 +44,10 @@
 }
 
 .infoblock .stacks-view-header {
-    margin-left: 25%;
+    margin-left: 30%;
     font-style: normal;
-    font-weight: bold;
-    margin-bottom: -5%;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    margin-bottom: -6%;
 }
 
 .infoblock .stacks-view-image {
@@ -69,6 +67,9 @@
     text-align: right;
     font-style: italic;
     vertical-align: top;
+    position: relative;
+    margin-top: 9%;
+    left: -4%;
 }
 
 .infoblock .small-image-row {
@@ -86,24 +87,24 @@
 
 .infoblock .big-bg-image__header {
     position: relative;
-    font-weight: bold;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
     font-size: 1.1em;
 }
 
 .infoblock .big-bg-image__header-1 {
-    top: 1%;
+    top: 2%;
     left: 15%;
 }
 
 .infoblock .big-bg-image__header-2 {
     text-align: right;
     right: 30%;
-    top: 18%;
+    top: 19%;
 }
 
 .infoblock .big-bg-image__header-3 {
     left: 13%;
-    top: 41%;
+    top: 43%;
 }
 
 .infoblock .big-bg-image__note-1 {
@@ -111,8 +112,9 @@
     font-style: italic;
     position: relative;
     left: 81%;
-    top: 18%;
+    top: 21%;
     padding: 15px 0;
+    width: 20%;
 }
 
 .infoblock .big-bg-image__note-2 {
@@ -123,33 +125,38 @@
 
 .infoblock .note-2__first {
     left: 1%;
-    top: 2%;
+    top: 8%;
+    width: 38%;
 }
 
 .infoblock .note-2__second {
     left: 1%;
-    top: 41%;
+    top: 44%;
+    width: 25%;
 }
 
 .infoblock .reading-list {
     border-radius: 5px;
     background-color: #DEDEDE;
-    position: absolute;
-    top: 80%;
-    width: 507px;
-    height: 225px;
+    position: relative;
+    margin-top: -35%;
+    left: 52%;
+    width: 47%;
 }
 
 .infoblock .reading-list .rl-header {
-    position: absolute;
-    font-weight: bold;
-    font-size: 1.1em;
-    left: 14%
+    position: relative;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 1.7rem;
+    left: 14%;
+    top: 4%;
+    padding-top: 2%;
+    margin-bottom: -4%;
 }
 
 .infoblock .reading-list .rl-footer {
     position: absolute;
-    margin-top: -7%;
+    margin-top: -5%;
     left: 15%;
 }
 
@@ -168,11 +175,12 @@
 
 .infoblock .infoblock__header {
     color: black;
-    font-weight: bold;
-    font-size: 48px;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 4.4rem;
     text-shadow: none;
     margin-bottom: 1%;
     text-align: center;
+    padding: 4% 0;
 }
 
 .infoblock .infoblock__image {
@@ -182,11 +190,13 @@
 }
 
 .infoblock .infoblock__sub-header {
-    font-style: italic;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
     text-align: center;
     margin-bottom: -3%;
     margin-left: 12%;
     width: 75%;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .infoblock .infoblock__centered-text {
@@ -218,18 +228,18 @@
 .infoblock .infoblock__header-2-info {
     text-align: center;
     font-size: 0.9em;
-    font-style: italic;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
 }
 .infoblock .infoblock__header-2--bold {
     text-align: center;
-    font-weight: bold;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
     color: black;
     font-size: 1.5em;
     padding-bottom: 1%;
 }
 
 .infoblock .infoblock__sub-header-2 {
-    font-style: italic;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
     text-align: center;
     margin-left: 12%;
     width: 75%;
@@ -259,8 +269,8 @@
 
 .infoblock .infoblock__h1-header {
     color: black;
-    font-weight: bold;
-    font-size: 44px;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 4.4rem;
     text-shadow: none;
     margin-bottom: 1%;
     text-align: center;
@@ -269,39 +279,36 @@
 
 .infoblock .infoblock__h2-header {
     text-align: center;
-    font-weight: bold;
-    font-size: 32px;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.2rem;
     color: black;
     margin-top: 15%;
 }
 
 .infoblock .infoblock__h2-header--centered {
-    margin-top: 14%;
+    margin-top: 18%;
 }
 
 .infoblock .infoblock__below-h2-header-info {
-    font-style: italic;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
     text-align: center;
     font-size: 1.5em;
     padding-bottom: 2%;
     margin-top: -2%;
     margin-left: 12%;
     width: 80%;
+    line-height: 3rem;
 }
 
 .infoblock .above-image-title {
     position: relative;
     color: black;
-    font-weight: bold;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
 }
 
 .infoblock .above-image-title--search-screen {
     left: 35%;
     margin-bottom: -5%;
-}
-
-.infoblock .bibliography-view-screen {
-    position: relative;
 }
 
 .infoblock .bibliography-view-screen__bvs-title {
@@ -311,8 +318,8 @@
 }
 
 .infoblock .bibliography-view-screen__bvs-info {
-    position: relative;
     margin-top: -25%;
+    padding-bottom: 4%;
 }
 
 .infoblock .bvs-info__p {
@@ -320,10 +327,11 @@
     width: 28%;
     left: 71%;
     padding: 1%;
+    margin-top: 1%;
 }
 
 .infoblock .search-screen__info {
-    font-style: italic;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
     position: relative;
     margin-top: -38%;
     left: 70%;
@@ -339,4 +347,279 @@
 
 .infoblock .faculty-book-lists__text-rows {
     margin-bottom: -5%;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT sixth page *******************************************/
+/*************************************************************************************************************/
+
+.beautiful-girl-bg {
+    box-sizing: border-box;
+    background: url("../images/KIC_KAT/kat_6_img_bg.png") no-repeat;
+    background-size: contain;
+}
+
+.infoblock .collage__image {
+    display: inline-block;
+    width: 60%;
+}
+
+.infoblock .collage__info {
+    width: 38%;
+    position: relative;
+    left: 21%;
+    margin-bottom: -14%;
+}
+
+.infoblock .infoblock__below-h2-header-info-2 {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+    margin-top: -5%;
+    margin-left: 12%;
+    width: 74%;
+}
+
+.infoblock .kit-kat-go__image-text-1 {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 1em;
+    position: relative;
+    left: 17%;
+    margin-bottom: -2%;
+    padding-bottom: 2%;
+}
+
+.infoblock .kit-kat-go__image-text-2 {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 1em;
+    position: relative;
+    left: 63%;
+    margin-top: -30%;
+    padding-bottom: 30%;
+}
+
+.infoblock .kit-kat-go__image-text-3 {
+    width: 26%;
+    font-size: 0.9em;
+    position: relative;
+    left: 0;
+    margin-top: -20%;
+    padding-bottom: 2%;
+}
+
+.infoblock .bvs-section__image-title {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 1em;
+    position: relative;
+    left: 45%;
+    margin-top: -24%;
+    padding-bottom: 19%;
+}
+
+.infoblock .bvs-section__image-text {
+    position: relative;
+    width: 23%;
+    left: 77%;
+    margin-top: -11%;
+    padding-bottom: 12%;
+}
+
+/*************************************************************************************************************/
+/************************************************* KAT seventh page ******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__blocks {
+
+}
+
+.infoblock .blocks__block-item-1 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_1.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.infoblock .blocks__block-item-2 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_2.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.infoblock .blocks__block-item-3 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_3.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.infoblock .blocks__block-item-4 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_4.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.infoblock .blocks__block-item-5 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_5.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.infoblock .blocks__block-item-6 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_6.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.infoblock .blocks__block-item-7 {
+    height: 185px;
+    background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.temp-bg {
+    background: url("../images/KIC_KAT/kat_7_temp-bg.png") no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 1450px;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT eighth page ******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__h2-header--AYPCCE {
+    text-align: center;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.2rem;
+    color: black;
+}
+
+.infoblock .infoblock__sub-header--AYPCCE {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    text-align: center;
+    margin-left: 12%;
+    width: 75%;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+}
+
+.infoblock .image-section__image {
+    width: 100%;
+    height: 100%;
+}
+
+.infoblock .image-section__info {
+    width: 31%;
+    position: relative;
+    left: 44%;
+    margin-top: -12%;
+    padding-bottom: 9%;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+
+.infoblock .infoblock__requirements-section {
+    width: 87%;
+    border: 2px solid black;
+    margin: 0 0 2% 6%;
+    padding: 1%;
+}
+
+.infoblock .requirements-section__req-header {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin: 0 0 2% 0;
+}
+
+.infoblock .requirements-section__left-row-text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-top: 1%;
+}
+
+.infoblock .requirements-section__req-right-row {
+    display: inline-block;
+    width: 49%;
+}
+
+.infoblock .req-right-row__image {
+    display: inline-block;
+    width: 36%;
+    padding-left: 6%;
+}
+
+.infoblock .req-right-row__text {
+    display: inline-block;
+    width: 49%;
+    font-size: 1.5rem;
+    padding-left: 7%;
+}
+
+.infoblock .requirements-section__below-rows-text {
+    padding: 1% 0 1% 0;
+}
+
+.infoblock .requirements-section__req-table {
+    border: 1px solid black;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.infoblock .table-data__data, .table-headers__header {
+    border: 1px solid black;
+}
+
+.infoblock .req-table__table-headers {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    text-align: center;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT ninth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__rows {
+    padding: 1%;
+}
+
+.infoblock .rows__row {
+    vertical-align: top;
+}
+
+.infoblock .row__text {
+    display: inline-block;
+    width: 49%;
+    padding: 1%;
+    vertical-align: top;
+}
+
+.infoblock .infoblock__h2-header--CMLPOYCOS {
+    text-align: center;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.2rem;
+    color: black;
+    padding: 0;
+}
+
+.infoblock .infoblock__images {
+
+}
+
+.infoblock .images__image {
+
 }

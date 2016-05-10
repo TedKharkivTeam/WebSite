@@ -1,7 +1,7 @@
 .infoblock {
     margin: 2px 0 0;
     padding: 20px;
-    width: 72%;
+    width: 75%;
     text-align: left;
     float: left;
     word-wrap: break-word;
@@ -351,17 +351,14 @@
 .infoblock .product_preview div p {
     margin-top: 3%;
 }
+
 .infoblock_gallery-holder {
     width: 100%;
     overflow: hidden;
 }
 
-/* start temporary style */
-
-.infoblock p.waiting {
-    color: #f00;
-    text-transform: uppercase;
-    font-size: 30px;
+.infoblock .click_and_mini_pic {
+    top: 220px;
+    position: absolute;
+    width: 37% !important;
 }
-
-/* end temporary style */

@@ -1,14 +1,14 @@
 ﻿.leftsidemenu-holder {
-    padding: 30px 10px 0;
     margin-left: 3%;
-    margin-top: 12%;
+    margin-top: 200px;
+    margin-bottom: 10px;
     width: 22%;
     float: left;
 }
 
 .leftsidemenu {
-    width: 17%;
-    position: fixed;
+    padding: 0 10px 0 0;
+    position: relative;
 }
 
 .opus_pages {
