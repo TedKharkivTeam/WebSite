@@ -305,11 +305,13 @@ h5 {
 .infoblock__hierarchical-metadata-bottom-block {
     margin-top: 3%;
     overflow: hidden;
+
 }
 
 .infoblock__hierarchical-metadata-bottom-block img {
     float: left;
     width: 70%;
+
 }
 
 .infoblock__hierarchical-metadata-bottom-paragraphs {
@@ -350,13 +352,13 @@ h5 {
     z-index: 1;
 }
 
-.derivatives-pictures__bottom-paragraph {
-    position: absolute;
-    left: 30%;
-    bottom: 190px;
-    width: 20%;
+div .derivatives-pictures__bottom-paragraph {
+    margin-left: 4%;
+    width: 25%;
     z-index: 5;
     line-height: 1.1;
+    margin-top: -300px;
+    padding-bottom: 120px;
 }
 
 .infoblock__derivatives-star-note {
@@ -370,4 +372,30 @@ h5 {
 
 .infoblock__logo img {
     width: 24%;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    .infoblock__hierarchical-metadata-bottom-block img{
+        width: 50%;
+    }
+
+    .infoblock__hierarchical-metadata-bottom-paragraphs{
+        width: 48%;
+    }
+
+    .infoblock__hierarchical-metadata_paragraph-with-image img{
+        width: 55%;
+    }
+
+    .infoblock__hierarchical-metadata_paragraph-with-image p{
+        width: 43%;
+    }
+}
+
+@media(max-width: 1199px){
+    
+}
+
+@media (max-width: 941px) {
+    /*Stub for the future*/
 }
