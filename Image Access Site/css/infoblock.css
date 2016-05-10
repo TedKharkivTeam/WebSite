@@ -351,7 +351,14 @@
 .infoblock .product_preview div p {
     margin-top: 3%;
 }
+
 .infoblock_gallery-holder {
     width: 100%;
     overflow: hidden;
+}
+
+.infoblock .click_and_mini_pic {
+    top: 220px;
+    position: absolute;
+    width: 37% !important;
 }

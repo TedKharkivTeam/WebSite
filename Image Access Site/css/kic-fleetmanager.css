@@ -13,6 +13,7 @@
     color: #000;
     text-shadow: none;
     font-size: 64px;
+    line-height: 74px;
     margin: 0;
 }
 
@@ -20,15 +21,14 @@
     text-align: center;
     color: #8ca1c9;
     font-size: 28px;
+    line-height: 30px;
     text-transform: uppercase;
     padding: 0;
-    line-height: 1;
-    letter-spacing: 0;
 }
 
 .infoblock__center {
     overflow: hidden;
-    margin-top: -80px;
+    margin-top: -150px;
 }
 
 .infoblock .center__img {
@@ -38,14 +38,14 @@
 }
 
 .center__text--padding {
-    padding-top: 90px;
+    padding-top: 160px;
     position: relative;
 }
 
 .center__text--margin {
-    padding-top: 25px;
+    padding-top: 30px;
     position: absolute;
-    width: 33%;
+    width: 37%;
 }
 
 .infoblock__nav {
