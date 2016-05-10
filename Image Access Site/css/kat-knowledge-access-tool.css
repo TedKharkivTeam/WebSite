@@ -5,7 +5,7 @@
 .infoblock #huge-header {
     color: black;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 84px;
+    font-size: 8.4rem;
     text-shadow: none;
     text-align: center;
 }
@@ -16,7 +16,7 @@
 }
 
 .infoblock #sub-main-header {
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
     text-align: center;
     padding-bottom: 2%;
@@ -25,7 +25,7 @@
 .infoblock #sub-sub-header {
     text-align: center;
     font-style: italic;
-    font-size: 26px;
+    font-size: 2.6rem;
     line-height: 3rem;
     padding-bottom: 2%;
 }
@@ -270,7 +270,7 @@
 .infoblock .infoblock__h1-header {
     color: black;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 44px;
+    font-size: 4.4rem;
     text-shadow: none;
     margin-bottom: 1%;
     text-align: center;
@@ -280,7 +280,7 @@
 .infoblock .infoblock__h2-header {
     text-align: center;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 32px;
+    font-size: 3.2rem;
     color: black;
     margin-top: 15%;
 }
@@ -490,13 +490,13 @@
 }
 
 /*************************************************************************************************************/
-/************************************************** KAT eight page *******************************************/
+/************************************************** KAT eighth page ******************************************/
 /*************************************************************************************************************/
 
 .infoblock .infoblock__h2-header--AYPCCE {
     text-align: center;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 32px;
+    font-size: 3.2rem;
     color: black;
 }
 
@@ -587,4 +587,39 @@
 .infoblock .req-table__table-headers {
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
     text-align: center;
+}
+
+/*************************************************************************************************************/
+/************************************************** KAT ninth page *******************************************/
+/*************************************************************************************************************/
+
+.infoblock .infoblock__rows {
+    padding: 1%;
+}
+
+.infoblock .rows__row {
+    vertical-align: top;
+}
+
+.infoblock .row__text {
+    display: inline-block;
+    width: 49%;
+    padding: 1%;
+    vertical-align: top;
+}
+
+.infoblock .infoblock__h2-header--CMLPOYCOS {
+    text-align: center;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.2rem;
+    color: black;
+    padding: 0;
+}
+
+.infoblock .infoblock__images {
+
+}
+
+.infoblock .images__image {
+
 }
