@@ -1,13 +1,13 @@
 ﻿.infoblock__opus-freeflow-freedom {
     color: #2c89c6;
-    font-size: xx-large;
+    line-height: 3.8rem;
+    font-size: 3.6rem;
 }
 
 .infoblock_inscription {
     font-size: large;
-    width: 39%;
-    margin-left: 55%;
-    margin-top: -63%;
+    float: right;
+    width: 52%;
     text-align: center;
 }
 
@@ -17,34 +17,24 @@
 
 .infoblock .infoblock_scanpages {
     width: 40%;
-    margin-top: -19%;
-    margin-left: 50%;
+    margin-top: 3%;
+    float: right;
 }
 
 .infoblock .infoblock_book {
-    width: 35%;
-    margin-top: -10%;
+    width: 30%;
+    float: left;
+
 }
 
 .infoblock .infoblock_book_2 {
-    width: 85%;
-    margin-left: 15%;
-    margin-top: -23%;
+    width: 70%;
+
 }
 
 .infoblock .infoblock_logo_dlsg {
     width: 27%;
     margin-top: -5%;
-
-}
-
-.infoblock .opus_p1 {
-    width: 45%;
-    margin-top: 52%;
-}
-
-.infoblock .opus_p2 {
-    width: 45%;
 
 }
 
@@ -132,14 +122,17 @@
 }
 
 .metadata_capture {
-    margin-top: 3%;
-    font-size: x-large;
+    font-size: 2.4rem;
     font-weight: 600;
+    float: left;
+    padding-top: 2rem;
+    width: 100%;
 
 }
 
 .OAI5 {
-    width: 92%;
+    width: 100%;
+    padding-top: 25rem;
 
 }
 
@@ -148,9 +141,9 @@
 }
 
 .infoblock .table1_freeflow {
-    width: 65%;
-    margin-left: 25%;
-    margin-top: -27%;
+    width: 76%;
+    float: right;
+    padding-top: 2rem;
 }
 
 .OAI7 {
@@ -160,7 +153,7 @@
 
 .infoblock .table2_freeflow {
     width: 40%;
-    margin-top: 1%;
+    float: left;
 }
 
 .OAI8 {
@@ -180,43 +173,25 @@
 
 }
 
-.infoblock .opus_output_block1 {
-    width: 49%;
-}
-
-.infoblock .opus_output_block2 {
-    width: 47%;
-    margin-left: 51%;
-    margin-top: -12.5%;
-}
-
-.infoblock .opus_output_block3 {
-    width: 47%;
-    margin-left: 51%;
-}
-
 .infoblock .opus_output_block4 {
-    width: 10%;
     font-size: larger;
     font-weight: 600;
-    margin-top: 3%;
+    float: left;
 }
 
 .infoblock .opus_output_block5 {
-    width: 12%;
+    float: left;
     font-size: larger;
     font-weight: 600;
-    margin-left: 11%;
-    margin-top: -5.3%;
+    margin-left: 1%;
 }
 
 .images_metadata {
-    margin-left: -4%;
+    margin-left: 1%;
 }
 
 .infoblock .images_metadata1 {
-    margin-left: -4.5%;
-    width: 98%;
+    width: 100%;
     margin-top: -1%;
 }
 
@@ -232,6 +207,10 @@
 
 .infoblock .content-stabilization__enumeration {
     overflow: hidden;
+    width: 45%;
+    float: left;
+    padding-left: 2rem
+;
 }
 
 .infoblock .content-stabilization__enumeration div {
@@ -240,7 +219,8 @@
 }
 
 .infoblock .content-stabilization__enumeration div ul {
-    margin-left: 10%;
+   float: left;
+    width: 48%;
 }
 
 .infoblock .content-stabilization__enumeration div p {
@@ -250,12 +230,12 @@
 
 .infoblock .content_stabilization1 {
     width: 47%;
+    float: left;
 }
 
 .infoblock .content_stabilization2 {
     width: 47%;
-    margin-left: 50%;
-    margin-top: -7.6%;
+    float: right;
 }
 
 .infoblock .content_stabilization3 {
@@ -264,8 +244,8 @@
 
 .infoblock .content_stabilization4 {
     width: 50%;
-    margin-left: 50%;
-    margin-top: -32.5%;
+    float: left;
+    margin-left: 2%;
 }
 
 .infoblock .content_stabilization5 {
@@ -307,13 +287,14 @@
 }
 
 .infoblock .versus1 {
-    width: 90%;
-    margin-left: 3%;
+
+    float: left;
+    width: 100%;
 }
 
 .infoblock .versus2 {
-    width: 90%;
-    margin-left: 3%;
+
+    float: left;
 }
 
 .styleForTitle {
@@ -480,5 +461,57 @@
 }
 
 .infoblock .super_fix {
-    margin-top: 4%;
+    float: left;
+}
+
+.infoblock .text_block1_page1 {
+    width: 48%;
+    float: left;
+}
+
+.infoblock .text_block2_page1 {
+    width: 48%;
+    float: right;
+}
+
+.infoblock .label_no_compromise_page1 {
+    padding-top: 28rem;
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+}
+
+.infoblock .block_hierarchical_metadata {
+    width: 100%;
+}
+
+.infoblock .block_hierarchical_metadata_table {
+    width: 20%;
+    float: left;
+    padding-top: 3rem;
+    margin-left: 2%;
+}
+
+.infoblock .block_hierarchical_metadata_table2 {
+    width: 100%;
+    float: left;
+}
+
+.infoblock .block_hierarchical_metadata_table3 {
+    float: right;
+    width: 58%;
+}
+
+.infoblock .block_hierarchical_metadata_table4 {
+    float: left;
+    width: 48%;
+}
+
+.infoblock .block_hierarchical_metadata_table5 {
+    float: right;
+    width: 48%;
+}
+.infoblock .brochure-title-center-free-flow{
+    float: left;
 }
