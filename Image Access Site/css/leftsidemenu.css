@@ -296,3 +296,24 @@ ul.temporary li a {
 #globalServiceArea {
     overflow: hidden;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .leftsidemenu-holder {
+        margin-left: 1%;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .topbar li {
+        padding-left: 7%;
+    }
+    .sub-bottom {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+
+}

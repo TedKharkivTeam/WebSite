@@ -25,7 +25,12 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-
+    .logo img {
+        width: 210px;
+    }
+    .botlogo {
+        width: 210px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

@@ -21,7 +21,7 @@
     z-index: 20;
     position: absolute;
     display: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     top: 0;
     width: 190px;
     left: 209px;
@@ -81,13 +81,25 @@
 .mainmenu .activeHeader {
     color: #d83020;
 }
-@media (min-width: 1200px) and (max-width: 1399px) {
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .mainmenu {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        width: 75%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .mainmenu {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
         width: 90%;
+        background: none;
+    }
+
+    .mainmenu > li {
+        background: none;
     }
 }
 
