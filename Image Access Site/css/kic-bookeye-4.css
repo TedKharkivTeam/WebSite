@@ -1560,7 +1560,7 @@ tr th {
     margin-left: 5%;
 }
 
-@media all and (min-width: 1301px) and (max-width: 1400px) {
+@media all and (min-width: 1200px) and (max-width: 1400px) {
     .infoblock ul.blue-bullet li {
         position: relative;
         list-style: none;
@@ -1737,6 +1737,29 @@ tr th {
 }
 @media all and (min-width: 1200px) and (max-width: 1300px){
 
+    .infoblock .infoblock__page-6__block-header1 {
+        margin-top: 20%;
+
+    }
+    .infoblock__page-9__center__text--margin {
+
+        width: 54%;
+    }
+    .infoblock .infoblock__page-9__center__img {
+
+        width: 60%;
+
+    }
+    .infoblock__page-9__nav {
+        padding-top: 6%;
+
+    }
+    .infoblock__page-12 {
+        margin-top: 200%;
+    }
+    .infoblock__page-13 {
+        margin-bottom: 110%;
+    }
 }
 
 
