@@ -137,14 +137,11 @@
         height: 35%;
         top: 0;
     }
-    .content__frame--leftside .new-design{
-        top: 35px;
-        left: 5px;
-    }
 }
 @media screen and (max-width: 1535px) {
     .brochure-block .content__brochure-block__img {
         margin-left: 7%;
+        height: 120px;
     }
 
     .frame7-content__dlos .dlos-hend {
@@ -230,11 +227,28 @@
     .reservation__h1 {
         font-size: 50px;
     }
-    .new-design .imgbook {
-        max-width: 130px;
+
+}
+@media screen and (max-width: 1240px){
+    .brochure-block .text-grean {
+        font-size: 1.8rem;
     }
-    .new-design .h4--frames {
-        font-size: 50px;
+    .content .text-grey{
+        font-size: 1.8rem;
+        padding: 5px 20px;
+    }
+    .content .text-grey:after {
+        left: 96%;
+        width: 40px;
+    }
+    .dlos__logo .dlos-logo {
+        font-size: 1.2rem;
+    }
+    .DLOS_Icon {
+        padding-top: 17px;
+    }
+    .inf--padding .inform__images {
+        max-width: 260px;
     }
 }
 @media screen and (max-width: 1150px) {
@@ -243,5 +257,17 @@
     }
     .line__persent4:before{
         font-size: 12px;
+    }
+    .caption__h {
+        font-size: 31px;
+        line-height: 1.2;
+    }
+    .logo-frame-block__caption {
+        margin-left: 0px;
+    }
+    .logo-frame-block__dlsg-logo {
+        float: left;
+        padding-left: 22%;
+        padding-top: 2px;
     }
 }
