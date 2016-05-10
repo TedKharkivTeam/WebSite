@@ -14,10 +14,6 @@
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/scroll.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
-</head>
-<body class="gradient">
-<header>
-    <div id="includeHeader"></div>
     <script>
         function IsIE() {
             var ms_ie = false;
@@ -33,7 +29,7 @@
         }
         onload = function () {
             if (IsIE()) {
-                var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
+                var rainbowTextDivs = document.getElementsByClassName("infoblock__page-12__rainbow-text");
 
                 for (var i = 0; i < 2;) {
                     rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
@@ -42,6 +38,11 @@
             }
         }
     </script>
+</head>
+<body class="gradient">
+<header>
+    <div id="includeHeader"></div>
+
 </header>
 <div class="content">
     <div class="logo">
