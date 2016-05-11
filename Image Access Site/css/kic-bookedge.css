@@ -2250,7 +2250,7 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock__page-9__center__text--margin {
-    padding-top: 7%;
+    padding-top: 4%;
     position: absolute;
     width: 47%;
 }
@@ -2792,7 +2792,6 @@ table tr .infoblock__page-14__border-style {
 .vertical {
     transform: rotate(180deg);
     writing-mode: vertical-lr;
-    writing-mode: bt-rl;
 }
 
 .width-td {
