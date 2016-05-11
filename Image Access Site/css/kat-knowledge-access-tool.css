@@ -342,7 +342,7 @@
 .beautiful-girl-bg {
     box-sizing: border-box;
     background: url("../images/KIC_KAT/kat_6_img_bg.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .infoblock .rows__row--collage {
@@ -471,7 +471,7 @@
 .temp-bg {
     background: url("../images/KIC_KAT/kat_7_temp-bg.png") no-repeat;
     background-size: contain;
-    width: 75%;
+    width: 100%;
     height: 1450px;
 }
 
@@ -495,6 +495,10 @@
     margin-left: 12%;
 }
 
+.infoblock .infoblock__image-section {
+    margin-bottom: 20px;
+}
+
 .infoblock .image-section__image {
     width: 100%;
     height: 100%;
@@ -516,8 +520,8 @@
 .infoblock .infoblock__requirements-section {
     width: 87%;
     border: 2px solid black;
-    margin: 0 0 10px 65px;
-    padding: 1%;
+    margin: 0 auto 10px auto;
+    padding: 15px 1%;
 }
 
 .infoblock .requirements-section__req-header {
