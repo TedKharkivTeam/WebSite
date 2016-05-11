@@ -226,6 +226,9 @@
     .saw h3{
         padding-bottom: 5px!important;
     }
+    .infoblock .li--width {
+        width: 40%;
+    }
 }
 @media screen and (max-width: 1290px){
     .wrapper-for-img .inform__images{

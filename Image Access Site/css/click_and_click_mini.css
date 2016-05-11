@@ -1665,7 +1665,8 @@ h6.pod-text {
 }
 
 .in-case-span--center {
-    text-align: center;
+    text-align: left;
+    display: block!important;
     font-size: 26px;
     line-height: 28px;
 }
@@ -2510,7 +2511,7 @@ h6.pod-text {
 
 @media all and (max-width: 1600px) {
     html {
-        font-size: 50%;
+        font-size: 55%;
     }
 
     .infoblock .click_click_mini {
@@ -2562,7 +2563,7 @@ h6.pod-text {
     }
 
     .infoblock .label3 {
-        padding-top: 3%;
+        padding-top: 4%;
     }
 
     .infoblock .kic_div .true2_save_to_usb {
@@ -2581,8 +2582,14 @@ h6.pod-text {
         width: 50%;
         top: 0;
     }
+    .in-case-strong {
+        font-size: 28px;
+    }
+    .infoblock .in-case-enhance--left {
+        width: 50%;
+    }
+    .for-study-p {
+        width: 35%;
+    }
 }
 
-@media all and (max-width: 1200px) {
-
-}
