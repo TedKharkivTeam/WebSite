@@ -2,21 +2,32 @@ $(document).ready(function () {
     var menu = $(".leftsidemenu");
     var footerHeight = $('footer');
     var defaultOffsetTop = menu.offset().top;
-    menu.find('a').on("click", function (event) {
+    var links = menu.find('a');
 
-        //отменяем стандартную обработку нажатия по ссылке
-        event.preventDefault();
+    links.each(function (index) {
+        $(this).on("click", function (event) {
 
-        //забираем идентификатор бока с атрибута href
-        var id = $(this).attr('href'),
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
 
-        //узнаем высоту от начала страницы до блока на который ссылается якорь
-            top = $(id).offset().top;
+            //забираем идентификатор бока с атрибута href
+            var id = $(this).attr('href');
+            var top = 0;
 
-        //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({scrollTop: top}, 1500, function onAnimationFinished() {
-            $('.selected').removeClass('selected');
-            $(event.target).parent().addClass('selected');
+            if (index == 0) {
+                //узнаем высоту от начала страницы до блока на который ссылается якорь
+                top = $(id).offset().top - 90;
+            } else {
+                //узнаем высоту от начала страницы до блока на который ссылается якорь
+                top = $(id).offset().top;
+            }
+
+
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1500, function onAnimationFinished() {
+                $('.selected').removeClass('selected');
+                $(event.target).parent().addClass('selected');
+            });
         });
     });
 
