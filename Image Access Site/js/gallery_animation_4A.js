@@ -52,12 +52,12 @@ var animationPresets = {
 };
 //Starting positions to animate
 var startingPositions = {
-    'Image_0': {top: 115.6875, left: 164.875},
-    'Image_1': {top: 115.6875, left: 537.25},
-    'Image_2': {top: 273.71875, left: 590.875}
+    'Image_0': {top: 5, left: 660.125},
+    'Image_1': {top: 112.688, left: 114.5},
+    'Image_2': {top: 436.6875, left: 332.75}
 };
 
-function aminate(onAnimationComplete) {
+function animate(onAnimationComplete) {
     var canvas = document.getElementById("animation-canvas");
     var context = canvas.getContext("2d");
     context.translate(0.5, 0.5);
@@ -113,16 +113,25 @@ function aminate(onAnimationComplete) {
                 var $image = $(this).clone().addClass("animated-image-block").appendTo($container);
                 var $image2 = $(this).clone().appendTo($container);
                 $defaultImage.remove();
-                var defaultWidth = $defaultImage.width();
-                var defaultHeight = $defaultImage.height();
+                var defaultWidth = calculatedImageSizes.width;
+                var defaultHeight = calculatedImageSizes.height;
 
-                $image.css({left: startingPositions['Image_' + index].left, top: startingPositions['Image_' + index].top, "z-index": 20000 + index});
+                startingPositions['Image_' + index].top *= containerScaleRatio;
+                startingPositions['Image_' + index].left *= containerScaleRatio;
+
+                $image.css({
+                    left: startingPositions['Image_' + index].left,
+                    top: startingPositions['Image_' + index].top,
+                    "z-index": 20000 + index
+                });
                 $image2.css({
                     left: startingPositions['Image_' + index].left,
                     top: startingPositions['Image_' + index].top,
                     "z-index": 10000 + index,
                     position: "absolute"
                 });
+
+
                 animatedImages.push({
                     default_position: startingPositions['Image_' + index],
                     default_width: defaultWidth,
@@ -134,11 +143,8 @@ function aminate(onAnimationComplete) {
                     $image.animate(preset["image_" + index].stage2, animationDuration / 3, onAnimationComplete);
                 });
             });
-            $(".gallery-container .gallery-image:not(.animated-image-block)").animate({
-                opacity: 0.7
-            }, animationDuration);
             $canvas.fadeOut(animationDuration + 1000);
-            render();
+            setTimeout(render, 400);
         }, timeout);
     })(imagesCount, startTimeout);
 
@@ -180,9 +186,10 @@ function aminate(onAnimationComplete) {
                     } else {
                         // draw left to right rect
                         context.beginPath();
-                        context.moveTo(endPoints.top_left.left, endPoints.top_left.top);
-                        context.lineTo(startPoints.top_left.left, startPoints.top_left.top);
+                        context.moveTo(startPoints.top_left.left, startPoints.top_left.top);
                         context.lineTo(startPoints.bottom_right.left, startPoints.bottom_right.top);
+                        context.lineTo(endPoints.bottom_right.left, endPoints.bottom_right.top);
+                        context.lineTo(endPoints.top_left.left, endPoints.top_left.top);
                         context.fill();
                     }
                 }
@@ -249,7 +256,7 @@ function AnimateImagesLoading(callback) {
 $(document).ready(function () {
     setTimeout(function () {
         AnimateImagesLoading(function () {
-            aminate(function () {
+            animate(function () {
                 simulateAnimation(function () {
                     redirect("Frame_4B.html");
                 });
