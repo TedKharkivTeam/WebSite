@@ -223,6 +223,7 @@
     left: 42%;
     margin-top: -135px;
     padding-bottom: 100px;
+    width: 41%;
 }
 
 /*************************************************************************************************************/
@@ -712,6 +713,233 @@
 
 /* 1280, 1366 */
 @media (min-width: 1200px) and (max-width: 1399px) {
+
+    /******************** PAGE 1 ********************/
+    .infoblock .infoblock__huge-header {
+        font-size: 4.5rem;
+        padding-top: 14px;
+    }
+
+    .infoblock .image-title--stacks-view {
+        margin-left: 17%;
+        padding-bottom: 12px;
+    }
+    .infoblock .image-bottom-header {
+        margin-top: -80px;
+        width: 47%;
+    }
+
+    .infoblock .right-middle-block__text {
+        width: 88%;
+        text-align: left;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 5px;
+        left: 14%;
+    }
+
+    .infoblock .right-middle-block__image {
+        width: 59%;
+        position: relative;
+        left: 24%;
+    }
+
+    .infoblock .infoblock__kat-phones {
+        background-size: 100% 486px;
+        margin-top: -100px;
+        margin-bottom: 0;
+    }
+
+    .infoblock .kat-phones__note--right {
+        left: 82%;
+        top: 73px;
+        padding: 5px 0;
+        width: 21%;
+        line-height: 1.5rem;
+    }
+
+    .infoblock .image-title--search-screen {
+        top: 5px;
+        left: 12%;
+    }
+
+    .infoblock .image-title--bibliography-view {
+        right: 26%;
+        top: 85px;
+    }
+
+    .infoblock .note--left__top {
+        position: relative;
+        top: -15px;
+    }
+
+    .infoblock .image-title--shelf-view {
+        left: 10%;
+        top: 193px;
+    }
+
+    .infoblock .note--left__bottom {
+        top: 143px;
+        width: 26%;
+    }
+
+    .infoblock .reading-list__header {
+        position: relative;
+        font-size: 1.3rem;
+        left: 9%;
+        top: 5px;
+        margin-bottom: -14px;
+    }
+
+    .infoblock .reading-list__professor-info-block {
+        margin-top: -55px;
+        font-size: 1rem;
+        padding-bottom: 25px;
+    }
+
+    .infoblock .reading-list__footer {
+        position: relative;
+        margin-top: -23px;
+        left: 11%;
+        font-size: 1.2rem;
+    }
+
+    /******************** PAGE 2 ********************/
+
+    .infoblock .infoblock__bottom-text {
+        margin-top: -105px;
+        padding-bottom: 5px;
+        width: 50%;
+    }
+
+    /******************** PAGE 3 ********************/
+
+    .infoblock .infoblock__header {
+        margin-bottom: 25px;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    /******************** PAGE 4 ********************/
+
+    /******************** PAGE 5 ********************/
+
+    .infoblock .search-screen__info {
+        margin-top: -272px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-FBL {
+        margin-top: 35px;
+        font-size: 2.5rem;
+    }
+
+    .infoblock .infoblock__sub-header--MBDE {
+        font-size: 2rem;
+    }
+
+    .infoblock .professor-photo__text {
+        margin-top: -165px;
+        padding-top: 9px;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    /******************** PAGE 6 ********************/
+
+    .beautiful-girl-bg {
+        background-size: 100% 91%;
+    }
+
+    .infoblock .search-screen__image-title--PYPC {
+        padding-bottom: 27px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-SBDB {
+        margin-top: 105px;
+        margin-bottom: 65px;
+    }
+
+    .infoblock .image-title--PYPC {
+        left: 38%;
+        padding-bottom: 20px;
+    }
+
+    .infoblock .collage__info {
+        margin-bottom: -110px;
+        width: 68%;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-stations {
+        position: relative;
+        left: 13%;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        left: 58%;
+        margin-top: -215px;
+        padding-bottom: 280px;
+    }
+
+    .infoblock .bvs-section__image-title {
+        position: relative;
+        left: 40%;
+        margin-top: -171px;
+        padding-bottom: 145px;
+    }
+
+    /******************** PAGE 7 ********************/
+
+    .infoblock .blocks__block-item--2 {
+        margin-left: 3%;
+    }
+
+    .infoblock .blocks__block-item--4 {
+        position: relative;
+        left: -2%;
+    }
+
+    .infoblock .blocks__block-item--5 {
+        margin-top: -35px;
+    }
+
+    .infoblock .blocks__block-item--7 {
+        margin-left: 0;
+    }
+
+    /******************** PAGE 8 ********************/
+
+    .infoblock .infoblock__sub-header--AYPCCE {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .infoblock .infoblock__sub-header--AYPCCE-H2 {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+
+    .infoblock .image-section__info {
+        margin-top: -92px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding-bottom: 35px;
+    }
+
+    .infoblock .infoblock__requirements-section {
+        padding: 15px 2%;
+    }
+
+    .infoblock .req-right-row__text {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding-top: 10px;
+        padding-left: 2%;
+        text-align: left;
+        width: 55%;
+    }
+
+    /******************** PAGE 9 ********************/
+
 
 }
 
