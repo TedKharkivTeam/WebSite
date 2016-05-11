@@ -52,9 +52,9 @@ var animationPresets = {
 };
 //Starting positions to animate
 var startingPositions = {
-    'Image_0': {top: 229.328125, left: 232.328125},
-    'Image_1': {top: 233.328125, left: 601.875},
-    'Image_2': {top: 306.4375, left: 601.875}
+    'Image_0': {top: 113, left: 114},
+    'Image_1': {top: 113, left: 441},
+    'Image_2': {top: 437, left: 386}
 };
 
 function animate(onAnimationComplete) {
@@ -131,7 +131,6 @@ function animate(onAnimationComplete) {
                     position: "absolute"
                 });
 
-
                 animatedImages.push({
                     default_position: startingPositions['Image_' + index],
                     default_width: defaultWidth,
@@ -186,9 +185,10 @@ function animate(onAnimationComplete) {
                     } else {
                         // draw left to right rect
                         context.beginPath();
-                        context.moveTo(endPoints.top_left.left, endPoints.top_left.top);
-                        context.lineTo(startPoints.top_left.left, startPoints.top_left.top);
+                        context.moveTo(startPoints.top_left.left, startPoints.top_left.top);
                         context.lineTo(startPoints.bottom_right.left, startPoints.bottom_right.top);
+                        context.lineTo(endPoints.bottom_right.left, endPoints.bottom_right.top);
+                        context.lineTo(endPoints.top_left.left, endPoints.top_left.top);
                         context.fill();
                     }
                 }

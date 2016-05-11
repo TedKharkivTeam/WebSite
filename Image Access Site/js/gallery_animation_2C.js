@@ -52,9 +52,9 @@ var animationPresets = {
 };
 //Starting positions to animate
 var startingPositions = {
-    'Image_0': {top: 10, left: 698.125},
-    'Image_1': {top: 115.688, left: 217.5},
-    'Image_2': {top: 115.6875, left: 323.75}
+    'Image_0': {top: 5, left: 660.125},
+    'Image_1': {top: 112.688, left: 114.5},
+    'Image_2': {top: 436.6875, left: 332.75}
 };
 
 function animate(onAnimationComplete) {
@@ -186,9 +186,10 @@ function animate(onAnimationComplete) {
                     } else {
                         // draw left to right rect
                         context.beginPath();
-                        context.moveTo(endPoints.top_left.left, endPoints.top_left.top);
-                        context.lineTo(startPoints.top_left.left, startPoints.top_left.top);
+                        context.moveTo(startPoints.top_left.left, startPoints.top_left.top);
                         context.lineTo(startPoints.bottom_right.left, startPoints.bottom_right.top);
+                        context.lineTo(endPoints.bottom_right.left, endPoints.bottom_right.top);
+                        context.lineTo(endPoints.top_left.left, endPoints.top_left.top);
                         context.fill();
                     }
                 }
