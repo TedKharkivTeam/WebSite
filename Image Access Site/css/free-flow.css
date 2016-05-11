@@ -15,6 +15,10 @@
     width: 45%;
 }
 
+.infoblock .brochure-overflow {
+    overflow: hidden;
+}
+
 .infoblock .infoblock_scanpages {
     width: 40%;
     margin-top: 3%;
@@ -102,23 +106,8 @@
     font-size: larger;
 }
 
-.OAI {
-    margin-left: -2%;
-}
-
 .OAI2 {
     width: 45%;
-}
-
-.OAI3 {
-    width: 45%;
-    margin-left: 47%;
-    margin-top: -19.5%;
-}
-
-.OAI4 {
-    width: 45%;
-    margin-left: 47%;
 }
 
 .metadata_capture {
@@ -132,7 +121,6 @@
 
 .OAI5 {
     width: 100%;
-    padding-top: 25rem;
 
 }
 
@@ -296,8 +284,14 @@
     float: left;
 }
 
+.infoblock .little_label_for_image_metadata {
+    font-size: 0.8rem;
+    margin-top: -4%;
+    float: left;
+}
+
 .styleForTitle {
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 1);
     font-weight: bold;
     color: rgb(90, 107, 177);
     letter-spacing: -1pt;
@@ -383,11 +377,6 @@
     font-weight: 700;
 }
 
-.infoblock .super_fix {
-    float: left;
-    width: 100%;
-}
-
 .infoblock .text_block1_page1 {
     width: 48%;
     float: left;
@@ -399,7 +388,7 @@
 }
 
 .infoblock .label_no_compromise_page1 {
-    padding-top: 19rem;
+
     color: #000;
     font-size: 3.6rem;
     line-height: 3.8rem;
@@ -472,7 +461,7 @@
     .infoblock div .infoblock__h2__p h2 {
         font-size: 2.2rem;
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
 
     .infoblock .label_no_compromise_page1 {
@@ -533,7 +522,6 @@
         font-size: 3.6rem;
         line-height: 3.8rem;
         text-align: center;
-        padding-top: 34rem;
     }
 
     .infoblock .infoblock__h3__p h3 {
@@ -618,16 +606,6 @@
         font-size: 1.1rem;
     }
 
-    .infoblock .label_versus {
-        font-size: 2.4rem;
-        text-align: center;
-        display: block;
-        padding: 2%;
-        line-height: 2.4rem;
-        color: black;
-        -webkit-text-stroke: initial;
-    }
-
     .infoblock .infoblock__h3__p h3 {
         font-size: 1rem;
         font-weight: bold;
@@ -641,7 +619,7 @@
     .infoblock .table1_freeflow {
         width: 67%;
         float: right;
-        padding-top: 0rem;
+        padding-top: 0;
 
     }
 
@@ -658,7 +636,7 @@
         font-size: 3.6rem;
         line-height: 3.8rem;
         text-align: center;
-        padding-top: 44rem;
+
     }
 
     .infoblock .block_hierarchical_metadata_table {
@@ -683,7 +661,7 @@
     .infoblock div .infoblock__h2__p h2 {
         font-size: 1.4rem;
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
 
     .infoblock div .infoblock__h2__p p {
@@ -710,7 +688,7 @@
     .infoblock div .infoblock__h2__p h2 {
         font-size: 1.5rem;
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
 
     .infoblock div .infoblock__h2__p p {
