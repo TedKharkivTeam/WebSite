@@ -1,4 +1,8 @@
-﻿/*brochures*/
+﻿.infoblock p {
+    text-align: left;
+}
+
+/*brochures*/
 div.infoblock span {
     display: inline;
 }
@@ -50,45 +54,55 @@ span.caption {
 .green-linear-gradient {
     background: linear-gradient(to bottom, #578E6B, #FFFFFF);
 }
+
 /*pdfjak*/
-.infoblock{
+.infoblock {
     font-size: 16px;
     position: relative;
 }
-.infoblock span, p
-{
+
+.infoblock span, p {
     font-weight: normal;
     line-height: 24px;
 }
-.infoblock strong{
+
+.infoblock strong {
     padding: 0;
 }
-.infoblock__bscan-ill{
+
+.infoblock__bscan-ill {
     text-align: left;
     position: relative;
 }
-.infoblock__bscan-ill .bscan-ill__logo{
+
+.infoblock__bscan-ill .bscan-ill__logo {
     width: 50%;
 }
-.infoblock__bscan-ill--absolut{
+
+.infoblock__bscan-ill--absolut {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
-.bscan-ill__bolt{
+
+.bscan-ill__bolt {
     display: block;
     padding: 0;
 }
-.bscan-ill__bolt--fs1{
+
+.bscan-ill__bolt--fs1 {
     font-size: 24px;
 }
-.bscan-ill__bolt--fs2{
+
+.bscan-ill__bolt--fs2 {
     font-size: 20px;
 }
-.bscan-ill--padding{
-    padding-top:4%;
+
+.bscan-ill--padding {
+    padding-top: 4%;
 }
-.bscan-ill--h2{
+
+.bscan-ill--h2 {
     font-size: 28px;
     color: #000;
     padding: 0;
@@ -96,113 +110,136 @@ span.caption {
     font-weight: bold;
     margin: 0;
 }
-.bscan-ill--center{
+
+.bscan-ill--center {
     text-align: center;
 }
-.bscan-ill--blu-text{
+
+.bscan-ill--blu-text {
     text-align: right;
     font-size: 20px;
     color: #193791;
 }
-.bscan-ill__column{
+
+.bscan-ill__column {
     width: 49%;
     display: inline-block;
     vertical-align: top;
     padding: 10px;
 }
-.infoblock .bscan-ill--width{
+
+.infoblock .bscan-ill--width {
     width: 90%;
 }
-.bscan-ill__arrow{
+
+.bscan-ill__arrow {
     position: relative;
     display: block;
 }
-.bscan-ill__arrow:before{
+
+.bscan-ill__arrow:before {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/arrow.png") no-repeat;
-    top:0;
+    top: 0;
     left: -64px;
     width: 65px;
-    height:60px;
+    height: 60px;
 }
-.infoblock--right{
+
+.infoblock--right {
     text-align: right;
 }
-.infoblock .infoblock__title{
+
+.infoblock .infoblock__title {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     width: 40%;
     text-align: left;
-    padding:0;
+    padding: 0;
 }
-.infoblock__title li{
+
+.infoblock__title li {
     padding-top: 10px;
 }
-.title__mark{
+
+.title__mark {
     font-size: 45px;
     font-weight: bold;
     background: transparent;
 }
-.infoblock .infoblock__row{
+
+.infoblock .infoblock__row {
     display: inline-block;
     width: 40%;
     vertical-align: top;
 }
-.infoblock .woman_abs{
+
+.infoblock .woman_abs {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 25%;
 }
-.first-li{
+
+.first-li {
     margin-right: 20%;
 }
-.two-li{
+
+.two-li {
     margin-left: 10%;
     margin-right: 10%;
 }
-.last-li{
+
+.last-li {
     margin-left: 20%;
 }
-.mark--margin{
-    margin-left:-20px;
+
+.mark--margin {
+    margin-left: -20px;
 }
-.bscan--h2{
+
+.bscan--h2 {
     text-align: center;
     font-size: 40px;
     color: #000;
-    margin:0;
-    padding:0;
-    line-height:1.2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
 }
-.infoblock__content{
+
+.infoblock__content {
     display: inline-block;
     width: 48%;
-    padding:0 5px;
+    padding: 0 5px;
     vertical-align: top;
 }
-.infoblock .content__green-arrow{
+
+.infoblock .content__green-arrow {
     padding-left: 50px;
     list-style: none;
 }
-.content__green-arrow li{
+
+.content__green-arrow li {
     position: relative;
 }
-.content__green-arrow li:before{
+
+.content__green-arrow li:before {
     position: absolute;
     content: '';
     background: url("../images/green-arrow.png") no-repeat;
-    top:0;
+    top: 0;
     left: -30px;
     width: 30px;
     height: 30px;
 }
-.seven-step{
+
+.seven-step {
     text-align: center;
     position: relative;
 }
-.seven-step:after{
+
+.seven-step:after {
     content: 'VS';
     position: absolute;
     color: #fff;
@@ -216,30 +253,36 @@ span.caption {
     margin: 0 -30px;
     z-index: 1;
 }
-.seven-step__h3{
+
+.seven-step__h3 {
     display: inline;
     text-shadow: none;
     color: #000;
     font-size: 24px;
-    padding-right:20%;
+    padding-right: 20%;
 }
-.infoblock .seven-step__text{
+
+.infoblock .seven-step__text {
     display: inline;
 }
-.seven-step__scan{
-    margin-top:-40px;
+
+.seven-step__scan {
+    margin-top: -40px;
 }
-.seven-step--border{
+
+.seven-step--border {
     padding: 20px;
     border: 2px solid #000;
     border-radius: 10px;
 }
-.two-step{
+
+.two-step {
     text-align: center;
     position: relative;
     margin-top: 10px;
 }
-.two-step:before{
+
+.two-step:before {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
@@ -249,42 +292,50 @@ span.caption {
     right: 0;
     background-size: contain;
 }
-.two-step:after{
+
+.two-step:after {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
     width: 47px;
     height: 33px;
     bottom: 0;
-    right:50%;
+    right: 50%;
 }
-.two-step--inline{
+
+.two-step--inline {
     padding: 0 4px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
 }
-.two-step--w1{
+
+.two-step--w1 {
     width: 14%;
 }
-.two-step--w2{
+
+.two-step--w2 {
     width: 35%;
 }
-.two-step--w3{
+
+.two-step--w3 {
     width: 49%;
 }
-.seven-step__h3--padding{
+
+.seven-step__h3--padding {
     padding: 0;
 }
 
-.infoblock .blue-doth{
+.infoblock .blue-doth {
     padding-left: 50px;
     list-style: none;
 }
-.blue-doth li{
+
+.blue-doth li {
     position: relative;
 }
-.blue-doth li:before{
+
+.blue-doth li:before {
     position: absolute;
     content: '';
     background: #3052ad;
@@ -297,29 +348,35 @@ span.caption {
     -moz-border-radius: 30px;
     box-shadow: inset 0 3px 6px #fff;
 }
-.page3__inline{
+
+.page3__inline {
     display: inline-block !important;
     padding: 0 10px;
     width: 49%;
     vertical-align: top;
 }
-.page3--right{
+
+.page3--right {
     text-align: right;
 }
-.page3__block2{
+
+.page3__block2 {
     text-align: left;
     display: inline-block;
     width: 34%;
     margin-left: 10%;
 }
-.page3__block2 i{
+
+.page3__block2 i {
     font-size: 10px;
 }
-.method1{
+
+.method1 {
     position: relative;
     text-align: center;
 }
-.method1:before{
+
+.method1:before {
     position: absolute;
     content: 'METHOD';
     font-weight: bold;
@@ -332,12 +389,14 @@ span.caption {
     width: 153px;
     height: 139px;
 }
-.method2{
+
+.method2 {
     position: relative;
     text-align: center;
     margin-left: 17%;
 }
-.method2:before{
+
+.method2:before {
     content: 'METHOD';
     position: absolute;
     font-weight: bold;
@@ -350,146 +409,180 @@ span.caption {
     width: 154px;
     height: 111px;
 }
-.page3__block3{
+
+.page3__block3 {
     background-color: #9ccdff;
     padding: 10px;
     text-align: center;
 }
-.block3__top span{
+
+.block3__top span {
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
 }
-.block3__top .top--width{
-    width:60%;
+
+.block3__top .top--width {
+    width: 60%;
 }
-.block3__top{
+
+.block3__top {
     display: inline-block;
-    width:20%;
+    width: 20%;
     vertical-align: middle;
 }
-.top--w2{
+
+.top--w2 {
     width: 35%;
 }
-.top--w3{
+
+.top--w3 {
     width: 43%;
     padding-left: 5px;
 }
-h3{
+
+h3 {
     font-size: 30px;
     color: #000;
     text-align: center;
 }
+
 h4 {
     font-size: 23px;
     color: #000;
     text-align: center;
     font-weight: normal;
 }
-.two-step--width1{
+
+.two-step--width1 {
     width: 60%;
 }
-.two-step--width2{
+
+.two-step--width2 {
     width: 39%;
 }
-.two-step--bottom{
+
+.two-step--bottom {
     padding-top: 20%;
 }
-.two-step--img{
+
+.two-step--img {
     position: relative;
 }
-.two-step--img .two-step__all-scan{
+
+.two-step--img .two-step__all-scan {
     position: absolute;
     top: -80px;
     left: 0;
     width: 180%;
     height: auto;
 }
-.block-grey{
+
+.block-grey {
     padding: 10px;
     border-radius: 10px;
-    border:2px solid #000;
+    border: 2px solid #000;
     text-align: center;
     background: #bfdae2;
 }
-.infoblock .block-grey__ul{
+
+.infoblock .block-grey__ul {
     margin: 0;
     padding: 0;
 }
-.block-grey__ul li{
+
+.block-grey__ul li {
     display: inline-block;
     width: 13%;
 }
+
 .block-grey__ul p {
     font-size: 12px;
     text-align: center;
-    line-height:1.2;
+    line-height: 1.2;
 }
-.center-br img{
+
+.center-br img {
     width: 20%;
 }
-.center-br .two-step--inline{
+
+.center-br .two-step--inline {
     vertical-align: top;
 }
-.block-grey__first{
+
+.block-grey__first {
     display: inline-block;
     width: 65%;
 }
-.block-grey__last{
+
+.block-grey__last {
     display: inline-block;
     width: 26%;
 }
+
 .page3__inline .inline__books {
     width: 50%;
     float: right;
     clear: both;
 }
-.infoblock__center--text{
+
+.infoblock__center--text {
     text-align: center;
 }
-.inline__mini-text{
+
+.inline__mini-text {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
-.infoblock .inline__rgb{
+
+.infoblock .inline__rgb {
     display: inline-block;
     width: 29%;
     vertical-align: super;
 }
-.inline__img-text{
+
+.inline__img-text {
     display: inline-block;
     width: 69%;
     line-height: 1;
     padding-left: 5px;
 }
-.infoblock__header{
+
+.infoblock__header {
     overflow: hidden;
 }
-.header__left{
+
+.header__left {
     float: left;
     padding-right: 25px;
 }
-.header__right .bscan--h2{
+
+.header__right .bscan--h2 {
     text-align: left;
 }
-.infoblock .rhomb{
+
+.infoblock .rhomb {
     list-style-image: url("../images/rhomb.png");
 }
-.kic-product{
+
+.kic-product {
     text-align: right;
 }
-.kic-product__row{
+
+.kic-product__row {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: calc(100%/6);
+    width: calc(100% / 6);
 }
-.kic-product .row__title{
+
+.kic-product .row__title {
     text-align: center;
     font-size: 13px;
     font-weight: bold;
 }
-.row__column{
+
+.row__column {
     padding: 10px 5px 5px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
@@ -497,7 +590,8 @@ h4 {
     box-shadow: 0 3px 6px #000;
     min-height: 500px;
 }
-.row__column .column__mini-title{
+
+.row__column .column__mini-title {
     font-size: 11px;
     margin-top: 5px;
     font-weight: bold;
@@ -505,35 +599,42 @@ h4 {
     line-height: 1.2;
     padding: 0;
 }
-.table{
+
+.table {
     width: 100%;
     padding: 20px 0;
     margin-top: 20px;
 }
-.table th{
-    width: calc(100%/6);
+
+.table th {
+    width: calc(100% / 6);
     height: auto;
     margin: 0;
     padding: 0;
     text-align: center;
     padding-bottom: 5px;
 }
-.table p{
+
+.table p {
     text-align: center;
 }
-.table-bg{
-    background: rgba(0,0, 0, 0.1);
+
+.table-bg {
+    background: rgba(0, 0, 0, 0.1);
 }
-.table .table--ta-left{
+
+.table .table--ta-left {
     text-align: right;
     font-size: 12px;
     padding-right: 20px;
     width: 180px;
 }
-th .table--img{
+
+th .table--img {
     width: 100px;
 }
-.cicle{
+
+.cicle {
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -542,7 +643,8 @@ th .table--img{
     height: 20px;
     margin: 0 auto;
 }
-.green-cicle{
+
+.green-cicle {
     background: #40b149;
     border-radius: 100%;
     -moz-border-radius: 100%;
@@ -552,11 +654,13 @@ th .table--img{
     height: 20px;
     margin: 0 auto;
 }
-.green-cicle--after{
+
+.green-cicle--after {
     position: relative;
 
 }
-.green-cicle--after:after{
+
+.green-cicle--after:after {
     position: absolute;
     content: '';
     background: #fff;
@@ -569,9 +673,11 @@ th .table--img{
     top: -1px;
     left: -1px;
 }
-.green-cicle--after-big{
+
+.green-cicle--after-big {
     position: relative;
 }
+
 .green-cicle--after-big:after {
     position: absolute;
     content: '';
@@ -585,7 +691,8 @@ th .table--img{
     top: -1px;
     left: -1px;
 }
-.green-cicle--after-small{
+
+.green-cicle--after-small {
     position: relative;
 }
 
@@ -602,14 +709,17 @@ th .table--img{
     top: -1px;
     left: 1px;
 }
-.bold-line{
+
+.bold-line {
     font-weight: bold;
     font-size: 33px;
 }
-.table__arow{
+
+.table__arow {
     position: relative;
 }
-.table__arow:before{
+
+.table__arow:before {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
@@ -618,64 +728,89 @@ th .table--img{
     width: 44px;
     height: 26px;
 }
-.bold-dollar{
+
+.bold-dollar {
     font-weight: bold;
 }
-.dollar-size-mini{font-size: 12px;}
-.dollar-size-midle{font-size: 20px}
-.dollar-size-subheight{ font-size: 24px;}
-.dollar-size-height{font-size: 28px}
-.tabl-star{
+
+.dollar-size-mini {
+    font-size: 12px;
+}
+
+.dollar-size-midle {
+    font-size: 20px
+}
+
+.dollar-size-subheight {
+    font-size: 24px;
+}
+
+.dollar-size-height {
+    font-size: 28px
+}
+
+.tabl-star {
     margin-left: 20px;
     font-size: 13px;
     vertical-align: text-top;
     color: #e8383b;
 }
-.tabl-star-mini{
+
+.tabl-star-mini {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
     color: #e8383b;
 }
-.align-right{
+
+.align-right {
     text-align: right;
 }
-.first-column{
+
+.first-column {
     width: 200px;
     text-align: right;
 }
-.table__footer{
+
+.table__footer {
     font-size: 14px;
 }
-.graph{
+
+.graph {
     position: relative;
     text-align: center;
 }
-.graph img{
+
+.graph img {
     width: 90%;
 }
-.vertical-text span{
+
+.vertical-text span {
     display: inline;
 }
-.vertical-text{
+
+.vertical-text {
     position: absolute;
-    top:50%;
-    left:-50px;
+    top: 50%;
+    left: -50px;
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
-.text-area span{
+
+.text-area span {
     display: inline;
 }
-.text-area{
-    padding-top:10px;
-    padding-bottom:20px;
+
+.text-area {
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
-.selection{
+
+.selection {
     font-size: 13px;
     width: 100%;
     margin: 0 auto;
@@ -684,53 +819,65 @@ th .table--img{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.selection--bold td{
+
+.selection--bold td {
     font-weight: bold;
     background: rgba(0, 0, 0, 0.2);
 }
-.selection td{
+
+.selection td {
     text-align: center;
-    width:50px;
+    width: 50px;
 }
-.sup-text{
+
+.sup-text {
     font-size: 8px;
     vertical-align: super;
     font-weight: normal;
 }
-.selection .more-text{
-    width:96px;
+
+.selection .more-text {
+    width: 96px;
 }
-.infoblock .table-text{
+
+.infoblock .table-text {
     font-size: 13px;
     padding: 0;
     text-align: left;
 }
-.country-wrapper{
+
+.country-wrapper {
     overflow: hidden;
 }
-.country{
+
+.country {
     display: inline-block;
     float: left;
-    width:calc(100%/5);
+    width: calc(100% / 5);
     vertical-align: top;
 }
-.infoblock .country__text{
+
+.infoblock .country__text {
     font-size: 13px;
     text-align: center;
 }
-.infoblock .history__w1{
+
+.infoblock .history__w1 {
     text-align: left;
-    width:65%;
+    width: 65%;
 }
-.infoblock .history__w2{
+
+.infoblock .history__w2 {
     text-align: left;
-    width:72%;
+    width: 72%;
 }
-.history{
+
+.history {
     position: relative;
     padding-bottom: 30%;
 }
-.history:after{
+
+.history:after {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
@@ -740,38 +887,48 @@ th .table--img{
     right: 0;
     height: 90%;
 }
-.infoblock__line{
+
+.infoblock__line {
     display: inline-block;
     vertical-align: middle;
 }
-.infoblock .line--padding{
+
+.infoblock .line--padding {
     padding-bottom: 30px;
 }
-.line--midle{
+
+.line--midle {
     vertical-align: middle;
 }
-.infoblock__line--w40{
-    width:40%;
+
+.infoblock__line--w40 {
+    width: 40%;
 }
-.infoblock__line--w60{
+
+.infoblock__line--w60 {
     width: calc(60% - 10px);
 }
-.infoblock__line--border{
+
+.infoblock__line--border {
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-.infoblock .line--bold-text{
+
+.infoblock .line--bold-text {
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
 }
-.line__persent1{
+
+.line__persent1 {
     position: relative;
 }
-.line__persent4{
+
+.line__persent4 {
     position: relative;
 }
-.line__persent1:after{
+
+.line__persent1:after {
     content: '1% Libraries';
     position: absolute;
     top: 25px;
@@ -780,7 +937,8 @@ th .table--img{
     width: 78px;
     text-align: center;
 }
-.line__persent4:before{
+
+.line__persent4:before {
     content: '4% Businesses';
     position: absolute;
     left: -58px;
@@ -790,58 +948,65 @@ th .table--img{
     text-align: center;
 }
 
-
 /*kic reservation app*/
 
-.reservation{
+.reservation {
     text-align: center;
     margin-bottom: -6px;
 }
-.reservation__h1{
+
+.reservation__h1 {
     font-size: 70px;
     line-height: 72px;
     text-shadow: none;
     color: #000;
-    margin:0;
-}
-.reservation__h2{
-    color: #000;
-    font-size:26px;
     margin: 0;
-    padding:0;
-    padding-bottom:10px;
 }
-.reservation__h3{
+
+.reservation__h2 {
     color: #000;
-    font-size:24px;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.reservation__h3 {
+    color: #000;
+    font-size: 24px;
     line-height: 26px;
     font-style: italic;
-    font-weight:normal;
-    margin:0;
-    padding:0 ;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
-.reservation__text{
+
+.reservation__text {
     text-align: left;
     width: 49%;
-    padding:10px;
+    padding: 10px;
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
 }
-.reservation__text-img{
-    margin:0 auto;
+
+.reservation__text-img {
+    margin: 0 auto;
 }
-.infoblock .text-img__touch{
+
+.infoblock .text-img__touch {
     text-align: center;
-    width:31%;
+    width: 31%;
     display: inline-block;
     font-size: 16px;
     padding: 0 5px;
 }
-.img__touch--after{
+
+.img__touch--after {
     position: relative;
 }
-.img__touch--after:after{
+
+.img__touch--after:after {
     position: absolute;
     content: '';
     background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
@@ -851,11 +1016,13 @@ th .table--img{
     width: 100%;
     height: 130px;
 }
-.reservation__two-tel{
-    padding-top:107px;
+
+.reservation__two-tel {
+    padding-top: 107px;
     position: relative;
 }
-.infoblock .two-tel__text-top{
+
+.infoblock .two-tel__text-top {
     position: absolute;
     top: 60px;
     right: 0;
@@ -864,27 +1031,32 @@ th .table--img{
     font-size: 16px;
     font-style: italic;
 }
-.footer__left{
+
+.footer__left {
     display: inline-block;
     width: 27%;
     vertical-align: middle;
 }
-.footer__center{
+
+.footer__center {
     display: inline-block;
     width: 42%;
     vertical-align: middle;
 }
-.footer__right{
+
+.footer__right {
     display: inline-block;
     width: 20%;
     vertical-align: middle;
 }
-.left__link{
+
+.left__link {
     text-decoration: none;
-    font-size:22px;
+    font-size: 22px;
     color: #4a504e;
     font-weight: bold;
 }
+
 /*kic-fleetmanager*/
 
 .infoblock__top {
@@ -959,9 +1131,11 @@ th .table--img{
 .nav__li li:first-child {
     list-style: none;
 }
+
 .infoblock ul.blue-bullet li:first-child:before {
-    background:transparent!important;
+    background: transparent !important;
 }
+
 .nav__li--margin {
     margin-left: 20px;
 }
@@ -1008,6 +1182,7 @@ th .table--img{
     width: 230%;
     right: 0;
 }
+
 /*frame8*/
 .content__unyver {
     background: url("../images/MIT_Building_10.png") no-repeat;
@@ -1287,42 +1462,45 @@ th .table--img{
     margin-top: -188px;
     width: 95%;
 }
-.frame7-content--padding{
-    padding-bottom:10%;
+
+.frame7-content--padding {
+    padding-bottom: 10%;
 }
-.frame7-content__dlos--width{
+
+.frame7-content__dlos--width {
     width: 100%;
 }
-.inf--padding--mini{
-    top:58%;
+
+.inf--padding--mini {
+    top: 58%;
 }
 
 /*pod*/
 h1.pod-text {
     font-size: 34px;
     color: #000;
-    padding:0;
+    padding: 0;
     line-height: 1.2;
     font-weight: bold;
-    margin:0;
+    margin: 0;
 }
 
 h2.pod-text {
     font-size: 26px;
     color: #000;
-    padding:0;
+    padding: 0;
     line-height: 1.2;
     font-weight: bold;
-    margin:0;
+    margin: 0;
 }
 
 h3.pod-text {
     font-size: 24px;
     color: #000;
-    padding:0;
+    padding: 0;
     line-height: 1.2;
     font-weight: normal;
-    margin:0;
+    margin: 0;
 }
 
 h4.pod-text {
@@ -1342,50 +1520,60 @@ h6.pod-text {
     margin: 9px 0 5px 0;
 }
 
-.pod-content{
+.pod-content {
     overflow: hidden;
     padding: 0 5px;
 }
-.content__bird{
+
+.content__bird {
     float: right;
     width: 55%;
 }
-.content__bird img{
+
+.content__bird img {
     width: 100%;
     height: auto;
 }
-.content__pod-text p{
+
+.content__pod-text p {
     font-size: 18px;
     padding: 20px 0 10px 20px;
 }
-.content__pod-text{
-    padding-top:20px;
+
+.content__pod-text {
+    padding-top: 20px;
 }
-.pod-text__girl{
+
+.pod-text__girl {
     text-align: center;
     width: 45%;
     position: relative;
 }
-.pod-text__girl img{
+
+.pod-text__girl img {
     width: 100%;
     position: relative;
 }
-.girl__speak{
+
+.girl__speak {
     position: absolute;
-    top:33px;
+    top: 33px;
     left: 79%;
     width: 250px;
 }
-.infoblock .text-grey-pbd{
+
+.infoblock .text-grey-pbd {
     display: inline-block;
     font-size: 22px;
     padding: 0px 2% 0px 5%;
 }
+
 .infoblock {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     position: relative;
 }
+
 .new-red {
     color: #fff;
     background: #ca3731;
@@ -1399,45 +1587,56 @@ h6.pod-text {
     transform: rotate(-45deg);
     z-index: 0;
 }
+
 .pbd--frame {
     width: 49%;
     float: left;
     text-align: center;
 }
+
 .infoblock .img-preview {
     width: 50%;
 }
-.pod__library{
+
+.pod__library {
     text-align: center;
-    padding:1.2em;
+    padding: 1.2em;
 }
-.infoblock .library__img{
+
+.infoblock .library__img {
     width: 51%;
 }
-.library__img{
+
+.library__img {
     width: 51%;
 }
-.custom__aline{
+
+.custom__aline {
     text-align: center;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
-.custom__aline--pt{
-    padding-bottom:10px;
+
+.custom__aline--pt {
+    padding-bottom: 10px;
 }
-.custom__aline .custom__aline--text{
+
+.custom__aline .custom__aline--text {
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
     text-align: center;
 }
-@media all and (max-width: 1366px){
-    .pbd--frame img{
+
+@media all and (max-width: 1366px) {
+    .pbd--frame img {
         width: 50%;
     }
-    h2.pod-text{
+
+    h2.pod-text {
         font-size: 2.2rem;
     }
 }
+
 /*in case you didnt know*/
 .infoblock__double {
     width: 50%;
@@ -1536,6 +1735,7 @@ h6.pod-text {
     margin: 0 auto;
     display: block;
 }
+
 /*kic-click-and-mini-scan-copy-fax*/
 #scan-diagram {
     float: right;
@@ -1567,6 +1767,7 @@ h6.pod-text {
 #copy-card-and-cash-header {
     text-align: center;
 }
+
 /*click mini*/
 .infoblock .logo_kic {
     width: 35%;
@@ -1659,7 +1860,7 @@ h6.pod-text {
     font-size: x-large;
     /*margin-left: -2%;*/
     text-align: center;
-    line-height:1;
+    line-height: 1;
 }
 
 .infoblock .text7 {
@@ -2038,7 +2239,7 @@ h6.pod-text {
 
 .infoblock .smart_restaurant_img {
     margin-top: 5px;
-    padding-right:5px;
+    padding-right: 5px;
 }
 
 .infoblock .smart_scan_img_fax {
@@ -2167,32 +2368,39 @@ h6.pod-text {
     background: url("../images/JPGs for KIC Click & Click Mini Brochure/back-ground_for_click_details.png") no-repeat bottom;
     background-size: contain;
 }
-.brochure-overflow{
+
+.brochure-overflow {
     position: relative;
     padding: 10px 15px;
 }
-.brochure-overflow:after{
+
+.brochure-overflow:after {
     content: '';
     display: table;
     clear: both;
 }
-.brochure-overflow__smart-dock{
+
+.brochure-overflow__smart-dock {
     position: relative;
 }
-.smart-dock__tree-img{
+
+.smart-dock__tree-img {
     position: absolute;
     bottom: 0;
-    left:0;
+    left: 0;
     width: 60%;
 }
-.tree-img__inline{
+
+.tree-img__inline {
     display: inline-block;
     width: 37%;
     font-size: 1.1rem;
 }
-.tree-img__inline--min-width{
-    width:24%;
+
+.tree-img__inline--min-width {
+    width: 24%;
 }
+
 /*copiers*/
 .infoblock__double-wrap {
     overflow: hidden;
@@ -2269,72 +2477,112 @@ h6.pod-text {
     font-size: 26px;
     line-height: 1.2;
 }
-.smart_hard_block__to-left{
+
+.smart_hard_block__to-left {
     display: inline-block;
     width: 40%;
 }
-.smart_hard_block__to-right{
+
+.smart_hard_block__to-right {
     display: inline-block;
     width: 58%;
 }
-.row__column .column__litle{
+
+.row__column .column__litle {
     width: 56%;
 }
-@media all and (max-width: 1870px){
+
+@media all and (max-width: 1870px) {
     .for-study-p {
         margin-top: 0;
     }
 }
+
 @media all and (max-width: 1770px) {
     .infoblock .label_smart {
-        position: initial;
+        position: relative;
     }
+
     .infoblock .label_smart2 {
-        position: initial;
+        position: relative;
     }
 }
+
 @media all and (max-width: 1600px) {
-    html{
+    html {
         font-size: 50%;
     }
+
     .infoblock .click_click_mini {
-        padding-top:0;
+        padding-top: 0;
     }
+
     .smart-dock__tree-img {
         width: 100%;
         position: initial;
     }
+
     .tree-img__inline {
         width: 32%;
     }
+
     .tree-img__inline--min-width {
         width: 28%;
     }
+
     .infoblock .center__text--padding {
         padding-top: 0;
         position: relative;
         width: 100%;
     }
+
     .infoblock__bottom li {
         width: 30%;
     }
+
     .infoblock .label_smart13 {
-        margin-top: -25%;
+        margin-top: -23%;
     }
+
     .row__column {
         min-height: 450px;
     }
+
     .infoblock .label_smart11 {
         margin-left: 34%;
         font-size: 12px;
     }
+
     .infoblock .label_smart13 {
         font-size: 12px;
     }
+
     .infoblock .label_smart12 {
-         font-size: 12px;
-     }
+        font-size: 12px;
+    }
+
+    .infoblock .label3 {
+        padding-top: 3%;
+    }
+
+    .infoblock .kic_div .true2_save_to_usb {
+        margin-top: 28%;
+    }
+
+    .infoblock__double {
+        width: 100%;
+    }
+
+    .infoblock .in-case-enhance {
+        width: 44%;
+    }
+
+    .infoblock .label_smart2 {
+        width: 50%;
+        top: 0;
+    }
 }
-@media all and (max-width: 1200px){
+
+@media all and (max-width: 1200px) {
 
 }
