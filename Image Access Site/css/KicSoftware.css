@@ -91,3 +91,96 @@
     float: left;
     width: 69%;
 }
+
+.infoblock .kic_software_smart_doc_photo2 {
+    width: 35%;
+    margin-left: 20%;
+}
+
+.infoblock .brochure-overflow {
+    overflow: hidden;
+    position: relative;
+}
+
+.infoblock__left-block {
+    float: left;
+    width: 50%;
+}
+
+.infoblock .infoblock__right-img {
+    float: right;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.infoblock .infoblock__right-images {
+    width: 48%;
+}
+
+.infoblock .kic_software_hybrid_libraru_label_singleton {
+    width: 45%;
+}
+.infoblock .kic_software_label_label_big_left{
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: left;
+    padding: 14px 0 10px;
+}
+.infoblock .kic_software_label_italic {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: 'AvenirLTStdBookOblique';
+    text-align: center;
+}
+
+.infoblock .kic_software_label_middle_size {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+.infoblock .kic_software_label_middle_size_left {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+
+.infoblock .infoblock__right-images-clients {
+    width: 44%;
+    float: right;
+}
+
+.infoblock .infoblock__map-planet {
+    width: 35%;
+    float: right;
+    margin-top: -6%;
+}
+
+.infoblock .infoblock_left-text-block {
+    float: left;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.infoblock .kic_product_family_littleblock {
+    width: 58%;
+    float: left;
+}
+
+.infoblock .infoblock__rel {
+    position: relative;
+}
+
+.infoblock .font-color {
+    color: #9d9d9d;
+}
+
+.table-bg {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.infoblock p {
+    font-size: 14px;
+}
+
