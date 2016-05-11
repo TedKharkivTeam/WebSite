@@ -1,11 +1,69 @@
+.infoblock__page-1 {
+    overflow: hidden;
+}
+
+.infoblock__page-2 {
+    overflow: hidden;
+}
+
+.infoblock__page-3 {
+    overflow: hidden;
+}
+
+.infoblock__page-4 {
+    overflow: hidden;
+}
+
+.infoblock__page-5 {
+    overflow: hidden;
+}
+
+.infoblock__page-6 {
+    overflow: hidden;
+}
+
+.infoblock__page-7 {
+    overflow: hidden;
+}
+
+.infoblock__page-8 {
+    overflow: hidden;
+}
+
+.infoblock__page-9 {
+    overflow: hidden;
+}
+
+.infoblock__page-10 {
+    overflow: hidden;
+}
+
+.infoblock__page-11 {
+    overflow: hidden;
+}
+
+.infoblock__page-12 {
+    overflow: hidden;
+}
+
+.infoblock__page-13 {
+    overflow: hidden;
+}
+
+.infoblock__page-14 {
+    overflow: hidden;
+}
+
+
+
 .content .infoblock {
-    margin: 0.2rem 0 0;
-    padding: 2rem;
+    margin: 2px 0 0;
+    padding: 20px;
     width: 75%;
     text-align: left;
     float: left;
     word-wrap: break-word;
-    border-left: 0.2rem solid #E3E6DB;
+    border-left: 2px solid #E3E6DB;
 }
 
 /* 1 page */
@@ -13,7 +71,11 @@
 .infoblock__page-1 .infoblock__page-1__logo {
     width: 40%;
 }
-
+.infoblock__page-1 .infoblock__page-1__header_2{
+    float: right;
+    margin-right: 20%;
+    font-size: 5.5rem;
+}
 .infoblock__page-1__head {
     font-size: 2.375rem;
     color: #282a28;
@@ -27,7 +89,7 @@
 .infoblock__page-1__column {
     float: left;
     width: 50%;
-    padding: 0.625rem;
+    padding: 6.25px;
 }
 
 .infoblock__page-1__column__a {
@@ -124,7 +186,7 @@ div.infoblock h2 {
     color: #000000;
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 5px;
     padding: 0;
 }
 
@@ -134,8 +196,8 @@ div.infoblock h2 {
     /* padding-top: 0; */
 
     /* border: 0; */
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 9.3px;
+    padding-right: 9.3px;
 }
 
 #hand-yellow-coin {
@@ -226,7 +288,7 @@ div .infoblock__page-3__block {
 
 .infoblock__page-3__block-3 {
     position: absolute;
-    bottom: 15%;
+    bottom: 14%;
 
 }
 
@@ -254,12 +316,9 @@ div .infoblock__page-3__block_text23 {
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
-    padding: 1.4rem 0 1rem;
+    padding: 14px 0 10px;
 }
 
-.infoblock__page-3 {
-    padding-bottom: 40%
-}
 
 /* 4 page*/
 
@@ -369,13 +428,13 @@ div .infoblock__page-3__block_text23 {
 .infoblock .infoblock__page-4__block1 {
     width: 50%;
     float: left;
-    padding: 1rem;
+    padding: 10px;
 }
 
 .infoblock .infoblock__page-4__scanner_600 {
     width: 70%;
     display: block;
-    margin: 0rem auto;
+    margin: 0 auto;
 }
 
 .infoblock .infoblock__page-4__text10 {
@@ -388,7 +447,7 @@ div .infoblock__page-3__block_text23 {
 .infoblock .infoblock__page-4__two_newspapers {
     width: 70%;
     display: block;
-    margin: 0rem auto;
+    margin: 0 auto;
 }
 
 div .infoblock__page-4__homo-scanner {
@@ -434,9 +493,6 @@ div .infoblock__page-4__homo {
 
 /* 5 page*/
 
-.infoblock__page-5 {
-    margin-top: 10%;
-}
 
 .infoblock__page-5__seven-step {
     text-align: center;
@@ -459,7 +515,7 @@ div .infoblock__page-4__homo {
 }
 
 .infoblock__page-5__two-step--inline {
-    padding: 0 0.4rem;
+    padding: 0 4px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
@@ -512,15 +568,15 @@ div .infoblock__page-5__block-p {
 }
 
 .infoblock .infoblock__page-5__seven-step--border {
-    padding: 2.0rem;
-    border: 0.2rem solid #000;
-    border-radius: 1rem;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
 }
 
 .infoblock .infoblock__page-5__two-step {
     text-align: center;
     position: relative;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 
 .infoblock__page-5__two-step:before {
@@ -531,7 +587,7 @@ div .infoblock__page-5__block-p {
     top: 0;
     right: 0;
     background-size: contain;
-    height: 7rem;
+    height: 70px;
 }
 
 .infoblock .infoblock__page-5__block-header-31 {
@@ -649,28 +705,38 @@ div .infoblock__page-5__text-right2 {
     position: relative;
 }
 
-.infoblock .infoblock__page-6__ul {
-    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
-}
 
 .infoblock .infoblock__page-6__text-block {
     width: 50%;
     float: right;
-    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+
+.infoblock__page-6__ul{
+    width:50%;
 }
 
 .infoblock .infoblock__page-6__block-header1 {
     color: #000;
     font-size: 3.6rem;
     line-height: 3.8rem;
+    /* padding: 10px 0; */
+    /* text-align: center; */
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin-left: 5%;
 
-    padding: 1rem 0;
-    text-align: right;
+}
+.infoblock__page-6 .infoblock__page-6__text-block1{
+    padding: 10px 0;
+    text-align: center;
     text-shadow: none;
     float: right;
-    width: 56%;
-    margin-right: 5%;
-
+    width: 50%;
+    font-size: 2rem;
+    /* margin-right: 5%; */
 }
 
 .infoblock .infoblock__page-6__arrow-devices {
@@ -718,6 +784,7 @@ div .infoblock__page-5__text-right2 {
 div .infoblock__page-7_photo2 {
     width: 40%;
     margin-left: 20%;
+    margin-bottom: 2%;
 }
 
 div .infoblock__page-7__text-right2 {
@@ -738,8 +805,8 @@ div .infoblock__page-7__text-right {
 }
 
 .infoblock .infoblock__page-7__seven-step--border {
-    padding: 2rem;
-    border: 0.2rem solid #000;
+    padding: 20px;
+    border: 2px solid #000;
     border-radius: 1rem;
 }
 
@@ -825,7 +892,7 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-8__reservation {
     text-align: center;
-    margin-bottom: -0.6rem;
+    margin-bottom: -6px;
 }
 
 .infoblock__page-8__reservation__h1 {
@@ -840,7 +907,7 @@ div .infoblock__page-7__block-left {
     font-size: 2.6rem;
     margin: 0;
     padding: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 10px;
 }
 
 .infoblock__page-8__reservation__h3 {
@@ -856,7 +923,7 @@ div .infoblock__page-7__block-left {
 .infoblock__page-8__reservation__text {
     text-align: left;
     width: 49%;
-    padding: 1rem;
+    padding: 10px;
     display: inline-block;
     vertical-align: top;
     font-size: 1.6rem;
@@ -871,7 +938,7 @@ div .infoblock__page-7__block-left {
     width: 31%;
     display: inline-block;
     font-size: 1.6rem;
-    padding: 0 0.5rem;
+    padding: 0 5px;
 }
 
 .infoblock__page-8__img__touch--after {
@@ -882,21 +949,21 @@ div .infoblock__page-7__block-left {
     position: absolute;
     content: '';
     background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    bottom: -12rem;
-    left: 3.5rem;
+    bottom: -120px;
+    left: 35px;
     background-size: contain;
     width: 100%;
-    height: 13rem;
+    height: 130px;
 }
 
 .infoblock__page-8__reservation__two-tel {
-    padding-top: 10.7rem;
+    padding-top: 107px;
     position: relative;
 }
 
 .infoblock .infoblock__page-8__two-tel__text-top {
     position: absolute;
-    top: 6rem;
+    top: 60px;
     right: 0;
     width: 45%;
     text-align: center;
@@ -938,7 +1005,7 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock .infoblock__page-9__top__logo {
-    max-width: 34rem;
+    max-width: 340px;
     float: left;
 }
 
@@ -968,28 +1035,28 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-9__center {
     overflow: hidden;
-    margin-top: -8rem;
+    margin-top: -80px;
 }
 
 .infoblock .infoblock__page-9__center__img {
     float: right;
     width: 65%;
-    padding-left: 2rem;
+    padding-left: 20px;
 }
 
 .infoblock__page-9__center__text--padding {
-    padding-top: 9rem;
+    padding-top: 90px;
     position: relative;
 }
 
 .infoblock__page-9__center__text--margin {
     padding-top: 9%;
     position: absolute;
-    width: 47%;
+    width: 37%;
 }
 
 .infoblock__page-9__nav {
-    padding-top: 2rem;
+    padding-top: 20px;
     overflow: hidden;
 }
 
@@ -1012,7 +1079,7 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock__page-9__nav__li--margin {
-    margin-left: 2rem;
+    margin-left: 20px;
 }
 
 .infoblock .infoblock__page-9__bottom {
@@ -1034,33 +1101,80 @@ div .infoblock__page-7__block-left {
 
 .infoblock .infoblock__page-9__bottom__img {
     width: 24%;
-    margin-left: 2.5rem;
+    margin-left: 25px;
 }
 
 .infoblock .infoblock__page-9__bottom__a {
     width: 20%;
     position: relative;
-    top: -1.5rem;
+    top: -15px;
 }
 
 .infoblock__page-9__bottom__a a {
     font-size: 2.6rem;
     color: #454733;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .infoblock__page-9__a--rel {
     position: absolute;
-    bottom: 7.6rem;
+    bottom: 76px;
     font-size: 3.0rem;
     color: #8c897d;
     width: 230%;
     right: 0;
 }
-
+/* 10 page*/
 .infoblock__page-10 {
     position: relative;
 }
+.infoblock .library__img{
+    width: 51%;
+}
+.custom__aline{
+    text-align: center;
+    padding-bottom:20px;
+}
+.custom__aline--pt{
+    padding-bottom:10px;
+}
+.custom__aline--text{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.infoblock .img-preview {
+    width: 50%;
+}
+.frame--text {
+    text-align: justify;
+    padding: 10px 20px;
+}
+.pod__library{
+    text-align: center;
+    padding:12px;
+}
+h2.pod-text {
+    font-size: 2.6rem;
+    color: #000;
+    padding:0;
+    line-height: 1.2;
+    font-weight: bold;
+    margin:0;
+}
+
+.content__pod {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.pbd--frame {
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+
+
 
 /* 11 page*/
 
@@ -1072,9 +1186,9 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-11__double__content {
     overflow: hidden;
-    padding: 1.0rem 1.0rem 1.0rem 0;
+    padding: 10px 10px 10px 0;
     background: #D0E6FC;
-    margin: 0.5rem;
+    margin: 5px;
     border-radius: 1.0rem;
 }
 
@@ -1112,29 +1226,29 @@ div .infoblock__page-7__block-left {
     float: left;
     width: 60%;
     height: 60%;
-    margin: 0 0 1.5rem 2%;
+    margin: 0 0 15px 2%;
     display: block;
 }
 
 .infoblock__page-11__double__content__double p {
-    padding: 2.4rem 0;
+    padding: 24px 0;
 }
 
 .infoblock__page-11__in-case-p--italic {
-    padding: 1.0rem;
+    padding: 10px;
     font-style: italic;
     display: inline-block;
 }
 
 .infoblock__page-11__for-study-p {
-    width: 22.5rem;
+    width: 225px;
     float: right;
-    margin-top: -14.5rem;
+    margin-top: -145px;
     margin-right: 7%;
 }
 
 .infoblock .infoblock__page-11__left-text {
-    padding: 0 1.0rem;
+    padding: 0 10px;
 }
 
 .infoblock .infoblock__page-11__left-text p {
@@ -1149,14 +1263,14 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 18.0rem;
+    height: 180px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    height: 15.5rem;
+    height: 155px;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -1164,26 +1278,21 @@ div .infoblock__page-7__block-left {
 
 /* 12 page*/
 
-.infoblock__page-12 {
-    margin-top: 130%;
-}
 
 .infoblock__page-12__double-wrap {
     overflow: hidden;
 }
 
-.infoblock h3 {
 
-}
 
 .infoblock__page-12__double__content {
-    padding: 0.5rem 1.0rem;
+    padding: 5px 10px;
     overflow: hidden;
 }
 
 .infoblock__page-12__double__content-1 {
-    padding: 0.5rem 1.0rem;
-    overflow: hidden;
+    padding: 5px 10px;
+    overflow: inherit;
 }
 
 .infoblock__page-12__double-wrap__column {
@@ -1285,13 +1394,13 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock .infoblock__page-13__right-images {
-    width: 50%;
+    width: 35%;
 }
 
 .infoblock .infoblock__page-13__right-images-clients {
-    width: 50%;
-    padding-top: 2%;
-    float: right;
+    width: 35%;
+    padding-top:0;
+    /* float: right; */
     padding-left: 5%;
     padding-bottom: 2%;
 }
@@ -1320,8 +1429,8 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock .infoblock__page-13 table th {
-    padding: 0rem 0rem 0rem 0rem;
-    border: 0rem;
+    padding: 0 0 0 0;
+    border: 0;
 }
 
 .infoblock .infoblock__page-13__text-block-h3-1 {
@@ -1348,19 +1457,15 @@ div .infoblock__page-7__block-left {
     font-size: 1.4rem;
 }
 
-.infoblock__page-13 {
-    margin-bottom: 40%;
-}
-
 /* 14 page*/
 
 .cicle {
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
-    border: 0.1rem solid #4a504e;
-    width: 2.0rem;
-    height: 2.0rem;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
     margin: 0 auto;
 }
 
@@ -1369,9 +1474,9 @@ div .infoblock__page-7__block-left {
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
-    border: 0.1rem solid #4a504e;
-    width: 2.0rem;
-    height: 2.0rem;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
     margin: 0 auto;
 }
 
@@ -1384,14 +1489,14 @@ div .infoblock__page-7__block-left {
     position: absolute;
     content: '';
     background: #fff;
-    border-radius: 1.1rem 1.1rem 0 0;
-    -moz-border-radius: 1.1rem 1.1rem 0 0;
-    -webkit-border-radius: 1.1rem 1.1rem 0 0;
-    border: 0.1rem solid #4a504e;
-    width: 1.8rem;
-    height: 0.8rem;
-    top: -0.1rem;
-    left: -0.1rem;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 8px;
+    top: -1px;
+    left: -1px;
 }
 
 .green-cicle--after-big {
@@ -1402,14 +1507,14 @@ div .infoblock__page-7__block-left {
     position: absolute;
     content: '';
     background: #fff;
-    border-radius: 1.1rem 1.1rem 0 0;
-    -moz-border-radius: 1.1rem 1.1rem 0 0;
-    -webkit-border-radius: 1.1rem 1.1rem 0.5rem 0.5rem;
-    border: 0.1rem solid #4a504e;
-    width: 1.8rem;
-    height: 1.3rem;
-    top: -0.1rem;
-    left: -0.1rem;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 5px 0.5px;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 13px;
+    top: -1px;
+    left: -1px;
 }
 
 .green-cicle--after-small {
@@ -1420,14 +1525,14 @@ div .infoblock__page-7__block-left {
     position: absolute;
     content: '';
     background: #fff;
-    border-radius: 1.1rem 1.1rem 0 0;
-    -moz-border-radius: 1.1rem 1.1rem 0 0;
-    -webkit-border-radius: 1.1rem 1.1rem 0 0;
-    border: 0.1rem solid #4a504e;
-    width: 1.4rem;
-    height: 0.4rem;
-    top: -0.1rem;
-    left: 0.1rem;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 14px;
+    height: 4px;
+    top: -1px;
+    left: 1px;
 }
 
 .infoblock__page-14__center--text {
@@ -1451,30 +1556,30 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-14__kic-product .infoblock__page-14__row__title {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .infoblock__page-14__row__column {
-    padding: 1.0rem 0.5rem 0.5rem;
+    padding: 10px 5px 5px;
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 1.6rem;
-    border-top: 0.2rem solid rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0.3rem 0.6rem #000;
-    min-height: 51rem;
+    border-radius: 16px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px #000;
+    min-height: 510px;
 }
 
 .infoblock__page-14__row__column .infoblock__page-14__column__mini-title {
     font-size: 1.1rem;
-    margin-top: 0.5rem;
+    margin-top: 5px;
     font-weight: bold;
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.5);
+    border-top: 01px solid rgba(0, 0, 0, 0.5);
     line-height: 1.2rem;
     padding: 0;
 }
 
 .tabl-star {
-    margin-left: 2.0rem;
+    margin-left: 20px;
     font-size: 1.3rem;
     vertical-align: text-top;
     color: #e8383b;
@@ -1498,8 +1603,8 @@ div .infoblock__page-7__block-left {
 }
 
 table tr .infoblock__page-14__border-style {
-    border-top: 0rem;
-    border-left: 0rem;
+    border-top: 0;
+    border-left: 0;
     width: 50%;
 }
 
@@ -1529,7 +1634,7 @@ table tr .infoblock__page-14__border-style {
 }
 
 .width-td {
-    width: 4%;
+    width: 4.5%;
     FLOAT: right;
     background: #cbccc7;
 }
@@ -1552,12 +1657,72 @@ table tr .infoblock__page-14__border-style {
 }
 
 tr th {
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 0 0 0 0;
 }
 
 .infoblock__page-14__text-block {
     width: 100%;
     margin-left: 5%;
+}
+@media all and (max-width: 1740px) and (min-width: 1511px){
+    .infoblock__page-9__center__text--margin {
+        padding-top: 3%;
+    }
+}
+
+@media all and (max-width: 1510px){
+    .infoblock__page-9__center__text--padding {
+        padding-top: 5%;
+
+    }
+    .infoblock__page-9__center__text--margin {
+        padding-top: 0;
+    }
+}
+@media all and (max-width:1710px) and (min-width:1530px){
+    .infoblock .infoblock__page-6__text-block {
+
+        margin-bottom: 10%;
+    }
+}
+@media all and (max-width: 1529px) and (min-width: 1401px){
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 20%;
+    }
+}
+@media all and (max-width:1550px) and (min-width: 1320px){
+    .infoblock .infoblock__page-7__text-block-devices {
+
+        width: 35%;
+
+    }
+}
+
+
+@media all and (max-width: 1585px)  and (min-width: 1420px){
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+
+        margin-right: 15%;
+
+    }
+}
+@media all and (max-width: 1489px) and (min-width: 1401px){
+    .infoblock__page-5 .infoblock__page-5__margin-text {
+        margin-right: 54%;
+    }
+}
+
+@media all and (max-width:1450px){
+    .infoblock .infoblock__page-1__h3__p p {
+        font-size: 1.5rem;
+    }
+}
+@media all and (max-width:1420px) and (min-width:1285px){
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+
+        margin-right: 10%;
+
+    }
 }
 
 @media all and (min-width: 1200px) and (max-width: 1400px) {
@@ -1567,6 +1732,7 @@ tr th {
         margin-top: 0;
 
     }
+
     div .infoblock__page-3__block_text23 {
         margin-top: 9%;
     }
@@ -1577,7 +1743,7 @@ tr th {
     }
 
     .infoblock ul li {
-        line-height: 21px;
+        line-height: 2.1rem;
     }
 
     /* 1 page */
@@ -1622,9 +1788,7 @@ tr th {
         padding-bottom: 0%;
     }
 
-    .infoblock__page-3 {
-        padding-bottom: 70%
-    }
+
 
     /* 4 page*/
     /* 5 page*/
@@ -1635,10 +1799,12 @@ tr th {
     /* 6 page*/
     .infoblock .infoblock__page-6__block-header1 {
 
-        margin-top: 15%;
         width: 49%;
     }
-
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 8%;
+        margin-top: 5%;
+    }
     /* 7 page*/
     .infoblock .infoblock__page-7__text-block-devices {
         width: 39%;
@@ -1664,20 +1830,20 @@ tr th {
     .infoblock .infoblock__page-9__nav__img {
         float: left;
         width: 60%;
-        margin-right: 1rem;
+        margin-right: 10px;
     }
 
     .infoblock .infoblock__page-9__center__img {
         float: right;
-        width: 65%;
-        padding-left: 2rem;
+        width: 55%;
+        padding-left: 20px;
         padding-top: 9%;
     }
 
     .infoblock__page-9__center__text--margin {
-        padding-top: 0;
-        position: absolute;
-        width: 47%;
+        padding-top: 5%;
+        width: 42%;
+
     }
 
     .infoblock__page-9__top__h1 {
@@ -1691,16 +1857,13 @@ tr th {
     }
 
     /* 12 page*/
-    .infoblock__page-12 {
-        margin-top: 180%;
-    }
 
     .infoblock__page-12__double__content {
-        padding: 0.5rem 1.0rem;
+        padding: 5px 10px;
     }
 
     .infoblock__page-12__double__content-1 {
-        padding: 0.5rem 1.0rem;
+        padding: 5px 10px;
         overflow: inherit;
     }
 
@@ -1710,39 +1873,84 @@ tr th {
         bottom: -210%;
     }
 
-    .infoblock__page-13 {
-        margin-bottom: 90%;
-    }
 
     /* 14 page*/
     .text-vertical-bold {
         font-size: 3.3rem;
-        line-height: 3rem;
+        line-height: 3.5rem;
         margin-top: 7%;
     }
 
     .infoblock__page-14__row__column {
 
-        min-height: 36rem;
+        min-height: 360px;
     }
 
 }
+@media all and (max-width: 1320px){
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 35%;
+
+        font-size: 1.2rem;
+    }
+}
+@media all and (max-width: 1366px){
+    .pbd--frame img{
+        width: 50%;
+    }
+    h2.pod-text{
+        font-size: 2.2rem;
+    }
+}
+@media all and (max-width:1350px) {
+    div .infoblock__page-4__homo-text {
+        margin-top: 2%;
+        width: 28%;
+        margin-left: 10%;
+    }
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 46%;
+    }
+
+}
+@media all and (max-width:1536px) and (min-width: 1401px){
+    .infoblock__page-9__top__h1 {
+
+        font-size: 5.4rem;
+
+    }
+}
+@media all and (min-width: 1200px) and (max-width: 1337px){
+    .infoblock div .infoblock__page-1__h2__p h2 {
+        font-size: 2.1rem;
+
+    }
+    .infoblock div .infoblock__page-1__h2__p p {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media all and (max-width: 1337px) and (min-width: 1300px){
+    .infoblock__page-9__center__text--margin {
+        padding-top: 2%;
+    }
+}
 
 @media all and (min-width: 1200px) and (max-width: 1300px) {
-
-    .infoblock .infoblock__page-6__block-header1 {
-        margin-top: 35%;
-
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 10%;
+        margin-top: 15%;
     }
 
     .infoblock__page-9__center__text--margin {
 
-        width: 54%;
+        width: 44%;
     }
 
     .infoblock .infoblock__page-9__center__img {
 
-        width: 60%;
+        width: 50%;
 
     }
 
@@ -1758,38 +1966,60 @@ tr th {
 
     }
 
-    .infoblock__page-12 {
-        margin-top: 200%;
-    }
 
-    .infoblock__page-13 {
-        margin-bottom: 110%;
-    }
+
+
     div .infoblock__page-3__block_text23 {
         margin-top: 0;
     }
 }
-
-@media all and (min-width: 992px) and (max-width: 1199px) {
-
+@media all and (max-width: 1270px) and (min-width: 1200px) {
+    .infoblock__page-9__center__text--margin {
+        padding-top: 1%;
+        width: 42%;
+    }
+}
+@media all and (max-width:1285px) {
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+        margin-right: 5%;
+    }
+}
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .width-td {
+        width: 4.5%;
+    }
     /* 1 page*/
     .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
         font-size: 1.7rem;
         padding: 0%;
     }
-    .infoblock .infoblock__page-6__block-header1 {
+    .infoblock ul li {
+        line-height: 1.7rem;
+    }
+    .infoblock .infoblock__page-6__text-block2 {
+        font-size: 1.2rem;
+    }
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 4%;
+        margin-top: 10%;
+    }
+    .infoblock__page-6 .infoblock__page-6__text-block1 {
 
-        margin-top: 35%;
-        width: 49%;
+
+        font-size: 1.5rem;
+        /* margin-right: 5%; */
+        padding-bottom: 0;
     }
     .infoblock ul li {
-        line-height: 19px;
+        line-height: 1.9rem;
     }
+
     div .infoblock__page-3__diagram {
 
         margin-top: 15%;
 
     }
+
     .infoblock div .infoblock__page-1__h2__p p {
         font-size: 1.1rem;
     }
@@ -1815,9 +2045,7 @@ tr th {
         margin-left: 2%;
     }
 
-    .infoblock__page-3__block-3 {
-        bottom: 37%;
-    }
+
 
     .infoblock__page-3 .small-brochure-title-center {
         font-size: 3.3rem;
@@ -1826,8 +2054,21 @@ tr th {
         padding-bottom: 0%;
     }
 
-    .infoblock__page-3 {
-        padding-bottom: 100%
+
+}
+
+@media all and (max-width: 1178px){
+    .text-vertical-bold {
+        font-size: 3.3rem;
+        line-height: 3.5rem;
+        margin-top: 6%;
+    }
+}
+@media all and (max-width: 1125px) and (min-width: 1024px){
+    div .infoblock__page-4__homo-text {
+        margin-top: 2%;
+        width: 28%;
+        margin-left: 10%;
     }
 }
 
@@ -1839,12 +2080,12 @@ tr th {
     div .infoblock__page-3__diagram {
         margin-top: 20%;
 
-
     }
 
     .infoblock .infoblock__page-5__margin-text {
         margin-right: 46%;
     }
+
     .infoblock__page-9__center__text--margin {
         padding-top: 4%;
 
@@ -1852,7 +2093,7 @@ tr th {
 
     .infoblock .infoblock__page-9__center__img {
         width: 65%;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .infoblock__page-9__bottom li {
@@ -1865,44 +2106,47 @@ tr th {
         margin-top: 0;
     }
 
-    .infoblock__page-3 {
-        padding-bottom: 64%;
-    }
-    .infoblock__page-11 {
-        padding-bottom: 56%;
-    }
+
+
     .infoblock__page-12__double__content-1 {
         overflow: initial;
     }
+
     .infoblock .infoblock__page-13__map-planet {
         bottom: -209%;
     }
-    .infoblock__page-13 {
-        margin-bottom: 110%;
-    }
+
     .infoblock__page-14__row__column {
-        min-height: 38rem;
+        min-height: 380px;
     }
-    .width-td {
-        width: 5%;
-    }
+
+
+
     .text-vertical-bold {
         margin-top: 8%;
+        font-size: 3.3rem;
+        line-height: 3.5rem
     }
+
     .infoblock .infoblock__page-7__margin-top {
         margin-top: 8%;
     }
-    .infoblock .infoblock__page-6__block-header1 {
-        margin-top: 38%;
+
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 14%;
     }
-    .infoblock__page-12 {
-        margin-top: 140%;
-    }
+
+
     .infoblock .infoblock__page-5__margin-text {
         margin-right: 46%;
     }
 }
 
+@media all and (max-width: 1050px){
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 20%;
+    }
+}
 @media all and (min-width: 768px) and (max-width: 991px) {
     /* 1 page*/
     .infoblock div .infoblock__page-1__h2__p h2 {
@@ -2004,6 +2248,12 @@ tr th {
         text-align: center;
         /* padding: 14rem 0 10rem; */
         padding-bottom: 0%;
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1100px){
+    .infoblock__page-14__row__column {
+        min-height: 400px;
     }
 }
 
