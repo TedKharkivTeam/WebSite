@@ -14,10 +14,7 @@ $(document).ready(function () {
             var id = $(this).attr('href');
             var top = 0;
 
-            if (index == 0) {
-                //узнаем высоту от начала страницы до блока на который ссылается якорь
-                top = $(id).offset().top - 90;
-            } else {
+            if (index != 0) {
                 //узнаем высоту от начала страницы до блока на который ссылается якорь
                 top = $(id).offset().top;
             }
