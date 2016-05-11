@@ -421,60 +421,70 @@
 
 .infoblock .blocks__block-item
 {
+    display: inline-block;
     height: 185px;
     width: 50%;
-    margin: 30px 0;
+    margin: 30px 2%;
+    vertical-align: top;
 }
 
 .infoblock .blocks__block-item--1 {
     background: url("../images/KIC_KAT/kat_7_img_1.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 5%;
+    height: 159px;
+    width: 450px;
 }
 
 .infoblock .blocks__block-item--2 {
     background: url("../images/KIC_KAT/kat_7_img_2.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 10%;
-    height: 190px;
+    height: 166px;
+    width: 450px;
+    margin-left: 7%;
 }
 
 .infoblock .blocks__block-item--3 {
     background: url("../images/KIC_KAT/kat_7_img_3.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 15%;
-    height: 234px;
+    height: 195px;
+    width: 485px;
 }
 
 .infoblock .blocks__block-item--4 {
     background: url("../images/KIC_KAT/kat_7_img_4.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 20%;
+    height: 246px;
+    width: 508px;
+    margin-top: -16px;
 }
 
 .infoblock .blocks__block-item--5 {
     background: url("../images/KIC_KAT/kat_7_img_5.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 25%;
+    height: 181px;
+    width: 500px;
 }
 
 .infoblock .blocks__block-item--6 {
     background: url("../images/KIC_KAT/kat_7_img_6.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 30%;
+    height: 194px;
+    width: 490px;
 }
 
 .infoblock .blocks__block-item--7 {
     background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 35%;
+    margin-left: 30%;
+    height: 172px;
+    width: 500px;
 }
 
 .infoblock .block__title {
@@ -483,31 +493,36 @@
 }
 
 .infoblock .block__title--1 {
-    padding-top: 16px;
+    margin-left: 100px;
+    padding-top: 17px;
 }
 
 .infoblock .block__title--2 {
-    margin-top: 8px;
+    margin-top: 2px;
+    margin-left: 100px;
 }
 
 .infoblock .block__title--3 {
-
+    margin-top: 0;
+    margin-left: 104px;
 }
 
 .infoblock .block__title--4 {
-
+    padding-top: 44px;
+    margin-top: 52px;
 }
 
 .infoblock .block__title--5 {
-
+    padding-top: 32px;
+    margin-left: 110px;
 }
 
 .infoblock .block__title--6 {
-
+    padding-top: 32px;
 }
 
 .infoblock .block__title--7 {
-
+    padding-top: 12px;
 }
 
 .infoblock .block__info {
@@ -516,31 +531,35 @@
 }
 
 .infoblock .block__info--1 {
-    width: 54%;
+    width: 50%;
+    margin-left: 100px;
 }
 
 .infoblock .block__info--2 {
     margin-top: -6px;
+    margin-left: 100px;
 }
 
 .infoblock .block__info--3 {
-    width: 39%;
+    width: 40%;
+    margin-left: 104px;
 }
 
 .infoblock .block__info--4 {
-    width: 35%;
+    width: 42%;
 }
 
 .infoblock .block__info--5 {
     width: 32%;
+    margin-left: 110px;
 }
 
 .infoblock .block__info--6 {
-    width: 40%;
+    width: 46%;
 }
 
 .infoblock .block__info--7 {
-    width: 47%;
+    width: 43%;
 }
 
 .temp-bg {
