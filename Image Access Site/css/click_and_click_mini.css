@@ -508,6 +508,7 @@ h4 {
 .table{
     width: 100%;
     padding: 20px 0;
+    margin-top: 20px;
 }
 .table th{
     width: calc(100%/6);
@@ -1890,6 +1891,7 @@ h6.pod-text {
 .infoblock .kic_div .true2_two_screens {
     width: 33%;
     float: right;
+    text-align: center;
 }
 
 .infoblock .true2_label2 {
@@ -2021,23 +2023,22 @@ h6.pod-text {
 }
 
 .infoblock .label_smart9 {
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 3.6rem;
+    line-height: 1.2;
     margin-left: 3%;
     margin-top: 2%;
 }
 
 .infoblock .label_smart10 {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 2.1rem;
+    line-height: 1.2;
     margin-left: 3%;
     font-style: italic;
 }
 
 .infoblock .smart_restaurant_img {
-    margin-left: 35%;
-    width: 64%;
-    margin-top: -9%;
+    margin-top: 5px;
+    padding-right:5px;
 }
 
 .infoblock .smart_scan_img_fax {
@@ -2048,14 +2049,12 @@ h6.pod-text {
 
 .infoblock .smart_scan_img_fax2 {
     width: 45%;
-    margin-left: 53%;
-    margin-top: -30%;
+    float: right;
 }
 
 .infoblock .label_smart11 {
     width: 21%;
-    margin-left: 43%;
-    margin-top: -35%;
+    margin-left: 35%;
     font-style: italic;
     text-align: right;
 }
@@ -2166,7 +2165,7 @@ h6.pod-text {
 
 .infoblock .back_ground_super_click {
     background: url("../images/JPGs for KIC Click & Click Mini Brochure/back-ground_for_click_details.png") no-repeat bottom;
-
+    background-size: contain;
 }
 .brochure-overflow{
     position: relative;
@@ -2270,12 +2269,72 @@ h6.pod-text {
     font-size: 26px;
     line-height: 1.2;
 }
-
+.smart_hard_block__to-left{
+    display: inline-block;
+    width: 40%;
+}
+.smart_hard_block__to-right{
+    display: inline-block;
+    width: 58%;
+}
+.row__column .column__litle{
+    width: 56%;
+}
+@media all and (max-width: 1870px){
+    .for-study-p {
+        margin-top: 0;
+    }
+}
 @media all and (max-width: 1770px) {
     .infoblock .label_smart {
         position: initial;
     }
-    .label_smart2 {
+    .infoblock .label_smart2 {
         position: initial;
     }
+}
+@media all and (max-width: 1600px) {
+    html{
+        font-size: 50%;
+    }
+    .infoblock .click_click_mini {
+        padding-top:0;
+    }
+    .smart-dock__tree-img {
+        width: 100%;
+        position: initial;
+    }
+    .tree-img__inline {
+        width: 32%;
+    }
+    .tree-img__inline--min-width {
+        width: 28%;
+    }
+    .infoblock .center__text--padding {
+        padding-top: 0;
+        position: relative;
+        width: 100%;
+    }
+    .infoblock__bottom li {
+        width: 30%;
+    }
+    .infoblock .label_smart13 {
+        margin-top: -25%;
+    }
+    .row__column {
+        min-height: 450px;
+    }
+    .infoblock .label_smart11 {
+        margin-left: 34%;
+        font-size: 12px;
+    }
+    .infoblock .label_smart13 {
+        font-size: 12px;
+    }
+    .infoblock .label_smart12 {
+         font-size: 12px;
+     }
+}
+@media all and (max-width: 1200px){
+
 }
