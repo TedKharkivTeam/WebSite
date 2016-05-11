@@ -630,7 +630,7 @@ div .infoblock__block_text23{
 
 .infoblock #background-image {
     position: relative;
-    height: 600px;
+    height: 650px;
     background: url("../images/KIC_BookEdge/sec_4_img_1.png") no-repeat;
     background-size: 100% 100%;
 }
@@ -2250,7 +2250,7 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock__page-9__center__text--margin {
-    padding-top: 9%;
+    padding-top: 7%;
     position: absolute;
     width: 47%;
 }
