@@ -1409,7 +1409,7 @@ h2.pod-text {
     width: 45%;
     position: absolute;
     right: 0;
-    bottom: -330%;
+    bottom: -400%;
 }
 
 .infoblock .infoblock__page-13_left-text-block {
@@ -1566,7 +1566,7 @@ h2.pod-text {
     border-radius: 16px;
     border-top: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 6px #000;
-    min-height: 510px;
+    min-height: 640px;
 }
 
 .infoblock__page-14__row__column .infoblock__page-14__column__mini-title {
