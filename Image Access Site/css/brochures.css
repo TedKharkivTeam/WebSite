@@ -17,6 +17,7 @@ div.infoblock h2 {
     font-weight: bold;
     margin-bottom: 5px;
     padding: 0;
+    text-align: center;
 }
 
 div.article-container {
