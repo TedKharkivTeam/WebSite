@@ -1,3 +1,60 @@
+/* Common styles */
+
+.two_columns {
+    width: 45%;
+    margin: 1% 1% 0 1%;
+    float: left;
+}
+
+.page_container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+.tech_details_img {
+    width: 50% !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+.tech_details_table {
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+#bookedge_big_scanner {
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+#bookedge_small_scanner {
+    width: 60%;
+}
+
+#scanner_image_sign {
+    margin-left: 40%;
+    margint-top: -60%;
+}
+
+.wide_tech_details_table {
+    margin-left: 1%;
+    width: 98%;
+    text-align: center;
+}
+
+.padding_table {
+    margin-top: 3%;
+}
+
+/*End common styles*/
+
+/* Bookedge main page styles*/
+
 #kic_logo {
     width: 24%;
     float: left;
@@ -14,9 +71,11 @@
 }
 
 #custom_undertitle_bookedge {
+    font-size: 2rem;
     text-align: right;
     float: right;
-    margin: 2% 20% 0 0;
+    color: black !important;
+    margin-right: 25%;
 }
 
 #columns_header {
@@ -26,21 +85,6 @@
     font-size: 2rem;
     font-weight: bold;
     margin: 1%;
-}
-
-.two_columns {
-    width: 45%;
-    margin: 1% 1% 0 1%;
-    float: left;
-}
-
-#dlsg_logo {
-    width: 320px;
-}
-
-.page_container {
-    width: 100%;
-    overflow: hidden;
 }
 
 .column_container {
@@ -53,7 +97,2106 @@
     font-style: italic;
 }
 
-/*fleet manager page*/
+/*Fleet manager page*/
+
+.infoblock__top {
+    overflow: hidden;
+}
+
+.infoblock .top__logo {
+    max-width: 340px;
+    float: left;
+}
+
+.top__h1 {
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+    font-size: 64px;
+    line-height: 74px;
+    margin: 0;
+}
+
+.top__h2 {
+    text-align: center;
+    color: #8ca1c9;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.infoblock__center {
+    overflow: hidden;
+    margin-top: -150px;
+}
+
+.infoblock .center__img {
+    float: right;
+    width: 65%;
+    padding-left: 20px;
+}
+
+.center__text--padding {
+    padding-top: 160px;
+    position: relative;
+}
+
+.center__text--margin {
+    padding-top: 30px;
+    position: absolute;
+    width: 37%;
+}
+
+.infoblock__nav {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.infoblock .nav__li {
+    float: left;
+    width: 38%;
+}
+
+.infoblock .nav__img {
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.infoblock .li--width {
+    width: 80%;
+}
+
+.nav__li li:first-child {
+    list-style: none;
+}
+.infoblock ul.blue-bullet li:first-child:before {
+    background:transparent!important;
+}
+.nav__li--margin {
+    margin-left: 20px;
+}
+
+.infoblock .infoblock__bottom {
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+.infoblock__bottom li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 33%;
+}
+
+.infoblock__bottom li p {
+    text-align: center;
+}
+
+.infoblock .bottom__img {
+    width: 24%;
+    margin-left: 25px;
+}
+
+.infoblock .bottom__a {
+    width: 20%;
+    position: relative;
+    top: -15px;
+}
+
+.bottom__a a {
+    font-size: 26px;
+    color: #454733;
+    margin-bottom: 10px;
+}
+
+.a--rel {
+    position: absolute;
+    bottom: 76px;
+    font-size: 30px;
+    color: #8c897d;
+    width: 230%;
+    right: 0;
+}
+
+
+/* Fleet manager styles end */
+
+/* Scan Copy Fax styles */
+
+.infoblock .columnKIC_Bookeye_4{
+    float: left;
+    /* width: 50%; */
+    padding-left:  0.9375rem;
+    padding-right:  0.9375rem;
+}
+
+#hand-yellow-coin {
+    float: left;
+    width: 30%;
+}
+.infoblock .columnKIC_Bookeye_4__h2 {
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+#scan-diagram {
+    float: right;
+    width: 40%;
+}
+
+#copy-diagram {
+    float: left;
+    width: 30%;
+}
+
+#fax-diagram {
+    float: right;
+    width: 30%;
+}
+
+#hand-with-yellow-coin {
+    float: left;
+    width: 40%;
+    margin-right: 5px;
+    margin-top: -13%;
+}
+
+#dollar-and-card {
+    float: left;
+    width: 55%;
+}
+
+#copy-card-and-cash-header {
+    text-align: center;
+}
+
+/* End Scan Copy Fax */
+
+/* Common for brochures */
+
+div.infoblock span {
+    display: inline;
+}
+
+div.infoblock h1 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.infoblock h2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+div.article-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div.article-container p {
+    font-size: 14px;
+    line-height: 1.16em;
+}
+
+div.column {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span.caption {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.green-radial-gradient {
+    background: radial-gradient(#578E6B, #A6C2B3, #FFFFFF);
+}
+
+.green-linear-gradient {
+    background: linear-gradient(to bottom, #578E6B, #FFFFFF);
+}
+
+/* End common for brochures */
+
+/* Searchable collections style */
+.infoblock__block-title2{
+    font: 14px "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 39px;
+    font-weight: bold;
+    color:#000000;
+    text-shadow: none;
+    text-align: center;
+}
+.infoblock__block-title{
+    font: 14px "Arial",Helvetica,Arial,Verdana,sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color:#000000;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+}
+.infoblock__text-block {
+    float: left;
+    width: 55%;
+}
+.infoblock__text-block-2{
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.infoblock .infoblock__peppermint2 {
+    list-style-image: url(../images/blue-bullet.png);
+}
+div .infoblock__block {
+    padding-top: 0%;
+    float:left;
+    width: 49%;
+}
+
+.infoblock__block .infoblock__number{
+    width: auto;
+    float:left;
+}
+.infoblock__block-3 .infoblock__number{
+    width: auto;
+    float:left;
+}
+
+.infoblock__block-1{
+    float:left;
+    width: 70%;
+
+}
+
+.block_text2{
+    padding-top: 3%;
+}
+
+.infoblock__block-3 div .block_text2{
+    width: 50%;
+    padding-top: 1%;
+}
+.infoblock .infoblock__img{
+    width: auto;
+}
+#infoblock__man_pdf{
+    padding-left: 5%;
+}
+
+.infoblock__block-3{
+    position: absolute;
+    bottom: 15%;
+
+}
+div #infoblock__management{
+    width: 50%;
+    float:left;
+}
+div .infoblock__diagram{
+    width: 45%;
+    float:left;
+}
+div .infoblock__block_text23{
+    margin-right: -22%;
+}
+
+.infoblock__relative-block{
+    position: relative;
+}
+
+.small-brochure-title-center{
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 14px 0 10px;
+}
+
+@media all and (min-width: 1200px) and (max-width: 1400px){
+    .infoblock .infoblock__img{
+        width: 100%;
+    }
+
+    div .infoblock__diagram{
+        width: 48%;
+        float:left;
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+
+    .infoblock__block-3 {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    .small-brochure-title-center{
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38px; */
+        text-align: center;
+        /* padding: 14px 0 10px; */
+        padding-bottom: 0%;
+    }
+}
+
+@media all and (min-width: 922px) and (max-width: 1199px){
+    .infoblock .infoblock__img{
+        width: 100%;
+    }
+
+    div .infoblock__diagram{
+        width: 48%;
+        float:left;
+        margin-top: 50%;
+        margin-left: 2%;
+    }
+
+    .infoblock__block-3 {
+        position: absolute;
+        bottom: 35%;
+    }
+
+    .small-brochure-title-center{
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38px; */
+        text-align: center;
+        /* padding: 14px 0 10px; */
+        padding-bottom: 0%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 921px){
+    .infoblock .infoblock__img{
+        width: 100%;
+    }
+
+    div .infoblock__diagram{
+        width: 48%;
+        float:left;
+        margin-top: 60%;
+        margin-left: 2%;
+    }
+
+    .infoblock__block-3 {
+        position: absolute;
+        bottom: 35%;
+    }
+
+    .small-brochure-title-center{
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38px; */
+        text-align: center;
+        /* padding: 14px 0 10px; */
+        padding-bottom: 0%;
+    }
+}
+
+@media all and (max-width: 767px){
+    .infoblock .infoblock__img{
+        width: 100%;
+    }
+
+    div .infoblock__diagram{
+        width: 48%;
+        float:left;
+        margin-top: 60%;
+        margin-left: 2%;
+    }
+
+    .infoblock__block-3 {
+        position: absolute;
+        bottom: 35%;
+    }
+
+    .small-brochure-title-center{
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38px; */
+        text-align: center;
+        /* padding: 14px 0 10px; */
+        padding-bottom: 0%;
+    }
+}
+
+/* End of searchable collection style */
+
+/* No more spine damage styles */
+
+.infoblock .row-style {
+    float: left;
+    position: relative;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.infoblock .float-image-right {
+    float: right;
+    overflow: hidden;
+}
+
+.infoblock .section-1-image {
+    display: inline-block;
+    width: 33%;
+    margin-left: 5%;
+}
+
+.infoblock .section-2-image {
+    width: 17%;
+    margin: -5% 0 0 10px;
+}
+
+.infoblock .section-header {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    padding-top: 2%;
+    padding-bottom: 20px;
+}
+
+.infoblock .section-header--left {
+    text-align: left;
+}
+
+.infoblock .cursive-text-smaller-center {
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.infoblock .cursive-text-smaller-left {
+    font-style: italic;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.infoblock .noborder-table {
+    border-style: hidden;
+    font-family: sans-serif !important;
+}
+
+.infoblock .sub-header {
+    margin-top: -20px;
+}
+
+.infoblock .ugly-image {
+    height: 500px;
+    margin-top: -70%;
+}
+
+.infoblock .image-text {
+    position: relative;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.infoblock #left-image-text {
+    top: -310px;
+    left: 0;
+}
+
+.infoblock #right-image-text {
+    text-align: right;
+    top: -440px;
+    right: 25px;
+}
+
+.infoblock #last_p_fix {
+    margin-top: -100px;
+}
+
+.infoblock .row-style-small {
+    width: 30%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+}
+
+.infoblock #background-image {
+    position: relative;
+    height: 650px;
+    background: url("../images/KIC_BookEdge/sec_4_img_1.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+/* End of no more spine damage styles */
+
+/* True to Touch styles */
+.infoblock__block-header {
+    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 39px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+}
+
+.infoblock .infoblock__true-2-touch {
+    float: left;
+    width: 25%;
+}
+
+.infoblock .infoblock__scanner-other {
+    float: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 75%;
+    height: 75%;
+}
+
+.infoblock_relative-block{
+    position: relative;
+}
+
+.infoblock .infoblock__ul {
+    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
+}
+
+.infoblock .infoblock__text-block {
+    width: 50%;
+    float: right;
+    margin-bottom: 5%;
+}
+
+.infoblock .infoblock__block-header1 {
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+
+    padding: 10px 0;
+    text-align: right;
+    text-shadow: none;
+    float: right;
+    width: 56%;
+    margin-right: 5%;
+
+}
+
+.infoblock .infoblock__text-block1 {
+    float: right;
+    font-style: italic;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 5%;
+
+}
+
+.infoblock .infoblock__arrow-devices {
+    width: 80%;
+    float: right;
+    height: 80%;
+    z-index:2000;
+    position: relative;
+}
+
+.infoblock .infoblock__div-img {
+
+
+    z-index:1;
+    margin-top: 65%;
+}
+
+.infoblock__div-img .infoblock__scanner-bookeye-4{
+    position:absolute;
+    width: 90%;
+    bottom: 100%;
+
+}
+
+.infoblock .infoblock__text-block2 {
+    float: right;
+    position: relative;
+    width: 70%;
+    z-index:2000;
+}
+
+.infoblock .infoblock__div_arrow-devices{
+    width: 56%;
+    float: right;
+    height: 56%;
+}
+
+.infoblock__div-img .infoblock__opacity-text{
+    color:#898b8a;
+    margin-right: 40%;
+    text-align: center;
+    font-style: italic;
+}
+
+/* End of true to touch styles */
+
+/* SmartDock styles */
+
+.infoblock .infoblock__header-3{
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    margin-left: 25%;
+}
+
+.infoblock .infoblock__devices{
+    float: right;
+    width: 45%;
+    margin-right: 7%;
+}
+
+.infoblock .infoblock__scanner-bookeye-4-new{
+    width: 90%;
+    margin-left: 2%;
+    margin-top: -20%;
+}
+
+.infoblock .infoblock__text-block-devices{
+    float:right;
+    width: 39%;
+    margin-top: -40%;
+    margin-right: 2%;
+    margin-left: 10%;
+    font-size: 14px;
+
+}
+.infoblock__margin-top{
+    margin-top: -17%;
+}
+
+.infoblock .infoblock__text-block-scanner{
+
+    float:right;
+    margin-right: 14%;
+    width: 23%;
+    font-size: 14px;
+}
+.infoblock .infoblock__margin-top{
+    margin-top: 5%;
+    background:linear-gradient(to bottom,#97a29c,#e2e3e5);
+}
+
+/* End of SmartDock */
+
+/* Face down or face up styles */
+.infoblock .infoblock__text-block {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.infoblock .infoblock__block-header-2 {
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 3%;
+}
+
+.infoblock .infoblock__block-header-3 {
+    color: #000;
+    font-size: 33px;
+    line-height: 38px;
+    margin-top: 0%;
+    float: left;
+    z-index: 100;
+
+    margin-left: 15%;
+}
+
+div .infoblock__comm-csan {
+    z-index: 1;
+    margin-top: -4%;
+}
+
+div .infoblock__block-p {
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.infoblock .seven-step--border {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.infoblock .two-step {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.two-step:before {
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    width: 9%;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+
+.infoblock .infoblock__block-header-31 {
+    color: #000;
+    font-size: 33px;
+    line-height: 38px;
+    margin-top: 0%;
+    float: left;
+    z-index: 100;
+
+    margin-left: 1%;
+}
+
+.infoblock .infoblock__margin-text {
+    margin-right: 50%;
+}
+
+.infoblock .infoblock__margin-text1 {
+    margin-left: 7%;
+}
+
+div .infoblock_photo {
+    float: right;
+    width: 60%;
+}
+
+div .infoblock__block-header {
+    color: #000;
+    font-size: 36px;
+    margin: 0%;
+}
+
+div .infoblock__text-block1 {
+    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 120%;
+}
+
+div .infoblock__block-left {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+div .infoblock__block-left2 {
+    float: right;
+    width: 65%;
+}
+
+div .infoblock_photo2 {
+    width: 40%;
+    margin-left: 20%;
+}
+
+div .infoblock__text-right{
+    width: 65%;
+    margin-top: -33%;
+    margin-right: -10%;
+    text-align:right;
+    font-style: italic;
+}
+
+div .infoblock__text-right2{
+    width: 52%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: right;
+    font-style: italic;
+    margin-left: 1%;
+}
+
+.infoblock__text-left{
+    font-style: italic;
+}
+.infoblock__margin-top{
+    margin-top: 3%;
+    background:linear-gradient(to bottom,#97a29c,#e2e3e5);
+}
+
+/* End of face up styles */
+
+/* POD styles */
+h1.pod-text {
+    font-size: 34px;
+    color: #000;
+    padding:0;
+    line-height: 1.2;
+    font-weight: bold;
+    margin:0;
+}
+
+h2.pod-text {
+    font-size: 26px;
+    color: #000;
+    padding:0;
+    line-height: 1.2;
+    font-weight: bold;
+    margin:0;
+}
+
+h3.pod-text {
+    font-size: 24px;
+    color: #000;
+    padding:0;
+    line-height: 1.2;
+    font-weight: normal;
+    margin:0;
+}
+
+h4.pod-text {
+    font-size: 20px;
+    color: #000;
+}
+
+h5.pod-text {
+    color: #9C9E9F;
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+
+h6.pod-text {
+    color: #093C8B;
+    font-size: 12px;
+    margin: 9px 0 5px 0;
+}
+
+.pod-content{
+    overflow: hidden;
+    padding: 0 5px;
+}
+.content__bird{
+    float: right;
+    width: 55%;
+}
+.content__bird img{
+    width: 100%;
+    height: auto;
+}
+.content__pod-text p{
+    font-size: 18px;
+    padding: 20px 0 10px 20px;
+}
+.content__pod-text{
+    padding-top:20px;
+}
+.pod-text__girl{
+    text-align: center;
+    width: 45%;
+    position: relative;
+}
+.pod-text__girl img{
+    width: 100%;
+    position: relative;
+}
+.girl__speak{
+    position: absolute;
+    top:33px;
+    left: 79%;
+    width: 250px;
+}
+.infoblock .text-grey-pbd{
+    display: inline-block;
+    font-size: 22px;
+    padding: 0px 2% 0px 5%;
+}
+.infoblock {
+    padding:0;
+    margin:0;
+    position: relative;
+}
+.new-red {
+    color: #fff;
+    background: #ca3731;
+    font-size: 20px;
+    position: absolute;
+    left: 11px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 0;
+}
+.pbd--frame {
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+.infoblock .img-preview {
+    width: 50%;
+}
+.pod__library{
+    text-align: center;
+    padding:1.2em;
+}
+.infoblock .library__img{
+    width: 51%;
+}
+.library__img{
+    width: 51%;
+}
+.custom__aline{
+    text-align: center;
+    padding-bottom:20px;
+}
+.custom__aline--pt{
+    padding-bottom:10px;
+}
+.custom__aline--text{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+@media all and (max-width: 1366px){
+    .pbd--frame img{
+        width: 50%;
+    }
+    h2.pod-text{
+        font-size: 2.2rem;
+    }
+}
+
+/* End of POD */
+
+/* In case you didn't know */
+.infoblock__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.infoblock__double__content {
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+    background: #D0E6FC;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.in-case-strong {
+    font-size: 38px;
+    line-height: 40px;
+    padding: 0;
+}
+
+.in-case-span {
+    text-align: right;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.in-case-span--center {
+    text-align: center;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.infoblock__double__content__double {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .in-case-enhance {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 15px 2%;
+    display: block;
+}
+
+.infoblock__double__content__double p {
+    padding: 24px 0;
+}
+
+.in-case-p--italic {
+    padding: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.for-study-p {
+    width: 225px;
+    float: right;
+    margin-top: -145px;
+    margin-right: 7%;
+}
+
+.infoblock .left-text {
+    padding: 0 10px;
+}
+
+.infoblock .left-text p {
+    padding: 0;
+}
+
+.infoblock .in-case-enhance--right {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .in-case-scan-artwork {
+    height: 180px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .in-case-scan-map {
+    height: 155px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* End of in case  you didn't know */
+
+/* Bookeye vs Copiers styles */
+
+.infoblock__double-wrap {
+    overflow: hidden;
+}
+
+.infoblock h3 {
+
+}
+
+.infoblock__double__content {
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+.double-wrap__column {
+    float: left;
+    width: 48%;
+}
+
+.infoblock__double-wrap figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.infoblock__double-wrap figure img, .infoblock .diagram {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.infoblock__double-wrap figure figcaption {
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.infoblock .infoblock__double__double-p {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .bookeye-vs-copiers__span {
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.infoblock .bookeye-vs-copiers__strong {
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.double-content__text-and-picture-wrapper {
+    overflow: hidden;
+}
+
+.column__bookeye-scans {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.rainbow-text {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff00ff+16,0000ff+33,00ffff+50,00ff00+67,ffff00+83,ff0004+100,ff0000+100 */
+    background: #ff0000; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text; /* подробнее про background-clip */
+    color: transparent;
+    font-size: 26px !important;
+    text-align: center;
+}
+
+.infoblock h3 {
+    color: transparent;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+/* Bookeye vs Copiers end */
+
+/* Bookeye 4 style */
+.content .infoblock {
+    margin: 0.2rem 0 0;
+    padding: 2rem;
+    width: 75%;
+    text-align: left;
+    float: left;
+    word-wrap: break-word;
+    border-left: 0.2rem solid #E3E6DB;
+}
+
+/* 1 page */
+
+.infoblock__page-1 .infoblock__page-1__logo {
+    width: 40%;
+}
+
+.infoblock__page-1__head {
+    font-size: 2.375rem;
+    color: #282a28;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: none;
+    margin: 0;
+    text-align: center;
+}
+
+.infoblock__page-1__column {
+    float: left;
+    width: 50%;
+    padding: 0.625rem;
+}
+
+.infoblock__page-1__column__a {
+    padding-left: 60%;
+    font-weight: bold;
+}
+
+.infoblock__page-1_relative-block {
+    position: relative;
+}
+
+.infoblock div .infoblock__page-1__h2__p {
+    position: absolute;
+    font-weight: bold;
+    padding-left: 45%;
+    top: 50%;
+}
+
+.infoblock div .infoblock__page-1__h2__p h2 {
+    font-size: 2.375rem;
+    color: #000000;
+    padding: 0%;
+}
+
+.infoblock div .infoblock__page-1__h2__p p {
+    text-align: center;
+}
+
+.infoblock .infoblock__page-1__h3__p {
+    position: absolute;
+    padding-left: 70%;
+    top: 70%;
+    text-align: center;
+}
+
+.infoblock .infoblock__page-1__h3__p h3 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.infoblock .infoblock__page-1__h3__p p {
+    font-size: 1.6rem;
+}
+
+.infoblock .infoblock__page-1__devices {
+    position: absolute;
+    width: 30%;
+    left: 60%;
+    top: 130%;
+    height: auto;
+}
+
+.infoblock .infoblock__page-1__scanner {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.infoblock .infoblock__page-1__text {
+    width: 20%;
+    top: 55%;
+    right: 15%;
+    /* padding-top: 8%; */
+    position: absolute;
+}
+
+/*2 page */
+
+#scan-diagram {
+    float: right;
+    width: 40%;
+}
+
+#copy-diagram {
+    float: left;
+    width: 30%;
+}
+
+#fax-diagram {
+    float: right;
+    width: 30%;
+}
+
+#dollar-and-card {
+    float: left;
+    width: 55%;
+}
+
+#copy-card-and-cash-header {
+    text-align: center;
+}
+
+div.infoblock h2 {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+.infoblock .columnKIC_Bookeye_4 {
+    float: left;
+    /* width: 50%; */
+    /* padding-top: 0; */
+
+    /* border: 0; */
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+#hand-yellow-coin {
+    float: left;
+    width: 30%;
+}
+
+.infoblock .columnKIC_Bookeye_4__h2 {
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+/* 3 page*/
+
+.infoblock__page-3__block-title2 {
+    font: 1.4rem "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 3.9rem;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: none;
+    text-align: center;
+}
+
+.infoblock__page-3__block-title {
+    font: 1.4rem "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 2.4rem;
+    color: #000000;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+}
+
+.infoblock__page-3__text-block {
+    float: left;
+    width: 55%;
+}
+
+.infoblock__page-3__text-block-2 {
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.infoblock__page-3 .infoblock__peppermint2 {
+    list-style-image: url(../images/blue-bullet.png);
+}
+
+div .infoblock__page-3__block {
+    padding-top: 0%;
+    float: left;
+    width: 49%;
+}
+
+.infoblock__page-3__block .infoblock__page-3__number {
+    width: auto;
+    float: left;
+}
+
+.infoblock__page-3__block-3 .infoblock__page-3__number {
+    width: auto;
+    float: left;
+}
+
+.infoblock__page-3__block-1 {
+    float: left;
+    width: 70%;
+
+}
+
+.block_text2 {
+    padding-top: 3%;
+}
+
+.infoblock__page-3__block-3 div .block_text2 {
+    width: 50%;
+    padding-top: 1%;
+}
+
+.infoblock .infoblock__page-3__img {
+    width: auto;
+}
+
+#infoblock__page-3__man_pdf {
+    padding-left: 5%;
+}
+
+.infoblock__page-3__block-3 {
+    position: absolute;
+    bottom: 15%;
+
+}
+
+div #infoblock__page-3__management {
+    width: 50%;
+    float: left;
+}
+
+div .infoblock__page-3__diagram {
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+}
+
+div .infoblock__page-3__block_text23 {
+    margin-right: -22%;
+}
+
+.infoblock__page-3__relative-block {
+    position: relative;
+}
+
+.infoblock__page-3 .small-brochure-title-center {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 1.4rem 0 1rem;
+}
+
+.infoblock__page-3 {
+    padding-bottom: 40%
+}
+
+/* 4 page*/
+
+.infoblock .infoblock__page-4__logo_kic {
+    width: 35%;
+}
+
+.infoblock .infoblock__page-4__true_2_touch {
+    width: 13%;
+    margin-left: -19%;
+}
+
+.infoblock .infoblock__page-4__click_click_mini {
+    font-size: 5.5rem;
+    font-weight: 800;
+    margin-left: 40%;
+    margin-top: -99%;
+}
+
+.infoblock .infoblock__page-4__click_click_mini1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-left: 40%;
+    margin-top: -2%;
+    color: #0000F0;
+}
+
+.infoblock .infoblock__page-4__label2 {
+    margin-top: 87%;
+    font-size: 3.9rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.infoblock .infoblock__page-4__label3 {
+    width: 40%;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: 53%;
+    margin-top: -79%;
+}
+
+.infoblock .infoblock__page-4__text1 {
+    width: 47%;
+    margin-top: 71%;
+
+}
+
+.infoblock .infoblock__page-4__text2 {
+    width: 47%;
+    margin-left: 50%;
+    margin-top: -10.5%;
+}
+
+.infoblock .infoblock__page-4__text3 {
+    width: 47%;
+    margin-left: 50%;
+}
+
+.infoblock .infoblock__page-4__two_click_together {
+    width: 46%;
+    margin-top: -12%;
+}
+
+.infoblock .infoblock__page-4__column {
+    width: 100%;
+}
+
+.infoblock .infoblock__page-4__texting1 {
+    margin-left: 41%;
+}
+
+.infoblock .infoblock__page-4__label4 {
+    margin-left: 41%;
+    margin-top: 4%;
+}
+
+.infoblock .infoblock__page-4__label5 {
+    margin-top: 1%;
+}
+
+.infoblock .infoblock__page-4__text6 {
+    font-style: italic;
+    font-weight: 300;
+    margin-left: -2%;
+    text-align: center;
+}
+
+.infoblock .infoblock__page-4__text5 {
+
+    font-size: x-large;
+    margin-left: -2%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infoblock .infoblock__page-4__text7 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 1%;
+    color: #000000;
+    text-shadow: none;
+}
+
+.infoblock .infoblock__page-4__block1 {
+    width: 50%;
+    float: left;
+    padding: 1rem;
+}
+
+.infoblock .infoblock__page-4__scanner_600 {
+    width: 70%;
+    display: block;
+    margin: 0rem auto;
+}
+
+.infoblock .infoblock__page-4__text10 {
+    font-weight: 400;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+}
+
+.infoblock .infoblock__page-4__two_newspapers {
+    width: 70%;
+    display: block;
+    margin: 0rem auto;
+}
+
+div .infoblock__page-4__homo-scanner {
+    float: left;
+    width: 60%;
+    height: 60%;
+
+    margin-right: 5%;
+}
+
+div .infoblock__page-4__homo-text {
+    font-style: italic;
+    /* margin-right: 5%; */
+    margin-top: 4%;
+    width: 20%;
+    /* margin-left: 50%; */
+    display: inline-block;
+    margin-left: 15%;
+}
+
+div .infoblock__page-4__homo {
+    font-style: italic;
+    margin-right: 5%;
+}
+
+.infoblock .infoblock__page-4__text-block-left {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.infoblock .infoblock__page-4__scanner {
+    margin-left: 0%;
+    float: left;
+    width: 55%;
+}
+
+.infoblock .infoblock__page-4__margine {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+
+/* 5 page*/
+
+.infoblock__page-5 {
+    margin-top: 10%;
+}
+
+.infoblock__page-5__seven-step {
+    text-align: center;
+    position: relative;
+}
+
+.infoblock__page-5__seven-step:after {
+    content: 'VS';
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 200%;
+    background: #000;
+    border-radius: 100%;
+    bottom: -9%;
+    right: 50%;
+    padding: 1% 4%;
+    margin: 0 -3%;
+    z-index: 1;
+}
+
+.infoblock__page-5__two-step--inline {
+    padding: 0 0.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.infoblock__page-5__two-step--w1 {
+    width: 14%;
+}
+
+.infoblock__page-5__two-step--w2 {
+    width: 35%;
+}
+
+.infoblock__page-5__two-step--w3 {
+    width: 49%;
+}
+
+.infoblock .infoblock__page-5__text-block {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.infoblock .infoblock__page-5__block-header-2 {
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 3%;
+}
+
+.infoblock .infoblock__page-5__block-header-3 {
+    color: #000;
+    font-size: 3.3rem;
+    line-height: 3.8rem;
+    margin-top: 0%;
+    float: left;
+    z-index: 100;
+
+    margin-left: 15%;
+}
+
+div .infoblock__page-5__comm-csan {
+    z-index: 1;
+    margin-top: -4%;
+}
+
+div .infoblock__page-5__block-p {
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.infoblock .infoblock__page-5__seven-step--border {
+    padding: 2.0rem;
+    border: 0.2rem solid #000;
+    border-radius: 1rem;
+}
+
+.infoblock .infoblock__page-5__two-step {
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.infoblock__page-5__two-step:before {
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    width: 9%;
+    top: 0;
+    right: 0;
+    background-size: contain;
+    height: 7rem;
+}
+
+.infoblock .infoblock__page-5__block-header-31 {
+    color: #000;
+    font-size: 3.3rem;
+    line-height: 3.8rem;
+    margin-top: 0%;
+    float: left;
+    z-index: 100;
+
+    margin-left: 1%;
+}
+
+.infoblock .infoblock__page-5__margin-text {
+    margin-right: 57%;
+}
+
+.infoblock .infoblock__page-5__margin-text1 {
+    margin-left: 7%;
+}
+
+div .infoblock__page-5_photo {
+    float: right;
+    width: 60%;
+}
+
+div .infoblock__page-5__block-header {
+    color: #000;
+    font-size: 3.6rem;
+    margin: 0%;
+}
+
+div .infoblock__page-5__text-block1 {
+    font: 1.4rem "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 120%;
+}
+
+div .infoblock__page-5__block-left {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+div .infoblock__page-5__block-left2 {
+    float: right;
+    width: 65%;
+}
+
+div .infoblock__page-5_photo2 {
+    width: 40%;
+    margin-left: 20%;
+}
+
+div .infoblock__page-5__text-right {
+    width: 65%;
+    margin-top: -33%;
+    margin-right: -10%;
+    text-align: right;
+    font-style: italic;
+}
+
+div .infoblock__page-5__text-right2 {
+    width: 52%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: right;
+    font-style: italic;
+    margin-left: 1%;
+}
+
+.infoblock__page-5__text-left {
+    font-style: italic;
+}
+
+.infoblock__page-5__margin-top {
+    margin-top: 3%;
+    background: linear-gradient(to bottom, #97a29c, #e2e3e5);
+}
+
+/* 6 page*/
+
+.infoblock__page-6 {
+    margin-top: 5%;
+}
+
+.infoblock__page-6__block-header {
+    font: 1.4rem "Arial", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 3.9rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+}
+
+.infoblock .infoblock__page-6__true-2-touch {
+    float: left;
+    width: 25%;
+}
+
+.infoblock .infoblock__page-6__scanner-other {
+    float: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 75%;
+    height: 75%;
+}
+
+.infoblock__page-6_relative-block {
+    position: relative;
+}
+
+.infoblock .infoblock__page-6__ul {
+    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
+}
+
+.infoblock .infoblock__page-6__text-block {
+    width: 50%;
+    float: right;
+    margin-bottom: 5%;
+}
+
+.infoblock .infoblock__page-6__block-header1 {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+
+    padding: 1rem 0;
+    text-align: right;
+    text-shadow: none;
+    float: right;
+    width: 56%;
+    margin-right: 5%;
+
+}
+
+.infoblock .infoblock__page-6__arrow-devices {
+    width: 80%;
+    float: right;
+    height: 80%;
+    z-index: 2000;
+    position: relative;
+}
+
+.infoblock .infoblock__page-6__div-img {
+
+    z-index: 1;
+    margin-top: 65%;
+}
+
+.infoblock__page-6__div-img .infoblock__page-6__scanner-bookeye-4 {
+    position: absolute;
+    width: 90%;
+    bottom: 100%;
+
+}
+
+.infoblock .infoblock__page-6__text-block2 {
+    float: right;
+    position: relative;
+    width: 70%;
+    z-index: 2000;
+}
+
+.infoblock .infoblock__page-6__div_arrow-devices {
+    width: 56%;
+    float: right;
+    height: 56%;
+}
+
+.infoblock__page-6__div-img .infoblock__page-6__opacity-text {
+    color: #898b8a;
+    margin-right: 40%;
+    text-align: center;
+    font-style: italic;
+}
+
+/* 7 page*/
+div .infoblock__page-7_photo2 {
+    width: 40%;
+    margin-left: 20%;
+}
+
+div .infoblock__page-7__text-right2 {
+    width: 52%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: right;
+    font-style: italic;
+    margin-left: 1%;
+}
+
+div .infoblock__page-7__text-right {
+    width: 65%;
+    margin-top: -33%;
+    margin-right: -10%;
+    text-align: right;
+    font-style: italic;
+}
+
+.infoblock .infoblock__page-7__seven-step--border {
+    padding: 2rem;
+    border: 0.2rem solid #000;
+    border-radius: 1rem;
+}
+
+div .infoblock__page-7_photo {
+    float: right;
+    width: 60%;
+}
+
+div .infoblock__page-7__block-header {
+    color: #000;
+    font-size: 3.6rem;
+    margin: 0%;
+}
+
+div .infoblock__page-7__text-block1 {
+    font: 1.4rem "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 120%;
+}
+
+div .infoblock__page-7__block-left {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.infoblock .infoblock__page-7__header-3 {
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    font-size: 1.8rem;
+    margin-left: 25%;
+}
+
+.infoblock .infoblock__page-7__devices {
+    float: right;
+    width: 45%;
+    margin-right: 7%;
+}
+
+.infoblock .infoblock__page-7__scanner-bookeye-4-new {
+    width: 90%;
+    margin-left: 2%;
+    margin-top: -20%;
+}
+
+.infoblock .infoblock__page-7__text-block-devices {
+    float: right;
+    width: 39%;
+    margin-top: -40%;
+    margin-right: 2%;
+    margin-left: 10%;
+    font-size: 1.4rem;
+
+}
+
+.infoblock__page-7__margin-top {
+    margin-top: -17%;
+}
+
+.infoblock .infoblock__page-7__text-block-scanner {
+
+    float: right;
+    margin-right: 14%;
+    width: 23%;
+    font-size: 1.4rem;
+}
+
+.infoblock .infoblock__page-7__margin-top {
+    margin-top: 5%;
+    background: linear-gradient(to bottom, #97a29c, #e2e3e5);
+}
+
+/* 8 page*/
+
+.infoblock__page-8 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.infoblock__page-8__reservation {
+    text-align: center;
+    margin-bottom: -0.6rem;
+}
+
+.infoblock__page-8__reservation__h1 {
+    font-size: 7rem;
+    text-shadow: none;
+    color: #000;
+    margin: 0;
+}
+
+.infoblock__page-8__reservation__h2 {
+    color: #000;
+    font-size: 2.6rem;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.infoblock__page-8__reservation__h3 {
+    color: #000;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.infoblock__page-8__reservation__text {
+    text-align: left;
+    width: 49%;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.6rem;
+}
+
+.infoblock__page-8__reservation__text-img {
+    margin: 0 auto;
+}
+
+.infoblock .infoblock__page-8__text-img__touch {
+    text-align: center;
+    width: 31%;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
+}
+
+.infoblock__page-8__img__touch--after {
+    position: relative;
+}
+
+.infoblock__page-8__img__touch--after:after {
+    position: absolute;
+    content: '';
+    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
+    bottom: -12rem;
+    left: 3.5rem;
+    background-size: contain;
+    width: 100%;
+    height: 13rem;
+}
+
+.infoblock__page-8__reservation__two-tel {
+    padding-top: 10.7rem;
+    position: relative;
+}
+
+.infoblock .infoblock__page-8__two-tel__text-top {
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    width: 45%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.infoblock__page-8__footer__left {
+    display: inline-block;
+    width: 27%;
+    vertical-align: middle;
+}
+
+.infoblock__page-8__footer__center {
+    display: inline-block;
+    width: 42%;
+    vertical-align: middle;
+}
+
+.infoblock__page-8__footer__right {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.infoblock__page-8__left__link {
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #4a504e;
+    font-weight: bold;
+}
+
+/* 9 page*/
 
 .infoblock__page-9__top {
     overflow: hidden;
@@ -102,14 +2245,14 @@
 }
 
 .infoblock__page-9__center__text--padding {
-    padding-top: 41px;
+    padding-top: 9rem;
     position: relative;
 }
 
 .infoblock__page-9__center__text--margin {
-    padding-top: 38px;
+    padding-top: 7%;
     position: absolute;
-    width: 37%;
+    width: 47%;
 }
 
 .infoblock__page-9__nav {
@@ -149,7 +2292,7 @@
     display: inline-block;
     list-style: none;
     text-align: center;
-    width: 32%;
+    width: 33%;
 }
 
 .infoblock__page-9__bottom li p {
@@ -182,42 +2325,1973 @@
     right: 0;
 }
 
-.tech_details_img {
-    width: 50% !important;
+.infoblock__page-10 {
+    position: relative;
+}
+
+/* 11 page*/
+
+.infoblock__page-11__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.infoblock__page-11__double__content {
+    overflow: hidden;
+    padding: 1.0rem 1.0rem 1.0rem 0;
+    background: #D0E6FC;
+    margin: 0.5rem;
+    border-radius: 1.0rem;
+}
+
+.infoblock__page-11__in-case-strong {
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    padding: 0;
+}
+
+.infoblock__page-11__in-case-span {
+    text-align: right;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+}
+
+.infoblock__page-11__in-case-span--center {
+    text-align: center;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+}
+
+.infoblock__page-11__double__content__double {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 1.5rem 2%;
+    display: block;
+}
+
+.infoblock__page-11__double__content__double p {
+    padding: 2.4rem 0;
+}
+
+.infoblock__page-11__in-case-p--italic {
+    padding: 1.0rem;
+    font-style: italic;
+    display: inline-block;
+}
+
+.infoblock__page-11__for-study-p {
+    width: 22.5rem;
+    float: right;
+    margin-top: -14.5rem;
+    margin-right: 7%;
+}
+
+.infoblock .infoblock__page-11__left-text {
+    padding: 0 1.0rem;
+}
+
+.infoblock .infoblock__page-11__left-text p {
+    padding: 0;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--right {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-artwork {
+    height: 18.0rem;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-map {
+    height: 15.5rem;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* 12 page*/
+
+.infoblock__page-12 {
+    margin-top: 130%;
+}
+
+.infoblock__page-12__double-wrap {
+    overflow: hidden;
+}
+
+.infoblock h3 {
+
+}
+
+.infoblock__page-12__double__content {
+    padding: 0.5rem 1.0rem;
+    overflow: hidden;
+}
+
+.infoblock__page-12__double__content-1 {
+    padding: 0.5rem 1.0rem;
+    overflow: hidden;
+}
+
+.infoblock__page-12__double-wrap__column {
+    float: left;
+    width: 47%;
+    padding-left: 1%;
+}
+
+.infoblock__page-12__double-wrap figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.infoblock__page-12__double-wrap figure img, .infoblock .diagram {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.infoblock__page-12__double-wrap figure figcaption {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.infoblock .infoblock__page-12__double__double-p {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .infoblock__page-12__bookeye-vs-copiers__span {
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.infoblock .infoblock__page-12__bookeye-vs-copiers__strong {
+    text-align: center;
+    display: block;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+}
+
+.infoblock__page-12__double-content__text-and-picture-wrapper {
+    overflow: hidden;
+}
+
+.infoblock__page-12__column__bookeye-scans {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.infoblock__page-12__rainbow-text {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff00ff+16,0000ff+33,00ffff+50,00ff00+67,ffff00+83,ff0004+100,ff0000+100 */
+    background: #ff0000; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text; /* подробнее про background-clip */
+    color: transparent;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
+.infoblock h3 {
+
+    font-size: 2.6rem;
+}
+
+/* 13 page*/
+
+.infoblock__page-13__left-block {
+    float: left;
+    width: 50%;
+}
+
+.infoblock .infoblock__page-13__right-img {
+    float: right;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.infoblock .infoblock__page-13_text-block-after-table {
+    text-align: right;
+    font-style: italic;
+}
+
+.infoblock .infoblock__page-13__text-block-h3 {
+    color: #000;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-top: 0%;
+}
+
+.infoblock .infoblock__page-13__right-images {
+    width: 50%;
+}
+
+.infoblock .infoblock__page-13__right-images-clients {
+    width: 50%;
+    padding-top: 2%;
+    float: right;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.infoblock .infoblock__page-13__map-planet {
+    width: 45%;
+    position: absolute;
+    right: 0;
+    bottom: -330%;
+}
+
+.infoblock .infoblock__page-13_left-text-block {
+    float: left;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.infoblock .infoblock__page-13__text-block {
+    padding-right: 5%;
+    padding-left: 52%;
+}
+
+.infoblock .infoblock__page-13__th {
+    width: 38%;
+
+}
+
+.infoblock .infoblock__page-13 table th {
+    padding: 0rem 0rem 0rem 0rem;
+    border: 0rem;
+}
+
+.infoblock .infoblock__page-13__text-block-h3-1 {
+    color: #000;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 52%;
+}
+
+.infoblock .infoblock__page-13__rel {
+    position: relative;
+}
+
+.infoblock .infoblock__page-13__font-color {
+    color: #9d9d9d;
+}
+
+.infoblock__page-13__table-bg {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.infoblock p {
+    font-size: 1.4rem;
+}
+
+.infoblock__page-13 {
+    margin-bottom: 40%;
+}
+
+/* 14 page*/
+
+.cicle {
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 0.1rem solid #4a504e;
+    width: 2.0rem;
+    height: 2.0rem;
+    margin: 0 auto;
+}
+
+.green-cicle {
+    background: #40b149;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 0.1rem solid #4a504e;
+    width: 2.0rem;
+    height: 2.0rem;
+    margin: 0 auto;
+}
+
+.green-cicle--after {
+    position: relative;
+
+}
+
+.green-cicle--after:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 1.1rem 1.1rem 0 0;
+    -moz-border-radius: 1.1rem 1.1rem 0 0;
+    -webkit-border-radius: 1.1rem 1.1rem 0 0;
+    border: 0.1rem solid #4a504e;
+    width: 1.8rem;
+    height: 0.8rem;
+    top: -0.1rem;
+    left: -0.1rem;
+}
+
+.green-cicle--after-big {
+    position: relative;
+}
+
+.green-cicle--after-big:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 1.1rem 1.1rem 0 0;
+    -moz-border-radius: 1.1rem 1.1rem 0 0;
+    -webkit-border-radius: 1.1rem 1.1rem 0.5rem 0.5rem;
+    border: 0.1rem solid #4a504e;
+    width: 1.8rem;
+    height: 1.3rem;
+    top: -0.1rem;
+    left: -0.1rem;
+}
+
+.green-cicle--after-small {
+    position: relative;
+}
+
+.green-cicle--after-small:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 1.1rem 1.1rem 0 0;
+    -moz-border-radius: 1.1rem 1.1rem 0 0;
+    -webkit-border-radius: 1.1rem 1.1rem 0 0;
+    border: 0.1rem solid #4a504e;
+    width: 1.4rem;
+    height: 0.4rem;
+    top: -0.1rem;
+    left: 0.1rem;
+}
+
+.infoblock__page-14__center--text {
+    text-align: center;
+}
+
+.infoblock__page-14__sitalic {
+    font-style: italic;
+}
+
+.infoblock__page-14__kic-product {
+    text-align: right;
+}
+
+.infoblock__page-14__kic-product__row {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100% / 6);
+}
+
+.infoblock__page-14__kic-product .infoblock__page-14__row__title {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.infoblock__page-14__row__column {
+    padding: 1.0rem 0.5rem 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1.6rem;
+    border-top: 0.2rem solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.3rem 0.6rem #000;
+    min-height: 51rem;
+}
+
+.infoblock__page-14__row__column .infoblock__page-14__column__mini-title {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.5);
+    line-height: 1.2rem;
+    padding: 0;
+}
+
+.tabl-star {
+    margin-left: 2.0rem;
+    font-size: 1.3rem;
+    vertical-align: text-top;
+    color: #e8383b;
+}
+
+.float-left {
+    float: left;
+}
+
+.infoblock__page-14__margin-top {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.infoblock table th {
+    border: 0.1rem solid black;
+}
+
+.span_block span {
+    display: inline;
+}
+
+table tr .infoblock__page-14__border-style {
+    border-top: 0rem;
+    border-left: 0rem;
+    width: 50%;
+}
+
+.top-th {
+    background: #9daee4;
+    font-weight: bold;
+}
+
+.color-tr {
+    background: #cbccc7;
+
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.color-white {
+    background: #e6f5fc;
+
+}
+
+.vertical {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    writing-mode: bt-rl;
+}
+
+.width-td {
+    width: 4%;
+    FLOAT: right;
+    background: #cbccc7;
+}
+
+.text-vertical-bold {
+    color: #000;
+    font-size: 3.8rem;
+    line-height: 4rem;
+    text-align: justify;
     margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 25%;
+}
+
+.infoblock__page-14__table-right {
+    width: 95%;
+    float: right;
+}
+
+.infoblock__page-14__italic {
+    font-style: italic;
+}
+
+tr th {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.infoblock__page-14__text-block {
+    width: 100%;
+    margin-left: 5%;
+}
+
+@media all and (min-width: 1200px) and (max-width: 1400px) {
+    .infoblock__page-11__for-study-p {
+        width: 33%;
+        margin-right: 3%;
+        margin-top: 0;
+
+    }
+    div .infoblock__page-3__block_text23 {
+        margin-top: 9%;
+    }
+
+    .infoblock ul.blue-bullet li {
+
+        font-size: 1.4rem;
+    }
+
+    .infoblock ul li {
+        line-height: 21px;
+    }
+
+    /* 1 page */
+    .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__page-1__h2__p p {
+        font-size: 1.5rem;
+    }
+
+    .infoblock .infoblock__page-1__h3__p h3 {
+        font-size: 1.4rem;
+    }
+
+    .infoblock .infoblock__page-1__h3__p p {
+        font-size: 1rem;
+    }
+
+    /* 3 page*/
+    .infoblock .infoblock__page-3__img {
+        width: 100%;
+    }
+
+    div .infoblock__page-3__diagram {
+        width: 48%;
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+
+    .infoblock__page-3__block-3 {
+        bottom: 10%;
+    }
+
+    .infoblock__page-3 .small-brochure-title-center {
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38rem; */
+        text-align: center;
+        /* padding: 14rem 0 10rem; */
+        padding-bottom: 0%;
+    }
+
+    .infoblock__page-3 {
+        padding-bottom: 70%
+    }
+
+    /* 4 page*/
+    /* 5 page*/
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 52%;
+    }
+
+    /* 6 page*/
+    .infoblock .infoblock__page-6__block-header1 {
+
+        margin-top: 15%;
+        width: 49%;
+    }
+
+    /* 7 page*/
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 39%;
+        margin-top: -42%;
+        margin-right: 2%;
+        margin-left: 10%;
+        font-size: 1.4rem;
+    }
+
+    .infoblock .infoblock__page-7__margin-top {
+        margin-top: 10%;
+    }
+
+    /* 8 page*/
+    .infoblock__page-8 .infoblock__page-8__reservation__h3 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 9 page */
+    .infoblock .infoblock__page-9__nav__img {
+        float: left;
+        width: 60%;
+        margin-right: 1rem;
+    }
+
+    .infoblock .infoblock__page-9__center__img {
+        float: right;
+        width: 65%;
+        padding-left: 2rem;
+        padding-top: 9%;
+    }
+
+    .infoblock__page-9__center__text--margin {
+        padding-top: 0;
+        position: absolute;
+        width: 47%;
+    }
+
+    .infoblock__page-9__top__h1 {
+        font-size: 4.4rem;
+        margin: 0;
+        margin-top: 10%;
+    }
+
+    .infoblock__page-9__bottom li {
+        width: 32%;
+    }
+
+    /* 12 page*/
+    .infoblock__page-12 {
+        margin-top: 180%;
+    }
+
+    .infoblock__page-12__double__content {
+        padding: 0.5rem 1.0rem;
+    }
+
+    .infoblock__page-12__double__content-1 {
+        padding: 0.5rem 1.0rem;
+        overflow: inherit;
+    }
+
+    /* 13 page*/
+    .infoblock .infoblock__page-13__map-planet {
+        right: 0;
+        bottom: -210%;
+    }
+
+    .infoblock__page-13 {
+        margin-bottom: 90%;
+    }
+
+    /* 14 page*/
+    .text-vertical-bold {
+        font-size: 3.3rem;
+        line-height: 3rem;
+        margin-top: 7%;
+    }
+
+    .infoblock__page-14__row__column {
+
+        min-height: 36rem;
+    }
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 1300px) {
+
+    .infoblock .infoblock__page-6__block-header1 {
+        margin-top: 35%;
+
+    }
+
+    .infoblock__page-9__center__text--margin {
+
+        width: 54%;
+    }
+
+    .infoblock .infoblock__page-9__center__img {
+
+        width: 60%;
+
+    }
+
+    .infoblock__page-11__for-study-p {
+        width: 33%;
+        margin-right: 3%;
+        margin-top: 0;
+
+    }
+
+    .infoblock__page-9__nav {
+        padding-top: 6%;
+
+    }
+
+    .infoblock__page-12 {
+        margin-top: 200%;
+    }
+
+    .infoblock__page-13 {
+        margin-bottom: 110%;
+    }
+    div .infoblock__page-3__block_text23 {
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+    /* 1 page*/
+    .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
+        font-size: 1.7rem;
+        padding: 0%;
+    }
+    .infoblock .infoblock__page-6__block-header1 {
+
+        margin-top: 35%;
+        width: 49%;
+    }
+    .infoblock ul li {
+        line-height: 19px;
+    }
+    div .infoblock__page-3__diagram {
+
+        margin-top: 15%;
+
+    }
+    .infoblock div .infoblock__page-1__h2__p p {
+        font-size: 1.1rem;
+    }
+
+    .infoblock .infoblock__page-1__h3__p h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__page-1__h3__p p {
+        font-size: 0.8rem;
+    }
+
+    /* 3 page*/
+    .infoblock .infoblock__page-3__img {
+        width: 100%;
+    }
+
+    div .infoblock__page-3__diagram {
+        width: 48%;
+        margin-top: 45%;
+        margin-left: 2%;
+    }
+
+    .infoblock__page-3__block-3 {
+        bottom: 37%;
+    }
+
+    .infoblock__page-3 .small-brochure-title-center {
+        font-size: 3.3rem;
+        /* line-height: 38rem; */
+        /* padding: 14rem 0 10rem; */
+        padding-bottom: 0%;
+    }
+
+    .infoblock__page-3 {
+        padding-bottom: 100%
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1100px) {
+    .infoblock__page-9__top__h1 {
+        font-size: 4.4rem;
+    }
+
+    div .infoblock__page-3__diagram {
+        margin-top: 20%;
+
+
+    }
+
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 46%;
+    }
+    .infoblock__page-9__center__text--margin {
+        padding-top: 4%;
+
+    }
+
+    .infoblock .infoblock__page-9__center__img {
+        width: 65%;
+        margin-top: 20%;
+    }
+
+    .infoblock__page-9__bottom li {
+        width: 32%;
+    }
+
+    .infoblock__page-11__for-study-p {
+        width: 33%;
+        margin-right: 3%;
+        margin-top: 0;
+    }
+
+    .infoblock__page-3 {
+        padding-bottom: 64%;
+    }
+    .infoblock__page-11 {
+        padding-bottom: 56%;
+    }
+    .infoblock__page-12__double__content-1 {
+        overflow: initial;
+    }
+    .infoblock .infoblock__page-13__map-planet {
+        bottom: -209%;
+    }
+    .infoblock__page-13 {
+        margin-bottom: 110%;
+    }
+    .infoblock__page-14__row__column {
+        min-height: 38rem;
+    }
+    .width-td {
+        width: 5%;
+    }
+    .text-vertical-bold {
+        margin-top: 8%;
+    }
+    .infoblock .infoblock__page-7__margin-top {
+        margin-top: 8%;
+    }
+    .infoblock .infoblock__page-6__block-header1 {
+        margin-top: 38%;
+    }
+    .infoblock__page-12 {
+        margin-top: 140%;
+    }
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 46%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    /* 1 page*/
+    .infoblock div .infoblock__page-1__h2__p h2 {
+        font-size: 1.4rem;
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__page-1__h2__p p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .infoblock .infoblock__page-1__h3__p h3 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__page-1__h3__p p {
+        font-size: 0.7rem;
+    }
+
+    /* 3 page*/
+    .infoblock .infoblock__page-3__img {
+        width: 100%;
+    }
+
+    div .infoblock__page-3__diagram {
+        width: 48%;
+        float: left;
+        margin-top: 60%;
+        margin-left: 2%;
+    }
+
+    .infoblock__page-3__block-3 {
+        position: absolute;
+        bottom: 35%;
+    }
+
+    .infoblock__page-3 .small-brochure-title-center {
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38rem; */
+        text-align: center;
+        /* padding: 14rem 0 10rem; */
+        padding-bottom: 0%;
+    }
+
+    .infoblock__page-3 {
+        padding-bottom: 110%
+    }
+}
+
+@media all and (max-width: 767px) {
+    /* 1 page*/
+    .infoblock div .infoblock__page-1__h2__p h2 {
+        font-size: 1.5rem;
+        color: #000000;
+        padding: 0%;
+    }
+
+    .infoblock div .infoblock__page-1__h2__p p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .infoblock .infoblock__page-1__h3__p h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .infoblock .infoblock__page-1__h3__p p {
+        font-size: 0.7rem;
+    }
+
+    /* 3 page*/
+    .infoblock .infoblock__page-3__img {
+        width: 100%;
+    }
+
+    div .infoblock__page-3__diagram {
+        width: 48%;
+        float: left;
+        margin-top: 60%;
+        margin-left: 2%;
+    }
+
+    .infoblock__page-3__block-3 {
+        position: absolute;
+        bottom: 35%;
+    }
+
+    .infoblock__page-3 .small-brochure-title-center {
+        color: #000;
+        font-size: 3.3rem;
+        /* line-height: 38rem; */
+        text-align: center;
+        /* padding: 14rem 0 10rem; */
+        padding-bottom: 0%;
+    }
+}
+
+/* Bookeye 4 end */
+
+/*PDFJAL*/
+.infoblock{
+    font-size: 16px;
+    position: relative;
+}
+.infoblock span, p
+{
+    font-weight: normal;
+    line-height: 24px;
+}
+.infoblock strong{
+    padding: 0;
+}
+.infoblock__bscan-ill{
+    text-align: left;
+    position: relative;
+}
+.infoblock__bscan-ill .bscan-ill__logo{
+    width: 50%;
+}
+.infoblock__bscan-ill--absolut{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.bscan-ill__bolt{
+    display: block;
+    padding: 0;
+}
+.bscan-ill__bolt--fs1{
+    font-size: 24px;
+}
+.bscan-ill__bolt--fs2{
+    font-size: 20px;
+}
+.bscan-ill--padding{
+    padding-top:4%;
+}
+.bscan-ill--h2{
+    font-size: 28px;
+    color: #000;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0;
+}
+.bscan-ill--center{
+    text-align: center;
+}
+.bscan-ill--blu-text{
+    text-align: right;
+    font-size: 20px;
+    color: #193791;
+}
+.bscan-ill__column{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.infoblock .bscan-ill--width{
+    width: 90%;
+}
+.bscan-ill__arrow{
+    position: relative;
+    display: block;
+}
+.bscan-ill__arrow:before{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/arrow.png") no-repeat;
+    top:0;
+    left: -64px;
+    width: 65px;
+    height:60px;
+}
+.infoblock--right{
+    text-align: right;
+}
+.infoblock .infoblock__title{
+    list-style: none;
+    display:inline-block;
+    width: 40%;
+    text-align: left;
+    padding:0;
+}
+.infoblock__title li{
+    padding-top: 10px;
+}
+.title__mark{
+    font-size: 45px;
+    font-weight: bold;
+    background: transparent;
+}
+.infoblock .infoblock__row{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.infoblock .woman_abs{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 25%;
+}
+.first-li{
+    margin-right: 20%;
+}
+.two-li{
+    margin-left: 10%;
     margin-right: 10%;
 }
+.last-li{
+    margin-left: 20%;
+}
+.mark--margin{
+    margin-left:-20px;
+}
+.bscan--h2{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin:0;
+    padding:0;
+    line-height:1.2;
+}
+.infoblock__content{
+    display: inline-block;
+    width: 48%;
+    padding:0 5px;
+    vertical-align: top;
+}
+.infoblock .content__green-arrow{
+    padding-left: 50px;
+    list-style: none;
+}
+.content__green-arrow li{
+    position: relative;
+}
+.content__green-arrow li:before{
+    position: absolute;
+    content: '';
+    background: url("../images/green-arrow.png") no-repeat;
+    top:0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+}
+.seven-step{
+    text-align: center;
+    position: relative;
+}
+.seven-step:after{
+    content: 'VS';
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    background: #000;
+    border-radius: 50%;
+    bottom: -35px;
+    right: 50%;
+    padding: 20px 30px;
+    margin: 0 -30px;
+    z-index: 1;
+}
+.seven-step__h3{
+    display: inline;
+    text-shadow: none;
+    color: #000;
+    font-size: 24px;
+    padding-right:20%;
+}
+.infoblock .seven-step__text{
+    display: inline;
+}
+.seven-step__scan{
+    margin-top:-40px;
+}
+.seven-step--border{
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.two-step{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.two-step:before{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    width: 115px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+.two-step:after{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
+    width: 47px;
+    height: 33px;
+    bottom: 0;
+    right:50%;
+}
+.two-step--inline{
+    padding: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.two-step--w1{
+    width: 14%;
+}
+.two-step--w2{
+    width: 35%;
+}
+.two-step--w3{
+    width: 49%;
+}
+.seven-step__h3--padding{
+    padding: 0;
+}
 
-.tech_details_table {
-    margin-left: 15%;
-    width: 70%;
+.infoblock .blue-doth{
+    padding-left: 50px;
+    list-style: none;
+}
+.blue-doth li{
+    position: relative;
+}
+.blue-doth li:before{
+    position: absolute;
+    content: '';
+    background: #3052ad;
+    top: 4px;
+    left: -20px;
+    width: 14px;
+    height: 14px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    box-shadow: inset 0 3px 6px #fff;
+}
+.page3__inline{
+    display: inline-block !important;
+    padding: 0 10px;
+    width: 49%;
+    vertical-align: top;
+}
+.page3--right{
+    text-align: right;
+}
+.page3__block2{
+    text-align: left;
+    display: inline-block;
+    width: 34%;
+    margin-left: 10%;
+}
+.page3__block2 i{
+    font-size: 10px;
+}
+.method1{
+    position: relative;
     text-align: center;
 }
-
-#bookedge_big_scanner {
-    margin-left: 5%;
-    margin-top: 2%;
-
+.method1:before{
+    position: absolute;
+    content: 'METHOD';
+    font-weight: bold;
+    font-size: 32px;
+    top: -10px;
+    line-height: 1;
+    left: -152px;
+    background-size: contain;
+    background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 27px 31px;
+    width: 153px;
+    height: 139px;
 }
-
-#bookedge_small_scanner {
+.method2{
+    position: relative;
+    text-align: center;
+    margin-left: 17%;
+}
+.method2:before{
+    content: 'METHOD';
+    position: absolute;
+    font-weight: bold;
+    font-size: 32px;
+    top: -10px;
+    line-height: 1;
+    left: -152px;
+    background-size: contain;
+    background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 24px 22px;
+    width: 154px;
+    height: 111px;
+}
+.page3__block3{
+    background-color: #9ccdff;
+    padding: 10px;
+    text-align: center;
+}
+.block3__top span{
+    font-size: 20px;
+    font-weight:bold;
+}
+.block3__top .top--width{
+    width:60%;
+}
+.block3__top{
+    display: inline-block;
+    width:20%;
+    vertical-align: middle;
+}
+.top--w2{
+    width: 35%;
+}
+.top--w3{
+    width: 43%;
+    padding-left: 5px;
+}
+h3{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+h4 {
+    font-size: 23px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+}
+.two-step--width1{
     width: 60%;
 }
+.two-step--width2{
+    width: 39%;
+}
+.two-step--bottom{
+    padding-top: 20%;
+}
+.two-step--img{
+    position: relative;
+}
+.two-step--img .two-step__all-scan{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 180%;
+    height: auto;
+}
+.block-grey{
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid #000;
+    text-align: center;
+    background: #bfdae2;
+}
+.infoblock .block-grey__ul{
+    margin: 0;
+    padding: 0;
+}
+.block-grey__ul li{
+    display: inline-block;
+    width: 13%;
+}
+.block-grey__ul p {
+    font-size: 12px;
+    text-align: center;
+    line-height:1.2;
+}
+.center-br img{
+    width: 20%;
+}
+.center-br .two-step--inline{
+    vertical-align: top;
+}
+.block-grey__first{
+    display: inline-block;
+    width: 65%;
+}
+.block-grey__last{
+    display: inline-block;
+    width: 26%;
+}
+.page3__inline .inline__books {
+    width: 50%;
+    float: right;
+    clear: both;
+}
+.infoblock__center--text{
+    text-align: center;
+}
+.inline__mini-text{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.infoblock .inline__rgb{
+    display: inline-block;
+    width: 29%;
+    vertical-align: super;
+}
+.inline__img-text{
+    display: inline-block;
+    width: 69%;
+    line-height: 1;
+    padding-left: 5px;
+}
+.infoblock__header{
+    overflow: hidden;
+}
+.header__left{
+    float: left;
+    padding-right: 25px;
+}
+.header__right .bscan--h2{
+    text-align: left;
+}
+.infoblock .rhomb{
+    list-style-image: url("../images/rhomb.png");
+}
+.kic-product{
+    text-align: right;
+}
+.kic-product__row{
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100%/6);
+}
+.kic-product .row__title{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.row__column{
+    padding: 10px 5px 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px #000;
+    min-height: 500px;
+}
+.row__column .column__mini-title{
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    padding: 0;
+}
+.table{
+    width: 100%;
+    padding: 20px 0;
+}
+.table th{
+    width: calc(100%/6);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.table p{
+    text-align: center;
+}
+.table-bg{
+    background: rgba(0,0, 0, 0.1);
+}
+.table .table--ta-left{
+    text-align: right;
+    font-size: 12px;
+    padding-right: 20px;
+    width: 180px;
+}
+th .table--img{
+    width: 100px;
+}
+.cicle{
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.green-cicle{
+    background: #40b149;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.green-cicle--after{
+    position: relative;
 
-#scanner_image_sign {
-    margin-left: 40%;
-    margint-top: -60%;
+}
+.green-cicle--after:after{
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 8px;
+    top: -1px;
+    left: -1px;
+}
+.green-cicle--after-big{
+    position: relative;
+}
+.green-cicle--after-big:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 5px 5px;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 13px;
+    top: -1px;
+    left: -1px;
+}
+.green-cicle--after-small{
+    position: relative;
 }
 
-.wide_tech_details_table {
-    margin-left: 1%;
-    width: 98%;
+.green-cicle--after-small:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 14px;
+    height: 4px;
+    top: -1px;
+    left: 1px;
+}
+.bold-line{
+    font-weight: bold;
+    font-size: 33px;
+}
+.table__arow{
+    position: relative;
+}
+.table__arow:before{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
+    top: -18px;
+    left: 37px;
+    width: 44px;
+    height: 26px;
+}
+.bold-dollar{
+    font-weight: bold;
+}
+.dollar-size-mini{font-size: 12px;}
+.dollar-size-midle{font-size: 20px}
+.dollar-size-subheight{ font-size: 24px;}
+.dollar-size-height{font-size: 28px}
+.tabl-star{
+    margin-left: 20px;
+    font-size: 13px;
+    vertical-align: text-top;
+    color: #e8383b;
+}
+.tabl-star-mini{
+    margin-left: 20px;
+    font-size: 9px;
+    vertical-align: text-top;
+    color: #e8383b;
+}
+.align-right{
+    text-align: right;
+}
+.first-column{
+    width: 200px;
+    text-align: right;
+}
+.table__footer{
+    font-size: 14px;
+}
+.graph{
+    position: relative;
+    text-align: center;
+}
+.graph img{
+    width: 90%;
+}
+.vertical-text span{
+    display: inline;
+}
+.vertical-text{
+    position: absolute;
+    top:50%;
+    left:-50px;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.text-area span{
+    display: inline;
+}
+.text-area{
+    padding-top:10px;
+    padding-bottom:20px;
+    text-align: center;
+}
+.selection{
+    font-size: 13px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.selection--bold td{
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
+}
+.selection td{
+    text-align: center;
+    width:50px;
+}
+.sup-text{
+    font-size: 8px;
+    vertical-align: super;
+    font-weight: normal;
+}
+.selection .more-text{
+    width:96px;
+}
+.infoblock .table-text{
+    font-size: 13px;
+    padding: 0;
+    text-align: left;
+}
+.country-wrapper{
+    overflow: hidden;
+}
+.country{
+    display: inline-block;
+    float: left;
+    width:calc(100%/5);
+    vertical-align: top;
+}
+.infoblock .country__text{
+    font-size: 13px;
+    text-align: center;
+}
+.infoblock .history__w1{
+    text-align: left;
+    width:65%;
+}
+.infoblock .history__w2{
+    text-align: left;
+    width:72%;
+}
+.history{
+    position: relative;
+    padding-bottom: 30%;
+}
+.history:after{
+    content: '';
+    position: absolute;
+    background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
+    background-size: contain;
+    width: 90%;
+    bottom: -7%;
+    right: 0;
+    height: 90%;
+}
+.infoblock__line{
+    display: inline-block;
+    vertical-align: middle;
+}
+.infoblock .line--padding{
+    padding-bottom: 30px;
+}
+.line--midle{
+    vertical-align: middle;
+}
+.infoblock__line--w40{
+    width:40%;
+}
+.infoblock__line--w60{
+    width: calc(60% - 10px);
+}
+.infoblock__line--border{
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.infoblock .line--bold-text{
+    text-align: center;
+    font-weight:bold;
+}
+.line__persent1{
+    position: relative;
+}
+.line__persent4{
+    position: relative;
+}
+.line__persent1:after{
+    content: '1% Libraries';
+    position: absolute;
+    top: 25px;
+    right: -74px;
+    font-weight: bold;
+    width: 78px;
+    text-align: center;
+}
+.line__persent4:before{
+    content: '4% Businesses';
+    position: absolute;
+    left: -58px;
+    bottom: 41px;
+    font-weight: bold;
+    width: 99px;
     text-align: center;
 }
 
-.padding_table {
-    margin-top: 3%;
+/* End of PDFJAL */
+
+/* Media screen */
+@media screen and (max-width: 1885px) {
+    .wrapper-for-img .inf--padding {
+        top: 80%;
+    }
 }
-/*end fleet manager page*/
+
+@media screen and (max-width: 1880px) {
+    .brochure-block .grean-right {
+        padding-right: 10%;
+    }
+
+    .brochure-block .grean-left {
+        padding-left: 10%;
+    }
+    .two-step:before{
+        width: 80px;
+        height: 40px;
+    }
+    .table__arow:before {
+        left: 25px;
+    }
+    .history:after{
+        bottom: -16%;
+        width: 80%;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .logo-frame-block {
+        padding-left: 5%;
+    }
+
+    .logo-frame-block__dlsg-logo img {
+        height: 100px;
+    }
+
+    .caption__h {
+        font-size: 50px;
+        line-height: 1;
+    }
+    .infoblock__center .center__text--margin {
+        position: relative;
+    }
+    .content .infoblock .nav__li {
+        width: 32%;
+    }
+    .img__touch--after:after {
+        bottom: -108px;
+        left: 35px;
+        width: 72%;
+        height: 120px;
+    }
+    .infoblock .two-tel__text-top {
+        top: 34px;
+    }
+    .left__link {
+        font-size: 18px;
+    }
+    .table__arow:before {
+        left: 0;
+    }
+    .infoblock__line--w40 {
+        width: 100%;
+    }
+    .infoblock__line--w60 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .unyver__taxt {
+        margin: 0 !important;
+    }
+
+    .content__unyver {
+        margin-top: -3% !important;
+    }
+
+    .wrapper-for-img .inf--padding {
+        position: relative;
+    }
+
+    .logo-frame-block {
+        padding-left: 10%;
+    }
+
+    .logo-frame-block__dlsg-logo img {
+        height: 80px;
+    }
+
+    .caption__h {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .brochure-block .grean-right {
+        padding-right: 2%;
+    }
+
+    .brochure-block .grean-left {
+        padding-left: 2%;
+    }
+    .infoblock .vertical-text {
+        left: -65px;
+    }
+}
+
+@media screen and (max-width: 1640px){
+    .infoblock .a--rel{
+        position: relative;
+        bottom:0;
+    }
+    .infoblock .infoblock__center{
+        margin-top: 0;
+    }
+    .mainform input{
+        width: 100%;
+        max-width: none;
+    }
+}
+@media screen and (max-width: 1600px){
+    .leftsidemenu{
+        margin-top: 16%;
+    }
+    .seven-step__h3{
+        padding-right:0;
+    }
+    .seven-step__scan{
+        margin-top:-20px;
+    }
+    .history:after {
+        width: 35%;
+        height: 35%;
+        top: 0;
+    }
+}
+@media screen and (max-width: 1535px) {
+    .brochure-block .content__brochure-block__img {
+        margin-left: 7%;
+        height: 120px;
+    }
+
+    .frame7-content__dlos .dlos-hend {
+        max-width: 160px;
+    }
+    .content .infoblock .bottom__a {
+        top: 0;
+    }
+    .contactus-holder__triple__image--left {
+        margin-top: 80px;
+        width: 100%;
+        height: auto;
+    }
+    .infoblock .two-tel__text-top {
+        top: 20px;
+        width: 48%;
+    }
+    .left__link {
+        font-size: 14px;
+    }
+    .method2:before {
+        font-size: 19px;
+        top: 10px;
+        line-height: 0;
+        left: -96px;
+        background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 10px 6px;
+        width: 90px;
+        background-size: contain;
+        height: 70px;
+    }
+    .method1:before {
+        font-size: 19px;
+        top: 10px;
+        line-height: 0;
+        left: -96px;
+        background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 10px 1px;
+        width: 90px;
+        background-size: contain;
+        height: 70px;
+    }
+    .table__arow:before {
+        left: -10px;
+        width: 10px;
+    }
+
+}
+@media screen and (max-width: 1440px){
+    .two-step--img .two-step__all-scan {
+        top: -47px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .content .infoblock .center__img {
+        float: none;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .infoblock__center .center__text--margin {
+        width:100%;
+    }
+    .content .infoblock .nav__img {
+        float: none;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .content .infoblock .nav__li {
+        width: 100%;
+        float: none;
+    }
+    .content .infoblock .bottom__a {
+        width: 40%;
+    }
+    .infoblock .two-tel__text-top {
+        top: 12px;
+    }
+    .reservation__h2 {
+        font-size: 20px;
+        padding:0;
+    }
+    .reservation__h3 {
+        font-size: 19px;
+    }
+    .reservation__h1 {
+        font-size: 50px;
+    }
+    .saw h3{
+        padding-bottom: 5px!important;
+    }
+}
+@media screen and (max-width: 1290px){
+    .wrapper-for-img .inform__images{
+        max-width: 260px;
+    }
+
+}
+
+@media screen and (max-width: 1240px){
+    .brochure-block .text-grean {
+        font-size: 1.8rem;
+    }
+    .content .text-grey{
+        font-size: 1.8rem;
+        padding: 5px 25px 5px 20px;
+    }
+    .content .text-grey:after {
+        left: 96%;
+        width: 40px;
+    }
+    .dlos__logo .dlos-logo {
+        font-size: 1.2rem;
+    }
+    .DLOS_Icon {
+        padding-top: 17px;
+    }
+
+}
+@media screen and (max-width: 1150px) {
+    .line__persent1:after{
+        font-size: 12px;
+    }
+    .line__persent4:before{
+        font-size: 12px;
+    }
+    .caption__h {
+        font-size: 31px;
+        line-height: 1.2;
+    }
+    .logo-frame-block__caption {
+        margin-left: 0px;
+    }
+    .logo-frame-block__dlsg-logo {
+        float: left;
+        /*padding-left: 22%;*/
+        padding-top: 2px;
+    }
+}
+/* End of media screen */
