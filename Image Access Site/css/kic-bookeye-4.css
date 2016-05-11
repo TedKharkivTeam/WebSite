@@ -10,10 +10,10 @@
 
 /* 1 page */
 
-
-.infoblock__page-1 .infoblock__page-1__logo{
+.infoblock__page-1 .infoblock__page-1__logo {
     width: 40%;
 }
+
 .infoblock__page-1__head {
     font-size: 2.375rem;
     color: #282a28;
@@ -1001,7 +1001,6 @@ div .infoblock__page-7__block-left {
 .infoblock .infoblock__page-9__nav__img {
     float: left;
     width: 60%;
-    margin-right: 2rem;
 }
 
 .infoblock .infoblock__page-9__li--width {
@@ -1059,9 +1058,10 @@ div .infoblock__page-7__block-left {
     right: 0;
 }
 
-.infoblock__page-10{
+.infoblock__page-10 {
     position: relative;
 }
+
 /* 11 page*/
 
 .infoblock__page-11__double {
@@ -1249,7 +1249,7 @@ div .infoblock__page-7__block-left {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text; /* подробнее про background-clip */
     color: transparent;
-    font-size: 2.6rem ;
+    font-size: 2.6rem;
     line-height: 2.8rem;
     text-align: center;
 }
@@ -1561,31 +1561,37 @@ tr th {
 }
 
 @media all and (min-width: 1200px) and (max-width: 1400px) {
+    .infoblock__page-11__for-study-p {
+        width: 33%;
+        margin-right: 3%;
+        margin-top: 0;
+
+    }
+    div .infoblock__page-3__block_text23 {
+        margin-top: 9%;
+    }
+
     .infoblock ul.blue-bullet li {
-        position: relative;
-        list-style: none;
+
         font-size: 1.4rem;
     }
 
     .infoblock ul li {
-         line-height: 21px;
+        line-height: 21px;
     }
+
     /* 1 page */
     .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
-        font-size: 2.2rem;
         color: #000000;
         padding: 0%;
     }
 
     .infoblock div .infoblock__page-1__h2__p p {
-        text-align: center;
         font-size: 1.5rem;
     }
 
     .infoblock .infoblock__page-1__h3__p h3 {
         font-size: 1.4rem;
-        font-weight: bold;
-        color: #000000;
     }
 
     .infoblock .infoblock__page-1__h3__p p {
@@ -1599,13 +1605,11 @@ tr th {
 
     div .infoblock__page-3__diagram {
         width: 48%;
-        float: left;
         margin-top: 20%;
         margin-left: 2%;
     }
 
     .infoblock__page-3__block-3 {
-        position: absolute;
         bottom: 10%;
     }
 
@@ -1623,9 +1627,7 @@ tr th {
     }
 
     /* 4 page*/
-
     /* 5 page*/
-
     .infoblock .infoblock__page-5__margin-text {
         margin-right: 52%;
     }
@@ -1639,7 +1641,6 @@ tr th {
 
     /* 7 page*/
     .infoblock .infoblock__page-7__text-block-devices {
-        float: right;
         width: 39%;
         margin-top: -42%;
         margin-right: 2%;
@@ -1649,16 +1650,12 @@ tr th {
 
     .infoblock .infoblock__page-7__margin-top {
         margin-top: 10%;
-        background: linear-gradient(to bottom, #97a29c, #e2e3e5);
     }
-    /* 8 page*/
 
+    /* 8 page*/
     .infoblock__page-8 .infoblock__page-8__reservation__h3 {
-        color: #000;
         font-size: 2.2rem;
         line-height: 2.4rem;
-        font-style: italic;
-        font-weight: normal;
         margin: 0;
         padding: 0;
     }
@@ -1676,104 +1673,124 @@ tr th {
         padding-left: 2rem;
         padding-top: 9%;
     }
+
     .infoblock__page-9__center__text--margin {
         padding-top: 0;
         position: absolute;
         width: 47%;
     }
+
     .infoblock__page-9__top__h1 {
-        text-align: center;
-        color: #000;
-        text-shadow: none;
         font-size: 4.4rem;
         margin: 0;
         margin-top: 10%;
     }
+
     .infoblock__page-9__bottom li {
-        display: inline-block;
-        list-style: none;
-        text-align: center;
         width: 32%;
     }
+
     /* 12 page*/
     .infoblock__page-12 {
         margin-top: 180%;
-        /* width: 140%; */
     }
+
     .infoblock__page-12__double__content {
         padding: 0.5rem 1.0rem;
-        /* overflow: hidden; */
-        /* padding-top: 61%; */
     }
+
     .infoblock__page-12__double__content-1 {
         padding: 0.5rem 1.0rem;
-         overflow: inherit;
+        overflow: inherit;
     }
+
     /* 13 page*/
     .infoblock .infoblock__page-13__map-planet {
-        width: 45%;
-        position: absolute;
         right: 0;
         bottom: -210%;
     }
+
     .infoblock__page-13 {
         margin-bottom: 90%;
     }
 
     /* 14 page*/
     .text-vertical-bold {
-        color: #000;
         font-size: 3.3rem;
         line-height: 3rem;
-        text-align: justify;
         margin-top: 7%;
     }
+
     .infoblock__page-14__row__column {
 
         min-height: 36rem;
     }
 
-
 }
-@media all and (min-width: 1200px) and (max-width: 1300px){
+
+@media all and (min-width: 1200px) and (max-width: 1300px) {
 
     .infoblock .infoblock__page-6__block-header1 {
-        margin-top: 20%;
+        margin-top: 35%;
 
     }
+
     .infoblock__page-9__center__text--margin {
 
         width: 54%;
     }
+
     .infoblock .infoblock__page-9__center__img {
 
         width: 60%;
 
     }
+
+    .infoblock__page-11__for-study-p {
+        width: 33%;
+        margin-right: 3%;
+        margin-top: 0;
+
+    }
+
     .infoblock__page-9__nav {
         padding-top: 6%;
 
     }
+
     .infoblock__page-12 {
         margin-top: 200%;
     }
+
     .infoblock__page-13 {
         margin-bottom: 110%;
     }
+    div .infoblock__page-3__block_text23 {
+        margin-top: 0;
+    }
 }
-
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
 
     /* 1 page*/
     .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
         font-size: 1.7rem;
-        color: #000000;
         padding: 0%;
     }
+    .infoblock .infoblock__page-6__block-header1 {
 
+        margin-top: 35%;
+        width: 49%;
+    }
+    .infoblock ul li {
+        line-height: 19px;
+    }
+    div .infoblock__page-3__diagram {
+
+        margin-top: 15%;
+
+    }
     .infoblock div .infoblock__page-1__h2__p p {
-        text-align: center;
         font-size: 1.1rem;
     }
 
@@ -1794,27 +1811,95 @@ tr th {
 
     div .infoblock__page-3__diagram {
         width: 48%;
-        float: left;
         margin-top: 45%;
         margin-left: 2%;
     }
 
     .infoblock__page-3__block-3 {
-        position: absolute;
         bottom: 37%;
     }
 
     .infoblock__page-3 .small-brochure-title-center {
-        color: #000;
         font-size: 3.3rem;
         /* line-height: 38rem; */
-        text-align: center;
         /* padding: 14rem 0 10rem; */
         padding-bottom: 0%;
     }
 
     .infoblock__page-3 {
         padding-bottom: 100%
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1100px) {
+    .infoblock__page-9__top__h1 {
+        font-size: 4.4rem;
+    }
+
+    div .infoblock__page-3__diagram {
+        margin-top: 20%;
+
+
+    }
+
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 46%;
+    }
+    .infoblock__page-9__center__text--margin {
+        padding-top: 4%;
+
+    }
+
+    .infoblock .infoblock__page-9__center__img {
+        width: 65%;
+        margin-top: 20%;
+    }
+
+    .infoblock__page-9__bottom li {
+        width: 32%;
+    }
+
+    .infoblock__page-11__for-study-p {
+        width: 33%;
+        margin-right: 3%;
+        margin-top: 0;
+    }
+
+    .infoblock__page-3 {
+        padding-bottom: 64%;
+    }
+    .infoblock__page-11 {
+        padding-bottom: 56%;
+    }
+    .infoblock__page-12__double__content-1 {
+        overflow: initial;
+    }
+    .infoblock .infoblock__page-13__map-planet {
+        bottom: -209%;
+    }
+    .infoblock__page-13 {
+        margin-bottom: 110%;
+    }
+    .infoblock__page-14__row__column {
+        min-height: 38rem;
+    }
+    .width-td {
+        width: 5%;
+    }
+    .text-vertical-bold {
+        margin-top: 8%;
+    }
+    .infoblock .infoblock__page-7__margin-top {
+        margin-top: 8%;
+    }
+    .infoblock .infoblock__page-6__block-header1 {
+        margin-top: 38%;
+    }
+    .infoblock__page-12 {
+        margin-top: 140%;
+    }
+    .infoblock .infoblock__page-5__margin-text {
+        margin-right: 46%;
     }
 }
 
