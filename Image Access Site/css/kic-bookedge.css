@@ -21,17 +21,19 @@
 
 #columns_header {
     width: 100%;
-    float:left;
+    float: left;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
     margin: 1%;
 }
+
 .two_columns {
     width: 45%;
-    margin: 1% 2.5% 0 2.5%;
+    margin: 1% 1% 0 1%;
     float: left;
 }
+
 #dlsg_logo {
     width: 320px;
 }
@@ -50,8 +52,6 @@
     text-align: center;
     font-style: italic;
 }
-
-
 
 /*fleet manager page*/
 
@@ -182,4 +182,42 @@
     right: 0;
 }
 
+.tech_details_img {
+    width: 50% !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+.tech_details_table {
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+#bookedge_big_scanner {
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+#bookedge_small_scanner {
+    width: 60%;
+}
+
+#scanner_image_sign {
+    margin-left: 40%;
+    margint-top: -60%;
+}
+
+.wide_tech_details_table {
+    margin-left: 1%;
+    width: 98%;
+    text-align: center;
+}
+
+.padding_table {
+    margin-top: 3%;
+}
 /*end fleet manager page*/

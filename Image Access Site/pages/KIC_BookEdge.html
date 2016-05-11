@@ -25,12 +25,48 @@
     <link rel="stylesheet" type="text/css" href="../css/kic-fleetmanager.css"/>
     <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
 
+    <link rel="stylesheet" type="text/css" href="../css/pod.css">
+    <link rel="stylesheet" type="text/css" href="../css/frame8.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/in_case_you_didnt_know.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/bokeye-vs-copiers.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/kic-bookeye-4.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/PDFJAL.css">
+    <link rel="stylesheet" type="text/css" href="../css/media_screen.css">
+
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
 </head>
 <body class="gradient">
 <header>
     <div id="includeHeader"></div>
+    <script>
+        function IsIE() {
+            var ms_ie = false;
+            var ua = window.navigator.userAgent;
+            var old_ie = ua.indexOf('MSIE ');
+            var new_ie = ua.indexOf('Trident/');
+
+            if ((old_ie > -1) || (new_ie > -1)) {
+                ms_ie = true;
+            }
+
+            return ms_ie;
+        }
+        onload = function () {
+            if (IsIE()) {
+                var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
+
+                for (var i = 0; i < 2;) {
+                    rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
+                    rainbowTextDivs[i].removeAttribute("class");
+                }
+            }
+        }
+    </script>
 </header>
 <div class="content">
     <div class="logo">
@@ -110,248 +146,248 @@
                 </div>
             </div>
         </div>
-        <!--
-       <div class="page_container">
-           <h2 class="brochure-title-center">KIC Serves Over Half of Students at Universities in America</h2>
-           <p>
-               In the U.S. alone, KIC serves over four million students at the top "brick and mortar" (non-online)
-               colleges and universities. With the introduction of the KIC BookEdge, KIC Click, and KIC Click Mini,
-               KIC is now affordable for virtually all institutions of higher learning and full-service public
-               libraries. Last decade, libraries typically 'added' several KICs, but since 2010 libraries have begun to
-               replace their entire patron-use copier fleets with self-serve book scanning systems.
-           </p>
-           <img src="../images/JPGs%20for%20KIC%20Bookeye%204%20Brochure/KIC Brochure 2_image.png" alt="">
-           <h2 class="brochure-title-center">A True Digital Age Multifunction System for Academic &amp; Public
-               Libraries</h2>
-           <img id="scan-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/ScanDiagram.png" alt="">
-           <h2>Book Scanning</h2>
-           <p>
-               Students at academic libraries want speed, and DLSG offers the fastest book scanners on the market.
-               Patrons at public libraries need simplicity, and KIC provides three of the simplest possible user
-               interfaces, one exclusively for scanning, one exclusively for copying and one exclusively for faxing.
-               And KIC's best-of-breed power user interface is only a touch away.
-           </p>
-           <img id="copy-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/CopyDiagram.png" alt="">
-           <h2>Copier Replacement</h2>
-           <p>
-               While multifunction copiers are partly digital, they are big mechanical machines with big maintenance
-               issues and tiny touch screens. As a copier replacement, KIC eliminates copier failure/service problems
-               and provides very large touch screens and view screens that are larger still. Organizing (collating,
-               clipping, rotating, etc.) pages on a huge touch screen is much easier than shuffling paper.
-           </p>
-           <p>
-               The digital age has steadily driven down the demand in libraries for paper copies to levels that make
-               it increasingly difficult to justify copiers. KIC self-service scanning systems reduce copier use
-               further
-               — to the point that attaching a small laser or ink jet printer is sufficient.
-               <img id="fax-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/FaxDiagram.png"
-                    alt="">
-               KIC systems also handle
-               much larger materials than copiers, and they scan books without damaging them. However, the most
-               compelling
-               benefit of KIC over copiers is KIC's speed, due mainly to its face-up scanning design, which is not only
-               significantly faster, but far easier to use.
-           </p>
-           <h2>Self-Serve Fax</h2>
-           <p>
-               KIC's huge touch screen and larger view screen make faxing extra easy. Users can compose, review, clip,
-               crop and change brightness and contrast of the pages of a fax before sending. KIC's step-by-step process
-               is
-               designed for easy operation by even the most timid users. All you need is an internet connection, and
-               DLSG
-               will provide the rest at a cost so low that fax revenue can pay for the KIC system in a few years or
-               less.
-           </p>
-           <div class="columnKIC_Bookeye_4">
-               <img id="hand-yellow-coin"
-                    src="../images/JPGs for KIC Click &amp; Click Mini Brochure/HandWithYellowCoin.png" alt="">
-               <h2 class="label4">KIC Coins</h2>
-               <p class="texting2">
-                   All KIC systems are compatible with all standard copy card and coin-op devices. Since KIC transfers
-                   images to users' computers electronically, costly expendables are avoided, even for color!
-                   The library can opt to keep all revenue it collects.
-               </p>
-           </div>
-       </div>
 
-       <div class="page_container">
-           <h2 class="brochure-title-center">KIC Makes Your Print Collections Searchable</h2>
+        <div class="page_container">
+            <h2 class="brochure-title-center">KIC Serves Over Half of Students at Universities in America</h2>
+            <p>
+                In the U.S. alone, KIC serves over four million students at the top "brick and mortar" (non-online)
+                colleges and universities. With the introduction of the KIC BookEdge, KIC Click, and KIC Click Mini,
+                KIC is now affordable for virtually all institutions of higher learning and full-service public
+                libraries. Last decade, libraries typically 'added' several KICs, but since 2010 libraries have begun to
+                replace their entire patron-use copier fleets with self-serve book scanning systems.
+            </p>
+            <img src="../images/JPGs%20for%20KIC%20Bookeye%204%20Brochure/KIC Brochure 2_image.png" alt="">
+            <h2 class="brochure-title-center">A True Digital Age Multifunction System for Academic &amp; Public
+                Libraries</h2>
+            <img id="scan-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/ScanDiagram.png" alt="">
+            <h2>Book Scanning</h2>
+            <p>
+                Students at academic libraries want speed, and DLSG offers the fastest book scanners on the market.
+                Patrons at public libraries need simplicity, and KIC provides three of the simplest possible user
+                interfaces, one exclusively for scanning, one exclusively for copying and one exclusively for faxing.
+                And KIC's best-of-breed power user interface is only a touch away.
+            </p>
+            <img id="copy-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/CopyDiagram.png" alt="">
+            <h2>Copier Replacement</h2>
+            <p>
+                While multifunction copiers are partly digital, they are big mechanical machines with big maintenance
+                issues and tiny touch screens. As a copier replacement, KIC eliminates copier failure/service problems
+                and provides very large touch screens and view screens that are larger still. Organizing (collating,
+                clipping, rotating, etc.) pages on a huge touch screen is much easier than shuffling paper.
+            </p>
+            <p>
+                The digital age has steadily driven down the demand in libraries for paper copies to levels that make
+                it increasingly difficult to justify copiers. KIC self-service scanning systems reduce copier use
+                further
+                — to the point that attaching a small laser or ink jet printer is sufficient.
+                <img id="fax-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/FaxDiagram.png"
+                     alt="">
+                KIC systems also handle
+                much larger materials than copiers, and they scan books without damaging them. However, the most
+                compelling
+                benefit of KIC over copiers is KIC's speed, due mainly to its face-up scanning design, which is not only
+                significantly faster, but far easier to use.
+            </p>
+            <h2>Self-Serve Fax</h2>
+            <p>
+                KIC's huge touch screen and larger view screen make faxing extra easy. Users can compose, review, clip,
+                crop and change brightness and contrast of the pages of a fax before sending. KIC's step-by-step process
+                is
+                designed for easy operation by even the most timid users. All you need is an internet connection, and
+                DLSG
+                will provide the rest at a cost so low that fax revenue can pay for the KIC system in a few years or
+                less.
+            </p>
+            <div class="columnKIC_Bookeye_4">
+                <img id="hand-yellow-coin"
+                     src="../images/JPGs for KIC Click &amp; Click Mini Brochure/HandWithYellowCoin.png" alt="">
+                <h2 class="label4">KIC Coins</h2>
+                <p class="texting2">
+                    All KIC systems are compatible with all standard copy card and coin-op devices. Since KIC transfers
+                    images to users' computers electronically, costly expendables are avoided, even for color!
+                    The library can opt to keep all revenue it collects.
+                </p>
+            </div>
+        </div>
 
-           <h3 class="infoblock__block-title">Search hundreds of pages of PDF or text files created in just minutes
-               using
-               KIC Click Mini</h3>
+        <div class="page_container">
+            <h2 class="brochure-title-center">KIC Makes Your Print Collections Searchable</h2>
 
-           <div class="infoblock__text-block">
+            <h3 class="infoblock__block-title">Search hundreds of pages of PDF or text files created in just minutes
+                using
+                KIC Click Mini</h3>
 
-               <p class="block_text1">Users need only locate the volume(s) that they expect to contain
-                   the information they are seeking, scan selected sections and
-                   output either a searchable PDF file or a text file. These files can
-                   easily be searched for various keywords.</p>
+            <div class="infoblock__text-block">
 
-               <p class="block_text1">Keyword searching is becoming an indispensable capability that
-                   significantly improves the quality and efficiency of researching
-                   print collections.</p>
-           </div>
-           <div class="infoblock__text-block-2">
+                <p class="block_text1">Users need only locate the volume(s) that they expect to contain
+                    the information they are seeking, scan selected sections and
+                    output either a searchable PDF file or a text file. These files can
+                    easily be searched for various keywords.</p>
 
-               <ul class="blue-bullet">
+                <p class="block_text1">Keyword searching is becoming an indispensable capability that
+                    significantly improves the quality and efficiency of researching
+                    print collections.</p>
+            </div>
+            <div class="infoblock__text-block-2">
 
-                   <li>Access more sources DIGITALLY</li>
+                <ul class="blue-bullet">
 
-                   <li>Find information faster</li>
+                    <li>Access more sources DIGITALLY</li>
 
-                   <li>Deliver results in digital form</li>
+                    <li>Find information faster</li>
 
-                   <li>Get your research in digital form</li>
+                    <li>Deliver results in digital form</li>
 
-               </ul>
+                    <li>Get your research in digital form</li>
 
-           </div>
+                </ul>
 
-           <div>
-               <div class="infoblock__block">
+            </div>
 
-                   <img class="infoblock__number"
-                        src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_1.png">
+            <div>
+                <div class="infoblock__block">
 
-                   <div class="infoblock__block-1">
+                    <img class="infoblock__number"
+                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_1.png">
 
-                       <p class="block_text2">Scan selected excerpts from
-                           multiple sources in just minutes.</p>
+                    <div class="infoblock__block-1">
 
-                   </div>
+                        <p class="block_text2">Scan selected excerpts from
+                            multiple sources in just minutes.</p>
 
-                   <img class="infoblock__img"
-                        src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_devices.png">
+                    </div>
 
-               </div>
+                    <img class="infoblock__img"
+                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_devices.png">
 
-               <div class="infoblock__block">
+                </div>
 
-                   <img class="infoblock__number"
-                        src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_2.png">
+                <div class="infoblock__block">
 
-                   <div class="infoblock__block-1">
+                    <img class="infoblock__number"
+                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_2.png">
 
-                       <p class="block_text2">Output text or searchable PDF
-                           directly to a tablet, e-reader, PC
-                           or smart phone.</p>
+                    <div class="infoblock__block-1">
 
-                   </div>
+                        <p class="block_text2">Output text or searchable PDF
+                            directly to a tablet, e-reader, PC
+                            or smart phone.</p>
 
-                   <img class="infoblock__img"
-                        src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_images.png">
+                    </div>
 
-               </div>
+                    <img class="infoblock__img"
+                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_images.png">
 
-           </div>
+                </div>
 
-           <div class="infoblock__relative-block">
+            </div>
 
-               <img class="infoblock__img" id="infoblock__man_pdf"
-                    src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_men.png">
+            <div class="infoblock__relative-block">
 
-               <div class="infoblock__block-3">
+                <img class="infoblock__img" id="infoblock__man_pdf"
+                     src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_men.png">
 
-                   <img class="infoblock__number"
-                        src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_3.png">
+                <div class="infoblock__block-3">
 
-                   <div>
+                    <img class="infoblock__number"
+                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/KIC Click and Click Mini Brochure3_3.png">
 
-                       <p class="block_text2">Search all scanned pages
-                           in an instant for various
-                           key words and...</p>
-                   </div>
-               </div>
-           </div>
-       </div>
-       <div class="page_container">
-           <div class="row-style">
-               <section>
-                   <h2 class="section-header">No More Book Spine Damage!</h2>
-                   <p>
-                       Thick books with stiff spines and content that runs deep into the bookfold are often damaged
-                       when
-                       copied. KIC BookEdge easily captures content well into the bookfold without damaging the spine.
-                       <img class="float-image-right section-1-image"
-                            src="../images/KIC_BookEdge/sec_1_img_1.png" alt="sec_1_img_1">
-                       Black edges are automatically removed and content is straightened, producing clean, professional
-                       looking images &mdash; important for electronic reserves, course curriculum materials and
-                       research
-                       reports. These automatic image treatment functions also save a lot of faculty, administrator,
-                       and
-                       student time.
-                   </p>
-                   <figure>
-                       <img src="../images/KIC_BookEdge/sec_1_img_2.png" alt="sec_1_img_2">
-                       <figcaption class="cursive-text-smaller-center">The scan-to-the-edge feature avoids damage to
-                           book
-                           bindings
-                       </figcaption>
-                   </figure>
-               </section>
-               <section>
-                   <h2 class="section-header section-header--left">Compatible with Copy Card <br>& Cash Systems</h2>
-                   <img class="float-image-right section-2-image" src="../images/KIC_BookEdge/sec_2_img_1.png"
-                        alt="sec_2_img_1">
-                   <p>All KIC systems are compatible with all standard copy card and coin-op devices. Since KIC
-                       transfers
-                       images to users' computers electronically, costly expendables are avoided, even for color! The
-                       library can opt to keep all revenue it collects.
-                   </p>
-               </section>
-               <section>
-                   <h2 class="section-header section-header--left">Charge for Prints Only...</h2>
-                   <p>
-                       or charge more for prints, less for images. When it comes to cost recovery, KIC systems have got
-                       you
-                       covered. KIC's fee administration feature lets you charge different amounts for color, B&W, 8.5
-                       x
-                       11" and 11 x 17" images.
-                   </p>
-               </section>
-               <section id="background-image">
-                   <h2 class="section-header section-header--left">Copy Card Compatibility</h2>
-                   <div>
-                       <div class="row-style-small">
-                           <p>ITC Systems 1010</p>
-                           <p>NetLink</p>
-                           <p>ITC Systems 7010</p>
-                           <p>NetLink</p>
-                           <p>Access Control</p>
-                           <p>Devices EX2000</p>
-                           <p>Blackboard</p>
-                           <p>CR1120</p>
-                           <p>Blackboard</p>
-                           <p>CR1122</p>
-                           <p>Blackboard</p>
-                           <p>CR300</p>
-                           <p>
-                           <pre>CBord  C2005</pre>
-                           </p>
-                           <p>Diebold C2005</p>
-                           <p>Copicard CX125</p>
-                       </div>
-                       <div class="row-style-small">
-                           <p>Danyl Systems</p>
-                           <p>Copy terminal</p>
-                           <p>Debitek DCT Fam-</p>
-                           <p>ily of readers</p>
-                           <p>General Meters</p>
-                           <p>DCT-2</p>
-                           <p>Jarnex 7110</p>
-                           <p>Pharos PS100</p>
-                           <p>Pharos Omega</p>
-                           <p>series rerminals</p>
-                           <p>Vendapin 5500</p>
-                           <p>Vendapin 5596</p>
-                           <p>Virtual Cash Vend-</p>
-                           <p>ing Terminals</p>
-                           <p>
-                           <pre> </pre>
-                           </p>
-                       </div>
-                   </div>
+                    <div>
+
+                        <p class="block_text2">Search all scanned pages
+                            in an instant for various
+                            key words and...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page_container">
+            <div class="row-style">
+                <section>
+                    <h2 class="section-header">No More Book Spine Damage!</h2>
+                    <p>
+                        Thick books with stiff spines and content that runs deep into the bookfold are often damaged
+                        when
+                        copied. KIC BookEdge easily captures content well into the bookfold without damaging the spine.
+                        <img class="float-image-right section-1-image"
+                             src="../images/KIC_BookEdge/sec_1_img_1.png" alt="sec_1_img_1">
+                        Black edges are automatically removed and content is straightened, producing clean, professional
+                        looking images &mdash; important for electronic reserves, course curriculum materials and
+                        research
+                        reports. These automatic image treatment functions also save a lot of faculty, administrator,
+                        and
+                        student time.
+                    </p>
+                    <figure>
+                        <img src="../images/KIC_BookEdge/sec_1_img_2.png" alt="sec_1_img_2">
+                        <figcaption class="cursive-text-smaller-center">The scan-to-the-edge feature avoids damage to
+                            book
+                            bindings
+                        </figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h2 class="section-header section-header--left">Compatible with Copy Card <br>& Cash Systems</h2>
+                    <img class="float-image-right section-2-image" src="../images/KIC_BookEdge/sec_2_img_1.png"
+                         alt="sec_2_img_1">
+                    <p>All KIC systems are compatible with all standard copy card and coin-op devices. Since KIC
+                        transfers
+                        images to users' computers electronically, costly expendables are avoided, even for color! The
+                        library can opt to keep all revenue it collects.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-header section-header--left">Charge for Prints Only...</h2>
+                    <p>
+                        or charge more for prints, less for images. When it comes to cost recovery, KIC systems have got
+                        you
+                        covered. KIC's fee administration feature lets you charge different amounts for color, B&W, 8.5
+                        x
+                        11" and 11 x 17" images.
+                    </p>
+                </section>
+                <section id="background-image">
+                    <h2 class="section-header section-header--left">Copy Card Compatibility</h2>
+                    <div>
+                        <div class="row-style-small">
+                            <p>ITC Systems 1010</p>
+                            <p>NetLink</p>
+                            <p>ITC Systems 7010</p>
+                            <p>NetLink</p>
+                            <p>Access Control</p>
+                            <p>Devices EX2000</p>
+                            <p>Blackboard</p>
+                            <p>CR1120</p>
+                            <p>Blackboard</p>
+                            <p>CR1122</p>
+                            <p>Blackboard</p>
+                            <p>CR300</p>
+                            <p>
+                            <pre>CBord  C2005</pre>
+                            </p>
+                            <p>Diebold C2005</p>
+                            <p>Copicard CX125</p>
+                        </div>
+                        <div class="row-style-small">
+                            <p>Danyl Systems</p>
+                            <p>Copy terminal</p>
+                            <p>Debitek DCT Fam-</p>
+                            <p>ily of readers</p>
+                            <p>General Meters</p>
+                            <p>DCT-2</p>
+                            <p>Jarnex 7110</p>
+                            <p>Pharos PS100</p>
+                            <p>Pharos Omega</p>
+                            <p>series rerminals</p>
+                            <p>Vendapin 5500</p>
+                            <p>Vendapin 5596</p>
+                            <p>Virtual Cash Vend-</p>
+                            <p>ing Terminals</p>
+                            <p>
+                            <pre> </pre>
+                            </p>
+                        </div>
+                    </div>
                 </section>
                 <p class="cursive-text-smaller-left">
                     New models from major system vendors are supported as they become
@@ -573,7 +609,648 @@
                 </li>
             </ul>
         </div>
-        -->
+        <div class="page_container">
+            <span class=" text-grey-pbd"><span class="new-red">NEW</span></span>
+            <div class="content__pod">
+                <div class="pbd--frame">
+                    <img class="img-preview" src="../images/frames/pod-logo.png" alt="logo-pbd">
+                    <p class="frame--text">Printing books has never been easier! With KIC's new Print On Demand
+                        functionality, patrons can quickly and easily order printed books of photo albums, scrapbooks,
+                        photos,
+                        recipe cards, book excerpts, loose papers, newspaper & magazine articles, and more.
+                    </p>
+                    <p class="frame--text">Clip, crop, rearrange pages and then choose the kind of book, pages and
+                        quantity
+                        desired. Order your original book(s) using Kits simple "shop-online" interface to find the best
+                        value
+                        and pay with your credit card. Your books will be printed, packaged and shipped to you within
+                        days!
+                    </p>
+                </div>
+                <div class="pod__library">
+                    <h2 class="pod-text">Bring Many New Patrons to the Library with Print on Demand Made Easy</h2>
+                    <img class="library__img" src="../images/frames/pod.jpg" alt="pod">
+                </div>
+            </div>
+            <section class="custom__aline">
+                <h2 class="custom__aline--pt pod-text">Make a Coffee Table Book of Photo Collections</h2>
+                <img src="../images/frames/dirl_yong.png" alt="girl">
+            </section>
+            <section class="custom__aline">
+                <h2 class="custom__aline--pt pod-text">Print an Unabridged Book of Family Recipes</h2>
+                <img src="../images/frames/old_woman.png" alt="grandmother">
+            </section>
+            <section class="custom__aline">
+                <h2 class="custom__aline--pt pod-text">Print a Book of Your Family Vacation</h2>
+                <img src="../images/frames/boy.png" alt="man">
+            </section>
+            <section class="custom__aline">
+                <h2 class="custom__aline--pt pod-text">Print a Photo Album of Old Family Photos</h2>
+                <p class="custom__aline--text">Scan your family photos and save them from fading and decaying. Annotate,
+                    clip, crop, add subtitles,
+                    dates, names, and comments to preserve your family history for future generations. It can all be
+                    done
+                    in a few hours at your public library with KIC’s POD feature - Print on Demand!</p>
+                <img src="../images/frames/photos.png" alt="photo">
+            </section>
+        </div>
+        <div class="page_container">
+            <div class="infoblock__double">
+                <strong class="in-case-strong">In case you didn't know...<br></strong>
+                <span class="in-case-span">...what you can do with scanned images</span>
+                <div class="infoblock__double__content">
+                    <span class="in-case-span--center">Enhance Reports</span>
+                    <div class="infoblock__double__content__double">
+                        <img class="in-case-enhance" src="../images/In_Case_You_Didnt_Know/enchance_report.png" width=""
+                             height=""
+                             alt="Enhance Reports">
+                    </div>
+                    <div class="infoblock__double__content__double">
+                        <p>Place books face-up on KIC Bookeye 4's large bed & capture two pages at a time - <i>much</i>
+                            faster
+                            than flatbed scanners and copiers.</p>
+                        <p>Use whole pages or clip selected pictures, graphs, test, etc. using KIC's large touch
+                            screen.</p>
+                        <p>Save scanned images to USB flash drive or cloud storage, send them via email address or
+                            transfer
+                            images directly to a tablet, notebook PC, or smart phone.</p>
+                        <img src="../images/In_Case_You_Didnt_Know/enchance_report_006.png" width="296" height="92"
+                             alt="Enhance Reports"/>
+                        <p>Enhance reports in a word processing program. Drag de-seried images from a flash drive, Cloud
+                            storage
+                            or email directly into a word processing program, or save images to your computer desktop
+                            and
+                            use
+                            the 'insert picture' function.</p>
+                        <p>Once images are imported into a word processing program, you may want to resize or reposition
+                            them or
+                            select from several ways that your text can wrap around the pictures.</p>
+                    </div>
+                </div>
+                <div class="infoblock__double__content">
+                    <span class="in-case-span--center">Personal & Family Documents</span>
+                    <div class="infoblock__double__content__double">
+                        <img class="in-case-enhance" src="../images/In_Case_You_Didnt_Know/personal_document.png"
+                             width="183" height="184"
+                             alt="Personal and Family Documents">
+                    </div>
+                    <div class="infoblock__double__content__double">
+                        <p>Library patrons bring loose paper from home to scan, fax and send via email or save to a USB
+                            device.
+                            A $5 USB thumb drive can store thousands of important documents.</p>
+                    </div>
+                    <p class="in-case-p--italic">Many citizens don't have a safe, reliable place to store and organize
+                        their
+                        important documents.
+                        Documents scanned at the local library can be viewed with any low cost smart phone.</p>
+                </div>
+            </div>
+            <div class="infoblock__double">
+                <div class="infoblock__double__content">
+                    <span class="in-case-span--center">For Study</span>
+                    <img class="in-case-enhance--left" src="../images/In_Case_You_Didnt_Know/for_study_001.png"
+                         width="342"
+                         height="319"
+                         alt="For Study">
+                    <p class="for-study-p">Quickly scan many pages to take with you and study at your convenience in the
+                        comfort of your home where you can read, search, markup, and print at your leisure</p>
+                    <div class="infoblock__double__content__double left-text">
+                        <span>Book Excerpts</span>
+                        <p class="for-study-text">With KIC in your library, instructors are no longer restricted to a
+                            single
+                            text book. They can
+                            freely assign many excerpts from many books without adding to the students' already high
+                            cost of
+                            text books.</p>
+                    </div>
+                    <div class="infoblock__double__content__double">
+                        <img class="in-case-enhance--right" src="../images/In_Case_You_Didnt_Know/for_study_002.jpg"
+                             width="258" height="239"
+                             alt="Personal and Family Documents">
+                    </div>
+                    <img src="../images/In_Case_You_Didnt_Know/for_study_003.png" width="532" height="210"
+                         alt="For Study"/>
+                </div>
+                <div class="infoblock__double__content">
+                    <span class="in-case-span--center">Scan Journals for Research</span>
+                    <img src="../images/In_Case_You_Didnt_Know/scans_journals.png" width="500" height="228"
+                         alt="Scan Journals for Research"/>
+                </div>
+                <div class="infoblock__double__content">
+                    <div class="infoblock__double__content__double">
+                        <span class="in-case-span--center">Scan Artwork</span>
+                        <img class="in-case-scan-artwork" src="../images/In_Case_You_Didnt_Know/scan_artwork.jpg"
+                             width="153" height="190"
+                             alt="Scan Artwork"/>
+                    </div>
+                    <div class="infoblock__double__content__double">
+                        <span class="in-case-span--center">Scan Large Maps & Drawings</span>
+                        <img class="in-case-scan-map" src="../images/In_Case_You_Didnt_Know/scan_map.jpg" width="197"
+                             height="189"
+                             alt="Scan Map and Drawings"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page_container">
+            <div id="KIC_Bookeye_4_KIC_Click_vs_Copiers" class="infoblock__page scrollSpy" data-spy="scroll">
+                <h2 class="brochure-title-center">KIC Bookeye vs. Copiers &ndash; How KIC Compares</h2>
+                <div class="infoblock__page-12__double-wrap">
+                    <div class="infoblock__page-12__double-wrap__column">
+                        <div class="infoblock__double__content">
+                            <h3 class="brochure-subtitle-center">Copiers are Outmoded</h3>
+                            <p>Since the first KIC was delivered to an academic library in 2004, the days of photocopiers for
+                                patron
+                                use
+                                in academic libraries and even public libraries were numbered. And now with the rapid explosion
+                                of
+                                tablet computers and electronic readers, the demand in academic libraries for electronic copies
+                                has
+                                substantially outstripped the de- mand for printed copies. The demand for electronic copies in
+                                public
+                                libraries is also reaching a tipping point.</p>
+                            <p>The ability to capture virtually unlimited numbers of pages of research into a tablet or
+                                electronic
+                                reader and search through that material on the Internet with a tablet, eReader or notebook PC
+                                that
+                                can
+                                be used just about anywhere is highly convenient and immensely valuable. In this digital age,
+                                academic
+                                libraries are compelled to go hybrid for three reasons: 1) the high demand for digital content;
+                                2)
+                                their
+                                existing print collections contain vast amounts of information that cannot be found on the
+                                Internet;
+                                and
+                                3) students are receptive to the price of electronic copies - typically free.</p>
+                            <p>So how do the costs of KIC systems compare with those of photo copiers? There are three main
+                                factors
+                                that
+                                keep the cost of photo- copies high: 1) each copy requires paper, toner and ink; 2) photo-
+                                copiers
+                                require a lot of maintenance due to the number of moving parts; and 3) all major photocopier
+                                brands
+                                use
+                                a distributed service model.</p>
+                            <p class="infoblock__page-12__double__double-p">In contrast, these costs are lower for KIC because KIC has
+                                split
+                                the
+                                scan/copy functions into three
+                                separate machines, choosing the best of breed for each. As a result, KIC offers the best book
+                                scanners
+                                by themselves or with a loose-leaf paper (ADF) scanner. Virtually any off-the-shelf laser or
+                                inkjet
+                                printer can be added to any KIC system, so you can optimize costs and speeds, and offer
+                                affordable
+                                color.</p>
+                            <figure>
+                                <img src="../images/Bookeye_vs_Copiers/printer.png " width="156"
+                                     height="176" alt="Printer"/>
+                                <figcaption>ADF attachment scans 40 loose-leaf pages/min (20 sheets per minute)</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="infoblock__page-12__double__content-1">
+                            <h3 class="brochure-subtitle-center">KIC Bookeye 4 Scanners vs. Copiers</h3>
+                            <p>This graph compares the total costs of one color KIC Bookeye 4 system with three color copiers
+                                and
+                                with
+                                three black and white copiers. Both copiers are the kinds typically seen in academic libraries.
+                                One
+                                KIC
+                                Bookeye 4 is compared with three copiers because its face-up operation yields well over two
+                                times
+                                the
+                                performance of a typical copier. The costs are broken into three main areas: equipment and
+                                maintenance,
+                                consumables, and patron usage time. With KIC, electronic output is assumed to be preferred over
+                                print
+                                90% of the time. That ratio has ranged from 75-95% electronic in 2012, but is certain to rise in
+                                the
+                                future</p>
+                            <img class="infoblock__page-12__diagram" src="../images/Bookeye_vs_Copiers/diagram.png" width="486" height="428"
+                                 alt="KIC Bookeye vs. Copiers"/>
+                            <strong class="infoblock__page-12__bookeye-vs-copiers__strong">A five Year Comparison at a<br> Usage Rate of 150,000
+                                pages
+                                per year</strong>
+                            <span class="infoblock__page-12__bookeye-vs-copiers__span">The KIC numbers above represent a five-year saving in excess of $143,000!</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+                    <div class="infoblock__page-12__double-wrap__column">
+                        <div class="infoblock__page-12__double__content" style="margin-left: 2%;"></div>
+                        <h3 class="brochure-subtitle-center">No More Book Spine Damage!</h3>
+                        <div style="margin-top: 1%;">
+                            <p>Thick books with stiff spines and content that runs deep into the bookfold are often damaged when
+                                copied.
+                                KIC
+                                Bookeye 4 easily captures content without damaging book spines.
+                            </p>
+                            <div class="infoblock__page-12__double-content__text-and-picture-wrapper">
+                                <p class="infoblock__page-12__double__double-p">
+                                    KIC automatically removes black edges, straightens content, and produces clean, professional
+                                    looking
+                                    images &ndash; important for electronic reserves, course curriculum materials and research
+                                    reports.
+                                    These automatic image treatment functions also save a lot of administrator, faculty, and
+                                    student time.</p>
+                                <img class="infoblock__page-12__double__double-p" src="../images/Dlsg/KIC/Click_Page8_RedSign.png"
+                                     alt="No-copiers">
+                            </div>
+                        </div>
+
+
+                        <h3 class="brochure-subtitle-center">Thick Books...No Problem</h3>
+                        <p style="width: 90%;margin-left: 5%;"><i>KIC Bookeye 4 handles thick books beautifully. Its
+                            contourfinding laser allows it
+                            to flatten even the most curved books
+                            and produce text that is clear and undistorted. KIC automatically adds margins for print-ready image
+                            quality.</i></p>
+
+
+                        <div class="infoblock__page-12__column__bookeye-scans">
+                            <h3 class="brochure-subtitle-center">KIC Bookeye Scans 3 Times Faster</h3>
+                            <p>Statistics from five million scanning sessions across America revealed a median session length of
+                                23
+                                pages.
+                                So, most of the time spent during a KIC session is spent scanning.
+                                Face up scanning has been proven to be three times faster than face down scanning.
+                                So why is speed so important</p>
+                            <ul class="blue-bullet">
+                                <li>It's economical. One KIC Bookeye can replace multiple copiers or other face-down scanning
+                                    machines.
+                                </li>
+                                <li>It gives patrons another reason to visit your library.</li>
+                                <li>It's green. The faster it is, the more use it will get and the less the copier will be used.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="infoblock__page-12__double-wrap">
+                            <div class="infoblock__page-12__double__double-p" style="width: 60%;">
+                                <div>
+                                    <h3 class="infoblock__page-12__rainbow-text">Color Images are Free</h3>
+                                </div>
+                                <p>In the digital world, there is no paper, toner or ink, so libraries rarely charge for images,
+                                    whether black and white or color.</p>
+                            </div>
+                            <div class="infoblock__page-12__double__double-p" style="width: 38%;margin-left: 2%;">
+                                <img src="../images/Bookeye_vs_Copiers/StackOfPaper.png">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="infoblock__page-12__rainbow-text">Color Copies for Less</h3>
+                        </div>
+                        <p>
+                            Over the years, many libraries experimented with color copiers, but could never find a formula
+                            that
+                            worked. If the fees were low, patrons would copy materials with so much color that the library
+                            would
+                            spend more on ink than the fees they were collecting. If the fees were too high, the usage would
+                            be
+                            so low that the cost of the machine couldn't be justified.
+                        </p>
+                        <p>
+                            KIC calculates the amount of color in an image before it is printed. So the fee for copies with
+                            a
+                            little bit of color can be the same as the fee for black and white copies. If a copy has a lot
+                            of
+                            color, the fee can be increased in proportion to the cost of the color ink or toner. This
+                            wonderful
+                            feature should be a simple, easy byproduct of the digital age, and it is with KIC.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page_container">
+            <h2 class="brochure-title-center">KIC Bookedge Technical Specification</h2>
+            <img class="tech_details_img" src="../images/bookedge_technical.png">
+            <table class="tech_details_table">
+                <tbody>
+                <tr class="infoblock__page-13__table-bg">
+                    <th class="infoblock__page-13__th">Max Capture Area</th>
+                    <th>17 x 11.8 Inches (432 x 300 mm)</th>
+                </tr>
+                <tr>
+                    <th>Resolutions</th>
+                    <th>150, 200, 300, 400, 600 dots per inch</th>
+                </tr>
+                <tr class="infoblock__page-13__table-bg">
+                    <th>Maximum Speed</th>
+                    <th>5.0 seconds for full bed at 200 dpi 8.5 seconds for full bed at 600 dpi</th>
+                </tr>
+                <tr>
+                    <th>Dimensions (H.W.D)</th>
+                    <th>31 x 25 x 15" (787.4 x 625 x 381 mm).
+                        59 x 26.5 x 23" (1498.6 x 660.4 x 584.2 mm) with optional stand
+                    </th>
+                </tr>
+                <tr class="infoblock__page-13__table-bg">
+                    <th>Weight</th>
+                    <th>P30 lbs, 114 lbs with optional floorstand
+                    </th>
+                </tr>
+                <tr>
+                    <th>Power Consumption</th>
+                    <th>50W Stand-by, 127W Operation (printer not included)
+                    </th>
+                </tr>
+                </tbody>
+            </table>
+            <img id="bookedge_big_scanner" src="../images/KIC_BookEdge_Brochure_101.png">
+            <h2 class="brochure-title-center">KIC Technical Specifications</h2>
+            <h3 class="brochure-subtitle-center"> (Common to all KIC models)</h3>
+            <div class="two_columns">
+                <ul class="blue-bullet">
+                    <li>Copy two face-up, full-color pages with a single touch</li>
+                    <li>Create full color electronic images and/or papers copies</li>
+                    <li>Review electronic images into proper order with your fingertip</li>
+                    <li>Select file formats such as PDF, JPEG, PNG, TIFF, even MP3(audio)</li>
+                    <li>Simply place your smart device on KIC's optional SmartDoc and with <br>
+                        just two touches, you are ready very high-speed transfer.
+                    </li>
+                    <li>Sending scanned images via email is also fast and easy with hot-keys<br>
+                        that are pre-programmed with your institution's base email address.
+                    </li>
+                    <li>Output to Google Docs / Google Apps for Education and other cloud-<br>
+                        based tools can also be simplified with pre-programmed hot-keys.
+                    </li>
+                    <li>Insert a USB flash memory device and KIC auto-selects USB output.</li>
+                </ul>
+            </div>
+            <div class="two_columns">
+                <table class="wide_tech_details_table">
+                    <tbody>
+                    <tr class="infoblock__page-13__table-bg">
+                        <th class="infoblock__page-13__th">Output Color
+                            Depth</th>
+                        <th>24 bit color, 8
+                            bit grayscale</th>
+                    </tr>
+                    <tr>
+                        <th>Digital File Interfaces</th>
+                        <th>USB 2.0, email, FTP, Web/Cloud storage
+                            (e.g.
+                            Google Docs), file folder (for staff & faculty only)</th>
+                    </tr>
+                    <tr class="infoblock__page-13__table-bg">
+                        <th>Image Output
+                            Formats</th>
+                        <th>PDF, JPEG, PNG
+                            and TIFF rich text and searchable PDF (optional)</th>
+                    </tr>
+                    <tr>
+                        <th>Audio Output Format</th>
+                        <th>MP3 audio text-to-audio (optional)
+                        </th>
+                    </tr>
+                    <tr class="infoblock__page-13__table-bg">
+                        <th>Printer
+                            Interface</th>
+                        <th>10/100/1000
+                            megabit Ethernet or USB 2.0
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Printed Output Formats</th>
+                        <th>8,5 x 11", 11 x 17, simplex, duplex,
+                            color & 13 x 19" monochrome (printer not included)
+                        </th>
+                    </tr>
+                    <tr class="infoblock__page-13__table-bg">
+                        <th>                Image Treatment
+                            Functions</th>
+                        <th>Split pages
+                            (left & right), clip, crop, change
+                            brightness/contrast, change resolutions<br>
+                            (dpi), select color, grayscale, or B&W
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Lamps</th>
+                        <th>White LED's, no IR/UV emission
+                        </th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="page_container">
+            <h2 class="brochure-title-center">The KIC Product Family</h2>
+        <span class="sitalic infoblock__center--text">Your dollars go further with our complete KIC product line. Every institution would like to have at least one large KIC system. especially
+            for reading rooms and reference sections, but not all library ﬂoor locations require a large system. Our array of products lets you get as
+            many bigger systems as you need and fill out the rest with lower-cost systems.</span>
+            <div class="kic-product">
+                <div class="kic-product__row">
+                    <p class="row__title">Bookeye 4 V2</p>
+                    <div class="row__column">
+                        <img src="../images/kic-fleet/scan3.png" alt="fleet">
+                        <span class="column__mini-title">Floorstand Model</span>
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/column-scan1.png" alt="scan1">
+                    </div>
+                </div>
+                <div class="kic-product__row">
+                    <p class="row__title">Bookeye 4 V3</p>
+                    <div class="row__column">
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/book4v-2.png" alt="fleet">
+                        <span class="column__mini-title">Floorstand Model</span>
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/column-scan1.png" alt="scan1">
+                    </div>
+                </div>
+                <div class="kic-product__row">
+                    <p class="row__title">Click</p>
+                    <div class="row__column">
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/kic-klic.png" alt="fleet">
+                        <span class="column__mini-title">Floorstand Model</span>
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/click2.png" alt="scan1">
+                    </div>
+                </div>
+                <div class="kic-product__row">
+                    <p class="row__title">Click Mini</p>
+                    <div class="row__column">
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/dual-screen.png" alt="fleet">
+                        <span class="column__mini-title">Floorstand Model</span>
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/click-mini2.png" alt="scan1">
+                    </div>
+                </div>
+                <div class="kic-product__row">
+                    <p class="row__title">BookEdge</p>
+                    <div class="row__column">
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/book-edge.png" alt="fleet">
+                        <span class="column__mini-title">Floorstand Model</span>
+                        <img src="../images/JPGs%20for%20BSCAN%20ILL/book-edge2.png" alt="scan1">
+                    </div>
+                </div>
+            </div>
+            <table class="table padding_table">
+                <tr>
+                    <th class="table--ta-left">Max Scan Area</th>
+                    <th class="table-bg"><p>24.4 x 18"</p> <img class="table--img"
+                                                                src="../images/JPGs%20for%20BSCAN%20ILL/list1.png"
+                                                                alt="table"></th>
+                    <th><p>18.9 x 18"</p> <img class="table--img" src="../images/JPGs%20for%20BSCAN%20ILL/list2.png"
+                                               alt="table"></th>
+                    <th class="table-bg"><p>22 x 16"</p> <img class="table--img"
+                                                              src="../images/JPGs%20for%20BSCAN%20ILL/list3.png"
+                                                              alt="table"></th>
+                    <th><p>19.2 x 12.3"</p> <img class="table--img" src="../images/JPGs%20for%20BSCAN%20ILL/list4.png"
+                                                 alt="table"></th>
+                    <th class="table-bg"><p>17 x 11.8"</p> <img class="table--img"
+                                                                src="../images/JPGs%20for%20BSCAN%20ILL/list5.png"
+                                                                alt="table"></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Bound Volume Scanning Speed in Pages Per Minute</th>
+                    <th class="table-bg"><p>24 PPM</p> <img class="table--img"
+                                                            src="../images/JPGs%20for%20BSCAN%20ILL/list6.png" alt="table">
+                    </th>
+                    <th><p>30 PPM</p> <img class="table--img" src="../images/JPGs%20for%20BSCAN%20ILL/list7.png"
+                                           alt="table"></th>
+                    <th class="table-bg"><p>20 PPM</p> <img class="table--img"
+                                                            src="../images/JPGs%20for%20BSCAN%20ILL/list8.png" alt="table">
+                    </th>
+                    <th><p>40 PPM</p> <img class="table--img" src="../images/JPGs%20for%20BSCAN%20ILL/list9.png"
+                                           alt="table"></th>
+                    <th class="table-bg"><p>7 PPM</p> <img class="table--img"
+                                                           src="../images/JPGs%20for%20BSCAN%20ILL/list10.png" alt="table">
+                    </th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Resourse Sharing: Archive</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle green-cicle--after"></p></th>
+                    <th class="table-bg"><p class="bold-line">-</p></th>
+                    <th><p class="bold-line">-</p></th>
+                    <th class="table-bg"><p class="green-cicle green-cicle--after"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left table__arow">Project & Course Material Creation</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Price</th>
+                    <th class="table-bg"><p class="bold-dollar dollar-size-height">$</p></th>
+                    <th><p class="bold-dollar dollar-size-subheight">$</p></th>
+                    <th class="table-bg"><p class="bold-dollar dollar-size-midle">$</p></th>
+                    <th><p class="bold-dollar">$</p></th>
+                    <th class="table-bg"><p class="bold-dollar dollar-size-mini">$</p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Scalable</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Oversize Flat & Large Books</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle green-cicle--after-big"></p></th>
+                    <th class="table-bg"><p class="green-cicle green-cicle--after-big"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Face-up Scanning</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Flatbed with Book Edge</th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">120&deg; Book Cradle</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Scan Follows Book Contours</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">Face-up: Flat and V-Cradle</th>
+                    <th class="table-bg"><p class="green-cicle"><i class="fa fa-star tabl-star" aria-hidden="true"></i></p>
+                    </th>
+                    <th><p class="green-cicle"><i class="fa fa-star tabl-star" aria-hidden="true"></i></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">400 dpi Output</th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                    <th><p class="green-cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                </tr>
+                <tr>
+                    <th class="table--ta-left">600 dpi Output</th>
+                    <th class="table-bg"><p class="green-cicle"><i class="fa fa-star tabl-star-mini" aria-hidden="true"></i>
+                    </p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="cicle"></p></th>
+                    <th><p class="cicle"></p></th>
+                    <th class="table-bg"><p class="green-cicle"></p></th>
+                </tr>
+            </table>
+        <span class="align-right"><i class="fa fa-star tabl-star" aria-hidden="true"></i>
+            <i>Exclusive Feature</i> <i class="fa fa-star tabl-star-mini" aria-hidden="true">
+
+            </i> <i>Optional Feature</i>
+        </span>
+            <h2 class="bscan-ill--h2">Features Common to All KIC System</h2>
+            <table class="table__footer">
+                <tr class="table-bg">
+                    <td class="first-column">Output Formats:</td>
+                    <td>Basic PDF, JPEG, PNG, MP3 Audio(TTS), Google Docs, Cloud, Dropbox,...,
+                        USB, Email, FTP,Admin Folder, Smart Dock&trade;,Tablets, eReaders and Smart Phones.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first-column">Copier Replacement Capabilities:</td>
+                    <td>Collate, Black&White Color, Automatic Document Feeder Option, Multiple Shared Printers, Charge for
+                        Prints via Blackboard,
+                        ITC Sys, CBord, Diebold, Copicard, Danyl Sys, Debitek, Gen Meters, Jamex, Pharos, Vendapin, Virtual
+                        Cash, etc.
+                    </td>
+                </tr>
+                <tr class="table-bg">
+                    <td class="first-column">User Interface Features:</td>
+                    <td>True2Touch&trade;, Separate Preview Screen, Full-Size Preview, Large Touch Screen (24 inches), ADA
+                        Support.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first-column">Image Processing Abilities:</td>
+                    <td>Collate, Clip, Rotate, Crop, Split Left & Right Pages, Deskew, Correct Book Curve.</td>
+                </tr>
+                <tr class="table-bg">
+                    <td class="first-column">Optics:</td>
+                    <td>24 Bit Color, 300 dpi Output.</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
 <footer>
