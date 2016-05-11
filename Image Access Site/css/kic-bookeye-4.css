@@ -1669,6 +1669,12 @@ tr th {
         padding-top: 3%;
     }
 }
+@media all and (max-width: 1600px) and (min-width: 1401px){
+    .infoblock__page-14__row__column {
+
+        min-height: 540px;
+    }
+}
 
 @media all and (max-width: 1510px){
     .infoblock__page-9__center__text--padding {
@@ -1882,8 +1888,7 @@ tr th {
     }
 
     .infoblock__page-14__row__column {
-
-        min-height: 360px;
+        min-height: 490px;
     }
 
 }
@@ -2117,7 +2122,7 @@ tr th {
     }
 
     .infoblock__page-14__row__column {
-        min-height: 380px;
+        min-height: 490px;
     }
 
 
@@ -2253,7 +2258,7 @@ tr th {
 
 @media all and (max-width: 1199px) and (min-width: 1100px){
     .infoblock__page-14__row__column {
-        min-height: 400px;
+        min-height: 490px;
     }
 }
 
