@@ -424,6 +424,7 @@
     height: 185px;
     width: 50%;
     margin: 30px 0;
+    border: 1px solid red;
 }
 
 .infoblock .blocks__block-item--1 {
@@ -487,23 +488,23 @@
 }
 
 .infoblock .block__title--2 {
-    margin-top: 8px;
+    margin-top: 0;
 }
 
 .infoblock .block__title--3 {
-
+    margin-top: 0;
 }
 
 .infoblock .block__title--4 {
-
+    padding-top: 47px;
 }
 
 .infoblock .block__title--5 {
-
+    margin-top: 38px;
 }
 
 .infoblock .block__title--6 {
-
+    margin-top: 54px;
 }
 
 .infoblock .block__title--7 {
