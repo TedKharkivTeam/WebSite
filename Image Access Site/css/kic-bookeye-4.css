@@ -1092,7 +1092,7 @@ div .infoblock__page-7__block-left {
     display: inline-block;
     list-style: none;
     text-align: center;
-    width: 33%;
+    width: 32%;
 }
 
 .infoblock__page-9__bottom li p {
@@ -1731,7 +1731,7 @@ tr th {
     }
 }
 
-@media all and (min-width: 1200px) and (max-width: 1400px) {
+@media all and (max-width: 1400px) and (min-width: 1200px) {
     .infoblock__page-11__for-study-p {
         width: 33%;
         margin-right: 3%;
@@ -1858,10 +1858,6 @@ tr th {
         margin-top: 10%;
     }
 
-    .infoblock__page-9__bottom li {
-        width: 32%;
-    }
-
     /* 12 page*/
 
     .infoblock__page-12__double__content {
@@ -1925,7 +1921,7 @@ tr th {
 
     }
 }
-@media all and (min-width: 1200px) and (max-width: 1337px){
+@media all and (max-width: 1337px) and (min-width: 1200px){
     .infoblock div .infoblock__page-1__h2__p h2 {
         font-size: 2.1rem;
 
@@ -1933,6 +1929,11 @@ tr th {
     .infoblock div .infoblock__page-1__h2__p p {
         font-size: 1.4rem;
     }
+    .infoblock .infoblock__page-9__nav__img {
+
+        margin-top: 50px;
+    }
+
 }
 
 
@@ -1942,7 +1943,7 @@ tr th {
     }
 }
 
-@media all and (min-width: 1200px) and (max-width: 1300px) {
+@media all and (max-width: 1300px) and (min-width: 1200px) {
     .infoblock .infoblock__page-6__text-block {
         margin-bottom: 10%;
         margin-top: 15%;
@@ -1989,7 +1990,7 @@ tr th {
         margin-right: 5%;
     }
 }
-@media all and (min-width: 992px) and (max-width: 1200px) {
+@media all and (max-width: 1200pc) and (min-width: 992px) {
     .width-td {
         width: 4.5%;
     }
@@ -2077,7 +2078,7 @@ tr th {
     }
 }
 
-@media all and (min-width: 992px) and (max-width: 1100px) {
+@media all and (max-width: 1100px) and (min-width: 992px) {
     .infoblock__page-9__top__h1 {
         font-size: 4.4rem;
     }
@@ -2101,9 +2102,6 @@ tr th {
         margin-top: 10%;
     }
 
-    .infoblock__page-9__bottom li {
-        width: 32%;
-    }
 
     .infoblock__page-11__for-study-p {
         width: 33%;
@@ -2151,8 +2149,12 @@ tr th {
     .infoblock .infoblock__page-6__text-block {
         margin-bottom: 20%;
     }
+    .infoblock .infoblock__page-9__nav__img {
+
+        margin-top: 30px;
+    }
 }
-@media all and (min-width: 768px) and (max-width: 991px) {
+@media all and (max-width: 991px) and (min-width: 768px) {
     /* 1 page*/
     .infoblock div .infoblock__page-1__h2__p h2 {
         font-size: 1.4rem;
