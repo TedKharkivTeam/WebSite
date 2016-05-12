@@ -225,7 +225,7 @@ input, textarea {
 }
 .adr-bottom {
     position: absolute;
-    bottom: 0;
+    bottom: 2%;
     left: 2%;
 }
 
@@ -247,14 +247,34 @@ input, textarea {
 .contactus-holder__triple {
     width: 33%;
     float: left;
+
 }
+
+.contactus-holder__triple.--left {
+    padding-top: 20px;
+}
+
 .contactus-holder__triple__image--right {
-    float: right;
+    width: 100%;
+    height: 100%;
 }
-.contactus-holder__triple__image--left {
+.contactus-holder__triple__image.--left {
     float: left;
     margin-top: 20px;
+    width: 100%;
+    height: 100%;
 }
+
+.contactus-holder__triple.--center {
+    float: none;
+    margin: 40px auto 0;
+}
+
+.contactus-holder__triple.--right {
+    float: right;
+    margin-top: -260px;
+}
+
 .contactus-holder__triple__strong {
     background: url("../images/email.jpg") no-repeat;
     background-size: 20%;
@@ -266,25 +286,54 @@ input, textarea {
 }
 .contactus-holder__triple__div--text {
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 22px;
     float: left;
 }
 .contactus-holder__triple__div--contact {
     margin-top: 10px;
+    float: right;
 }
 .contactus-holder__triple__p {
     width: 100%;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .wrap-text {
     margin-bottom: 25px;
 }
 
-/*@media all and (max-width: 1720px) and (min-width: 1500px) {*/
-    /*.contactus-holder__triple.--center {*/
-        /*width: 100%;*/
-        /*text-align: center;*/
-    /*}*/
-/*}*/
+@media all and (max-width: 1755px) and (min-width: 1400px) {
+    .contactus-holder__triple__div--text {
+        font-size: 18px;
+    }
+
+    .contactus-holder__triple__div--contact span,
+    .contactus-holder__triple__div--contact a {
+        font-size: 18px !important;
+    }
+
+    .contactus-holder__triple.--left {
+        padding-top: 5%;
+    }
+}
+
+@media all and (max-width: 1430px) and (min-width: 1024px) {
+    .contactus-holder__triple__div--text {
+        font-size: 16px;
+    }
+
+    .contactus-holder__triple__div--contact span,
+    .contactus-holder__triple__div--contact a {
+        font-size: 16px !important;
+    }
+
+    .contactus-holder__triple__strong {
+        font-size: 34px;
+    }
+
+    .contactus-holder__triple.--left {
+        padding-top: 8%;
+    }
+}
