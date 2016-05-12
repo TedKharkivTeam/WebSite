@@ -1,5 +1,12 @@
+@import "../css/font-awesome.min.css";
 .infoblock img {
     height: auto;
+}
+
+.infoblock span {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: block;
 }
 .infoblock .brochure-title-center {
 color: #000;
