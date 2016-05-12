@@ -9,6 +9,14 @@
     width: 50%;
 }
 
+.infoblock .product-preview-title {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: #093C8B;
+    padding: 20px 10px;
+}
+
 .infoblock .product_preview div {
     float: left;
     width: 50%;
@@ -17,4 +25,5 @@
 
 .infoblock .product_preview div p {
     margin-top: 3%;
+    padding: 0 10px;
 }

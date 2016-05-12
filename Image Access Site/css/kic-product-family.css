@@ -1,7 +1,6 @@
 .infoblock .product_preview img {
     float: left;
     width: 50%;
-
 }
 
 .infoblock .click_and_mini_pic {
@@ -13,6 +12,14 @@
 .infoblock .product_preview {
     width: 100%;
     overflow: hidden;
+}
+
+.infoblock .product-preview-title {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: #093C8B;
+    padding: 20px 0;
 }
 
 .infoblock .product_preview img {
@@ -27,6 +34,6 @@
     margin-top: 60px;
 }
 
-.infoblock .product_preview--mover-higher{
-  margin-top: -40px;
+.infoblock .product_preview--mover-higher {
+    margin-top: -40px;
 }
