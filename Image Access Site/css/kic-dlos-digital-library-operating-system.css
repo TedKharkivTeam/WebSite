@@ -1,0 +1,193 @@
+.infoblock ul {
+    padding: 0 0 0 24px;
+    list-style: disc;
+}
+
+.infoblock ul li {
+    line-height: 24px;
+}
+
+.frame7-content {
+    overflow: hidden;
+    text-align: left;
+    padding: 0 15px;
+    padding-bottom: 3%;
+}
+
+.frame7-content__dlos {
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+}
+.frame7-content--padding{
+    padding-bottom:10%;
+}
+.frame7-content__dlos--width{
+    width: 100%;
+}
+.inf--padding--mini{
+    top:58%;
+}
+
+.dlos__logo {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.dlos-hend {
+    float: left;
+    width: 100%;
+    max-width: 200px;
+}
+
+.dlos__logo img,
+.dlos__logo ul {
+    float: left;
+    width: 49%;
+}
+
+.dlos__logo ul {
+    margin: 3px 0 0 -4px;
+    text-align: left;
+}
+
+.dlos__ul {
+    float: left;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+.dlos__ul li {
+    position: relative;
+    padding: 6px 0;
+}
+
+.dlos__ul li:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -23px;
+    background: url("../images/frames/list-style.png") no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.DLOS_Icon {
+    max-width: 200px;
+}
+
+.dlos-logo {
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 1;
+}
+
+
+.frame7-content__inform {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.wrapper-for-img {
+    padding-right: 4%;
+    position: relative;
+}
+
+.inform__images {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+    display: block;
+    margin-right: 5%;
+}
+.inf--padding {
+    padding-left: 15%;
+    position: absolute;
+    top: 72%;
+    left: 0;
+}
+
+.saw {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.saw .saw-hend {
+    width: 40px;
+}
+
+.saw h3 {
+    font-size: 30px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.saw__green-text {
+    font-style: italic;
+    font-size: 17px;
+    background: #fefffd;
+    background: -moz-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
+    background: -webkit-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
+    background: linear-gradient(to bottom, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefffd', endColorstr='#34f43d', GradientType=0);
+    display: block;
+    width: 88%;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.saw__block {
+    width: 95%;
+    margin: -10px auto 0;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.block__ul {
+    width: 24%;
+    padding: 0 4px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.infoblock .block__ul {
+    list-style: none;
+    padding: 0 4px;
+    padding-top: 10px;
+}
+
+.block__ul li {
+    color: #5d5d5d;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.block__ul li:first-child {
+    font-size: 17px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.infoblock__photo .photo__table {
+    width: 49%;
+}
+
+.infoblock__photo .photo__double {
+    margin-top: -188px;
+    width: 95%;
+}
