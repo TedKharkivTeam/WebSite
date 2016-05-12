@@ -1,11 +1,136 @@
+.gallery-wrapper {
+    display: inline-block;
+    width: 49%;
+}
+/*title frame*/
+.logo-frame-block{
+    text-align: right;
+}
+.logo-frame-block__dlsg-logo{
+    display: inline-block;
+    width: 19%;
+    padding-right: 10px;
+    border-right: 1px solid #888;
+}
+.logo-frame-block__dlsg-logo img{
+    width: 100%;
+}
+.logo-frame-block__caption{
+    display: inline-block;
+    width: 60%;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 3%;
+    background: url("../images/frames/map-bg.png") no-repeat;
+    background-size: cover;
+}
+.caption__h{
+    font-size: 6rem;
+    line-height: 1.2;
+    margin: 0;
+}
+.caption--bold{
+    font-weight: bold;
+}
+/*end of title frame*/
+/*green line*/
+.green-line{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.green-line__text {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: #517F4C;
+    background: #8ADC80;
+    display:block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.green-line__text--left {
+    padding-left: 10%;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    float: left;
+}
+.green-line__text--left::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 36px solid #8ADC80;
+    border-right: 24px solid transparent;
+    right: 0;
+    left: 100%;
+    top: 0;
+}
+.green-line__text--right {
+    padding-left: 10px;
+    padding-right: 10%;
+    position: relative;
+    text-align: right;
+    float: right;
+}
+.green-line__text--right::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 36px solid #8ADC80;
+    border-left: 24px solid transparent;
+    right: 100%;
+    top: 0;
+}
+/*end of green line*/
+
+/*grey line*/
+.text-grey {
+    display: inline-block;
+    z-index: 1;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: #fff;
+    background: #9d9d9d;
+    background: -moz-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    background: -webkit-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    background: linear-gradient(to bottom, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d9d9d', endColorstr='#6e6d6d', GradientType=0);
+    padding: 3px 3.5% 3px 5%;
+    position: relative;
+}
+.text-grey::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 97%;
+    top: 0;
+    bottom: 0;
+    background: url('../images/spryte2.png') no-repeat -1px 0;
+    background: #9d9d9d;
+    background: -moz-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    background: -webkit-linear-gradient(top, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    background: linear-gradient(to bottom, #9d9d9d 0%, #969696 3%, #959595 7%, #5a5a5a 63%, #434343 90%, #393939 97%, #6e6d6d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d9d9d', endColorstr='#6e6d6d', GradientType=0);
+    -webkit-transform: skew(-36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    transform: skew(-36deg);
+    width: 40px;
+}
+/*end of grey line*/
+
+
 .frame__logo{
     overflow: hidden;
     padding-top: 4.6%;
     padding-left: 1.2%;
 }
 .content__frame--leftside {
-    width: 50%;
+    width: 49%;
     position: relative;
+    display: inline-block;
+    vertical-align: top;
 }
 .new-design{
     position: absolute;
@@ -46,9 +171,9 @@
     top: 50%;
     -webkit-transform: translateY(50%);
     -moz-transform: translateY(50%);
-    -ms-transform: translateY(-50%);
+    -ms-transform: translateY(50%);
     -o-transform: translateY(50%);
-    /*transform: translateY(50%);*/
+    transform: translateY(50%);
 }
 .text--red {
     margin: 0;
@@ -151,7 +276,21 @@
         font-size: 3.6rem;
     }
 }
+@media all and (max-width: 1552px){
+    .caption__h{
+        font-size: 5rem;
+    }
+    .logo-frame-block__caption {
+        margin-right: 0;
+    }
+}
 @media all and (max-width: 1366px){
+    html{
+        font-size: 50%;
+    }
+    .logo-frame-block {
+        padding-bottom: 5px;
+    }
     .imgbook {
         max-width: 140px;
     }
@@ -174,7 +313,6 @@
         font-size: 3.6rem!important;
     }
     .brochure-block .text h2 {
-
         font-size: 2.6rem;
     }
 }
