@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>User's Gallery :: Image Access 2016</title>
-    <link rel="stylesheet" type="text/css" href="../css/all.css">
-     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/users-gallery.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
     <script src="../js/include.js" type="text/javascript"></script>
     <script src="../js/users-gallery-init.js" type="text/javascript"></script>
@@ -16,11 +18,13 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access"></a>
+        <a href="../index.html">
+            <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
+        </a>
         <div class="botlogo">User Gallery</div>
     </div>
     <iframe class="gallery-frame" id="mainframe" frameborder="no" src="Users_Gallery1.html"></iframe>
-    <a href="#" class="button7" onClick="changepart();">See more</a>
+    <a href="#" class="gallery-button" onClick="changepart();">See more</a>
 </div>
 <footer>
     <div id="includeFooter"></div>

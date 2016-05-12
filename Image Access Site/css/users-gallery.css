@@ -1,0 +1,25 @@
+.gallery-frame {
+    z-index: 70000;
+    height: 700px;
+    margin: -1px 0 -6px;
+}
+
+.gallery-button {
+    font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
+    position: absolute;
+    top: 340px;
+    right: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 29px;
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
