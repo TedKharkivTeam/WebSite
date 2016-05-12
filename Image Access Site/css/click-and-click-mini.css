@@ -1,4 +1,69 @@
-﻿.infoblock p {
+﻿.infoblock ul li {
+    line-height: 24px;
+}
+
+.infoblock ul {
+    padding: 0 0 0 24px;
+    list-style: disc;
+}
+.infoblock img {
+    width: 100%;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+
+.infoblock .brochure-title-center {
+color: #000;
+font-size: 3.6rem;
+line-height: 3.8rem;
+text-align: center;
+padding: 14px 0 10px;
+}
+
+.infoblock ul.blue-bullet li {
+position: relative;
+list-style: none;
+}
+
+.infoblock ul.green-bullet li {
+position: relative;
+list-style: none;
+}
+
+.infoblock .brochure-title-left {
+color: #000;
+font-size: 3.6rem;
+line-height: 3.8rem;
+text-align: left;
+padding: 14px 0 10px;
+}
+
+
+.infoblock ul.blue-bullet li:before {
+content: '';
+position: absolute;
+top: 4px;
+left: -23px;
+background: url("../images/blue-bullet.png") no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+
+.infoblock ul.green-bullet li:before {
+content: '';
+position: absolute;
+top: 4px;
+left: -23px;
+background: url("../images/green-bullet.png") no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+
+.infoblock p {
     text-align: left;
 }
 
@@ -2382,7 +2447,7 @@ h6.pod-text {
 .infoblock .kic_logo_for_versus {
     width: 12%;
     position: absolute;
-    margin-left: -32%;
+    margin-left: 2%;
     margin-top: 8%;
 }
 
