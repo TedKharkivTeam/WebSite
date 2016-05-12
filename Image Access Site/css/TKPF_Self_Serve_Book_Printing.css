@@ -1,0 +1,165 @@
+h1.pod-text {
+    font-size: 34px;
+    color: #000;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2.pod-text {
+    font-size: 26px;
+    color: #000;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0;
+	padding-top: 25px;
+}
+
+h3.pod-text {
+    font-size: 24px;
+    color: #000;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 0;
+}
+
+h4.pod-text {
+    font-size: 20px;
+    color: #000;
+}
+
+h5.pod-text {
+    color: #9C9E9F;
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+
+h6.pod-text {
+    color: #093C8B;
+    font-size: 12px;
+    margin: 9px 0 5px 0;
+}
+
+.pod-content {
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.content__bird {
+    float: right;
+    width: 55%;
+}
+
+.content__bird img {
+    width: 100%;
+    height: auto;
+}
+
+.content__pod-text p {
+    font-size: 18px;
+    padding: 20px 0 10px 20px;
+}
+
+.content__pod-text {
+    padding-top: 20px;
+}
+
+.pod-text__girl {
+    text-align: center;
+    width: 45%;
+    position: relative;
+}
+
+.pod-text__girl img {
+    width: 100%;
+    position: relative;
+}
+
+.girl__speak {
+    position: absolute;
+    top: 33px;
+    left: 79%;
+    width: 250px;
+}
+
+.infoblock .text-grey-pbd {
+    display: inline-block;
+    font-size: 22px;
+    padding: 0px 2% 0px 5%;
+}
+
+.infoblock {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.new-red {
+    color: #fff;
+    background: #ca3731;
+    font-size: 20px;
+    position: absolute;
+    left: 11px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 0;
+}
+
+.pbd--frame {
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+
+.infoblock .img-preview {
+    width: 50%;
+}
+
+.pod__library {
+    text-align: center;
+    padding: 1.2em;
+}
+
+.infoblock .library__img {
+    width: 51%;
+}
+
+.library__img {
+    width: 51%;
+}
+
+.custom__aline {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.custom__aline--pt {
+    padding-bottom: 10px;
+}
+
+.custom__aline .custom__aline--text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+.frame--text {
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+@media all and (max-width: 1366px) {
+    .pbd--frame img {
+        width: 50%;
+    }
+
+    h2.pod-text {
+        font-size: 2.2rem;
+    }
+}
