@@ -1705,9 +1705,10 @@ tr th {
 }
 
 
-@media all and (max-width: 1585px)  and (min-width: 1420px){
+@media all and (max-width: 1586px)  and (min-width: 1420px){
     .infoblock__page-1 .infoblock__page-1__header_2 {
 
+        margin-top:9px;
         margin-right: 15%;
 
     }
@@ -1727,6 +1728,7 @@ tr th {
     .infoblock__page-1 .infoblock__page-1__header_2 {
 
         margin-right: 10%;
+        margin-top:10px
 
     }
 }
@@ -1988,6 +1990,7 @@ tr th {
 @media all and (max-width:1285px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 5%;
+        margin-top:9px;
     }
 }
 @media all and (max-width: 1200pc) and (min-width: 992px) {
