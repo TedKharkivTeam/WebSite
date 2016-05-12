@@ -6,7 +6,7 @@
     background-image: -ms-repeating-linear-gradient(left, rgb(19, 60, 139) 0%, rgb(38, 46, 57) 10%, rgb(38, 46, 57) 90%, rgb(19, 60, 139) 100%);
 }
 
-@media \0screen\,screen\9 {
+@media \0screen\,screen {
     .gradient {
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff133c8b", endColorstr="#ff133c8b", GradientType=1);
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ff133c8b, endColorstr=#ff133c8b)";
