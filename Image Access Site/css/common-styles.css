@@ -1,0 +1,43 @@
+/*Technical Data Styles*/
+.technical_data_pdf {
+    width: 100%;
+    overflow: hidden;
+}
+.pdf_preview {
+    padding: 20px 0;
+}
+.back_pdf {
+    width: 70%;
+    margin: 10px;
+    float: left;
+    box-shadow: 3px 3px 5px #8E8E8E;
+}
+.back_pdf embed {
+    width: 100%;
+    float: left;
+    height: 525px;
+}
+.back_text_pdf {
+    width: 26%;
+    float: left;
+    margin: 100px 10px 0 0;
+}
+.back_text_pdf a {
+    color: #093C8B;
+    font-size: 12px;
+    font-weight: bold;
+}
+.back_text_pdf span {
+    color: #000;
+    font-size: 12px;
+    display: block;
+    font-weight:bold;
+}
+.technical_data {
+    width: 100%;
+    margin: 0;
+}
+.technical_data tbody tr th {
+    font-weight: bold;
+}
+/*end of Technical Data Styles*/
