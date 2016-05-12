@@ -95,3 +95,8 @@
     margin: 0 auto;
     display: block;
 }
+.infoblock span {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: block;
+}
