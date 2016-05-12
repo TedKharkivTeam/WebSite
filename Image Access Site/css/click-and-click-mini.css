@@ -1,4 +1,69 @@
-﻿.infoblock p {
+﻿.infoblock ul li {
+    line-height: 24px;
+}
+
+.infoblock ul {
+    padding: 0 0 0 24px;
+    list-style: disc;
+}
+.infoblock img {
+    width: 100%;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+
+.infoblock .brochure-title-center {
+color: #000;
+font-size: 3.6rem;
+line-height: 3.8rem;
+text-align: center;
+padding: 14px 0 10px;
+}
+
+.infoblock ul.blue-bullet li {
+position: relative;
+list-style: none;
+}
+
+.infoblock ul.green-bullet li {
+position: relative;
+list-style: none;
+}
+
+.infoblock .brochure-title-left {
+color: #000;
+font-size: 3.6rem;
+line-height: 3.8rem;
+text-align: left;
+padding: 14px 0 10px;
+}
+
+
+.infoblock ul.blue-bullet li:before {
+content: '';
+position: absolute;
+top: 4px;
+left: -23px;
+background: url("../images/blue-bullet.png") no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+
+.infoblock ul.green-bullet li:before {
+content: '';
+position: absolute;
+top: 4px;
+left: -23px;
+background: url("../images/green-bullet.png") no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+
+.infoblock p {
     text-align: left;
 }
 
@@ -34,12 +99,6 @@ div.article-container p {
     line-height: 1.16em;
 }
 
-div.column {
-    float: left;
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 span.caption {
     font-weight: normal;
@@ -721,11 +780,12 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
+    background: url("../images/JPGs for BSCAN ILL/arrowtable.png") no-repeat;
     top: -18px;
     left: 37px;
-    width: 44px;
-    height: 26px;
+    width: 64px;
+    height: 100%;
+    background-size: contain;
 }
 
 .bold-dollar {
@@ -1131,7 +1191,7 @@ th .table--img {
     list-style: none;
 }
 
-.infoblock ul.blue-bullet li:first-child:before {
+.infoblock ul.blue-bullet .no-bullet:first-child:before {
     background: transparent !important;
 }
 
@@ -1754,9 +1814,8 @@ h6.pod-text {
 
 #hand-with-yellow-coin {
     float: left;
-    width: 40%;
-    margin-right: 5px;
-    margin-top: -13%;
+    width: 48%;
+    padding-right: 5px;
 }
 
 #dollar-and-card {
@@ -1775,21 +1834,17 @@ h6.pod-text {
 }
 
 .infoblock .click_click_mini {
-    font-size: 55px;
-    font-weight: 800;
-    float: left;
-    padding-left: 20rem;
-    padding-top: 7rem;
-}
-
-.infoblock .click_click_mini1 {
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: 600;
     color: #0000F0;
-    float: right;
-    padding: 4rem;
 }
-
+.infoblock .brochure-overflow--line{
+    display: inline-block;
+    padding-left: 3%;
+}
+.infoblock .brochure-overflow--top{
+    padding-top:4%;
+}
 .infoblock .label2 {
     font-size: 36px;
     line-height: 38px;
@@ -1821,18 +1876,17 @@ h6.pod-text {
 }
 
 .infoblock .column {
-    width: 100%;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
 }
-
-.infoblock .texting1 {
-    margin-left: 41%;
+.infoblock .column__picture{
+    width: 10%;
 }
-
-.infoblock .label4 {
-    margin-left: 41%;
-    margin-top: 4%;
+.infoblock .images--hand{
+    width: 50%;
+    float: left;
 }
-
 .infoblock .label5 {
     margin-top: 1%;
 }
@@ -1840,7 +1894,91 @@ h6.pod-text {
 .infoblock .text4 {
 
 }
-
+.column__title{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+}
+.column__number1{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+.column__number1:before{
+    content: '';
+    position: absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -70px;
+    background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_1.png")no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+.column__number2{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+.column__number2:before{
+    content: '';
+    position: absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -70px;
+    background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_2.png")no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+.column__number3{
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+.column__number3:before{
+    content: '';
+    position: absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -70px;
+    background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_3.png")no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+.column__number4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.infoblock .map-marker{
+    font-size: 1.3rem;
+}
+.map-marker mark{
+    background: #888;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 2px;
+}
+.map-marker i{
+    vertical-align: super;
+}
 .infoblock .scanner_600 {
     width: 70%;
     margin: 0 auto;
@@ -1922,10 +2060,19 @@ h6.pod-text {
 
 .infoblock .dv_block1 {
     display: inline-block;
-    vertical-align: top;
     width: 48%;
 }
-
+.infoblock .kic_div__logos{
+    display: inline-block;
+    width: 20%;
+}
+.kic_div__text{
+    display: inline-block;
+    width: 79%;
+}
+.kic_div__text .brochure-title-left{
+    margin-left: 0;
+}
 .infoblock__top {
     overflow: hidden;
 }
@@ -2133,9 +2280,6 @@ h6.pod-text {
     font-size: 18px;
 }
 
-.infoblock .smart_image_background {
-
-}
 
 .infoblock .label_smart2 {
     font-style: italic;
@@ -2216,11 +2360,9 @@ h6.pod-text {
     border: solid 3px;
     border-radius: 2%;
     margin-top: 2%;
-    padding-Bottom: 50px;
 }
-
-.infoblock .brochure-title-left {
-    margin-left: 3%;
+.reservation__h2--center{
+    text-align: center;
 }
 
 .infoblock .label_smart9 {
@@ -2291,13 +2433,6 @@ h6.pod-text {
     margin-left: 5%;
 }
 
-.infoblock .true2_label_true {
-    font-size: 36px;
-    line-height: 38px;
-    text-align: center;
-    margin-top: 7%;
-    color: black;
-}
 
 .infoblock .img_versus_clickone {
     width: 35%;
@@ -2312,7 +2447,7 @@ h6.pod-text {
 .infoblock .kic_logo_for_versus {
     width: 12%;
     position: absolute;
-    margin-left: -32%;
+    margin-left: 2%;
     margin-top: 8%;
 }
 
@@ -2360,8 +2495,8 @@ h6.pod-text {
     font-size: 1.4rem;
     color: black;
     width: 75%;
-    margin-top: 3%;
-    margin-left: 18%;
+    margin: 3% auto 0;
+    text-align: center;
 }
 
 .infoblock .back_ground_super_click {
@@ -2514,7 +2649,7 @@ h6.pod-text {
     }
 
     .infoblock .click_click_mini {
-        padding-top: 0;
+        /*padding-top: 0;*/
     }
 
     .smart-dock__tree-img {

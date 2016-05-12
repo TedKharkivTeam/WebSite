@@ -1,41 +1,50 @@
-.infoblock{
- font-size: 16px;
+.infoblock {
+    font-size: 16px;
     position: relative;
 }
-.infoblock span, p
-{
+
+.infoblock span, p {
     font-weight: normal;
     line-height: 24px;
 }
-.infoblock strong{
+
+.infoblock strong {
     padding: 0;
 }
-.infoblock__bscan-ill{
+
+.infoblock__bscan-ill {
     text-align: left;
     position: relative;
 }
-.infoblock__bscan-ill .bscan-ill__logo{
+
+.infoblock__bscan-ill .bscan-ill__logo {
     width: 50%;
 }
-.infoblock__bscan-ill--absolut{
+
+.infoblock__bscan-ill--absolut {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
-.bscan-ill__bolt{
+
+.bscan-ill__bolt {
     display: block;
     padding: 0;
 }
-.bscan-ill__bolt--fs1{
+
+.bscan-ill__bolt--fs1 {
     font-size: 24px;
 }
-.bscan-ill__bolt--fs2{
+
+.bscan-ill__bolt--fs2 {
     font-size: 20px;
 }
-.bscan-ill--padding{
-    padding-top:4%;
+
+.bscan-ill--padding {
+    padding-top: 4%;
 }
-.bscan-ill--h2{
+
+.bscan-ill--h2 {
     font-size: 28px;
     color: #000;
     padding: 0;
@@ -43,113 +52,138 @@
     font-weight: bold;
     margin: 0;
 }
-.bscan-ill--center{
+
+.bscan-ill--center {
     text-align: center;
 }
-.bscan-ill--blu-text{
+
+.bscan-ill--blu-text {
+    display: block;
     text-align: right;
     font-size: 20px;
     color: #193791;
 }
-.bscan-ill__column{
+
+.bscan-ill__column {
     width: 49%;
     display: inline-block;
     vertical-align: top;
     padding: 10px;
 }
-.infoblock .bscan-ill--width{
+
+.infoblock .bscan-ill--width {
     width: 90%;
 }
-.bscan-ill__arrow{
+
+.bscan-ill__arrow {
     position: relative;
     display: block;
 }
-.bscan-ill__arrow:before{
+
+.bscan-ill__arrow:before {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/arrow.png") no-repeat;
-    top:0;
+    top: 0;
     left: -64px;
     width: 65px;
-    height:60px;
+    height: 60px;
 }
-.infoblock--right{
+
+.infoblock--right {
     text-align: right;
 }
-.infoblock .infoblock__title{
+
+.infoblock .infoblock__title {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     width: 40%;
     text-align: left;
-    padding:0;
+    padding: 0;
 }
-.infoblock__title li{
+
+.infoblock__title li {
     padding-top: 10px;
 }
-.title__mark{
+
+.title__mark {
     font-size: 45px;
     font-weight: bold;
     background: transparent;
 }
-.infoblock .infoblock__row{
+
+.infoblock .infoblock__row {
     display: inline-block;
     width: 40%;
     vertical-align: top;
 }
-.infoblock .woman_abs{
+
+.infoblock .woman_abs {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 25%;
+    height: 25%;
 }
-.first-li{
+
+.first-li {
     margin-right: 20%;
 }
-.two-li{
+
+.two-li {
     margin-left: 10%;
     margin-right: 10%;
 }
-.last-li{
+
+.last-li {
     margin-left: 20%;
 }
-.mark--margin{
-    margin-left:-20px;
+
+.mark--margin {
+    margin-left: -20px;
 }
-.bscan--h2{
+
+.bscan--h2 {
     text-align: center;
     font-size: 40px;
     color: #000;
-    margin:0;
-    padding:0;
-    line-height:1.2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
 }
-.infoblock__content{
+
+.infoblock__content {
     display: inline-block;
     width: 48%;
-    padding:0 5px;
+    padding: 0 5px;
     vertical-align: top;
 }
-.infoblock .content__green-arrow{
+
+.infoblock .content__green-arrow {
     padding-left: 50px;
     list-style: none;
 }
-.content__green-arrow li{
+
+.content__green-arrow li {
     position: relative;
 }
-.content__green-arrow li:before{
+
+.content__green-arrow li:before {
     position: absolute;
     content: '';
     background: url("../images/green-arrow.png") no-repeat;
-    top:0;
+    top: 0;
     left: -30px;
     width: 30px;
     height: 30px;
 }
-.seven-step{
+
+.seven-step {
     text-align: center;
     position: relative;
 }
-.seven-step:after{
+
+.seven-step:after {
     content: 'VS';
     position: absolute;
     color: #fff;
@@ -163,30 +197,36 @@
     margin: 0 -30px;
     z-index: 1;
 }
-.seven-step__h3{
+
+.seven-step__h3 {
     display: inline;
     text-shadow: none;
     color: #000;
     font-size: 24px;
-    padding-right:20%;
+    padding-right: 20%;
 }
-.infoblock .seven-step__text{
+
+.infoblock .seven-step__text {
     display: inline;
 }
-.seven-step__scan{
-    margin-top:-40px;
+
+.seven-step__scan {
+    margin-top: -40px;
 }
-.seven-step--border{
+
+.seven-step--border {
     padding: 20px;
     border: 2px solid #000;
     border-radius: 10px;
 }
-.two-step{
+
+.two-step {
     text-align: center;
     position: relative;
     margin-top: 10px;
 }
-.two-step:before{
+
+.two-step:before {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
@@ -196,42 +236,50 @@
     right: 0;
     background-size: contain;
 }
-.two-step:after{
+
+.two-step:after {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
     width: 47px;
     height: 33px;
     bottom: 0;
-    right:50%;
+    right: 50%;
 }
-.two-step--inline{
+
+.two-step--inline {
     padding: 0 4px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
 }
-.two-step--w1{
+
+.two-step--w1 {
     width: 14%;
 }
-.two-step--w2{
+
+.two-step--w2 {
     width: 35%;
 }
-.two-step--w3{
+
+.two-step--w3 {
     width: 49%;
 }
-.seven-step__h3--padding{
+
+.seven-step__h3--padding {
     padding: 0;
 }
 
-.infoblock .blue-doth{
+.infoblock .blue-doth {
     padding-left: 50px;
     list-style: none;
 }
-.blue-doth li{
+
+.blue-doth li {
     position: relative;
 }
-.blue-doth li:before{
+
+.blue-doth li:before {
     position: absolute;
     content: '';
     background: #3052ad;
@@ -244,29 +292,35 @@
     -moz-border-radius: 30px;
     box-shadow: inset 0 3px 6px #fff;
 }
-.page3__inline{
+
+.page3__inline {
     display: inline-block !important;
     padding: 0 10px;
     width: 49%;
     vertical-align: top;
 }
-.page3--right{
+
+.page3--right {
     text-align: right;
 }
-.page3__block2{
+
+.page3__block2 {
     text-align: left;
     display: inline-block;
     width: 34%;
     margin-left: 10%;
 }
-.page3__block2 i{
+
+.page3__block2 i {
     font-size: 10px;
 }
-.method1{
+
+.method1 {
     position: relative;
     text-align: center;
 }
-.method1:before{
+
+.method1:before {
     position: absolute;
     content: 'METHOD';
     font-weight: bold;
@@ -279,12 +333,14 @@
     width: 153px;
     height: 139px;
 }
-.method2{
+
+.method2 {
     position: relative;
     text-align: center;
     margin-left: 17%;
 }
-.method2:before{
+
+.method2:before {
     content: 'METHOD';
     position: absolute;
     font-weight: bold;
@@ -297,146 +353,180 @@
     width: 154px;
     height: 111px;
 }
-.page3__block3{
+
+.page3__block3 {
     background-color: #9ccdff;
     padding: 10px;
     text-align: center;
 }
-.block3__top span{
+
+.block3__top span {
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
 }
-.block3__top .top--width{
-    width:60%;
+
+.block3__top .top--width {
+    width: 60%;
 }
-.block3__top{
+
+.block3__top {
     display: inline-block;
-    width:20%;
+    width: 20%;
     vertical-align: middle;
 }
-.top--w2{
-     width: 35%;
+
+.top--w2 {
+    width: 35%;
 }
-.top--w3{
+
+.top--w3 {
     width: 43%;
     padding-left: 5px;
 }
-h3{
+
+h3 {
     font-size: 30px;
     color: #000;
     text-align: center;
 }
+
 h4 {
     font-size: 23px;
     color: #000;
     text-align: center;
     font-weight: normal;
 }
-.two-step--width1{
+
+.two-step--width1 {
     width: 60%;
 }
-.two-step--width2{
+
+.two-step--width2 {
     width: 39%;
 }
-.two-step--bottom{
+
+.two-step--bottom {
     padding-top: 20%;
 }
-.two-step--img{
+
+.two-step--img {
     position: relative;
 }
-.two-step--img .two-step__all-scan{
+
+.two-step--img .two-step__all-scan {
     position: absolute;
     top: -80px;
     left: 0;
     width: 180%;
     height: auto;
 }
-.block-grey{
+
+.block-grey {
     padding: 10px;
     border-radius: 10px;
-    border:2px solid #000;
+    border: 2px solid #000;
     text-align: center;
     background: #bfdae2;
 }
-.infoblock .block-grey__ul{
+
+.infoblock .block-grey__ul {
     margin: 0;
     padding: 0;
 }
-.block-grey__ul li{
+
+.block-grey__ul li {
     display: inline-block;
     width: 13%;
 }
+
 .block-grey__ul p {
     font-size: 12px;
     text-align: center;
-    line-height:1.2;
+    line-height: 1.2;
 }
-.center-br img{
+
+.center-br img {
     width: 20%;
 }
-.center-br .two-step--inline{
+
+.center-br .two-step--inline {
     vertical-align: top;
 }
-.block-grey__first{
+
+.block-grey__first {
     display: inline-block;
     width: 65%;
 }
-.block-grey__last{
+
+.block-grey__last {
     display: inline-block;
     width: 26%;
 }
+
 .page3__inline .inline__books {
     width: 50%;
     float: right;
     clear: both;
 }
-.infoblock__center--text{
+
+.infoblock__center--text {
     text-align: center;
 }
-.inline__mini-text{
+
+.inline__mini-text {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
-.infoblock .inline__rgb{
+
+.infoblock .inline__rgb {
     display: inline-block;
     width: 29%;
     vertical-align: super;
 }
-.inline__img-text{
+
+.inline__img-text {
     display: inline-block;
     width: 69%;
     line-height: 1;
     padding-left: 5px;
 }
-.infoblock__header{
+
+.infoblock__header {
     overflow: hidden;
 }
-.header__left{
+
+.header__left {
     float: left;
     padding-right: 25px;
 }
-.header__right .bscan--h2{
+
+.header__right .bscan--h2 {
     text-align: left;
 }
-.infoblock .rhomb{
+
+.infoblock .rhomb {
     list-style-image: url("../images/rhomb.png");
 }
-.kic-product{
+
+.kic-product {
     text-align: right;
 }
-.kic-product__row{
+
+.kic-product__row {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: calc(100%/6);
+    width: calc(100% / 6);
 }
-.kic-product .row__title{
+
+.kic-product .row__title {
     text-align: center;
     font-size: 13px;
     font-weight: bold;
 }
-.row__column{
+
+.row__column {
     padding: 10px 5px 5px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
@@ -444,7 +534,8 @@ h4 {
     box-shadow: 0 3px 6px #000;
     min-height: 500px;
 }
-.row__column .column__mini-title{
+
+.row__column .column__mini-title {
     font-size: 11px;
     margin-top: 5px;
     font-weight: bold;
@@ -452,34 +543,42 @@ h4 {
     line-height: 1.2;
     padding: 0;
 }
-.table{
+
+.table {
     width: 100%;
     padding: 20px 0;
 }
-.table th{
-    width: calc(100%/6);
+
+.table th {
+    width: calc(100% / 6);
     height: auto;
     margin: 0;
     padding: 0;
     text-align: center;
     padding-bottom: 5px;
 }
-.table p{
+
+.table p {
     text-align: center;
 }
-.table-bg{
-    background: rgba(0,0, 0, 0.1);
+
+.table-bg {
+    background: rgba(0, 0, 0, 0.1);
 }
-.table .table--ta-left{
+
+.table .table--ta-left {
     text-align: right;
     font-size: 12px;
     padding-right: 20px;
     width: 180px;
 }
-th .table--img{
+
+th .table--img {
     width: 100px;
+    height: auto;
 }
-.cicle{
+
+.cicle {
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -488,7 +587,8 @@ th .table--img{
     height: 20px;
     margin: 0 auto;
 }
-.green-cicle{
+
+.green-cicle {
     background: #40b149;
     border-radius: 100%;
     -moz-border-radius: 100%;
@@ -498,11 +598,13 @@ th .table--img{
     height: 20px;
     margin: 0 auto;
 }
-.green-cicle--after{
+
+.green-cicle--after {
     position: relative;
 
 }
-.green-cicle--after:after{
+
+.green-cicle--after:after {
     position: absolute;
     content: '';
     background: #fff;
@@ -515,9 +617,11 @@ th .table--img{
     top: -1px;
     left: -1px;
 }
-.green-cicle--after-big{
+
+.green-cicle--after-big {
     position: relative;
 }
+
 .green-cicle--after-big:after {
     position: absolute;
     content: '';
@@ -531,7 +635,8 @@ th .table--img{
     top: -1px;
     left: -1px;
 }
-.green-cicle--after-small{
+
+.green-cicle--after-small {
     position: relative;
 }
 
@@ -548,14 +653,17 @@ th .table--img{
     top: -1px;
     left: 1px;
 }
-.bold-line{
+
+.bold-line {
     font-weight: bold;
     font-size: 33px;
 }
-.table__arow{
+
+.table__arow {
     position: relative;
 }
-.table__arow:before{
+
+.table__arow:before {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
@@ -564,64 +672,89 @@ th .table--img{
     width: 44px;
     height: 26px;
 }
-.bold-dollar{
+
+.bold-dollar {
     font-weight: bold;
 }
-.dollar-size-mini{font-size: 12px;}
-.dollar-size-midle{font-size: 20px}
-.dollar-size-subheight{ font-size: 24px;}
-.dollar-size-height{font-size: 28px}
-.tabl-star{
+
+.dollar-size-mini {
+    font-size: 12px;
+}
+
+.dollar-size-midle {
+    font-size: 20px
+}
+
+.dollar-size-subheight {
+    font-size: 24px;
+}
+
+.dollar-size-height {
+    font-size: 28px
+}
+
+.tabl-star {
     margin-left: 20px;
     font-size: 13px;
     vertical-align: text-top;
     color: #e8383b;
 }
-.tabl-star-mini{
+
+.tabl-star-mini {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
     color: #e8383b;
 }
-.align-right{
+
+.align-right {
     text-align: right;
 }
-.first-column{
+
+.first-column {
     width: 200px;
     text-align: right;
 }
-.table__footer{
+
+.table__footer {
     font-size: 14px;
 }
-.graph{
+
+.graph {
     position: relative;
     text-align: center;
 }
-.graph img{
-  width: 90%;
+
+.graph img {
+    width: 90%;
 }
-.vertical-text span{
+
+.vertical-text span {
     display: inline;
 }
-.vertical-text{
+
+.vertical-text {
     position: absolute;
-    top:50%;
-    left:-50px;
+    top: 50%;
+    left: -50px;
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
-.text-area span{
+
+.text-area span {
     display: inline;
 }
-.text-area{
-    padding-top:10px;
-    padding-bottom:20px;
+
+.text-area {
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
-.selection{
+
+.selection {
     font-size: 13px;
     width: 100%;
     margin: 0 auto;
@@ -630,53 +763,65 @@ th .table--img{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.selection--bold td{
+
+.selection--bold td {
     font-weight: bold;
     background: rgba(0, 0, 0, 0.2);
 }
-.selection td{
+
+.selection td {
     text-align: center;
-    width:50px;
+    width: 50px;
 }
-.sup-text{
+
+.sup-text {
     font-size: 8px;
     vertical-align: super;
     font-weight: normal;
 }
-.selection .more-text{
-    width:96px;
+
+.selection .more-text {
+    width: 96px;
 }
-.infoblock .table-text{
+
+.infoblock .table-text {
     font-size: 13px;
     padding: 0;
     text-align: left;
 }
-.country-wrapper{
+
+.country-wrapper {
     overflow: hidden;
 }
-.country{
+
+.country {
     display: inline-block;
     float: left;
-    width:calc(100%/5);
+    width: calc(100% / 5);
     vertical-align: top;
 }
-.infoblock .country__text{
+
+.infoblock .country__text {
     font-size: 13px;
     text-align: center;
 }
-.infoblock .history__w1{
+
+.infoblock .history__w1 {
     text-align: left;
-    width:65%;
+    width: 65%;
 }
-.infoblock .history__w2{
+
+.infoblock .history__w2 {
     text-align: left;
-    width:72%;
+    width: 72%;
 }
-.history{
+
+.history {
     position: relative;
     padding-bottom: 30%;
 }
-.history:after{
+
+.history:after {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
@@ -686,38 +831,48 @@ th .table--img{
     right: 0;
     height: 90%;
 }
-.infoblock__line{
+
+.infoblock__line {
     display: inline-block;
     vertical-align: middle;
 }
-.infoblock .line--padding{
+
+.infoblock .line--padding {
     padding-bottom: 30px;
 }
-.line--midle{
+
+.line--midle {
     vertical-align: middle;
 }
-.infoblock__line--w40{
-    width:40%;
+
+.infoblock__line--w40 {
+    width: 40%;
 }
-.infoblock__line--w60{
+
+.infoblock__line--w60 {
     width: calc(60% - 10px);
 }
-.infoblock__line--border{
+
+.infoblock__line--border {
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-.infoblock .line--bold-text{
+
+.infoblock .line--bold-text {
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
 }
-.line__persent1{
+
+.line__persent1 {
     position: relative;
 }
-.line__persent4{
+
+.line__persent4 {
     position: relative;
 }
-.line__persent1:after{
+
+.line__persent1:after {
     content: '1% Libraries';
     position: absolute;
     top: 25px;
@@ -726,7 +881,8 @@ th .table--img{
     width: 78px;
     text-align: center;
 }
-.line__persent4:before{
+
+.line__persent4:before {
     content: '4% Businesses';
     position: absolute;
     left: -58px;
@@ -734,4 +890,14 @@ th .table--img{
     font-weight: bold;
     width: 99px;
     text-align: center;
+}
+
+.infoblock img.click-mini2 {
+    width: 58%;
+}
+
+.bogdan-kostil {
+    position: relative;
+    overflow: hidden;
+    padding: 25px 0;
 }

@@ -1,0 +1,145 @@
+.page3__inline{
+    display: inline-block !important;
+    padding: 0 10px;
+    width: 49%;
+    vertical-align: top;
+}
+
+.infoblock .brochure-title-left {
+color: #000;
+font-size: 3.6rem;
+line-height: 3.8rem;
+text-align: left;
+padding: 14px 0 10px;
+}
+
+.infoblock .blue-doth{
+    padding-left: 50px;
+    list-style: none;
+}
+
+.infoblock ul.blue-bullet li {
+position: relative;
+list-style: none;
+}
+
+.infoblock ul.green-bullet li {
+position: relative;
+list-style: none;
+}
+
+.infoblock ul.blue-bullet li:before {
+content: '';
+position: absolute;
+top: 4px;
+left: -23px;
+background: url("../images/blue-bullet.png") no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+
+.infoblock ul.green-bullet li:before {
+content: '';
+position: absolute;
+top: 4px;
+left: -23px;
+background: url("../images/green-bullet.png") no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+
+.page3--right{
+    text-align: right;
+}
+
+.page3__block2{
+    text-align: left;
+    display: inline-block;
+    width: 34%;
+    margin-left: 10%;
+}
+
+.method1:before {
+    font-size: 19px;
+    top: 10px;
+    line-height: 0;
+    left: -96px;
+    background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 10px 1px;
+    width: 90px;
+    background-size: contain;
+    height: 70px;
+}
+
+.method1{
+    position: relative;
+    text-align: center;
+}
+.method1:before{
+    position: absolute;
+    content: 'METHOD';
+    font-weight: bold;
+    font-size: 32px;
+    top: -10px;
+    line-height: 1;
+    left: -152px;
+    background-size: contain;
+    background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 27px 31px;
+    width: 153px;
+    height: 139px;
+}
+
+.method2:before {
+    font-size: 19px;
+    top: 10px;
+    line-height: 0;
+    left: -96px;
+    background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 10px 6px;
+    width: 90px;
+    background-size: contain;
+    height: 70px;
+}
+.method2{
+    position: relative;
+    text-align: center;
+    margin-left: 17%;
+}
+.method2:before{
+    content: 'METHOD';
+    position: absolute;
+    font-weight: bold;
+    font-size: 32px;
+    top: -10px;
+    line-height: 1;
+    left: -152px;
+    background-size: contain;
+    background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 24px 22px;
+    width: 154px;
+    height: 111px;
+}
+
+.page3__block3{
+    background-color: #9ccdff;
+    padding: 10px;
+    text-align: center;
+}
+
+.block3__top{
+    display: inline-block;
+    width:20%;
+    vertical-align: middle;
+}
+
+.block3__top .top--width{
+    width:60%;
+}
+
+.top--w2{
+    width: 35%;
+}
+
+.top--w3{
+    width: 43%;
+    padding-left: 5px;
+}

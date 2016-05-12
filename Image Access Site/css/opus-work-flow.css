@@ -5,6 +5,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0);
 }
 
+.infoblock__block-hidden{
+    overflow: hidden;
+}
+
 /*First page*/
 
 .left__link {
