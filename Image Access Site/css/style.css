@@ -725,6 +725,11 @@ body {
     text-align: justify;
 }
 
+.infoblock img {
+    width: 100%;
+    height: 100%;
+}
+
 /*end infoblock*/
 
 /*end content*/
