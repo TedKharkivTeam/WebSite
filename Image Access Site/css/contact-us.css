@@ -253,7 +253,7 @@ input, textarea {
 }
 .contactus-holder__triple__image--left {
     float: left;
-    margin-top: 109px;
+    margin-top: 20px;
 }
 .contactus-holder__triple__strong {
     background: url("../images/email.jpg") no-repeat;
@@ -266,15 +266,25 @@ input, textarea {
 }
 .contactus-holder__triple__div--text {
     text-align: right;
+    margin-right: 20px;
     font-size: 22px;
     float: left;
 }
 .contactus-holder__triple__div--contact {
-    float: left;
-    margin-left: 20px;
     margin-top: 10px;
 }
 .contactus-holder__triple__p {
     width: 100%;
     display: inline-block;
 }
+
+.wrap-text {
+    margin-bottom: 25px;
+}
+
+/*@media all and (max-width: 1720px) and (min-width: 1500px) {*/
+    /*.contactus-holder__triple.--center {*/
+        /*width: 100%;*/
+        /*text-align: center;*/
+    /*}*/
+/*}*/
