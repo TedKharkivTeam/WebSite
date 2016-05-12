@@ -895,3 +895,9 @@ th .table--img {
 .infoblock img.click-mini2 {
     width: 58%;
 }
+
+.bogdan-kostil {
+    position: relative;
+    overflow: hidden;
+    padding: 25px 0;
+}
