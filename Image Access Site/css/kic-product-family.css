@@ -1,0 +1,31 @@
+.infoblock .product_preview img {
+    float: left;
+    width: 50%;
+
+}
+
+.infoblock .click_and_mini_pic {
+    width: 37%; !important;
+    position: relative;
+}
+
+.infoblock .product_preview {
+    width: 100%;
+    overflow: hidden;
+}
+
+.infoblock .product_preview img {
+    float: left;
+    width: 50%;
+}
+
+.infoblock .product_preview div {
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+    margin-top: 60px;
+}
+
+.infoblock .product_preview--mover-higher{
+  margin-top: -40px;
+}
