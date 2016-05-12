@@ -5,8 +5,9 @@
 }
 
 .infoblock .click_and_mini_pic {
-    width: 37%; !important;
+    width: 37% !important;
     position: relative;
+    margin-left: 7%;
 }
 
 .infoblock .product_preview {

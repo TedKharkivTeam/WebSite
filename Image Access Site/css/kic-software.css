@@ -1,11 +1,11 @@
 /**By Oleg*/
-/*KIC Software Page 1*/
+/*KIC Software*/
 .infoblock__page1-Header {
     overflow: hidden;
     margin-top: 8px;
 }
 
-.infoblock__page1-Header img {
+.infoblock .infoblock__page1-Header img {
     float: left;
     width: 30%;
 }
@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.infoblock__page1-row-of-scanners {
+ .infoblock__page1-row-of-scanners {
     overflow: hidden;
     margin-right: 15%;
     margin-left: 15%;
@@ -30,7 +30,7 @@
     z-index: 3;
 }
 
-.infoblock__page1-row-of-scanners img {
+.infoblock .infoblock__page1-row-of-scanners img {
     float: left;
     width: 18%;
     margin-left: 2%;
@@ -61,7 +61,7 @@
     margin-top: 1%;
 }
 
-.infoblock__page1-row-of-scanners-bottom img {
+.infoblock .infoblock__page1-row-of-scanners-bottom img {
     float: left;
     width: 18%;
     margin-left: 2%;
@@ -185,4 +185,9 @@
     font-size: 14px;
 }
 
+/*KIC Software Fleet Manager*/
+.infoblock__page-9__center__text--margin {
+    position: absolute;
+    width: 37%;
+}
 /**End By Oleg*/
