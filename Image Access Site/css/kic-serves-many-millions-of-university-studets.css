@@ -1,0 +1,14 @@
+.brochure-title-center {
+    color: #000;
+    margin-top: 10px;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 14px 0 10px;
+    font-family: 'AvenirLTStdHeavy';
+}
+
+.infoblock__p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
