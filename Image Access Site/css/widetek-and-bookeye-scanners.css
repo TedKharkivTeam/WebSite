@@ -1,4 +1,6 @@
 
+/* ******************** OLD AND UGLY SHIT ******************** */
+
 .infoblock span.new {
     padding: 0;
     font-style: italic;
@@ -198,7 +200,7 @@ a {
 }
 
 .infoblock ul {
-    padding: 0 0 0 24px;
+    padding: 0 0 10px 25px;
     list-style: disc;
 }
 
@@ -228,3 +230,32 @@ a {
     width: 235px;
     margin: 2px;
 }
+
+/* ******************** NEW STYLES ******************** */
+
+.infoblock .infoblock__scanners-header-h2 {
+    font-size: 1.8rem;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    margin: 0;
+    color: rgb(9,60,139);
+    padding-top: 5px;
+    padding-bottom: 32px;
+    height: 23px;
+}
+
+.infoblock .infoblock__scanners-p {
+    padding-bottom: 15px;
+}
+
+.infoblock .infoblock__scanners-header-h3 {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    color: rgb(9,60,139);
+    font-size: 1.6rem;
+    margin: 15px 0;
+}
+
+.infoblock .infoblock__scanners-header-h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
