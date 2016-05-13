@@ -4,148 +4,190 @@
     width: 100%;
     height: auto;
 }
+
 .center-image {
     margin: 0 auto;
     display: block;
     width: 95%;
     height: auto;
 }
-.in-st--clear{
+
+.in-st--clear {
     clear: both;
 }
-   /*-----product photos------*/
+
+/*-----product photos------*/
 /*1page*/
-.back_image--1{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Backward.png)!important;
+.back_image--1 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Backward.png) !important;
 }
-.back_image--2{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Diagonal.png)!important;
+
+.back_image--2 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Diagonal.png) !important;
 }
-.back_image--3{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front.png)!important;
+
+.back_image--3 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front.png) !important;
 }
-.back_image--4{
+
+.back_image--4 {
     background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front_V.png) !important;
 }
-.back_image--5{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Sideward.png)!important;
+
+.back_image--5 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Sideward.png) !important;
 }
+
 /*2page*/
-.back_image--6{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png)!important;
+.back_image--6 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png) !important;
 }
-.back_image--7{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png)!important;
+
+.back_image--7 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png) !important;
 }
-.back_image--8{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png)!important;
+
+.back_image--8 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png) !important;
 }
-.back_image--9{
-   background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png)!important;
+
+.back_image--9 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png) !important;
 }
-.back_image--10{
-   background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png)!important;
+
+.back_image--10 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png) !important;
 }
-.back_image--11{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png)!important;
+
+.back_image--11 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png) !important;
 }
-.back_image--12{
-   background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png)!important;
+
+.back_image--12 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png) !important;
 }
-.back_image--13{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png)!important;
+
+.back_image--13 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png) !important;
 }
-.back_image--14{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png)!important;
+
+.back_image--14 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png) !important;
 }
+
 /*3page*/
-.back_image--15{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_big.png)!important;
+.back_image--15 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_big.png) !important;
 }
-.back_image--16{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_BOOK_big.png)!important;
+
+.back_image--16 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_BOOK_big.png) !important;
 }
-.back_image--17{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_V_big.png)!important;
+
+.back_image--17 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_V_big.png) !important;
 }
-.back_image--18{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_big.png)!important;
+
+.back_image--18 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_big.png) !important;
 }
-.back_image--19{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_BOOK_big.png)!important;
+
+.back_image--19 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_BOOK_big.png) !important;
 }
-.back_image--20{
-   background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_V_big.png)!important;
+
+.back_image--20 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_V_big.png) !important;
 }
-.back_image--21{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_SIDEWARD_big.png)!important;
+
+.back_image--21 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_SIDEWARD_big.png) !important;
 }
 
 /*-----product photos mini------*/
 /*1page*/
-.thumb--1{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Backward.png)!important;
+.thumb--1 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Backward.png) !important;
 }
-.thumb--2{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Diagonal.png)!important;
+
+.thumb--2 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Diagonal.png) !important;
 }
-.thumb--3{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front.png)!important;
+
+.thumb--3 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front.png) !important;
 }
-.thumb--4{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front_V.png)!important;
+
+.thumb--4 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Front_V.png) !important;
 }
-.thumb--5{
-    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Sideward.png)!important;
+
+.thumb--5 {
+    background-image: url(../images/Bookeye_4_V1A_C35/BE4-SGS-V1-C35_Sideward.png) !important;
 }
+
 /*2page*/
-.thumb--6{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png)!important;
+.thumb--6 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL.png) !important;
 }
-.thumb--7{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png)!important;
+
+.thumb--7 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_BOOK.png) !important;
 }
-.thumb--8{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png)!important;
+
+.thumb--8 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_STAGED.png) !important;
 }
-.thumb--9{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png)!important;
+
+.thumb--9 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_DIAGONAL_V.png) !important;
 }
-.thumb--10{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png)!important;
+
+.thumb--10 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL.png) !important;
 }
-.thumb--11{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png)!important;
+
+.thumb--11 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_BOOK.png) !important;
 }
-.thumb--12{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png)!important;
+
+.thumb--12 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_FRONTAL_V.png) !important;
 }
-.thumb--13{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png)!important;
+
+.thumb--13 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD.png) !important;
 }
-.thumb--14{
-    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png)!important;
+
+.thumb--14 {
+    background-image: url(../images/Bookeye_4_V1A/BE4V1A_RENDER_SIDEWARD_BOOK.png) !important;
 }
 
 /*3page*/
-.thumb--15{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_big.png)!important;
+.thumb--15 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_big.png) !important;
 }
-.thumb--16{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_BOOK_big.png)!important;
+
+.thumb--16 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_BOOK_big.png) !important;
 }
-.thumb--17{
-   background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_V_big.png)!important;
+
+.thumb--17 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_DIAGONAL_V_big.png) !important;
 }
-.thumb--18{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_big.png)!important;
+
+.thumb--18 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_big.png) !important;
 }
-.thumb--19{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_BOOK_big.png)!important;
+
+.thumb--19 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_BOOK_big.png) !important;
 }
-.thumb--20{
-   background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_V_big.png)!important;
+
+.thumb--20 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_FRONTAL_V_big.png) !important;
 }
-.thumb--21{
-    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_SIDEWARD_big.png)!important;
+
+.thumb--21 {
+    background-image: url(../images/Bookeye_4_V2/Bookeye_4_V2/BE4V2_BASIC_RENDER_SIDEWARD_big.png) !important;
 }
