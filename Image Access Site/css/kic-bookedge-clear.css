@@ -313,7 +313,7 @@ div .infoblock__page-3__block {
 
 .infoblock #background-image {
     position: relative;
-    height: 500px;
+    height: 570px;
     background: url("../images/KIC_BookEdge/sec_4_img_1.png") no-repeat;
     background-size: 100% 100%;
 }
@@ -581,9 +581,9 @@ div .infoblock__page-3__block {
 }
 
 .infoblock__page-9__center__text--margin {
-    padding-top: 9%;
+    padding-top: 1%;
     position: absolute;
-    width: 37%;
+    width: 45%;
 }
 
 .infoblock__page-9__nav {
