@@ -219,14 +219,6 @@ a {
     margin: 100px 10px 0 0;
 }
 
-.infoblock .scrolled_pic {
-    display: block;
-    overflow: visible;
-    align-items: baseline;
-    border: none;
-    box-shadow: none;
-}
-
 .infoblock .table_video .video-links a {
     font-weight: bold;
 }
