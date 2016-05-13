@@ -1,7 +1,5 @@
 $(document).ready(function () {
     var menu = $(".leftsidemenu");
-    var footerHeight = $('footer');
-    var defaultOffsetTop = menu.offset().top;
     var links = menu.find('a');
 
     links.each(function (index) {
@@ -31,10 +29,6 @@ $(document).ready(function () {
     scrollSpy();
 
     $(window).scroll(throttle(scrollSpy, 150));
-
-    $(window).scroll(function () {
-        moveMenu();
-    });
 
     function scrollSpy() {
         //Getting scroll top offset (excluding header height);
@@ -74,19 +68,5 @@ $(document).ready(function () {
                 fn.apply(context, args);
             }
         };
-    }
-
-    function moveMenu() {
-        var newOffset = $(window).scrollTop();
-        if (newOffset > 0) {
-            var maxNewOffset = $('.content').height() - menu.height() - footerHeight.height();
-            if (newOffset > maxNewOffset) {
-                menu.css({top: maxNewOffset});
-            } else {
-                menu.css({top: newOffset});
-            }
-        } else {
-            menu.css({top: 0});
-        }
     }
 });
