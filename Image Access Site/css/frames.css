@@ -707,12 +707,10 @@ h2.pod-text {
         font-size: 45%;
     }
     .green-line__text--left {
-        padding-left: 9%;
-        /*padding-left: 5%;*/
+        padding-left: 5%;
     }
     .green-line__text--right {
-        padding-right: 9%;
-        /*padding-right: 5%;*/
+        padding-right: 5%;
     }
     .imgbook.large {
         max-width: 120px;
