@@ -140,9 +140,6 @@ body {
     min-width: 960px;
     max-width: 1920px;
     margin: 0 auto;
-}
-
-.gradient {
     background-color: #242f41;
     background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(0, rgb(19, 60, 139)), color-stop(0.1, rgb(38, 46, 57)), color-stop(0.9, rgb(38, 46, 57)), color-stop(1, rgb(19, 60, 139)));
     background-image: -webkit-repeating-linear-gradient(left, rgb(19, 60, 139) 0%, rgb(38, 46, 57) 10%, rgb(38, 46, 57) 90%, rgb(19, 60, 139) 100%);
