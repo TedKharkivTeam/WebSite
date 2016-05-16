@@ -38,16 +38,16 @@
     top: 10px;
     font-size: 18px;
     color: #f00;
-    padding-left: 10px;
+    padding-left: 2px;
 }
 
 input, textarea {
-    margin: 10px 10px 0 50px;
-    max-width: 200px;
+    margin: 10px 10px 0 25px;
+    max-width: 180px;
     border: solid 1px #ccc;
     padding: 4px;
     outline: 0;
-    width: 200px;
+    width: 180px;
     background: #F9F9F9;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -86,17 +86,15 @@ input, textarea {
 }
 
 .mainform {
-    padding: 50px 90px 20px 90px;
+    padding: 0 90px 0 90px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    text-align: center;
     font-weight: bold;
-    height: 412px;
 }
 
 .mainform .form-left {
-    min-height: calc(100% - 44px);
+    min-height: 308px;
 }
 
 .mainform fieldset {
@@ -143,7 +141,7 @@ input, textarea {
     font-size: 16px;
     padding-top: 10px;
     font-weight: normal;
-    padding-right: 6px;
+    margin-right: -7px;
 }
 
 .one-form {
@@ -218,8 +216,13 @@ input, textarea {
 
 .adr-top {
     position: absolute;
-    top: 50px;
-    left: 28%;
+    top: 100px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .adr-top span {
     font-family: "Arial Narrow",SansSerif;
@@ -243,7 +246,7 @@ input, textarea {
 .contactus-holder {
     width: 80%;
     overflow: hidden;
-    margin: 50px auto 0;
+    margin: 10px auto 0;
 }
 .contactus-holder__triple {
     width: 33%;
@@ -323,6 +326,14 @@ input, textarea {
     line-height: 6px;
 }
 
+.left {
+    width: 55%;
+}
+
+.right {
+    width: 45%;
+}
+
 @media all and (max-width: 1755px) and (min-width: 1400px) {
     .contactus-holder__triple__div--text {
         font-size: 18px;
@@ -341,6 +352,11 @@ input, textarea {
 @media all and (max-width: 1430px) and (min-width: 1024px) {
     .contactus-holder__triple__div--text {
         font-size: 16px;
+        margin-left: -12px;
+    }
+
+    .--input-resize {
+        min-width: 131px;
     }
 
     .contactus-holder__triple__strong:before {
@@ -349,7 +365,7 @@ input, textarea {
 
     .contactus-holder__triple__div--contact span,
     .contactus-holder__triple__div--contact a {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     .contactus-holder__triple__strong {
@@ -359,5 +375,97 @@ input, textarea {
 
     .contactus-holder__triple.--left {
         padding-top: 8%;
+    }
+
+    .mainform input {
+        max-width: 131px;
+    }
+
+    .left {
+        width: 55%;
+    }
+
+    .right {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 1660px) and (min-width: 1567px) {
+    .mainform input {
+        max-width: 179px;
+    }
+
+    .--input-resize {
+        min-width: 179px;
+    }
+}
+
+@media all and (max-width: 1566px) and (min-width: 1497px) {
+    .mainform input {
+        max-width: 159px;
+    }
+}
+
+@media all and (max-width: 1496px) and (min-width: 1397px) {
+    .mainform input {
+        max-width: 139px;
+    }
+}
+
+@media all and (max-width: 1302px) and (min-width: 1255px) {
+    .mainform input {
+        max-width: 119px;
+    }
+
+    .--input-resize {
+        min-width: 119px;
+    }
+}
+
+@media all and (max-width: 1256px) and (min-width: 1201px) {
+    .mainform input {
+        max-width: 105px;
+    }
+
+    .--input-resize {
+        min-width: 105px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 1081px) {
+    .mainform input {
+        max-width: 142px;
+    }
+
+    .--input-resize {
+        min-width: 142px;
+    }
+}
+
+@media all and (max-width: 1080px) and (min-width: 1024px) {
+    .mainform input {
+        max-width: 124px;
+    }
+
+    .--input-resize {
+        min-width: 124px;
+    }
+}
+
+@media all and (max-width: 1550px) and (min-width: 1024px) {
+    .mainform {
+        padding: 2vw 90px 0 90px;
+    }
+}
+
+@media all and (max-width: 1550px) and (min-width: 1024px) {
+    .mainform {
+        padding: 3vw 90px 0 90px;
+    }
+}
+
+@media all and (max-width: 1095px) and (min-width: 1024px) {
+    .field label {
+        margin-right: -14px;
     }
 }
