@@ -41,3 +41,20 @@
     font-family: AvenirLTStdBookOblique; /* font-style: italic; */
     color: #d50026;
 }
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+/* tablets */
+@media (max-width: 941px) {
+
+}

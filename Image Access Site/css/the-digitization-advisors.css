@@ -35,3 +35,58 @@
     margin-top: -171px;
     padding-bottom: 171px;
 }
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .infoblock .advisors__advisor {
+        left: 11%;
+    }
+
+    .infoblock .advisors__advisor--keith {
+        margin-top: -510px;
+        padding-bottom: 510px;
+    }
+
+    .infoblock .advisors__advisor--diana {
+        margin-top: -317px;
+        padding-bottom: 317px;
+    }
+
+    .infoblock .advisors__advisor--leandro {
+        left: 9%;
+        margin-top: -136px;
+        padding-bottom: 136px;
+    }
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+    html {
+        font-size: 60%;
+    }
+
+    .infoblock .advisors__advisor {
+        left: 11%;
+    }
+
+    .infoblock .advisors__advisor--keith {
+        margin-top: -476px;
+        padding-bottom: 476px;
+    }
+
+    .infoblock .advisors__advisor--diana {
+        margin-top: -298px;
+        padding-bottom: 298px;
+    }
+
+    .infoblock .advisors__advisor--leandro {
+        left: 9%;
+        margin-top: -128px;
+        padding-bottom: 128px;
+    }
+}
+
+/* tablets */
+@media (max-width: 941px) {
+
+}

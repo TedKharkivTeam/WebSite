@@ -251,3 +251,20 @@
 }
 
 /*end blue and green bullet in list*/
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+    .infoblock .back_pdf {
+        width: 65%;
+    }
+}
+
+/* tablets */
+@media (max-width: 941px) {
+
+}
