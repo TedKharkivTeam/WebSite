@@ -1,4 +1,40 @@
+body {
+    font-size: 1.4rem;
+}
 
 .graph img {
     width: 90%;
+}
+
+.scan-area {
+    text-align: center;
+}
+
+.scan-area td {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.htable {
+    font-weight: bold;
+}
+
+table {
+    float: left;
+    font-size: 1.2rem;
+}
+
+.scan-table {
+    float: right;
+    padding-top: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h2 span {
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-transform: none;
 }
