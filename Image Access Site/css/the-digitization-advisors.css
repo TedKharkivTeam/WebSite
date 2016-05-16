@@ -1,0 +1,37 @@
+
+.infoblock .infoblock__advisors-header-h2 {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 3.5rem;
+    padding: 15px 0 25px 0;
+}
+
+.infoblock .infoblock__advisors-image {
+
+}
+
+.infoblock .infoblock__advisors {
+
+}
+
+.infoblock .advisors__advisor {
+    color: #1E3A6D;
+    font-family: AvenirLTStdBlackOblique;
+    position: relative;
+    left: 13%;
+}
+
+.infoblock .advisors__advisor--keith {
+    margin-top: -715px;
+    padding-bottom: 715px;
+}
+
+.infoblock .advisors__advisor--diana {
+    margin-top: -435px;
+    padding-bottom: 435px;
+}
+
+.infoblock .advisors__advisor--leandro {
+    left: 12%;
+    margin-top: -171px;
+    padding-bottom: 171px;
+}
