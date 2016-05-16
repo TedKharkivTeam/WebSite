@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Global Service Areas :: Image Access 2016</title>
+    <link rel="shortcut icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/leaflet.css">
+    <link rel="stylesheet" href="../css/s-global-service-areas.css">
+    <script src="../js/jquery-1.12.2.min.js"></script>
+    <script src="../js/include.js"></script>
+</head>
+<body class="gradient">
+<header>
+    <div id="includeHeader"></div>
+</header>
+<div class="content">
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
+        </a>
+        <div class="botlogo">Global Service Areas</div>
+    </div>
+    <div class="leftsidemenu-holder">
+        <ul class="leftsidemenu">
+            <li class=""><a href="S_Check_Order_Status.html">Check Order Status</a></li>
+            <li class=""><a href="S_Open_Check_a_Service_Ticket.html">Open/Check a Service Ticket</a></li>
+            <li class=""><a href="S_Contact_Service_Department.html">Contact Service Department</a></li>
+            <li class=""><a href="S_Maintenance_Agreements.html">Maintenance Agreements</a></li>
+            <li class="selected" id="globalServiceArea"><a href="S_Global_Service_Areas.html">Global Service Areas</a>
+                <ul class="sub-menu">
+                    <li data-region="US" id="UnitedStates" class="sub-menu__map_toggle selected">United States &
+                        Canada
+                    </li>
+                    <li data-region="CAR" class="sub-menu__map_toggle">Caribbean</li>
+                    <li data-region="CEA" class="sub-menu__map_toggle">Central America</li>
+                    <li data-region="SOA" class="sub-menu__map_toggle">South America</li>
+                    <li data-region="EU" class="sub-menu__map_toggle">Europe</li>
+                    <li data-region="ME" class="sub-menu__map_toggle">Middle-east</li>
+                    <li data-region="AS" class="sub-menu__map_toggle">Asia</li>
+                    <li data-region="AU" class="sub-menu__map_toggle">Australia & New Zealand</li>
+                    <li data-region="AF" class="sub-menu__map_toggle">Africa</li>
+                    <li data-region="WW" class="sub-menu__map_toggle">Whole world</li>
+                </ul>
+            </li>
+            <li data-toggle="#serviceAndSupport" class="menu-toggle-button">
+                <a href="S_The_Service_and_Support_Team.html">The Service & Support Team</a>
+            </li>
+            <li><a href="S_The_Digitization_Advisors.html">The Digitization Advisors</a></li>
+        </ul>
+    </div>
+    <div class="infoblock support-block">
+        <div class="block-toggle">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="includeFooter"></div>
+</footer>
+<script>
+    window.currentTab = '#service_support';
+</script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/service.js"></script>
+</body>
+</html>

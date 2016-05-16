@@ -8,6 +8,14 @@
     float: left;
 }
 
+.brochure-title-left {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-size: 3.4rem;
+    line-height: 3.6rem;
+    text-align: left;
+    padding: 14px 0 10px;
+}
+
 .content-holder__pictures {
     padding: 20px 10px 0;
     width: 40%;
@@ -52,18 +60,19 @@
     padding: 5px;
 }
 
-#Wrapp {
+#Wrapp, #Wrapp1 {
+    display: none;
     left: 30%;
     top: 7%;
     position: fixed;
     background-color: rgba(64, 154, 213, 0.8);
     width: 60%;
-    height: 81%;
+    height: 85%;
     z-index: 10000;
     border-radius: 10px;
 }
 
-#tt {
+#tt, #tt1 {
     position: relative;
     background-color: #fff;
     width: 200px;
@@ -75,6 +84,11 @@
 }
 
 .infoblock .close {
+    cursor: pointer;
+    position: absolute;
+    font-weight: 700;
+    right: 7px;
+    top: 2px;
     text-shadow: none;
     color: #02307E;
 }
@@ -84,24 +98,18 @@
     width: 80% !important;
     display: block;
 }
+
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .content-holder__forms {
-        width: 50%;
-    }
-    .content-holder__pictures {
-        width: 50%;
+    .brochure-title-left {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 270px 20px;
-        background-size: contain;
-    }
-
-    .double-check-order-status__form {
-        padding: 0;
+    .brochure-title-left {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
     }
 }
 

@@ -259,43 +259,6 @@ ul.temporary li a {
     color: #f00;
 }
 
-.sub-menu {
-    height: 0;
-    margin-left: 30px;
-    border-left: 1px solid darkgrey;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.sub-menu li {
-    color: #02307E;
-    padding: 5px;
-    display: block;
-    cursor: pointer;
-}
-
-.sub-menu li:hover {
-    background-color: #63a8e9;
-    display: block;
-    color: #fff;
-}
-
-.leftsidemenu li#globalServiceArea.selected .sub-menu {
-    height: 310px;
-}
-
-.sub-menu__map_toggle.selected {
-    background-color: #63a8e9;
-    display: block;
-    color: #fff;
-}
-
-#globalServiceArea {
-    overflow: hidden;
-}
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .leftsidemenu-holder {
