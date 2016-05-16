@@ -123,7 +123,7 @@
     top: 0;
     left: 0;
     width: 25%;
-    height: 25%;
+    height: 22%;
 }
 
 .first-li {
@@ -295,8 +295,8 @@
 
 .page3__inline {
     display: inline-block !important;
-    padding: 0 10px;
-    width: 49%;
+    padding: 9px 30px;
+    width: 48%;
     vertical-align: top;
 }
 
@@ -518,6 +518,7 @@ h4 {
     vertical-align: top;
     display: inline-block;
     width: calc(100% / 6);
+    padding-bottom: 20px;
 }
 
 .kic-product .row__title {
@@ -666,11 +667,12 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
-    top: -18px;
-    left: 37px;
-    width: 44px;
-    height: 26px;
+    background: url("../images/JPGs for BSCAN ILL/arrowtable.png") no-repeat;
+    top: -15px;
+    left: 16px;
+    width: 54px;
+    height: 30px;
+    background-size: contain;
 }
 
 .bold-dollar {
@@ -901,3 +903,15 @@ th .table--img {
     overflow: hidden;
     padding: 25px 0;
 }
+/*new image*/
+.infoblock .bscan-ill__logo{
+    width: 40%;
+}
+.bscan-ill__bolt{
+    font-size: 2.8rem;
+}
+.block-grey__bold-text{
+    display: block;
+    font-size: 2.8rem;
+}
+/*end of new image*/
