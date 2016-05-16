@@ -1,0 +1,103 @@
+.infoblock {
+    padding: 10px;
+}
+
+.sub-menu {
+    height: 0;
+    margin-left: 30px;
+    border-left: 1px solid darkgrey;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sub-menu li {
+    color: #02307E;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.sub-menu li:hover {
+    background-color: #63a8e9;
+    display: block;
+    color: #fff;
+}
+
+.leftsidemenu li#globalServiceArea.selected .sub-menu {
+    height: 280px;
+}
+
+.sub-menu__map_toggle.selected {
+    background-color: #63a8e9;
+    display: block;
+    color: #fff;
+}
+
+#globalServiceArea {
+    overflow: hidden;
+}
+
+.support-block {
+    min-height: 500px;
+}
+
+#map {
+    height: 850px;
+    width: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 3px;
+}
+
+.leaflet-popup-content {
+    margin: 8px 10px;
+}
+
+.leaflet-popup-content p {
+    margin: 1px 0;
+    padding-bottom: 1px;
+    font-size: 11px;
+}
+
+.leaflet-popup-content a.site,
+.leaflet-popup-content p.products {
+    text-decoration: underline;
+}
+
+.leaflet-popup-content p.exclude-products {
+    font-size: 9px;
+}
+
+#support-address {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+#head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+#address {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+#contacts {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+#caption {
+    font-size: 90%;
+    font-style: italic;
+}
