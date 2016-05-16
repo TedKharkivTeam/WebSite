@@ -150,8 +150,8 @@ h5 {
 
 .white-rectangulars__articles {
     float: left;
-    width: calc(9.09% - 5px);
-    margin-left: 8px;
+    width: calc(9% - 5px);
+    margin-left: 5px;
 }
 
 .white-rectangulars__articles p {
@@ -160,7 +160,7 @@ h5 {
     font-size: 70%;
     line-height: 7pt;
     width: 100%;
-    padding-left: 10px;
+    padding-left: 21px;
     text-align: left;
 }
 
@@ -170,6 +170,7 @@ h5 {
     line-height: 9pt;
     color: black;
     font-weight: bold;
+    padding-bottom: 3px;
 }
 
 /*Third Page*/
