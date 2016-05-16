@@ -7,7 +7,6 @@
 .infoblock__double__content {
     overflow: hidden;
     padding: 10px 10px 10px 0;
-    /*background: #D0E6FC;*/
     margin: 5px;
     border-radius: 10px;
 }
@@ -68,7 +67,7 @@
 }
 
 .infoblock .left-text {
-    padding: 0 10px;
+    padding: 20px 0 0 10px;
 }
 
 .infoblock .left-text p {
@@ -95,12 +94,12 @@
     margin: 0 auto;
     display: block;
 }
+
 .infoblock span {
     font-weight: bold;
     padding-bottom: 5px;
     display: block;
 }
-
 
 .infoblock__page-11__double {
     width: 50%;
@@ -155,7 +154,7 @@
 }
 
 .infoblock__page-11-content-p {
-    padding: 78px 0;
+    padding: 60px 0;
 }
 
 .infoblock__page-11__in-case-p--italic {
@@ -187,15 +186,19 @@
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 180px;
+    height: 199px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    height: 155px;
+    height: 171px;
     width: auto;
     margin: 0 auto;
     display: block;
+}
+
+.infoblock .personal-document {
+    padding: 40px 0 0 0;
 }
