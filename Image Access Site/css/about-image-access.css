@@ -1,50 +1,90 @@
-.wrapper-history p{
+.wrapper-history p {
     position: relative;
     font-size: 1.6rem;
-    line-height:1.6;
+    line-height: 1.6;
 }
+
+.wrapper-history {
+    margin: 2px 0 0;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    float: left;
+    word-wrap: break-word;
+    border-left: 2px solid #E3E6DB;
+    padding-left: 4%;
+}
+
 .country-wrapper {
     overflow: hidden;
+    padding-left: 14%;
 }
+
 .country {
     display: inline-block;
     float: left;
-    width: calc(100% / 5);
+    width: 21%;
     vertical-align: top;
+    height: 100%;
 }
+
 .history {
     position: relative;
     padding-bottom: 30%;
 }
+
 .infoblock .history__w1 {
     text-align: left;
     width: 65%;
 }
+
 .infoblock .history__w2 {
     text-align: left;
     width: 72%;
 }
+
 .history:after {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
     background-size: contain;
-    width: 90%;
-    bottom: 3%;
-    right: 0;
-    height: 90%;
+    width: 100%;
+    bottom: 13%;
+    left: 16%;
+    height: 100%;
 }
-@media screen and (max-width: 1880px) {
-    .history:after{
-        bottom: -16%;
-        width: 80%;
-        height: 80%;
+
+@media screen and (max-width: 1600px ) and (min-width: 1200px) {
+    .history:after {
+        left: 0;
+        top: 0;
+    }
+
+    .country-wrapper {
+        overflow: hidden;
+        padding-left: 17%;
+    }
+
+    .history:after {
+        top: 110px;
     }
 }
-@media screen and (max-width: 1600px){
+
+@media screen and (max-width: 1199px) {
+    .country-wrapper {
+        overflow: hidden;
+        padding-left: 20%;
+    }
+
     .history:after {
-        width: 35%;
-        height: 35%;
-        top: 0;
+        content: '';
+        position: absolute;
+        background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
+        background-size: contain;
+        width: 90%;
+        bottom: 19%;
+        left: 10%;
+        height: 95%;
+        top: 260px;
     }
 }
