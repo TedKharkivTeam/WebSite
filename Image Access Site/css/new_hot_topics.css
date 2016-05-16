@@ -217,7 +217,7 @@
     right: 0;
     top: 70px;
     bottom: 0;
-    width: 350px;
+    width: 300px;
     padding-right: 10px;
 }
 
@@ -273,7 +273,6 @@
 
 .single-item {
     position: relative;
-    border: 1px solid #E3E6DB;
 }
 
 .single-item img {
