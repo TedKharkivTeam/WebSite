@@ -415,7 +415,10 @@
 
 .infoblock .table_blur_freflow_background {
     background: #2487D6;
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+    padding-left: 5px;
 }
 
 .infoblock .templates_software {
