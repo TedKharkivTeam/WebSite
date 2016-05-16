@@ -1,0 +1,39 @@
+.infoblock {
+    text-align: center;
+}
+
+.infoblock .brochure-title-center {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 14px 0 10px;
+}
+
+.infoblock__email {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    display: block;
+    color: #4eb1ff;
+    margin: 10px 0;
+}
+
+.infoblock__phone {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    display: block;
+    color: #4eb1ff;
+    margin: 20px 0;
+}
+
+.contactGallery {
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+.contactGallery2 {
+    width: 49%;
+    height: 100%;
+    float: right;
+}

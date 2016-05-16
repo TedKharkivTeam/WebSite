@@ -1,0 +1,43 @@
+.infoblock .brochure-title-center {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 14px 0 10px;
+    display: inline-block
+}
+
+.infoblock p {
+    width: 100%;
+}
+
+.infoblock__epigraph {
+    width: 45%;
+    float: right;
+    margin: 25px 0 25px 0;
+}
+
+.infoblock .infoblock__certificate {
+    width: 70%;
+    height: 70%;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.infoblock__epigraph p {
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.infoblock__epigraph strong {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    text-align: right;
+    display: block;
+}
+
+.infoblock__epigraph span {
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    text-align: right;
+    display: block;
+}
