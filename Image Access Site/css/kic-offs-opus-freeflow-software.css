@@ -41,6 +41,7 @@ h5 {
     overflow: hidden;
     background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
     width: 100%;
+    padding-left: 3%;
     background-size: contain;
 }
 
@@ -64,6 +65,7 @@ h5 {
     text-align: center;
     margin-top: 4px;
     line-height: 9pt;
+    font-size: 9pt;
     color: black;
     font-weight: bold;
 }
@@ -97,8 +99,9 @@ h5 {
 }
 
 .infoblock__highlights-wrapper ul {
-    float: left;
-    width: 48%;
+    float: right;
+    width: 50%;
+    padding-left: 3%;
 }
 
 .infoblock__highlights-wrapper li {
@@ -307,7 +310,7 @@ h5 {
     overflow: hidden;
     width: 45%;
     float: left;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .infoblock .content-stabilization__enumeration div {
@@ -654,6 +657,8 @@ h5 {
     text-align: center;
     width: 100%;
     float: left;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .OAI5_Software {
@@ -664,6 +669,8 @@ h5 {
 .OAI_Software {
     float: left;
     width: 100%;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
