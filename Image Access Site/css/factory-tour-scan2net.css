@@ -10,10 +10,14 @@
     box-shadow: 3px 3px 5px #8E8E8E;
 }
 
+.infoblock .list-of-functions {
+    padding-left: 1%;
+}
+
 .infoblock .technical_data_pdf .back_pdf embed {
     width: 100%;
     float: left;
-    height: 525px;
+    height: 550px;
 }
 
 .infoblock .technical_data_pdf .back_text_pdf {
@@ -24,11 +28,45 @@
 
 .infoblock .technical_data_pdf .back_text_pdf a {
     color: #093C8B;
-    font-size: 12px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-weight: bold;
 }
 
 .infoblock .technical_data_pdf .back_text_pdf span {
     color: #000;
-    font-size: 12px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+@media screen and (max-width: 1600px ) and (min-width: 1200px) {
+    .infoblock .technical_data_pdf .back_pdf embed {
+        width: 100%;
+        float: left;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .infoblock .technical_data_pdf .back_pdf embed {
+        width: 100%;
+        float: left;
+        height: 295px;
+    }
+    .infoblock .technical_data_pdf .back_pdf {
+        width: 65%;
+        margin: 10px;
+        float: left;
+        box-shadow: 3px 3px 5px #8E8E8E;
+    }
+    .infoblock .technical_data_pdf .back_text_pdf span {
+        color: #000;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    .infoblock .technical_data_pdf .back_text_pdf a {
+        color: #093C8B;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: bold;
+    }
 }
