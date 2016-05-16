@@ -100,3 +100,102 @@
     padding-bottom: 5px;
     display: block;
 }
+
+
+.infoblock__page-11__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.infoblock__page-11__double__content {
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+    background: #D0E6FC;
+    margin: 5px;
+    border-radius: 1.0rem;
+}
+
+.infoblock__page-11__in-case-strong {
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    padding: 0;
+}
+
+.infoblock__page-11__in-case-span {
+    text-align: right;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+}
+
+.infoblock__page-11__in-case-span--center {
+    text-align: center;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+}
+
+.infoblock__page-11__double__content__double {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 15px 2%;
+    display: block;
+}
+
+.infoblock__page-11-content-p {
+    padding: 78px 0;
+}
+
+.infoblock__page-11__in-case-p--italic {
+    padding: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.infoblock__page-11__for-study-p {
+    width: 225px;
+    float: right;
+    margin-top: -125px;
+    margin-right: 21%;
+}
+
+.infoblock .infoblock__page-11__left-text {
+    padding: 0 10px;
+}
+
+.infoblock .infoblock__page-11__left-text p {
+    padding: 0;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--right {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-artwork {
+    height: 180px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-map {
+    height: 155px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}

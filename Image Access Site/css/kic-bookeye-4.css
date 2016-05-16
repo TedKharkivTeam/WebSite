@@ -3,6 +3,22 @@
     height: auto;
 }
 
+figure {
+    margin:0;
+}
+
+.margin-right{
+    margin-right: 1%;
+}
+
+.margin-left{
+    margin-left: 1%;
+}
+
+.infoblock__page-2__padding{
+    padding-top: 50px;
+}
+
 .infoblock span {
     font-weight: bold;
     padding-bottom: 5px;
@@ -130,7 +146,8 @@ padding: 14px 0 10px;
     font-size: 5.5rem;
 }
 .infoblock__page-1__head {
-    font-size: 2.375rem;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     color: #282a28;
     font-style: italic;
     font-weight: bold;
@@ -211,6 +228,22 @@ padding: 14px 0 10px;
 
 /*2 page */
 
+.infoblock__page-2__column {
+    width: 48%;
+    float: left;
+}
+
+.infoblock .images--hand {
+    width: 50%;
+    float: left;
+}
+
+#hand-with-yellow-coin {
+    float: left;
+    width: 48%;
+    padding-right: 5px;
+}
+
 #scan-diagram {
     float: right;
     width: 40%;
@@ -219,6 +252,7 @@ padding: 14px 0 10px;
 #copy-diagram {
     float: left;
     width: 30%;
+    padding-bottom: 10px;
 }
 
 #fax-diagram {
@@ -458,7 +492,6 @@ div .infoblock__page-3__block_text23 {
 .infoblock .infoblock__page-4__text6 {
     font-style: italic;
     font-weight: 300;
-    margin-left: -2%;
     text-align: center;
 }
 
@@ -562,7 +595,7 @@ div .infoblock__page-4__homo {
     border-radius: 100%;
     bottom: -9%;
     right: 50%;
-    padding: 1% 4%;
+    padding: 1.25% 3%;
     margin: 0 -3%;
     z-index: 1;
 }
@@ -600,8 +633,8 @@ div .infoblock__page-4__homo {
 
 .infoblock .infoblock__page-5__block-header-3 {
     color: #000;
-    font-size: 3.3rem;
-    line-height: 3.8rem;
+    font-weight: 600;
+    font-size: x-large;
     margin-top: 0%;
     float: left;
     z-index: 100;
@@ -645,22 +678,19 @@ div .infoblock__page-5__block-p {
 
 .infoblock .infoblock__page-5__block-header-31 {
     color: #000;
-    font-size: 3.3rem;
-    line-height: 3.8rem;
+    font-weight: 600;
+    font-size: x-large;
     margin-top: 0%;
     float: left;
     z-index: 100;
-
+    margin-bottom: 5px;
     margin-left: 1%;
 }
 
 .infoblock .infoblock__page-5__margin-text {
-    margin-right: 57%;
+    margin-right: 62%;
 }
 
-.infoblock .infoblock__page-5__margin-text1 {
-    margin-left: 7%;
-}
 
 div .infoblock__page-5_photo {
     float: right;
@@ -834,6 +864,12 @@ div .infoblock__page-5__text-right2 {
 }
 
 /* 7 page*/
+.infoblock__page-7__text-left{
+    font-style: italic;
+    margin-left:7%;
+
+}
+
 div .infoblock__page-7_photo2 {
     width: 40%;
     margin-left: 20%;
@@ -866,6 +902,8 @@ div .infoblock__page-7__text-right {
 div .infoblock__page-7_photo {
     float: right;
     width: 60%;
+
+    margin-bottom: 20px;
 }
 
 div .infoblock__page-7__block-header {
@@ -874,13 +912,19 @@ div .infoblock__page-7__block-header {
     margin: 0%;
 }
 
-div .infoblock__page-7__text-block1 {
+.infoblock div .infoblock__page-7__text-block1 {
     font: 1.4rem "Arial", Helvetica, Arial, Verdana, sans-serif;
-    text-align: center;
     font-size: 2.5rem;
     font-weight: normal;
     font-style: italic;
     line-height: 120%;
+}
+
+.infoblock .infoblock__page-7-title-left{
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: left;
 }
 
 div .infoblock__page-7__block-left {
@@ -1283,8 +1327,8 @@ h2.pod-text {
     display: block;
 }
 
-.infoblock__page-11__double__content__double p {
-    padding: 24px 0;
+.infoblock__page-11-content-p {
+    padding: 78px 0;
 }
 
 .infoblock__page-11__in-case-p--italic {
@@ -1296,8 +1340,8 @@ h2.pod-text {
 .infoblock__page-11__for-study-p {
     width: 225px;
     float: right;
-    margin-top: -145px;
-    margin-right: 7%;
+    margin-top: -125px;
+    margin-right: 21%;
 }
 
 .infoblock .infoblock__page-11__left-text {
@@ -1336,6 +1380,13 @@ h2.pod-text {
     overflow: hidden;
 }
 
+.infoblock__page-12__subtitle-center{
+
+    font-family: 'AvenirLTStdHeavy';
+    text-align: center;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+}
 
 
 .infoblock__page-12__double__content {
@@ -1414,11 +1465,13 @@ h2.pod-text {
     font-size: 2.6rem;
     line-height: 2.8rem;
     text-align: center;
+    font-family: 'AvenirLTStdHeavy';
 }
 
 .infoblock h3 {
 
     font-size: 2.6rem;
+    line-height: 2.8rem;
 }
 
 /* 13 page*/
@@ -1444,6 +1497,7 @@ h2.pod-text {
     font-size: 2.2rem;
     text-align: left;
     margin-top: 0%;
+    font-family: 'AvenirLTStdHeavy';
 }
 
 .infoblock .infoblock__page-13__right-images {
@@ -1492,6 +1546,7 @@ h2.pod-text {
     text-align: left;
     margin-top: 0%;
     margin-left: 52%;
+    font-family: 'AvenirLTStdHeavy';
 }
 
 .infoblock .infoblock__page-13__rel {
@@ -1597,7 +1652,14 @@ h2.pod-text {
 }
 
 .infoblock__page-14__kic-product {
-    text-align: right;
+    text-align: center;
+}
+.infoblock .infoblock__page-14__click-mini-bot{
+    width: 60%;
+}
+
+.infoblock .infoblock__page-14__click-mini-top{
+    width: 80%;
 }
 
 .infoblock__page-14__kic-product__row {
@@ -1613,16 +1675,16 @@ h2.pod-text {
     font-weight: bold;
 }
 
-.infoblock__page-14__row__column {
+.infoblock .infoblock__page-14__row__column {
     padding: 10px 5px 5px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     border-top: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 6px #000;
-    min-height: 640px;
+    min-height: 500px;
 }
 
-.infoblock__page-14__row__column .infoblock__page-14__column__mini-title {
+.infoblock .infoblock__page-14__row__column .infoblock__page-14__column__mini-title {
     font-size: 1.1rem;
     margin-top: 5px;
     font-weight: bold;
@@ -1651,8 +1713,9 @@ h2.pod-text {
     border: 0.1rem solid black;
 }
 
-.span_block span {
+.infoblock .infoblock__page-14 .span_block span {
     display: inline;
+    font-weight: 100;
 }
 
 table tr .infoblock__page-14__border-style {
@@ -1694,6 +1757,7 @@ table tr .infoblock__page-14__border-style {
 
 .text-vertical-bold {
     color: #000;
+    font-family: 'AvenirLTStdHeavy';
     font-size: 3.8rem;
     line-height: 4rem;
     text-align: justify;
@@ -1812,6 +1876,11 @@ tr th {
         color: #000000;
         padding: 0%;
     }
+
+    .infoblock .infoblock__page-1__h3__p{
+        top:75%;
+    }
+
 
     .infoblock div .infoblock__page-1__h2__p p {
         font-size: 1.5rem;
@@ -1933,7 +2002,8 @@ tr th {
 
     /* 14 page*/
     .text-vertical-bold {
-        font-size: 3.3rem;
+        font-family: 'AvenirLTStdHeavy';
+        font-size: 3rem;
         line-height: 3.5rem;
         margin-top: 7%;
     }

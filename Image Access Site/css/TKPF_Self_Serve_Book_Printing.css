@@ -7,6 +7,16 @@ h1.pod-text {
     margin: 0;
 }
 
+.infoblock .brochure-title-center {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 14px 0 10px;
+    font-family: 'AvenirLTStdHeavy';
+}
+
+
 h2.pod-text {
     font-size: 26px;
     color: #000;
