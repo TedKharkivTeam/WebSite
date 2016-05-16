@@ -1,0 +1,58 @@
+
+.infoblock .infoblock__bscan-de-header-h2 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+.infoblock .infoblock__bscan-de-top-text {
+    margin: 10px auto;
+    display: block;
+    width: 70%;
+}
+
+.infoblock .infoblock__content-holder {
+
+}
+
+.infoblock .content-holder__content-row {
+    padding: 25px 0;
+}
+
+.infoblock .content-row__content-column {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.infoblock .content-row__content-column--text {
+    width: 60%;
+}
+
+.infoblock .content-row__content-column--image {
+    width: 34%;
+}
+
+.infoblock .content-column__header-big {
+    font-family: AvenirLTStdBlackOblique; /* font-weight: bold; */
+    font-size: 3.6rem;
+    padding: 15px 2%;
+}
+
+.infoblock .content-column__header-normal {
+    color: #3C2E95;
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-size: 3.2rem;
+    padding: 10px 2%;
+}
+
+.infoblock .content-column__text {
+    padding: 15px 2%;
+}
+
+.infoblock .content-column__image {
+    padding: 0 5%;
+}
