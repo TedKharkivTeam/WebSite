@@ -511,6 +511,7 @@ h4 {
 
 .kic-product {
     text-align: right;
+    padding-bottom: 15px;
 }
 
 .kic-product__row {
@@ -668,9 +669,9 @@ th .table--img {
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
     top: -18px;
-    left: 37px;
-    width: 44px;
-    height: 26px;
+    left: 42px;
+    width: 80px;
+    height: 45px;
 }
 
 .bold-dollar {
@@ -704,7 +705,6 @@ th .table--img {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
-    color: #e8383b;
 }
 
 .align-right {
@@ -895,14 +895,12 @@ th .table--img {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
-    color: #e8383b;
 }
 
 .green-cicle .tabl-star-mini {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
-    color: #e8383b;
 }
 
 .infoblock img.click-mini2 {
@@ -928,5 +926,4 @@ th .table--img {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
-    color: #e8383b;
 }
