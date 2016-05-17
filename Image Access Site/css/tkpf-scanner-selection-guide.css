@@ -45,7 +45,7 @@
 }
 
 .bscan-ill--h2 {
-    font-size: 28px;
+    font-size: 2rem;
     color: #000;
     padding: 0;
     line-height: 1.2;
@@ -557,6 +557,7 @@ h4 {
     padding: 0;
     text-align: center;
     padding-bottom: 5px;
+    vertical-align: middle;
 }
 
 .table p {
@@ -597,7 +598,7 @@ th .table--img {
     border: 1px solid #4a504e;
     width: 20px;
     height: 20px;
-    margin: 0 auto;
+    margin: 3px auto;
 }
 
 .green-cicle--after {
@@ -714,6 +715,7 @@ th .table--img {
 .first-column {
     width: 200px;
     text-align: right;
+    padding-right: 1%;
 }
 
 .table__footer {
@@ -913,7 +915,7 @@ th .table--img {
     padding: 25px 0;
 }
 
-.sitalic{
+.infoblock .sitalic{
     font-style: italic;
     text-align: center;
 }
@@ -926,4 +928,57 @@ th .table--img {
     margin-left: 20px;
     font-size: 9px;
     vertical-align: text-top;
+}
+
+@media all and (max-width: 1880px) and (min-width: 1650px){
+    .table__arow:before {
+
+        left: 20px;
+
+    }
+}
+
+
+@media all and (max-width: 1651px){
+    .table__arow:before {
+        left: 0px;
+
+    }
+    .row__column {
+
+        min-height: 450px;
+    }
+}
+
+
+@media all and (max-width: 1480px){
+    .table .table--ta-left {
+        padding-right: 10px;
+    }
+
+    .row__column {
+
+        min-height: 420px;
+    }
+
+}
+
+@media all and (max-width: 1270px) and (min-width: 1201px){
+    .row__column {
+        min-height: 350px;
+    }
+
+    .table .table--ta-left {
+        padding-right: 0px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    .row__column {
+        min-height: 350px;
+    }
+
+    .table .table--ta-left {
+        padding-right: 0px;
+    }
 }
