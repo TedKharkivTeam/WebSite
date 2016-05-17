@@ -232,6 +232,18 @@ h5 {
     overflow: hidden;
 }
 
+.infoblock .infoblock__image--big-left-right-margin{
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+}
+
+.infoblock__image--small-left-right-margin{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+}
+
 .bottom-images__removing-artifacts {
     float: left;
     width: 55%;
