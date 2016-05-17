@@ -1,6 +1,14 @@
 
-/*Common styles*/
-.infoblock .content-holder__header-h2 {
+/* ------------------------------------- COMMON STYLES ------------------------------------ */
+
+.content-holder {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+.infoblock .common-header-h2 {
     color: #000;
     font-size: 4rem;
     line-height: 4rem;
@@ -8,10 +16,133 @@
     padding: 25px 0 5px 0;
 }
 
-.infoblock .content-holder__header-h2--huge {
+.infoblock .common-row {
+    width: 100%;
+}
+
+.infoblock .common-row__column {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 1%;
+    vertical-align: top;
+}
+
+.infoblock .common-text-p {
+    padding: 10px 0;
+}
+
+.infoblock .column__image {
+
+}
+
+/* PAGE 1 ******************************************************************************************************** */
+
+.infoblock .big-logo-text__image-logo {
+    width: 24%;
+    height: 24%;
+    float: left;
+}
+
+.infoblock .common-header-h2--big-logo-text {
     font-size: 6rem;
     line-height: 6rem;
 }
+
+
+.infoblock .big-logo-text__sub-header {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    text-align: right;
+    color: #3E4793;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+}
+
+.infoblock .content-holder__text-section {
+
+}
+
+.infoblock .text-section__bg-image {
+
+}
+
+.infoblock .common-header-h2--middle {
+    width: 90%;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin: 1%;
+}
+
+.infoblock .common-row--images-holder {
+
+}
+
+.infoblock .common-text-p__cursive-bold-span {
+    font-family: AvenirLTStdBlackOblique; /* font-style: italic; font-weight: bold; */
+}
+
+/* PAGE 2 ******************************************************************************************************* */
+
+.infoblock .content-holder__triangular-section {
+
+}
+
+.infoblock .triangular-section__image {
+
+}
+
+.infoblock .many-articles-section__triangular-scan {
+    float: right;
+    width: 40%;
+    margin: 25px 2%;
+}
+
+.infoblock .many-articles-section__book-scannning-section {
+
+}
+
+.many-articles-section__common-header-h3 {
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+    text-align: left;
+}
+
+.infoblock .many-articles-section__triangular-copy {
+
+}
+
+.infoblock .triangular-copy__image {
+    float: left;
+    width: 30%;
+    margin: 25px 2%;
+}
+
+.infoblock .many-articles-section__triangular-fax {
+
+}
+
+.infoblock .triangular-fax__image {
+    float: right;
+    width: 30%;
+    margin: 25px 2%;
+}
+
+.infoblock .many-articles-section__triangular-hand {
+    float: left;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.infoblock .triangular-hand__image {
+    float: left;
+    width: 30%;
+    margin: 25px 2%;
+}
+
+/* PAGE 3 ******************************************************************************************************* */
+
+
+
 
 .infoblock .brochure-title-left--custom {
     color: #000;
@@ -41,25 +172,8 @@
     margin: 0;
 }
 
-.content-holder {
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 3%;
-}
-
-.infoblock .infoblock__row--original {
-    width: 100%;
-}
-
 .infoblock .kic-ts-bullet-margin {
     margin-left: 3%;
-}
-
-.infoblock .row__column--original {
-    display: inline-block;
-    width: 45%;
-    margin: 10px 1%;
-    vertical-align: top;
 }
 
 .infoblock__block-title2 {
@@ -97,75 +211,11 @@
 
 /*Main BookEdge page */
 
-#kic_logo {
-    width: 24%;
-    height: 24%;
-    float: left;
-}
-
-.infoblock .infoblock__sub-h2-header {
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-    text-align: right;
-    color: #3E4793;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    margin-right: 4%;
-}
-
-.infoblock .infoblock__above-columns-header {
-    width: 90%;
-    text-align: center;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    margin: 1%;
-}
-
-.infoblock .row__column--original__cursive-bold-text {
-    font-family: AvenirLTStdBlackOblique; /* font-weight: bold; */
-}
-
-.infoblock .row__column--original__p {
-    padding: 10px 0;
-}
-
 /*End of main BookEdge page*/
 
 /* Scan Copy Fax page */
 
-#scan-diagram {
-    float: right;
-    width: 40%;
-    margin: 25px 2%;
-}
-
 #copy-diagram {
-    float: left;
-    width: 30%;
-    margin: 25px 2%;
-}
-
-#fax-diagram {
-    float: right;
-    width: 30%;
-    margin: 25px 2%;
-}
-
-.scan_copy_fax_subtitle {
-    font-size: 2.3rem;
-    line-height: 2.3rem;
-}
-
-.infoblock .columnKIC_Bookeye_4 {
-    float: left;
-    /* width: 50%; */
-    /* padding-top: 0; */
-
-    /* border: 0; */
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-}
-
-#hand-yellow-coin {
     float: left;
     width: 30%;
     margin: 25px 2%;
@@ -1034,6 +1084,7 @@ h2.pod-text {
     font-size: 2.6rem;
     line-height: 2.6rem;
     padding: 10px 1%;
+    padding-left: 0;
 }
 
 /*Technical Details */
