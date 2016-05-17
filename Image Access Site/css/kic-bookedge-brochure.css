@@ -1,10 +1,11 @@
 /*Common styles*/
 .infoblock .content-holder__header-h2 {
     color: #000;
-    font-size: 3.6rem;
-    line-height: 3.8rem;
+    font-size: 5rem;
+    line-height: 5rem;
     text-align: center;
     padding: 14px 0 10px;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
 }
 
 .infoblock .brochure-title-left {
@@ -39,14 +40,14 @@
     margin-bottom: 3%;
 }
 
-.column_container {
+.infoblock .infoblock__row--original {
     width: 100%;
 }
 
-.two_columns {
+.infoblock .row__column--original {
+    display: inline-block;
     width: 45%;
-    margin: 1% 1% 0 1%;
-    float: left;
+    margin: 10px 1%;
 }
 
 .infoblock__block-title2 {
@@ -90,20 +91,21 @@
     float: left;
 }
 
-#custom_undertitle_bookedge {
-    font-size: 2rem;
+.infoblock .infoblock__sub-h2-header {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
     text-align: right;
-    float: right;
-    color: black !important;
-    margin-right: 25%;
+    color: #3E4793;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    margin-right: 4%;
 }
 
-#columns_header {
+.infoblock .infoblock__above-columns-header {
     width: 100%;
-    float: left;
     text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
     margin: 1%;
 }
 
