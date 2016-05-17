@@ -9,6 +9,20 @@ h3 {
 .infoblock__page-2__column {
     width: 49%;
     float: left;
+    padding-top: 3%;
+}
+
+.infoblock__page-3-italic-label {
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    padding-left: 6%;
+}
+
+.infoblock__page-2__column1 {
+    width: 49%;
+    float: right;
 }
 
 /* 3 page*/
@@ -19,8 +33,8 @@ h3 {
 }
 
 .infoblock__page-3__column-ul {
-    width: 39%;
-    float: left;
+    width: 36%;
+    float: right;
     text-align: justify;
 }
 
@@ -33,11 +47,6 @@ h3 {
 .infoblock ul {
     padding: 0 0 0 24px;
     list-style: disc;
-}
-
-.infoblock img {
-    width: 100%;
-    height: auto;
 }
 
 img {
@@ -92,10 +101,6 @@ img {
     height: 16px;
 }
 
-.infoblock p {
-    text-align: left;
-}
-
 /*brochures*/
 div.infoblock span {
     display: inline;
@@ -144,20 +149,6 @@ span.caption {
 }
 
 /*pdfjak*/
-.infoblock {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    position: relative;
-}
-
-.infoblock span, p {
-    font-weight: normal;
-    line-height: 2.4rem;
-}
-
-.infoblock strong {
-    padding: 0;
-}
 
 .infoblock__bscan-ill {
     text-align: left;
@@ -393,9 +384,9 @@ span.caption {
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
     width: 47px;
-    height: 33px;
+    height: 65px;
     bottom: 0;
-    right: 50%;
+    right: 48%;
 }
 
 .two-step--inline {
@@ -1820,7 +1811,7 @@ h6.pod-text {
 
 .in-case-p--italic {
     padding: 10px;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     display: inline-block;
 }
 
@@ -1873,7 +1864,7 @@ h6.pod-text {
 
 #fax-diagram {
     float: right;
-    width: 30%;
+    width: 28%;
 }
 
 #hand-with-yellow-coin {
@@ -1925,7 +1916,7 @@ h6.pod-text {
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     margin-left: 54%;
 }
 
@@ -1948,6 +1939,13 @@ h6.pod-text {
     width: 49%;
     display: inline-block;
     vertical-align: top;
+    float: left;
+}
+.infoblock .column1 {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
 }
 
 .infoblock .column__picture {
@@ -1968,7 +1966,7 @@ h6.pod-text {
 }
 
 .column__title {
-    width: 60%;
+    width: 85%;
     text-align: center;
     margin: 0 auto;
     padding: 0;
@@ -2021,36 +2019,15 @@ h6.pod-text {
 
 .column__number3 {
     width: 30%;
-    position: absolute;
     bottom: 0;
     left: 60px;
 }
 
-.column__number3:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -70px;
-    background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_3.png") no-repeat;
-    width: 70px;
-    height: 70px;
-    background-size: contain;
-}
-
-.column__number4 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
 
 .infoblock .map-marker {
     font-size: 1.4rem;
     line-height: 1.6rem;
+    padding: 0;
 }
 
 .map-marker mark {
@@ -2071,7 +2048,7 @@ h6.pod-text {
 }
 
 .infoblock .text6 {
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-weight: 300;
 
     margin-left: -2%;
@@ -2079,7 +2056,7 @@ h6.pod-text {
 }
 
 .infoblock .text5 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2.4rem;
     text-align: center;
     line-height: 1;
@@ -2087,7 +2064,7 @@ h6.pod-text {
 
 .infoblock .text7 {
     text-align: center;
-    font-size:2.8rem;
+    font-size: 2.8rem;
     line-height: 3rem;
     margin-top: 1%;
 }
@@ -2099,7 +2076,7 @@ h6.pod-text {
 }
 
 .infoblock .text8 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.6rem;
     margin-left: 48%;
@@ -2117,7 +2094,7 @@ h6.pod-text {
 }
 
 .infoblock .text10 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.6rem;
     width: 100%;
@@ -2136,6 +2113,7 @@ h6.pod-text {
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.6rem;
+    text-align: left;
 }
 
 .infoblock .dv_block {
@@ -2147,11 +2125,13 @@ h6.pod-text {
 .infoblock .dv_block1 {
     display: inline-block;
     width: 48%;
+    float: right;
 }
 
 .infoblock .kic_div__logos {
     float: left;
-    width: 25%;
+    width: 15%;
+    height: 13%;
 }
 
 .kic_div__text {
@@ -2183,7 +2163,7 @@ h6.pod-text {
 
 .top__h2 {
     text-align: left;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: larger;
     font-weight: 500;
     color: #000000;
@@ -2293,7 +2273,7 @@ h6.pod-text {
 
 .infoblock .kic_div .true2_save_to_usb {
     width: 42%;
-    margin-top: 5%;
+    margin-top: 7%;
     float: left;
 
 }
@@ -2309,8 +2289,7 @@ h6.pod-text {
 
 .infoblock .true2_block_usb {
     width: 56%;
-    margin-top: 2%;
-    float: left;
+    float: right;
 }
 
 .infoblock .true2_label1 {
@@ -2326,8 +2305,8 @@ h6.pod-text {
 
 .infoblock .true2_block_3 {
     width: 30%;
-    margin-left: 18%;
-    font-family: 'AvenirLTStdBlackOblique';
+    margin-left: 15%;
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
 
 .infoblock .kic_div .true2_two_screens {
@@ -2351,7 +2330,7 @@ h6.pod-text {
 }
 
 .infoblock .text_undergorund_label {
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-weight: 300;
     margin-left: 25%;
     text-align: center;
@@ -2376,7 +2355,7 @@ h6.pod-text {
 }
 
 .infoblock .label_smart2 {
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     width: 30%;
     position: absolute;
     font-size: 1.6rem;
@@ -2413,7 +2392,7 @@ h6.pod-text {
     position: absolute;
     width: 13%;
     text-align: center;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2425,7 +2404,7 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2437,7 +2416,7 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2449,7 +2428,7 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2479,7 +2458,7 @@ h6.pod-text {
     font-size: 2.1rem;
     line-height: 1.2;
     margin-left: 3%;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
 
 .infoblock .smart_restaurant_img {
@@ -2499,25 +2478,27 @@ h6.pod-text {
 }
 
 .infoblock .label_smart11 {
-    width: 21%;
-    margin-left: 35%;
-    font-family: 'AvenirLTStdBlackOblique';
+    width: 28%;
+    margin-left: 36%;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     text-align: right;
+    position: absolute;
+    padding-top: 2%;
 }
 
 .infoblock .label_smart12 {
-    width: 16%;
+    width: 19%;
     margin-left: 35%;
-    margin-top: 10%;
-    font-family: 'AvenirLTStdBlackOblique';
+    margin-top: 21%;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     text-align: right;
 }
 
 .infoblock .label_smart13 {
-    width: 23%;
-    margin-left: 10%;
+    width: 30%;
+    margin-left: 6%;
     margin-top: -8%;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     text-align: left;
 }
 
@@ -2548,20 +2529,21 @@ h6.pod-text {
 
 .infoblock .kic_logo_for_versus {
     width: 12%;
+    height: auto;
     position: absolute;
     margin-left: 2%;
     margin-top: 8%;
-}
-
-.infoblock .diagram1 {
-
 }
 
 .infoblock .super_click_table {
     width: 100%;
     float: left;
     padding: 2%;
-    height: 335px;
+    height: 280px;
+}
+.infoblock .super_click_table td{
+    vertical-align: middle;
+    padding-left: 5px;
 }
 
 .infoblock .first_of_last_label {
@@ -2576,7 +2558,7 @@ h6.pod-text {
 .infoblock .second_of_last_label {
     color: #000;
     font-size: 1.4rem;
-    margin-left: 37%;
+    margin-left: 46%;
     padding: 14px 0 10px;
     font-weight: 600;
     float: left;
@@ -2693,7 +2675,7 @@ h6.pod-text {
 .infoblock .bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
-    font-family: 'AvenirLTStdBlackOblique';
+    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
@@ -2776,7 +2758,8 @@ h6.pod-text {
     .infoblock .true2_block_3 {
         width: 40%;
         margin-left: 12%;
-        font-family: 'AvenirLTStdBlackOblique';
+        font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+
     }
 }
 
@@ -2890,20 +2873,20 @@ h6.pod-text {
 
 @media all and (max-width: 1359px) and (min-width: 1260px) {
     .table__arow:before {
-        left: 0px;
+        left: 0;
     }
 }
 
 @media all and (max-width: 1259px) and (min-width: 1200px) {
     .table__arow:before {
         width: 54px;
-        left: 0px;
+        left: 0;
     }
 }
 
 @media all and (max-width: 1199px) {
     .table__arow:before {
-        left: 0px;
+        left: 0;
     }
 }
 
@@ -2943,6 +2926,13 @@ h6.pod-text {
     .infoblock__nav {
         margin-top: 0;
     }
+    .infoblock__page-3-italic-label {
+        font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        text-align: center;
+        padding-bottom: 15px;
+    }
 
     .infoblock__center {
 
@@ -2974,7 +2964,9 @@ h6.pod-text {
         line-height: 1.6rem;
         font-size: 1.4rem;
     }
-
+    .infoblock .column1 {
+        padding-bottom: 15px;
+    }
     .infoblock .super_middle_table_click {
         line-height: 1.6rem;
         font-size: 1.4rem;
