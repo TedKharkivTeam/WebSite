@@ -359,6 +359,10 @@ input, textarea {
         min-width: 131px;
     }
 
+    .--input-resize-website {
+        margin-left: -5px;
+    }
+
     .contactus-holder__triple__strong:before {
         top: 14px;
     }
@@ -468,4 +472,8 @@ input, textarea {
     .field label {
         margin-right: -14px;
     }
+}
+
+input {
+    min-height: 30px;
 }
