@@ -46,11 +46,11 @@
 .history:after {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
+    background: url("../images/JPGs for BSCAN ILL/family-scan.png") no-repeat;
     background-size: contain;
     width: 100%;
     bottom: 13%;
-    left: 16%;
+    left: 17%;
     height: 100%;
 }
 
@@ -66,7 +66,7 @@
     }
 
     .history:after {
-        top: 110px;
+        top: 68px;
     }
 }
 
@@ -79,12 +79,12 @@
     .history:after {
         content: '';
         position: absolute;
-        background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
+        background: url("../images/JPGs for BSCAN ILL/family-scan.png") no-repeat;
         background-size: contain;
         width: 90%;
         bottom: 19%;
         left: 10%;
         height: 95%;
-        top: 260px;
+        top: 220px;
     }
 }
