@@ -15,6 +15,8 @@
     <script src="../js/slick.min.js"></script>
     <script src="../js/slick-init.js"></script>
     <script src="../js/popups.js"></script>
+    <script src="../js/news-events.js"></script>
+    <script src="../js/"></script>
 </head>
 <body>
 <header>
@@ -320,7 +322,7 @@
         <div class="news-wrapper__events-block">
             <div class="events-block__events events-block__events--coming">
                 <div class="events__block-title">Coming Events & Exhibits</div>
-                <ul class="events__content-block">
+                <ul class="events__content-block" id="ComingEvents">
                     <li class="icon__img">
                         <a href="http://annualmeeting.aam-us.org/museum-expo/museumexpo-for-exhibitors" target="_blank">
                             <time class="text--bold text--pull-left">05/26/2016</time>
@@ -1151,4 +1153,44 @@
 </footer>
 <script src="../js/news-events.js"></script>
 </body>
+
+<div id="EventsRepository" style="display: none;">
+    <li class="icon__img">
+        <a href="http://annualmeeting.aam-us.org/museum-expo/museumexpo-for-exhibitors" target="_blank">
+            <time class="text--bold text--pull-left">05/26/2016</time>
+            <img src="../images/news_and_events/aam-logo.jpg" alt="news">
+        </a>
+        <div class="event_content">
+            <div class="content__text">
+                <span class="text--bold">AAM</span>
+                <span class="text--padding"> Washington, DC</span>
+                <time class="text--bold text--pull-right">05/26/2016</time>
+            </div>
+            <p>Exhibit at MuseumExpo, the largest gathering of museum professionals, and connect
+                with high-level decision-makers such as directors, curators, financial officers, exhibit
+                design professionals, educators and registrars. Take advantage of the opportunity to
+                meet face-to-face
+                with qualified buyers to showcase your new and innovative products and services
+                to more than 5,000 museum professionals seeking cost- and time-saving solutions for the
+                museum field.</p>
+        </div>
+    </li>
+
+    <li class="icon__img">
+        <a href="http://www.mlanet.org/p/cm/ld/fid=421" target="_blank">
+            <time class="text--bold text--pull-left">05/13/2016</time>
+            <img src="../images/news_and_events/MLA_2016.jpg" alt="news">
+        </a>
+        <div class="event_content">
+            <div class="content__text">
+                <span class="text--bold">MLA</span>
+                <span class="text--padding">Toronto, Ontario</span>
+                <time class="text--bold text--pull-right">05/13/2016</time>
+            </div>
+            <p>Come visit our booth for a personal demonstration and learn how to bring your library
+                into the digital age.</p>
+        </div>
+    </li>
+</div>
+
 </html>
