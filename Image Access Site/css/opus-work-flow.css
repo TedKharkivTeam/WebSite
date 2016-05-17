@@ -138,13 +138,16 @@ h2 {
     padding-bottom: 0;
 }
 
-h5 {
-    font-weight: bold;
+h4{
     padding-bottom: 13px;
     font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
     font-size: 2.7rem;
     font-weight: normal;
     line-height: 29px;
+}
+
+h5 {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
 }
 
 .infoblock__white-rectangulars {
