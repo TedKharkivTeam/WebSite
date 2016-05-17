@@ -94,6 +94,7 @@
 
 .infoblock--right {
     text-align: right;
+    position: relative;
 }
 
 .infoblock .infoblock__title {
@@ -124,8 +125,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 25%;
-    height: 19%;
+    width: 23%;
+    height: 129%;
 }
 
 .first-li {
@@ -1012,6 +1013,13 @@ h4{
     width: 50%;
     height: 50%;
 }
+.text__pull-right{
+    width: 79%;
+    display: block;
+    float: right;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
 /*end of new image*/
 @media all and (max-width: 1725px) {
     .top-title__send {
@@ -1023,8 +1031,8 @@ h4{
 }
 @media all and (max-width: 1700px) {
     .infoblock .woman_abs {
-        width: 21%;
-        height: 13%;
+        width: 25%;
+        height: 100%;
     }
     .infoblock .bscan-ill--width {
         width: 75%;
@@ -1055,8 +1063,8 @@ h4{
 }
 @media all and (max-width: 1400px) {
     .infoblock .woman_abs {
-        width: 20%;
-        height: 10%;
+        width: 22%;
+        height: 90%;
     }
     .seven-step__scan {
         margin-top: -20px;
