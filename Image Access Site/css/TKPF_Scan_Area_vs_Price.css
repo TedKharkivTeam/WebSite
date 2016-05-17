@@ -1,9 +1,27 @@
-body {
+.infoblock  {
     font-size: 1.4rem;
 }
 
 .graph img {
-    width: 90%;
+    width: 93%;
+    float:right;
+}
+
+.rotate-text{
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    writing-mode: bt-rl;
+    font-family: 'AvenirLTStdHeavy';
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    text-align: justify;
+    margin-top: 154px;
+
+}
+
+.width-td {
+    width: 4.5%;
+    FLOAT: right;
 }
 
 .scan-area {
@@ -13,10 +31,30 @@ body {
 .scan-area td {
     height: 25px;
     vertical-align: middle;
+    padding-right: 1%;
 }
 
 .htable {
     font-weight: bold;
+
+}
+
+
+.htable__width-td{
+    width: 190px;
+}
+
+.infoblock .htable__font{
+    font-weight: normal;
+    font-family: 'AvenirLTStdRoman';
+}
+
+.infoblock .infoblock__fond-size-span-text{
+    font-size: 2.2rem;
+}
+
+.graph{
+    overflow: hidden;
 }
 
 table {
@@ -26,7 +64,7 @@ table {
 
 .scan-table {
     float: right;
-    padding-top: 50px;
+    padding-top: 43px;
 }
 
 h2 {
@@ -37,4 +75,8 @@ h2 span {
     font-size: 2.2rem;
     font-weight: normal;
     text-transform: none;
+}
+
+.scan-table li{
+    padding-bottom: 10px;
 }

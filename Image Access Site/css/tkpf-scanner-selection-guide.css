@@ -45,10 +45,10 @@
 }
 
 .bscan-ill--h2 {
-    font-size: 28px;
+    font-size: 2rem;
     color: #000;
     padding: 0;
-    line-height: 1.2;
+    line-height: 2.2rem;
     font-weight: bold;
     margin: 0;
 }
@@ -511,6 +511,7 @@ h4 {
 
 .kic-product {
     text-align: right;
+    margin-bottom: 20px;
 }
 
 .kic-product__row {
@@ -666,11 +667,13 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
+    background: url("../images/brochure-pictures/Arrow.png") no-repeat;
     top: -18px;
     left: 37px;
-    width: 44px;
-    height: 26px;
+    width: 64px;
+    height: 100%;
+    background-size: contain;
+
 }
 
 .bold-dollar {
@@ -714,6 +717,7 @@ th .table--img {
 .first-column {
     width: 200px;
     text-align: right;
+    padding-right: 1.5%;
 }
 
 .table__footer {
@@ -915,8 +919,8 @@ th .table--img {
     padding: 25px 0;
 }
 
-.sitalic{
-    font-style: italic;
+.infoblock .sitalic{
+    font-family: 'AvenirLTStdBookOblique';
     text-align: center;
 }
 

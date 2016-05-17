@@ -1328,7 +1328,16 @@ h2.pod-text {
 }
 
 .infoblock__page-11-content-p {
-    padding: 78px 0;
+    padding: 60px 0;
+}
+
+.infoblock__page-11 .in-case-enhance{
+    width: 70%;
+}
+.in-case-span--center {
+    text-align: center;
+    font-size: 26px;
+    line-height: 28px;
 }
 
 .infoblock__page-11__in-case-p--italic {
@@ -1360,9 +1369,9 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 180px;
+    height: 199px;
     width: auto;
-    margin: 0 auto;
+    margin: 2px auto;
     display: block;
 }
 
@@ -1585,7 +1594,12 @@ h2.pod-text {
     border: 1px solid #4a504e;
     width: 20px;
     height: 20px;
-    margin: 0 auto;
+    margin: 3px auto 0px auto;
+}
+
+
+.infoblock table td {
+    border: 0.1rem solid black;
 }
 
 .green-cicle--after {
