@@ -1,5 +1,5 @@
 /*Common styles*/
-.infoblock .brochure-title-center {
+.infoblock .content-holder__header-h2 {
     color: #000;
     font-size: 3.6rem;
     line-height: 3.8rem;
@@ -33,7 +33,7 @@
     margin: 0;
 }
 
-.page_container {
+.content-holder {
     width: 100%;
     overflow: hidden;
     margin-bottom: 3%;
