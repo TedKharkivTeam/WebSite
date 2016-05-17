@@ -10,19 +10,19 @@
 }
 
 .infoblock .brochure-title-center {
-color: #000;
-font-size: 3.6rem;
-line-height: 3.8rem;
-text-align: center;
-padding: 14px 0 10px;
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 14px 0 10px;
 }
 
 .infoblock .brochure-title-left {
-color: #000;
-font-size: 3.6rem;
-line-height: 3.8rem;
-text-align: left;
-padding: 14px 0 10px;
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: left;
+    padding: 14px 0 10px;
 }
 
 
@@ -138,8 +138,16 @@ h2 {
     padding-bottom: 0;
 }
 
+h4{
+    padding-bottom: 13px;
+    font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
+    font-size: 2.7rem;
+    font-weight: normal;
+    line-height: 29px;
+}
+
 h5 {
-    font-weight: bold;
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
 }
 
 .infoblock__white-rectangulars {
@@ -230,6 +238,18 @@ h5 {
 /*Fourth page*/
 .infoblock__bottom-images {
     overflow: hidden;
+}
+
+.infoblock .infoblock__image--big-left-right-margin{
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+}
+
+.infoblock__image--small-left-right-margin{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
 }
 
 .bottom-images__removing-artifacts {
