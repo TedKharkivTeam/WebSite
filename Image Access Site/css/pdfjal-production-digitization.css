@@ -57,11 +57,13 @@
     text-align: center;
 }
 
-.bscan-ill--blu-text {
+.infoblock .bscan-ill--blu-text {
     display: block;
-    text-align: right;
-    font-size: 20px;
+    font-size: 2.8rem;
     color: #193791;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
 }
 
 .bscan-ill__column {
@@ -107,7 +109,7 @@
 }
 
 .title__mark {
-    font-size: 45px;
+    font-size: 4.5rem;
     font-weight: bold;
     background: transparent;
 }
@@ -123,7 +125,7 @@
     top: 0;
     left: 0;
     width: 25%;
-    height: 22%;
+    height: 19%;
 }
 
 .first-li {
@@ -159,9 +161,14 @@
     vertical-align: top;
 }
 
-.infoblock .content__green-arrow {
-    padding-left: 50px;
-    list-style: none;
+.content__blue-bullet {
+    padding-left: 23px;
+
+}
+.content__blue-bullet li{
+    padding: 1px 0;
+    line-height: 2.2rem;
+    /*font-weight: bold;*/
 }
 
 .content__green-arrow li {
@@ -202,12 +209,14 @@
     display: inline;
     text-shadow: none;
     color: #000;
-    font-size: 24px;
+    font-size: 2.4rem;
     padding-right: 20%;
 }
 
 .infoblock .seven-step__text {
     display: inline;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .seven-step__scan {
@@ -229,7 +238,7 @@
 .two-step:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/book.png") no-repeat;
     width: 115px;
     height: 70px;
     top: 0;
@@ -248,10 +257,11 @@
 }
 
 .two-step--inline {
-    padding: 0 4px;
+    padding: 0 10px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .two-step--w1 {
@@ -259,11 +269,15 @@
 }
 
 .two-step--w2 {
-    width: 35%;
+    width: 33%;
 }
 
 .two-step--w3 {
-    width: 49%;
+    width: 52%;
+}
+.two-step--w3 p{
+    font-size: 1.8rem;
+    line-height: 2rem;
 }
 
 .seven-step__h3--padding {
@@ -294,10 +308,14 @@
 }
 
 .page3__inline {
-    display: inline-block !important;
+    display: inline-block;
     padding: 9px 30px;
     width: 48%;
     vertical-align: top;
+}
+.page3__inline li{
+    line-height: 2.2rem;
+    padding: 1px 0;
 }
 
 .page3--right {
@@ -312,7 +330,7 @@
 }
 
 .page3__block2 i {
-    font-size: 10px;
+    font-size: 1.3rem;
 }
 
 .method1 {
@@ -324,7 +342,7 @@
     position: absolute;
     content: 'METHOD';
     font-weight: bold;
-    font-size: 32px;
+    font-size: 3.2rem;
     top: -10px;
     line-height: 1;
     left: -152px;
@@ -344,7 +362,7 @@
     content: 'METHOD';
     position: absolute;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 3.2rem;
     top: -10px;
     line-height: 1;
     left: -152px;
@@ -385,7 +403,8 @@
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 3rem;
+    line-height: 3.2rem;
     color: #000;
     text-align: center;
 }
@@ -551,7 +570,7 @@ h4 {
 }
 
 .table th {
-    width: calc(100% / 6);
+    width: calc(100% / 8);
     height: auto;
     margin: 0;
     padding: 0;
@@ -571,9 +590,15 @@ h4 {
     text-align: right;
     font-size: 12px;
     padding-right: 20px;
-    width: 180px;
+    /*width: 180px;*/
 }
-
+span.green-cicle{
+    padding: 0 9px;
+}
+.two-circule{
+    padding-top: 10px;
+    font-weight: bold;
+}
 th .table--img {
     width: 100px;
     height: auto;
@@ -664,14 +689,14 @@ th .table--img {
     position: relative;
 }
 
-.table__arow:before {
+.table__arow:after {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png") no-repeat;
-    top: -15px;
-    left: 16px;
-    width: 54px;
-    height: 30px;
+    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/black_table_arrow.png") no-repeat;
+    bottom: -18px;
+    right: 47px;
+    width: 60px;
+    height: 72px;
     background-size: contain;
 }
 
@@ -680,21 +705,26 @@ th .table--img {
 }
 
 .dollar-size-mini {
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .dollar-size-midle {
-    font-size: 20px
+    font-size: 2rem;
 }
 
 .dollar-size-subheight {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .dollar-size-height {
-    font-size: 28px
+    font-size: 2.8rem;
 }
-
+.dollar-size-midle-height{
+    font-size: 3.2rem;
+}
+.dollar-size-max-height{
+    font-size: 3.6rem;
+}
 .tabl-star {
     margin-left: 20px;
     font-size: 13px;
@@ -716,12 +746,21 @@ th .table--img {
 .first-column {
     width: 200px;
     text-align: right;
+    padding-right: 10px;
 }
 
 .table__footer {
-    font-size: 14px;
+    font-size: 1.4rem;
 }
-
+.table__footer td{
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.table .green-arrow{
+    width: 40px;
+    height: 38px;
+    margin: 0 auto;
+}
 .graph {
     position: relative;
     text-align: center;
@@ -900,8 +939,12 @@ th .table--img {
 
 .bogdan-kostil {
     position: relative;
-    overflow: hidden;
     padding: 25px 0;
+}
+.bogdan-kostil:after{
+    content: '';
+    display: table;
+    clear: both;
 }
 /*new image*/
 .infoblock .bscan-ill__logo{
@@ -914,4 +957,136 @@ th .table--img {
     display: block;
     font-size: 2.8rem;
 }
+.top-title{
+    position: relative;
+}
+.top-title__send{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    font-size: 2.9rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: #202A5F;
+}
+h4{
+    padding-bottom:10px;
+    line-height: 1.2;
+}
+.table .table__big-img{
+    width: 60%;
+    height: 40%;
+}
+.left-block{
+    margin-top: 30px;
+    width: 58%;
+    display: inline-block;
+    border: 2px solid #888;
+    padding: 5px;
+    border-radius: 10px;
+}
+.infoblock .left-block__img-left{
+    float: left;
+    width: 43%;
+    margin-top: -28px;
+    margin-left: -18px;
+}
+.left-block__cursive{
+    font-style: italic;
+}
+.left-block__cursive strong{
+    font-style: normal;
+}
+.left-block__h4{
+    text-align: left;
+}
+.right-block{
+    margin-top: 30px;
+    padding: 5px;
+    display:inline-block;
+    width: 41%;
+    vertical-align: top;
+}
+.infoblock .right-block__img-right{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
 /*end of new image*/
+@media all and (max-width: 1725px) {
+    .top-title__send {
+        right: 0;
+    }
+    .seven-step__h3 {
+        padding-right: 10%;
+    }
+}
+@media all and (max-width: 1700px) {
+    .infoblock .woman_abs {
+        width: 21%;
+        height: 13%;
+    }
+    .infoblock .bscan-ill--width {
+        width: 75%;
+    }
+}
+@media all and (max-width: 1630px) {
+    .two-step--w3 {
+        width: 50%;
+    }
+    .two-step--inline {
+        padding: 0 5px;
+    }
+    .two-step--img .two-step__all-scan {
+        position: relative;
+         top: 0;
+         left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media all and (max-width: 1500px){
+    html{
+        font-size: 50%;
+    }
+    .two-step--inline {
+        padding-top:20px;
+    }
+}
+@media all and (max-width: 1400px) {
+    .infoblock .woman_abs {
+        width: 20%;
+        height: 10%;
+    }
+    .seven-step__scan {
+        margin-top: -20px;
+    }
+    .seven-step__h3 {
+        padding-right: 3%;
+    }
+    .page3__inline {
+        width: 90%;
+    }
+    .seven-step__scan {
+        margin-top: -16px;
+    }
+    .table__arow:after {
+        bottom: -13px;
+        right: 40px;
+        width: 54px;
+        height: 56px;
+    }
+    .table .table__big-img {
+        width: 60%;
+        height: 30%;
+    }
+    .media1366-center{
+        text-align: center;
+    }
+    .method1:before {
+        left: -138px;
+    }
+    .method2:before {
+        left: -143px;
+    }
+}
