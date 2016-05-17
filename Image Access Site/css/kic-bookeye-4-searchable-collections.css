@@ -76,7 +76,7 @@ div .infoblock__block {
     padding-top: 1%;
 }
 .infoblock .infoblock__img{
-    width: auto;
+    width: 100%;
 }
 #infoblock__man_pdf{
     padding-left: 5%;
@@ -88,7 +88,7 @@ div .infoblock__block {
 
 }
 div #infoblock__management{
-    width: 50%;
+    width: 48%;
     float:left;
 }
 div .infoblock__diagram{
@@ -104,6 +104,10 @@ div .infoblock__block_text23 {
     position: relative;
 }
 
+.block_text23{
+    margin-right: 1%;
+}
+
 .small-brochure-title-center{
     color: #000;
     font-family: 'AvenirLTStdHeavy';
@@ -113,15 +117,21 @@ div .infoblock__block_text23 {
     padding: 14px 0 10px;
 }
 
-@media all and (min-width: 1200px) and (max-width: 1400px){
-    .infoblock .infoblock__img{
-        width: 100%;
+@media all and (min-width: 1401px) and (max-width: 1681px){
+    .infoblock__block-3 {
+        bottom: 9%;
     }
 
+    div .infoblock__diagram {
+        padding-top: 55px;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1400px){
     div .infoblock__diagram{
         width: 48%;
-        float:left;
-        margin-top: 20%;
+        float: left;
+        margin-top: 116px;
         margin-left: 2%;
     }
 
@@ -141,14 +151,11 @@ div .infoblock__block_text23 {
 }
 
 @media all and (min-width: 922px) and (max-width: 1199px){
-    .infoblock .infoblock__img{
-        width: 100%;
-    }
 
     div .infoblock__diagram{
-        width: 48%;
-        float:left;
-        margin-top: 50%;
+        width: 49%;
+        float: left;
+        margin-top: 69px;
         margin-left: 2%;
     }
 
@@ -168,9 +175,6 @@ div .infoblock__block_text23 {
 }
 
 @media all and (min-width: 768px) and (max-width: 921px){
-    .infoblock .infoblock__img{
-        width: 100%;
-    }
 
     div .infoblock__diagram{
         width: 48%;
@@ -195,13 +199,9 @@ div .infoblock__block_text23 {
 }
 
 @media all and (max-width: 767px){
-    .infoblock .infoblock__img{
-        width: 100%;
-    }
 
     div .infoblock__diagram{
         width: 48%;
-        float:left;
         margin-top: 60%;
         margin-left: 2%;
     }

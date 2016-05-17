@@ -26,6 +26,7 @@
 
 .scan-area {
     text-align: center;
+    width: 55%;
 }
 
 .scan-area td {
@@ -35,7 +36,7 @@
 }
 
 .htable {
-    font-weight: bold;
+    font-family: 'AvenirLTStdHeavy';
 
 }
 
@@ -45,7 +46,6 @@
 }
 
 .infoblock .htable__font{
-    font-weight: normal;
     font-family: 'AvenirLTStdRoman';
 }
 
@@ -65,6 +65,7 @@ table {
 .scan-table {
     float: right;
     padding-top: 43px;
+    width: 40%;
 }
 
 h2 {
@@ -79,4 +80,35 @@ h2 span {
 
 .scan-table li{
     padding-bottom: 10px;
+    font-size: 1.2rem;
 }
+
+@media all and (max-width: 1600px) {
+    .scan-table{
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 1400px){
+    .htable__width-td {
+        width: auto;
+    }
+
+    .scan-table li{
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    tr td{
+        font-size: 1rem;
+    }
+    .scan-table {
+        float: right;
+        padding-top: 80px;
+    }
+    .rotate-text{
+        margin-top: 80px;
+
+    }
+}
+
