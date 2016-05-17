@@ -4,7 +4,7 @@
     font-size: 4rem;
     line-height: 4rem;
     text-align: center;
-    padding: 25px 0 25px 0;
+    padding: 25px 0 5px 0;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
     width: 90%;
 }
@@ -18,9 +18,10 @@
 }
 
 .infoblock .brochure-subtitle-center {
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
     color: #000;
     font-size: 2.6rem;
-    line-height: 2.8rem;
+    line-height: 2.6rem;
     text-align: center;
     padding: 14px 0 10px;
     margin: 0;
@@ -45,6 +46,10 @@
 
 .infoblock .infoblock__row--original {
     width: 100%;
+}
+
+.infoblock .kic-ts-bullet-margin {
+    margin-left: 3%;
 }
 
 .infoblock .row__column--original {
@@ -172,9 +177,9 @@
 
 /* Searchable Collectinos page */
 
-/*.infoblock__page-3__relative-block {*/
-/*position: relative;*/
-/*}*/
+.infoblock__page-3__relative-block {
+position: relative;
+}
 
 .infoblock .infoblock__page-3__img {
     width: 100%;
@@ -236,7 +241,7 @@
 }
 
 .infoblock__page-3__block-3 .infoblock__page-3__number {
-    width: 100%;
+    width: 15%;
     float: left;
 }
 
@@ -280,6 +285,11 @@ div .infoblock__page-3__block {
 }
 
 /*End of Searchable Collectinos page*/
+
+.infoblock .capture-area-comparison-below-map-text {
+    line-height: 2rem;
+    margin-left: 7%;
+}
 
 /* No More Spine Damage page */
 
@@ -923,6 +933,7 @@ h2.pod-text {
     width: 50%;
     float: left;
     margin: 0;
+    padding: 5px 1%;
 }
 
 .infoblock__page-12__double-wrap figure img, .infoblock .diagram {
@@ -934,13 +945,26 @@ h2.pod-text {
 
 .infoblock__page-12__double-wrap figure figcaption {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.4rem;
 }
 
 .infoblock .infoblock__page-12__double__double-p {
     width: 50%;
     float: left;
+}
+
+.infoblock .infoblock__page-12__double__double-p--custom {
+    margin: 10px 2%;
+    width: 45%;
+}
+
+.infoblock .brochure-subtitle-center--custom-shitty {
+
+}
+
+.infoblock .row__column--custom {
+    width: 95%;
 }
 
 .infoblock .infoblock__page-12__bookeye-vs-copiers__span {
@@ -982,8 +1006,9 @@ h2.pod-text {
 }
 
 .infoblock h3 {
-
     font-size: 2.6rem;
+    line-height: 2.6rem;
+    padding: 10px 1%;
 }
 
 /*Technical Details */
@@ -993,8 +1018,6 @@ h2.pod-text {
 }
 
 .tech_details_table {
-    margin-left: 15%;
-    width: 70%;
     text-align: center;
 }
 
@@ -1018,6 +1041,32 @@ h2.pod-text {
     text-align: center;
 }
 
+.border-table-wrapper {
+    margin-left: 15%;
+    width: 70%;
+}
+
+.border-table-box {
+    padding: 10px 1%;
+    border: 1px solid black;
+}
+
+.tech_details_table th {
+    padding: 5px 0;
+}
+
+.wide_tech_details_table th {
+    padding: 5px 0;
+}
+
+.table__footer th, td {
+    padding: 5px 0;
+}
+
+.table__footer td {
+    padding-left: 2%;
+}
+
 .padding_table {
     margin-top: 3%;
 }
@@ -1028,6 +1077,7 @@ h2.pod-text {
 
 .infoblock .infoblock__page-13__th {
     width: 38%;
+    padding: 15px 0;
 }
 
 .infoblock #right-image-text {
@@ -1069,10 +1119,6 @@ h2.pod-text {
     .two-step:before {
         width: 80px;
         height: 40px;
-    }
-
-    .table__arow:before {
-        left: 25px;
     }
 
     .history:after {
@@ -1432,7 +1478,7 @@ h2.pod-text {
     padding: 0;
     line-height: 1.2;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    margin: 0;
+    margin: 15px 0;
 }
 
 .bscan-ill--center {
@@ -1893,6 +1939,7 @@ h4 {
 
 .kic-product {
     text-align: right;
+    margin-bottom: 15px;
 }
 
 .kic-product__row {
@@ -1957,7 +2004,7 @@ h4 {
 
 th .table--img {
     width: 100px;
-    height: 100%;
+    height: 65px;
 }
 
 .cicle {
@@ -2049,9 +2096,9 @@ th .table--img {
     content: '';
     position: absolute;
     background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
-    top: -18px;
-    left: 37px;
-    width: 44px;
+    top: -75px;
+    left: 50%;
+    width: 69px;
     height: 26px;
 }
 
@@ -2075,22 +2122,39 @@ th .table--img {
     font-size: 28px
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .tabl-star {
-    margin-left: 20px;
-    font-size: 13px;
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
     vertical-align: text-top;
     color: #e8383b;
+    padding-left: 1%;
 }
 
 .tabl-star-mini {
-    margin-left: 20px;
-    font-size: 9px;
+    margin-left: 2.5rem;
+    font-size: 0.9rem;
     vertical-align: text-top;
-    color: #e8383b;
+    color: black;
+    padding-left: 1%;
 }
 
 .align-right {
-    text-align: right;
+    float: right;
+}
+
+.span-block {
+    font-family: AvenirLTStdBookOblique; /* font-weight: bold; */
+    padding-bottom: 5px;
+    display: block;
 }
 
 .first-column {
@@ -2206,7 +2270,7 @@ th .table--img {
 .history:after {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
+    /*background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;*/
     background-size: contain;
     width: 90%;
     bottom: -7%;
