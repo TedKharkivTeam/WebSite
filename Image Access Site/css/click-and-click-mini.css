@@ -75,7 +75,7 @@ img {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/blue-bullet.png") no-repeat;
+    background: url("../images/BlueBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -86,7 +86,7 @@ img {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/green-bullet.png") no-repeat;
+    background: url("../images/GreenBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -103,7 +103,8 @@ div.infoblock span {
 
 div.infoblock h1 {
     color: #000000;
-    font-size: 25px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     font-weight: bold;
     text-shadow: none;
     text-align: center;
@@ -112,7 +113,8 @@ div.infoblock h1 {
 
 div.infoblock h2 {
     color: #000000;
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
     font-weight: bold;
     margin-bottom: 5px;
     padding: 0;
@@ -124,8 +126,8 @@ div.article-container {
 }
 
 div.article-container p {
-    font-size: 14px;
-    line-height: 1.16em;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 span.caption {
@@ -143,13 +145,14 @@ span.caption {
 
 /*pdfjak*/
 .infoblock {
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     position: relative;
 }
 
 .infoblock span, p {
     font-weight: normal;
-    line-height: 24px;
+    line-height: 2.4rem;
 }
 
 .infoblock strong {
@@ -177,11 +180,13 @@ span.caption {
 }
 
 .bscan-ill__bolt--fs1 {
-    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .bscan-ill__bolt--fs2 {
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .bscan-ill--padding {
@@ -189,10 +194,10 @@ span.caption {
 }
 
 .bscan-ill--h2 {
-    font-size: 28px;
+    font-size: 2.8rem;
     color: #000;
     padding: 0;
-    line-height: 1.2;
+    line-height: 3rem;
     font-weight: bold;
     margin: 0;
 }
@@ -203,7 +208,8 @@ span.caption {
 
 .bscan-ill--blu-text {
     text-align: right;
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
     color: #193791;
 }
 
@@ -250,7 +256,8 @@ span.caption {
 }
 
 .title__mark {
-    font-size: 45px;
+    font-size: 4.4rem;
+    line-height: 4.6rem;
     font-weight: bold;
     background: transparent;
 }
@@ -287,11 +294,11 @@ span.caption {
 
 .bscan--h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4rem;
     color: #000;
     margin: 0;
     padding: 0;
-    line-height: 1.2;
+    line-height: 4.2rem;
 }
 
 .infoblock__content {
@@ -330,7 +337,8 @@ span.caption {
     position: absolute;
     color: #fff;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 4rem;
+    line-height: 4.2rem;
     background: #000;
     border-radius: 50%;
     bottom: -35px;
@@ -344,7 +352,8 @@ span.caption {
     display: inline;
     text-shadow: none;
     color: #000;
-    font-size: 24px;
+    line-height: 2.6rem;
+    font-size: 2.4rem;
     padding-left: 0;
 }
 
@@ -454,7 +463,8 @@ span.caption {
 }
 
 .page3__block2 i {
-    font-size: 10px;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 .method1 {
@@ -486,9 +496,9 @@ span.caption {
     content: 'METHOD';
     position: absolute;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
     top: -10px;
-    line-height: 1;
     left: -152px;
     background-size: contain;
     background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 24px 22px;
@@ -503,7 +513,8 @@ span.caption {
 }
 
 .block3__top span {
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
     font-weight: bold;
 }
 
@@ -527,13 +538,14 @@ span.caption {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 3rem;
     color: #000;
     text-align: center;
 }
 
 h4 {
-    font-size: 23px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: #000;
     text-align: center;
     font-weight: normal;
@@ -582,9 +594,9 @@ h4 {
 }
 
 .block-grey__ul p {
-    font-size: 12px;
+    font-size: 1.2rem;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.4rem;
 }
 
 .center-br img {
@@ -664,7 +676,8 @@ h4 {
 
 .kic-product .row__title {
     text-align: center;
-    font-size: 13px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     font-weight: bold;
 }
 
@@ -678,11 +691,11 @@ h4 {
 }
 
 .row__column .column__mini-title {
-    font-size: 11px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     margin-top: 5px;
     font-weight: bold;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
-    line-height: 1.2;
     padding: 0;
 }
 
@@ -711,7 +724,8 @@ h4 {
 
 .table .table--ta-left {
     text-align: right;
-    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     padding-right: 20px;
     width: 180px;
 }
@@ -798,7 +812,8 @@ th .table--img {
 
 .bold-line {
     font-weight: bold;
-    font-size: 33px;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
 }
 
 .table__arow {
@@ -821,31 +836,37 @@ th .table--img {
 }
 
 .dollar-size-mini {
-    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .dollar-size-midle {
-    font-size: 20px
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .dollar-size-subheight {
-    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .dollar-size-height {
-    font-size: 28px
+    font-size: 2.8rem;
+    line-height: 3rem;
 }
 
 .tabl-star {
     margin-left: 20px;
-    font-size: 13px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     vertical-align: text-top;
     color: #e8383b;
 }
 
 .tabl-star-mini {
     margin-left: 20px;
-    font-size: 9px;
+    font-size: 0.8rem;
+    line-height: 1rem;
     vertical-align: text-top;
     color: #e8383b;
 }
@@ -860,7 +881,8 @@ th .table--img {
 }
 
 .table__footer {
-    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .graph {
@@ -898,12 +920,12 @@ th .table--img {
 }
 
 .selection {
-    font-size: 13px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border: 1px solid;
     padding: 5px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
@@ -918,7 +940,7 @@ th .table--img {
 }
 
 .sup-text {
-    font-size: 8px;
+    font-size: 0.8rem;
     vertical-align: super;
     font-weight: normal;
 }
@@ -928,7 +950,8 @@ th .table--img {
 }
 
 .infoblock .table-text {
-    font-size: 13px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     padding: 0;
     text-align: left;
 }
@@ -945,7 +968,8 @@ th .table--img {
 }
 
 .infoblock .country__text {
-    font-size: 13px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     text-align: center;
 }
 
@@ -1043,8 +1067,8 @@ th .table--img {
 }
 
 .reservation__h1 {
-    font-size: 70px;
-    line-height: 72px;
+    font-size: 7rem;
+    line-height: 7.2rem;
     text-shadow: none;
     color: #000;
     margin: 0;
@@ -1052,17 +1076,17 @@ th .table--img {
 
 .reservation__h2 {
     color: #000;
-    font-size: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     margin: 0;
-    padding: 0;
-    padding-bottom: 10px;
+    padding: 0 0 10px;
 }
 
 .reservation__h3 {
     color: #000;
-    font-size: 24px;
-    line-height: 26px;
-    font-style: italic;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: 'AvenirLTStdBlackOblique';
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -1074,7 +1098,8 @@ th .table--img {
     padding: 10px;
     display: inline-block;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .reservation__text-img {
@@ -1085,7 +1110,8 @@ th .table--img {
     text-align: center;
     width: 31%;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     padding: 0 5px;
 }
 
@@ -1115,8 +1141,9 @@ th .table--img {
     right: 0;
     width: 45%;
     text-align: center;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-family: 'AvenirLTStdBlackOblique';
 }
 
 .footer__left {
@@ -1139,7 +1166,7 @@ th .table--img {
 
 .left__link {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #4a504e;
     font-weight: bold;
 }
@@ -1159,23 +1186,22 @@ th .table--img {
     text-align: center;
     color: #000;
     text-shadow: none;
-    font-size: 64px;
-    line-height: 74px;
+    font-size: 6.4rem;
+    line-height: 6.6rem;
     margin: 0;
 }
 
 .top__h2 {
     text-align: center;
     color: #8ca1c9;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 2.8rem;
+    line-height: 3rem;
     text-transform: uppercase;
     padding: 0;
 }
 
 .infoblock__center {
     overflow: hidden;
-    /*margin-top: -150px;*/
 }
 
 .infoblock .center__img {
@@ -1255,7 +1281,8 @@ th .table--img {
 }
 
 .bottom__a a {
-    font-size: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: #454733;
     margin-bottom: 10px;
 }
@@ -1263,7 +1290,8 @@ th .table--img {
 .a--rel {
     position: absolute;
     bottom: 76px;
-    font-size: 30px;
+    font-size: 3rem;
+    line-height: 3.2rem;
     color: #8c897d;
     width: 230%;
     right: 0;
@@ -1280,7 +1308,8 @@ th .table--img {
 }
 
 .unyver__h2 {
-    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 4.4rem;
     color: #000000;
     margin: 0;
     padding: 0;
@@ -1410,7 +1439,8 @@ th .table--img {
     float: left;
     width: 60%;
     text-align: left;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .wrapper-for-img {
@@ -1459,17 +1489,17 @@ th .table--img {
 }
 
 .saw h3 {
-    font-size: 30px;
+    font-size: 3rem;
+    line-height: 3.2rem;
     color: #000;
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px;
     font-weight: normal;
-    padding-bottom: 10px;
 }
 
 .saw__green-text {
-    font-style: italic;
-    font-size: 17px;
+    font-family: 'AvenirLTStdBlackOblique';
+    font-size: 1.6rem;
     background: #fefffd;
     background: -moz-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
     background: -webkit-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
@@ -1495,27 +1525,27 @@ th .table--img {
 
 .block__ul {
     width: 24%;
-    padding: 0 4px;
+    padding: 10px 4px;
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    padding-top: 10px;
 }
 
 .infoblock .block__ul {
     list-style: none;
-    padding: 0 4px;
-    padding-top: 10px;
+    padding: 10px 4px;
 }
 
 .block__ul li {
     color: #5d5d5d;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     margin-left: 25px;
 }
 
 .block__ul li:first-child {
-    font-size: 17px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     margin-left: 0;
     font-weight: bold;
 }
@@ -1537,7 +1567,8 @@ th .table--img {
 }
 
 .infoblock__photo {
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock__photo .photo__table {
@@ -1563,46 +1594,48 @@ th .table--img {
 
 /*pod*/
 h1.pod-text {
-    font-size: 34px;
+    font-size: 3.2rem;
     color: #000;
     padding: 0;
-    line-height: 1.2;
+    line-height: 3.4rem;
     font-weight: bold;
     margin: 0;
 }
 
 h2.pod-text {
-    font-size: 26px;
+    font-size: 2.4rem;
     color: #000;
     padding: 0;
-    line-height: 1.2;
+    line-height: 2.6rem;
     font-weight: bold;
     margin: 0;
 }
 
 h3.pod-text {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #000;
     padding: 0;
-    line-height: 1.2;
+    line-height: 2.6rem;
     font-weight: normal;
     margin: 0;
 }
 
 h4.pod-text {
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
     color: #000;
 }
 
 h5.pod-text {
     color: #9C9E9F;
-    font-size: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     margin: 0 0 20px;
 }
 
 h6.pod-text {
     color: #093C8B;
-    font-size: 12px;
+    font-size: 1.2rem;
     margin: 9px 0 5px 0;
 }
 
@@ -1622,7 +1655,8 @@ h6.pod-text {
 }
 
 .content__pod-text p {
-    font-size: 18px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     padding: 20px 0 10px 20px;
 }
 
@@ -1650,8 +1684,8 @@ h6.pod-text {
 
 .infoblock .text-grey-pbd {
     display: inline-block;
-    font-size: 22px;
-    padding: 0px 2% 0px 5%;
+    font-size: 2.2rem;
+    padding: 0 2% 0 5%;
 }
 
 .infoblock {
@@ -1663,7 +1697,8 @@ h6.pod-text {
 .new-red {
     color: #fff;
     background: #ca3731;
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
     position: absolute;
     left: 11px;
     -moz-transform: rotate(-45deg);
@@ -1709,7 +1744,8 @@ h6.pod-text {
 .custom__aline .custom__aline--text {
     width: 90%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
 }
 
@@ -1784,7 +1820,7 @@ h6.pod-text {
 
 .in-case-p--italic {
     padding: 10px;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     display: inline-block;
 }
 
@@ -1862,7 +1898,8 @@ h6.pod-text {
 }
 
 .infoblock .click_click_mini {
-    font-size: 2.1rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     font-weight: 600;
     color: #0000F0;
 }
@@ -1877,8 +1914,8 @@ h6.pod-text {
 }
 
 .infoblock .label2 {
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     text-align: center;
     display: block;
 }
@@ -1886,8 +1923,9 @@ h6.pod-text {
 .infoblock .label3 {
     width: 40%;
     font-weight: 400;
-    font-size: x-large;
-    font-style: italic;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: 'AvenirLTStdBlackOblique';
     margin-left: 54%;
 }
 
@@ -2011,7 +2049,8 @@ h6.pod-text {
 }
 
 .infoblock .map-marker {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .map-marker mark {
@@ -2032,7 +2071,7 @@ h6.pod-text {
 }
 
 .infoblock .text6 {
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     font-weight: 300;
 
     margin-left: -2%;
@@ -2041,15 +2080,15 @@ h6.pod-text {
 
 .infoblock .text5 {
     font-weight: 400;
-    font-size: x-large;
-    /*margin-left: -2%;*/
+    font-size: 2.4rem;
     text-align: center;
     line-height: 1;
 }
 
 .infoblock .text7 {
     text-align: center;
-    font-size: xx-large;
+    font-size:2.8rem;
+    line-height: 3rem;
     margin-top: 1%;
 }
 
@@ -2061,8 +2100,8 @@ h6.pod-text {
 
 .infoblock .text8 {
     font-weight: 400;
-    font-size: x-large;
-
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     margin-left: 48%;
     text-align: center;
 }
@@ -2074,20 +2113,20 @@ h6.pod-text {
 }
 
 .infoblock .text9 {
-
     text-align: center;
 }
 
 .infoblock .text10 {
     font-weight: 400;
-    font-size: x-large;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     width: 100%;
-
     text-align: center;
 }
 
 .infoblock .dvfu1 {
-    font-size: xx-large;
+    font-size: 2.8rem;
+    line-height: 3rem;
     text-align: center;
     font-weight: 600;
     margin-top: 1%;
@@ -2095,7 +2134,8 @@ h6.pod-text {
 
 .infoblock .dvfu2 {
     font-weight: 600;
-    font-size: x-large;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .infoblock .dv_block {
@@ -2136,13 +2176,14 @@ h6.pod-text {
     text-align: left;
     color: #000;
     text-shadow: none;
-    font-size: 32px;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
     margin: 0;
 }
 
 .top__h2 {
     text-align: left;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     font-size: larger;
     font-weight: 500;
     color: #000000;
@@ -2151,7 +2192,6 @@ h6.pod-text {
 .infoblock__center {
     overflow: hidden;
     margin-top: -50px;
-    /*padding-bottom: 15%;*/
     line-height: 1.8;
 }
 
@@ -2224,7 +2264,8 @@ h6.pod-text {
 }
 
 .bottom__a a {
-    font-size: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: #454733;
     margin-bottom: 10px;
 }
@@ -2232,7 +2273,8 @@ h6.pod-text {
 .a--rel {
     position: absolute;
     bottom: 76px;
-    font-size: 30px;
+    font-size: 2.8rem;
+    line-height: 3rem;
     color: #8c897d;
     width: 230%;
     right: 0;
@@ -2243,7 +2285,8 @@ h6.pod-text {
 }
 
 .infoblock .true2 {
-    font-size: xx-large;
+    font-size: 2.8rem;
+    line-height: 3rem;
     font-weight: 600;
     margin-left: 2%;
 }
@@ -2257,9 +2300,9 @@ h6.pod-text {
 
 .infoblock .true2_label {
     font-weight: 600;
-    font-size: x-large;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     text-align: center;
-    /*position: absolute;*/
     margin-left: 5%;
     margin-top: 0;
 }
@@ -2272,7 +2315,8 @@ h6.pod-text {
 
 .infoblock .true2_label1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.8rem;
+    line-height: 3rem;
     font-weight: 600;
 }
 
@@ -2283,7 +2327,7 @@ h6.pod-text {
 .infoblock .true2_block_3 {
     width: 30%;
     margin-left: 18%;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
 }
 
 .infoblock .kic_div .true2_two_screens {
@@ -2307,7 +2351,7 @@ h6.pod-text {
 }
 
 .infoblock .text_undergorund_label {
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     font-weight: 300;
     margin-left: 25%;
     text-align: center;
@@ -2317,8 +2361,8 @@ h6.pod-text {
 .infoblock .label_smart {
     font-weight: 600;
     position: absolute;
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -2327,14 +2371,16 @@ h6.pod-text {
 
 .sup_index {
     vertical-align: super;
-    font-size: 18px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .label_smart2 {
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     width: 30%;
     position: absolute;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
     left: 0;
     right: 0;
@@ -2345,7 +2391,8 @@ h6.pod-text {
 .infoblock .label_smart3 {
     position: absolute;
     width: 13%;
-    font-size: 10px;
+    font-size: 0.8rem;
+    line-height: 1rem;
     margin-left: 29%;
     margin-top: 17%;
     font-weight: 600;
@@ -2355,7 +2402,8 @@ h6.pod-text {
     position: absolute;
     width: 13%;
     text-align: center;
-    font-size: smaller;
+    font-size: 0.8rem;
+    line-height: 1rem;
     color: #5C7681;
     margin-top: 41%;
     margin-left: 14%;
@@ -2365,8 +2413,9 @@ h6.pod-text {
     position: absolute;
     width: 13%;
     text-align: center;
-    font-style: italic;
-    font-size: smaller;
+    font-family: 'AvenirLTStdBlackOblique';
+    font-size: 0.8rem;
+    line-height: 1rem;
     color: #5C7681;
     margin-top: 47%;
     margin-left: 39%;
@@ -2376,8 +2425,9 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-style: italic;
-    font-size: smaller;
+    font-family: 'AvenirLTStdBlackOblique';
+    font-size: 0.8rem;
+    line-height: 1rem;
     color: #5C7681;
     margin-top: 59%;
     margin-left: 1%;
@@ -2387,8 +2437,9 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-style: italic;
-    font-size: smaller;
+    font-family: 'AvenirLTStdBlackOblique';
+    font-size: 0.8rem;
+    line-height: 1rem;
     color: #5C7681;
     margin-top: 59%;
     margin-left: 13%;
@@ -2398,8 +2449,9 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-style: italic;
-    font-size: smaller;
+    font-family: 'AvenirLTStdBlackOblique';
+    font-size: 0.8rem;
+    line-height: 1rem;
     color: #5C7681;
     margin-top: 59%;
     margin-left: 27%;
@@ -2418,7 +2470,7 @@ h6.pod-text {
 
 .infoblock .label_smart9 {
     font-size: 3.6rem;
-    line-height: 1.2;
+    line-height: 3.8rem;
     margin-left: 3%;
     margin-top: 2%;
 }
@@ -2427,7 +2479,7 @@ h6.pod-text {
     font-size: 2.1rem;
     line-height: 1.2;
     margin-left: 3%;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
 }
 
 .infoblock .smart_restaurant_img {
@@ -2449,7 +2501,7 @@ h6.pod-text {
 .infoblock .label_smart11 {
     width: 21%;
     margin-left: 35%;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     text-align: right;
 }
 
@@ -2457,7 +2509,7 @@ h6.pod-text {
     width: 16%;
     margin-left: 35%;
     margin-top: 10%;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     text-align: right;
 }
 
@@ -2465,7 +2517,7 @@ h6.pod-text {
     width: 23%;
     margin-left: 10%;
     margin-top: -8%;
-    font-style: italic;
+    font-family: 'AvenirLTStdBlackOblique';
     text-align: left;
 }
 
@@ -2584,7 +2636,8 @@ h6.pod-text {
 .tree-img__inline {
     display: inline-block;
     width: 37%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .tree-img__inline--min-width {
@@ -2628,8 +2681,8 @@ h6.pod-text {
 
 .infoblock__double-wrap figure figcaption {
     text-align: center;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .infoblock .infoblock__double__double-p {
@@ -2640,16 +2693,16 @@ h6.pod-text {
 .infoblock .bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 14px;
+    font-family: 'AvenirLTStdBlackOblique';
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .infoblock .bookeye-vs-copiers__strong {
     text-align: center;
     display: block;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .double-content__text-and-picture-wrapper {
@@ -2671,7 +2724,7 @@ h6.pod-text {
     -webkit-background-clip: text; /* подробнее про background-clip */
     color: transparent;
     text-align: center;
-    font-size: 26px;
+    font-size: 2.6rem;
     line-height: 1.2;
 }
 
@@ -2723,7 +2776,7 @@ h6.pod-text {
     .infoblock .true2_block_3 {
         width: 40%;
         margin-left: 12%;
-        font-style: italic;
+        font-family: 'AvenirLTStdBlackOblique';
     }
 }
 
@@ -2749,10 +2802,6 @@ h6.pod-text {
 @media all and (max-width: 1600px) {
     html {
         font-size: 55%;
-    }
-
-    .infoblock .click_click_mini {
-        /*padding-top: 0;*/
     }
 
     .smart-dock__tree-img {
@@ -2783,15 +2832,18 @@ h6.pod-text {
 
     .infoblock .label_smart11 {
         margin-left: 34%;
-        font-size: 12px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
     }
 
     .infoblock .label_smart13 {
-        font-size: 12px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
     }
 
     .infoblock .label_smart12 {
-        font-size: 12px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
     }
 
     .infoblock .label3 {
@@ -2812,7 +2864,7 @@ h6.pod-text {
     }
 
     .in-case-strong {
-        font-size: 28px;
+        font-size: 2.8rem;
     }
 
     .infoblock .in-case-enhance--left {
@@ -2878,6 +2930,7 @@ h6.pod-text {
 @media all and (max-width: 1420px) {
     .infoblock .two-tel__text-top {
         font-size: 1.6rem;
+        line-height: 1.8rem;
     }
 }
 
@@ -2945,7 +2998,6 @@ h6.pod-text {
 @media all and (max-width: 1287px) and (min-width: 1200px) {
     .infoblock__nav {
         padding-top: 10px;
-
     }
 }
 
@@ -2955,7 +3007,8 @@ h6.pod-text {
     }
 
     .seven-step__text {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 }
 
