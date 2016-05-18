@@ -76,7 +76,7 @@ var m3D = function () {
                             camera.ty = self.diapo.y;
                         }
 
-                        /* ---- disable previously selected img ---- */
+                        /* ---- disable previously selected images_for_slides ---- */
                         if (selected) {
                             selected.but.className = "button viewed";
                             selected.img.className = "";

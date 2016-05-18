@@ -23,8 +23,8 @@
 #feature_footnotes{width:1100px; height:25px; margin:0 48px; overflow:hidden; border:1px solid #aaa; border-radius:5px; }
 #feature_footnotes.hide{display:none;}
 #feature_footnotes.expand{min-height:25px; height:auto; }
-#feature_footnotes legend{width:auto; padding-left:25px; font-size:200%; background:#fff; background:url(../images/showhide-plus.png) 5px 10px no-repeat; cursor:pointer;}
-#feature_footnotes.expand legend{background:url(../images/showhide-minus.png) 5px 10px no-repeat; }
+#feature_footnotes legend{width:auto; padding-left:25px; font-size:200%; background:#fff; background:url(../images/KIC_Build/showhide-plus.png) 5px 10px no-repeat; cursor:pointer;}
+#feature_footnotes.expand legend{background:url(../images/KIC_Build/showhide-minus.png) 5px 10px no-repeat; }
 #feature_footnotes p.hide{display:none;}
 #feature_footnotes p.label{width:auto; text-align:center; font-size:200%; background:none;}
 #feature_footnotes p.key{width:auto; text-align:center;}

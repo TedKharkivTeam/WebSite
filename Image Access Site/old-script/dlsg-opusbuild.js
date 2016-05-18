@@ -319,8 +319,8 @@ var change_img_headings = function(sys_id) {
       break;      
   }            				 	
 
-  $('#'+sys_id+' .images .img-heading p').css("font-size", font_size ); 
-  $('#'+sys_id+' .images .img-heading p').html( heading );    //use html to keep the line break
+  $('#'+sys_id+' .images .images_for_slides-heading p').css("font-size", font_size ); 
+  $('#'+sys_id+' .images .images_for_slides-heading p').html( heading );    //use html to keep the line break
     
 }
 	
@@ -606,15 +606,15 @@ var image_swap = function(sys_id) {
   if (dualpc) { dualpc = 'dualpc'; } else { dualpc = 'nodualpc'; };   
   if (pc) { pc = 'pc'; } else { pc = 'nopc'; };   
     
-  $('#'+sys_id+' .img-model').addClass('inactive');
-  $('#'+sys_id+' .img-model.'+model+'.'+dualpc+'.'+pc).removeClass('inactive');
+  $('#'+sys_id+' .images_for_slides-model').addClass('inactive');
+  $('#'+sys_id+' .images_for_slides-model.'+model+'.'+dualpc+'.'+pc).removeClass('inactive');
 }
 var reset_build_form = function(sys_id) {
   $('#'+sys_id+' .workflow.Workflow input').prop('checked', true);	
   $('#'+sys_id+' .model.Bookeye4v2 input').prop('checked', true);
   $('#'+sys_id+' input.ocr').prop('checked', true);  
-  $('#'+sys_id+' .img-model').addClass('inactive');
-//  $('#'+sys_id+' .img-model.Bookye4v2.nodualpc.nopc').removeClass('inactive');   
+  $('#'+sys_id+' .images_for_slides-model').addClass('inactive');
+//  $('#'+sys_id+' .images_for_slides-model.Bookye4v2.nodualpc.nopc').removeClass('inactive');   
   $('#'+sys_id+' input.quantity').val(0);  
   $('#'+sys_id+' legend').siblings().addClass('hide');  
 //  $('#'+sys_id+' .lic_note').addClass('invisible'); 

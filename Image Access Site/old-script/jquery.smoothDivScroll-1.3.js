@@ -823,7 +823,7 @@
 				function loadFlickrImage(item, sizeIndex) {
 					var path = item.media.m;
 					var imgSrc = path.replace("_m", flickrImageSizes[sizeIndex].letter);
-					var tempImg = $("<img />").attr("src", imgSrc);
+					var tempImg = $("<images_for_slides />").attr("src", imgSrc);
 
 					tempImg.load(function () {
 						// Is it still smaller? Load next size
