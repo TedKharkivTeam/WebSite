@@ -37,9 +37,24 @@ h5 {
     font-weight: bold;
 }
 
+.bottom-images__removing-artifacts {
+    width: 49%;
+    float: left;
+}
+
+.bottom-images__inverting-photo {
+    width: 49%;
+    float: right;
+}
+
+.infoblock__white-pages {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
 .infoblock__white-rectangulars {
     overflow: hidden;
-    background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
     width: 100%;
     padding-left: 3%;
     background-size: contain;
