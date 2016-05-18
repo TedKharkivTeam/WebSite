@@ -77,20 +77,6 @@
     width: 90%;
 }
 
-.bscan-ill__arrow {
-    position: relative;
-    display: block;
-}
-
-.bscan-ill__arrow:before {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrow.png") no-repeat;
-    top: 0;
-    left: -64px;
-    width: 65px;
-    height: 60px;
-}
 
 .infoblock--right {
     text-align: right;
@@ -252,7 +238,7 @@
 .two-step:after {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
+    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/repeat.png") no-repeat;
     width: 47px;
     height: 33px;
     bottom: 7px;
