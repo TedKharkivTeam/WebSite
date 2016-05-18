@@ -61,6 +61,7 @@
     text-align: right;
     color: #3E4793;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    float: right;
 }
 
 .infoblock .content-holder__text-section {
@@ -89,6 +90,27 @@
     top: -250px;
     left: 6%;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    margin-bottom: -240px;
+}
+
+.infoblock .bg-image__text--left-top {
+    width: 34%;
+    color: black;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-left: 3%;
+    position: relative;
+    top: -567px;
+}
+
+.infoblock .bg-image__text--left-middle {
+    color: black;
+    width: 23%;
+    margin-left: 6%;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    position: relative;
+    top: -350px;
 }
 
 .infoblock .text--left__span {
@@ -472,7 +494,7 @@ div .__block_text23 {
 .infoblock #background-image {
     position: relative;
     height: 570px;
-    background: url("../images/KIC_BookEdge/sec_4_img_1.png") no-repeat;
+    background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
     background-size: 100% 100%;
 }
 
@@ -971,7 +993,7 @@ h2.pod-text {
 .infoblock__page-11__in-case-span--center {
     font-size: 2.6rem;
     line-height: 2.6rem;
-    padding-left: 5%;
+    font-weight: bold!important;
 }
 
 .infoblock__page-11__double__content__double {
@@ -1031,8 +1053,7 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 228px;
-    width: 85%;
+    width: 56%;
     margin: 10px 0;
     margin-left: 3%;
     display: block;
@@ -1051,6 +1072,7 @@ h2.pod-text {
     height: 155px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 10px;
     display: block;
 }
 
@@ -2490,4 +2512,15 @@ th .table--img {
 
 .image_resize {
 
+}
+
+.infoblock .capture-area-comparison-icon {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    padding-bottom: 10px;
+    display: inline-block;
 }
