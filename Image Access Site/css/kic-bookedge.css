@@ -224,14 +224,14 @@
 
 /* Scan Copy Fax styles */
 
-.infoblock .columnKIC_Bookeye_4 {
+.infoblock .many-articles-section__kic-coins {
     float: left;
     /* width: 50%; */
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
 }
 
-#hand-yellow-coin {
+#kic-coins__image {
     float: left;
     width: 30%;
 }
@@ -241,7 +241,7 @@
     margin-top: 4%;
 }
 
-#scan-diagram {
+#many-articles-section__scan-diagram {
     float: right;
     width: 40%;
 }
@@ -251,7 +251,7 @@
     width: 30%;
 }
 
-#fax-diagram {
+#triangular-fax__image {
     float: right;
     width: 30%;
 }
@@ -1402,7 +1402,7 @@ h6.pod-text {
 
 /*2 page */
 
-#scan-diagram {
+#many-articles-section__scan-diagram {
     float: right;
     width: 40%;
 }
@@ -1412,7 +1412,7 @@ h6.pod-text {
     width: 30%;
 }
 
-#fax-diagram {
+#triangular-fax__image {
     float: right;
     width: 30%;
 }
@@ -1434,7 +1434,7 @@ div.infoblock h2 {
     padding: 0;
 }
 
-.infoblock .columnKIC_Bookeye_4 {
+.infoblock .many-articles-section__kic-coins {
     float: left;
     /* width: 50%; */
     /* padding-top: 0; */
@@ -1444,7 +1444,7 @@ div.infoblock h2 {
     padding-right: 0.9375rem;
 }
 
-#hand-yellow-coin {
+#kic-coins__image {
     float: left;
     width: 30%;
 }
