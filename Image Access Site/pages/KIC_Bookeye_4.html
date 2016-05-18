@@ -12,30 +12,7 @@
     <script src="../js/jquery-1.12.2.min.js"></script>
     <script src="../js/scroll.js"></script>
     <script src="../js/include.js"></script>
-    <script>
-        function IsIE() {
-            var ms_ie = false;
-            var ua = window.navigator.userAgent;
-            var old_ie = ua.indexOf('MSIE ');
-            var new_ie = ua.indexOf('Trident/');
-
-            if ((old_ie > -1) || (new_ie > -1)) {
-                ms_ie = true;
-            }
-
-            return ms_ie;
-        }
-        onload = function () {
-            if (IsIE()) {
-                var rainbowTextDivs = document.getElementsByClassName("infoblock__page-12__rainbow-text");
-
-                for (var i = 0; i < 2;) {
-                    rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
-                    rainbowTextDivs[i].removeAttribute("class");
-                }
-            }
-        }
-    </script>
+    <script src="../js/rainbow.js"></script>
 </head>
 <body>
 <header>
@@ -163,7 +140,7 @@
                 it increasingly difficult to justify copiers. KIC self-service scanning systems reduce copier use
                 further
                 — to the point that attaching a small laser or ink jet printer is sufficient.
-                <img id="fax-diagram" src="../images/JPGs for KIC Click &amp; Click Mini Brochure/FaxDiagram.png"
+                <img id="fax-diagram" src="../images/JPGs%20for%20KIC%20Bookeye%204%20Brochure/FaxDiagram.png"
                      alt="">
                 KIC systems also handle
                 much larger materials than copiers, and they scan books without damaging them. However, the most
@@ -448,7 +425,7 @@
                 <div class="infoblock__page-5__two-step--inline infoblock__page-5__two-step--w1">
                     <p>Bookeye 4 V3</p>
                     <figure>
-                    <img src="../images/JPGs%20for%20KIC%20Bookeye%204%20Brochure/KIC%20Brochure%206_scanner.png"
+                    <img src="../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/bookeye_4_v2.png"
                          alt="bookeye4v">
                         <figcaption>Click</figcaption>
                     </figure>
@@ -474,7 +451,7 @@
 
             <div id="KIC_Bookeye_4_True_2_Touch" class="infoblock__page-6 scrollSpy" data-spy="scroll">
                 <img class="infoblock__page-6__true-2-touch"
-                     src="../images/Dlsg/KIC/Logo.png" width="" height=""
+                     src="../images/logo/KIC-logo.png" width="" height=""
                      alt="123">
                 <h2 class="brochure-title-center">True 2 Touch&trade; User Interface</h2>
                 <p>Ease-of-use is a central feature of KIC. Its large, 22 inch touch screen and its large "Scan" and
@@ -739,7 +716,7 @@
                 <h2 class="brochure-title-center">Self-Serve Book Printing</h2>
                 <div class="content__pod">
                     <div class="pbd--frame">
-                        <img class="img-preview" src="../images/frames/pod-logo.png" alt="logo-pbd">
+                        <img class="img-preview" src="../images/logo/KIC-logo.png" alt="logo-pbd">
                         <p class="frame--text">Printing books has never been easier! With KIC's new Print On Demand
                             functionality, patrons can quickly and easily order printed books of photo albums,
                             scrapbooks,
