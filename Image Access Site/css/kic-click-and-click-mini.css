@@ -8,6 +8,9 @@ h3 {
     width: 49%;
     float: left;
 }
+.infoblock .page_white_scanner{
+    width:39% ;
+}
 
 .infoblock__page-3-italic-label {
     font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
@@ -302,16 +305,6 @@ span.caption {
 
 .content__green-arrow li {
     position: relative;
-}
-
-.content__green-arrow li:before {
-    position: absolute;
-    content: '';
-    background: url("../images/green-arrow.png") no-repeat;
-    top: 0;
-    left: -30px;
-    width: 30px;
-    height: 30px;
 }
 
 .seven-step {
@@ -627,10 +620,6 @@ h4 {
 
 .header__right .bscan--h2 {
     text-align: left;
-}
-
-.infoblock .rhomb {
-    list-style-image: url("../images/rhomb.png");
 }
 
 .kic-product {
@@ -1366,50 +1355,6 @@ th .table--img {
     padding-top: 20px;
 }
 
-.dlos__logo {
-    overflow: hidden;
-    padding-top: 10px;
-}
-
-.dlos-hend {
-    float: left;
-    width: 100%;
-    max-width: 200px;
-}
-
-.dlos__logo img,
-.dlos__logo ul {
-    float: left;
-    width: 49%;
-}
-
-.dlos__logo ul {
-    margin: 3px 0 0 -4px;
-    text-align: left;
-}
-
-.dlos__ul {
-    float: left;
-    padding-left: 5%;
-    padding-top: 10px;
-}
-
-.dlos__ul li {
-    position: relative;
-    padding: 6px 0;
-}
-
-.dlos__ul li:before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: -23px;
-    background: url("../images/frames/list-style.png") no-repeat;
-    background-size: 16px;
-    width: 16px;
-    height: 16px;
-}
-
 .frame--width {
     width: 60%;
     margin-left: 10%;
@@ -2034,13 +1979,15 @@ h6.pod-text {
     display: inline-block;
     vertical-align: top;
     float: left;
+    padding-left: 4%;
 }
 
 .infoblock .column1 {
-    width: 49%;
+    width: 47%;
     display: inline-block;
     vertical-align: top;
     float: right;
+    padding-left: 3%;
 }
 
 .infoblock .column__picture {
@@ -2070,21 +2017,21 @@ h6.pod-text {
     margin: 0 auto;
 }
 
-.column__number1:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -70px;
-    background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_1.png") no-repeat;
-    width: 70px;
-    height: 70px;
-    background-size: contain;
-}
+/*.column__number1:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-moz-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*-o-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*left: -70px;*/
+    /*background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_1.png") no-repeat;*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*background-size: contain;*/
+/*}*/
 
 .column__number2 {
     width: 60%;
@@ -2092,21 +2039,21 @@ h6.pod-text {
     margin: 0 auto;
 }
 
-.column__number2:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -70px;
-    background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_2.png") no-repeat;
-    width: 70px;
-    height: 70px;
-    background-size: contain;
-}
+/*.column__number2:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-moz-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*-o-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*left: -70px;*/
+    /*background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_2.png") no-repeat;*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*background-size: contain;*/
+/*}*/
 
 .column__number3 {
     width: 30%;
@@ -2132,7 +2079,7 @@ h6.pod-text {
 }
 
 .infoblock .scanner_600 {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     display: block;
 }
@@ -2696,7 +2643,7 @@ h6.pod-text {
 }
 
 .infoblock .back_ground_super_click {
-    background: url("../images/JPGs for KIC Click & Click Mini Brochure/back-ground_for_click_details.png") no-repeat bottom;
+    background: url("../images/brochure-pictures/Page13_people-in-library.png") no-repeat bottom;
     background-size: contain;
 }
 
@@ -2869,10 +2816,6 @@ h6.pod-text {
         font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 
     }
-}
-
-@media all and (max-width: 1634px) {
-
 }
 
 @media all and (max-width: 1600px) {
