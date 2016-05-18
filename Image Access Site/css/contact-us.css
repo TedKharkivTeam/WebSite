@@ -197,16 +197,14 @@ input, textarea {
 }
 
 .address p {
-    padding: 0 !important;
+    padding: 10px 0 0 0 !important;
     font-size: 34px;
     color: #fff !important;
     text-shadow: none !important;
 }
 
 .parkin {
-    position: relative;
-    padding: 0 !important;
-    max-width: none!important;
+    width: 100%;
 }
 
 .adr-top {
@@ -478,4 +476,28 @@ input, textarea {
 
 input {
     min-height: 30px;
+}
+
+.brochure-block.to-down.address {
+    padding-top: 10px;
+    position: relative;
+}
+
+.contactus-holder__triple__div--contact span,
+.contactus-holder__triple__div--contact a{
+    color: #4eb1ff;
+    font-size: 2.4rem;
+}
+
+.contactus-holder__triple__div--contact a {
+    text-decoration: underline;
+    font-size: 2.2rem;
+}
+
+.contactus-holder__triple__p span {
+    color: #4eb1ff;
+}
+
+.contactus-holder__triple__p i span {
+    color: red;
 }
