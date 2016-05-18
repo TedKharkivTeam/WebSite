@@ -279,6 +279,10 @@
     list-style: none;
 }
 
+.infoblock .blue-doth li{
+    line-height: 20px;
+}
+
 .blue-doth li {
     position: relative;
 }

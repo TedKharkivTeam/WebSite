@@ -10,9 +10,9 @@ div.content h1 {
 }
 
 div.content div.introduction {
-    padding-left: 15%;
-    padding-right: 15%;
     padding-bottom: 40px;
+    width: 70%;
+    margin-left: 15%;
 }
 
 div.content h2 {
@@ -24,7 +24,6 @@ div.content h2.blue-shadow-title {
     padding: 0;
     text-align: left;
     color: #291769;
-    text-shadow: 3px 1px 7px #323275;
 }
 
 .copyright-and-contacts-footer {
@@ -106,10 +105,10 @@ div.content h2.blue-shadow-title {
     margin-bottom: 10px;
 }
 
-#using-barcode-separator-sheets-container {
+.using-barcode-separator-sheets-container {
     padding: 10px;
-    background-color: #FDFDD8;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 ol#using-barcode-separator-sheets-list {
@@ -157,4 +156,27 @@ ol#using-barcode-separator-sheets-list li:before {
 .infoblock img {
     width: 100%;
     height: 35%;
+}
+
+.paragraph-title-left {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    text-align: left;
+    color: #3C2E95;
+}
+
+.paragraph-title-center {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    text-align: center;
+    color: #3C2E95;
+}
+
+.infoblock .paragraph-title-center--bigger-text {
+    font-size: 3.0rem;
+    line-height: 32px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }

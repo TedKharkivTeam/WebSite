@@ -1,6 +1,10 @@
 
 /* ------------------------------------- COMMON STYLES ------------------------------------ */
 
+.infoblock p {
+    line-height: 2.6rem;
+}
+
 .content-holder {
     position: relative;
     width: 100%;
@@ -23,12 +27,12 @@
 .infoblock .common-row__column {
     display: inline-block;
     width: 45%;
-    margin: 10px 1%;
+    margin: 10px 2%;
     vertical-align: top;
 }
 
 .infoblock .common-text-p {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .infoblock .column__image {
@@ -159,6 +163,7 @@
     font-size: 2.3rem;
     line-height: 2.3rem;
     text-align: left;
+    font-weight: bold;
 }
 
 .infoblock .many-articles-section__triangular-copy {
@@ -204,7 +209,7 @@
 }
 
 .infoblock .common-header-h3--page-3-content-wrapper {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 2.4rem;
     color: #000000;
     text-shadow: none;
@@ -302,8 +307,21 @@
 
 /* PAGE 4 ******************************************************************************************************* */
 
+/* PAGE 5 ******************************************************************************************************* */
 
+/* PAGE 6 ******************************************************************************************************* */
 
+/* PAGE 7 ******************************************************************************************************* */
+
+/* PAGE 8 ******************************************************************************************************* */
+
+/* PAGE 9 ******************************************************************************************************* */
+
+/* PAGE 10 ****************************************************************************************************** */
+
+/* PAGE 11 ****************************************************************************************************** */
+
+/* PAGE 12 ****************************************************************************************************** */
 
 .infoblock .brochure-title-left--custom {
     color: #000;
@@ -348,7 +366,7 @@
 
 .infoblock__block-title {
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 24px;
     color: #000000;
     text-shadow: none;
@@ -462,7 +480,7 @@ div .__block_text23 {
 }
 
 .infoblock .cursive-text-smaller-center {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -493,7 +511,7 @@ div .__block_text23 {
 
 .infoblock #background-image {
     position: relative;
-    height: 570px;
+    height: 615px;
     background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
     background-size: 100% 100%;
 }
@@ -505,6 +523,11 @@ div .__block_text23 {
 
 .infoblock .row-style-small p {
     padding: 0;
+}
+
+.infoblock .special {
+    width: 75%;
+    margin-left: 12%;
 }
 
 /* True 2 Touch page */
@@ -554,7 +577,7 @@ div .__block_text23 {
 /*End of True to Touch */
 
 .infoblock .row__column--text {
-    width: 75%;
+    width: 70%;
 }
 
 .infoblock .row__column--image {
@@ -584,7 +607,7 @@ div .__block_text23 {
     font-size: 2.1rem;
     line-height: 1.2;
     margin-left: 3%;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 .infoblock .smart_hard_block {
@@ -596,7 +619,7 @@ div .__block_text23 {
     position: absolute;
     content: '';
     background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    top: 565px;
+    top: 520px;
     left: 100px;
     background-size: contain;
     width: 100%;
@@ -625,7 +648,7 @@ div .__block_text23 {
     width: 21%;
     margin-left: 41%;
     margin-top: 25px;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: right;
 }
 
@@ -633,7 +656,7 @@ div .__block_text23 {
     width: 16%;
     margin-left: 35%;
     margin-top: 242px;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: right;
 }
 
@@ -641,7 +664,7 @@ div .__block_text23 {
     width: 23%;
     margin-left: 10%;
     margin-top: -8%;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: left;
     position: relative;
     top: -32px;
@@ -669,11 +692,27 @@ div .__block_text23 {
 }
 
 .smart_small_sign {
-    margin-top: 15px;
+    margin-top: 50px;
     color: #87958E;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
+}
+
+.infoblock .true2_label2 {
+    margin-left: 73%;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: -42px;
+    padding-bottom: 50px;
+}
+
+.infoblock .true2_block_3 {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 3rem;
+    width: 63%;
 }
 
 /* End of SmartDock */
@@ -696,7 +735,7 @@ div .__block_text23 {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.4rem;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     margin: 0;
     padding: 0;
     margin-left: 14%;
@@ -731,7 +770,7 @@ div .__block_text23 {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -778,7 +817,7 @@ div .__block_text23 {
     width: 45%;
     text-align: center;
     font-size: 1.6rem;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 /*End of Reservation App */
@@ -814,7 +853,7 @@ div .__block_text23 {
     line-height: 2.5rem;
     margin-top: 35px;
     letter-spacing: 0;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 .infoblock__page-9__center {
@@ -1026,7 +1065,7 @@ h2.pod-text {
 
 .infoblock__page-11__in-case-p--italic {
     padding: 10px;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     display: inline-block;
 }
 
@@ -1053,9 +1092,8 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    width: 56%;
-    margin: 10px 0;
-    margin-left: 3%;
+    width: 66%;
+    margin: 10px 0 10px 3%;
     display: block;
 }
 
@@ -1069,10 +1107,8 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    height: 155px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 10px;
+    width: 79%;
+    margin: 10px auto 0 0;
     display: block;
 }
 
@@ -1116,6 +1152,7 @@ h2.pod-text {
     text-align: center;
     font-size: 1.4rem;
     line-height: 1.4rem;
+    padding-top: 15px;
 }
 
 .infoblock .infoblock__page-12__double__double-p {
@@ -1139,7 +1176,7 @@ h2.pod-text {
 .infoblock .infoblock__page-12__bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
@@ -1175,9 +1212,9 @@ h2.pod-text {
 }
 
 /*Technical Details */
-.tech_details_img {
-    width: 50% !important;
-    margin: 5% 10% 5% 25%;
+.infoblock .tech_details_img {
+    width: 50%;
+    margin: 15px 10% 15px 25%;
 }
 
 .tech_details_table {
@@ -1186,8 +1223,7 @@ h2.pod-text {
 
 #bookedge_big_scanner {
     margin-left: 5%;
-    margin-top: 2%;
-
+    margin-top: 20px;
 }
 
 #bookedge_small_scanner {
@@ -1245,7 +1281,7 @@ h2.pod-text {
 
 .infoblock #right-image-text {
     color: #87958E;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin-left: 65%;
@@ -1255,7 +1291,7 @@ h2.pod-text {
 
 .infoblock #left-image-text {
     color: #87958E;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin-top: -310px;
@@ -1264,442 +1300,12 @@ h2.pod-text {
 
 /* KIC Family */
 
-@media screen and (max-width: 1885px) {
-    .wrapper-for-img .inf--padding {
-        top: 80%;
-    }
-}
-
-@media screen and (max-width: 1880px) {
-    .brochure-block .grean-right {
-        padding-right: 10%;
-    }
-
-    .brochure-block .grean-left {
-        padding-left: 10%;
-    }
-
-    .two-step:before {
-        width: 80px;
-        height: 40px;
-    }
-
-    .history:after {
-        bottom: -16%;
-        width: 80%;
-        height: 80%;
-    }
-}
-
-@media screen and (max-width: 1800px) {
-    .logo-frame-block {
-        padding-left: 5%;
-    }
-
-    .logo-frame-block__dlsg-logo img {
-        height: 100px;
-    }
-
-    .caption__h {
-        font-size: 50px;
-        line-height: 1;
-    }
-
-    .infoblock__center .center__text--margin {
-        position: relative;
-    }
-
-    .content .infoblock .nav__li {
-        width: 32%;
-    }
-
-    .img__touch--after:after {
-        bottom: -108px;
-        left: 35px;
-        width: 72%;
-        height: 120px;
-    }
-
-    .infoblock .two-tel__text-top {
-        top: 34px;
-    }
-
-    .left__link {
-        font-size: 18px;
-    }
-
-    .table__arow:before {
-        left: 0;
-    }
-
-    .infoblock__line--w40 {
-        width: 100%;
-    }
-
-    .infoblock__line--w60 {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1700px) {
-    .unyver__taxt {
-        margin: 0 !important;
-    }
-
-    .content__unyver {
-        margin-top: -3% !important;
-    }
-
-    .wrapper-for-img .inf--padding {
-        position: relative;
-    }
-
-    .logo-frame-block {
-        padding-left: 10%;
-    }
-
-    .logo-frame-block__dlsg-logo img {
-        height: 80px;
-    }
-
-    .caption__h {
-        font-size: 40px;
-        line-height: 42px;
-    }
-
-    .brochure-block .grean-right {
-        padding-right: 2%;
-    }
-
-    .brochure-block .grean-left {
-        padding-left: 2%;
-    }
-
-    .infoblock .vertical-text {
-        left: -65px;
-    }
-}
-
-@media screen and (max-width: 1640px) {
-    .infoblock .a--rel {
-        position: relative;
-        bottom: 0;
-    }
-
-    .infoblock .infoblock__center {
-        margin-top: 0;
-    }
-
-    .mainform input {
-        width: 100%;
-        max-width: none;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .leftsidemenu {
-        margin-top: 16%;
-    }
-
-    .seven-step__h3 {
-        padding-right: 0;
-    }
-
-    .seven-step__scan {
-        margin-top: -20px;
-    }
-
-    .history:after {
-        width: 35%;
-        height: 35%;
-        top: 0;
-    }
-}
-
-@media screen and (max-width: 1535px) {
-    .brochure-block .content__brochure-block__img {
-        margin-left: 7%;
-        height: 120px;
-    }
-
-    .frame7-content__dlos .dlos-hend {
-        max-width: 160px;
-    }
-
-    .content .infoblock .bottom__a {
-        top: 0;
-    }
-
-    .contactus-holder__triple__image--left {
-        margin-top: 80px;
-        width: 100%;
-        height: 100%;
-    }
-
-    .infoblock .two-tel__text-top {
-        top: 20px;
-        width: 48%;
-    }
-
-    .left__link {
-        font-size: 14px;
-    }
-
-    .method2:before {
-        font-size: 19px;
-        top: 10px;
-        line-height: 0;
-        left: -96px;
-        background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 10px 6px;
-        width: 90px;
-        background-size: contain;
-        height: 70px;
-    }
-
-    .method1:before {
-        font-size: 19px;
-        top: 10px;
-        line-height: 0;
-        left: -96px;
-        background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 10px 1px;
-        width: 90px;
-        background-size: contain;
-        height: 70px;
-    }
-
-    .table__arow:before {
-        left: -10px;
-        width: 10px;
-    }
-
-}
-
-@media screen and (max-width: 1440px) {
-    .two-step--img .two-step__all-scan {
-        top: -47px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .content .infoblock .center__img {
-        float: none;
-        width: 100%;
-        padding-left: 20px;
-    }
-
-    .infoblock__center .center__text--margin {
-        width: 100%;
-    }
-
-    .content .infoblock .nav__img {
-        float: none;
-        width: 100%;
-        margin-right: 20px;
-    }
-
-    .content .infoblock .nav__li {
-        width: 100%;
-        float: none;
-    }
-
-    .content .infoblock .bottom__a {
-        width: 40%;
-    }
-
-    .infoblock .two-tel__text-top {
-        top: 12px;
-    }
-
-    .reservation__h2 {
-        font-size: 20px;
-        padding: 0;
-    }
-
-    .reservation__h3 {
-        font-size: 19px;
-    }
-
-    .reservation__h1 {
-        font-size: 50px;
-    }
-
-    .saw h3 {
-        padding-bottom: 5px !important;
-    }
-
-    .infoblock .li--width {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 1290px) {
-    .wrapper-for-img .inform__images {
-        max-width: 260px;
-    }
-
-}
-
-@media screen and (max-width: 1240px) {
-    .brochure-block .text-grean {
-        font-size: 1.8rem;
-    }
-
-    .content .text-grey {
-        font-size: 1.8rem;
-        padding: 5px 25px 5px 20px;
-    }
-
-    .content .text-grey:after {
-        left: 96%;
-        width: 40px;
-    }
-
-    .dlos__logo .dlos-logo {
-        font-size: 1.2rem;
-    }
-
-    .DLOS_Icon {
-        padding-top: 17px;
-    }
-
-}
-
-@media screen and (max-width: 1150px) {
-    .line__persent1:after {
-        font-size: 12px;
-    }
-
-    .line__persent4:before {
-        font-size: 12px;
-    }
-
-    .caption__h {
-        font-size: 31px;
-        line-height: 1.2;
-    }
-
-    .logo-frame-block__caption {
-        margin-left: 0px;
-    }
-
-    .logo-frame-block__dlsg-logo {
-        float: left;
-        /*padding-left: 22%;*/
-        padding-top: 2px;
-    }
-}
-
-.infoblock {
-    font-size: 16px;
-    position: relative;
-}
-
-.infoblock span, p {
-    font-weight: normal;
-    line-height: 24px;
-}
-
-.infoblock strong {
-    padding: 0;
-}
-
-.infoblock__bscan-ill {
-    text-align: left;
-    position: relative;
-}
-
-.infoblock__bscan-ill .bscan-ill__logo {
-    width: 50%;
-}
-
-.infoblock__bscan-ill--absolut {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.bscan-ill__bolt {
-    display: block;
-    padding: 0;
-}
-
-.bscan-ill__bolt--fs1 {
-    font-size: 24px;
-}
-
-.bscan-ill__bolt--fs2 {
-    font-size: 20px;
-}
-
-.bscan-ill--padding {
-    padding-top: 4%;
-}
-
 .bscan-ill--h2 {
     font-size: 2.8rem;
     color: #000;
     padding: 0;
     line-height: 2.8rem;
-    margin: 15px 0;
-}
-
-.bscan-ill--center {
-    text-align: center;
-}
-
-.bscan-ill--blu-text {
-    display: block;
-    text-align: right;
-    font-size: 20px;
-    color: #193791;
-}
-
-.bscan-ill__column {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-}
-
-.infoblock .bscan-ill--width {
-    width: 90%;
-}
-
-.bscan-ill__arrow {
-    position: relative;
-    display: block;
-}
-
-.bscan-ill__arrow:before {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrow.png") no-repeat;
-    top: 0;
-    left: -64px;
-    width: 65px;
-    height: 60px;
-}
-
-.infoblock--right {
-    text-align: right;
-}
-
-.infoblock .infoblock__title {
-    list-style: none;
-    display: inline-block;
-    width: 40%;
-    text-align: left;
-    padding: 0;
-}
-
-.infoblock__title li {
-    padding-top: 10px;
-}
-
-.title__mark {
-    font-size: 45px;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    background: transparent;
+    margin: 25px 0 15px 0;
 }
 
 .infoblock .infoblock__row {
@@ -1708,395 +1314,8 @@ h2.pod-text {
     vertical-align: top;
 }
 
-.infoblock .woman_abs {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
-    height: 25%;
-}
-
-.first-li {
-    margin-right: 20%;
-}
-
-.two-li {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.last-li {
-    margin-left: 20%;
-}
-
-.mark--margin {
-    margin-left: -20px;
-}
-
-.bscan--h2 {
-    text-align: center;
-    font-size: 40px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2;
-}
-
-.infoblock__content {
-    display: inline-block;
-    width: 48%;
-    padding: 0 5px;
-    vertical-align: top;
-}
-
-.infoblock .content__green-arrow {
-    padding-left: 50px;
-    list-style: none;
-}
-
-.content__green-arrow li {
-    position: relative;
-}
-
-.content__green-arrow li:before {
-    position: absolute;
-    content: '';
-    background: url("../images/green-arrow.png") no-repeat;
-    top: 0;
-    left: -30px;
-    width: 30px;
-    height: 30px;
-}
-
-.seven-step {
-    text-align: center;
-    position: relative;
-}
-
-.seven-step:after {
-    content: 'VS';
-    position: absolute;
-    color: #fff;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 40px;
-    background: #000;
-    border-radius: 50%;
-    bottom: -35px;
-    right: 50%;
-    padding: 20px 30px;
-    margin: 0 -30px;
-    z-index: 1;
-}
-
-.seven-step__h3 {
-    display: inline;
-    text-shadow: none;
-    color: #000;
-    font-size: 24px;
-    padding-right: 20%;
-}
-
-.infoblock .seven-step__text {
-    display: inline;
-}
-
-.seven-step__scan {
-    margin-top: -40px;
-}
-
-.seven-step--border {
-    padding: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-}
-
-.two-step {
-    text-align: center;
-    position: relative;
-    margin-top: 10px;
-}
-
-.two-step:before {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
-    width: 115px;
-    height: 70px;
-    top: 0;
-    right: 0;
-    background-size: contain;
-}
-
-.two-step:after {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
-    width: 47px;
-    height: 33px;
-    bottom: 0;
-    right: 50%;
-}
-
-.two-step--inline {
-    padding: 0 4px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-}
-
-.two-step--w1 {
-    width: 14%;
-}
-
-.two-step--w2 {
-    width: 35%;
-}
-
-.two-step--w3 {
-    width: 49%;
-}
-
-.seven-step__h3--padding {
-    padding: 0;
-}
-
-.infoblock .blue-doth {
-    padding-left: 50px;
-    list-style: none;
-}
-
-.blue-doth li {
-    position: relative;
-}
-
-.blue-doth li:before {
-    position: absolute;
-    content: '';
-    background: #3052ad;
-    top: 4px;
-    left: -20px;
-    width: 14px;
-    height: 14px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    box-shadow: inset 0 3px 6px #fff;
-}
-
-.page3__inline {
-    display: inline-block !important;
-    padding: 0 10px;
-    width: 49%;
-    vertical-align: top;
-}
-
-.page3--right {
-    text-align: right;
-}
-
-.page3__block2 {
-    text-align: left;
-    display: inline-block;
-    width: 34%;
-    margin-left: 10%;
-}
-
-.page3__block2 i {
-    font-size: 10px;
-}
-
-.method1 {
-    position: relative;
-    text-align: center;
-}
-
-.method1:before {
-    position: absolute;
-    content: 'METHOD';
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 32px;
-    top: -10px;
-    line-height: 1;
-    left: -152px;
-    background-size: contain;
-    background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 27px 31px;
-    width: 153px;
-    height: 139px;
-}
-
-.method2 {
-    position: relative;
-    text-align: center;
-    margin-left: 17%;
-}
-
-.method2:before {
-    content: 'METHOD';
-    position: absolute;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 32px;
-    top: -10px;
-    line-height: 1;
-    left: -152px;
-    background-size: contain;
-    background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 24px 22px;
-    width: 154px;
-    height: 111px;
-}
-
-.page3__block3 {
-    background-color: #9ccdff;
-    padding: 10px;
-    text-align: center;
-}
-
-.block3__top span {
-    font-size: 20px;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-}
-
-.block3__top .top--width {
-    width: 60%;
-}
-
-.block3__top {
-    display: inline-block;
-    width: 20%;
-    vertical-align: middle;
-}
-
-.top--w2 {
-    width: 35%;
-}
-
-.top--w3 {
-    width: 43%;
-    padding-left: 5px;
-}
-
-h3 {
-    font-size: 30px;
-    color: #000;
-    text-align: center;
-}
-
-h4 {
-    font-size: 23px;
-    color: #000;
-    text-align: center;
-    font-weight: normal;
-}
-
-.two-step--width1 {
-    width: 60%;
-}
-
-.two-step--width2 {
-    width: 39%;
-}
-
-.two-step--bottom {
-    padding-top: 20%;
-}
-
-.two-step--img {
-    position: relative;
-}
-
-.two-step--img .two-step__all-scan {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 180%;
-    height: 100%;
-}
-
-.block-grey {
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid #000;
-    text-align: center;
-    background: #bfdae2;
-}
-
-.infoblock .block-grey__ul {
-    margin: 0;
-    padding: 0;
-}
-
-.block-grey__ul li {
-    display: inline-block;
-    width: 13%;
-}
-
-.block-grey__ul p {
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.2;
-}
-
-.center-br img {
-    width: 20%;
-}
-
-.center-br .two-step--inline {
-    vertical-align: top;
-}
-
-.block-grey__first {
-    display: inline-block;
-    width: 65%;
-}
-
-.block-grey__last {
-    display: inline-block;
-    width: 26%;
-}
-
-.page3__inline .inline__books {
-    width: 50%;
-    float: right;
-    clear: both;
-}
-
 .infoblock__center--text {
     text-align: center;
-}
-
-.inline__mini-text {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-}
-
-.infoblock .inline__rgb {
-    display: inline-block;
-    width: 29%;
-    vertical-align: super;
-}
-
-.inline__img-text {
-    display: inline-block;
-    width: 69%;
-    line-height: 1;
-    padding-left: 5px;
-}
-
-.infoblock__header {
-    overflow: hidden;
-}
-
-.header__left {
-    float: left;
-    padding-right: 25px;
-}
-
-.header__right .bscan--h2 {
-    text-align: left;
-}
-
-.infoblock .rhomb {
-    list-style-image: url("../images/rhomb.png");
 }
 
 .kic-product {
@@ -2133,6 +1352,13 @@ h4 {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     line-height: 1.2;
     padding: 0;
+}
+
+.infoblock .sitalic {
+    font-style: italic;
+    width: 85%;
+    margin-left: 7%;
+    text-align: center;
 }
 
 .table {
@@ -2250,14 +1476,14 @@ th .table--img {
     font-size: 33px;
 }
 
-.table__arow {
+.table__arrow {
     position: relative;
 }
 
-.table__arow:before {
+.table__arrow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
+    background: url("../images/Bookedge/kic-product-family/arrowtable.png");
     top: -75px;
     left: 50%;
     width: 69px;
@@ -2265,7 +1491,7 @@ th .table--img {
 }
 
 .bold-dollar {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .dollar-size-mini {
@@ -2284,7 +1510,7 @@ th .table--img {
     font-size: 28px
 }
 
-.fa {
+.table-star-fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -2293,7 +1519,7 @@ th .table--img {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.tabl-star {
+.table-star {
     margin-left: 2.5rem;
     font-size: 1.1rem;
     vertical-align: text-top;
@@ -2301,7 +1527,7 @@ th .table--img {
     padding-left: 1%;
 }
 
-.tabl-star-mini {
+.table-star-mini {
     margin-left: 2.5rem;
     font-size: 0.9rem;
     vertical-align: text-top;
@@ -2326,192 +1552,6 @@ th .table--img {
 
 .table__footer {
     font-size: 14px;
-}
-
-.graph {
-    position: relative;
-    text-align: center;
-}
-
-.graph img {
-    width: 90%;
-}
-
-.vertical-text span {
-    display: inline;
-}
-
-.vertical-text {
-    position: absolute;
-    top: 50%;
-    left: -50px;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-.text-area span {
-    display: inline;
-}
-
-.text-area {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.selection {
-    font-size: 13px;
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid;
-    padding: 5px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.selection--bold td {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.selection td {
-    text-align: center;
-    width: 50px;
-}
-
-.sup-text {
-    font-size: 8px;
-    vertical-align: super;
-    font-weight: normal;
-}
-
-.selection .more-text {
-    width: 96px;
-}
-
-.infoblock .table-text {
-    font-size: 13px;
-    padding: 0;
-    text-align: left;
-}
-
-.country-wrapper {
-    overflow: hidden;
-}
-
-.country {
-    display: inline-block;
-    float: left;
-    width: calc(100% / 5);
-    vertical-align: top;
-}
-
-.infoblock .country__text {
-    font-size: 13px;
-    text-align: center;
-}
-
-.infoblock .history__w1 {
-    text-align: left;
-    width: 65%;
-}
-
-.infoblock .history__w2 {
-    text-align: left;
-    width: 72%;
-}
-
-.history {
-    position: relative;
-    padding-bottom: 30%;
-}
-
-.history:after {
-    content: '';
-    position: absolute;
-    /*background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;*/
-    background-size: contain;
-    width: 90%;
-    bottom: -7%;
-    right: 0;
-    height: 90%;
-}
-
-.infoblock__line {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.infoblock .line--padding {
-    padding-bottom: 30px;
-}
-
-.line--midle {
-    vertical-align: middle;
-}
-
-.infoblock__line--w40 {
-    width: 40%;
-}
-
-.infoblock__line--w60 {
-    width: calc(60% - 10px);
-}
-
-.infoblock__line--border {
-    padding: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-
-.infoblock .line--bold-text {
-    text-align: center;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-}
-
-.line__persent1 {
-    position: relative;
-}
-
-.line__persent4 {
-    position: relative;
-}
-
-.line__persent1:after {
-    content: '1% Libraries';
-    position: absolute;
-    top: 25px;
-    right: -74px;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    width: 78px;
-    text-align: center;
-}
-
-.line__persent4:before {
-    content: '4% Businesses';
-    position: absolute;
-    left: -58px;
-    bottom: 41px;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    width: 99px;
-    text-align: center;
-}
-
-.infoblock img.click-mini2 {
-    width: 58%;
-}
-
-.bogdan-kostil {
-    position: relative;
-    overflow: hidden;
-    padding: 25px 0;
-}
-
-.image_resize {
-
 }
 
 .infoblock .capture-area-comparison-icon {

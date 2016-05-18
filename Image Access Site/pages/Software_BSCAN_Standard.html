@@ -2,12 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>BSCAN Standard :: Image Access 2016</title>
     <link rel="shortcut icon" href="../images/icon.png">
     <link rel="stylesheet" href="../css/reset.css"/>
     <link rel="stylesheet" href="../css/style.css"/>
     <link rel="stylesheet" href="../css/software-bscan-standard.css"/>
+    <link rel="stylesheet" href="../css/common-styles.css">
     <script src="../js/jquery-1.12.2.min.js"></script>
     <script src="../js/include.js"></script>
 </head>
@@ -31,102 +33,8 @@
         <img id="bscan-standard-production-capture"
              src="../images/Business_Automation_Scanning/BSCAN_Standard_Production_Capture.png" alt=""/>
         <div class="text-container">
-            <p>
-                <span class="title">Control Sheets</span>
-                BSCAN control sheets allow users to select the scanning application, the scanner settings,
-                image processing, document separation and auto-indexing. While these settings can be made
-                by the scan operator, the control sheet allow the scanner operator to focus on maximizing throughput
-                and quality. Hours of document preparation can be quickly reviewed before scanning to eliminate errors.
-            </p>
-            <p>
-                <img id="white-pages" src="../images/Business_Automation_Scanning/WhitePages.png" alt=""/>
-                When they can be used, the barcodes on the control sheets are the most efficient
-                and accurate way to index the images scanned. For example, with backfile con-
-                versions, basic information about each file folder is usually in a database. By creating
-                a list file of that basic information, sorted in the order the folders are stored in the
-                cabinets, BSCAN can print a control sheet for each folder that will automatically
-                index that folder if it is placed at the start of the start of the document pages in the folder.
-                During document preparation, the next page in the stack of folder control sheets
-                should always match the folder pulled from the cabinet to be prepared for scanning.
-            </p>
-            <p>
-                Also, while scanning or as post-process, the scan station can perform image
-                processing functions such as Rotation, Crop & Deskew, Despeckle, Border
-                Removal, Blank Page Deletion and Color Dropout.
-            </p>
-            <div class="indent">
-                <span class="heading">Application Selection Control Sheet</span>
-                <p>
-                    Place application selection control sheets on top of each batch of pages to be
-                    scanned to ensure that documents are not scanned into the wrong application.
-                </p>
-                <span class="heading">General Purpose Control Sheet</span>
-                <p>
-                    Set scanner parameters, select image format, turn image processing such as
-                    rotation on and off, identify the start of new documents and folders and attach
-                    database records to the pages following these general purpose control sheets. They also
-                    contain a 10 digit mark sense field for specifying field values during document preparation.
-                </p>
-                <span class="heading">Document Type Control Sheet</span>
-                <p>
-                    Use these control sheet to separate documents and identify document type. Print control sheet with
-                    all common document types and
-                    BSCAN will apply the text or code of the marked document type to the document following the control
-                    sheet. By including a special type:
-                    <span class="heading">[] Other</span> and space for hand printing the document code and name, only
-                    the most common document separator sheets need be printed,
-                    reducing the number of control sheet bins for the various document types.
-                </p>
-            </div>
-            <p>
-                <span class="title">Image Processing</span>
-                Image Processing can be performed on each image as it is scanned or after scanning. In addition to the
-                usual image
-                processing functions such as rotate, crop and deskew, despeckle and border removal, tests can be enabled
-                that automatically check for signs of
-                bad images such as text dropout and a high degree of skew. Images are automatically flagged for review
-                and reprocessing without a scanner or
-                when necessary, for rescanning.
-            </p>
-            <p>
-                <span class="title">Rescan</span>
-                During QC, if it is determined that rescanning is needed, such as when a page was scanned with the
-                corner folder, rhe image can be
-                flagged for rescan. During the Rescan stage, each flagged image is presented for rescan with information
-                displayed to help locate the original page.
-            </p>
-            <p>
-                <span class="title">Forms Processing</span>
-                OCR, Barcode Recognition, ICR and Mark Sense are performed here to automatically recognize and extract
-                data from
-                forms. The captured data is then populated into user specified fields for review/correction. High speed
-                correction of suspect characters can be
-                performed to improve accuracy.
-            </p>
-            <p>
-                <span class="title">Key Entry</span>
-                Key entry can be performed on a separate BSCAN-DE station or on the BSCAN scan station with extra
-                licensing. Key-key verify
-                and auto-zoom by field are some of BSCAN's many data entry capabilities.
-            </p>
-            <p>
-                <span class="title">Review and Correct</span>
-                At this stage captured data can be reviewed and corrected.
-            </p>
-            <p>
-                <span class="title">Release</span>
-                After scanning, cleanup and indexing, BSCAN can release images and index information to third-party
-                imaging software, directly to SQL
-                server, to a directory structure or to an ASCII file. BSCAN Standard can create a selection of PDF file
-                formats while scanning.
-            </p>
-        </div>
-
-        <img src="../images/Business_Automation_Scanning/BSCAN_Logo_With_Planet.png" alt=""/>
-
-        <div class="text-container">
             <div class="introduction">
-                <h1 id="font-weight-normal">PRODUCTION CAPTURE</h1>
+                <h2 class="brochure-title-left">PRODUCTION CAPTURE</h2>
                 <p>
                     BSCAN Standard constitutes a stand-alone capture system or the scanning stage in a multi-stage
                     capture
@@ -150,7 +58,7 @@
                 <img id="screen-bscan-wizard" src="../images/Business_Automation_Scanning/Screen_BSCAN_Wizard.png"
                      alt=""/>
 
-                <h2 class="blue-shadow-title">Setup Wizard</h2>
+                <h2 class="paragraph-title-left">Setup Wizard</h2>
                 <p>
                     With BSCAN's Wizard, setting up a simple, single scan and release station or a
                     complex WorkFlow system with unlimited stations is a snap. Select from a list of
@@ -166,7 +74,7 @@
                 <img id="screen-bscan-user-administration"
                      src="../images/Business_Automation_Scanning/Screen_BSCAN_User_Administration.png" alt=""/>
 
-                <h2 class="blue-shadow-title">Project Administration</h2>
+                <h2 class="paragraph-title-left">Project Administration</h2>
                 <p>
                     BSCAN's multiple-project administration facilities are ideal for
                     Conversion Bureaus. Easily navigate through applications and
@@ -180,6 +88,99 @@
                     only the work for which a given worker is authorized.
                 </p>
             </div>
+        </div>
+        <img src="../images/Business_Automation_Scanning/BSCAN_Logo_With_Planet.png" alt=""/>
+        <div class="text-container">
+            <p>
+                <span class="title">Control Sheets</span>
+                <br>BSCAN control sheets allow users to select the scanning application, the scanner settings,
+                image processing, document separation and auto-indexing. While these settings can be made
+                by the scan operator, the control sheet allow the scanner operator to focus on maximizing throughput
+                and quality. Hours of document preparation can be quickly reviewed before scanning to eliminate errors.
+            </p>
+            <p>
+                <img id="white-pages" src="../images/Business_Automation_Scanning/WhitePages.png" alt=""/>
+                When they can be used, the barcodes on the control sheets are the most efficient
+                and accurate way to index the images scanned. For example, with backfile con-
+                versions, basic information about each file folder is usually in a database. By creating
+                a list file of that basic information, sorted in the order the folders are stored in the
+                cabinets, BSCAN can print a control sheet for each folder that will automatically
+                index that folder if it is placed at the start of the start of the document pages in the folder.
+                During document preparation, the next page in the stack of folder control sheets
+                should always match the folder pulled from the cabinet to be prepared for scanning.
+            </p>
+            <p>
+                Also, while scanning or as post-process, the scan station can perform image
+                processing functions such as Rotation, Crop & Deskew, Despeckle, Border
+                Removal, Blank Page Deletion and Color Dropout.
+            </p>
+            <div class="indent">
+                <span class="paragraph-title-left">Application Selection Control Sheet</span>
+                <p>
+
+                    Place application selection control sheets on top of each batch of pages to be
+                    scanned to ensure that documents are not scanned into the wrong application.
+                </p>
+                <span class="paragraph-title-left">General Purpose Control Sheet</span>
+                <p>
+                    Set scanner parameters, select image format, turn image processing such as
+                    rotation on and off, identify the start of new documents and folders and attach
+                    database records to the pages following these general purpose control sheets. They also
+                    contain a 10 digit mark sense field for specifying field values during document preparation.
+                </p>
+                <span class="paragraph-title-left">Document Type Control Sheet</span>
+                <p>
+                    Use these control sheet to separate documents and identify document type. Print control sheet with
+                    all common document types and
+                    BSCAN will apply the text or code of the marked document type to the document following the control
+                    sheet. By including a special type:
+                    <span class="paragraph-title-left">[] Other</span> and space for hand printing the document code and name, only
+                    the most common document separator sheets need be printed,
+                    reducing the number of control sheet bins for the various document types.
+                </p>
+            </div>
+            <span class="title">Image Processing</span>
+            <p>
+                Image Processing can be performed on each image as it is scanned or after scanning. In addition to the
+                usual image
+                processing functions such as rotate, crop and deskew, despeckle and border removal, tests can be enabled
+                that automatically check for signs of
+                bad images such as text dropout and a high degree of skew. Images are automatically flagged for review
+                and reprocessing without a scanner or
+                when necessary, for rescanning.
+            </p>
+            <span class="title">Rescan</span>
+            <p>
+                During QC, if it is determined that rescanning is needed, such as when a page was scanned with the
+                corner folder, rhe image can be
+                flagged for rescan. During the Rescan stage, each flagged image is presented for rescan with information
+                displayed to help locate the original page.
+            </p>
+            <span class="title">Forms Processing</span>
+            <p>
+                OCR, Barcode Recognition, ICR and Mark Sense are performed here to automatically recognize and extract
+                data from
+                forms. The captured data is then populated into user specified fields for review/correction. High speed
+                correction of suspect characters can be
+                performed to improve accuracy.
+            </p>
+            <span class="title">Key Entry</span>
+            <p>
+                Key entry can be performed on a separate BSCAN-DE station or on the BSCAN scan station with extra
+                licensing. Key-key verify
+                and auto-zoom by field are some of BSCAN's many data entry capabilities.
+            </p>
+            <span class="title">Review and Correct</span>
+            <p>
+                At this stage captured data can be reviewed and corrected.
+            </p>
+            <span class="title">Release</span>
+            <p>
+                After scanning, cleanup and indexing, BSCAN can release images and index information to third-party
+                imaging software, directly to SQL
+                server, to a directory structure or to an ASCII file. BSCAN Standard can create a selection of PDF file
+                formats while scanning.
+            </p>
         </div>
     </div>
 </div>

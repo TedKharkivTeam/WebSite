@@ -83,7 +83,7 @@
 .bscan-ill__arrow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrow.png") no-repeat;
+    background: url("../images/brochure-pictures/Arrow.png") no-repeat;
     top: 0;
     left: -64px;
     width: 65px;
@@ -668,7 +668,7 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png");
+    background: url("../images/brochure-pictures/Arrow.png");
     top: -18px;
     left: 42px;
     width: 80px;

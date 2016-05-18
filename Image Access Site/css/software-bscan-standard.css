@@ -50,3 +50,10 @@ div.content div.indent {
 #screen-bscan-user-administration {
     margin-bottom: 10px;
 }
+
+.paragraph-title-left {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    text-align: left;
+    color: #3C2E95;
+}
+
