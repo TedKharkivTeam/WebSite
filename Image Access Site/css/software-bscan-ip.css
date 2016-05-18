@@ -30,7 +30,6 @@
     padding: 0;
     text-align: left;
     color: #291769;
-    text-shadow: 3px 1px 7px #333;
 }
 
 .infoblock__content-holder__content {
@@ -87,4 +86,10 @@
 .infoblock__content-holder__content__bottom--right {
     width: 48%;
     float: right;
+}
+
+.paragraph-title-left {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    text-align: left;
+    color: #3C2E95;
 }
