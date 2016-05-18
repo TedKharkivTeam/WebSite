@@ -1,6 +1,10 @@
 
 /* ------------------------------------- COMMON STYLES ------------------------------------ */
 
+.infoblock p {
+    line-height: 2.6rem;
+}
+
 .content-holder {
     position: relative;
     width: 100%;
@@ -205,7 +209,7 @@
 }
 
 .infoblock .common-header-h3--page-3-content-wrapper {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 2.4rem;
     color: #000000;
     text-shadow: none;
@@ -362,7 +366,7 @@
 
 .infoblock__block-title {
     font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 24px;
     color: #000000;
     text-shadow: none;
@@ -476,7 +480,7 @@ div .__block_text23 {
 }
 
 .infoblock .cursive-text-smaller-center {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -507,7 +511,7 @@ div .__block_text23 {
 
 .infoblock #background-image {
     position: relative;
-    height: 570px;
+    height: 615px;
     background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
     background-size: 100% 100%;
 }
@@ -519,6 +523,11 @@ div .__block_text23 {
 
 .infoblock .row-style-small p {
     padding: 0;
+}
+
+.infoblock .special {
+    width: 75%;
+    margin-left: 12%;
 }
 
 /* True 2 Touch page */
@@ -598,7 +607,7 @@ div .__block_text23 {
     font-size: 2.1rem;
     line-height: 1.2;
     margin-left: 3%;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 .infoblock .smart_hard_block {
@@ -610,7 +619,7 @@ div .__block_text23 {
     position: absolute;
     content: '';
     background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    top: 565px;
+    top: 520px;
     left: 100px;
     background-size: contain;
     width: 100%;
@@ -639,7 +648,7 @@ div .__block_text23 {
     width: 21%;
     margin-left: 41%;
     margin-top: 25px;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: right;
 }
 
@@ -647,7 +656,7 @@ div .__block_text23 {
     width: 16%;
     margin-left: 35%;
     margin-top: 242px;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: right;
 }
 
@@ -655,7 +664,7 @@ div .__block_text23 {
     width: 23%;
     margin-left: 10%;
     margin-top: -8%;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: left;
     position: relative;
     top: -32px;
@@ -683,11 +692,27 @@ div .__block_text23 {
 }
 
 .smart_small_sign {
-    margin-top: 15px;
+    margin-top: 50px;
     color: #87958E;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
+}
+
+.infoblock .true2_label2 {
+    margin-left: 73%;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: -42px;
+    padding-bottom: 50px;
+}
+
+.infoblock .true2_block_3 {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 3rem;
+    width: 63%;
 }
 
 /* End of SmartDock */
@@ -710,7 +735,7 @@ div .__block_text23 {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.4rem;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     margin: 0;
     padding: 0;
     margin-left: 14%;
@@ -745,7 +770,7 @@ div .__block_text23 {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -792,7 +817,7 @@ div .__block_text23 {
     width: 45%;
     text-align: center;
     font-size: 1.6rem;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 /*End of Reservation App */
@@ -828,7 +853,7 @@ div .__block_text23 {
     line-height: 2.5rem;
     margin-top: 35px;
     letter-spacing: 0;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 .infoblock__page-9__center {
@@ -1040,7 +1065,7 @@ h2.pod-text {
 
 .infoblock__page-11__in-case-p--italic {
     padding: 10px;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     display: inline-block;
 }
 
@@ -1067,9 +1092,8 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    width: 56%;
-    margin: 10px 0;
-    margin-left: 3%;
+    width: 66%;
+    margin: 10px 0 10px 3%;
     display: block;
 }
 
@@ -1083,10 +1107,8 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    height: 155px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 10px;
+    width: 79%;
+    margin: 10px auto 0 0;
     display: block;
 }
 
@@ -1130,6 +1152,7 @@ h2.pod-text {
     text-align: center;
     font-size: 1.4rem;
     line-height: 1.4rem;
+    padding-top: 15px;
 }
 
 .infoblock .infoblock__page-12__double__double-p {
@@ -1153,7 +1176,7 @@ h2.pod-text {
 .infoblock .infoblock__page-12__bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
@@ -1258,7 +1281,7 @@ h2.pod-text {
 
 .infoblock #right-image-text {
     color: #87958E;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin-left: 65%;
@@ -1268,7 +1291,7 @@ h2.pod-text {
 
 .infoblock #left-image-text {
     color: #87958E;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
     margin-top: -310px;
@@ -1282,7 +1305,7 @@ h2.pod-text {
     color: #000;
     padding: 0;
     line-height: 2.8rem;
-    margin: 15px 0;
+    margin: 25px 0 15px 0;
 }
 
 .infoblock .infoblock__row {
@@ -1329,6 +1352,13 @@ h2.pod-text {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     line-height: 1.2;
     padding: 0;
+}
+
+.infoblock .sitalic {
+    font-style: italic;
+    width: 85%;
+    margin-left: 7%;
+    text-align: center;
 }
 
 .table {
