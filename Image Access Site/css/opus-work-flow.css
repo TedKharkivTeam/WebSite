@@ -303,9 +303,9 @@ h5 {
 }
 
 .infoblock .content_stabilization4 {
-    width: 50%;
-    margin-left: 50%;
-    margin-top: -32.5%;
+    width: 47%;
+    margin-left:2%;
+    float: left;
 }
 
 /*Sixth page*/
@@ -418,9 +418,19 @@ div .derivatives-pictures__bottom-paragraph {
     width: 24%;
 }
 
+@media (min-width: 1400px) and (max-width: 1750px){
+    div .derivatives-pictures__bottom-paragraph{
+        margin-top:-258px;
+    }
+}
+
 @media (min-width: 1200px) and (max-width: 1399px) {
     .infoblock__hierarchical-metadata-bottom-block img {
         width: 50%;
+    }
+
+    .content_stabilization4{
+        margin-top: 37px;
     }
 
     .infoblock__hierarchical-metadata-bottom-paragraphs {
@@ -448,6 +458,10 @@ div .derivatives-pictures__bottom-paragraph {
 @media (max-width: 1199px) {
     .infoblock__book-stack-and-feature-enumeration h2 {
         font-size: 2.1rem;
+    }
+
+    .content_stabilization4{
+        margin-top: 37px;
     }
 
     .infoblock__hierarchical-metadata_paragraph-with-image img {

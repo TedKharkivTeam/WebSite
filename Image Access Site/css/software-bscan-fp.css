@@ -11,7 +11,8 @@ div.content h1 {
 
 div.content div.introduction {
     padding-bottom: 40px;
-    width: 90%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 div.content h2 {
