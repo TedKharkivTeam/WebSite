@@ -23,7 +23,7 @@ $(document).ready(function() {
   });
   
   //not using overlay for product info tabs anymore
-  //$("img[rel]").overlay();
+  //$("images_for_slides[rel]").overlay();
   //$("ul.tabs").tabs("div.panes > div.pane");
 */  
   // alternating colors for table rows

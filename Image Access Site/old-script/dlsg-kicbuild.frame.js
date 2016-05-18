@@ -924,7 +924,7 @@ var image_swap = function(sys_id) {
   if (dualpc) { dualpc = 'dualpc'; } else { dualpc = 'nodualpc'; };
   if (neckview) { neckview = 'neckview'; } else { neckview = 'noneckview'; };  
    
-  $('#'+sys_id+' .img-model').addClass('inactive');
+  $('#'+sys_id+' .images_for_slides-model').addClass('inactive');
   
   /*
   if( ( model != 'ClickMini' ) && ( model != 'Click' ) && ( model != 'BookEdge' ) && ( model != 'Bookeye4V3' ))
@@ -941,11 +941,11 @@ var image_swap = function(sys_id) {
       || (( model == 'Bookeye4' ) && (furn == 'Tabletop3' ))     )
   {
     // handle neckview flag just for BE4 V3 and V2
-    $('#'+sys_id+' .img-model.'+model+'.'+paint+'.'+furn+'.'+adf+'.'+footpedal+'.'+smartdock+'.'+dualpc+'.'+neckview).removeClass('inactive');    
+    $('#'+sys_id+' .images_for_slides-model.'+model+'.'+paint+'.'+furn+'.'+adf+'.'+footpedal+'.'+smartdock+'.'+dualpc+'.'+neckview).removeClass('inactive');    
   }
   else
   {
-    $('#'+sys_id+' .img-model.'+model+'.'+paint+'.'+furn+'.'+adf+'.'+footpedal+'.'+smartdock+'.'+dualpc).removeClass('inactive');	
+    $('#'+sys_id+' .images_for_slides-model.'+model+'.'+paint+'.'+furn+'.'+adf+'.'+footpedal+'.'+smartdock+'.'+dualpc).removeClass('inactive');	
   }
 }
 
@@ -966,8 +966,8 @@ var reset_build_form = function(sys_id) {
   $('#'+sys_id+' .furn.cabinet input').prop('checked', true);
   $('#'+sys_id+' input.ocr').prop('checked', true);
   $('#'+sys_id+' input.tts').prop('checked', true);
-  $('#'+sys_id+' .img-model').addClass('inactive');
-  $('#'+sys_id+' .img-model.Bookye4.White.furniture').removeClass('inactive');   
+  $('#'+sys_id+' .images_for_slides-model').addClass('inactive');
+  $('#'+sys_id+' .images_for_slides-model.Bookye4.White.furniture').removeClass('inactive');   
   $('#'+sys_id+' input.quantity').val(0);  
   $('#'+sys_id+' legend').siblings().addClass('hide');
 }

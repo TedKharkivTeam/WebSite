@@ -407,7 +407,7 @@ function buildOptions($cont, $slides, els, options, o) {
 			// don't requeue for images that are still loading but have a valid size
 			if (loadingIE || loadingFF || loadingOp || loadingOther) {
 				if (o.s && opts.requeueOnImageNotLoaded && ++options.requeueAttempts < 100) { // track retry count so we don't loop forever
-					log(options.requeueAttempts,' - img slide not loaded, requeuing slideshow: ', this.src, this.cycleW, this.cycleH);
+					log(options.requeueAttempts,' - images_for_slides slide not loaded, requeuing slideshow: ', this.src, this.cycleW, this.cycleH);
 					setTimeout(function() {$(o.s,o.c).cycle(options)}, opts.requeueTimeout);
 					requeue = true;
 					return false; // break each loop

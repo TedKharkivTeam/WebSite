@@ -2,24 +2,29 @@
     display: inline-block;
     width: 49%;
 }
-.img-holder{
+
+.img-holder {
     width: 100%;
 }
+
 /*title frame*/
-.logo-frame-block{
+.logo-frame-block {
     text-align: right;
     margin-bottom: 5px;
 }
-.logo-frame-block__dlsg-logo{
+
+.logo-frame-block__dlsg-logo {
     display: inline-block;
     width: 19%;
     padding-right: 10px;
     border-right: 1px solid #888;
 }
-.logo-frame-block__dlsg-logo img{
+
+.logo-frame-block__dlsg-logo img {
     width: 100%;
 }
-.logo-frame-block__caption{
+
+.logo-frame-block__caption {
     display: inline-block;
     width: 60%;
     padding-left: 10px;
@@ -28,29 +33,34 @@
     background: url("../images/frames/map-bg.png") no-repeat;
     background-size: cover;
 }
-.caption__h{
+
+.caption__h {
     font-size: 6rem;
     line-height: 1.2;
     margin: 0;
 }
-.caption--bold{
+
+.caption--bold {
     font-weight: bold;
 }
+
 /*end of title frame*/
 /*green line*/
-.green-line{
+.green-line {
     overflow: hidden;
     margin-bottom: 7px;
 }
+
 .green-line__text {
     font-size: 2.4rem;
     line-height: 2.6rem;
     color: #517F4C;
     background: #8ADC80;
-    display:block;
+    display: block;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .green-line__text--left {
     padding-left: 10%;
     padding-right: 10px;
@@ -58,6 +68,7 @@
     text-align: left;
     float: left;
 }
+
 .green-line__text--left::after {
     content: '';
     position: absolute;
@@ -69,6 +80,7 @@
     left: 100%;
     top: 0;
 }
+
 .green-line__text--right {
     padding-left: 10px;
     padding-right: 10%;
@@ -76,6 +88,7 @@
     text-align: right;
     float: right;
 }
+
 .green-line__text--right::before {
     content: '';
     position: absolute;
@@ -86,6 +99,7 @@
     right: 100%;
     top: 0;
 }
+
 /*end of green line*/
 
 /*grey line*/
@@ -103,6 +117,7 @@
     padding: 4px 3.5% 4px 5%;
     position: relative;
 }
+
 .text-grey::after {
     content: '';
     position: absolute;
@@ -121,12 +136,14 @@
     transform: skew(-36deg);
     width: 40px;
 }
+
 /*end of grey line*/
 /*frames 5*/
-.large__title{
+.large__title {
     text-align: center;
     position: relative;
 }
+
 .img-frame {
     width: 47%;
     border: 1px solid #b0b0b0;
@@ -135,11 +152,13 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
+
 .clearfix:after {
     content: " ";
     clear: both;
     display: table;
 }
+
 .imgbook.large {
 
     max-width: 170px;
@@ -152,9 +171,11 @@
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .title__text {
-   text-align: center;
+    text-align: center;
 }
+
 .text--frame5A {
     font-family: 'LilyUPC', Arial, sans-serif;
     margin: 0;
@@ -162,7 +183,8 @@
     line-height: 1;
     font-weight: normal;
 }
-.text--frame5A-h5{
+
+.text--frame5A-h5 {
     text-align: center;
     font-size: 3rem;
     font-family: 'LilyUPC', Arial, sans-serif;
@@ -170,41 +192,49 @@
     font-style: italic;
     margin: 0;
 }
-.border-frame5a{
+
+.border-frame5a {
     text-align: center;
     padding: 10px;
     border: 1px solid #888;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    border-radius:8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     margin: 30px 10px 10px;
 }
-.image5B{
-    width:100%;
+
+.image5B {
+    width: 100%;
 }
-.kat-holder{
+
+.kat-holder {
     padding: 10px 0;
 }
-.kat-holder__logo{
+
+.kat-holder__logo {
     display: inline-block;
     width: 40%;
     text-align: center;
 }
-.logo__frame5{
+
+.logo__frame5 {
     width: 40%;
 }
-.kat-holder__content{
+
+.kat-holder__content {
     display: inline-block;
     width: 59%;
     text-align: center;
     vertical-align: top;
 }
-.content__block{
+
+.content__block {
     font-size: 3.4rem;
     line-height: 3.6rem;
     width: 90%;
     margin: 0 auto;
 }
+
 .green--arrow {
     width: 136px;
     height: auto;
@@ -212,15 +242,18 @@
     top: -92px;
     right: -70px;
 }
+
 /*end of frames 5*/
 /*pod*/
-.wrapper-pod{
+.wrapper-pod {
     padding-top: 20px;
     position: relative;
 }
-.text-grey-pbd{
+
+.text-grey-pbd {
     position: relative;
 }
+
 .text-grey-pbd:before {
     content: '';
     position: absolute;
@@ -235,6 +268,7 @@
     transform: rotate(-45deg);
     z-index: 0;
 }
+
 .new-red {
     color: #fff;
     background: #ca3731;
@@ -248,26 +282,32 @@
     transform: rotate(-45deg);
     z-index: 0;
 }
+
 .content__pod {
     display: inline-block;
     overflow: hidden;
 }
+
 .pbd--frame {
     width: 49%;
     float: left;
     text-align: center;
 }
+
 .frame--text {
     text-align: justify;
     padding: 10px 20px;
 }
+
 .pod__library {
     text-align: center;
     padding: 1.2em;
 }
+
 .custom__aline--pt {
     padding-bottom: 10px;
 }
+
 h2.pod-text {
     font-size: 26px;
     color: #000;
@@ -276,50 +316,60 @@ h2.pod-text {
     font-weight: bold;
     margin: 0;
 }
+
 .library__img {
     width: 51%;
 }
+
 .custom__aline {
     text-align: center;
     padding-bottom: 20px;
 }
+
 .custom__aline .custom__aline--text {
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
     text-align: center;
 }
-.custom__aline img{
+
+.custom__aline img {
     width: 100%;
 }
-.img-preview{
+
+.img-preview {
     width: 64%;
 }
+
 /*end of pod*/
 
 /*DLOS*/
 .frame7-content {
     text-align: left;
-    padding: 0 15px;
-    padding-bottom: 2%;
+    padding: 0 15px 2% 0;
 }
+
 .frame7-content__dlos {
     width: 39%;
     padding-top: 20px;
     display: inline-block;
 }
+
 .dlos-hend {
     width: 30%;
     display: inline-block;
 }
-.dlos-hend img{
+
+.dlos-hend img {
     width: 100%;
 }
-.dlos__rightside{
+
+.dlos__rightside {
     display: inline-block;
     width: 68%;
     vertical-align: top;
 }
+
 .frame7-content__inform {
     width: 60%;
     text-align: left;
@@ -327,19 +377,23 @@ h2.pod-text {
     display: inline-block;
     vertical-align: top;
 }
+
 .DLOS_Icon {
-    width:100%;
+    width: 100%;
 }
+
 .dlos__ul {
     padding-left: 10%;
     padding-top: 10px;
 }
+
 .inf--padding {
     padding-left: 15%;
     position: absolute;
     top: 54%;
     left: 0;
 }
+
 .inform__images {
     width: 100%;
     max-width: 300px;
@@ -347,33 +401,38 @@ h2.pod-text {
     display: block;
     margin-right: 5%;
 }
+
 .wrapper-for-img p:after {
     content: '';
     display: table;
     clear: both;
 }
-.wrapper-for-img{
+
+.wrapper-for-img {
     position: relative;
 }
+
 .saw {
     text-align: center;
     margin-bottom: 35px;
 }
+
 .saw h3 {
     font-size: 30px;
     color: #000;
     margin: 0;
-    padding: 0;
     font-weight: normal;
-    padding-bottom: 10px;
+    padding: 0 0 10px 0;
 }
+
 .saw .saw-hend {
     width: 40px;
 }
+
 .saw__green-text {
     font-style: italic;
     font-size: 1.7rem;
-    line-height:1.2;
+    line-height: 1.2;
     background: #fefffd;
     background: -moz-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
     background: -webkit-linear-gradient(top, #fefffd 0%, #f9fffb 2%, #f8fff8 4%, #f5fff6 5%, #f4fef5 7%, #f1fff2 7%, #f0fef1 9%, #ecfeee 9%, #ebfded 12%, #ebfeea 12%, #e7ffe9 13%, #e5fee8 14%, #e5fde3 14%, #e0fde1 15%, #e0fee2 16%, #dffbe2 17%, #dbfddc 18%, #d9fcdb 20%, #d5fed6 21%, #d1fbd3 23%, #cefbd0 24%, #cbfdcc 26%, #c7fbcb 26%, #c2fdc5 28%, #bcfbc2 31%, #b9fbbd 32%, #b6fbba 32%, #b2fbb4 35%, #affbb1 35%, #a9faae 38%, #9bfa9e 42%, #99f99f 43%, #94fa97 45%, #93f898 45%, #8dfa91 47%, #87f88e 50%, #84f88b 50%, #7ef784 53%, #78f87d 54%, #78f87d 55%, #71f878 58%, #64f76b 61%, #60f76a 64%, #5ef666 64%, #51f759 70%, #50f656 71%, #3df547 80%, #3af544 81%, #3bf441 83%, #34f43f 85%, #33f33c 87%, #34f43d 100%);
@@ -386,6 +445,7 @@ h2.pod-text {
     position: relative;
     z-index: 1;
 }
+
 .saw__block {
     width: 95%;
     margin: -10px auto 0;
@@ -395,13 +455,13 @@ h2.pod-text {
     display: inline-block;
     text-align: center;
 }
+
 .block__ul {
     width: 24%;
-    padding: 0 4px;
+    padding: 10px 4px 0;
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    padding-top: 10px;
 }
 
 .block__ul li {
@@ -409,53 +469,63 @@ h2.pod-text {
     font-size: 16px;
     margin-left: 25px;
 }
+
 .block__ul li:first-child {
     font-size: 17px;
     margin-left: 0;
     font-weight: bold;
 }
+
 .dlos__ul li {
     position: relative;
     padding: 6px 0;
 }
+
 .dlos__ul li:before {
     content: '';
     position: absolute;
     top: 6px;
     left: -23px;
-    background: url("../images/frames/list-style.png") no-repeat;
+    background: url("../images/GreenBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
 }
+
 /*end of DLOS  */
 
-.label-new{
+.label-new {
     width: 10%;
 }
-.label-new--f4{
+
+.label-new--f4 {
     width: 5%;
 }
-.frame__logo{
+
+.frame__logo {
     overflow: hidden;
     padding-top: 4.6%;
     padding-left: 1.2%;
     position: relative;
 }
-.frame__logo--top{
+
+.frame__logo--top {
     padding-top: 10px;
 }
+
 .content__frame--leftside {
     width: 49%;
     position: relative;
     display: inline-block;
     vertical-align: top;
 }
-.new-design{
+
+.new-design {
     position: absolute;
     top: 14%;
     left: 0;
 }
+
 .imgbook {
     max-width: 190px;
     height: auto;
@@ -463,6 +533,7 @@ h2.pod-text {
     position: relative;
     float: left;
 }
+
 .h4--frames {
     font-size: 6.8rem;
     line-height: 1.2;
@@ -470,9 +541,11 @@ h2.pod-text {
     font-family: 'LilyUPC', Arial, sans-serif;
     font-weight: normal;
 }
-.h4__frames--pull-left{
+
+.h4__frames--pull-left {
     float: left;
 }
+
 .content__frame--leftside__img {
     width: 95%;
     margin: 0 auto 10px;
@@ -485,10 +558,12 @@ h2.pod-text {
     width: auto;
     height: 150px;
 }
-.leftside__img--top{
-    padding-top:10%;
+
+.leftside__img--top {
+    padding-top: 10%;
 }
-.imgbook--center{
+
+.imgbook--center {
     position: relative;
     top: -50%;
     -webkit-transform: translateY(50%);
@@ -497,6 +572,7 @@ h2.pod-text {
     -o-transform: translateY(50%);
     transform: translateY(50%);
 }
+
 .text--red {
     margin: 0;
     padding: 0;
@@ -511,16 +587,19 @@ h2.pod-text {
 .fs--text--red {
     font-size: 4rem;
 }
-.content__click{
+
+.content__click {
     display: inline-block;
     width: calc(50% - 5px);
     text-align: center;
     vertical-align: top;
     margin-bottom: 15px;
 }
-.content__click--econom{
-    width:40%;
+
+.content__click--econom {
+    width: 40%;
 }
+
 .bb--border {
     padding: 15px;
     border: 1px solid #707070;
@@ -530,10 +609,11 @@ h2.pod-text {
     width: 65%;
     margin: 0 auto;
 }
-.wrapper-frame{
+
+.wrapper-frame {
     position: relative;
     text-align: center;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 .h4--border {
@@ -547,10 +627,12 @@ h2.pod-text {
     font-family: 'LilyUPC', Arial, sans-serif;
     font-weight: normal;
 }
-.content__click--midle{
+
+.content__click--midle {
     vertical-align: middle;
     margin-top: 50px;
 }
+
 .left-picture-frame4C {
     padding: 10px 0;
     margin: 0 auto;
@@ -565,40 +647,49 @@ h2.pod-text {
     display: block;
     margin: 0 auto;
 }
+
 .span--bold {
     font-size: 4rem;
     font-family: 'LilyUPC', Arial, sans-serif;
     font-weight: normal;
 }
-.frame__logo--to-top{
+
+.frame__logo--to-top {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     padding-top: 10px;
 }
-.to-header{
-    margin-top:-40px;
+
+.to-header {
+    margin-top: -40px;
 }
-.clearfix--top{
-    padding-top:5px;
+
+.clearfix--top {
+    padding-top: 5px;
     text-align: center;
 }
-.content__kat{
+
+.content__kat {
     display: inline-block;
     vertical-align: top;
     text-align: center;
     position: relative;
 }
-.content__kat--left{
+
+.content__kat--left {
     width: 29%;
     margin: 0 5%;
 }
-.content__kat--right{
+
+.content__kat--right {
     width: 59%;
 }
-.kat-img{
+
+.kat-img {
     width: 100%;
 }
+
 /*frame8*/
 .content__unyver {
     background: url("../images/frames/MIT_Building_10.png") no-repeat;
@@ -608,6 +699,7 @@ h2.pod-text {
     text-align: right;
     margin-top: -2%;
 }
+
 .unyver__taxt {
     width: 57%;
     text-align: center;
@@ -615,6 +707,7 @@ h2.pod-text {
     margin-top: 8%;
     margin-bottom: 8%;
 }
+
 .unyver__h2 {
     font-size: 4.2rem;
     color: #000000;
@@ -622,6 +715,7 @@ h2.pod-text {
     padding: 0;
     line-height: 1.2;
 }
+
 @-webkit-keyframes color-text {
     from {
         color: #01fe18;
@@ -639,129 +733,164 @@ h2.pod-text {
         color: #01fe18;
     }
 }
+
 .h2--color {
     -webkit-animation: color-text 3s 1 linear;
     animation: color-text 3s 1 linear;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-.unyver__logo{
+
+.unyver__logo {
     width: 50%;
 }
+
 /*end of frame8*/
 @media all and (max-width: 1852px) {
     .inf--padding {
         top: 69%;
     }
+
     .frame7-content {
         padding-bottom: 5%;
     }
 }
+
 @media all and (max-width: 1612px) {
     .inf--padding {
         top: 79%;
     }
 }
-@media all and (max-width: 1552px){
-    .caption__h{
+
+@media all and (max-width: 1552px) {
+    .caption__h {
         font-size: 5rem;
     }
+
     .logo-frame-block__caption {
         margin-right: 0;
     }
+
     .inf--padding {
         top: 88%;
     }
+
     .frame7-content {
-    padding-bottom: 7%;
+        padding-bottom: 7%;
     }
+
     .inform__images {
         max-width: 250px;
     }
 }
-@media all and (min-width: 1366px) and (max-width: 1534px){
+
+@media all and (min-width: 1366px) and (max-width: 1534px) {
     .h4__frames--pull-left {
         font-size: 5.2rem;
     }
+
     .imgbook--big {
         max-width: 170px;
     }
+
     .green-line__text--left {
         padding-left: 4%;
     }
+
     .green-line__text--right {
         padding-right: 4%;
     }
 }
-@media all and (max-width: 1366px){
+
+@media all and (max-width: 1366px) {
     .gallery-wrapper {
         padding-top: 10px;
     }
-    html{
+
+    html {
         font-size: 50%;
     }
+
     .logo-frame-block {
         padding-bottom: 5px;
         margin-bottom: 0;
     }
+
     .imgbook {
         max-width: 140px;
     }
+
     .label-new {
         width: 50px;
     }
+
     .h2--frame5A {
-        font-size: 3.6rem!important;
+        font-size: 3.6rem !important;
     }
+
     .brochure-block .text h2 {
         font-size: 2.6rem;
     }
-    .h4__frames--to-top{
+
+    .h4__frames--to-top {
         margin-top: -12px;
     }
+
     .frame7-content {
         padding-bottom: 10%;
     }
+
     .green-line {
         margin-bottom: 4px;
     }
+
     .logo-frame-block__dlsg-logo {
         padding-top: 3px;
     }
 }
-@media all and (max-width: 1208px){
+
+@media all and (max-width: 1208px) {
     .imgbook {
         max-width: 125px;
     }
+
     .content__frame--leftside__img {
         width: 90%;
     }
+
     .frame__logo {
         padding-left: 1%;
     }
+
     .inform__images {
         max-width: 200px;
     }
+
     .inf--padding {
         padding-left: 0;
         position: relative;
         top: 0;
         left: 0;
     }
+
     .frame7-content {
         padding-bottom: 0;
     }
 }
-@media all and (max-width: 1100px){
-    html{
+
+@media all and (max-width: 1100px) {
+    html {
         font-size: 45%;
     }
+
     .green-line__text--left {
         padding-left: 5%;
     }
+
     .green-line__text--right {
         padding-right: 5%;
     }
+
     .imgbook.large {
         max-width: 120px;
         position: absolute;
@@ -774,15 +903,18 @@ h2.pod-text {
         transform: translateY(0);
     }
 }
-@media all and (max-width: 1050px){
+
+@media all and (max-width: 1050px) {
     .inform__images {
         margin-right: 0;
         padding-bottom: 5px;
     }
+
     .inf--padding {
         padding-top: 4px;
     }
-    .logo-frame-block{
+
+    .logo-frame-block {
         padding-left: 20px;
     }
 }

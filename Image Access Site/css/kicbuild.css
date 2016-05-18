@@ -43,10 +43,10 @@
 #build_your_kic .build-fieldset{width:1198px; height:30px; margin:10px 0px; overflow:hidden; border:1px solid #aaa; border-radius:5px; }
 #build_your_kic .build-fieldset.expand{min-height:25px; height:auto; }
 #build_your_kic .build-fieldset fieldset{border:none; position:relative; overflow:hidden;}
-#build_your_kic .build-fieldset legend{width:auto; padding-left:25px; font-size:150%; background:#fff; background:url(../images/showhide-plus.png) 5px 5px no-repeat; cursor:pointer; }
-#build_your_kic .build-fieldset.print legend{background:url(../images/showhide-plus.green.png) 5px 5px no-repeat;}
-#build_your_kic .build-fieldset.expand legend{background:url(../images/showhide-minus.png) 5px 5px no-repeat; }
-#build_your_kic .build-fieldset.expand.print legend{background:url(../images/showhide-minus.green.png) 5px 5px no-repeat; }
+#build_your_kic .build-fieldset legend{width:auto; padding-left:25px; font-size:150%; background:#fff; background:url(../images/KIC_Build/showhide-plus.png) 5px 5px no-repeat; cursor:pointer; }
+#build_your_kic .build-fieldset.print legend{background:url(../images/KIC_Build/showhide-plus.green.png) 5px 5px no-repeat;}
+#build_your_kic .build-fieldset.expand legend{background:url(../images/KIC_Build/showhide-minus.png) 5px 5px no-repeat; }
+#build_your_kic .build-fieldset.expand.print legend{background:url(../images/KIC_Build/showhide-minus.green.png) 5px 5px no-repeat; }
 #build_your_kic .build-fieldset div{float:left; height: 893px; margin:10px 10px; border:1px solid #aaa; border-radius:5px; }
 #build_your_kic .build-fieldset div.options{width:280px; }
 #build_your_kic .build-fieldset div.options p.label{height:25px;text-align:center; font-size:125%; font-style:italic; margin:0; background:#ddd; border:0px solid #aaa; border-radius:3px; }
