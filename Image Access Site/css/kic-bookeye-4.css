@@ -59,6 +59,7 @@ figure {
     height: 16px;
 }
 
+
 .infoblock .brochure-title-left {
     color: #000;
     font-size: 3.6rem;
@@ -606,11 +607,20 @@ div .infoblock__page-4__homo {
     z-index: 1;
 }
 
+
+img.repeat-img {
+    position: absolute;
+    width: 7%;
+    left: 97%;
+    bottom: -10%;
+}
+
 .infoblock__page-5__two-step--inline {
     padding: 0 4px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
+    position: relative;
 }
 
 .infoblock__page-5__two-step--w1 {
