@@ -2,57 +2,35 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KIC Click & KIC Click Mini :: Image Access 2016</title>
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/bokeye-vs-copiers.css">
-    <link rel="stylesheet" type="text/css" href="../css/kic-click-and-click-mini.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
-    <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
-    <script src="../js/include.js" type="text/javascript"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>KIC Click vs. Copiers :: Image Access 2016</title>
+    <link rel="shortcut icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer-book-copier.css">
+    <script src="../js/jquery-1.12.2.min.js"></script>
+    <script src="../js/include.js"></script>
+    <script src="../js/rainbow.js"></script>
 </head>
-<body class="gradient">
+<body>
 <header>
     <div id="includeHeader"></div>
-    <script>
-        function IsIE() {
-            var ms_ie = false;
-            var ua = window.navigator.userAgent;
-            var old_ie = ua.indexOf('MSIE ');
-            var new_ie = ua.indexOf('Trident/');
-
-            if ((old_ie > -1) || (new_ie > -1)) {
-                ms_ie = true;
-            }
-
-            return ms_ie;
-        }
-        onload = function () {
-            if (IsIE()) {
-                var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
-
-                for (var i = 0; i < 2;) {
-                    rainbowTextDivs[i].setAttribute("style", "color:black;text-align:center;");
-                    rainbowTextDivs[i].removeAttribute("class");
-                }
-            }
-        }
-    </script>
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png" width="890" height="498"
-                                     alt="Image Access"></a>
-        <div class="botlogo"> KIC Click & KIC Click Mini</div>
+        <a href="../index.html">
+            <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
+        </a>
+        <div class="botlogo"> KIC Click vs. Copiers</div>
     </div>
-    <div class="leftsidemenu-holder" id="menu">
+    <div class="leftsidemenu-holder">
         <ul class="leftsidemenu">
-            <li class="selected"><a href="KIC_Click_and_Mini_KIC_Click_vs_Copiers.html">KIC Click vs. Copiers</a></li>
+            <li class="selected"><a href="Footer_Book_Copier.html">KIC Click vs. Copiers</a></li>
         </ul>
     </div>
     <div class="infoblock">
-        <h2 class="brochure-title-center">KIC Click vs. Copiers &ndash; How KIC Compares</h2>
+        <h2 class="brochure-title-center">KIC Click vs. Copiers - How KIC Compares</h2>
         <div class="infoblock__double-wrap">
             <div class="double-wrap__column">
                 <div class="infoblock__double__content">
@@ -64,7 +42,7 @@
                         of
                         tablet computers and electronic readers, the demand in academic libraries for electronic copies
                         has
-                        substantially outstripped the de- mand for printed copies. The demand for electronic copies in
+                        substantially outstripped the demand for printed copies. The demand for electronic copies in
                         public
                         libraries is also reaching a tipping point.</p>
                     <p>The ability to capture virtually unlimited numbers of pages of research into a tablet or
@@ -102,8 +80,7 @@
                         affordable
                         color.</p>
                     <figure>
-                        <img src="../images/Bookeye_vs_Copiers/printer.png " width="156"
-                             height="176" alt="Printer"/>
+                        <img src="../images/brochure-pictures/WhiteSmallCopier.png" alt="Copier"/>
                         <figcaption>ADF attachment scans 40 loose-leaf pages/min (20 sheets per minute)</figcaption>
                     </figure>
                 </div>
@@ -128,9 +105,7 @@
                         the
                         future</p>
                     <img class="diagram1"
-                         src="../images/JPGs%20for%20KIC%20Click%20&%20Click%20Mini%20Brochure/forMax.png" width="772"
-                         height="519"
-                         alt="KIC Bookeye vs. Copiers"/>
+                         src="../images/brochure-pictures/Page12_Diagram.png" alt="KIC Bookeye vs. Copiers"/>
                     <strong class="bookeye-vs-copiers__strong">A five Year Comparison at a<br> Usage Rate of 100,000
                         pages
                         per year</strong>
@@ -155,7 +130,7 @@
                             reports.
                             These automatic image treatment functions also save a lot of administrator, faculty, and
                             student time.</p>
-                        <img class="infoblock__double__double-p" src="../images/Dlsg/KIC/Click_Page8_RedSign.png"
+                        <img class="infoblock__double__double-p" src="../images/brochure-pictures/RedSign.png"
                              alt="No-copiers">
                     </div>
                 </div>
@@ -195,7 +170,7 @@
                             whether black and white or color.</p>
                     </div>
                     <div class="infoblock__double__double-p" style="width: 38%;margin-left: 2%;">
-                        <img src="../images/Bookeye_vs_Copiers/StackOfPaper.png">
+                        <img src="../images/brochure-pictures/BottlesOfInk.png" alt="Paint">
                     </div>
                 </div>
                 <div>
@@ -226,8 +201,5 @@
 <footer>
     <div id="includeFooter"></div>
 </footer>
-<script>
-    window.currentTab = '#kic_bookeye';
-</script>
 </body>
 </html>
