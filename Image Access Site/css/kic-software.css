@@ -2303,7 +2303,8 @@ div .infoblock__block {
 
 .infoblock .infoblock__true-2-touch {
     float: left;
-    width: 25%;
+    width: 15%;
+    padding: 0 10px 10px 0;
 }
 
 .infoblock .infoblock__ul {
@@ -2312,12 +2313,8 @@ div .infoblock__block {
 
 .infoblock .infoblock__scanner-other {
     float: right;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
     margin-right: 10%;
-    width: 75%;
-    height: 75%;
+    width: 25%;
 }
 
 .infoblock .infoblock__div_arrow-devices {
@@ -4704,10 +4701,6 @@ h2.brocure-subtitle-center {
     text-align: center;
 }
 
-.wrap-text {
-    padding-top: 30px;
-}
-
 .--left {
     float: left;
 }
@@ -4760,4 +4753,26 @@ p.infoblock__homo-text.responsible_fix_block_text span {
     position: absolute;
     right: 102%;
     top: 40px;
+}
+
+.first-paragraph {
+    float: right;
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px !important;
+}
+
+.wrap-paragraph {
+    float: left;
+    width: 60%;
+}
+
+.wrap-list {
+    float: right;
+    width: 50%;
+}
+
+.one-screen-with-hand-in-border {
+    float: left;
+    width: 25% !important;
 }
