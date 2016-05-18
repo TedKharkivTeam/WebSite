@@ -4,7 +4,9 @@ h3 {
     line-height: 3.2rem;
 }
 
-/* 2 page*/
+.infoblock .brochure-technical-specifications {
+
+}
 
 .infoblock__page-2__column {
     width: 49%;
@@ -820,6 +822,19 @@ th .table--img {
     width: 64px;
     height: 100%;
     background-size: contain;
+}
+
+.infoblock .infoblock__huge-kic-label {
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+    font-size: 6.4rem;
+    line-height: 6.6rem;
+    font-weight: 400;
+}
+
+.infoblock .infoblock__black-label {
+
 }
 
 .bold-dollar {
@@ -1760,7 +1775,6 @@ h6.pod-text {
 .infoblock__double__content {
     overflow: hidden;
     padding: 10px 10px 10px 0;
-    background: #D0E6FC;
     margin: 5px;
     border-radius: 10px;
 }
@@ -1777,12 +1791,10 @@ h6.pod-text {
     line-height: 22px;
 }
 
-.infoblock .infoblock__double__content .in-case-span--center {
-    text-align: left;
-    display: block !important;
+.in-case-span--center {
+    text-align: center;
     font-size: 26px;
     line-height: 28px;
-    margin-top: 5px;
 }
 
 .infoblock__double__content__double {
@@ -1811,7 +1823,7 @@ h6.pod-text {
 
 .in-case-p--italic {
     padding: 10px;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-style: italic;
     display: inline-block;
 }
 
@@ -1823,7 +1835,7 @@ h6.pod-text {
 }
 
 .infoblock .left-text {
-    padding: 0 10px;
+    padding: 20px 0 0 10px;
 }
 
 .infoblock .left-text p {
@@ -1849,6 +1861,114 @@ h6.pod-text {
     width: auto;
     margin: 0 auto;
     display: block;
+}
+
+.infoblock span {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.infoblock__page-11__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.infoblock__page-11__double__content {
+    overflow: hidden;
+    padding: 10px 10px 10px 0;
+    background: #D0E6FC;
+    margin: 5px;
+    border-radius: 1.0rem;
+}
+
+.infoblock__page-11__in-case-strong {
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    padding: 0;
+}
+
+.infoblock__page-11__in-case-span {
+    text-align: right;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+}
+
+.infoblock__page-11__in-case-span--center {
+    text-align: center;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+}
+
+.infoblock__page-11__double__content__double {
+    width: 50%;
+    float: left;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 15px 2%;
+    display: block;
+}
+
+.infoblock__page-11-content-p {
+    padding: 60px 0;
+}
+
+.infoblock__page-11__in-case-p--italic {
+    padding: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.infoblock__page-11__for-study-p {
+    width: 225px;
+    float: right;
+    margin-top: -125px;
+    margin-right: 21%;
+}
+
+.infoblock .infoblock__page-11__left-text {
+    padding: 0 10px;
+}
+
+.infoblock .infoblock__page-11__left-text p {
+    padding: 0;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--right {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-artwork {
+    height: 199px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-map {
+    height: 171px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .personal-document {
+    padding: 40px 0 0 0;
 }
 
 /*kic-click-and-mini-scan-copy-fax*/
@@ -1916,14 +2036,13 @@ h6.pod-text {
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     margin-left: 54%;
 }
 
 .infoblock .text1 {
     width: 47%;
     float: left;
-
 }
 
 .infoblock .text2 {
@@ -1941,6 +2060,7 @@ h6.pod-text {
     vertical-align: top;
     float: left;
 }
+
 .infoblock .column1 {
     width: 49%;
     display: inline-block;
@@ -1959,10 +2079,6 @@ h6.pod-text {
 
 .infoblock .label5 {
     margin-top: 1%;
-}
-
-.infoblock .text4 {
-
 }
 
 .column__title {
@@ -2023,7 +2139,6 @@ h6.pod-text {
     left: 60px;
 }
 
-
 .infoblock .map-marker {
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -2048,9 +2163,8 @@ h6.pod-text {
 }
 
 .infoblock .text6 {
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-weight: 300;
-
     margin-left: -2%;
     text-align: center;
 }
@@ -2163,7 +2277,7 @@ h6.pod-text {
 
 .top__h2 {
     text-align: left;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: larger;
     font-weight: 500;
     color: #000000;
@@ -2178,17 +2292,17 @@ h6.pod-text {
 .infoblock .center__img {
     float: right;
     width: 58%;
-    padding-left: 20px;
 }
 
 .infoblock .center__text--padding {
     padding-top: 60px;
     position: relative;
-    width: 42%;
+    width: 38%;
 }
 
 .infoblock .center__text--margin {
-    width: 56%;
+    width: 52%;
+    padding-top: 0;
 }
 
 .infoblock__nav {
@@ -2205,6 +2319,7 @@ h6.pod-text {
     float: left;
     width: 60%;
     margin-right: 20px;
+    padding-top: 20px;
 }
 
 .infoblock .li--width {
@@ -2306,7 +2421,7 @@ h6.pod-text {
 .infoblock .true2_block_3 {
     width: 30%;
     margin-left: 15%;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
 
 .infoblock .kic_div .true2_two_screens {
@@ -2330,7 +2445,7 @@ h6.pod-text {
 }
 
 .infoblock .text_undergorund_label {
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-weight: 300;
     margin-left: 25%;
     text-align: center;
@@ -2355,7 +2470,7 @@ h6.pod-text {
 }
 
 .infoblock .label_smart2 {
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     width: 30%;
     position: absolute;
     font-size: 1.6rem;
@@ -2392,7 +2507,7 @@ h6.pod-text {
     position: absolute;
     width: 13%;
     text-align: center;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2404,7 +2519,7 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2416,7 +2531,7 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2428,7 +2543,7 @@ h6.pod-text {
     position: absolute;
     width: 12%;
     text-align: center;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1rem;
     color: #5C7681;
@@ -2445,6 +2560,14 @@ h6.pod-text {
 
 .reservation__h2--center {
     text-align: center;
+    color: #8ca1c9;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 2.5rem;
+    margin-top: 35px;
+    letter-spacing: 0;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
 
 .infoblock .label_smart9 {
@@ -2458,7 +2581,7 @@ h6.pod-text {
     font-size: 2.1rem;
     line-height: 1.2;
     margin-left: 3%;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
 
 .infoblock .smart_restaurant_img {
@@ -2541,15 +2664,17 @@ h6.pod-text {
     padding: 2%;
     height: 280px;
 }
-.infoblock .super_click_table td{
+
+.infoblock .super_click_table td {
     vertical-align: middle;
     padding-left: 5px;
 }
 
 .infoblock .first_of_last_label {
     color: #000;
-    font-size: 1.4rem;
-    margin-left: 17%;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-left: 15%;
     padding: 14px 0 10px;
     font-weight: 600;
     float: left;
@@ -2557,8 +2682,9 @@ h6.pod-text {
 
 .infoblock .second_of_last_label {
     color: #000;
-    font-size: 1.4rem;
-    margin-left: 46%;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-left: 42%;
     padding: 14px 0 10px;
     font-weight: 600;
     float: left;
@@ -2569,18 +2695,24 @@ h6.pod-text {
     margin: 0 auto;
 }
 
+.infoblock .super_middle_table_click td {
+    vertical-align: middle;
+    padding: 5px 0;
+}
+
 .infoclock__td-center-align {
     text-align: center;
 }
 
 .infoblock .bullet_click_label {
-    margin-left: 35%;
+    margin-left: 34%;
     width: 40%;
     padding: 1%;
 }
 
 .infoblock .middle_click_label {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: black;
     width: 100%;
     margin: 1% auto 0;
@@ -2606,6 +2738,8 @@ h6.pod-text {
 
 .brochure-overflow__smart-dock {
     position: relative;
+    margin-top: -4%;
+    padding-top: 4%;
 }
 
 .smart-dock__tree-img {
@@ -2675,7 +2809,7 @@ h6.pod-text {
 .infoblock .bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
-    font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 1.2rem;
     line-height: 1.4rem;
 }
@@ -2697,13 +2831,12 @@ h6.pod-text {
 }
 
 .infoblock .rainbow-text {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff00ff+16,0000ff+33,00ffff+50,00ff00+67,ffff00+83,ff0004+100,ff0000+100 */
-    background: #ff0000; /* Old browsers */
-    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
-    -webkit-background-clip: text; /* подробнее про background-clip */
+    background: #ff0000;
+    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
+    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
+    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1);
+    -webkit-background-clip: text;
     color: transparent;
     text-align: center;
     font-size: 2.6rem;
@@ -2758,28 +2891,13 @@ h6.pod-text {
     .infoblock .true2_block_3 {
         width: 40%;
         margin-left: 12%;
-        font-family:'AvenirLTStdOblique', helvetica, arial, sans-serif;
+        font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 
     }
 }
 
 @media all and (max-width: 1634px) {
-    .infoblock .center__img {
-        width: 50%;
-    }
 
-    .infoblock .center__text--padding {
-        width: 100%;
-    }
-
-    .infoblock .center__text--margin {
-        width: 62%;
-        padding-top: 10%;
-    }
-
-    .infoblock .nav__img {
-        margin-top: 5%;
-    }
 }
 
 @media all and (max-width: 1600px) {
@@ -2794,6 +2912,15 @@ h6.pod-text {
 
     .tree-img__inline {
         width: 32%;
+    }
+
+    .infoblock .center__img {
+        width: 50%;
+    }
+
+    .infoblock .center__text--margin {
+        width: 60%;
+        padding-top: 4%;
     }
 
     .tree-img__inline--min-width {
@@ -2869,6 +2996,21 @@ h6.pod-text {
     .table__arow:before {
         left: 10px;
     }
+    .infoblock .super_middle_table_click td{
+        padding: 3px 0;
+    }
+    .infoblock .nav__li {
+        width: 32%;
+        margin-top: -2%;
+    }
+
+    .infoblock .true2_block_3 {
+        margin-left: 9%;
+    }
+
+    .smart-dock__tree-img {
+        margin-top: -15%;
+    }
 }
 
 @media all and (max-width: 1359px) and (min-width: 1260px) {
@@ -2887,20 +3029,6 @@ h6.pod-text {
 @media all and (max-width: 1199px) {
     .table__arow:before {
         left: 0;
-    }
-}
-
-@media all and (max-width: 1584px) {
-    .infoblock .top__logo {
-        max-width: 30%;
-    }
-
-    .infoblock__top {
-        margin-bottom: 5%;
-    }
-
-    .infoblock .center__text--padding {
-        padding-top: 0;
     }
 }
 
@@ -2923,9 +3051,18 @@ h6.pod-text {
         line-height: 1.6rem;
     }
 
+    .infoblock .top__logo {
+        max-width: 30%;
+    }
+
+    .infoblock__top {
+        margin-bottom: 5%;
+    }
+
     .infoblock__nav {
         margin-top: 0;
     }
+
     .infoblock__page-3-italic-label {
         font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
         font-size: 1.8rem;
@@ -2963,10 +3100,13 @@ h6.pod-text {
     .infoblock .super_click_table {
         line-height: 1.6rem;
         font-size: 1.4rem;
+        height: 180px;
     }
+
     .infoblock .column1 {
         padding-bottom: 15px;
     }
+
     .infoblock .super_middle_table_click {
         line-height: 1.6rem;
         font-size: 1.4rem;
@@ -3014,10 +3154,70 @@ h6.pod-text {
     .infoblock .center__text--margin {
         margin-top: 0;
     }
+    .infoblock .nav__img {
+        float: left;
+        width: 60%;
+        padding-top: 35px;
+    }
+    .infoblock .li--width {
+        width: 60%;
+    }
 }
 
 @media all and (max-width: 1124px) and (min-width: 1092px) {
     .infoblock .label_smart13 {
         margin-top: -15%;
+    }
+}
+
+@media all and (max-width: 1770px) {
+    .infoblock__page-11__for-study-p {
+        margin-top: -117px;
+        margin-right: 11%;
+    }
+
+    .infoblock__page-11-content-p {
+        padding: 50px 0;
+    }
+}
+
+@media all and (max-width: 1685px) {
+    .infoblock__page-11-content-p {
+        padding: 33px 0;
+    }
+}
+
+@media all and (max-width: 1590px) {
+    .infoblock__page-11__for-study-p {
+        margin-top: -113px;
+        margin-right: 2%;
+    }
+}
+
+@media all and (max-width: 1488px) {
+    .infoblock__page-11__for-study-p {
+        width: 120px;
+        float: right;
+        margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 1370px) {
+    .infoblock__page-11-content-p {
+        padding: 6px 0;
+    }
+
+    .infoblock p {
+        font-size: 1.4rem;
+    }
+
+    .infoblock .infoblock__page-11__in-case-enhance--right {
+        padding-top: 53px;
+    }
+}
+
+@media all and (max-width: 1250px) {
+    .infoblock__page-11__for-study-p {
+        width: 111px;
     }
 }
