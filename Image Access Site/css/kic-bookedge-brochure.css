@@ -65,6 +65,32 @@
 
 }
 
+.infoblock .bg-image__image {
+
+}
+
+.infoblock .bg-image__text {
+    color: #52615A;
+    text-align: center;
+}
+
+.infoblock .bg-image__text--left {
+    width: 28%;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    position: relative;
+    top: -250px;
+    left: 6%;
+    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+}
+
+.infoblock .text--left__span {
+    font-family: AvenirLTStdBook; /* font-weight: normal; */
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
 .infoblock .common-header-h2--middle {
     width: 90%;
     text-align: center;
@@ -506,7 +532,7 @@ div .infoblock__page-3__block {
     position: absolute;
     content: '';
     background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    top: 10000px;
+    top: 565px;
     left: 100px;
     background-size: contain;
     width: 100%;
