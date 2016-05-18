@@ -2286,7 +2286,7 @@ h6.pod-text {
 }
 
 .infoblock .nav__li {
-    float: left;
+    float: right;
     width: 38%;
 }
 
@@ -2895,7 +2895,7 @@ h6.pod-text {
 
     .infoblock .center__text--margin {
         width: 60%;
-        padding-top: 4%;
+        padding-top: 6%;
     }
 
     .tree-img__inline--min-width {
@@ -2905,6 +2905,7 @@ h6.pod-text {
     .infoblock .center__text--padding {
         position: relative;
         width: 100%;
+        padding-top: 25px;
     }
 
     .infoblock .label_smart13 {
@@ -3024,6 +3025,7 @@ h6.pod-text {
     .infoblock p {
         font-size: 1.4rem;
         line-height: 1.6rem;
+
     }
 
     .infoblock .top__logo {
@@ -3136,6 +3138,9 @@ h6.pod-text {
     }
     .infoblock .li--width {
         width: 60%;
+    }
+    .reservation__h2--center {
+        margin-top: 20px;
     }
 }
 
