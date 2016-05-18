@@ -974,8 +974,8 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/arrowtable.png") no-repeat;
-    top: -18px;
+    background: url("../images/brochure-pictures/Arrow.png") no-repeat;
+    top: -90px;
     left: 37px;
     width: 64px;
     height: 100%;
@@ -2308,7 +2308,7 @@ div .infoblock__block {
 }
 
 .infoblock .infoblock__ul {
-    list-style-image: url(../images/Dlsg/KIC/blue-bullet.png);
+    list-style-image: url("../images/BlueBullet.png");
 }
 
 .infoblock .infoblock__scanner-other {
@@ -2419,7 +2419,7 @@ div .infoblock__homo {
 }
 
 .infoblock .infoblock__right-images-clients {
-    width: 44%;
+    width: 25%;
     float: right;
 }
 
@@ -2427,6 +2427,7 @@ div .infoblock__homo {
     width: 35%;
     float: right;
     margin-top: -6%;
+    padding-top: 150px;
 }
 
 .infoblock .infoblock_left-text-block {
@@ -2756,7 +2757,7 @@ div .infoblock__homo {
 }
 
 .infoblock__page-3 .infoblock__peppermint2 {
-    list-style-image: url(../images/blue-bullet.png);
+    list-style-image: url(../images/BlueBullet.png);
 }
 
 div .infoblock__page-3__block {
@@ -3083,7 +3084,7 @@ div .infoblock__page-5__block-p {
 .infoblock__page-5__two-step:before {
     content: '';
     position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
+    background: url("../images/brochure-pictures/FaceUp.png") no-repeat;
     width: 9%;
     top: 0;
     right: 0;
