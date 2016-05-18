@@ -11,7 +11,10 @@ h3 {
 .infoblock .page_white_scanner{
     width:39% ;
 }
-
+.infoblock .number3-label{
+    width: 10%;
+    float: left;
+}
 .infoblock__page-3-italic-label {
     font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 2.4rem;
@@ -2017,21 +2020,21 @@ h6.pod-text {
     margin: 0 auto;
 }
 
-/*.column__number1:before {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*-webkit-transform: translateY(-50%);*/
-    /*-moz-transform: translateY(-50%);*/
-    /*-ms-transform: translateY(-50%);*/
-    /*-o-transform: translateY(-50%);*/
-    /*transform: translateY(-50%);*/
-    /*left: -70px;*/
-    /*background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_1.png") no-repeat;*/
-    /*width: 70px;*/
-    /*height: 70px;*/
-    /*background-size: contain;*/
-/*}*/
+.column__number1:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -70px;
+    background: url("../images/brochure-pictures/1.png") no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
 
 .column__number2 {
     width: 60%;
@@ -2039,26 +2042,27 @@ h6.pod-text {
     margin: 0 auto;
 }
 
-/*.column__number2:before {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*-webkit-transform: translateY(-50%);*/
-    /*-moz-transform: translateY(-50%);*/
-    /*-ms-transform: translateY(-50%);*/
-    /*-o-transform: translateY(-50%);*/
-    /*transform: translateY(-50%);*/
-    /*left: -70px;*/
-    /*background: url("../images/JPGs for KIC Click & Click Mini Brochure/KIC Click and Click Mini Brochure3_2.png") no-repeat;*/
-    /*width: 70px;*/
-    /*height: 70px;*/
-    /*background-size: contain;*/
-/*}*/
+.column__number2:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -70px;
+    background: url("../images/brochure-pictures/2.png") no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
 
 .column__number3 {
     width: 30%;
     bottom: 0;
     left: 60px;
+    padding-top: 2%;
 }
 
 .infoblock .map-marker {
