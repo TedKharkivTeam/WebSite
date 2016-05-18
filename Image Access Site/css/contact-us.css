@@ -138,7 +138,7 @@ input, textarea {
 }
 
 .field label {
-    font-size: 16px;
+    font-size: 1.4rem;
     padding-top: 10px;
     font-weight: normal;
     margin-right: -7px;
@@ -197,16 +197,14 @@ input, textarea {
 }
 
 .address p {
-    padding: 0 !important;
+    padding: 10px 0 0 0 !important;
     font-size: 34px;
     color: #fff !important;
     text-shadow: none !important;
 }
 
 .parkin {
-    position: relative;
-    padding: 0 !important;
-    max-width: none!important;
+    width: 100%;
 }
 
 .adr-top {
@@ -221,12 +219,14 @@ input, textarea {
     width: 100%;
     text-align: center;
 }
+
 .adr-top span {
-    font-family: "Arial Narrow",SansSerif;
+    font-family: "Arial Narrow", SansSerif;
     font-size: 3.8rem;
     line-height: 4rem;
     color: #fff;
 }
+
 .adr-bottom {
     position: absolute;
     bottom: 3%;
@@ -245,11 +245,13 @@ input, textarea {
     left: 0;
     font-size: 14px;
 }
+
 .contactus-holder {
     width: 80%;
     overflow: hidden;
     margin: 10px auto 0;
 }
+
 .contactus-holder__triple {
     width: 33%;
     float: left;
@@ -264,6 +266,7 @@ input, textarea {
     width: 100%;
     height: 100%;
 }
+
 .contactus-holder__triple__image.--left {
     float: left;
     margin-top: 20px;
@@ -291,7 +294,7 @@ input, textarea {
 
 .contactus-holder__triple__strong:before {
     content: '';
-    background: url("../images/email.jpg") no-repeat;
+    background: url("../images/contact-us/email.jpg") no-repeat;
     background-size: 18%;
     width: 100%;
     height: 100%;
@@ -308,11 +311,13 @@ input, textarea {
     width: 20%;
     margin-left: -19px;
 }
+
 .contactus-holder__triple__div--contact {
     margin-top: 10px;
     float: right;
     width: calc(80% - 10px);
 }
+
 .contactus-holder__triple__p {
     width: 100%;
     display: inline-block;
@@ -466,7 +471,7 @@ input, textarea {
 
 @media all and (max-width: 1550px) and (min-width: 1024px) {
     .mainform {
-        padding: 3vw 90px 0 90px;
+        padding: 3vw 0 0 0;
     }
 }
 
@@ -478,4 +483,32 @@ input, textarea {
 
 input {
     min-height: 30px;
+}
+
+.brochure-block.to-down.address {
+    padding-top: 10px;
+    position: relative;
+}
+
+.contactus-holder__triple__div--contact span,
+.contactus-holder__triple__div--contact a {
+    color: #4eb1ff;
+    font-size: 2.4rem;
+}
+
+.contactus-holder__triple__div--contact a {
+    text-decoration: underline;
+    font-size: 2.2rem;
+}
+
+.contactus-holder__triple__p span {
+    color: #4eb1ff;
+}
+
+.contactus-holder__triple__p i span {
+    color: red;
+}
+
+.input-move {
+    margin-right: 50px;
 }
