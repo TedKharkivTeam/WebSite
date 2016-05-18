@@ -163,15 +163,6 @@
     position: relative;
 }
 
-.content__green-arrow li:before {
-    position: absolute;
-    content: '';
-    background: url("../images/green-arrow.png") no-repeat;
-    top: 0;
-    left: -30px;
-    width: 30px;
-    height: 30px;
-}
 
 .seven-step {
     text-align: center;
@@ -212,10 +203,10 @@
 }
 
 .seven-step--border {
-    padding: 20px;
+    padding: 20px 20px 0;
     border: 2px solid #000;
     border-radius: 10px;
-    padding-bottom: 0;
+
 }
 
 .two-step {
@@ -246,11 +237,10 @@
 }
 
 .two-step--inline {
-    padding: 0 10px;
+    padding: 0 10px 10px;
     display: inline-block;
     vertical-align: middle;
     text-align: left;
-    padding-bottom: 10px;
 }
 
 .two-step--w1 {
@@ -519,10 +509,6 @@ h4 {
     text-align: left;
 }
 
-.infoblock .rhomb {
-    list-style-image: url("../images/rhomb.png");
-}
-
 .kic-product {
     text-align: right;
 }
@@ -568,9 +554,8 @@ h4 {
     width: calc(100% / 8);
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 0 0 5px;
     text-align: center;
-    padding-bottom: 5px;
 }
 
 .table p {
@@ -802,10 +787,9 @@ th .table--img {
 .selection {
     font-size: 13px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border: 1px solid;
     padding: 5px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
