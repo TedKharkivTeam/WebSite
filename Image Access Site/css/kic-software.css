@@ -1,3 +1,6 @@
+.clearfix {
+    clear: both;
+}
 
 .infoblock__page1-Header {
     overflow: hidden;
@@ -95,6 +98,7 @@
 .infoblock .kic_software_smart_doc_photo2 {
     width: 35%;
     margin-left: 20%;
+    padding-left: 15px;
 }
 
 .infoblock .brochure-overflow {
@@ -155,6 +159,7 @@
 .infoblock__double__content__double {
     width: 50%;
     float: left;
+    text-align: center;
 }
 
 .infoblock .in-case-enhance {
@@ -168,7 +173,7 @@
     float: left;
     width: 60%;
     height: 60%;
-    margin: 0 0 15px 2%;
+    margin: 0 15px 15px 2%;
     display: block;
 }
 
@@ -1010,6 +1015,10 @@ th .table--img {
 
 .align-right {
     text-align: right;
+}
+
+.align-left {
+    text-align: left;
 }
 
 .first-column {
@@ -2035,6 +2044,8 @@ th .table--img {
 .infoblock__double__content {
     padding: 5px 10px;
     overflow: hidden;
+    text-align: center;
+    min-height: 275px;
 }
 
 .double-wrap__column {
@@ -2254,6 +2265,7 @@ th .table--img {
     line-height: 2.6rem;
     font-family: 'AvenirLTStdBookOblique';
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .infoblock__block .infoblock__number {
@@ -2266,12 +2278,14 @@ th .table--img {
 }
 
 #infoblock__man_pdf {
- width: 100%;
+    width: 100%;
     padding-left: 5%;
+    padding-top: 30px;
+    position: relative;
 }
 
 .infoblock__text-block-2 {
-    float: left;
+    float: right;
     width: 45%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -2284,13 +2298,13 @@ th .table--img {
 
 div .infoblock__block {
     padding-top: 0;
-    float: left;
     width: 49%;
 }
 
 .infoblock .infoblock__true-2-touch {
     float: left;
-    width: 25%;
+    width: 15%;
+    padding: 0 10px 10px 0;
 }
 
 .infoblock .infoblock__ul {
@@ -2299,12 +2313,8 @@ div .infoblock__block {
 
 .infoblock .infoblock__scanner-other {
     float: right;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
     margin-right: 10%;
-    width: 75%;
-    height: 75%;
+    width: 25%;
 }
 
 .infoblock .infoblock__div_arrow-devices {
@@ -2322,7 +2332,6 @@ div .infoblock__block {
 .infoblock .infoblock__scanner {
     margin-left: 0;
     float: left;
-    width: 55%;
 }
 
 .infoblock .kostil__with_image {
@@ -2393,7 +2402,7 @@ div .infoblock__homo {
 
 .infoblock .infoblock__text-block {
     width: 50%;
-    float: right;
+    float: left;
     margin-bottom: 5%;
 }
 
@@ -2450,10 +2459,13 @@ div .infoblock__homo {
 }
 
 .infoblock .brochure-subtitle-center {
-    color: #000000;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
     font-size: 20px;
     margin-bottom: 5px;
-    padding: 0;
+    padding: 0 0 10px 0;
+    display: block;
 
 }
 
@@ -2701,11 +2713,13 @@ div .infoblock__homo {
     float: left;
     padding-left: 9px;
     padding-right: 9px;
+    width: 50%;
 }
 
 #hand-yellow-coin {
     float: left;
     width: 30%;
+    padding: 5px 10px 0 0;
 }
 
 .infoblock .columnKIC_Bookeye_4__h2 {
@@ -3265,7 +3279,7 @@ div .infoblock__page-7_photo2 {
 }
 
 div .infoblock__page-7__text-right2 {
-    width: 52%;
+    width: 54%;
     margin-top: 8%;
     margin-bottom: 10%;
     text-align: right;
@@ -3290,6 +3304,7 @@ div .infoblock__page-7__text-right {
 div .infoblock__page-7_photo {
     float: right;
     width: 60%;
+    padding-bottom: 20px;
 }
 
 div .infoblock__page-7__block-header {
@@ -3903,6 +3918,7 @@ h2.pod-text {
 
 .infoblock p {
     font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .cicle {
@@ -4655,3 +4671,108 @@ tr th {
     }
 }
 
+.brochure-title-center.--software-color-h {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-size: 1.8rem;
+    color: #0000ff;
+    line-height: 2rem;
+    text-align: center;
+    padding: 0;
+}
+
+.brochure-title-center.--software-h {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    padding: 0 0 5px 0;
+}
+
+h2.brochure-subtitle-left {
+    font-weight: bold;
+}
+
+.column-cash-card {
+    float: right;
+    width: 50%;
+}
+
+h2.brocure-subtitle-center {
+    font-weight: bold;
+    text-align: center;
+}
+
+.--left {
+    float: left;
+}
+
+.--right {
+    float: right;
+}
+
+img.infoblock__number {
+    width: auto;
+    float: left;
+}
+
+.infoblock__block-3 {
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 750px;
+}
+
+.wrap-man-and-diagram {
+    position: relative;
+}
+
+.wrap-__text-block-left {
+    float: left;
+    width: 50%;
+}
+
+.wrap-__text-block-right {
+    float: right;
+    width: 50%;
+}
+
+p.infoblock__homo-text.responsible_fix_block_text {
+    float: right;
+    width: 60%;
+    padding-top: 40px;
+}
+
+p.infoblock__homo-text.responsible_fix_block_text {
+    float: right;
+    width: 60%;
+    padding-top: 40px;
+    font-style: italic;
+    position: relative;
+}
+
+p.infoblock__homo-text.responsible_fix_block_text span {
+    position: absolute;
+    right: 102%;
+    top: 40px;
+}
+
+.first-paragraph {
+    float: right;
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px !important;
+}
+
+.wrap-paragraph {
+    float: left;
+    width: 60%;
+}
+
+.wrap-list {
+    float: right;
+    width: 50%;
+}
+
+.one-screen-with-hand-in-border {
+    float: left;
+    width: 25% !important;
+}
