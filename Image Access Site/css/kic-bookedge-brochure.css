@@ -35,6 +35,12 @@
 
 }
 
+.infoblock .common-header-h3 {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    padding: 10px 1%;
+}
+
 /* PAGE 1 ******************************************************************************************************** */
 
 .infoblock .big-logo-text__image-logo {
@@ -167,7 +173,110 @@
 
 /* PAGE 3 ******************************************************************************************************* */
 
+.infoblock .content-holder__page-3-content-wrapper {
 
+}
+
+.infoblock .common-header-h2--page-3-content-wrapper {
+
+}
+
+.infoblock .common-header-h3--page-3-content-wrapper {
+    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-size: 2.4rem;
+    color: #000000;
+    text-shadow: none;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.infoblock .page-3-content-wrapper__text-section {
+    float: left;
+    width: 55%;
+}
+
+.page-3-content-wrapper__list-wrapper {
+    float: left;
+    width: 45%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.infoblock .blue-bullet--with-padding li {
+    padding: 5px 0;
+}
+
+.infoblock .page-3-content-wrapper__relative-block {
+    position: relative;
+}
+
+.infoblock .relative-block__block {
+    float: left;
+    width: 49%;
+}
+
+.infoblock .relative-block__block--second {
+    padding-left: 6%;
+    float: right;
+}
+
+.infoblock .block__float-number {
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 0;
+    margin-left: 10%;
+}
+
+.infoblock .block__sub-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    padding-top: 5px;
+}
+
+.infoblock .sub-block__text-p {
+    padding-top: 10px;
+    text-align: left;
+    width: 65%;
+}
+
+.infoblock .block__image {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.infoblock .block__image--right-image {
+    width: 60%;
+    display: block;
+}
+
+.infoblock .block__sub-block--third {
+    position: relative;
+    margin-top: -323px;
+    padding-bottom: 249px;
+}
+
+.infoblock .block__float-number--second {
+    padding-top: 25px;
+}
+
+.infoblock .block__float-number--third {
+    width: 7%;
+    margin-left: 3%;
+}
+
+.infoblock .block__image--bottom-image {
+    width: 70%;
+}
+
+.infoblock .common-text-p--relative {
+    width: 35%;
+    text-align: left;
+    padding-top: 0;
+}
 
 /* PAGE 4 ******************************************************************************************************* */
 
@@ -258,20 +367,7 @@
 
 /* Searchable Collectinos page */
 
-.infoblock__page-3__relative-block {
-position: relative;
-}
-
-.infoblock .infoblock__page-3__img {
-    width: 100%;
-}
-
-.infoblock__page-3__block-3 div .block_text2 {
-    width: 50%;
-    padding-top: 1%;
-}
-
-.infoblock__page-3__block-title2 {
+.__block-title2 {
     font-size: 3.9rem;
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
     color: #000000;
@@ -279,90 +375,36 @@ position: relative;
     text-align: center;
 }
 
-.infoblock .blue-bullet--padding li {
-    padding: 5px 0;
-}
-
-.infoblock__page-3__block-title {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
-    font-size: 2.4rem;
-    color: #000000;
-    text-shadow: none;
-    font-weight: normal;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 25px;
-}
-
-.infoblock__page-3__text-block {
-    float: left;
-    width: 55%;
-}
-
-.infoblock__page-3__text-block-2 {
-    float: left;
-    width: 45%;
-    padding-left: 10%;
-    padding-bottom: 5%;
-}
-
-.block_text2 {
-    padding-top: 3%;
-    padding-left: 1%
-}
-
-.infoblock__page-3__block-3 {
+.__block-3 {
     position: absolute;
     bottom: 15%;
 }
 
-.infoblock__page-3__block .infoblock__page-3__number {
-    width: 12%;
-    float: left;
-}
-
-.infoblock__page-3__block-3 .infoblock__page-3__number {
+.__block-3 .__number {
     width: 15%;
     float: left;
 }
 
-.infoblock__page-3__block-1 {
-    float: left;
-    width: 70%;
-}
-
-div .infoblock__page-3__block_text23 {
+div .__block_text23 {
     margin-right: -22%;
 }
 
-.infoblock .infoblock__page-3__img {
+.infoblock .__img {
     width: 100%;
 }
 
-.infoblock__page-3__block-1 {
+.__block-1 {
     float: left;
     width: 70%;
 }
 
-.infoblock .infoblock__page-3__img {
+.infoblock .__img {
     width: auto;
 }
 
-.infoblock__page-3__block-3 {
+.__block-3 {
     position: absolute;
     bottom: 14%;
-}
-
-div .infoblock__page-3__block {
-    padding-top: 0%;
-    float: left;
-    width: 49%;
-}
-
-.infoblock__page-3__block-3 div .block_text2 {
-    width: 50%;
-    padding-top: 1%;
-    line-height: 1.8rem;
 }
 
 /*End of Searchable Collectinos page*/
@@ -1108,13 +1150,6 @@ h2.pod-text {
     font-size: 2.6rem;
     line-height: 2.8rem;
     text-align: center;
-}
-
-.infoblock h3 {
-    font-size: 2.6rem;
-    line-height: 2.6rem;
-    padding: 10px 1%;
-    padding-left: 0;
 }
 
 /*Technical Details */
