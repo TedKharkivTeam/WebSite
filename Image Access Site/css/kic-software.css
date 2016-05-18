@@ -4770,9 +4770,54 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 .wrap-list {
     float: right;
     width: 50%;
+    padding-bottom: 40px;
 }
 
 .one-screen-with-hand-in-border {
     float: left;
     width: 25% !important;
+    padding-top: 120px;
+}
+
+.wrap-one-screen-with-hand-in-border {
+    position: relative;
+}
+
+.wrap-one-screen-with-hand-in-border span {
+    position: absolute;
+    top: 120px;
+    width: 20%;
+    font-style: italic;
+}
+
+.--border {
+    padding: 10px;
+    border: 1px solid #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.wrap-two-large-screens {
+    float: left;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.dual-screen-img {
+    width: 25% !important;
+    padding-left: 15px;
+}
+
+.wrap-two-large-screens p {
+    padding-bottom: 15px;
+}
+
+.wrap-dual-screen-img {
+    position: relative;
+}
+
+.wrap-dual-screen-img span {
+    position: absolute;
+    top: 100%;
+    right: 190px;
 }
