@@ -492,6 +492,11 @@ th .table--img {
     line-height: 1.6rem;
 }
 
+.table__footer td {
+    padding: 5px;
+    vertical-align: middle;
+}
+
 .history:after {
     content: '';
     position: absolute;
