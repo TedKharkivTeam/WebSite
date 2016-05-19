@@ -308,6 +308,108 @@
 
 /* PAGE 4 ******************************************************************************************************* */
 
+.infoblock .column__section {
+
+}
+
+.infoblock .column__section {
+    text-align: left;
+}
+
+.infoblock .section__section-header {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 2rem;
+}
+
+.infoblock .section__section-header--align-left {
+    text-align: left;
+}
+
+.infoblock .column__section--background {
+    position: relative;
+    height: 615px;
+    background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.infoblock .section__float-image {
+    float: right;
+    overflow: hidden;
+    margin: 10px 3%;
+}
+
+.infoblock .section__float-image--NMBSD {
+    display: inline-block;
+    width: 33%;
+    margin-left: 5%;
+}
+
+.infoblock .section__float-image--CWCCCS {
+    width: 17%;
+    margin: -5% 0 0 20px;
+}
+
+.infoblock .common-row__column--small {
+    width: 30%;
+    display: inline-block;
+}
+
+.infoblock .column--small__text-p {
+    padding: 0;
+}
+
+.infoblock .column__cursive-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style: italic;
+}
+
+.infoblock .column__cursive-text--center {
+    text-align: center;
+}
+
+.infoblock .column__cursive-text--SAS {
+    width: 75%;
+    margin-left: 12%;
+}
+
+.infoblock .section__image {
+
+}
+
+.infoblock .section__image--big-scanner {
+    width: 90%;
+}
+
+
+.infoblock .section__right-image-text {
+    color: #87958E;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-left: 61%;
+    margin-top: -435px;
+    padding-bottom: 450px;
+}
+
+.infoblock .section__left-image-text {
+    color: #87958E;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: -310px;
+    padding-bottom: 245px;
+    margin-left: -4%;
+}
+
+.infoblock .section__below-image-text {
+
+}
+
 /* PAGE 5 ******************************************************************************************************* */
 
 /* PAGE 6 ******************************************************************************************************* */
@@ -379,13 +481,6 @@
     width: 100%;
 }
 
-.infoblock .row-style {
-    float: left;
-    position: relative;
-    width: 50%;
-    padding: 0 10px;
-}
-
 /*End of common styles*/
 
 /*Main BookEdge page */
@@ -455,80 +550,6 @@ div .__block_text23 {
 }
 
 /* No More Spine Damage page */
-
-.infoblock .section-header {
-    font-size: 25px;
-    text-align: center;
-    color: black;
-    padding-top: 2%;
-    padding-bottom: 20px;
-}
-
-.infoblock .section-header--left {
-    text-align: left;
-}
-
-.infoblock .float-image-right {
-    float: right;
-    overflow: hidden;
-}
-
-.infoblock .section-1-image {
-    display: inline-block;
-    width: 33%;
-    margin-left: 5%;
-}
-
-.infoblock .cursive-text-smaller-center {
-    font-style: italic;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.infoblock .section-header {
-    font-size: 2.5rem;
-    text-align: center;
-    color: black;
-    padding-top: 20px;
-    padding-bottom: 2rem;
-    line-height: 2.7rem;
-}
-
-.infoblock .section-header--left {
-    text-align: left;
-}
-
-.infoblock .float-image-right {
-    float: right;
-    overflow: hidden;
-    margin: 10px 3%;
-}
-
-.infoblock .section-2-image {
-    width: 17%;
-    margin: -5% 0 0 20px;
-}
-
-.infoblock #background-image {
-    position: relative;
-    height: 615px;
-    background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
-    background-size: 100% 100%;
-}
-
-.infoblock .row-style-small {
-    width: 30%;
-    display: inline-block;
-}
-
-.infoblock .row-style-small p {
-    padding: 0;
-}
-
-.infoblock .special {
-    width: 75%;
-    margin-left: 12%;
-}
 
 /* True 2 Touch page */
 
@@ -1278,25 +1299,6 @@ h2.pod-text {
 .infoblock .infoblock__page-13__th {
     width: 38%;
     padding: 15px 0;
-}
-
-.infoblock #right-image-text {
-    color: #87958E;
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    margin-left: 65%;
-    margin-top: -450px;
-    padding-bottom: 450px;
-}
-
-.infoblock #left-image-text {
-    color: #87958E;
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    margin-top: -310px;
-    padding-bottom: 245px;
 }
 
 /* KIC Family */
