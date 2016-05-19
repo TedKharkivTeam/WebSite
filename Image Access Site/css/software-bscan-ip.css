@@ -114,3 +114,14 @@
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1399px){
+    .infoblock .infoblock__content-holder__content__image{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1199px){
+    .infoblock .infoblock__content-holder__content__image{
+        margin-top: 70px;
+    }
+}
