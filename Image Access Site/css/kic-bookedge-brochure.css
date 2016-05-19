@@ -308,23 +308,122 @@
 
 /* PAGE 4 ******************************************************************************************************* */
 
+.infoblock .column__section {
+
+}
+
+.infoblock .column__section {
+    text-align: left;
+}
+
+.infoblock .section__section-header {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 2rem;
+}
+
+.infoblock .section__section-header--align-left {
+    text-align: left;
+}
+
+.infoblock .column__section--background {
+    position: relative;
+    height: 615px;
+    background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.infoblock .section__float-image {
+    float: right;
+    overflow: hidden;
+    margin: 10px 3%;
+}
+
+.infoblock .section__float-image--NMBSD {
+    display: inline-block;
+    width: 33%;
+    margin-left: 5%;
+}
+
+.infoblock .section__float-image--CWCCCS {
+    width: 17%;
+    margin: -5% 0 0 20px;
+}
+
+.infoblock .common-row__column--small {
+    width: 30%;
+    display: inline-block;
+}
+
+.infoblock .column--small__text-p {
+    padding: 0;
+}
+
+.infoblock .column__cursive-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style: italic;
+}
+
+.infoblock .column__cursive-text--center {
+    text-align: center;
+}
+
+.infoblock .column__cursive-text--SAS {
+    width: 75%;
+    margin-left: 12%;
+}
+
+.infoblock .section__image {
+
+}
+
+.infoblock .section__image--big-scanner {
+    width: 90%;
+}
+
+.infoblock .section__right-image-text {
+    color: #87958E;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-left: 61%;
+    margin-top: -435px;
+    padding-bottom: 450px;
+}
+
+.infoblock .section__left-image-text {
+    color: #87958E;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: -310px;
+    padding-bottom: 245px;
+    margin-left: -4%;
+}
+
+.infoblock .section__below-image-text {
+
+}
+
 /* PAGE 5 ******************************************************************************************************* */
 
-/* PAGE 6 ******************************************************************************************************* */
+.infoblock .column--image__t2t-logo {
+    width: 100%;
+}
 
-/* PAGE 7 ******************************************************************************************************* */
+.infoblock .row__column--text {
+    width: 70%;
+}
 
-/* PAGE 8 ******************************************************************************************************* */
+.infoblock .row__column--image-wrapper {
+    width: 20%;
+}
 
-/* PAGE 9 ******************************************************************************************************* */
-
-/* PAGE 10 ****************************************************************************************************** */
-
-/* PAGE 11 ****************************************************************************************************** */
-
-/* PAGE 12 ****************************************************************************************************** */
-
-.infoblock .brochure-title-left--custom {
+.infoblock .common-header-h2--true-2-touch {
     color: #000;
     font-size: 3.6rem;
     line-height: 3.8rem;
@@ -332,7 +431,57 @@
     padding: 14px 0 10px;
 }
 
-.infoblock .brochure-subtitle-center {
+.infoblock .true-2-touch-wrapper__save-to-usb-image {
+    width: 42%;
+    margin-top: 5%;
+    float: left;
+}
+
+.infoblock .true-2-touch-wrapper__text-p {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 12% 20px 48%;
+}
+
+.infoblock .blue-bullet--with-margin {
+    margin-left: 45%;
+}
+
+.infoblock .common-header-h2--two-large-monitors {
+    padding-left: 6%;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.infoblock .true-2-touch-wrapper__two-large-screens-image {
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+
+.infoblock .true-2-touch-wrapper__text-section {
+    width: 64%;
+}
+
+.infoblock .true-2-touch-wrapper__display-screens-text {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 3rem;
+    width: 63%;
+}
+
+.infoblock .true-2-touch-wrapper__dual-screen-text {
+    margin-left: 73%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+/* PAGE 6 ******************************************************************************************************* */
+
+.infoblock .common-header-h2--smart-dock-sub-header {
     color: #000;
     font-size: 2.6rem;
     line-height: 2.6rem;
@@ -342,309 +491,60 @@
     margin: 0 0 0 13%;
 }
 
-.infoblock .brochure-subtitle-left {
-    color: #000;
-    font-size: 2.6rem;
-    line-height: 2.8rem;
-    text-align: left;
-    padding: 14px 0 10px;
-    margin: 0;
+.infoblock .content-holder__text-section--smart-dock {
+    margin-top: -17%;
+    padding-left: 55%;
+    width: 92%;
 }
 
-.infoblock .kic-ts-bullet-margin {
-    margin-left: 3%;
-}
-
-.infoblock__block-title2 {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
-    color: #000000;
-    text-shadow: none;
-    text-align: center;
-}
-
-.infoblock__block-title {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
+.infoblock .content-holder__text-p {
+    margin-top: 50px;
+    color: #87958E;
     font-style: italic;
-    font-size: 24px;
-    color: #000000;
-    text-shadow: none;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.infoblock .infoblock__img {
-    width: 100%;
-}
-
-.infoblock .row-style {
-    float: left;
-    position: relative;
-    width: 50%;
-    padding: 0 10px;
-}
-
-/*End of common styles*/
-
-/*Main BookEdge page */
-
-/*End of main BookEdge page*/
-
-/* Scan Copy Fax page */
-
-#copy-diagram {
-    float: left;
-    width: 30%;
-    margin: 25px 2%;
-}
-
-.infoblock .columnKIC_Bookeye_4__h2 {
-    margin-left: 30%;
-    margin-top: 4%;
-}
-
-/* Searchable Collectinos page */
-
-.__block-title2 {
-    font-size: 3.9rem;
-    font-weight: bold;
-    color: #000000;
-    text-shadow: none;
-    text-align: center;
-}
-
-.__block-3 {
-    position: absolute;
-    bottom: 15%;
-}
-
-.__block-3 .__number {
-    width: 15%;
-    float: left;
-}
-
-div .__block_text23 {
-    margin-right: -22%;
-}
-
-.infoblock .__img {
-    width: 100%;
-}
-
-.__block-1 {
-    float: left;
-    width: 70%;
-}
-
-.infoblock .__img {
-    width: auto;
-}
-
-.__block-3 {
-    position: absolute;
-    bottom: 14%;
-}
-
-/*End of Searchable Collectinos page*/
-
-.infoblock .capture-area-comparison-below-map-text {
-    line-height: 2rem;
-    margin-left: 7%;
-}
-
-/* No More Spine Damage page */
-
-.infoblock .section-header {
-    font-size: 25px;
-    text-align: center;
-    color: black;
-    padding-top: 2%;
-    padding-bottom: 20px;
-}
-
-.infoblock .section-header--left {
-    text-align: left;
-}
-
-.infoblock .float-image-right {
-    float: right;
-    overflow: hidden;
-}
-
-.infoblock .section-1-image {
-    display: inline-block;
-    width: 33%;
-    margin-left: 5%;
-}
-
-.infoblock .cursive-text-smaller-center {
-    font-style: italic;
-    text-align: center;
     font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
-.infoblock .section-header {
-    font-size: 2.5rem;
-    text-align: center;
-    color: black;
-    padding-top: 20px;
-    padding-bottom: 2rem;
-    line-height: 2.7rem;
-}
-
-.infoblock .section-header--left {
-    text-align: left;
-}
-
-.infoblock .float-image-right {
-    float: right;
-    overflow: hidden;
-    margin: 10px 3%;
-}
-
-.infoblock .section-2-image {
-    width: 17%;
-    margin: -5% 0 0 20px;
-}
-
-.infoblock #background-image {
-    position: relative;
-    height: 615px;
-    background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
-    background-size: 100% 100%;
-}
-
-.infoblock .row-style-small {
-    width: 30%;
-    display: inline-block;
-}
-
-.infoblock .row-style-small p {
-    padding: 0;
-}
-
-.infoblock .special {
-    width: 75%;
-    margin-left: 12%;
-}
-
-/* True 2 Touch page */
-
-.infoblock div.kic_div {
-    overflow: hidden;
-}
-
-.infoblock .logos {
-    width: 17%;
-}
-
-.infoblock .kic_div .true2_save_to_usb {
-    width: 42%;
-    margin-top: 5%;
-    float: left;
-}
-
-.infoblock .true2_label {
-    font-size: 2rem;
-    line-height: 2rem;
-    text-align: center;
-    margin-top: 0;
-    padding: 15px 12% 20px 48%;
-}
-
-.infoblock .true2_label--second {
-    padding-left: 6%;
-    font-size: 3rem;
-    line-height: 3rem;
-}
-
-.infoblock .kic_div .true2_two_screens {
-    width: 33%;
-    float: right;
-    text-align: center;
-}
-
-.infoblock .true2_block_2 {
-    width: 64%;
-}
-
-.margin-bullet {
-    margin-left: 45%;
-}
-
-/*End of True to Touch */
-
-.infoblock .row__column--text {
-    width: 70%;
-}
-
-.infoblock .row__column--image {
-    width: 20%;
-}
-
-.infoblock .row__column--image img {
-    width: 100%;
-}
-
-/*Smart Dock*/
-
-.infoblock .smart_hard_block {
+.infoblock .content-holder__for-public-libraries-section {
     border: solid 3px;
     border-radius: 2%;
-    margin-top: 2%;
+    margin-top: 5%;
+    background: linear-gradient(to bottom, #97a29c, #e2e3e5);
+    position: relative;
 }
 
-.infoblock .label_smart9 {
+.infoblock .for-public-libraries-section__header {
     font-size: 3.6rem;
     line-height: 3.6rem;
     margin-left: 3%;
     margin-top: 2%;
 }
 
-.infoblock .label_smart10 {
+.infoblock .for-public-libraries-section__sub-header {
     font-size: 2.1rem;
     line-height: 1.2;
     margin-left: 3%;
     font-style: italic;
 }
 
-.infoblock .smart_hard_block {
-    margin-top: 5%;
-    background: linear-gradient(to bottom, #97a29c, #e2e3e5);
-    position: relative;
-}
-
-.arrows--after:after {
-    position: absolute;
-    content: '';
-    background: url("../images/brochure-pictures/arrows.png") no-repeat;
-    top: 575px;
-    left: 100px;
-    background-size: contain;
-    width: 100%;
-    height: 130px;
-}
-
-.infoblock .smart_restaurant_img {
+.infoblock .for-public-libraries-section__panorama-image {
     float: right;
     width: 60%;
     margin: -65px 2% 20px 0;
 }
 
-.infoblock .smart_scan_img_fax {
+.infoblock .for-public-libraries-section__screen-with-hand {
     width: 35%;
     float: left;
 }
 
-.infoblock .smart_scan_img_fax2 {
+.infoblock .for-public-libraries-section__two-screens-image {
     width: 40%;
     margin-left: 20%;
     margin-bottom: 2%;
 }
 
-.infoblock .label_smart11 {
+.infoblock .for-public-libraries-section__touching-copy-text {
     width: 65%;
     margin-top: -380px;
     margin-right: -10%;
@@ -653,7 +553,7 @@ div .__block_text23 {
     line-height: 2rem;
 }
 
-.infoblock .label_smart12 {
+.infoblock .for-public-libraries-section__touching-fax-text {
     width: 17%;
     margin-top: 70px;
     text-align: right;
@@ -662,7 +562,7 @@ div .__block_text23 {
     line-height: 2rem;
 }
 
-.infoblock .label_smart13 {
+.infoblock .for-public-libraries-section__kic-has-a-special {
     font-style: italic;
     margin-left: 7%;
     width: 27%;
@@ -697,35 +597,18 @@ div .__block_text23 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.smart_sign {
-    margin-top: -17%;
-    padding-left: 55%;
-    width: 92%;
-}
+/* PAGE 7 ******************************************************************************************************* */
 
-.smart_small_sign {
-    margin-top: 50px;
-    color: #87958E;
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+.arrows--after:after {
+    position: absolute;
+    content: '';
+    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
+    top: 575px;
+    left: 100px;
+    background-size: contain;
+    width: 100%;
+    height: 130px;
 }
-
-.infoblock .true2_label2 {
-    margin-left: 73%;
-    font-size: 2rem;
-    line-height: 2rem;
-}
-
-.infoblock .true2_block_3 {
-    font-style: italic;
-    text-align: center;
-    font-size: 1.9rem;
-    line-height: 3rem;
-    width: 63%;
-}
-
-/* End of SmartDock */
 
 .infoblock .content-holder__header-h2--reservation {
     width: 100%;
@@ -755,31 +638,6 @@ div .__block_text23 {
     line-height: 2rem;
     font-weight: bold;
     margin: 5px 0 5px 12%;
-}
-
-/* Reservation App */
-.infoblock__page-8__reservation__h1 {
-    font-size: 7rem;
-    text-shadow: none;
-    color: #000;
-    margin: 0;
-}
-
-.infoblock__page-8__reservation__h2 {
-    color: #000;
-    font-size: 2.6rem;
-    margin: 0;
-    padding: 0 0 10px 0;
-}
-
-.infoblock__page-8__reservation__h3 {
-    color: #000;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    font-style: italic;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
 }
 
 .infoblock__page-8__reservation__text {
@@ -825,9 +683,7 @@ div .__block_text23 {
     font-style: italic;
 }
 
-/*End of Reservation App */
-
-/* Fleet Mananger */
+/* PAGE 8 ******************************************************************************************************* */
 
 .infoblock__page-9__top {
     overflow: hidden;
@@ -923,26 +779,7 @@ div .__block_text23 {
     text-align: center;
 }
 
-.infoblock .infoblock__page-9__bottom__img {
-    width: 24%;
-    margin-left: 25px;
-}
-
-.infoblock .infoblock__page-9__bottom__a {
-    width: 20%;
-    position: relative;
-    top: -15px;
-}
-
-.infoblock__page-9__bottom__a a {
-    font-size: 2.6rem;
-    color: #454733;
-    margin-bottom: 10px;
-}
-
-/* End of Fleet Mananger */
-
-/* POD */
+/* PAGE 9 ******************************************************************************************************* */
 
 .infoblock .img-preview {
     width: 50%;
@@ -1002,7 +839,7 @@ h2.pod-text {
     font-size: 16px;
 }
 
-/* In Case You Didn't Know */
+/* PAGE 10 ****************************************************************************************************** */
 
 .infoblock__page-11__double {
     width: 50%;
@@ -1077,14 +914,6 @@ h2.pod-text {
     margin-right: 3%;
 }
 
-.infoblock .infoblock__page-11__left-text {
-    padding: 0 10px;
-}
-
-.infoblock .infoblock__page-11__left-text p {
-    padding: 0;
-}
-
 .infoblock .infoblock__page-11__in-case-enhance--right {
     width: 90%;
     height: 90%;
@@ -1113,14 +942,9 @@ h2.pod-text {
     display: block;
 }
 
-/* Bookedge vs. Copiers */
+/* PAGE 11 ****************************************************************************************************** */
 
 .infoblock__page-12__double-wrap {
-    overflow: hidden;
-}
-
-.infoblock__page-12__double__content {
-    padding: 5px 10px;
     overflow: hidden;
 }
 
@@ -1142,7 +966,7 @@ h2.pod-text {
     padding: 5px 1%;
 }
 
-.infoblock__page-12__double-wrap figure img, .infoblock .diagram {
+.infoblock__page-12__double-wrap figure img, UNUSED.infoblock .diagram {
     width: 80%;
     height: 80%;
     display: block;
@@ -1159,11 +983,6 @@ h2.pod-text {
 .infoblock .infoblock__page-12__double__double-p {
     width: 50%;
     float: left;
-}
-
-.infoblock .infoblock__page-12__double__double-p--custom {
-    margin: 10px 2%;
-    width: 45%;
 }
 
 .infoblock .brochure-subtitle-center--custom-shitty {
@@ -1199,20 +1018,20 @@ h2.pod-text {
 }
 
 .infoblock__page-12__rainbow-text {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff00ff+16,0000ff+33,00ffff+50,00ff00+67,ffff00+83,ff0004+100,ff0000+100 */
-    background: #ff0000; /* Old browsers */
-    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
-    -webkit-background-clip: text; /* подробнее про background-clip */
+    background: #ff0000;
+    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
+    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
+    background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1);
+    -webkit-background-clip: text;
     color: transparent;
     font-size: 2.6rem;
     line-height: 2.8rem;
     text-align: center;
 }
 
-/*Technical Details */
+/* PAGE 12 ****************************************************************************************************** */
+
 .infoblock .tech_details_img {
     width: 50%;
     margin: 15px 10% 15px 25%;
@@ -1225,14 +1044,6 @@ h2.pod-text {
 #bookedge_big_scanner {
     margin-left: 5%;
     margin-top: 20px;
-}
-
-#bookedge_small_scanner {
-    width: 60%;
-}
-
-#scanner_image_sign {
-    margin-left: 40%;
 }
 
 .wide_tech_details_table {
@@ -1259,16 +1070,12 @@ h2.pod-text {
     padding: 5px 0;
 }
 
-.table__footer th, td {
+UNUSED.table__footer th, td {
     padding: 5px 0;
 }
 
 .table__footer td {
     padding-left: 2%;
-}
-
-.padding_table {
-    margin-top: 3%;
 }
 
 .infoblock__page-13__table-bg {
@@ -1280,26 +1087,7 @@ h2.pod-text {
     padding: 15px 0;
 }
 
-.infoblock #right-image-text {
-    color: #87958E;
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    margin-left: 65%;
-    margin-top: -450px;
-    padding-bottom: 450px;
-}
-
-.infoblock #left-image-text {
-    color: #87958E;
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    margin-top: -310px;
-    padding-bottom: 245px;
-}
-
-/* KIC Family */
+/* PAGE 13 ****************************************************************************************************** */
 
 .bscan-ill--h2 {
     font-size: 2.8rem;
@@ -1307,12 +1095,6 @@ h2.pod-text {
     padding: 0;
     line-height: 2.8rem;
     margin: 25px 0 15px 0;
-}
-
-.infoblock .infoblock__row {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
 }
 
 .infoblock__center--text {
@@ -1452,10 +1234,6 @@ th .table--img {
     left: -1px;
 }
 
-.green-cicle--after-small {
-    position: relative;
-}
-
 .green-cicle--after-small:after {
     position: absolute;
     content: '';
@@ -1562,4 +1340,15 @@ th .table--img {
     line-height: 18px;
     padding-bottom: 10px;
     display: inline-block;
+}
+
+/* ************************************************************************************************************** */
+
+.infoblock .kic-ts-bullet-margin {
+    margin-left: 3%;
+}
+
+.infoblock .capture-area-comparison-below-map-text {
+    line-height: 2rem;
+    margin-left: 7%;
 }
