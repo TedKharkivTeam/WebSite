@@ -1374,6 +1374,9 @@ h3.pod-text {
 .infoblock .triangle_pointer {
     width: 10%;
     margin-left: 42%;
+    font-size: 5rem;
+    color: gray;
+    display: block;
 }
 
 .infoblock .triangle_pointer1 {
