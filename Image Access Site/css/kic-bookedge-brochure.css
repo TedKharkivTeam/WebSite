@@ -431,6 +431,10 @@
     padding: 14px 0 10px;
 }
 
+.infoblock .content-holder__true-2-touch-wrapper {
+
+}
+
 .infoblock .true-2-touch-wrapper__save-to-usb-image {
     width: 42%;
     margin-top: 5%;
@@ -599,31 +603,20 @@
 
 /* PAGE 7 ******************************************************************************************************* */
 
-.arrows--after:after {
-    position: absolute;
-    content: '';
-    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    top: 575px;
-    left: 100px;
-    background-size: contain;
-    width: 100%;
-    height: 130px;
-}
-
-.infoblock .content-holder__header-h2--reservation {
+.infoblock .common-header-h2--reservation-app {
     width: 100%;
 }
 
-.infoblock .brochure-subtitle-center--reserv-1 {
+.infoblock .reservation-app-wrapper__bold-sub-header {
     color: #000000;
     font-size: 2.4rem;
     line-height: 2.4rem;
     font-weight: bold;
-    margin: 10px 0 5px 11%;
+    margin: 10px 0 5px 14%;
     padding: 0;
 }
 
-.infoblock .brochure-subtitle-center--reserv-2 {
+.infoblock .reservation-app-wrapper__cursive-sub-header {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.4rem;
@@ -632,7 +625,7 @@
     padding: 0;
 }
 
-.infoblock .brochure-subtitle-center--reserv-3 {
+.infoblock .reservation-app-wrapper__three-images-header {
     color: #000000;
     font-size: 2rem;
     line-height: 2rem;
@@ -640,7 +633,31 @@
     margin: 5px 0 5px 12%;
 }
 
-.infoblock__page-8__reservation__text {
+.infoblock .reservation-app-wrapper__three-images-wrapper {
+    margin: 0 auto;
+}
+
+
+.arrows--after:after {
+    position: absolute;
+    content: '';
+    background: url("../images/brochure-pictures/arrows.png") no-repeat;
+    top: 552px;
+    left: 100px;
+    background-size: contain;
+    width: 100%;
+    height: 130px;
+}
+
+.infoblock .three-images-wrapper__image {
+    text-align: center;
+    width: 31%;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0 5px;
+}
+
+.infoblock .reservation-app-wrapper__text-p {
     text-align: left;
     width: 49%;
     padding: 10px;
@@ -649,31 +666,12 @@
     font-size: 1.6rem;
 }
 
-.infoblock__page-8__reservation__text-img {
-    margin: 0 auto;
-}
-
-.infoblock__page-8__reservation__h2 {
-    color: #000;
-    font-size: 2.6rem;
-    margin: 0;
-    padding: 0 0 10px 0;
-}
-
-.infoblock__page-8__reservation__two-tel {
+.infoblock .reservation-app-wrapper__two-tels-section {
     padding-top: 107px;
     position: relative;
 }
 
-.infoblock .infoblock__page-8__text-img__touch {
-    text-align: center;
-    width: 31%;
-    display: inline-block;
-    font-size: 1.6rem;
-    padding: 0 5px;
-}
-
-.infoblock .infoblock__page-8__two-tel__text-top {
+.infoblock .two-tels-section__text-p {
     position: absolute;
     top: 60px;
     right: 0;
@@ -966,7 +964,7 @@ h2.pod-text {
     padding: 5px 1%;
 }
 
-.infoblock__page-12__double-wrap figure img, UNUSED.infoblock .diagram {
+.infoblock__page-12__double-wrap figure img, .infoblock .diagram {
     width: 80%;
     height: 80%;
     display: block;
@@ -1067,10 +1065,6 @@ h2.pod-text {
 }
 
 .wide_tech_details_table th {
-    padding: 5px 0;
-}
-
-UNUSED.table__footer th, td {
     padding: 5px 0;
 }
 
