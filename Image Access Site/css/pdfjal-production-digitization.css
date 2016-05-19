@@ -1,11 +1,11 @@
 .infoblock {
-    font-size: 16px;
+    font-size: 1.6rem;
     position: relative;
 }
 
 .infoblock span, p {
     font-weight: normal;
-    line-height: 24px;
+    line-height: 1.2;
 }
 
 .infoblock strong {
@@ -1100,8 +1100,11 @@ h4 {
     }
 
     .table .table__big-img {
-        width: 60%;
-        height: 30%;
+        margin-top: 5px;
+        width: 100%;
+        max-width: 60px;
+        height: 100%;
+        max-height: 72px;
     }
 
     .media1366-center {
