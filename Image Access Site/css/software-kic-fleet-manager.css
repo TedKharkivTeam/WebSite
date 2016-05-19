@@ -1,51 +1,78 @@
 .infoblock__top {
     overflow: hidden;
+
+    padding-bottom: 5%;
 }
 
-.infoblock .top__logo {
+.infoblock .infoblock__top__logo {
     max-width: 340px;
     float: left;
+    height: auto;
 }
 
-.top__h1 {
+.infoblock ul.blue-bullet li:first-child:before {
+    background: transparent !important;
+}
+
+.infoblock .infoblock__top__h1 {
     text-align: center;
     color: #000;
     text-shadow: none;
-    font-size: 64px;
-    line-height: 74px;
+    font-size: 6.4rem;
+    line-height: 6.6rem;
     margin: 0;
 }
 
-.top__h2 {
+.infoblock .infoblock__top__h2 {
     text-align: center;
     color: #8ca1c9;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     padding: 0;
+    line-height: 2.7rem;
+    margin-top: auto;
+    letter-spacing: 0;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-weight: normal;
 }
 
 .infoblock__center {
     overflow: hidden;
-    margin-top: -150px;
+    margin-top: -80px;
 }
 
-.infoblock .center__img {
+.infoblock .infoblock__center__img {
     float: right;
-    width: 58%;
-    height: 58%;
+    width: 65%;
     padding-left: 20px;
-    margin: 70px 0 0 0;
 }
 
-.center__text--padding {
-    padding-top: 160px;
+.infoblock ul.blue-bullet li {
+    position: relative;
+    list-style: none;
+}
+
+.infoblock ul.blue-bullet li:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -23px;
+    background: url("../images/BlueBullet.png") no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.infoblock .infoblock__center__text--padding {
+    padding-top: 90px;
+    line-height: 2.4rem;
     position: relative;
 }
 
-.center__text--margin {
-    padding-top: 53px;
+.infoblock .infoblock__center__text--margin {
+    padding-top: 40px;
     position: absolute;
+    line-height: 2.4rem;
     width: 37%;
 }
 
@@ -54,30 +81,28 @@
     overflow: hidden;
 }
 
-.infoblock .nav__li {
+.infoblock .infoblock__nav__li {
     float: left;
     width: 38%;
+    line-height: 24px;
+    padding: 0 0 0 24px;
+    list-style: disc;
 }
 
-.infoblock .nav__img {
+.infoblock .infoblock__nav__img {
     float: left;
     width: 60%;
-    margin-right: 20px;
 }
 
-.infoblock .li--width {
+.infoblock .infoblock__li--width {
     width: 80%;
 }
 
-.nav__li li:first-child {
+.infoblock__nav__li li:first-child {
     list-style: none;
 }
 
-.infoblock ul.blue-bullet li:first-child:before {
-    background: transparent !important;
-}
-
-.nav__li--margin {
+.infoblock__nav__li--margin {
     margin-left: 20px;
 }
 
@@ -91,51 +116,176 @@
     display: inline-block;
     list-style: none;
     text-align: center;
-    width: 33%;
+    width: 32%;
 }
 
 .infoblock__bottom li p {
     text-align: center;
 }
 
-.infoblock .bottom__img {
-    width: 24%;
-    margin-left: 25px;
+.infoblock .infoblock__nav__img {
+    float: left;
+    width: 60%;
+    margin-right: 10px;
 }
 
-.infoblock .bottom__a {
-    width: 20%;
-    position: relative;
-    top: -15px;
+.infoblock__center__text--margin {
+    padding-top: 5%;
+    width: 42%;
+
 }
 
-.bottom__a a {
-    font-size: 26px;
-    color: #454733;
-    margin-bottom: 10px;
+.infoblock__top__h1 {
+    font-size: 4.4rem;
+    margin: 0;
+    margin-top: 10%;
 }
 
-.a--rel {
-    position: absolute;
-    bottom: 76px;
-    font-size: 30px;
-    color: #8c897d;
-    width: 230%;
-    right: 0;
+@media all and (max-width: 1812px) {
+    .infoblock .infoblock__center__text--padding {
+        padding-top: 30px;
+    }
 }
 
-.infoblock ul.blue-bullet li {
-    position: relative;
-    list-style: none;
+@media all and (max-width: 1720px) {
+    .infoblock .infoblock__center__text--margin {
+        padding-top: 10px;
+    }
+
+    .infoblock p, li, td, th {
+        font-size: 1.4rem;
+    }
+
 }
 
-.infoblock ul.blue-bullet li:before {
-    content: '';
-    position: absolute;
-    top: 2px;
-    left: -23px;
-    background: url("../images/BlueBullet.png") no-repeat;
-    background-size: 16px;
-    width: 16px;
-    height: 16px;
+@media all and (max-width: 1543px) {
+    .infoblock__nav {
+        margin-top: 120px;
+    }
+
+}
+
+@media all and (max-width: 1536px) {
+    .infoblock .infoblock__top__h2 {
+        font-size: 2rem;
+    }
+    .infoblock .infoblock__top__h1 {
+        font-size: 5.4rem;
+        line-height: 5.6rem;
+    }
+}
+
+@media all and(max-width: 1880px) {
+    .infoblock .infoblock__page-9__top__h2 {
+        margin-top: auto;
+    }
+}
+
+
+@media all and (max-width: 1510px) {
+    .infoblock__center__text--padding {
+        padding-top: 5%;
+
+    }
+
+    .infoblock__center__text--margin {
+        padding-top: 0;
+    }
+}
+
+@media all and (max-width: 1740px) and (min-width: 1511px) {
+    .infoblock__center__text--margin {
+        padding-top: 3%;
+    }
+}
+
+@media all and (max-width: 1300px) and (min-width: 1200px) {
+    .infoblock .infoblock__page-6__text-block {
+        margin-bottom: 10%;
+        margin-top: 15%;
+    }
+    .infoblock .infoblock__top__logo {
+        max-width: 303px;
+        float: left;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .infoblock__center__text--margin {
+
+        width: 44%;
+    }
+
+    .infoblock .infoblock__center__img {
+
+        width: 50%;
+
+    }
+}
+
+@media all and (max-width: 1398px) {
+    .infoblock .infoblock__top__h1 {
+        font-size: 4.5rem;
+        line-height: 4.7rem;
+        padding-top: 15px;
+    }
+
+}
+
+@media all and (max-width: 1337px) and (min-width: 1200px) {
+    .infoblock .infoblock__nav__img {
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 1400px) and (min-width: 1200px) {
+    .infoblock .infoblock__nav__img {
+        float: left;
+        width: 60%;
+        margin-right: 10px;
+    }
+    .infoblock .infoblock__center__img {
+        float: right;
+        width: 55%;
+        padding-left: 20px;
+        padding-top: 9%;
+    }
+}
+
+@media all and (max-width: 1272px) and (min-width: 1200px) {
+    .infoblock__center__text--margin {
+        padding-top: 1%;
+        width: 42%;
+
+    }
+
+}
+
+@media all and (max-width: 1100px) and (min-width: 992px) {
+    .infoblock__top__h1 {
+        font-size: 4.4rem;
+    }
+
+    .infoblock__center__text--margin {
+        padding-top: 4%;
+
+    }
+
+    .infoblock .infoblock__center__img {
+        width: 65%;
+        margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 1050px) {
+
+    .infoblock .infoblock__nav__img {
+
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 1337px) and (min-width: 1300px) {
+    .infoblock__center__text--margin {
+        padding-top: 2%;
+    }
 }
