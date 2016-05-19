@@ -559,17 +559,6 @@ th .table--img {
     position: relative;
 }
 
-.img__touch--after:after {
-    position: absolute;
-    content: '';
-    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    bottom: -120px;
-    left: 35px;
-    background-size: contain;
-    width: 100%;
-    height: 130px;
-}
-
 .reservation__two-tel {
     padding-top: 107px;
     position: relative;
@@ -1416,17 +1405,6 @@ div .infoblock__page-7__block-left {
 .infoblock .infoblock__page-7__margin-top {
     margin-top: 5%;
     background: linear-gradient(to bottom, #97a29c, #e2e3e5);
-}
-
-.infoblock__page-8__img__touch--after:after {
-    position: absolute;
-    content: '';
-    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    bottom: -120px;
-    left: 35px;
-    background-size: contain;
-    width: 100%;
-    height: 130px;
 }
 
 .infoblock__page-9__top {
