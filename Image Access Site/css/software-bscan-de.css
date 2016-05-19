@@ -11,7 +11,7 @@
 .infoblock .infoblock__bscan-de-top-text {
     margin: 10px auto;
     display: block;
-    width: 90%;
+    width: 70%;
 }
 
 .infoblock .infoblock__content-holder {
@@ -55,4 +55,10 @@
 
 .infoblock .content-column__image {
     padding: 0 5%;
+}
+
+@media (max-width: 1399px){
+    .infoblock .content-row__content-column--image{
+        margin-top: 84px;
+    }
 }
