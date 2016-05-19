@@ -54,6 +54,12 @@ div.content div.indent {
 .paragraph-title-left {
     font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
     text-align: left;
+    font-size: 1.8rem;
+    line-height: 20px;
     color: #3C2E95;
+}
+.width-seventy-percent{
+    width: 70%;
+    margin-left: 15%;
 }
 

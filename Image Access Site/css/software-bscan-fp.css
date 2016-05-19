@@ -15,10 +15,6 @@ div.content div.introduction {
     margin-left: 15%;
 }
 
-div.content h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
 
 div.content h2.blue-shadow-title {
     padding: 0;
@@ -161,6 +157,8 @@ ol#using-barcode-separator-sheets-list li:before {
 .paragraph-title-left {
     font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
     text-align: left;
+    font-size: 1.8rem;
+    line-height: 20px;
     color: #3C2E95;
 }
 

@@ -37,14 +37,14 @@
 }
 
 .infoblock .content-column__header-big {
-    font-family: AvenirLTStdBlackOblique; /* font-weight: bold; */
+    font-family: AvenirLTStdBlackOblique;
     font-size: 3.6rem;
     padding: 15px 2%;
 }
 
 .infoblock .content-column__header-normal {
     color: #3C2E95;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-family: AvenirLTStdBookOblique;
     font-size: 3.2rem;
     padding: 10px 2%;
 }
