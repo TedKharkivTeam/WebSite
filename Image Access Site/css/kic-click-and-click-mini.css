@@ -7,13 +7,32 @@ h3 {
     width: 49%;
     float: left;
 }
-.infoblock .page_white_scanner{
-    width:39% ;
+
+.infoblock .page_white_scanner {
+    width: 39%;
 }
-.infoblock .number3-label{
-    width: 10%;
+
+.infoblock .number3-label {
+    width: 7%;
     float: left;
 }
+
+.infoblock .infoblock__label__searchable {
+    width: 15%;
+    float: left;
+    margin-top: -3%;
+}
+
+.infoblock .infoblock__label__searchable2 {
+    width: 15%;
+    float: left;
+    margin-top: -15%;
+}
+
+.infoblock__label-search-on {
+    margin-top: -10%;
+}
+
 .infoblock__page-3-italic-label {
     font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 2.4rem;
@@ -38,8 +57,6 @@ h3 {
     float: right;
     text-align: justify;
 }
-
-
 
 .infoblock ul li {
     line-height: 24px;
@@ -96,7 +113,6 @@ img {
     width: 16px;
     height: 16px;
 }
-
 
 div.infoblock span {
     display: inline;
@@ -174,7 +190,6 @@ div.infoblock h2 {
     position: relative;
     margin-top: 10px;
 }
-
 
 .two-step:after {
     content: '';
@@ -527,8 +542,6 @@ th .table--img {
     text-align: center;
 }
 
-
-
 .reservation {
     text-align: center;
     margin-bottom: -6px;
@@ -605,8 +618,6 @@ th .table--img {
     line-height: 1.8rem;
     font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
-
-
 
 .infoblock__top {
     overflow: hidden;
@@ -915,7 +926,6 @@ h2.pod-text {
     padding: 40px 0 0 0;
 }
 
-
 #scan-diagram {
     float: right;
     width: 40%;
@@ -936,7 +946,6 @@ h2.pod-text {
     width: 48%;
     padding-right: 5px;
 }
-
 
 .infoblock .logo_kic {
     width: 35%;
@@ -983,7 +992,6 @@ h2.pod-text {
 .infoblock .column {
     width: 49%;
     display: inline-block;
-    vertical-align: top;
     float: left;
     padding-left: 4%;
 }
@@ -1013,21 +1021,14 @@ h2.pod-text {
     width: 60%;
     position: relative;
     margin: 0 auto;
+
 }
 
 .column__number1:before {
     content: '';
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -70px;
     background: url("../images/brochure-pictures/1.png") no-repeat;
-    width: 70px;
-    height: 70px;
+    width: 7%;
     background-size: contain;
 }
 
@@ -1037,27 +1038,11 @@ h2.pod-text {
     margin: 0 auto;
 }
 
-.column__number2:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -70px;
-    background: url("../images/brochure-pictures/2.png") no-repeat;
-    width: 70px;
-    height: 70px;
-    background-size: contain;
-}
-
 .column__number3 {
     width: 30%;
     bottom: 0;
     left: 60px;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .infoblock .map-marker {
@@ -1140,6 +1125,8 @@ h2.pod-text {
     float: left;
     width: 15%;
     height: 13%;
+    padding-right: 10px;
+    padding-top: 15px;
 }
 
 .infoblock__top {
@@ -1529,7 +1516,6 @@ h2.pod-text {
     width: 24%;
 }
 
-
 .infoblock__double-wrap {
     overflow: hidden;
 }
@@ -1754,9 +1740,11 @@ h2.pod-text {
     .table__arow:before {
         left: 10px;
     }
-    .infoblock .super_middle_table_click td{
+
+    .infoblock .super_middle_table_click td {
         padding: 3px 0;
     }
+
     .infoblock .nav__li {
         width: 32%;
         margin-top: -2%;
@@ -1908,14 +1896,17 @@ h2.pod-text {
     .infoblock .center__text--margin {
         margin-top: 0;
     }
+
     .infoblock .nav__img {
         float: left;
         width: 60%;
         padding-top: 35px;
     }
+
     .infoblock .li--width {
         width: 60%;
     }
+
     .reservation__h2--center {
         margin-top: 20px;
     }
@@ -1964,6 +1955,18 @@ h2.pod-text {
         padding: 6px 0;
     }
 
+    .infoblock .kic_div__logos {
+        float: left;
+        width: 20%;
+        height: 13%;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .infoblock .infoblock__label__searchable2 {
+        width: 15%;
+        float: left;
+        margin-top: -18%;
+    }
     .infoblock p {
         font-size: 1.4rem;
     }
