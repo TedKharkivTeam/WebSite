@@ -152,7 +152,7 @@ h5 {
 
 .infoblock__white-rectangulars {
     overflow: hidden;
-    background-image: url('../images/JPGs of Opus Workflow Brochure/Page2_Top_Horizontal_White_Boxes.png');
+    background-image: url('../images/opus_freeflow_and_workflow_brochures/Page2_Top_Horizontal_White_Boxes.png');
     width: 100%;
     background-size: contain;
 }
@@ -481,7 +481,7 @@ div .derivatives-pictures__bottom-paragraph {
     }
 
     div .derivatives-pictures__bottom-paragraph{
-        margin-top: -280px;
+        margin-top: -270px;
     }
 
     .infoblock__book-stack-and-feature-enumeration img{
