@@ -32,49 +32,16 @@
 .infoblock .infoblock_book {
     width: 30%;
     float: left;
-
 }
 
 .infoblock .infoblock_book_2 {
     width: 70%;
-
-}
-
-.infoblock .infoblock_logo_dlsg {
-    width: 27%;
-    margin-top: -5%;
-
-}
-
-.infoblock .infoblock_link1 {
-    font-size: medium;
-    color: #5d5d5d;
-
-}
-
-.infoblock .opus_p3 {
-    width: 45%;
-    margin-left: 49%;
-    margin-top: -16%;
-}
-
-.infoblock .opus_p4 {
-    width: 45%;
-    margin-left: 49%;
 }
 
 .infoblock .infoblock_banner {
     width: 48%;
     margin-top: -1%;
     float: right;
-}
-
-.infoblock .infoblock_no_compromise {
-    text-align: center;
-    margin-top: 2%;
-    color: black;
-    text-shadow: none;
-    font-size: xx-large;
 }
 
 .infoblock .infoblock_do_before_1 {
@@ -117,10 +84,6 @@
     float: left;
     font-size: 2.4rem;
     line-height: 2.6rem;
-}
-
-.OAI2 {
-    width: 45%;
 }
 
 .metadata_capture {
@@ -170,17 +133,6 @@
 
 .images_metadata {
     margin-left: 1%;
-}
-
-.infoblock .images_metadata1 {
-    width: 100%;
-    margin-top: -1%;
-}
-
-.infoblock .treated {
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    text-align: center;
 }
 
 .infoblock .content_stabilization {
@@ -322,16 +274,6 @@
     text-align: center;
 }
 
-.infoblock .label_versus {
-    font-size: 2.8rem;
-    line-height: 3.0rem;
-    color: black;
-    -webkit-text-stroke: 1px black;
-    text-align: center;
-    display: block;
-    padding: 1%;
-}
-
 .table_2 {
     width: 100%;
     border: 1px solid #000;
@@ -360,13 +302,6 @@
 .infoblock .text_block2_page1 {
     width: 49%;
     float: right;
-}
-
-.infoblock .label_no_compromise_page1 {
-    color: #000;
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    text-align: center;
 }
 
 .infoblock .block_hierarchical_metadata {
@@ -421,47 +356,10 @@
     padding-left: 5px;
 }
 
-.infoblock .templates_software {
-    text-align: center;
-    width: 100%;
-    margin-top: 25%;
-}
-
-.infoblock .brochure-title-center_software {
-    width: 100%;
-    float: left;
-    margin-top: 1%;
-}
-
 @media all and (min-width: 1200px) and (max-width: 1400px) {
-    .infoblock div .infoblock__h2__p h2 {
-        font-size: 2.2rem;
-        line-height: 2.4rem;
-        color: #000000;
-        padding: 0;
-    }
-
-    .infoblock .little_label_for_image_metadata {
-        margin-top: -3%;
-    }
-
-    .infoblock .label_no_compromise_page1 {
-        padding-top: 29rem;
-        color: #000;
-        font-size: 3.6rem;
-        line-height: 3.8rem;
-        text-align: center;
-    }
-
     .infoblock .block_hierarchical_metadata_table3 {
         float: right;
         width: 58%;
-    }
-
-    .infoblock div .infoblock__h2__p p {
-        text-align: center;
-        font-size: 1.6rem;
-        line-height: 1.8rem;
     }
 
     .infoblock .table1_freeflow {
@@ -496,7 +394,6 @@
         float: left;
         padding-top: 0;
         margin-left: 0;
-
     }
 
     .infoblock .brochure-title-center-free-flow {
@@ -505,71 +402,13 @@
         line-height: 3.8rem;
         text-align: center;
     }
-
-    .infoblock .infoblock__h3__p h3 {
-        font-size: 1.4rem;
-        font-weight: bold;
-        color: #000000;
-    }
-
-    .infoblock .infoblock__h3__p p {
-        font-size: 1rem;
-        line-height: 1.2rem;
-    }
-}
-
-.infoblock .content_stabilization_software {
-    width: 45%;
-    float: right;
-}
-
-.infoblock .templates_software1 {
-    text-align: center;
-    width: 100%;
-    float: left;
-}
-
-.OAI5_Software {
-    width: 100%;
-    float: left;
-}
-
-.OAI_Software {
-    float: left;
-    width: 100%;
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
-    .infoblock div .infoblock__h2__p h2 {
-        font-size: 1.6rem;
-        line-height: 1.8rem;
-        color: #000000;
-        padding: 0;
-    }
-
     .OAI5 {
         width: 100%;
         float: left;
         padding-top: 0;
-    }
-
-    .infoblock .templates_software {
-        text-align: center;
-        width: 100%;
-        float: left;
-        margin-top: 0;
-    }
-
-    .OAI {
-        margin-left: -2%;
-        float: left;
-        width: 100%;
-    }
-
-    .infoblock .content_stabilization_software {
-        width: 54%;
-        margin-left: 1%;
-        margin-top: 0;
     }
 
     .versus3 {
@@ -585,17 +424,6 @@
         line-height: 2.6rem;
         margin-left: 55%;
         margin-top: -4%;
-    }
-
-    .infoblock div .infoblock__h2__p p {
-        text-align: center;
-        font-size: 1.1rem;
-    }
-
-    .infoblock .infoblock__h3__p h3 {
-        font-size: 1rem;
-        font-weight: bold;
-        color: #000000;
     }
 
     .infoblock .opus_output_absolute_text {
@@ -627,67 +455,11 @@
         float: left;
         padding-top: 40px;
     }
-
-    .infoblock .infoblock__h3__p p {
-        font-size: 0.8rem;
-    }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
-    .infoblock div .infoblock__h2__p h2 {
-        font-size: 1.6rem;
-        line-height: 1.8rem;
-        color: #000000;
-        padding: 0;
-    }
-
-    .infoblock div .infoblock__h2__p p {
-        text-align: center;
-        font-size: 1rem;
-        line-height: 1.2rem;
-    }
-
-    .infoblock .infoblock__h3__p h3 {
-        font-size: 1rem;
-        line-height: 1.2rem;
-        font-weight: bold;
-        color: #000000;
-    }
-
-    .infoblock .infoblock__h3__p p {
-        font-size: 0.7rem;
-        line-height: 0.9rem;
-    }
-
     .infoblock .opus_output_absolute_text {
         font-size: 0.5rem;
         line-height: 0.7rem;
-    }
-}
-
-@media all and (max-width: 767px) {
-    .infoblock div .infoblock__h2__p h2 {
-        font-size: 1.6rem;
-        line-height: 1.8rem;
-        color: #000000;
-        padding: 0;
-    }
-
-    .infoblock div .infoblock__h2__p p {
-        text-align: center;
-        font-size: 1rem;
-        line-height: 1.2rem;
-    }
-
-    .infoblock .infoblock__h3__p h3 {
-        font-size: 1rem;
-        line-height: 1.2rem;
-        font-weight: bold;
-        color: #000000;
-    }
-
-    .infoblock .infoblock__h3__p p {
-        font-size: 0.7rem;
-        line-height: 0.9rem;
     }
 }
