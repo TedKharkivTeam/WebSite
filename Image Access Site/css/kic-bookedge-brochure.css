@@ -599,6 +599,87 @@
 
 /* PAGE 7 ******************************************************************************************************* */
 
+.infoblock .common-header-h2--reservation-app {
+    width: 100%;
+    font-size: 7rem;
+    text-shadow: none;
+    color: #000;
+    margin: 0;
+}
+
+.infoblock .reservation-app-wrapper__sub-header-bold {
+    color: #000000;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    margin: 10px 0 5px 11%;
+    padding: 5px 0;
+}
+
+.infoblock .reservation-app-wrapper__sub-header-cursive {
+    color: #000;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-style: italic;
+    margin: 0 0 0 14%;
+    padding: 0;
+}
+
+.infoblock .reservation-app-wrapper__text-p {
+    text-align: left;
+    width: 49%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.6rem;
+}
+
+.infoblock .reservation-app-wrapper__three-images-header {
+    color: #000000;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    margin: 5px 0 5px 12%;
+}
+
+.infoblock .reservation-app-wrapper__three-images-wrapper {
+    margin: 0 auto;
+}
+
+.arrows--after:after {
+    position: absolute;
+    content: '';
+    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
+    top: 575px;
+    left: 100px;
+    background-size: contain;
+    width: 100%;
+    height: 130px;
+}
+
+.infoblock .three-images-wrapper__image {
+    text-align: center;
+    width: 31%;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0 5px;
+}
+
+.reservation-app-wrapper__two-tels-images-wrapper {
+    padding-top: 107px;
+    position: relative;
+}
+
+.infoblock .two-tels-images-wrapper__text-p {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 45%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
 /* PAGE 8 ******************************************************************************************************* */
 
 /* PAGE 9 ******************************************************************************************************* */
@@ -608,15 +689,6 @@
 /* PAGE 11 ****************************************************************************************************** */
 
 /* PAGE 12 ****************************************************************************************************** */
-
-.infoblock .brochure-subtitle-left {
-    color: #000;
-    font-size: 2.6rem;
-    line-height: 2.8rem;
-    text-align: left;
-    padding: 14px 0 10px;
-    margin: 0;
-}
 
 .infoblock .kic-ts-bullet-margin {
     margin-left: 3%;
@@ -637,116 +709,10 @@
 
 /*Smart Dock*/
 
-.arrows--after:after {
-    position: absolute;
-    content: '';
-    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
-    top: 575px;
-    left: 100px;
-    background-size: contain;
-    width: 100%;
-    height: 130px;
-}
-
 /* End of SmartDock */
 
-.infoblock .content-holder__header-h2--reservation {
-    width: 100%;
-}
-
-.infoblock .brochure-subtitle-center--reserv-1 {
-    color: #000000;
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-    font-weight: bold;
-    margin: 10px 0 5px 11%;
-    padding: 0;
-}
-
-.infoblock .brochure-subtitle-center--reserv-2 {
-    color: #000;
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-    font-style: italic;
-    margin: 0 0 0 14%;
-    padding: 0;
-}
-
-.infoblock .brochure-subtitle-center--reserv-3 {
-    color: #000000;
-    font-size: 2rem;
-    line-height: 2rem;
-    font-weight: bold;
-    margin: 5px 0 5px 12%;
-}
-
 /* Reservation App */
-.infoblock__page-8__reservation__h1 {
-    font-size: 7rem;
-    text-shadow: none;
-    color: #000;
-    margin: 0;
-}
 
-.infoblock__page-8__reservation__h2 {
-    color: #000;
-    font-size: 2.6rem;
-    margin: 0;
-    padding: 0 0 10px 0;
-}
-
-.infoblock__page-8__reservation__h3 {
-    color: #000;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    font-style: italic;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-}
-
-.infoblock__page-8__reservation__text {
-    text-align: left;
-    width: 49%;
-    padding: 10px;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 1.6rem;
-}
-
-.infoblock__page-8__reservation__text-img {
-    margin: 0 auto;
-}
-
-.infoblock__page-8__reservation__h2 {
-    color: #000;
-    font-size: 2.6rem;
-    margin: 0;
-    padding: 0 0 10px 0;
-}
-
-.infoblock__page-8__reservation__two-tel {
-    padding-top: 107px;
-    position: relative;
-}
-
-.infoblock .infoblock__page-8__text-img__touch {
-    text-align: center;
-    width: 31%;
-    display: inline-block;
-    font-size: 1.6rem;
-    padding: 0 5px;
-}
-
-.infoblock .infoblock__page-8__two-tel__text-top {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 45%;
-    text-align: center;
-    font-size: 1.6rem;
-    font-style: italic;
-}
 
 /*End of Reservation App */
 
