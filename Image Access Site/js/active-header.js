@@ -1,5 +1,5 @@
 $(function () {
-    if(window.currentTab) {
+    if (window.currentTab) {
         $(window.currentTab).addClass('activeHeader');
     }
 });

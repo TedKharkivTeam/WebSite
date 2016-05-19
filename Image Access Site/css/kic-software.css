@@ -1238,7 +1238,7 @@ th .table--img {
 .img__touch--after:after {
     position: absolute;
     content: '';
-    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
+    background: url("../images/brochure-pictures/arrows.png") no-repeat;
     bottom: -120px;
     left: 35px;
     background-size: contain;
@@ -3430,7 +3430,7 @@ div .infoblock__page-7__block-left {
 .infoblock__page-8__img__touch--after:after {
     position: absolute;
     content: '';
-    background: url("../images/KIC_Reservation_App/arrows.png") no-repeat;
+    background: url("../images/brochure-pictures/arrows.png") no-repeat;
     bottom: -120px;
     left: 35px;
     background-size: contain;

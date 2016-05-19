@@ -24,7 +24,7 @@ $(document).ready(function () {
         dlsgDefaultWidth = dlsgLogoBlock.width();
         dlsgDefaultPostions = dlsgLogoBlock.position();
 
-        dlsgLogoClone = dlsgLogoBlock.clone().appendTo( "#home-container" );
+        dlsgLogoClone = dlsgLogoBlock.clone().appendTo("#home-container");
         dlsgLogoClone.css({
             position: 'absolute',
             zIndex: 1,
@@ -46,7 +46,7 @@ $(document).ready(function () {
         bscanDefaultWidth = bscanLogoBlock.width();
         bscanDefaultPostions = bscanLogoBlock.position();
 
-        bscanLogoClone = bscanLogoBlock.clone().appendTo( "#home-container" );
+        bscanLogoClone = bscanLogoBlock.clone().appendTo("#home-container");
         bscanLogoClone.css({
             position: 'absolute',
             zIndex: 1,
@@ -73,7 +73,7 @@ $(document).ready(function () {
         timeout = timeout || 0;
 
         setTimeout(function () {
-            if(blockName == 'dlsg') {
+            if (blockName == 'dlsg') {
                 //Stop previous animation queue without forcing it to finish state
                 dlsgLogoClone.stop(true, false);
 
@@ -116,7 +116,7 @@ $(document).ready(function () {
      * @param blockName - block name.
      */
     function resetBlock(blockName) {
-        if(blockName == 'dlsg') {
+        if (blockName == 'dlsg') {
             //Stop previous animation queue without forcing it to finish state
             dlsgLogoClone.stop(true, false);
             bscanLogoClone.stop(true, false);
@@ -155,17 +155,17 @@ $(document).ready(function () {
      * @param blockElement - block element.
      */
     function onClickHandler(blockName, blockElement) {
-        if(!preventDefaultAnimation) preventDefaultAnimation = true;
+        if (!preventDefaultAnimation) preventDefaultAnimation = true;
 
         var pageUrl;
-        if(blockName == 'dlsg') {
+        if (blockName == 'dlsg') {
             pageUrl = eduRedirectUrl;
         } else {
             pageUrl = nonEduRedirectUrl;
         }
 
-        if(currentAnimatedBlockName) {
-            if(currentAnimatedBlockName == blockName) {
+        if (currentAnimatedBlockName) {
+            if (currentAnimatedBlockName == blockName) {
                 //Block already animated. Just stop animation.
                 resetBlock(blockName);
 
@@ -259,10 +259,10 @@ $(document).ready(function () {
 
     //Start default animation.
     setTimeout(function () {
-        if(preventDefaultAnimation) return 'Default animation stopped';
+        if (preventDefaultAnimation) return 'Default animation stopped';
 
         //Check if visitor came from .edu/imageaccess.com sites
-        if(isEduReferrerUrl()) {
+        if (isEduReferrerUrl()) {
             currentAnimatedBlockName = 'dlsg';
             currentAnimatedBlock = dlsgLogoClone;
             animateBlock('dlsg', eduRedirectUrl);

@@ -40,82 +40,82 @@ $(document).ready(function () {
 
             var $this = $(this),
 
-                // Local variables
+            // Local variables
                 vendor,
 
-                // Helpers
+            // Helpers
                 index = 0,
                 $slide = $this.children(),
                 length = $slide.size(),
                 fadeTime = parseFloat(settings.speed),
                 waitTime = parseFloat(settings.timeout),
-            maxw = parseFloat(settings.maxwidth),
+                maxw = parseFloat(settings.maxwidth),
 
             // Namespacing
-            namespace = settings.namespace,
-            namespaceIdx = namespace + i, // Classes
-            visibleClass = namespaceIdx + "_on",
-            slideClassPrefix = namespaceIdx + "_s",
+                namespace = settings.namespace,
+                namespaceIdx = namespace + i, // Classes
+                visibleClass = namespaceIdx + "_on",
+                slideClassPrefix = namespaceIdx + "_s",
 
             // Styles for visible and hidden slides
-            visible = { "float": "left", position: "relative", opacity: 1, zIndex: 2 },
-            hidden = { "float": "none", position: "absolute", opacity: 0, zIndex: 1 },
+                visible = {"float": "left", position: "relative", opacity: 1, zIndex: 2},
+                hidden = {"float": "none", position: "absolute", opacity: 0, zIndex: 1},
 
             // Detect transition support
-            supportsTransitions = (function () {
-                var docBody = document.body || document.documentElement;
-                var styles = docBody.style;
-                var prop = "transition";
-                if (typeof styles[prop] === "string") {
-                    return true;
-                }
-                // Tests for vendor specific prop
-                vendor = ["Moz", "Webkit", "Khtml", "O", "ms"];
-                prop = prop.charAt(0).toUpperCase() + prop.substr(1);
-                var j;
-                for (j = 0; j < vendor.length; j++) {
-                    if (typeof styles[vendor[j] + prop] === "string") {
+                supportsTransitions = (function () {
+                    var docBody = document.body || document.documentElement;
+                    var styles = docBody.style;
+                    var prop = "transition";
+                    if (typeof styles[prop] === "string") {
                         return true;
                     }
-                }
-                return false;
-            })(),
+                    // Tests for vendor specific prop
+                    vendor = ["Moz", "Webkit", "Khtml", "O", "ms"];
+                    prop = prop.charAt(0).toUpperCase() + prop.substr(1);
+                    var j;
+                    for (j = 0; j < vendor.length; j++) {
+                        if (typeof styles[vendor[j] + prop] === "string") {
+                            return true;
+                        }
+                    }
+                    return false;
+                })(),
 
             // Fading animation
-            slideTo = function (idx) {
-                settings.before(idx);
-                // If CSS3 transitions are supported
-                if (supportsTransitions) {
-                    $slide
-                        .removeClass(visibleClass)
-                        .css(hidden)
-                        .eq(idx)
-                        .addClass(visibleClass)
-                        .css(visible);
-                    index = idx;
-                    setTimeout(function () {
-                        settings.after(idx);
-                    }, fadeTime);
-                    // If not, use jQuery fallback
-                } else {
-                    $slide
-                        .stop()
-                        .fadeOut(fadeTime, function () {
-                            $(this)
-                                .removeClass(visibleClass)
-                                .css(hidden)
-                                .css("opacity", 1);
-                        })
-                        .eq(idx)
-                        .fadeIn(fadeTime, function () {
-                            $(this)
-                                .addClass(visibleClass)
-                                .css(visible);
+                slideTo = function (idx) {
+                    settings.before(idx);
+                    // If CSS3 transitions are supported
+                    if (supportsTransitions) {
+                        $slide
+                            .removeClass(visibleClass)
+                            .css(hidden)
+                            .eq(idx)
+                            .addClass(visibleClass)
+                            .css(visible);
+                        index = idx;
+                        setTimeout(function () {
                             settings.after(idx);
-                            index = idx;
-                        });
-                }
-            };
+                        }, fadeTime);
+                        // If not, use jQuery fallback
+                    } else {
+                        $slide
+                            .stop()
+                            .fadeOut(fadeTime, function () {
+                                $(this)
+                                    .removeClass(visibleClass)
+                                    .css(hidden)
+                                    .css("opacity", 1);
+                            })
+                            .eq(idx)
+                            .fadeIn(fadeTime, function () {
+                                $(this)
+                                    .addClass(visibleClass)
+                                    .css(visible);
+                                settings.after(idx);
+                                index = idx;
+                            });
+                    }
+                };
 
             // Random order
             if (settings.random) {
