@@ -46,18 +46,25 @@ a {
 @media all and (max-width: 1400px){
     .example {
         width: 400px!important;
+        height: 420px!important;
     }
     .spritezoom-view{
         width: 400px!important;
+        background-size: contain;
+        height: 420px!important;
     }
     .spritezoom-tint{
         width: 400px!important;
+        height: 420px!important;
+
     }
     .spritezoom-zoom{
         left: 400px!important;
         width: 400px!important;
+        height: 420px!important;
     }
     .spritezoom-sens{
         width: 325px!important;
+        height: 355px!important;
     }
 }
