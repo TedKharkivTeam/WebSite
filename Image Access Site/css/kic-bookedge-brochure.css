@@ -385,7 +385,6 @@
     width: 90%;
 }
 
-
 .infoblock .section__right-image-text {
     color: #87958E;
     font-style: italic;
@@ -412,6 +411,74 @@
 
 /* PAGE 5 ******************************************************************************************************* */
 
+.infoblock .column--image__t2t-logo {
+    width: 100%;
+}
+
+.infoblock .row__column--text {
+    width: 70%;
+}
+
+.infoblock .row__column--image-wrapper {
+    width: 20%;
+}
+
+.infoblock .common-header-h2--true-2-touch {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: left;
+    padding: 14px 0 10px;
+}
+
+.infoblock .true-2-touch-wrapper__save-to-usb-image {
+    width: 42%;
+    margin-top: 5%;
+    float: left;
+}
+
+.infoblock .true-2-touch-wrapper__text-p {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 12% 20px 48%;
+}
+
+.infoblock .blue-bullet--with-margin {
+    margin-left: 45%;
+}
+
+.infoblock .common-header-h2--two-large-monitors {
+    padding-left: 6%;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.infoblock .true-2-touch-wrapper__two-large-screens-image {
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+
+.infoblock .true-2-touch-wrapper__text-section {
+    width: 64%;
+}
+
+.infoblock .true-2-touch-wrapper__display-screens-text {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 3rem;
+    width: 63%;
+}
+
+.infoblock .true-2-touch-wrapper__dual-screen-text {
+    margin-left: 73%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
 /* PAGE 6 ******************************************************************************************************* */
 
 /* PAGE 7 ******************************************************************************************************* */
@@ -425,14 +492,6 @@
 /* PAGE 11 ****************************************************************************************************** */
 
 /* PAGE 12 ****************************************************************************************************** */
-
-.infoblock .brochure-title-left--custom {
-    color: #000;
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    text-align: left;
-    padding: 14px 0 10px;
-}
 
 .infoblock .brochure-subtitle-center {
     color: #000;
@@ -457,92 +516,11 @@
     margin-left: 3%;
 }
 
-.infoblock__block-title2 {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 39px;
-    font-weight: bold;
-    color: #000000;
-    text-shadow: none;
-    text-align: center;
-}
-
-.infoblock__block-title {
-    font: 14px "Arial", Helvetica, Arial, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    color: #000000;
-    text-shadow: none;
-    font-weight: normal;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.infoblock .infoblock__img {
-    width: 100%;
-}
-
 /*End of common styles*/
 
 /*Main BookEdge page */
 
 /*End of main BookEdge page*/
-
-/* Scan Copy Fax page */
-
-#copy-diagram {
-    float: left;
-    width: 30%;
-    margin: 25px 2%;
-}
-
-.infoblock .columnKIC_Bookeye_4__h2 {
-    margin-left: 30%;
-    margin-top: 4%;
-}
-
-/* Searchable Collectinos page */
-
-.__block-title2 {
-    font-size: 3.9rem;
-    font-weight: bold;
-    color: #000000;
-    text-shadow: none;
-    text-align: center;
-}
-
-.__block-3 {
-    position: absolute;
-    bottom: 15%;
-}
-
-.__block-3 .__number {
-    width: 15%;
-    float: left;
-}
-
-div .__block_text23 {
-    margin-right: -22%;
-}
-
-.infoblock .__img {
-    width: 100%;
-}
-
-.__block-1 {
-    float: left;
-    width: 70%;
-}
-
-.infoblock .__img {
-    width: auto;
-}
-
-.__block-3 {
-    position: absolute;
-    bottom: 14%;
-}
-
-/*End of Searchable Collectinos page*/
 
 .infoblock .capture-area-comparison-below-map-text {
     line-height: 2rem;
@@ -550,64 +528,6 @@ div .__block_text23 {
 }
 
 /* No More Spine Damage page */
-
-/* True 2 Touch page */
-
-.infoblock div.kic_div {
-    overflow: hidden;
-}
-
-.infoblock .logos {
-    width: 17%;
-}
-
-.infoblock .kic_div .true2_save_to_usb {
-    width: 42%;
-    margin-top: 5%;
-    float: left;
-}
-
-.infoblock .true2_label {
-    font-size: 2rem;
-    line-height: 2rem;
-    text-align: center;
-    margin-top: 0;
-    padding: 15px 12% 20px 48%;
-}
-
-.infoblock .true2_label--second {
-    padding-left: 6%;
-    font-size: 3rem;
-    line-height: 3rem;
-}
-
-.infoblock .kic_div .true2_two_screens {
-    width: 33%;
-    float: right;
-    text-align: center;
-}
-
-.infoblock .true2_block_2 {
-    width: 64%;
-}
-
-.margin-bullet {
-    margin-left: 45%;
-}
-
-/*End of True to Touch */
-
-.infoblock .row__column--text {
-    width: 70%;
-}
-
-.infoblock .row__column--image {
-    width: 20%;
-}
-
-.infoblock .row__column--image img {
-    width: 100%;
-}
 
 /*Smart Dock*/
 
@@ -730,20 +650,6 @@ div .__block_text23 {
     font-style: italic;
     font-size: 1.5rem;
     line-height: 1.5rem;
-}
-
-.infoblock .true2_label2 {
-    margin-left: 73%;
-    font-size: 2rem;
-    line-height: 2rem;
-}
-
-.infoblock .true2_block_3 {
-    font-style: italic;
-    text-align: center;
-    font-size: 1.9rem;
-    line-height: 3rem;
-    width: 63%;
 }
 
 /* End of SmartDock */
