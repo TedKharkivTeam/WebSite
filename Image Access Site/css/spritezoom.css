@@ -41,3 +41,23 @@ a {
     cursor: none;
     margin: 0 0 20px 0;
 }
+
+/*magnifire in 1400px !important*/
+@media all and (max-width: 1400px){
+    .example {
+        width: 400px!important;
+    }
+    .spritezoom-view{
+        width: 400px!important;
+    }
+    .spritezoom-tint{
+        width: 400px!important;
+    }
+    .spritezoom-zoom{
+        left: 400px!important;
+        width: 400px!important;
+    }
+    .spritezoom-sens{
+        width: 325px!important;
+    }
+}
