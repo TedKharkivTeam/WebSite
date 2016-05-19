@@ -5,6 +5,7 @@
 .graph img {
     width: 93%;
     float:right;
+    margin-right: 2%;
 }
 
 .rotate-text{
@@ -26,7 +27,9 @@
 
 .scan-area {
     text-align: center;
-    width: 55%;
+    width: 57%;
+    float: left;
+    font-size: 1.2rem;
 }
 
 .scan-area td {
@@ -41,8 +44,24 @@
 }
 
 
-.htable__width-td{
+.htable__width-td-first{
     width: 190px;
+}
+
+.htable__width-td-second{
+    width: 80px;
+}
+
+.htable__width-td-third{
+    width: 60px;
+}
+
+.htable__width-td-fifth{
+    width: 100px;
+}
+
+.htable__width-td-last{
+    width: 160px;
 }
 
 .infoblock .htable__font{
@@ -55,11 +74,6 @@
 
 .graph{
     overflow: hidden;
-}
-
-table {
-    float: left;
-    font-size: 1.2rem;
 }
 
 .scan-table {
@@ -104,7 +118,7 @@ h2 span {
     }
     .scan-table {
         float: right;
-        padding-top: 80px;
+        padding-top: 65px;
     }
     .rotate-text{
         margin-top: 80px;
