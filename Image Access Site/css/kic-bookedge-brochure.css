@@ -1,5 +1,7 @@
 
+
 /* ------------------------------------- COMMON STYLES ------------------------------------ */
+
 
 .infoblock p {
     line-height: 2.6rem;
@@ -45,7 +47,9 @@
     padding: 10px 1%;
 }
 
+
 /* PAGE 1 ******************************************************************************************************** */
+
 
 .infoblock .big-logo-text__image-logo {
     width: 24%;
@@ -140,7 +144,9 @@
     font-weight: bold;
 }
 
+
 /* PAGE 2 ******************************************************************************************************* */
+
 
 .infoblock .content-holder__triangular-section {
 
@@ -199,7 +205,9 @@
     margin: 25px 2%;
 }
 
+
 /* PAGE 3 ******************************************************************************************************* */
+
 
 .infoblock .content-holder__page-3-content-wrapper {
 
@@ -306,7 +314,9 @@
     padding-top: 0;
 }
 
+
 /* PAGE 4 ******************************************************************************************************* */
+
 
 .infoblock .column__section {
 
@@ -409,7 +419,9 @@
 
 }
 
+
 /* PAGE 5 ******************************************************************************************************* */
+
 
 .infoblock .column--image__t2t-logo {
     width: 100%;
@@ -483,7 +495,9 @@
     line-height: 2rem;
 }
 
+
 /* PAGE 6 ******************************************************************************************************* */
+
 
 .infoblock .common-header-h2--smart-dock-sub-header {
     color: #000;
@@ -601,7 +615,9 @@
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+
 /* PAGE 7 ******************************************************************************************************* */
+
 
 .infoblock .common-header-h2--reservation-app {
     width: 100%;
@@ -680,7 +696,9 @@
     font-style: italic;
 }
 
+
 /* PAGE 8 ******************************************************************************************************* */
+
 
 .infoblock .content-holder__kic-fleet-manager-wrapper {
 
@@ -727,18 +745,18 @@
     padding-left: 20px;
 }
 
-.text-section__centered-text--with-padding {
+.infoblock .text-section__centered-text--with-padding {
     padding-top: 42px;
     position: relative;
 }
 
-.text-section__centered-text--with-margin {
+.infoblock .text-section__centered-text--with-margin {
     position: absolute;
     width: 45%;
     padding-top: 30px;
 }
 
-.kic-fleet-manager-wrapper__middle-content {
+.infoblock .kic-fleet-manager-wrapper__middle-content {
     padding-top: 20px;
     overflow: hidden;
 }
@@ -759,7 +777,7 @@
     margin: 10px 5%;
 }
 
-.features-list__feature-item {
+.infoblock .features-list__feature-item {
     margin-left: 12%;
 }
 
@@ -769,45 +787,47 @@
     margin: 0;
 }
 
-.kic-fleet-manager__images-names-list li {
+.infoblock .images-names-list__item {
     display: inline-block;
     list-style: none;
     text-align: center;
     width: 32%;
 }
 
-.kic-fleet-manager__images-names-list li p {
+.infoblock .item__text-p {
     text-align: center;
 }
+
 
 /* PAGE 9 ******************************************************************************************************* */
 
-.infoblock .img-preview {
-    width: 50%;
-}
 
-.frame--text {
-    text-align: justify;
-    padding: 10px 20px;
-}
-
-.pod__library {
-    text-align: center;
-    padding: 12px;
-}
-
-.content__pod {
+.content-holder__self-serve-book-printing-wrapper {
     display: inline-block;
     overflow: hidden;
 }
 
-.pbd--frame {
+.infoblock .pbd-frame__image {
+    width: 50%;
+}
+
+.pbd-frame__text-p {
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.self-serve-book-printing-wrapper__pod-library {
+    text-align: center;
+    padding: 12px;
+}
+
+.self-serve-book-printing-wrapper__pbd-frame {
     width: 49%;
     float: left;
     text-align: center;
 }
 
-h2.pod-text {
+h2.pod-library__header {
     font-size: 2.4rem;
     color: #000;
     line-height: 1.2;
@@ -815,26 +835,26 @@ h2.pod-text {
     padding: 15px 0;
 }
 
-.infoblock .library__img {
+.infoblock .pod-library__image {
     width: 51%;
 }
 
-.custom__aline {
+.content-holder__pod-section {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.custom__aline--pt {
+.pod-library__header--with-padding {
     padding-bottom: 10px;
 }
 
-.custom__aline--text {
+.pod-section__text-p {
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
 }
 
-.custom__aline--text {
+.pod-section__text-p {
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
