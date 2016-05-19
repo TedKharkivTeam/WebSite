@@ -637,12 +637,11 @@
     margin: 0 auto;
 }
 
-
 .arrows--after:after {
     position: absolute;
     content: '';
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
-    top: 552px;
+    top: 575px;
     left: 100px;
     background-size: contain;
     width: 100%;
