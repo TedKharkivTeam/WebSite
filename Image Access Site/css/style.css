@@ -766,7 +766,7 @@ footer .bottom-bar span {
 .footer--bottom {
     overflow: hidden;
     background: #093C8B;
-    padding: 5px 30px 40px;
+    padding: 5px 30px 16px;
     border-radius: 0 0 20px 20px;
     -moz-border-radius: 0 0 20px 20px;
     -webkit-border-radius: 0 0 20px 20px;
@@ -815,10 +815,14 @@ footer ul:nth-last-child(1):after {
 }
 
 .footer--bottom img {
-    margin-top: 60px;
+    margin-top: 16px;
     width: 100%;
     max-width: 120px;
     height: auto;
+}
+.footer--bottom .intertek-logo{
+    width: 120%;
+    max-width: 150px;
 }
 
 /*end footer*/

@@ -2,6 +2,13 @@
     overflow: hidden;
 }
 
+h3 {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    text-align: center;
+
+}
+
 .infoblock .brochure-title-center {
     color: #000;
     font-size: 3.6rem;
@@ -10,20 +17,25 @@
     padding: 14px 0 10px;
 }
 
-.infoblock__double__content {
-    padding: 5px 10px;
+.double-wrap__column {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
     overflow: hidden;
 }
 
-.double-wrap__column {
-    float: left;
-    width: 48%;
-}
-
-.infoblock__double-wrap figure {
+.infoblock .column__data {
     width: 50%;
     float: left;
     margin: 0;
+    padding:0 4px;
+    text-align: center;
+}
+
+.data__mini-text {
+    font-size: 1.4rem;
+    text-align: center;
 }
 
 .infoblock__double-wrap figure img, .infoblock .diagram {
@@ -39,7 +51,7 @@
     line-height: 14px;
 }
 
-.infoblock .infoblock__double__double-p {
+.infoblock__double__double-p {
     width: 50%;
     float: left;
 }
@@ -55,17 +67,16 @@
 .infoblock .bookeye-vs-copiers__strong {
     text-align: center;
     display: block;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
 }
 
 .double-content__text-and-picture-wrapper {
     overflow: hidden;
 }
 
-.column__bookeye-scans {
-    width: 90%;
-    margin-left: 5%;
+.blue-bullet--pull-right {
+    margin-left: 25px;
 }
 
 .infoblock ul.blue-bullet li {
@@ -93,12 +104,15 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text; /* подробнее про background-clip */
     color: transparent;
-    font-size: 26px !important;
-    text-align: center;
 }
 
-.infoblock h3 {
-    color: transparent;
-    font-size: 26px;
-    line-height: 28px;
+@media all and (max-width: 1400px) {
+    html {
+        font-size: 54%;
+    }
+
+    .blue-bullet--pull-right li {
+        padding: 4px 0;
+    }
 }
+
