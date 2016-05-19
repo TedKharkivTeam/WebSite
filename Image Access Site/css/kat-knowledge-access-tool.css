@@ -15,11 +15,12 @@ img {
 }
 
 .infoblock .infoblock__huge-header {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     font-size: 8.4rem;
     text-align: center;
     text-shadow: none;
     color: black;
+    margin: 0 0 15px 0;
 }
 
 .infoblock .huge-header__image {
@@ -44,11 +45,11 @@ img {
 }
 
 .infoblock .infoblock__sub-header--bold {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .infoblock .infoblock__sub-header--italic {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
 }
 
 .infoblock .figure__image {
@@ -58,12 +59,12 @@ img {
 
 .infoblock .image-title {
     position: relative;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .infoblock .image-text {
     margin-left: 4%;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     font-size: 1.5rem;
 }
 
@@ -92,7 +93,7 @@ img {
 .infoblock .right-middle-block__text {
     width: 40%;
     text-align: right;
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     position: relative;
     margin-top: 45px;
     left: -4%;
@@ -127,7 +128,7 @@ img {
 }
 
 .infoblock .kat-phones__note--left {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: center;
     font-size: 1.4rem;
 }
@@ -148,7 +149,7 @@ img {
 
 .infoblock .kat-phones__note--right {
     font-size: 1.4rem;
-    font-family: AvenirLTStdBookOblique;
+    font-style: italic;
     position: relative;
     left: 81%;
     top: 140px;
@@ -167,7 +168,7 @@ img {
 
 .infoblock .reading-list__header {
     position: relative;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     font-size: 1.7rem;
     left: 14%;
     top: 5px;
@@ -195,7 +196,7 @@ img {
 
 .infoblock .infoblock__header {
     color: black;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     font-size: 4.4rem;
     text-shadow: none;
     margin-bottom: 25px;
@@ -211,7 +212,7 @@ img {
 }
 
 .infoblock .infoblock__sub-header--APIWTW {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     margin-bottom: -30px;
     margin-left: 12%;
     width: 75%;
@@ -237,7 +238,7 @@ img {
 /*************************************************************************************************************/
 
 .infoblock .infoblock__sub-header--STW {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     margin-bottom: -25px;
     margin-left: 12%;
     width: 75%;
@@ -250,7 +251,7 @@ img {
 /*************************************************************************************************************/
 
 .infoblock .infoblock__sub-header--WIYS {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: center;
     margin-left: 12%;
     width: 75%;
@@ -285,14 +286,14 @@ img {
 }
 
 .infoblock .infoblock__sub-header--PYPC-SBDB {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     font-size: 3.2rem;
     margin-top: 165px;
     margin-bottom: 20px;
 }
 
 .infoblock .infoblock__sub-header--MBDE {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     margin-top: -25px;
     margin-left: 12%;
     width: 80%;
@@ -328,7 +329,7 @@ img {
 }
 
 .infoblock .search-screen__info {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     position: relative;
     margin-top: -410px;
     left: 70%;
@@ -372,7 +373,7 @@ img {
 }
 
 .infoblock .infoblock__sub-header--GHH {
-    font-family: AvenirLTStdBookOblique; /* font-style: italic; */
+    font-style: italic;
     text-align: center;
     font-size: 2rem;
     padding-bottom: 10px;
@@ -385,7 +386,7 @@ img {
 }
 
 .infoblock .kit-kat-go__image-title--kic-stations {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     position: relative;
     left: 17%;
     margin-bottom: -22px;
@@ -393,7 +394,7 @@ img {
 }
 
 .infoblock .kit-kat-go__image-title--kic-srs {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     position: relative;
     left: 63%;
     margin-top: -320px;
@@ -407,11 +408,11 @@ img {
     margin-left: 0;
     margin-top: -225px;
     padding-bottom: 15px;
-    font-family: AvenirLTStdBook;
+    font-style: normal;
 }
 
 .infoblock .bvs-section__image-title {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     position: relative;
     left: 45%;
     margin-top: -255px;
@@ -434,8 +435,7 @@ img {
 
 }
 
-.infoblock .blocks__block-item
-{
+.infoblock .blocks__block-item {
     display: inline-block;
     height: 185px;
     width: 50%;
@@ -590,7 +590,7 @@ img {
 
 .infoblock .infoblock__sub-header--AYPCCE-H2 {
     text-align: center;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     font-size: 3.2rem;
     width: 82%;
     padding-left: 21%;
@@ -634,7 +634,7 @@ img {
 }
 
 .infoblock .requirements-section__req-header {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     text-align: center;
     font-size: 2.5rem;
     color: black;
@@ -683,7 +683,7 @@ img {
 }
 
 .infoblock .req-table__table-headers {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-weight: bold;
     text-align: center;
 }
 
@@ -738,6 +738,7 @@ img {
         margin-left: 17%;
         padding-bottom: 12px;
     }
+
     .infoblock .image-bottom-header {
         margin-top: -80px;
         width: 47%;
@@ -819,7 +820,6 @@ img {
     }
 
     /******************** PAGE 2 ********************/
-
     .infoblock .infoblock__bottom-text {
         margin-top: -105px;
         padding-bottom: 30px;
@@ -827,7 +827,6 @@ img {
     }
 
     /******************** PAGE 3 ********************/
-
     .infoblock .infoblock__header {
         font-size: 3rem;
         line-height: 3rem;
@@ -835,9 +834,7 @@ img {
     }
 
     /******************** PAGE 4 ********************/
-
     /******************** PAGE 5 ********************/
-
     .infoblock .search-screen__info {
         margin-top: -300px;
     }
@@ -859,7 +856,6 @@ img {
     }
 
     /******************** PAGE 6 ********************/
-
     .beautiful-girl-bg {
         background-size: 100% 91%;
     }
@@ -914,7 +910,6 @@ img {
     }
 
     /******************** PAGE 7 ********************/
-
     .infoblock .blocks__block-item--2 {
         margin-left: 3%;
     }
@@ -933,7 +928,6 @@ img {
     }
 
     /******************** PAGE 8 ********************/
-
     .infoblock .infoblock__sub-header--AYPCCE {
         font-size: 1.5rem;
         line-height: 1.5rem;
@@ -966,7 +960,6 @@ img {
 
     /******************** PAGE 9 ********************/
 
-
 }
 
 /* 1024 */
@@ -982,6 +975,7 @@ img {
         margin-left: 17%;
         padding-bottom: 12px;
     }
+
     .infoblock .image-bottom-header {
         margin-top: -80px;
         width: 47%;
@@ -1068,7 +1062,6 @@ img {
     }
 
     /******************** PAGE 2 ********************/
-
     .infoblock .infoblock__bottom-text {
         margin-top: -105px;
         padding-bottom: 40px;
@@ -1076,7 +1069,6 @@ img {
     }
 
     /******************** PAGE 3 ********************/
-
     .infoblock .infoblock__header {
         font-size: 3rem;
         line-height: 3rem;
@@ -1084,9 +1076,7 @@ img {
     }
 
     /******************** PAGE 4 ********************/
-
     /******************** PAGE 5 ********************/
-
     .infoblock .search-screen__info {
         margin-top: -282px;
     }
@@ -1108,7 +1098,6 @@ img {
     }
 
     /******************** PAGE 6 ********************/
-
     .beautiful-girl-bg {
         background-size: 100% 91%;
     }
@@ -1151,7 +1140,6 @@ img {
     }
 
     /******************** PAGE 7 ********************/
-
     .infoblock .blocks__block-item--2 {
         margin-left: 3%;
     }
@@ -1170,7 +1158,6 @@ img {
     }
 
     /******************** PAGE 8 ********************/
-
     .infoblock .infoblock__sub-header--AYPCCE {
         font-size: 1.5rem;
         line-height: 1.5rem;
@@ -1200,7 +1187,6 @@ img {
         text-align: left;
         width: 55%;
     }
-
 
 }
 
