@@ -24,13 +24,6 @@ figure {
     padding-bottom: 5px;
     display: block;
 }
-.infoblock .brochure-title-center {
-    color: #000;
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    text-align: center;
-    padding: 14px 0 10px;
-}
 .infoblock ul li {
     line-height: 24px;
 }
@@ -60,11 +53,11 @@ figure {
 }
 
 
-.infoblock .brochure-title-left {
-    color: #000;
+.brochure-title-center {
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
     font-size: 3.6rem;
     line-height: 3.8rem;
-    text-align: left;
+    text-align: center;
     padding: 14px 0 10px;
 }
 
@@ -161,7 +154,7 @@ figure {
 .infoblock__page-1__column {
     float: left;
     width: 50%;
-    padding: 6.25px;
+    padding: 6px;
 }
 
 .infoblock__page-1__column__a {
@@ -183,7 +176,7 @@ figure {
 .infoblock div .infoblock__page-1__h2__p h2 {
     font-size: 2.375rem;
     color: #000000;
-    padding: 0%;
+    padding: 0;
 }
 
 .infoblock div .infoblock__page-1__h2__p p {
@@ -269,13 +262,7 @@ figure {
     text-align: center;
 }
 
-div.infoblock h2 {
-    color: #000000;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding: 0;
-}
+
 
 .infoblock .columnKIC_Bookeye_4 {
     float: left;
@@ -283,8 +270,8 @@ div.infoblock h2 {
     /* padding-top: 0; */
 
     /* border: 0; */
-    padding-left: 9.3px;
-    padding-right: 9.3px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 
 #hand-yellow-coin {
@@ -329,7 +316,7 @@ div.infoblock h2 {
 }
 
 div .infoblock__page-3__block {
-    padding-top: 0%;
+    padding-top: 0;
     float: left;
     width: 49%;
 }
@@ -573,15 +560,15 @@ div .infoblock__page-4__homo {
 }
 
 .infoblock .infoblock__page-4__scanner {
-    margin-left: 0%;
+    margin-left: 0;
     float: left;
     width: 55%;
 }
 
 .infoblock .infoblock__page-4__margine {
-    margin-bottom: 0%;
-    margin-top: 0%;
-    padding-bottom: 0%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
 }
 
 /* 5 page*/
@@ -651,7 +638,7 @@ img.repeat-img {
     color: #000;
     font-weight: 600;
     font-size: x-large;
-    margin-top: 0%;
+    margin-top: 0;
     float: left;
     z-index: 100;
 
@@ -696,7 +683,7 @@ div .infoblock__page-5__block-p {
     color: #000;
     font-weight: 600;
     font-size: x-large;
-    margin-top: 0%;
+    margin-top: 0;
     float: left;
     z-index: 100;
     margin-bottom: 5px;
@@ -716,7 +703,7 @@ div .infoblock__page-5_photo {
 div .infoblock__page-5__block-header {
     color: #000;
     font-size: 3.6rem;
-    margin: 0%;
+    margin: 0;
 }
 
 div .infoblock__page-5__text-block1 {
@@ -790,10 +777,7 @@ div .infoblock__page-5__text-right2 {
 
 .infoblock .infoblock__page-6__scanner-other {
     float: right;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 10%;
+    margin: 5% 10% 5% 15%;
     width: 75%;
     height: 75%;
 }
@@ -923,7 +907,7 @@ div .infoblock__page-7_photo {
 div .infoblock__page-7__block-header {
     color: #000;
     font-size: 3.6rem;
-    margin: 0%;
+    margin: 0;
 }
 
 .infoblock div .infoblock__page-7__text-block1 {
@@ -1014,7 +998,6 @@ div .infoblock__page-7__block-left {
     color: #000;
     font-size: 2.6rem;
     margin: 0;
-    padding: 0;
     padding-bottom: 10px;
 }
 
@@ -1125,7 +1108,6 @@ div .infoblock__page-7__block-left {
     text-shadow: none;
     font-size: 6.4rem;
     line-height: 6.6rem;
-    margin: 0;
     margin-top: 5%;
 }
 
@@ -1138,7 +1120,7 @@ div .infoblock__page-7__block-left {
     line-height: 2.7rem;
     margin-top: auto;
     letter-spacing: 0;
-    font-family: AvenirLTStdBookOblique;
+    font-family: 'AvenirLTStdBookOblique';
     font-weight:normal;
 }
 
@@ -1258,7 +1240,6 @@ div .infoblock__page-7__block-left {
     width: 50%;
 }
 .frame--text {
-    text-align: justify;
     padding: 10px 20px;
 }
 .pod__library{
@@ -1476,9 +1457,6 @@ h2.pod-text {
 
 .rainbow-text {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff00ff+16,0000ff+33,00ffff+50,00ff00+67,ffff00+83,ff0004+100,ff0000+100 */
-    background: #ff0000; /* Old browsers */
-    background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text; /* подробнее про background-clip */
@@ -1565,7 +1543,7 @@ h2.pod-text {
     color: #000;
     font-size: 2.2rem;
     text-align: left;
-    margin-top: 0%;
+    margin-top: 0;
     margin-left: 52%;
     font-family: 'AvenirLTStdHeavy';
 }
@@ -1582,10 +1560,6 @@ h2.pod-text {
     background: rgba(0, 0, 0, 0.1);
 }
 
-.infoblock p {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-}
 
 /* 14 page*/
 
@@ -2035,7 +2009,7 @@ tr th {
     /* 1 page */
     .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
 
     .infoblock .infoblock__page-1__h3__p{
@@ -2072,7 +2046,7 @@ tr th {
         /* line-height: 38rem; */
         text-align: center;
         /* padding: 14rem 0 10rem; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 
 
@@ -2268,7 +2242,7 @@ tr th {
 }
 @media all and (max-width:1285px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
-        margin-right: 0%;
+        margin-right: 0;
         margin-top:17px;
     }
 }
@@ -2279,7 +2253,7 @@ tr th {
     /* 1 page*/
     .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
         font-size: 1.7rem;
-        padding: 0%;
+        padding: 0;
     }
     .infoblock ul li {
         line-height: 1.7rem;
@@ -2350,7 +2324,7 @@ tr th {
         font-size: 3.3rem;
         /* line-height: 38rem; */
         /* padding: 14rem 0 10rem; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 
 
@@ -2452,7 +2426,7 @@ tr th {
     /* 1 page*/
     .infoblock div .infoblock__page-1__h2__p h2 {
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
 
     .infoblock div .infoblock__page-1__h2__p p {
@@ -2493,7 +2467,7 @@ tr th {
         /* line-height: 38rem; */
         text-align: center;
         /* padding: 14rem 0 10rem; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 
     .infoblock__page-3 {
@@ -2506,7 +2480,7 @@ tr th {
     .infoblock div .infoblock__page-1__h2__p h2 {
         font-size: 1.5rem;
         color: #000000;
-        padding: 0%;
+        padding: 0;
     }
 
     .infoblock div .infoblock__page-1__h2__p p {
@@ -2547,7 +2521,7 @@ tr th {
         /* line-height: 38rem; */
         text-align: center;
         /* padding: 14rem 0 10rem; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 }
 
