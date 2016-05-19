@@ -19,7 +19,7 @@
     font-size: 4rem;
     line-height: 4rem;
     text-align: center;
-    padding: 25px 0 5px 0;
+    padding: 25px 0;
 }
 
 .infoblock .common-row {
@@ -802,7 +802,7 @@
 /* PAGE 9 ******************************************************************************************************* */
 
 
-.content-holder__self-serve-book-printing-wrapper {
+.infoblock .content-holder__self-serve-book-printing-wrapper {
     display: inline-block;
     overflow: hidden;
 }
@@ -811,23 +811,23 @@
     width: 50%;
 }
 
-.pbd-frame__text-p {
+.infoblock .pbd-frame__text-p {
     text-align: justify;
     padding: 10px 20px;
 }
 
-.self-serve-book-printing-wrapper__pod-library {
+.infoblock .self-serve-book-printing-wrapper__pod-library {
     text-align: center;
     padding: 12px;
 }
 
-.self-serve-book-printing-wrapper__pbd-frame {
+.infoblock .self-serve-book-printing-wrapper__pbd-frame {
     width: 49%;
     float: left;
     text-align: center;
 }
 
-h2.pod-library__header {
+.infoblock .pod-library__header {
     font-size: 2.4rem;
     color: #000;
     line-height: 1.2;
@@ -839,22 +839,22 @@ h2.pod-library__header {
     width: 51%;
 }
 
-.content-holder__pod-section {
+.infoblock .content-holder__pod-section {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.pod-library__header--with-padding {
+.infoblock .pod-library__header--with-padding {
     padding-bottom: 10px;
 }
 
-.pod-section__text-p {
+.infoblock .pod-section__text-p {
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
 }
 
-.pod-section__text-p {
+.infoblock .pod-section__text-p {
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
@@ -862,13 +862,13 @@ h2.pod-library__header {
 
 /* PAGE 10 ****************************************************************************************************** */
 
-.infoblock__page-11__double {
+.infoblock .content-holder__in-case-you-didnt-know-wrapper {
     width: 50%;
     float: left;
     overflow: hidden;
 }
 
-.infoblock__page-11__double__content {
+.infoblock .in-case-you-didnt-know-wrapper__section {
     overflow: hidden;
     padding: 10px 2%;
     background: #D0E6FC;
@@ -876,37 +876,36 @@ h2.pod-library__header {
     border-radius: 1.0rem;
 }
 
-.infoblock__page-11__in-case-strong {
+.infoblock .in-case-you-didnt-know-wrapper__header {
     font-size: 3.8rem;
     line-height: 3.8rem;
     padding: 0;
 }
 
-.infoblock__page-11__in-case-span {
+.infoblock .in-case-you-didnt-know-wrapper__sub-header {
     text-align: right;
     font-size: 2.0rem;
     line-height: 2.2rem;
 }
 
-.infoblock__page-11__in-case-span--center {
+.infoblock .section__section-header--ICYDK {
     font-size: 2.6rem;
     line-height: 2.6rem;
-    font-weight: bold!important;
+    font-weight: bold;
+    text-align: center;
 }
 
-.infoblock__page-11__double__content__double {
-    width: 50%;
-    float: left;
+.infoblock .column__text-p {
+    padding: 15px 0;
 }
 
-.infoblock .infoblock__page-11__in-case-enhance {
-    width: 70%;
-    height: 70%;
+.infoblock .column__enhance-reports-image {
+    width: 79%;
     margin: 0 auto;
     display: block;
 }
 
-.infoblock .infoblock__page-11__in-case-enhance--left {
+.infoblock .in-case-you-didnt-know-wrapper__for-study-image {
     width: 60%;
     height: 60%;
     margin: 10px 0 15px 10%;
@@ -914,53 +913,45 @@ h2.pod-library__header {
     padding-bottom: 20px;
 }
 
-.infoblock__page-11__double__content__double p {
-    padding: 15px 0;
-}
-
-.infoblock .for-study-header {
-    padding-left: 38%;
-}
-
-.infoblock__page-11__in-case-p--italic {
+.infoblock .section__many-citizens-text {
     padding: 10px;
     font-style: italic;
     display: inline-block;
 }
 
-.infoblock__page-11__for-study-p {
+.infoblock .in-case-you-didnt-know-wrapper__text-p {
     width: 50%;
     float: right;
     margin-top: -140px;
     margin-right: 3%;
 }
 
-.infoblock .infoblock__page-11__in-case-enhance--right {
+.infoblock .column__personal-and-family-documents {
     width: 90%;
     height: 90%;
     margin: 0 auto;
     display: block;
 }
 
-.infoblock .infoblock__page-11__in-case-scan-artwork {
+.infoblock .column__scan-artwork-image {
     width: 66%;
     margin: 10px 0 10px 3%;
     display: block;
 }
 
-.infoblock .yellow-paper {
+.infoblock .column__personal-and-family-documents-image {
     width: 73%;
     padding-top: 25px;
 }
 
-.infoblock .library-patrons {
-    margin: 35px 7% 0 -15%;
-}
-
-.infoblock .infoblock__page-11__in-case-scan-map {
+.infoblock .column__scan-large-maps-image {
     width: 79%;
     margin: 10px auto 0 0;
     display: block;
+}
+
+.infoblock .column__library-patrons-text {
+    margin: 35px 7% 0 -15%;
 }
 
 /* PAGE 11 ****************************************************************************************************** */
