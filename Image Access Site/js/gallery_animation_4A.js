@@ -235,8 +235,11 @@ function AnimateImagesLoading(callback) {
     var rowHeight = $('.gallery-container').height() / rowsCount;
     var rows = [];
 
-    for(var k = 0; k < rowsCount; k++) {
-        var row = $('<div></div>').addClass('gallery-mask-stripe').css({height: rowHeight + (rowHeight / 10), top: rowHeight * k}).appendTo('.gallery-container');
+    for (var k = 0; k < rowsCount; k++) {
+        var row = $('<div></div>').addClass('gallery-mask-stripe').css({
+            height: rowHeight + (rowHeight / 10),
+            top: rowHeight * k
+        }).appendTo('.gallery-container');
         rows.push(row);
     }
 
@@ -244,7 +247,7 @@ function AnimateImagesLoading(callback) {
     rows.forEach(function (row, index) {
         setTimeout(function () {
             row.animate({left: '100%', width: 0}, rowLoadTime, function onAnimationFinished() {
-                if(index == rows.length - 1) {
+                if (index == rows.length - 1) {
                     callback();
                 }
                 row.remove();

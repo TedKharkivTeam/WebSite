@@ -1,11 +1,11 @@
-$.fn.offsetRelative = function(top){
+$.fn.offsetRelative = function (top) {
     var $this = $(this);
     var $parent = $this.offsetParent();
     var offset = $this.position();
-    if(!top) return offset; // Didn't pass a 'top' element
-    else if($parent.get(0).tagName == "BODY") return offset; // Reached top of document
-    else if($(top,$parent).length) return offset; // Parent element contains the 'top' element we want the offset to be relative to
-    else if($parent[0] == $(top)[0]) return offset; // Reached the 'top' element we want the offset to be relative to
+    if (!top) return offset; // Didn't pass a 'top' element
+    else if ($parent.get(0).tagName == "BODY") return offset; // Reached top of document
+    else if ($(top, $parent).length) return offset; // Parent element contains the 'top' element we want the offset to be relative to
+    else if ($parent[0] == $(top)[0]) return offset; // Reached the 'top' element we want the offset to be relative to
     else { // Get parent's relative offset
         var parent_offset = $parent.offsetRelative(top);
         offset.top += parent_offset.top;
@@ -13,12 +13,12 @@ $.fn.offsetRelative = function(top){
         return offset;
     }
 };
-$.fn.positionRelative = function(top){
+$.fn.positionRelative = function (top) {
     return $(this).offsetRelative(top);
 };
 
 var items = $('.icon__img');
-items.each(function(index) {
+items.each(function (index) {
     var eventBlock = $(this);
     var link = eventBlock.find('a');
     var image = link.find('img');
@@ -30,13 +30,13 @@ items.each(function(index) {
 
     content.css({position: 'absolute'}).appendTo(parent);
 
-    link.mouseover(function (e) {
+    link.mouseover(function () {
         content.stop(true, true).fadeIn(150);
     });
-    link.mousemove(function (e) {
+    link.mousemove(function () {
         content.css({top: link.offsetRelative('.events__content-block').top - image.height() / 2 - content.height() / 2});
     });
-    link.mouseout(function (e) {
+    link.mouseout(function () {
         content.stop(true, true).fadeOut(150);
     });
 });

@@ -55,7 +55,7 @@ var startingPositions = {
     'Image_0': {top: 114.0938, left: 168.641},
     'Image_1': {top: 274.234, left: 880.75},
     'Image_2': {top: 384, left: 1044.391},
-    'Image_3': {top: 545.469, left:60.5469}
+    'Image_3': {top: 545.469, left: 60.5469}
 };
 
 function animate(onAnimationComplete) {
@@ -65,7 +65,7 @@ function animate(onAnimationComplete) {
 
     var $container = $(".gallery-container");
     var containerScaleRatio = $container.width() / defaultAtlasWidth;
-    
+
     var calculatedImageSizes = calculateImageSizes();
     var images = $(".gallery-container .animate-image");
     var animatedImages = [];
@@ -237,8 +237,11 @@ function AnimateImagesLoading(callback) {
     var rowHeight = $('.gallery-container').height() / rowsCount;
     var rows = [];
 
-    for(var k = 0; k < rowsCount; k++) {
-        var row = $('<div></div>').addClass('gallery-mask-stripe').css({height: rowHeight + (rowHeight / 10), top: rowHeight * k}).appendTo('.gallery-container');
+    for (var k = 0; k < rowsCount; k++) {
+        var row = $('<div></div>').addClass('gallery-mask-stripe').css({
+            height: rowHeight + (rowHeight / 10),
+            top: rowHeight * k
+        }).appendTo('.gallery-container');
         rows.push(row);
     }
 
@@ -246,7 +249,7 @@ function AnimateImagesLoading(callback) {
     rows.forEach(function (row, index) {
         setTimeout(function () {
             row.animate({left: '100%', width: 0}, rowLoadTime, function onAnimationFinished() {
-                if(index == rows.length - 1) {
+                if (index == rows.length - 1) {
                     callback();
                 }
                 row.remove();
