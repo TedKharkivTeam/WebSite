@@ -682,17 +682,21 @@
 
 /* PAGE 8 ******************************************************************************************************* */
 
-.infoblock__page-9__top {
+.infoblock .content-holder__kic-fleet-manager-wrapper {
+
+}
+
+.infoblock .kic-fleet-manager-wrapper__header-section {
     overflow: hidden;
     padding-bottom: 5%;
 }
 
-.infoblock .infoblock__page-9__top__logo {
+.infoblock .header-section__logo {
     max-width: 340px;
     float: left;
 }
 
-.infoblock__page-9__top__h1 {
+.infoblock .header-section__header {
     text-align: center;
     color: #000;
     text-shadow: none;
@@ -700,7 +704,7 @@
     margin: 5% 0 0 0;
 }
 
-.infoblock__page-9__top__h2 {
+.infoblock .header-section__sub-header {
     text-align: center;
     color: #8ca1c9;
     font-size: 2.5rem;
@@ -712,67 +716,67 @@
     font-style: italic;
 }
 
-.infoblock__page-9__center {
+.infoblock .kic-fleet-manager-wrapper__text-section {
     overflow: hidden;
     margin-top: -80px;
 }
 
-.infoblock .infoblock__page-9__center__img {
+.infoblock .text-section__right-side-image {
     float: right;
     width: 65%;
     padding-left: 20px;
 }
 
-.infoblock__page-9__center__text--padding {
+.text-section__centered-text--with-padding {
     padding-top: 42px;
     position: relative;
 }
 
-.infoblock__page-9__center__text--margin {
+.text-section__centered-text--with-margin {
     position: absolute;
     width: 45%;
     padding-top: 30px;
 }
 
-.infoblock__page-9__nav {
+.kic-fleet-manager-wrapper__middle-content {
     padding-top: 20px;
     overflow: hidden;
 }
 
-.infoblock .infoblock__page-9__nav__img {
+.infoblock .middle-content__photo {
     float: left;
     width: 60%;
 }
 
-.infoblock .infoblock__page-9__nav__li {
+.infoblock .middle-content__features-list {
     float: left;
     width: 38%;
     margin-left: 2%;
 }
 
-.infoblock .infoblock__page-9__li--width {
+.infoblock .middle-content__logo {
     width: 30%;
     margin: 10px 5%;
 }
 
-.infoblock__page-9__nav__li--margin {
+.features-list__feature-item {
     margin-left: 12%;
 }
 
-.infoblock .infoblock__page-9__bottom {
+.infoblock .kic-fleet-manager__images-names-list {
     text-align: justify;
     padding: 0;
     margin: 0;
 }
 
-.infoblock__page-9__bottom li {
+.kic-fleet-manager__images-names-list li {
     display: inline-block;
     list-style: none;
     text-align: center;
     width: 32%;
 }
 
-.infoblock__page-9__bottom li p {
+.kic-fleet-manager__images-names-list li p {
     text-align: center;
 }
 
