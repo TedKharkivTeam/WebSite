@@ -613,6 +613,7 @@ div .__block_text23 {
 .infoblock .smart_hard_block {
     margin-top: 5%;
     background: linear-gradient(to bottom, #97a29c, #e2e3e5);
+    position: relative;
 }
 
 .arrows--after:after {
@@ -627,62 +628,73 @@ div .__block_text23 {
 }
 
 .infoblock .smart_restaurant_img {
-    margin-top: 5px;
-    padding: 0 10px;
+    float: right;
+    width: 60%;
+    margin: -65px 2% 20px 0;
 }
 
 .infoblock .smart_scan_img_fax {
-    width: 36%;
-    margin-top: 5%;
+    width: 35%;
     float: left;
 }
 
 .infoblock .smart_scan_img_fax2 {
-    width: 45%;
-    float: right;
-    margin: 0 1%;
+    width: 40%;
+    margin-left: 20%;
+    margin-bottom: 2%;
 }
 
 .infoblock .label_smart11 {
-    position: absolute;
-    width: 21%;
-    margin-left: 41%;
-    margin-top: 25px;
-    font-style: italic;
+    width: 65%;
+    margin-top: -380px;
+    margin-right: -10%;
     text-align: right;
+    font-style: italic;
+    line-height: 2rem;
 }
 
 .infoblock .label_smart12 {
-    width: 16%;
-    margin-left: 35%;
-    margin-top: 242px;
-    font-style: italic;
+    width: 17%;
+    margin-top: 70px;
     text-align: right;
+    font-style: italic;
+    margin-left: 36%;
+    line-height: 2rem;
 }
 
 .infoblock .label_smart13 {
-    width: 23%;
-    margin-left: 10%;
-    margin-top: -8%;
     font-style: italic;
-    text-align: left;
+    margin-left: 7%;
+    width: 27%;
+    line-height: 2rem;
+    margin-top: -102px;
     position: relative;
-    top: -32px;
+    top: -40px;
 }
 
-.infoblock .triangle_pointer {
-    width: 10%;
-    margin-left: 42%;
+.infoblock .triangle-pointer {
+    font-size: 5rem;
+    color: gray;
+    display: block;
 }
 
-.infoblock .triangle_pointer1 {
-    width: 15%;
-    margin-left: 33%;
+.infoblock .triangle-pointer--1 {
+
 }
 
-.infoblock .triangle_pointer2 {
-    width: 10%;
-    margin-left: 5%;
+.infoblock .triangle-pointer--2 {
+
+}
+
+.infoblock .triangle-pointer--3 {
+    position: relative;
+    top: -135px;
+    left: -35%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .smart_sign {
