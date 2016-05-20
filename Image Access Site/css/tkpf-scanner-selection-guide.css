@@ -1,47 +1,6 @@
-.infoblock {
-    font-size: 16px;
-    position: relative;
-}
-
 .infoblock span, p {
     font-weight: normal;
     line-height: 24px;
-}
-
-.infoblock strong {
-    padding: 0;
-}
-
-.infoblock__bscan-ill {
-    text-align: left;
-    position: relative;
-}
-
-.infoblock__bscan-ill .bscan-ill__logo {
-    width: 50%;
-}
-
-.infoblock__bscan-ill--absolut {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.bscan-ill__bolt {
-    display: block;
-    padding: 0;
-}
-
-.bscan-ill__bolt--fs1 {
-    font-size: 24px;
-}
-
-.bscan-ill__bolt--fs2 {
-    font-size: 20px;
-}
-
-.bscan-ill--padding {
-    padding-top: 4%;
 }
 
 .bscan-ill--h2 {
@@ -53,33 +12,6 @@
     margin: 0;
 }
 
-.bscan-ill--center {
-    text-align: center;
-}
-
-.bscan-ill--blu-text {
-    display: block;
-    text-align: right;
-    font-size: 20px;
-    color: #193791;
-}
-
-.bscan-ill__column {
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px;
-}
-
-.infoblock .bscan-ill--width {
-    width: 90%;
-}
-
-.bscan-ill__arrow {
-    position: relative;
-    display: block;
-}
-
 .bscan-ill__arrow:before {
     content: '';
     position: absolute;
@@ -88,99 +20,6 @@
     left: -64px;
     width: 65px;
     height: 60px;
-}
-
-.infoblock--right {
-    text-align: right;
-}
-
-.infoblock .infoblock__title {
-    list-style: none;
-    display: inline-block;
-    width: 40%;
-    text-align: left;
-    padding: 0;
-}
-
-.infoblock__title li {
-    padding-top: 10px;
-}
-
-.title__mark {
-    font-size: 45px;
-    font-weight: bold;
-    background: transparent;
-}
-
-.infoblock .infoblock__row {
-    display: inline-block;
-    width: 40%;
-    vertical-align: top;
-}
-
-.infoblock .woman_abs {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
-    height: 25%;
-}
-
-.first-li {
-    margin-right: 20%;
-}
-
-.two-li {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.last-li {
-    margin-left: 20%;
-}
-
-.mark--margin {
-    margin-left: -20px;
-}
-
-.bscan--h2 {
-    text-align: center;
-    font-size: 40px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2;
-}
-
-.infoblock__content {
-    display: inline-block;
-    width: 48%;
-    padding: 0 5px;
-    vertical-align: top;
-}
-
-.infoblock .content__green-arrow {
-    padding-left: 50px;
-    list-style: none;
-}
-
-.content__green-arrow li {
-    position: relative;
-}
-
-.content__green-arrow li:before {
-    position: absolute;
-    content: '';
-    background: url("../images/green-arrow.png") no-repeat;
-    top: 0;
-    left: -30px;
-    width: 30px;
-    height: 30px;
-}
-
-.seven-step {
-    text-align: center;
-    position: relative;
 }
 
 .seven-step:after {
@@ -198,87 +37,6 @@
     z-index: 1;
 }
 
-.seven-step__h3 {
-    display: inline;
-    text-shadow: none;
-    color: #000;
-    font-size: 24px;
-    padding-right: 20%;
-}
-
-.infoblock .seven-step__text {
-    display: inline;
-}
-
-.seven-step__scan {
-    margin-top: -40px;
-}
-
-.seven-step--border {
-    padding: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-}
-
-.two-step {
-    text-align: center;
-    position: relative;
-    margin-top: 10px;
-}
-
-.two-step:before {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/book.png") no-repeat;
-    width: 115px;
-    height: 70px;
-    top: 0;
-    right: 0;
-    background-size: contain;
-}
-
-.two-step:after {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/repeat.png") no-repeat;
-    width: 47px;
-    height: 33px;
-    bottom: 0;
-    right: 50%;
-}
-
-.two-step--inline {
-    padding: 0 4px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-}
-
-.two-step--w1 {
-    width: 14%;
-}
-
-.two-step--w2 {
-    width: 35%;
-}
-
-.two-step--w3 {
-    width: 49%;
-}
-
-.seven-step__h3--padding {
-    padding: 0;
-}
-
-.infoblock .blue-doth {
-    padding-left: 50px;
-    list-style: none;
-}
-
-.blue-doth li {
-    position: relative;
-}
-
 .blue-doth li:before {
     position: absolute;
     content: '';
@@ -291,97 +49,6 @@
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     box-shadow: inset 0 3px 6px #fff;
-}
-
-.page3__inline {
-    display: inline-block !important;
-    padding: 0 10px;
-    width: 49%;
-    vertical-align: top;
-}
-
-.page3--right {
-    text-align: right;
-}
-
-.page3__block2 {
-    text-align: left;
-    display: inline-block;
-    width: 34%;
-    margin-left: 10%;
-}
-
-.page3__block2 i {
-    font-size: 10px;
-}
-
-.method1 {
-    position: relative;
-    text-align: center;
-}
-
-.method1:before {
-    position: absolute;
-    content: 'METHOD';
-    font-weight: bold;
-    font-size: 32px;
-    top: -10px;
-    line-height: 1;
-    left: -152px;
-    background-size: contain;
-    background: url("../images/JPGs for BSCAN ILL/method-1.png") no-repeat 27px 31px;
-    width: 153px;
-    height: 139px;
-}
-
-.method2 {
-    position: relative;
-    text-align: center;
-    margin-left: 17%;
-}
-
-.method2:before {
-    content: 'METHOD';
-    position: absolute;
-    font-weight: bold;
-    font-size: 32px;
-    top: -10px;
-    line-height: 1;
-    left: -152px;
-    background-size: contain;
-    background: url("../images/JPGs for BSCAN ILL/method-2.png") no-repeat 24px 22px;
-    width: 154px;
-    height: 111px;
-}
-
-.page3__block3 {
-    background-color: #9ccdff;
-    padding: 10px;
-    text-align: center;
-}
-
-.block3__top span {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.block3__top .top--width {
-    width: 60%;
-}
-
-.block3__top {
-    display: inline-block;
-    width: 20%;
-    vertical-align: middle;
-}
-
-.top--w2 {
-    width: 35%;
-}
-
-.top--w3 {
-    width: 43%;
-    padding-left: 5px;
 }
 
 h3 {
@@ -397,112 +64,8 @@ h4 {
     font-weight: normal;
 }
 
-.two-step--width1 {
-    width: 60%;
-}
-
-.two-step--width2 {
-    width: 39%;
-}
-
-.two-step--bottom {
-    padding-top: 20%;
-}
-
-.two-step--img {
-    position: relative;
-}
-
-.two-step--img .two-step__all-scan {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 180%;
-    height: auto;
-}
-
-.block-grey {
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid #000;
-    text-align: center;
-    background: #bfdae2;
-}
-
-.infoblock .block-grey__ul {
-    margin: 0;
-    padding: 0;
-}
-
-.block-grey__ul li {
-    display: inline-block;
-    width: 13%;
-}
-
-.block-grey__ul p {
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.2;
-}
-
-.center-br img {
-    width: 20%;
-}
-
-.center-br .two-step--inline {
-    vertical-align: top;
-}
-
-.block-grey__first {
-    display: inline-block;
-    width: 65%;
-}
-
-.block-grey__last {
-    display: inline-block;
-    width: 26%;
-}
-
-.page3__inline .inline__books {
-    width: 50%;
-    float: right;
-    clear: both;
-}
-
 .infoblock__center--text {
     text-align: center;
-}
-
-.inline__mini-text {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-}
-
-.infoblock .inline__rgb {
-    display: inline-block;
-    width: 29%;
-    vertical-align: super;
-}
-
-.inline__img-text {
-    display: inline-block;
-    width: 69%;
-    line-height: 1;
-    padding-left: 5px;
-}
-
-.infoblock__header {
-    overflow: hidden;
-}
-
-.header__left {
-    float: left;
-    padding-right: 25px;
-}
-
-.header__right .bscan--h2 {
-    text-align: left;
 }
 
 .kic-product {
@@ -514,7 +77,7 @@ h4 {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: calc(100% / 6);
+    width: calc(100% / 6.13);
 }
 
 .kic-product .row__title {
@@ -550,9 +113,8 @@ h4 {
     width: calc(100% / 6);
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 0 0 5px 0;
     text-align: center;
-    padding-bottom: 5px;
     vertical-align: middle;
 }
 
@@ -632,10 +194,6 @@ th .table--img {
     height: 13px;
     top: -1px;
     left: -1px;
-}
-
-.green-cicle--after-small {
-    position: relative;
 }
 
 .green-cicle--after-small:after {
@@ -718,148 +276,6 @@ th .table--img {
     font-size: 14px;
 }
 
-.graph {
-    position: relative;
-    text-align: center;
-}
-
-.graph img {
-    width: 90%;
-}
-
-.vertical-text span {
-    display: inline;
-}
-
-.vertical-text {
-    position: absolute;
-    top: 50%;
-    left: -50px;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-.text-area span {
-    display: inline;
-}
-
-.text-area {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.selection {
-    font-size: 13px;
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid;
-    padding: 5px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.selection--bold td {
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.selection td {
-    text-align: center;
-    width: 50px;
-}
-
-.sup-text {
-    font-size: 8px;
-    vertical-align: super;
-    font-weight: normal;
-}
-
-.selection .more-text {
-    width: 96px;
-}
-
-.infoblock .table-text {
-    font-size: 13px;
-    padding: 0;
-    text-align: left;
-}
-
-.country-wrapper {
-    overflow: hidden;
-}
-
-.country {
-    display: inline-block;
-    float: left;
-    width: calc(100% / 5);
-    vertical-align: top;
-}
-
-.infoblock .country__text {
-    font-size: 13px;
-    text-align: center;
-}
-
-.infoblock .history__w1 {
-    text-align: left;
-    width: 65%;
-}
-
-.infoblock .history__w2 {
-    text-align: left;
-    width: 72%;
-}
-
-.history {
-    position: relative;
-    padding-bottom: 30%;
-}
-
-
-.infoblock__line {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.infoblock .line--padding {
-    padding-bottom: 30px;
-}
-
-.line--midle {
-    vertical-align: middle;
-}
-
-.infoblock__line--w40 {
-    width: 40%;
-}
-
-.infoblock__line--w60 {
-    width: calc(60% - 10px);
-}
-
-.infoblock__line--border {
-    padding: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-
-.infoblock .line--bold-text {
-    text-align: center;
-    font-weight: bold;
-}
-
-.line__persent1 {
-    position: relative;
-}
-
-.line__persent4 {
-    position: relative;
-}
-
 .line__persent1:after {
     content: '1% Libraries';
     position: absolute;
@@ -879,6 +295,7 @@ th .table--img {
     width: 99px;
     text-align: center;
 }
+
 .align-right .tabl-star-mini {
     margin-left: 20px;
     font-size: 9px;
@@ -891,22 +308,12 @@ th .table--img {
     vertical-align: text-top;
 }
 
-.infoblock img.click-mini2 {
-    width: 58%;
-}
-
-.bogdan-kostil {
-    position: relative;
-    overflow: hidden;
-    padding: 25px 0;
-}
-
-.infoblock .sitalic{
+.infoblock .sitalic {
     font-style: italic;
     text-align: center;
 }
 
-.row__column .column__image--shorter{
+.row__column .column__image--shorter {
     width: 57%;
 }
 
@@ -916,46 +323,40 @@ th .table--img {
     vertical-align: text-top;
 }
 
-@media all and (max-width: 1880px) and (min-width: 1650px){
+@media all and (max-width: 1880px) and (min-width: 1650px) {
     .table__arow:before {
-
         left: 20px;
-
     }
 }
 
-
-@media all and (max-width: 1651px){
+@media all and (max-width: 1651px) {
     .table__arow:before {
-        left: 0px;
-
+        left: 0;
     }
-    .row__column {
 
+    .row__column {
         min-height: 450px;
     }
 }
 
-
-@media all and (max-width: 1480px){
+@media all and (max-width: 1480px) {
     .table .table--ta-left {
         padding-right: 10px;
     }
 
     .row__column {
-
         min-height: 420px;
     }
 
 }
 
-@media all and (max-width: 1270px) and (min-width: 1201px){
+@media all and (max-width: 1270px) and (min-width: 1201px) {
     .row__column {
         min-height: 350px;
     }
 
     .table .table--ta-left {
-        padding-right: 0px;
+        padding-right: 0;
     }
 }
 
@@ -965,6 +366,6 @@ th .table--img {
     }
 
     .table .table--ta-left {
-        padding-right: 0px;
+        padding-right: 0;
     }
 }
