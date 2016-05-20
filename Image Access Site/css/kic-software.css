@@ -490,10 +490,8 @@ th .table--img {
 }
 
 .tabl-star {
-    margin: 3px 22px;
     font-size: 1.1rem !important;
     vertical-align: text-top;
-    color: #e8383b;
 }
 
 .tabl-star-mini {
@@ -1078,7 +1076,7 @@ div .infoblock__homo {
 
     .infoblock .two-tel__text-top__kic-softwate {
         position: absolute;
-        top: 31px;
+        top: 50px;
         right: 0;
         width: 46%;
         text-align: center;
@@ -1254,9 +1252,9 @@ div .infoblock__homo {
     font-size: 200%;
     background: #000;
     border-radius: 100%;
-    bottom: -9%;
+    bottom: -36px;
     right: 50%;
-    padding: 1% 4%;
+    padding: 2% 4%;
     margin: 0 -3%;
     z-index: 1;
 }
@@ -1497,7 +1495,7 @@ div .infoblock__page-7__block-left {
 
 .infoblock .infoblock__page-9__nav__img {
     float: left;
-    width: 60%;
+    width: 55%;
 }
 
 .infoblock__page-9__nav__li li:first-child {
@@ -1667,7 +1665,7 @@ h2.pod-text {
 }
 
 .tabl-star {
-    margin-left: 20px;
+    margin: 3px -8px 3px 20px;
     font-size: 1.3rem;
     line-height: 1.5rem;
     vertical-align: text-top;
@@ -1892,6 +1890,10 @@ table.table__footer td {
 
     h2.pod-text {
         font-size: 2.2rem;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 390px;
     }
 }
 
@@ -2512,6 +2514,27 @@ p.infoblock__page-5__block-p.--replace {
         margin: -290px 18px 0 0;
     }
 
+    .big-tel {
+        margin-top: -70px;
+    }
+
+    img.infoblock__page-9__nav__img {
+        padding-top: 80px;
+    }
+
+    p.infoblock__page-5__block-p.--replace {
+        margin-right: -150px;
+        line-height: 1.1rem;
+    }
+
+    .infoblock .infoblock__map-planet {
+        width: 45%;
+    }
+
+    .infoblock .infoblock__map-planet {
+        margin: -360px 18px 0 0;
+    }
+
     .infoblock .kic_product_family_littleblock {
         width: auto;
     }
@@ -2536,4 +2559,139 @@ p.infoblock__page-5__block-p.--replace {
 h2.brochure-title-kic-software__blue_label.--fleet {
     font-size: 2.6rem;
     line-height: 2.8rem;
+}
+
+.infoblock .smart_hard_block {
+    border: solid 3px;
+    border-radius: 2%;
+    background: linear-gradient(to bottom, #97a29c, #e2e3e5);
+    margin-top: 40px;
+    min-height: 530px;
+}
+
+.smart_hard_block__to-left {
+    display: inline-block;
+    width: 40%;
+}
+
+.smart_hard_block__to-right {
+    display: inline-block;
+    width: 58%;
+}
+
+.infoblock .smart_scan_img_fax {
+    width: 36%;
+    margin-top: 2%;
+    float: left;
+}
+
+.infoblock .smart_scan_img_fax2 {
+    width: 45%;
+    float: right;
+}
+
+.infoblock .label_smart11 {
+    width: 28%;
+    margin-left: 36%;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    text-align: right;
+    position: absolute;
+    padding-top: 2%;
+}
+
+.infoblock .label_smart12 {
+    width: 19%;
+    margin-left: 35%;
+    margin-top: 21%;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    text-align: right;
+}
+
+.infoblock .label_smart13 {
+    width: 30%;
+    margin-left: 6%;
+    margin-top: -8%;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    text-align: left;
+}
+
+.infoblock .smart_restaurant_img {
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+.resize-fleet-paragraph {
+    font-size: 1.5rem !important;
+    line-height: 2.2rem !important;
+}
+
+.exclusive-feature {
+    float: right;
+    font-style: italic;
+    position: relative;
+}
+
+.exclusive-feature sup {
+    position: absolute;
+    top: 10px;
+    font-size: 1.5rem;
+}
+
+.exclusive-feature i:before {
+    content: '';
+    margin-left: 10px;
+}
+
+@media all and (max-width: 1680px) {
+    .infoblock .smart_hard_block {
+        min-height: 470px;
+    }
+
+    img.infoblock__page-9__nav__img {
+        padding-top: 60px;
+        box-sizing: content-box;
+    }
+
+    div .infoblock__page-5__block-p {
+        margin-top: 12px;
+    }
+
+    p.infoblock__page-5__block-p.--replace {
+        margin-right: -130px;
+        line-height: 2rem;
+    }
+
+    img.two-frames {
+        padding-top: 20px;
+    }
+
+    .one-screen-with-hand-in-border {
+        width: 45% !important;
+        padding: 20px 15px 0 0;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 490px;
+        left: 30px;
+        width: 47%;
+    }
+}
+
+img.click-mini {
+    width: 80%;
+}
+
+@media all and (max-width: 1280px) {
+    .big-tel {
+        margin-top: 20px;
+    }
+
+    .first-paragraph {
+        padding: 20px 0 !important;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 390px;
+        width: 43%;
+    }
 }
