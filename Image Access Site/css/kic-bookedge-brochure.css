@@ -19,7 +19,7 @@
     font-size: 4rem;
     line-height: 4rem;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .infoblock .common-row {
@@ -34,7 +34,7 @@
 }
 
 .infoblock .common-text-p {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .infoblock .column__image {
@@ -152,6 +152,11 @@
 
 }
 
+.infoblock .triangular-section__kic-serves-over-half-text-p {
+    width: 96%;
+    margin-left: 2%;
+}
+
 .infoblock .triangular-section__image {
 
 }
@@ -221,6 +226,7 @@
 .infoblock .common-header-h3--page-3-content-wrapper {
     font-style: italic;
     font-size: 2.4rem;
+    line-height: 2.4rem;
     color: #000000;
     text-shadow: none;
     font-weight: normal;
@@ -347,6 +353,14 @@
     background-size: 100% 100%;
 }
 
+.infoblock .section--background__table-wrapper {
+
+}
+
+.infoblock .table-wrapper__text-p {
+    text-align: left;
+}
+
 .infoblock .section__float-image {
     float: right;
     overflow: hidden;
@@ -439,7 +453,7 @@
 .infoblock .common-header-h2--true-2-touch {
     color: #000;
     font-size: 3.6rem;
-    line-height: 3.8rem;
+    line-height: 3.6rem;
     text-align: left;
     padding: 14px 0 10px;
 }
@@ -486,12 +500,12 @@
     font-style: italic;
     text-align: center;
     font-size: 1.9rem;
-    line-height: 3rem;
+    line-height: 1.9rem;
     width: 63%;
 }
 
 .infoblock .true-2-touch-wrapper__dual-screen-text {
-    margin: 60px 0 0 73%;
+    margin: 90px 0 0 73%;
     font-size: 2rem;
     line-height: 2rem;
 }
@@ -541,7 +555,7 @@
 
 .infoblock .for-public-libraries-section__sub-header {
     font-size: 2.1rem;
-    line-height: 1.2;
+    line-height: 2.1rem;
     margin-left: 3%;
     font-style: italic;
 }
@@ -593,6 +607,7 @@
 
 .infoblock .triangle-pointer {
     font-size: 5rem;
+    line-height: 5rem;
     color: gray;
     display: block;
 }
@@ -658,7 +673,7 @@
     position: absolute;
     content: '';
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
-    top: 575px;
+    top: 538px;
     left: 100px;
     background-size: contain;
     width: 100%;
@@ -670,6 +685,7 @@
     width: 31%;
     display: inline-block;
     font-size: 1.6rem;
+    line-height: 1.6rem;
     padding: 0 5px;
 }
 
@@ -680,6 +696,7 @@
     display: inline-block;
     vertical-align: top;
     font-size: 1.6rem;
+    line-height: 1.6rem;
 }
 
 .infoblock .reservation-app-wrapper__two-tels-section {
@@ -694,6 +711,7 @@
     width: 45%;
     text-align: center;
     font-size: 1.6rem;
+    line-height: 1.6rem;
     font-style: italic;
 }
 
@@ -720,17 +738,18 @@
     color: #000;
     text-shadow: none;
     font-size: 6.4rem;
-    margin: 5% 0 0 0;
+    line-height: 6.4rem;
+    margin-top: 15px;
 }
 
 .infoblock .header-section__sub-header {
     text-align: center;
     color: #8ca1c9;
     font-size: 2.5rem;
+    line-height: 2.5rem;
     text-transform: uppercase;
     padding: 0;
-    line-height: 2.5rem;
-    margin-top: 35px;
+    margin-top: 17px;
     letter-spacing: 0;
     font-style: italic;
 }
@@ -747,14 +766,14 @@
 }
 
 .infoblock .text-section__centered-text--with-padding {
-    padding-top: 65px;
+    padding-top: 75px;
     position: relative;
 }
 
 .infoblock .text-section__centered-text--with-margin {
     position: absolute;
     width: 51%;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .infoblock .kic-fleet-manager-wrapper__middle-content {
@@ -830,8 +849,8 @@
 
 .infoblock .pod-library__header {
     font-size: 2.4rem;
+    line-height: 2.4rem;
     color: #000;
-    line-height: 1.2;
     margin: 0;
     padding: 15px 0;
 }
@@ -852,14 +871,15 @@
 .infoblock .pod-section__text-p {
     width: 90%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
 }
 
 .infoblock .pod-section__text-p {
     width: 95%;
     margin: 10px auto;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
+    font-size: 1.9rem;
+    line-height: 1.9rem;
 }
 
 /* PAGE 10 ****************************************************************************************************** */
@@ -886,8 +906,8 @@
 
 .infoblock .in-case-you-didnt-know-wrapper__sub-header {
     text-align: right;
-    font-size: 2.0rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .infoblock .section__section-header--ICYDK {
@@ -1002,7 +1022,7 @@
     padding-top: 15px;
 }
 
-.common-header-h3--rainbow {
+.infoblock .common-header-h3--rainbow {
     background: #ff0000;
     background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
     background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
@@ -1011,7 +1031,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 2.6rem;
-    line-height: 2.8rem;
+    line-height: 2.6rem;
     text-align: center;
 }
 
@@ -1054,301 +1074,9 @@
     overflow: hidden;
 }
 
-/* PAGE 12 ****************************************************************************************************** */
-
-.infoblock .tech_details_img {
-    width: 50%;
-    margin: 15px 10% 15px 25%;
-}
-
-.tech_details_table {
-    text-align: center;
-}
-
-#bookedge_big_scanner {
-    margin-left: 5%;
-    margin-top: 20px;
-}
-
-.wide_tech_details_table {
-    margin-left: 1%;
-    width: 98%;
-    text-align: center;
-}
-
-.border-table-wrapper {
-    margin-left: 15%;
-    width: 70%;
-}
-
-.border-table-box {
-    padding: 10px 1%;
-    border: 1px solid black;
-}
-
-.tech_details_table th {
-    padding: 5px 0;
-}
-
-.wide_tech_details_table th {
-    padding: 5px 0;
-}
-
-.table__footer td {
-    padding-left: 2%;
-}
-
-.infoblock__page-13__table-bg {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-.infoblock .infoblock__page-13__th {
-    width: 38%;
-    padding: 15px 0;
-}
-
-/* PAGE 13 ****************************************************************************************************** */
-
-.bscan-ill--h2 {
-    font-size: 2.8rem;
-    color: #000;
-    padding: 0;
-    line-height: 2.8rem;
-    margin: 25px 0 15px 0;
-}
-
-.infoblock__center--text {
-    text-align: center;
-}
-
-.kic-product {
-    text-align: right;
-    margin-bottom: 15px;
-}
-
-.kic-product__row {
-    text-align: center;
-    vertical-align: top;
-    display: inline-block;
-    width: calc(100% / 6);
-}
-
-.kic-product .row__title {
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.row__column {
-    padding: 10px 5px 5px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    border-top: 2px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 0 3px 6px #000;
-    min-height: 500px;
-}
-
-.row__column .column__mini-title {
-    font-size: 11px;
-    margin-top: 5px;
-    font-weight: bold;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    line-height: 1.2;
-    padding: 0;
-}
-
-.infoblock .sitalic {
-    font-style: italic;
-    width: 85%;
+.infoblock .capture-area-comparison-wrapper__below-map-text {
+    line-height: 2rem;
     margin-left: 7%;
-    text-align: center;
-}
-
-.table {
-    width: 100%;
-    padding: 20px 0;
-}
-
-.table th {
-    width: calc(100% / 6);
-    height: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 0 0 5px 0;
-}
-
-.table p {
-    text-align: center;
-}
-
-.table-bg {
-    background: rgba(0, 0, 0, 0.1);
-}
-
-.table .table--ta-left {
-    text-align: right;
-    font-size: 12px;
-    padding-right: 20px;
-    width: 180px;
-}
-
-th .table--img {
-    width: 100px;
-    height: 65px;
-}
-
-.cicle {
-    border-radius: 100%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border: 1px solid #4a504e;
-    width: 20px;
-    height: 20px;
-    margin: 0 auto;
-}
-
-.green-cicle {
-    background: #40b149;
-    border-radius: 100%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border: 1px solid #4a504e;
-    width: 20px;
-    height: 20px;
-    margin: 0 auto;
-}
-
-.green-cicle--after {
-    position: relative;
-}
-
-.green-cicle--after:after {
-    position: absolute;
-    content: '';
-    background: #fff;
-    border-radius: 11px 11px 0 0;
-    -moz-border-radius: 11px 11px 0 0;
-    -webkit-border-radius: 11px 11px 0 0;
-    border: 1px solid #4a504e;
-    width: 18px;
-    height: 8px;
-    top: -1px;
-    left: -1px;
-}
-
-.green-cicle--after-big {
-    position: relative;
-}
-
-.green-cicle--after-big:after {
-    position: absolute;
-    content: '';
-    background: #fff;
-    border-radius: 11px 11px 0 0;
-    -moz-border-radius: 11px 11px 0 0;
-    -webkit-border-radius: 11px 11px 5px 5px;
-    border: 1px solid #4a504e;
-    width: 18px;
-    height: 13px;
-    top: -1px;
-    left: -1px;
-}
-
-.green-cicle--after-small:after {
-    position: absolute;
-    content: '';
-    background: #fff;
-    border-radius: 11px 11px 0 0;
-    -moz-border-radius: 11px 11px 0 0;
-    -webkit-border-radius: 11px 11px 0 0;
-    border: 1px solid #4a504e;
-    width: 14px;
-    height: 4px;
-    top: -1px;
-    left: 1px;
-}
-
-.bold-line {
-    font-weight: bold;
-    font-size: 33px;
-}
-
-.table__arrow {
-    position: relative;
-}
-
-.table__arrow:before {
-    content: '';
-    position: absolute;
-    background: url("../images/Bookedge/kic-product-family/arrowtable.png");
-    top: -75px;
-    left: 50%;
-    width: 69px;
-    height: 26px;
-}
-
-.bold-dollar {
-    font-weight: bold;
-}
-
-.dollar-size-mini {
-    font-size: 12px;
-}
-
-.dollar-size-midle {
-    font-size: 20px
-}
-
-.dollar-size-subheight {
-    font-size: 24px;
-}
-
-.dollar-size-height {
-    font-size: 28px
-}
-
-.table-star-fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.table-star {
-    margin-left: 2.5rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    color: #e8383b;
-    padding-left: 1%;
-}
-
-.table-star-mini {
-    margin-left: 2.5rem;
-    font-size: 0.9rem;
-    vertical-align: text-top;
-    color: black;
-    padding-left: 1%;
-}
-
-.align-right {
-    float: right;
-}
-
-.span-block {
-    font-style: italic;
-    padding-bottom: 5px;
-    display: block;
-}
-
-.first-column {
-    width: 200px;
-    text-align: right;
-}
-
-.table__footer {
-    font-size: 14px;
 }
 
 .infoblock .below-map-text__icon {
@@ -1362,13 +1090,302 @@ th .table--img {
     display: inline-block;
 }
 
-/* ************************************************************************************************************** */
+/* PAGE 12 ****************************************************************************************************** */
 
-.infoblock .kic-ts-bullet-margin {
-    margin-left: 3%;
+.infoblock .content-holder__tech-details-image {
+    width: 50%;
+    margin: 15px 10% 15px 25%;
 }
 
-.infoblock .capture-area-comparison-wrapper__below-map-text {
-    line-height: 2rem;
+.infoblock .border-table-wrapper__tech-details-table {
+    text-align: center;
+}
+
+.infoblock .tech-details-table__row-header {
+    padding: 10px 3%;
+    text-align: right;
+}
+
+.infoblock .tech-details-table__row-data {
+    padding: 5px 0;
+    text-align: left;
+}
+
+.infoblock .tech-details-table__table-row-with-bg {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.infoblock .blue-bullet--tech-details-list {
+    margin: 60px 0 0 3%;
+}
+
+.infoblock .table-row-with-bg__table-header {
+    width: 38%;
+}
+
+.infoblock .content-holder__big-bookedge-image {
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.infoblock .border-table-box__widetek-tech-details-table {
+    margin-left: 1%;
+    width: 98%;
+    text-align: center;
+}
+
+.infoblock .border-table-wrapper {
+    margin-left: 15%;
+    width: 70%;
+}
+
+.infoblock .content-holder__border-table-box {
+    padding: 10px 1%;
+    border: 1px solid black;
+}
+
+.infoblock .common-row--tech-details {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100% / 6);
+}
+
+/* PAGE 13 ****************************************************************************************************** */
+
+.infoblock .content-holder__the-kic-product-family-text-p {
+    font-style: italic;
+    width: 85%;
     margin-left: 7%;
+    text-align: center;
+    padding-bottom: 30px;
 }
+
+.infoblock .content-holder__kic-product-wrapper {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.infoblock .common-row--tech-details__row-header {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: bold;
+}
+
+.infoblock .common-row--tech-details__column {
+    padding: 10px 5px 5px 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px #000;
+    min-height: 500px;
+}
+
+.infoblock .column__kic-click-mini-image {
+    width: 53%;
+}
+
+.infoblock .column__small-header {
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    padding: 0;
+}
+
+.infoblock .content-holder__kic-sub-table {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.infoblock .kic-sub-table__th {
+    width: calc(100% / 6);
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0 0 5px 0;
+}
+
+.infoblock .kic-sub-table__th--with-bg {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.infoblock .kic-sub-table__p {
+    text-align: center;
+}
+
+.infoblock .kic-sub-table__th--align-left {
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding-right: 2rem;
+    width: 180px;
+}
+
+.infoblock .th__image {
+    width: 100px;
+    height: 65px;
+}
+
+.infoblock .th__circle {
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.infoblock .th__circle--green {
+    background: #40b149;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 1px solid #4a504e;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.infoblock .circle--green__after {
+    position: relative;
+}
+
+.infoblock .circle--green__after:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 8px;
+    top: -1px;
+    left: -1px;
+}
+
+.infoblock .circle--green__after-big {
+    position: relative;
+}
+
+.infoblock .circle--green__after-big:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 5px 5px;
+    border: 1px solid #4a504e;
+    width: 18px;
+    height: 13px;
+    top: -1px;
+    left: -1px;
+}
+
+.infoblock .circle--green__after-small {
+    position: relative;
+}
+
+.infoblock .circle--green__after-small:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    border-radius: 11px 11px 0 0;
+    -moz-border-radius: 11px 11px 0 0;
+    -webkit-border-radius: 11px 11px 0 0;
+    border: 1px solid #4a504e;
+    width: 14px;
+    height: 4px;
+    top: -1px;
+    left: 1px;
+}
+
+.infoblock .tr__arrow {
+    position: relative;
+}
+
+.infoblock .tr__arrow:before {
+    content: '';
+    position: absolute;
+    background: url("../images/Bookedge/kic-product-family/arrowtable.png") no-repeat;
+    top: -18px;
+    right: 27px;
+    width: 100px;
+    height: 36px;
+    background-size: contain;
+}
+
+.infoblock .th__bold-line {
+    font-weight: bold;
+    font-size: 3.3rem;
+}
+
+.infoblock .th__dollar {
+    font-weight: bold;
+}
+
+.infoblock .th__dollar--mini {
+    font-size: 1.2rem;
+}
+
+.infoblock .th__dollar--middle {
+    font-size: 2rem;
+}
+
+.infoblock .th__dollar--big {
+    font-size: 2.4rem;
+}
+
+.infoblock .th__dollar--huge {
+    font-size: 2.8rem;
+}
+
+.infoblock .p__table-star {
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    color: #e8383b;
+    padding-left: 1%;
+}
+
+.infoblock .p__table-star--mini {
+    margin-left: 2.5rem;
+    font-size: 0.9rem;
+    vertical-align: text-top;
+    color: black;
+    padding-left: 1%;
+}
+
+.infoblock .kic-product-wrapper__features-stars-wrapper {
+    font-style: italic;
+    padding-bottom: 5px;
+    display: block;
+    float: right;
+}
+
+.infoblock .common-features-table__th {
+    width: 200px;
+    text-align: right;
+}
+
+.infoblock .kic-product-wrapper__bscan-ill-header {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    color: #000;
+    padding: 0;
+    margin: 25px 0 15px 0;
+}
+
+.infoblock .kic-product-wrapper__common-features-table {
+    font-size: 14px;
+}
+
+.infoblock .kic-product-wrapper__common-features-table__td {
+    padding: 10px 1%;
+}
+
+/* ************************************************************************************************************** */

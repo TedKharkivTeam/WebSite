@@ -54,9 +54,11 @@
 }
 
 .infoblock_curve_collection {
-    font-size: larger;
+    font-size: 2.5rem;
+    line-height: 1.1;
     text-align: center;
-    color: black;
+    color: #000;
+    font-weight: bold;
 }
 
 .infoblock .infoblock_do_before_2 {
@@ -165,6 +167,10 @@
 .infoblock .content_stabilization1 {
     width: 47%;
     float: left;
+}
+
+.blue-bullet li {
+    padding: 1px 0;
 }
 
 .infoblock .content_stabilization2 {
@@ -356,6 +362,141 @@
     padding-left: 5px;
 }
 
+.infoblock .infoblock__opus-freeflow-logo {
+    width: 35%;
+    padding-left: 5%;
+}
+
+.infoblock .infoblock__opus-freeflow-freedom2 {
+    color: #959595;
+    line-height: 3rem;
+    font-size: 2.8rem;
+}
+
+.infoblock .infoblock__opus-freeflow-photos {
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #959595;
+}
+
+.infoblock .infoblock__opus-freeflow-features-label {
+    float: right;
+    width: 33%;
+    text-align: center;
+    margin-right: 10%;
+    padding-top: 3%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-textblock {
+    margin-left: 4%;
+    width: 40%;
+    float: left;
+    padding-top: 2%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-diagram {
+    float: right;
+    width: 30%;
+    margin-right: 12%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-textblock-part2 {
+    margin-left: 4%;
+    width: 92%;
+    float: left;
+}
+
+.infoblock .infoblock__opus-freeflow-features-label-table {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-scanning {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    float: left;
+    width: 48%;
+    margin-top: 2%;
+
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-scanning td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 4px;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-scanning th {
+    font-size: 2rem;
+    background: #2487D6;
+    font-weight: bold;
+    padding: 4px;
+    color: white;
+}
+
+.infoblock .infoblock__opusfreeflow-page6 {
+    margin-top: 2%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Image_Treatment {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    float: right;
+    width: 48%;
+    margin-top: 2%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Image_Treatment td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 4px;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Image_Treatment th {
+    font-size: 2rem;
+    background: #2487D6;
+    font-weight: bold;
+    padding: 4px;
+    color: white;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Collection {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Collection td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 4px;
+}
+
+.infoblock .infoblock__opus-freeflow-features-table-Collection th {
+    font-size: 2rem;
+    background: #2487D6;
+    font-weight: bold;
+    padding: 4px;
+    color: white;
+}
+
+.infoblock .infoblock__opus-freeflow-features-clear-fix {
+    clear: both;
+}
+
 @media all and (min-width: 1200px) and (max-width: 1400px) {
     .infoblock .block_hierarchical_metadata_table3 {
         float: right;
@@ -366,6 +507,21 @@
         width: 75%;
         float: right;
         padding-top: 0;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-diagram {
+        float: right;
+        width: 45%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-label {
+        float: right;
+        width: 40%;
+        text-align: center;
+        margin-right: 7%;
+        padding-top: 3%;
     }
 
     .infoblock .table2_freeflow {
@@ -416,6 +572,28 @@
         font-size: 2.4rem;
         line-height: 2.6rem;
         margin-left: 13%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-label {
+        float: right;
+        width: 45%;
+        text-align: center;
+        margin-right: 4%;
+        padding-top: 3%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-diagram {
+        float: right;
+        width: 45%;
+        margin-right: 3%;
+        margin-top: 10%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-textblock {
+        margin-left: 4%;
+        width: 45%;
+        float: left;
+        padding-top: 2%;
     }
 
     .versus4 {
