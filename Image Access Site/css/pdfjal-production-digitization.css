@@ -77,7 +77,6 @@
     width: 90%;
 }
 
-
 .infoblock--right {
     text-align: right;
     position: relative;
@@ -162,7 +161,6 @@
 .content__green-arrow li {
     position: relative;
 }
-
 
 .seven-step {
     text-align: center;
@@ -269,7 +267,7 @@
     list-style: none;
 }
 
-.infoblock .blue-doth li{
+.infoblock .blue-doth li {
     line-height: 20px;
 }
 
@@ -399,6 +397,11 @@ h4 {
     color: #000;
     text-align: center;
     font-weight: normal;
+}
+
+.infoblock .brochure-title-left {
+    line-height: 2.2rem;
+    padding: 0 0 10px;
 }
 
 .two-step--width1 {
@@ -1136,6 +1139,7 @@ h4 {
     .infoblock__line {
         vertical-align: top;
     }
+
     .header__left {
         padding-bottom: 20px;
     }

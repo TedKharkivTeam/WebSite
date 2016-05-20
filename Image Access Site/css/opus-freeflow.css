@@ -54,9 +54,11 @@
 }
 
 .infoblock_curve_collection {
-    font-size: larger;
+    font-size: 2.5rem;
+    line-height: 1.1;
     text-align: center;
-    color: black;
+    color: #000;
+    font-weight: bold;
 }
 
 .infoblock .infoblock_do_before_2 {
@@ -165,6 +167,10 @@
 .infoblock .content_stabilization1 {
     width: 47%;
     float: left;
+}
+
+.blue-bullet li {
+    padding: 1px 0;
 }
 
 .infoblock .content_stabilization2 {
