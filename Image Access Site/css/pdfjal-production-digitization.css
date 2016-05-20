@@ -62,7 +62,7 @@
     font-size: 2.8rem;
     color: #193791;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     font-style: italic;
 }
 
@@ -400,8 +400,8 @@ h4 {
 }
 
 .infoblock .brochure-title-left {
-    line-height: 2.2rem;
-    padding: 0 0 10px;
+    line-height: 3.8rem;
+    font-size: 3.6rem;
 }
 
 .two-step--width1 {
