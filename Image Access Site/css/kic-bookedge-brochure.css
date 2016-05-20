@@ -1076,21 +1076,21 @@
 
 /* PAGE 12 ****************************************************************************************************** */
 
-.infoblock .tech_details_img {
+.infoblock .content-holder__tech-details-image {
     width: 50%;
     margin: 15px 10% 15px 25%;
 }
 
-.tech_details_table {
+.border-table-wrapper__tech-details-table {
     text-align: center;
 }
 
-#bookedge_big_scanner {
+.infoblock .content-holder__big-bookedge-image {
     margin-left: 5%;
     margin-top: 20px;
 }
 
-.wide_tech_details_table {
+.border-table-box__widetek-tech-details-table {
     margin-left: 1%;
     width: 98%;
     text-align: center;
@@ -1101,16 +1101,16 @@
     width: 70%;
 }
 
-.border-table-box {
+.content-holder__border-table-box {
     padding: 10px 1%;
     border: 1px solid black;
 }
 
-.tech_details_table th {
+.border-table-wrapper__tech-details-table th {
     padding: 5px 0;
 }
 
-.wide_tech_details_table th {
+.border-table-box__widetek-tech-details-table th {
     padding: 5px 0;
 }
 
@@ -1118,11 +1118,11 @@
     padding: 10px 1%;
 }
 
-.infoblock__page-13__table-bg {
+.tech-details-table__table-row-with-bg {
     background: rgba(0, 0, 0, 0.1);
 }
 
-.infoblock .infoblock__page-13__th {
+.infoblock .table-row-with-bg__th {
     width: 38%;
     padding: 15px 0;
 }
@@ -1386,7 +1386,7 @@ th .table--img {
 
 /* ************************************************************************************************************** */
 
-.infoblock .kic-ts-bullet-margin {
+.infoblock .blue-bullet--tech-details-list {
     margin-left: 3%;
 }
 
