@@ -45,8 +45,8 @@ h5 {
     float: right;
 }
 
-.infoblock__white-pages {
-    width: 80%;
+.infoblock .infoblock__white-pages {
+    width: 65%;
     margin: 0 auto;
     display: block;
 }
@@ -401,6 +401,10 @@ h5 {
         font-size: 1rem;
     }
 
+    .infoblock .infoblock__white-pages {
+        width: 85%;
+    }
+
     .infoblock .block_hierarchical_metadata_table {
         width: 25%;
         float: left;
@@ -411,6 +415,9 @@ h5 {
         width: 67%;
         float: right;
         padding-top: 3rem;
+    }
+    .infoblock__highlights-wrapper ul {
+        padding-left: 4%;
     }
 
     .infoblock .table2_freeflow {
