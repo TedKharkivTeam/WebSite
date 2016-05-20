@@ -664,7 +664,7 @@ th .table--img {
 }
 
 .paragraph-padding {
-    padding-bottom: 10px;
+    padding-bottom: 70px !important;
 }
 
 .double-wrap__column {
