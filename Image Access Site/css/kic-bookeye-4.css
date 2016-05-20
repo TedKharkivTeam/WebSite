@@ -952,8 +952,8 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
-    padding-top: 40px;
     position: absolute;
+    padding-top: 10px;
     line-height: 2.4rem;
     width: 37%;
 }
