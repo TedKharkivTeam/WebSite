@@ -639,16 +639,6 @@ th .table--img {
     padding-left: 20px;
 }
 
-.center__text--padding {
-    padding-top: 160px;
-    position: relative;
-}
-
-.center__text--margin {
-    padding-top: 30px;
-    position: absolute;
-    width: 37%;
-}
 
 .infoblock__nav {
     padding-top: 20px;
@@ -796,7 +786,7 @@ h2.pod-text {
     text-align: center;
 }
 
-@media all and (max-width: 1366px) {
+@media (max-width: 1366px) {
     .pbd--frame img {
         width: 50%;
     }
@@ -1162,7 +1152,7 @@ h2.pod-text {
 .infoblock__center {
     overflow: hidden;
     margin-top: -50px;
-    line-height: 1.8;
+    /*line-height: 1.8;*/
 }
 
 .infoblock .center__img {
@@ -1171,16 +1161,18 @@ h2.pod-text {
 }
 
 .infoblock .center__text--padding {
-    padding-top: 60px;
     position: relative;
     width: 38%;
+    margin-top: 20px;
 }
 
 .infoblock .center__text--margin {
     width: 52%;
-    padding-top: 0;
+    position: absolute;
 }
-
+.infoblock .center__text{
+    padding-top:60px;
+}
 .infoblock__nav {
     padding-top: 20px;
     overflow: hidden;
@@ -1643,13 +1635,13 @@ h2.pod-text {
     background-size: contain;
 }
 
-@media all and (max-width: 1870px) {
+@media (max-width: 1870px) {
     .for-study-p {
         margin-top: 0;
     }
 }
 
-@media all and (max-width: 1770px) {
+@media (max-width: 1770px) {
     .infoblock .label_smart {
         position: relative;
     }
@@ -1659,7 +1651,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1750px) {
+@media (max-width: 1750px) {
     .center__text--margin {
         padding-top: 0;
     }
@@ -1673,7 +1665,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1700px) {
+@media (max-width: 1700px) {
     .infoblock .true2_block_3 {
         width: 40%;
         margin-left: 12%;
@@ -1688,7 +1680,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1600px) {
+@media (max-width: 1600px) {
     html {
         font-size: 55%;
     }
@@ -1784,14 +1776,14 @@ h2.pod-text {
 
 }
 
-@media all and (max-width: 1600px) and (min-width: 1460px) {
+@media (max-width: 1600px) and (min-width: 1460px) {
     .table__arow:before {
         left: 20px;
     }
 
 }
 
-@media all and (max-width: 1459px) and (min-width: 1360px) {
+@media (max-width: 1459px) and (min-width: 1360px) {
     .table__arow:before {
         left: 10px;
     }
@@ -1818,7 +1810,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1400px) {
+@media (max-width: 1400px) {
     .two-step:after {
         bottom: 0;
         width: 26px;
@@ -1830,44 +1822,45 @@ h2.pod-text {
         width: 66px;
         height: 35px;
     }
+
 }
 
-@media all and (max-width: 1359px) and (min-width: 1260px) {
+@media (max-width: 1359px) and (min-width: 1260px) {
     .table__arow:before {
         left: 0;
     }
 }
 
-@media all and (max-width: 1259px) and (min-width: 1200px) {
+@media (max-width: 1259px) and (min-width: 1200px) {
     .table__arow:before {
         width: 54px;
         left: 0;
     }
 }
 
-@media all and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .table__arow:before {
         left: 0;
     }
 }
 
-@media all and (max-width: 1465px) and (min-width: 1387px) {
+@media (max-width: 1465px) and (min-width: 1387px) {
     .infoblock__nav {
         margin-top: 5%;
     }
 }
 
-@media all and (max-width: 1420px) {
+@media (max-width: 1420px) {
     .infoblock .two-tel__text-top {
         font-size: 1.6rem;
         line-height: 1.8rem;
     }
 }
 
-@media all and (max-width: 1386px) {
+@media (max-width: 1386px) {
     .infoblock p {
         font-size: 1.4rem;
-        line-height: 1.6rem;
+        /*line-height: 1.6rem;*/
 
     }
 
@@ -1940,15 +1933,18 @@ h2.pod-text {
     .infoblock .true2_label {
         line-height: 2.6rem;
     }
+    .infoblock .center__text--padding {
+        margin-top: 20px;
+    }
 }
 
-@media all and (max-width: 1287px) and (min-width: 1200px) {
+@media (max-width: 1287px) and (min-width: 1200px) {
     .infoblock__nav {
         padding-top: 10px;
     }
 }
 
-@media all and (max-width: 1242px) and (min-width: 1200px) {
+@media (max-width: 1242px) and (min-width: 1200px) {
     .infoblock .click_click_mini {
         padding-left: 0;
     }
@@ -1959,13 +1955,13 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1200px) and (min-width: 1072px) {
+@media (max-width: 1200px) and (min-width: 1072px) {
     .infoblock .center__text--margin {
         margin-top: 5%;
     }
 }
 
-@media all and (max-width: 1071px) {
+@media (max-width: 1071px) {
     .infoblock .center__text--margin {
         margin-top: 0;
     }
@@ -1985,13 +1981,13 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1124px) and (min-width: 1092px) {
+@media (max-width: 1124px) and (min-width: 1092px) {
     .infoblock .label_smart13 {
         margin-top: -15%;
     }
 }
 
-@media all and (max-width: 1770px) {
+@media (max-width: 1770px) {
     .infoblock__page-11__for-study-p {
         margin-top: -117px;
         margin-right: 11%;
@@ -2002,20 +1998,20 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1685px) {
+@media (max-width: 1685px) {
     .infoblock__page-11-content-p {
         padding: 33px 0;
     }
 }
 
-@media all and (max-width: 1590px) {
+@media (max-width: 1590px) {
     .infoblock__page-11__for-study-p {
         margin-top: -113px;
         margin-right: 2%;
     }
 }
 
-@media all and (max-width: 1488px) {
+@media (max-width: 1488px) {
     .infoblock__page-11__for-study-p {
         width: 115px;
         float: right;
@@ -2023,7 +2019,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1370px) {
+@media (max-width: 1370px) {
     .infoblock__page-11-content-p {
         padding: 6px 0;
     }
@@ -2051,7 +2047,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1250px) {
+@media (max-width: 1250px) {
     .infoblock__page-11__for-study-p {
         width: 111px;
     }
