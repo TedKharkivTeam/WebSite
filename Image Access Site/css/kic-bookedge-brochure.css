@@ -896,7 +896,7 @@
 }
 
 .infoblock .column__text-p {
-    padding: 15px 0;
+    padding: 12px 0;
 }
 
 .infoblock .column__enhance-reports-image {
@@ -914,7 +914,7 @@
 }
 
 .infoblock .section__many-citizens-text {
-    padding: 10px;
+    padding: 0 10px;
     font-style: italic;
     display: inline-block;
 }
@@ -940,92 +940,52 @@
 }
 
 .infoblock .column__personal-and-family-documents-image {
-    width: 73%;
-    padding-top: 25px;
+    width: 64%;
 }
 
 .infoblock .column__scan-large-maps-image {
     width: 79%;
-    margin: 10px auto 0 0;
+    margin: 10px auto 5px 0;
     display: block;
 }
 
 .infoblock .column__library-patrons-text {
-    margin: 35px 7% 0 -15%;
+    margin: 0 5% 0 -15%;
 }
 
 /* PAGE 11 ****************************************************************************************************** */
 
-.infoblock__page-12__double-wrap {
-    overflow: hidden;
+.infoblock .content-holder__bookedge-vs-copiers-wrapper {
+
 }
 
-.infoblock__page-12__double__content-1 {
-    padding: 5px 10px;
-    overflow: inherit;
-}
-
-.infoblock__page-12__double-wrap__column {
-    float: left;
+.infoblock .common-row__column--BEvsC {
     width: 47%;
     padding-left: 1%;
 }
 
-.infoblock__page-12__double-wrap figure {
+.infoblock .column__adf-attachment-figure {
     width: 50%;
     float: left;
     margin: 0;
     padding: 5px 1%;
 }
 
-.infoblock__page-12__double-wrap figure img, .infoblock .diagram {
+.infoblock .adf-attachment-figure__image, .infoblock .diagram {
     width: 80%;
     height: 80%;
     display: block;
     margin: 0 auto;
 }
 
-.infoblock__page-12__double-wrap figure figcaption {
+.infoblock .adf-attachment-figure__description {
     text-align: center;
     font-size: 1.4rem;
     line-height: 1.4rem;
     padding-top: 15px;
 }
 
-.infoblock .infoblock__page-12__double__double-p {
-    width: 50%;
-    float: left;
-}
-
-.infoblock .row__column--custom {
-    width: 95%;
-}
-
-.infoblock .infoblock__page-12__bookeye-vs-copiers__span {
-    font-weight: normal;
-    text-align: center;
-    font-style: italic;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-}
-
-.infoblock .infoblock__page-12__bookeye-vs-copiers__strong {
-    text-align: center;
-    display: block;
-    font-size: 2.2rem;
-    line-height: 2.4rem;
-}
-
-.infoblock__page-12__double-content__text-and-picture-wrapper {
-    overflow: hidden;
-}
-
-.infoblock__page-12__column__bookeye-scans {
-    width: 90%;
-    margin-left: 5%;
-}
-
-.infoblock__page-12__rainbow-text {
+.common-header-h3--rainbow {
     background: #ff0000;
     background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
     background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
@@ -1036,6 +996,45 @@
     font-size: 2.6rem;
     line-height: 2.8rem;
     text-align: center;
+}
+
+.infoblock .common-row__column--bottles-of-ink-image-wrapper {
+    width: 35%;
+}
+
+.infoblock .common-row__column--bottles-of-ink-text-wrapper {
+    width: 55%;
+    margin: 0;
+}
+
+.infoblock .column__bookedge-vs-copiers-section {
+    padding: 5px 10px;
+}
+
+.infoblock .bookedge-vs-copiers-section__sub-header {
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    padding: 5px 0;
+}
+
+.infoblock .bookedge-vs-copiers-section__header {
+    text-align: center;
+    display: block;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+}
+
+.infoblock .blue-bullet--BvsC {
+    margin-left: 10%;
+    width: 85%;
+}
+
+.infoblock .column__capture-area-comparison-wrapper {
+    overflow: hidden;
 }
 
 /* PAGE 12 ****************************************************************************************************** */
@@ -1335,7 +1334,7 @@ th .table--img {
     font-size: 14px;
 }
 
-.infoblock .capture-area-comparison-icon {
+.infoblock .below-map-text__icon {
     width: 20px;
     height: 20px;
     background: #000;
@@ -1352,7 +1351,7 @@ th .table--img {
     margin-left: 3%;
 }
 
-.infoblock .capture-area-comparison-below-map-text {
+.infoblock .capture-area-comparison-wrapper__below-map-text {
     line-height: 2rem;
     margin-left: 7%;
 }
