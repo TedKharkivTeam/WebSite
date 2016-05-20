@@ -505,10 +505,6 @@ h4 {
     text-align: left;
 }
 
-.infoblock .rhomb {
-    list-style-image: url("../images/rhomb.png");
-}
-
 .kic-product {
     text-align: right;
     padding-bottom: 15px;
@@ -823,16 +819,6 @@ th .table--img {
     padding-bottom: 30%;
 }
 
-.history:after {
-    content: '';
-    position: absolute;
-    background: url("../images/JPGs for BSCAN ILL/famili-scan.png") no-repeat;
-    background-size: contain;
-    width: 90%;
-    bottom: -7%;
-    right: 0;
-    height: 90%;
-}
 
 .infoblock__line {
     display: inline-block;
