@@ -30,7 +30,9 @@ h3 {
 }
 
 .infoblock__label-search-on {
-    margin-top: -10%;
+    margin-top: -17%;
+    width: 100%;
+    position: absolute;
 }
 
 .infoblock__page-3-italic-label {
@@ -639,7 +641,6 @@ th .table--img {
     padding-left: 20px;
 }
 
-
 .infoblock__nav {
     padding-top: 20px;
     overflow: hidden;
@@ -916,6 +917,10 @@ h2.pod-text {
     display: block;
 }
 
+.infoblock .infoblock__click_mini_label {
+    font-size: 3.2rem;
+}
+
 .infoblock .personal-document {
     padding: 40px 0 0 0;
 }
@@ -928,6 +933,7 @@ h2.pod-text {
 #copy-diagram {
     float: left;
     width: 30%;
+    padding-bottom: 40px;
 }
 
 #fax-diagram {
@@ -937,7 +943,7 @@ h2.pod-text {
 
 #hand-with-yellow-coin {
     float: left;
-    width: 48%;
+    width: 32%;
     padding-right: 5px;
 }
 
@@ -999,8 +1005,9 @@ h2.pod-text {
 }
 
 .infoblock .images--hand {
-    width: 50%;
+    width: 35%;
     float: left;
+    padding-bottom: 10px;
 }
 
 .column__title {
@@ -1009,6 +1016,11 @@ h2.pod-text {
     margin: 0 auto;
     padding: 0;
     line-height: 1;
+}
+
+.infoblock .infoblock__click_mini {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .column__number1 {
@@ -1074,6 +1086,7 @@ h2.pod-text {
     font-size: 2.4rem;
     text-align: center;
     line-height: 1;
+    padding-top: 20px;
 }
 
 .infoblock .two_newspapers {
@@ -1170,9 +1183,11 @@ h2.pod-text {
     width: 52%;
     position: absolute;
 }
-.infoblock .center__text{
-    padding-top:60px;
+
+.infoblock .center__text {
+    padding-top: 60px;
 }
+
 .infoblock__nav {
     padding-top: 20px;
     overflow: hidden;
@@ -1251,12 +1266,11 @@ h2.pod-text {
 }
 
 .infoblock .true2_label {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
     text-align: center;
     margin-left: 5%;
-    margin-top: 0;
 }
 
 .infoblock .true2_block_usb {
@@ -1272,6 +1286,7 @@ h2.pod-text {
     width: 30%;
     margin-left: 15%;
     font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    padding-top: 30px;
 }
 
 .infoblock .kic_div .true2_two_screens {
@@ -1330,9 +1345,7 @@ h2.pod-text {
     color: #8ca1c9;
     font-size: 2.5rem;
     text-transform: uppercase;
-    padding: 0;
     line-height: 2.5rem;
-    margin-top: 25px;
     letter-spacing: 0;
     font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
@@ -1933,6 +1946,7 @@ h2.pod-text {
     .infoblock .true2_label {
         line-height: 2.6rem;
     }
+
     .infoblock .center__text--padding {
         margin-top: 20px;
     }
@@ -1970,6 +1984,20 @@ h2.pod-text {
         float: left;
         width: 60%;
         padding-top: 35px;
+    }
+
+    .infoblock .infoblock__click_mini_label {
+        font-size: 2.4rem;
+    }
+
+    #fax-diagram {
+        float: right;
+        width: 28%;
+        padding-bottom: 30px;
+    }
+
+    #copy-diagram {
+        padding-bottom: 75px;
     }
 
     .infoblock .li--width {
@@ -2030,6 +2058,15 @@ h2.pod-text {
         height: 13%;
         padding-right: 10px;
         padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    #fax-diagram {
+        padding-bottom: 10px;
+    }
+
+    .infoblock .infoblock__click_mini_label {
+        font-size: 2.6rem;
     }
 
     .infoblock .infoblock__label__searchable2 {
