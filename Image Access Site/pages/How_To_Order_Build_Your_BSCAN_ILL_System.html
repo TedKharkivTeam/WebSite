@@ -2,68 +2,2092 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Build Your BSCAN ILL System(s) :: Image Access 2016</title>
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/how-to-order.css">
+    <link rel="shortcut icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/how-ro-order-build-your-bscan-ill.css">
+    <script src="../js/jquery-1.12.2.min.js"></script>
+    <script src="../js/include.js"></script>
+    <script src="../js/dlsg-bscanbuild.js"></script>
 
-    <link href="../css/kic.com.style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png">
+    <script src="../old-script/jquery.formatCurrency-1.4.0.min.js"></script>
 
-    <link href="../css/kic.com.list-nav.css" rel="stylesheet" type="text/css" />
-    <link href="../css/scroll-slide.css" rel="stylesheet" type="text/css" />
-    <link href="../css/tabs.css" rel="stylesheet" type="text/css" />
-    <link href="../css/slidetabs.css" rel="stylesheet" type="text/css" />
-    <link href="../css/jquery-ui.css" rel="stylesheet" type="text/css">
-    <link href="../css/kicbuild.css" rel="stylesheet" type="text/css">
-    <link href="../css/kicfeatures.css" rel="stylesheet" type="text/css" />
-    <link href="../css/kicvalue.css" rel="stylesheet" type="text/css" />
-    <link href="../css/smoothDivScroll.css" rel="Stylesheet" type="text/css" />
+    <!--<link href="../old-style/style.css" rel="stylesheet">-->
+    <!--<link href="../old-style/list-nav.css" rel="stylesheet">-->
+    <!--<link href="../old-style/scroll-slide.css" rel="stylesheet">-->
+    <!--<link href="../old-style/tabs.css" rel="stylesheet">-->
+    <!--<link href="../old-style/slidetabs.css" rel="stylesheet">-->
+    <!--<link href="../old-script/jqueryUI/themes/base/jquery-ui.css" rel="stylesheet">-->
+    <!--<link href="../old-style/bscanbuild.css" rel="stylesheet">-->
+    <!--<link href="../css/jquery-ui.css" rel="stylesheet">-->
 
-    <script src="../js/jquery-1.12.2.min.js" type="text/javascript"></script>
-    <script src="../js/include.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="../js/jquery.tools.min.1.2.7.full.js"></script>
-    <script type="text/javascript" src="../js/jquery.cycle.js"></script>
-    <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.validate-methods.min.js"></script>
-    <script type="text/javascript" src="../js/jshashtable-2.1.js"></script>
-    <script type="text/javascript" src="../js/jquery.numberformatter-1.2.3.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.formatCurrency-1.4.0.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.sortElements.js"></script>
-    <script type="text/javascript" src="../js/jquery.ui.core.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.effects.core.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.effects.shake.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.ui.widget.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.ui.mouse.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.ui.slider.min.js"></script>
-    <script type="text/javascript" src="../js/highcharts.js"></script>
-    <script type="text/javascript" src="../js/kic-feature_pie.js"></script>
-    <script type="text/javascript" src="../js/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.kinetic.js"></script>
-    <script type="text/javascript" src="../js/jquery.smoothdivscroll-1.3-min.js"></script>
-
-    <style>
-        div.content iframe {
-            margin-top: 17px;
-            width: 100%;
-            height: 1400px;
-        }
-    </style>
+    <!--<script src="../old-script/jquery.min.js"></script>-->
+    <!--<script src="../old-script/highcharts.js"></script>-->
+    <!--<script src="../old-script/jquery.cycle.js"></script>-->
+    <!--<script src="../old-script/jquery.kinetic.js"></script>-->
+    <!--<script src="../old-script/jquery.mousewheel.min.js"></script>-->
+    <!--<script src="../old-script/jquery.sortElements.js"></script>-->
+    <!--<script src="../old-script/jquery.tools.min.1.2.7.full.js"></script>-->
+    <!--<script src="../old-script/jquery.validate-methods.min.js"></script>-->
+    <!--<script src="../old-script/jquery.validate.min.js"></script>-->
+    <!--<script src="../old-script/jshashtable-2.1.js"></script>-->
+    <!--<script src="../old-script/jqueryUI/jquery.ui.core.min.js"></script>-->
+    <!--<script src="../old-script/jqueryUI/jquery.effects.core.min.js"></script>-->
+    <!--<script src="../old-script/jqueryUI/jquery.effects.shake.min.js"></script>-->
+    <!--<script src="../old-script/jqueryUI/jquery.ui.widget.min.js"></script>-->
+    <!--<script src="../old-script/jqueryUI/jquery.ui.mouse.min.js"></script>-->
+    <!--<script src="../old-script/jqueryUI/jquery.ui.slider.min.js"></script>-->
 </head>
 <body>
-    <header>
-        <div id="includeHeader"></div>
-    </header>
-    <div class="content">
-        <iframe src="../build-your-bscan-ill-frame.html"></iframe>
+<header>
+    <div id="includeHeader"></div>
+</header>
+<div class="content">
+    <div class="viewport" id="build_your_bscan">
+        <div class="intro"><h1>Build Your BSCAN ILL</h1>
+            <p class="warning">You must have Javascript enabled to use the Build Your BSCAN ILL tool.</p>
+            <div id="notifier" class="hide"><p></p></div>
+            <p>Use the BSCAN ILL System Builder to customize BSCAN ILL scanning systems to suit your library's needs.
+                You can configure up to five different systems and get an estimated price, including any quantity or
+                institutional discounts.</p>
+            <p>Please call us at +1-800-378-5432 to request your institution's discount code, and ask about any
+                additional discounts that may apply.</p>
+        </div>
+        <div class="page-summary">
+            <div class="flabel">
+                <p class="caption">Call For Institutional Discount Pricing</p>
+            </div>
+            <div class="sys-count">
+                <label for="qty_edge"><p>BookEdge Systems</p></label>
+                <input class="qty BookEdge" id="qty_edge" size="3" value="0" readonly="readonly" tabindex="-1">
+                <label for="qty_click_mini"><p>Click Mini Systems</p></label>
+                <input class="qty ClickMini" id="qty_click_mini" size="3" value="0" readonly="readonly" tabindex="-1">
+                <label for="qty_eye4v3"><p>Bookeye 4v3 Systems</p></label>
+                <input class="qty Bookeye4v3" id="qty_eye4v3" size="3" value="0" readonly="readonly" tabindex="-1">
+                <label for="qty_eye4v2"><p>Bookeye 4v2 Systems</p></label>
+                <input class="qty Bookeye4v2" id="qty_eye4v2" size="3" value="0" readonly="readonly" tabindex="-1">
+                <label for="qty_eye4v1"><p>Bookeye 4v1 Systems</p></label>
+                <input class="qty Bookeye4v1" id="qty_eye4v1" size="3" value="0" readonly="readonly" tabindex="-1">
+                <label for="qty_wt25"><p>WideTek 25 Systems</p></label>
+                <input class="qty WT25" id="qty_wt25" size="3" value="0" readonly="readonly" tabindex="-1">
+                <label for="qty_BECM"><p>Combo Systems</p></label>
+                <input class="qty BECM" id="qty_BECM" size="3" value="0" readonly="readonly" tabindex="-1">
+                <input class="qty all" name="qty_all" size="3" value="0" type="hidden">
+                <input class="qty previous" name="qty_previous" size="3" value="0" type="hidden">
+            </div>
+            <div class="system-summary">
+                <div class="list_price">
+                    <label for="list_price_1">
+                        <p>Total List Price</p>
+                    </label>
+                    <input id="list_price_1" size="9" value="" readonly="readonly" tabindex="-1">
+                </div>
+                <div class="discount_amt">
+                    <label for="disc_amt_1">
+                        <p>Total Discount</p>
+                    </label>
+                    <input id="disc_amt_1" size="9" value="" readonly="readonly" tabindex="-1">
+                </div>
+                <div class="discount_price">
+                    <label for="disc_price_1">
+                        <p>Total Discount Price</p>
+                    </label>
+                    <input id="disc_price_1" size="9" value="" readonly="readonly" tabindex="-1">
+                </div>
+            </div>
+        </div>
+        <div class="qty-disc-table hide"></div>
+        <div class="formset">
+            <form class="build-a-bscan_form">
+                <input name="_recipients" type="hidden" value="contactus@dlsg.net, todd.rowe@dlsg.net">
+                <input name="_subject" type="hidden" value="Message from build-a-bscan.html">
+                <input name="_redirectUrl" type="hidden" value="/thankyou.html">
+                <!-- system #1-->
+                <div class="build-fieldset print" id="build-a-bscan_1">
+                    <fieldset>
+                        <legend class="mint">BSCAN ILL Configuration One</legend>
+                        <div class="options">
+                            <div class="models">
+                                <p class="label">Choose Your Scanner</p>
+                                <div class="model BookEdge">
+                                    <p>BookEdge</p>
+                                    <img src="../images/KIC_Build/Mini_BookEdge.jpg" alt="">
+                                    <input type="radio" name="model_1" value="BookEdge">
+                                </div>
+                                <div class="model ClickMini">
+                                    <p>Click Mini</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini-ill.jpg" alt="">
+                                    <input type="radio" name="model_1" value="ClickMini">
+                                </div>
+                                <div class="model Bookeye4v3">
+                                    <p>Bookeye 4V3</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V3-ill.jpg" alt="">
+                                    <input type="radio" name="model_1" value="Bookeye4v3">
+                                </div>
+                                <div class="model Bookeye4v2">
+                                    <p>Bookeye 4V2</p>
+                                    <img src="../images/KIC_Build/Mini_BE4.jpg" alt="">
+                                    <input type="radio" name="model_1" value="Bookeye4v2">
+                                </div>
+                                <div class="model Bookeye4v1">
+                                    <p>Bookeye 4V1</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V1.jpg" alt="">
+                                    <input type="radio" name="model_1" value="Bookeye4v1">
+                                </div>
+                                <div class="model WT25">
+                                    <p>WideTek 25</p>
+                                    <img src="../images/KIC_Build/Mini_WT25.jpg" alt="">
+                                    <input type="radio" name="model_1" value="WT25">
+                                </div>
+                                <div class="model BECM">
+                                    <p>Combo</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini_BookEdge_Combo.jpg" alt="">
+                                    <input type="radio" name="model_1" value="BECM">
+                                </div>
+                            </div>
+                            <div class="features">
+                                <p class="label">Choose Optional Feature(s)</p>
+                                <div class="feature colorup">
+                                    <input class="color" type="checkbox" name="feature_color_1" value="color">
+                                    <p>Color (upgrade from grayscale)</p>
+                                </div>
+                                <div class="feature ocr">
+                                    <input class="ocr" type="checkbox" name="feature_ocr_1" value="OCR">
+                                    <p>Searchable PDF (OCR)</p>
+                                </div>
+                                <div class="feature dualpc">
+                                    <input class="dualpc" type="checkbox" name="feature_dualpc_1" value="dualpc">
+                                    <p>Touch & View Monitors</p>
+                                </div>
+                                <div class="feature pc">
+                                    <input class="pc" type="checkbox" name="feature_pc_1" value="PC">
+                                    <p>Single Touch Monitor</p>
+                                </div>
+                                <div class="feature dualvideo">
+                                    <input class="dualvideo" type="checkbox" name="feature_dualvideo_1"
+                                           value="dualvideo">
+                                    <p>Intel PC with Dual Video</p>
+                                </div>
+                                <div class="feature neckview">
+                                    <input class="neckview" type="checkbox" name="feature_neckview_1" value="neckview">
+                                    <p>View Monitor on Neck</p>
+                                </div>
+                                <div class="feature footpedal">
+                                    <input class="footpedal" type="checkbox" name="feature_footpedal_1"
+                                           value="footpedal">
+                                    <p>Foot Pedal</p>
+                                </div>
+                                <div class="feature dpi600">
+                                    <input class="dpi600" type="checkbox" name="feature_dpi600_1" value="dpi600">
+                                    <p>600dpi (upgrade from 400dpi)</p>
+                                </div>
+                                <div class="feature freeflowlite">
+                                    <input class="freeflowlite" type="checkbox" name="feature_freeflowlite_1"
+                                           value="freeflowlite">
+                                    <p>Free Flow Lite Upgrade</p>
+                                </div>
+                                <div class="feature freeflow">
+                                    <input class="freeflow" type="checkbox" name="feature_freeflow_1" value="freeflow">
+                                    <p>Free Flow Upgrade</p>
+                                </div>
+                                <div class="feature addlic">
+                                    <input class="addlic" type="checkbox" name="feature_addlic_1" value="addlic">
+                                    <p>Additional BSCAN ILL license</p>
+                                </div>
+                            </div>
+                            <div class="services">
+                                <p class="label">Choose Your Service Plan
+                                </p>
+                                <div class="service one">
+                                    <input type="radio" name="service_1" value="one">
+                                    <p>12 Months</p>
+                                </div>
+                                <div class="service three">
+                                    <input type="radio" name="service_1" value="three">
+                                    <p>36 Months
+                                        <span class="caption">(Add'l 4 Months Free)</span>
+                                    </p>
+                                </div>
+                                <div class="service five">
+                                    <input type="radio" name="service_1" value="five" checked>
+                                    <p>60 Months
+                                        <span class="caption">(Add'l 8 Months Free)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <div class="img-heading">
+                                <p></p>
+                            </div>
+                            <!-- SCANNER's BIG IMAGES  -->
+                            <div class="img-model print BookEdge nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25.jpg" alt="">
+                            </div>
+                            <div class="img-model print BookEdge dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BookEdge nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="logotype bscan">
+                            <img src="../images/KIC_Build/BSCAN_ILL_Logo.jpg" alt="BSCAN logo">
+                        </div>
+                        <div class="summary">
+                            <div class="nameplate BookEdge hide">
+                                <p>BSCAN ILL BookEdge</p>
+                            </div>
+                            <div class="nameplate ClickMini hide">
+                                <p>BSCAN ILL ClickMini</p>
+                            </div>
+                            <div class="nameplate Bookeye4v3 hide">
+                                <p>BSCAN ILL Bookeye 4 V3</p>
+                            </div>
+                            <div class="nameplate Bookeye4v2 hide">
+                                <p>BSCAN ILL Bookeye 4 V2</p>
+                            </div>
+                            <div class="nameplate Bookeye4v1 hide">
+                                <p>BSCAN ILL Bookeye 4 V1</p>
+                            </div>
+                            <div class="nameplate WT25 hide">
+                                <p>BSCAN ILL WideTek 25</p>
+                            </div>
+                            <div class="nameplate BECM hide">
+                                <p>BSCAN ILL Combo</p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="baseprice list">
+                                <p class="label">List Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option OCR hide">
+                                <p class="label">Searchable PDF (OCR)</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option dualpc hide">
+                                <p class="label">Touch & View Monitors</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option PC hide">
+                                <p class="label">Single Touch Monitor</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option dualvideo hide">
+                                <p class="label">Intel PC with Dual Video</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option neckview hide">
+                                <p class="label">View Monitor on Neck</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option footpedal hide">
+                                <p class="label">Foot Pedal</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option dpi600 hide">
+                                <p class="label">600dpi Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option color hide">
+                                <p class="label">Color Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option freeflowlite hide">
+                                <p class="label">Free Flow Lite Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option freeflow hide">
+                                <p class="label">Free Flow Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option addlic hide">
+                                <p class="label">Additional BSCAN ILL license</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="baseprice sub">
+                                <p class="label">Total List Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="quantity">
+                                <p class="label">Quantity</p>
+                                <p class="msign">x</p>
+                                <input class="quantity" name="quantity_1" size="3" value="1">
+                            </div>
+                            <div class="mathbar">
+                                <hr>
+                            </div>
+                            <div class="totalprice list">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="discount inst">
+                                <p class="label">Discounts</p>
+                                <p class="msign">-</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice ad">
+                                <p class="label">Discounted Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="option service">
+                                <p class="label">Service Plan</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice final">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="totalprice final5year hide">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option service5year hide"><p class="amount"></p></div>
+                            <p class="caption sysdisc">Call for Your Institutional Discount!</p>
+                            <p class="caption summary">prices subject to change</p>
+                        </div>
+
+                        <div class="option-images">
+                            <div class="optionlabel"><p>Selected Options</p></div>
+                            <div class="option-item print freeflowlite nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflowlite.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print color nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color.jpg" alt="">
+                            </div>
+                            <div class="option-item print color fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal_fade.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lic_note hide">
+                            <p>Note: this additional license requires an additional PC and allows two ILL workers to
+                                work independently.</p>
+                        </div>
+                        <div class="logotype dlsg">
+                            <img width="180" src="../images/KIC_Build/DLSG_Logo_180_wide.jpg" alt="DLSG logo">
+                        </div>
+                    </fieldset>
+                </div>
+                <!-- system #2-->
+                <div class="build-fieldset print" id="build-a-bscan_2">
+                    <fieldset>
+                        <legend class="mint">BSCAN ILL Configuration Two</legend>
+                        <div class="options">
+                            <div class="models">
+                                <p class="label">Choose Your Scanner</p>
+                                <div class="model BookEdge">
+                                    <p>BookEdge</p>
+                                    <img src="../images/KIC_Build/Mini_BookEdge.jpg" alt="">
+                                    <input type="radio" name="model_2" value="BookEdge">
+                                </div>
+                                <div class="model ClickMini">
+                                    <p>Click Mini</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini-ill.jpg" alt="">
+                                    <input type="radio" name="model_2" value="ClickMini">
+                                </div>
+                                <div class="model Bookeye4v3">
+                                    <p>Bookeye 4V3</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V3-ill.jpg" alt="">
+                                    <input type="radio" name="model_2" value="Bookeye4v3">
+                                </div>
+                                <div class="model Bookeye4v2">
+                                    <p>Bookeye 4V2</p>
+                                    <img src="../images/KIC_Build/Mini_BE4.jpg" alt="">
+                                    <input type="radio" name="model_2" value="Bookeye4v2">
+                                </div>
+                                <div class="model Bookeye4v1">
+                                    <p>Bookeye 4V1</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V1.jpg" alt="">
+                                    <input type="radio" name="model_2" value="Bookeye4v1">
+                                </div>
+                                <div class="model WT25">
+                                    <p>WideTek 25</p>
+                                    <img src="../images/KIC_Build/Mini_WT25.jpg" alt="">
+                                    <input type="radio" name="model_2" value="WT25">
+                                </div>
+                                <div class="model BECM">
+                                    <p>Combo</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini_BookEdge_Combo.jpg" alt="">
+                                    <input type="radio" name="model_2" value="BECM">
+                                </div>
+                            </div>
+                            <div class="features">
+                                <p class="label">Choose Optional Feature(s)</p>
+                                <div class="feature colorup">
+                                    <input class="color" type="checkbox" name="feature_color_2" value="color">
+                                    <p>Color (upgrade from grayscale)</p>
+                                </div>
+                                <div class="feature ocr">
+                                    <input class="ocr" type="checkbox" name="feature_ocr_2" value="OCR">
+                                    <p>Searchable PDF (OCR)</p>
+                                </div>
+                                <div class="feature dualpc">
+                                    <input class="dualpc" type="checkbox" name="feature_dualpc_2" value="dualpc">
+                                    <p>Touch & View Monitors</p>
+                                </div>
+                                <div class="feature pc">
+                                    <input class="pc" type="checkbox" name="feature_pc_2" value="PC">
+                                    <p>Single Touch Monitor</p>
+                                </div>
+                                <div class="feature dualvideo">
+                                    <input class="dualvideo" type="checkbox" name="feature_dualvideo_2"
+                                           value="dualvideo">
+                                    <p>Intel PC with Dual Video</p>
+                                </div>
+                                <div class="feature neckview">
+                                    <input class="neckview" type="checkbox" name="feature_neckview_2" value="neckview">
+                                    <p>View Monitor on Neck</p>
+                                </div>
+                                <div class="feature footpedal">
+                                    <input class="footpedal" type="checkbox" name="feature_footpedal_2"
+                                           value="footpedal">
+                                    <p>Foot Pedal</p>
+                                </div>
+                                <div class="feature dpi600">
+                                    <input class="dpi600" type="checkbox" name="feature_dpi600_2" value="dpi600">
+                                    <p>600dpi (upgrade from 400dpi)</p>
+                                </div>
+                                <div class="feature freeflowlite">
+                                    <input class="freeflowlite" type="checkbox" name="feature_freeflowlite_2"
+                                           value="freeflowlite">
+                                    <p>Free Flow Lite Upgrade</p>
+                                </div>
+                                <div class="feature freeflow">
+                                    <input class="freeflow" type="checkbox" name="feature_freeflow_2" value="freeflow">
+                                    <p>Free Flow Upgrade</p>
+                                </div>
+                                <div class="feature addlic">
+                                    <input class="addlic" type="checkbox" name="feature_addlic_2" value="addlic">
+                                    <p>Additional BSCAN ILL_license</p>
+                                </div>
+                            </div>
+
+                            <div class="services">
+                                <p class="label">Choose Your Service Plan
+                                </p>
+                                <div class="service one">
+                                    <input type="radio" name="service_2" value="one">
+                                    <p>12 Months</p>
+                                </div>
+                                <div class="service three">
+                                    <input type="radio" name="service_2" value="three">
+                                    <p>36 Months
+                                        <span class="caption">(Add'l 4 Months Free)</span>
+                                    </p>
+                                </div>
+                                <div class="service five">
+                                    <input type="radio" name="service_2" value="five" checked>
+                                    <p>60 Months
+                                        <span class="caption">(Add'l 8 Months Free)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <div class="img-heading">
+                                <p>Heading..</p>
+                            </div>
+                            <!-- SCANNER's BIG IMAGES  -->
+                            <div class="img-model print BookEdge nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25.jpg" alt="">
+                            </div>
+                            <div class="img-model print BookEdge dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BookEdge nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="logotype bscan">
+                            <img src="../images/KIC_Build/BSCAN_ILL_Logo.jpg" alt="BSCAN logo">
+                        </div>
+                        <div class="summary">
+                            <div class="nameplate BookEdge hide">
+                                <p>BSCAN ILL BookEdge</p>
+                            </div>
+                            <div class="nameplate ClickMini hide">
+                                <p>BSCAN ILL ClickMini</p>
+                            </div>
+                            <div class="nameplate Bookeye4v3 hide">
+                                <p>BSCAN ILL Bookeye 4 V3</p>
+                            </div>
+                            <div class="nameplate Bookeye4v2 hide">
+                                <p>BSCAN ILL Bookeye 4 V2</p>
+                            </div>
+                            <div class="nameplate Bookeye4v1 hide">
+                                <p>BSCAN ILL Bookeye 4 V1</p>
+                            </div>
+                            <div class="nameplate WT25 hide">
+                                <p>BSCAN ILL WideTek 25</p>
+                            </div>
+                            <div class="nameplate BECM hide">
+                                <p>BSCAN ILL Combo</p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="baseprice list">
+                                <p class="label">List Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option OCR hide">
+                                <p class="label">Searchable PDF (OCR)</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option dualpc hide">
+                                <p class="label">Touch & View Monitors</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option PC hide">
+                                <p class="label">Single Touch Monitor</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option dualvideo hide">
+                                <p class="label">Intel PC with Dual Video</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option neckview hide">
+                                <p class="label">View Monitor on Neck</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option footpedal hide">
+                                <p class="label">Foot Pedal</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option dpi600 hide">
+                                <p class="label">600dpi Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option color hide">
+                                <p class="label">Color Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option freeflowlite hide">
+                                <p class="label">Free Flow Lite Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option freeflow hide">
+                                <p class="label">Free Flow Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option addlic hide">
+                                <p class="label">Additional BSCAN ILL license</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="baseprice sub">
+                                <p class="label">Total List Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="quantity">
+                                <p class="label">Quantity</p>
+                                <p class="msign">x</p>
+                                <input class="quantity" name="quantity_2" size="3" value="1">
+                            </div>
+                            <div class="mathbar">
+                                <hr>
+                            </div>
+                            <div class="totalprice list">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="discount inst">
+                                <p class="label">Discounts</p>
+                                <p class="msign">-</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice ad">
+                                <p class="label">Discounted Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="option service">
+                                <p class="label">Service Plan</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice final">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="totalprice final5year hide">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option service5year hide"><p class="amount"></p></div>
+                            <p class="caption sysdisc">Call for Your Institutional Discount!</p>
+                            <p class="caption summary">prices subject to change</p>
+                        </div>
+                        <div class="option-images">
+                            <div class="optionlabel"><p>Selected Options</p></div>
+                            <div class="option-item print freeflowlite nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflowlite.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print color nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color.jpg" alt="">
+                            </div>
+                            <div class="option-item print color fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal_fade.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lic_note hide">
+                            <p>Note: this additional license requires an additional PC and allows two ILL workers to
+                                work independently.</p>
+                        </div>
+                        <div class="logotype dlsg">
+                            <img width="180" src="../images/KIC_Build/DLSG_Logo_180_wide.jpg" alt="DLSG logo">
+                        </div>
+                    </fieldset>
+                </div>
+                <!-- system #3-->
+                <div class="build-fieldset print" id="build-a-bscan_3">
+                    <fieldset>
+                        <legend class="mint">BSCAN ILL Configuration Three</legend>
+                        <div class="options">
+                            <div class="models">
+                                <p class="label">Choose Your Scanner
+                                </p>
+                                <div class="model BookEdge">
+                                    <p>BookEdge</p>
+                                    <img src="../images/KIC_Build/Mini_BookEdge.jpg" alt="">
+                                    <input type="radio" name="model_3" value="BookEdge">
+                                </div>
+                                <div class="model ClickMini">
+                                    <p>Click Mini</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini-ill.jpg" alt="">
+                                    <input type="radio" name="model_3" value="ClickMini">
+                                </div>
+                                <div class="model Bookeye4v3">
+                                    <p>Bookeye 4V3</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V3-ill.jpg" alt="">
+                                    <input type="radio" name="model_3" value="Bookeye4v3">
+                                </div>
+                                <div class="model Bookeye4v2">
+                                    <p>Bookeye 4V2</p>
+                                    <img src="../images/KIC_Build/Mini_BE4.jpg" alt="">
+                                    <input type="radio" name="model_3" value="Bookeye4v2">
+                                </div>
+                                <div class="model Bookeye4v1">
+                                    <p>Bookeye 4V1</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V1.jpg" alt="">
+                                    <input type="radio" name="model_3" value="Bookeye4v1">
+                                </div>
+                                <div class="model WT25">
+                                    <p>WideTek 25</p>
+                                    <img src="../images/KIC_Build/Mini_WT25.jpg" alt="">
+                                    <input type="radio" name="model_3" value="WT25">
+                                </div>
+                                <div class="model BECM">
+                                    <p>Combo</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini_BookEdge_Combo.jpg" alt="">
+                                    <input type="radio" name="model_3" value="BECM">
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <p class="label">Choose Optional Feature(s)
+                                </p>
+                                <div class="feature colorup">
+                                    <input class="color" type="checkbox" name="feature_color_3" value="color">
+                                    <p>Color (upgrade from grayscale)
+                                    </p>
+                                </div>
+                                <div class="feature ocr">
+                                    <input class="ocr" type="checkbox" name="feature_ocr_3" value="OCR">
+                                    <p>Searchable PDF (OCR)
+                                    </p>
+                                </div>
+                                <div class="feature dualpc">
+                                    <input class="dualpc" type="checkbox" name="feature_dualpc_3" value="dualpc">
+                                    <p>Touch & View Monitors
+                                    </p>
+                                </div>
+                                <div class="feature pc">
+                                    <input class="pc" type="checkbox" name="feature_pc_3" value="PC">
+                                    <p>Single Touch Monitor
+                                    </p>
+                                </div>
+                                <div class="feature dualvideo">
+                                    <input class="dualvideo" type="checkbox" name="feature_dualvideo_3"
+                                           value="dualvideo">
+                                    <p>Intel PC with Dual Video
+                                    </p>
+                                </div>
+                                <div class="feature neckview">
+                                    <input class="neckview" type="checkbox" name="feature_neckview_3" value="neckview">
+                                    <p>View Monitor on Neck
+                                    </p>
+                                </div>
+                                <div class="feature footpedal">
+                                    <input class="footpedal" type="checkbox" name="feature_footpedal_3"
+                                           value="footpedal">
+                                    <p>Foot Pedal
+                                    </p>
+                                </div>
+                                <div class="feature dpi600">
+                                    <input class="dpi600" type="checkbox" name="feature_dpi600_3" value="dpi600">
+                                    <p>600dpi (upgrade from 400dpi)
+                                    </p>
+                                </div>
+                                <div class="feature freeflowlite">
+                                    <input class="freeflowlite" type="checkbox" name="feature_freeflowlite_3"
+                                           value="freeflowlite">
+                                    <p>Free Flow Lite Upgrade
+                                    </p>
+                                </div>
+                                <div class="feature freeflow">
+                                    <input class="freeflow" type="checkbox" name="feature_freeflow_3" value="freeflow">
+                                    <p>Free Flow Upgrade
+                                    </p>
+                                </div>
+                                <div class="feature addlic">
+                                    <input class="addlic" type="checkbox" name="feature_addlic_3" value="addlic">
+                                    <p>Additional BSCAN ILL license
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="services">
+                                <p class="label">Choose Your Service Plan
+                                </p>
+                                <div class="service one">
+                                    <input type="radio" name="service_3" value="one">
+                                    <p>12 Months
+                                    </p>
+                                </div>
+                                <div class="service three">
+                                    <input type="radio" name="service_3" value="three">
+                                    <p>36 Months
+                  <span class="caption">(Add'l 4 Months Free)
+                  </span>
+                                    </p>
+                                </div>
+                                <div class="service five">
+                                    <input type="radio" name="service_3" value="five" checked>
+                                    <p>60 Months
+                  <span class="caption">(Add'l 8 Months Free)
+                  </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <div class="img-heading">
+                                <p>Heading..</p>
+                            </div>
+                            <!-- SCANNER's BIG IMAGES  -->
+                            <div class="img-model print BookEdge nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25.jpg" alt="">
+                            </div>
+
+
+                            <div class="img-model print BookEdge dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop2.jpg" alt="">
+                            </div>
+
+                            <div class="img-model print BookEdge nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop3.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="logotype bscan">
+                            <img width="295" src="../images/KIC_Build/BSCAN_ILL_Logo.jpg" alt="BSCAN logo">
+                        </div>
+
+                        <div class="summary">
+                            <div class="nameplate BookEdge hide">
+                                <p>BSCAN ILL BookEdge</p>
+                            </div>
+                            <div class="nameplate ClickMini hide">
+                                <p>BSCAN ILL ClickMini</p>
+                            </div>
+                            <div class="nameplate Bookeye4v3 hide">
+                                <p>BSCAN ILL Bookeye 4 V3</p>
+                            </div>
+                            <div class="nameplate Bookeye4v2 hide">
+                                <p>BSCAN ILL Bookeye 4 V2</p>
+                            </div>
+                            <div class="nameplate Bookeye4v1 hide">
+                                <p>BSCAN ILL Bookeye 4 V1</p>
+                            </div>
+                            <div class="nameplate WT25 hide">
+                                <p>BSCAN ILL WideTek 25</p>
+                            </div>
+                            <div class="nameplate BECM hide">
+                                <p>BSCAN ILL Combo</p>
+                            </div>
+
+                            <div class="spacer">
+                            </div>
+                            <div class="baseprice list">
+                                <p class="label">List Price</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option OCR hide">
+                                <p class="label">Searchable PDF (OCR)</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option dualpc hide">
+                                <p class="label">Touch & View Monitors</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option PC hide">
+                                <p class="label">Single Touch Monitor</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option dualvideo hide">
+                                <p class="label">Intel PC with Dual Video</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option neckview hide">
+                                <p class="label">View Monitor on Neck</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option footpedal hide">
+                                <p class="label">Foot Pedal</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option dpi600 hide">
+                                <p class="label">600dpi Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option color hide">
+                                <p class="label">Color Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option freeflowlite hide">
+                                <p class="label">Free Flow Lite Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option freeflow hide">
+                                <p class="label">Free Flow Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option addlic hide">
+                                <p class="label">Additional BSCAN ILL license</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="mathbar"></div>
+                            <div class="baseprice sub">
+                                <p class="label">Total List Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="quantity">
+                                <p class="label">Quantity</p>
+                                <p class="msign">x</p>
+                                <input class="quantity" name="quantity_3" size="3" value="1">
+                            </div>
+                            <div class="mathbar">
+                                <hr>
+                            </div>
+                            <div class="totalprice list">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer">
+                            </div>
+                            <div class="discount inst">
+                                <p class="label">Discounts</p>
+                                <p class="msign">-</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice ad">
+                                <p class="label">Discounted Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="option service">
+                                <p class="label">Service Plan</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice final">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="totalprice final5year hide">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="option service5year hide"><p class="amount"></p></div>
+                            <p class="caption sysdisc">Call for Your Institutional Discount!</p>
+                            <p class="caption summary">prices subject to change</p>
+                        </div>
+
+                        <div class="option-images">
+                            <div class="optionlabel"><p>Selected Options</p></div>
+                            <div class="option-item print freeflowlite nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflowlite.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print color nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color.jpg" alt="">
+                            </div>
+                            <div class="option-item print color fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal_fade.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="lic_note hide">
+                            <p>Note: this additional license requires an additional PC and allows two ILL workers to
+                                work
+                                independently.</p>
+                        </div>
+
+                        <div class="logotype dlsg">
+                            <img width="180" src="../images/KIC_Build/DLSG_Logo_180_wide.jpg" alt="DLSG logo">
+                        </div>
+
+                    </fieldset>
+                </div>
+                <!-- system #4-->
+                <div class="build-fieldset print" id="build-a-bscan_4">
+                    <fieldset>
+                        <legend class="mint">BSCAN ILL Configuration Four</legend>
+                        <div class="options">
+                            <div class="models">
+                                <p class="label">Choose Your Scanner</p>
+                                <div class="model BookEdge">
+                                    <p>BookEdge</p>
+                                    <img src="../images/KIC_Build/Mini_BookEdge.jpg" alt="">
+                                    <input type="radio" name="model_4" value="BookEdge">
+                                </div>
+                                <div class="model ClickMini">
+                                    <p>Click Mini</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini-ill.jpg" alt="">
+                                    <input type="radio" name="model_4" value="ClickMini">
+                                </div>
+                                <div class="model Bookeye4v3">
+                                    <p>Bookeye 4V3</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V3-ill.jpg" alt="">
+                                    <input type="radio" name="model_4" value="Bookeye4v3">
+                                </div>
+                                <div class="model Bookeye4v2">
+                                    <p>Bookeye 4V2</p>
+                                    <img src="../images/KIC_Build/Mini_BE4.jpg" alt="">
+                                    <input type="radio" name="model_4" value="Bookeye4v2">
+                                </div>
+                                <div class="model Bookeye4v1">
+                                    <p>Bookeye 4V1</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V1.jpg" alt="">
+                                    <input type="radio" name="model_4" value="Bookeye4v1">
+                                </div>
+                                <div class="model WT25">
+                                    <p>WideTek 25</p>
+                                    <img src="../images/KIC_Build/Mini_WT25.jpg" alt="">
+                                    <input type="radio" name="model_4" value="WT25">
+                                </div>
+                                <div class="model BECM">
+                                    <p>Combo</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini_BookEdge_Combo.jpg" alt="">
+                                    <input type="radio" name="model_4" value="BECM">
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <p class="label">Choose Optional Feature(s)
+                                </p>
+                                <div class="feature colorup">
+                                    <input class="color" type="checkbox" name="feature_color_4" value="color">
+                                    <p>Color (upgrade from grayscale)</p>
+                                </div>
+                                <div class="feature ocr">
+                                    <input class="ocr" type="checkbox" name="feature_ocr_4" value="OCR">
+                                    <p>Searchable PDF (OCR)</p>
+                                </div>
+                                <div class="feature dualpc">
+                                    <input class="dualpc" type="checkbox" name="feature_dualpc_4" value="dualpc">
+                                    <p>Touch & View Monitors</p>
+                                </div>
+                                <div class="feature pc">
+                                    <input class="pc" type="checkbox" name="feature_pc_4" value="PC">
+                                    <p>Single Touch Monitor</p>
+                                </div>
+                                <div class="feature dualvideo">
+                                    <input class="dualvideo" type="checkbox" name="feature_dualvideo_4"
+                                           value="dualvideo">
+                                    <p>Intel PC with Dual Video</p>
+                                </div>
+                                <div class="feature neckview">
+                                    <input class="neckview" type="checkbox" name="feature_neckview_4" value="neckview">
+                                    <p>View Monitor on Neck</p>
+                                </div>
+                                <div class="feature footpedal">
+                                    <input class="footpedal" type="checkbox" name="feature_footpedal_4"
+                                           value="footpedal">
+                                    <p>Foot Pedal</p>
+                                </div>
+                                <div class="feature dpi600">
+                                    <input class="dpi600" type="checkbox" name="feature_dpi600_4" value="dpi600">
+                                    <p>600dpi (upgrade from 400dpi)</p>
+                                </div>
+                                <div class="feature freeflowlite">
+                                    <input class="freeflowlite" type="checkbox" name="feature_freeflowlite_4"
+                                           value="freeflowlite">
+                                    <p>Free Flow Lite Upgrade</p>
+                                </div>
+                                <div class="feature freeflow">
+                                    <input class="freeflow" type="checkbox" name="feature_freeflow_4" value="freeflow">
+                                    <p>Free Flow Upgrade</p>
+                                </div>
+                                <div class="feature addlic">
+                                    <input class="addlic" type="checkbox" name="feature_addlic_4" value="addlic">
+                                    <p>Additional BSCAN ILL license</p>
+                                </div>
+                            </div>
+
+                            <div class="services">
+                                <p class="label">Choose Your Service Plan
+                                </p>
+                                <div class="service one">
+                                    <input type="radio" name="service_4" value="one">
+                                    <p>12 Months</p>
+                                </div>
+                                <div class="service three">
+                                    <input type="radio" name="service_4" value="three">
+                                    <p>36 Months
+                                        <span class="caption">(Add'l 4 Months Free)</span>
+                                    </p>
+                                </div>
+                                <div class="service five">
+                                    <input type="radio" name="service_4" value="five" checked>
+                                    <p>60 Months
+                                        <span class="caption">(Add'l 8 Months Free)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <div class="img-heading">
+                                <p>Heading..</p>
+                            </div>
+                            <!-- SCANNER's BIG IMAGES  -->
+                            <div class="img-model print BookEdge nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25.jpg" alt="">
+                            </div>
+
+
+                            <div class="img-model print BookEdge dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop2.jpg" alt="">
+                            </div>
+
+                            <div class="img-model print BookEdge nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop3.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="logotype bscan">
+                            <img src="../images/KIC_Build/BSCAN_ILL_Logo.jpg" alt="BSCAN logo">
+                        </div>
+
+                        <div class="summary">
+                            <div class="nameplate BookEdge hide">
+                                <p>BSCAN ILL BookEdge</p>
+                            </div>
+                            <div class="nameplate ClickMini hide">
+                                <p>BSCAN ILL ClickMini</p>
+                            </div>
+                            <div class="nameplate Bookeye4v3 hide">
+                                <p>BSCAN ILL Bookeye 4 V3</p>
+                            </div>
+                            <div class="nameplate Bookeye4v2 hide">
+                                <p>BSCAN ILL Bookeye 4 V2</p>
+                            </div>
+                            <div class="nameplate Bookeye4v1 hide">
+                                <p>BSCAN ILL Bookeye 4 V1</p>
+                            </div>
+                            <div class="nameplate WT25 hide">
+                                <p>BSCAN ILL WideTek 25</p>
+                            </div>
+                            <div class="nameplate BECM hide">
+                                <p>BSCAN ILL Combo</p>
+                            </div>
+
+                            <div class="spacer">
+                            </div>
+                            <div class="baseprice list">
+                                <p class="label">List Price</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option OCR hide">
+                                <p class="label">Searchable PDF (OCR)</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option dualpc hide">
+                                <p class="label">Touch & View Monitors</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option PC hide">
+                                <p class="label">Single Touch Monitor</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option dualvideo hide">
+                                <p class="label">Intel PC with Dual Video</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option neckview hide">
+                                <p class="label">View Monitor on Neck</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option footpedal hide">
+                                <p class="label">Foot Pedal</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option dpi600 hide">
+                                <p class="label">600dpi Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option color hide">
+                                <p class="label">Color Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option freeflowlite hide">
+                                <p class="label">Free Flow Lite Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option freeflow hide">
+                                <p class="label">Free Flow Upgrade</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="option addlic hide">
+                                <p class="label">Additional BSCAN ILL license</p>
+                                <p class="msign">+</p>
+                                <p class="amount"></p>
+                            </div>
+
+                            <div class="mathbar"></div>
+                            <div class="baseprice sub">
+                                <p class="label">Total List Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="quantity">
+                                <p class="label">Quantity</p>
+                                <p class="msign">x</p>
+                                <input class="quantity" name="quantity_4" size="3" value="1">
+                            </div>
+                            <div class="mathbar">
+                                <hr>
+                            </div>
+                            <div class="totalprice list">
+                                <p class="label">Total Price</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="discount inst">
+                                <p class="label">Discounts</p>
+                                <p class="msign">-</p>
+                                <p class="amount"></p>
+                            </div>
+                            <div class="mathbar"></div>
+                            <div class="totalprice ad">
+                                <p class="label">Discounted Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="spacer">
+                            </div>
+                            <div class="option service">
+                                <p class="label">Service Plan
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="mathbar">
+                            </div>
+                            <div class="totalprice final">
+                                <p class="label">Total Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="totalprice final5year hide">
+                                <p class="label">Total Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="option service5year hide"><p class="amount"></p></div>
+                            <p class="caption sysdisc">Call for Your Institutional Discount!</p>
+                            <p class="caption summary">prices subject to change</p>
+                        </div>
+
+                        <div class="option-images">
+                            <div class="optionlabel"><p>Selected Options</p></div>
+                            <div class="option-item print freeflowlite nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflowlite.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print color nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color.jpg" alt="">
+                            </div>
+                            <div class="option-item print color fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal_fade.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="lic_note hide"><p>Note: this additional license requires an additional PC and allows
+                            two
+                            ILL workers to work independently.</p></div>
+
+                        <div class="logotype dlsg">
+                            <img width="180" src="../images/KIC_Build/DLSG_Logo_180_wide.jpg" alt="DLSG logo">
+                        </div>
+
+                    </fieldset>
+                </div>
+                <!-- system #5-->
+                <div class="build-fieldset print" id="build-a-bscan_5">
+                    <fieldset>
+                        <legend class="mint">BSCAN ILL Configuration Five</legend>
+                        <div class="options">
+                            <div class="models">
+                                <p class="label">Choose Your Scanner
+                                </p>
+                                <div class="model BookEdge">
+                                    <p>BookEdge</p>
+                                    <img src="../images/KIC_Build/Mini_BookEdge.jpg" alt="">
+                                    <input type="radio" name="model_5" value="BookEdge">
+                                </div>
+                                <div class="model ClickMini">
+                                    <p>Click Mini</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini-ill.jpg" alt="">
+                                    <input type="radio" name="model_5" value="ClickMini">
+                                </div>
+                                <div class="model Bookeye4v3">
+                                    <p>Bookeye 4V3</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V3-ill.jpg" alt="">
+                                    <input type="radio" name="model_5" value="Bookeye4v3">
+                                </div>
+                                <div class="model Bookeye4v2">
+                                    <p>Bookeye 4V2</p>
+                                    <img src="../images/KIC_Build/Mini_BE4.jpg" alt="">
+                                    <input type="radio" name="model_5" value="Bookeye4v2">
+                                </div>
+                                <div class="model Bookeye4v1">
+                                    <p>Bookeye 4V1</p>
+                                    <img src="../images/KIC_Build/Mini_BE4_V1.jpg" alt="">
+                                    <input type="radio" name="model_5" value="Bookeye4v1">
+                                </div>
+                                <div class="model WT25">
+                                    <p>WideTek 25</p>
+                                    <img src="../images/KIC_Build/Mini_WT25.jpg" alt="">
+                                    <input type="radio" name="model_5" value="WT25">
+                                </div>
+                                <div class="model BECM">
+                                    <p>Combo</p>
+                                    <img src="../images/KIC_Build/Mini_ClickMini_BookEdge_Combo.jpg" alt="">
+                                    <input type="radio" name="model_5" value="BECM">
+                                </div>
+                            </div>
+
+                            <div class="features">
+                                <p class="label">Choose Optional Feature(s)
+                                </p>
+                                <div class="feature colorup">
+                                    <input class="color" type="checkbox" name="feature_color_5" value="color">
+                                    <p>Color (upgrade from grayscale)
+                                    </p>
+                                </div>
+                                <div class="feature ocr">
+                                    <input class="ocr" type="checkbox" name="feature_ocr_5" value="OCR">
+                                    <p>Searchable PDF (OCR)
+                                    </p>
+                                </div>
+                                <div class="feature dualpc">
+                                    <input class="dualpc" type="checkbox" name="feature_dualpc_5" value="dualpc">
+                                    <p>Touch & View Monitors
+                                    </p>
+                                </div>
+                                <div class="feature pc">
+                                    <input class="pc" type="checkbox" name="feature_pc_5" value="PC">
+                                    <p>Single Touch Monitor
+                                    </p>
+                                </div>
+                                <div class="feature dualvideo">
+                                    <input class="dualvideo" type="checkbox" name="feature_dualvideo_5"
+                                           value="dualvideo">
+                                    <p>Intel PC with Dual Video
+                                    </p>
+                                </div>
+                                <div class="feature neckview">
+                                    <input class="neckview" type="checkbox" name="feature_neckview_5" value="neckview">
+                                    <p>View Monitor on Neck
+                                    </p>
+                                </div>
+                                <div class="feature footpedal">
+                                    <input class="footpedal" type="checkbox" name="feature_footpedal_5"
+                                           value="footpedal">
+                                    <p>Foot Pedal
+                                    </p>
+                                </div>
+                                <div class="feature dpi600">
+                                    <input class="dpi600" type="checkbox" name="feature_dpi600_5" value="dpi600">
+                                    <p>600dpi (upgrade from 400dpi)
+                                    </p>
+                                </div>
+                                <div class="feature freeflowlite">
+                                    <input class="freeflowlite" type="checkbox" name="feature_freeflowlite_5"
+                                           value="freeflowlite">
+                                    <p>Free Flow Lite Upgrade
+                                    </p>
+                                </div>
+                                <div class="feature freeflow">
+                                    <input class="freeflow" type="checkbox" name="feature_freeflow_5" value="freeflow">
+                                    <p>Free Flow Upgrade
+                                    </p>
+                                </div>
+                                <div class="feature addlic">
+                                    <input class="addlic" type="checkbox" name="feature_addlic_5" value="addlic">
+                                    <p>Additional BSCAN ILL license</p>
+                                </div>
+                            </div>
+
+                            <div class="services">
+                                <p class="label">Choose Your Service Plan
+                                </p>
+                                <div class="service one">
+                                    <input type="radio" name="service_5" value="one">
+                                    <p>12 Months
+                                    </p>
+                                </div>
+                                <div class="service three">
+                                    <input type="radio" name="service_5" value="three">
+                                    <p>36 Months
+                                        <span class="caption">(Add'l 4 Months Free)</span>
+                                    </p>
+                                </div>
+                                <div class="service five">
+                                    <input type="radio" name="service_5" value="five" checked>
+                                    <p>60 Months
+                                        <span class="caption">(Add'l 8 Months Free)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <div class="img-heading">
+                                <p>Heading..</p>
+                            </div>
+                            <!-- SCANNER's BIG IMAGES  -->
+                            <div class="img-model print BookEdge nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25.jpg" alt="">
+                            </div>
+                            <div class="img-model print BookEdge dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 dualpc nopc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop2.jpg" alt="">
+                            </div>
+                            <div class="img-model print BookEdge nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BookEdge_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print ClickMini nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_ClickMini_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v1 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v1_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v2 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v2_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print Bookeye4v3 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_Bookeye4v3_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print BECM nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_BECM_Tabletop3.jpg" alt="">
+                            </div>
+                            <div class="img-model print WT25 nodualpc pc inactive">
+                                <img src="../images/KIC_Build/ILL_WT25_Tabletop3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="logotype bscan">
+                            <img src="../images/KIC_Build/BSCAN_ILL_Logo.jpg" alt="BSCAN logo">
+                        </div>
+                        <div class="summary">
+                            <div class="nameplate BookEdge hide">
+                                <p>BSCAN ILL BookEdge</p>
+                            </div>
+                            <div class="nameplate ClickMini hide">
+                                <p>BSCAN ILL ClickMini</p>
+                            </div>
+                            <div class="nameplate Bookeye4v3 hide">
+                                <p>BSCAN ILL Bookeye 4 V3</p>
+                            </div>
+                            <div class="nameplate Bookeye4v2 hide">
+                                <p>BSCAN ILL Bookeye 4 V2</p>
+                            </div>
+                            <div class="nameplate Bookeye4v1 hide">
+                                <p>BSCAN ILL Bookeye 4 V1</p>
+                            </div>
+                            <div class="nameplate WT25 hide">
+                                <p>BSCAN ILL WideTek 25</p>
+                            </div>
+                            <div class="nameplate BECM hide">
+                                <p>BSCAN ILL Combo</p>
+                            </div>
+
+                            <div class="spacer">
+                            </div>
+                            <div class="baseprice list">
+                                <p class="label">List Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option OCR hide">
+                                <p class="label">Searchable PDF (OCR)
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option dualpc hide">
+                                <p class="label">Touch & View Monitors
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option PC hide">
+                                <p class="label">Single Touch Monitor
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option dualvideo hide">
+                                <p class="label">Intel PC with Dual Video
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option neckview hide">
+                                <p class="label">View Monitor on Neck
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option footpedal hide">
+                                <p class="label">Foot Pedal
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option dpi600 hide">
+                                <p class="label">600dpi Upgrade
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option color hide">
+                                <p class="label">Color Upgrade
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option freeflowlite hide">
+                                <p class="label">Free Flow Lite Upgrade
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option freeflow hide">
+                                <p class="label">Free Flow Upgrade
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="option addlic hide">
+                                <p class="label">Additional BSCAN ILL license</p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+
+                            <div class="mathbar">
+                            </div>
+                            <div class="baseprice sub">
+                                <p class="label">Total List Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="spacer">
+                            </div>
+                            <div class="quantity">
+                                <p class="label">Quantity
+                                </p>
+                                <p class="msign">x
+                                </p>
+                                <input class="quantity" name="quantity_5" size="3" value="1">
+                            </div>
+                            <div class="mathbar">
+                                <hr>
+                            </div>
+                            <div class="totalprice list">
+                                <p class="label">Total Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="spacer">
+                            </div>
+                            <div class="discount inst">
+                                <p class="label">Discounts
+                                </p>
+                                <p class="msign">-
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="mathbar">
+                            </div>
+                            <div class="totalprice ad">
+                                <p class="label">Discounted Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="spacer">
+                            </div>
+                            <div class="option service">
+                                <p class="label">Service Plan
+                                </p>
+                                <p class="msign">+
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="mathbar">
+                            </div>
+                            <div class="totalprice final">
+                                <p class="label">Total Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="totalprice final5year hide">
+                                <p class="label">Total Price
+                                </p>
+                                <p class="amount">
+                                </p>
+                            </div>
+                            <div class="option service5year hide"><p class="amount"></p></div>
+                            <p class="caption sysdisc">Call for Your Institutional Discount!</p>
+                            <p class="caption summary">prices subject to change</p>
+                        </div>
+
+                        <div class="option-images">
+                            <div class="optionlabel"><p>Selected Options</p></div>
+                            <div class="option-item print freeflowlite nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflowlite.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow.jpg" alt="">
+                            </div>
+                            <div class="option-item print freeflow fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_freeflow_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print color nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color.jpg" alt="">
+                            </div>
+                            <div class="option-item print color fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_color_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600.jpg" alt="">
+                            </div>
+                            <div class="option-item print dpi600 fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_dpi600_fade.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal nofade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal.jpg" alt="">
+                            </div>
+                            <div class="option-item print footpedal fade inactive">
+                                <img src="../images/KIC_Build/ILL_option_footpedal_fade.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="lic_note hide">
+                            <p>Note: this additional license requires an additional PC and allows two ILL workers to
+                                work independently.</p>
+                        </div>
+
+                        <div class="logotype dlsg">
+                            <img width="180" src="../images/KIC_Build/DLSG_Logo_180_wide.jpg" alt="DLSG logo">
+                        </div>
+
+                    </fieldset>
+                </div>
+                <div class="discount-box">
+                    <h3 class="mint">Discount Code</h3>
+                    <div class="captchabox">
+                        <div class="code">
+                            <input class="disc_code" name="disc_code" size="16">
+                        </div>
+                        <div class="code2 hide">
+                            <input class="disc2_code" name="disc2_code" size="9">
+                        </div>
+                    </div>
+                    <input class="apply-discount" type="button" value="Submit">
+                    <p class="notification hide">Waiting for Discount Code validation...</p>
+                    <p class="caption">* Call us to request your institution's discount code, and ask about any
+                        additional discounts that may apply.</p>
+                    <div class="discount-rates hide">
+                        <input class="disc_rate" name="disc_rate" size="5" value="0" readonly="readonly">
+                        <input class="disc2_rate" name="disc2_rate" size="5" value="0" readonly="readonly">
+                        <input class="disc3_rate" name="disc3_rate" size="5" value="0" readonly="readonly">
+                        <input class="disc4_rate" name="disc4_rate" size="5" value="0" readonly="readonly">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-    <footer>
-        <div id="includeFooter"></div>
-    </footer>
-    <script>
-        window.currentTab = '#how_to_order';
-    </script>
+</div>
+<footer>
+    <div id="includeFooter"></div>
+</footer>
+<script>
+    window.currentTab = '#how_to_order';
+</script>
 </body>
 </html>

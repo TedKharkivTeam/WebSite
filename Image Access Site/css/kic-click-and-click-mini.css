@@ -156,12 +156,12 @@ div.infoblock h2 {
     color: #fff;
     font-weight: bold;
     font-size: 4rem;
-    line-height: 4.2rem;
+    line-height: 1.2;
     background: #000;
     border-radius: 50%;
     bottom: -35px;
     right: 50%;
-    padding: 20px 30px;
+    padding: 7px 23px;
     margin: 0 -30px;
     z-index: 1;
 }
@@ -180,7 +180,7 @@ div.infoblock h2 {
 }
 
 .seven-step--border {
-    padding: 20px;
+    padding: 10px 20px;
     border: 2px solid #000;
     border-radius: 10px;
 }
@@ -208,15 +208,15 @@ div.infoblock h2 {
 }
 
 .two-step--w1 {
-    width: 14%;
+    width: 12%;
 }
 
 .two-step--w2 {
-    width: 35%;
+    width: 34%;
 }
 
 .two-step--w3 {
-    width: 49%;
+    width: 53%;
 }
 
 .seven-step__h3--padding {
@@ -350,6 +350,7 @@ h4 {
 
 th .table--img {
     width: 100px;
+    height: 60px;
 }
 
 .cicle {
@@ -638,16 +639,6 @@ th .table--img {
     padding-left: 20px;
 }
 
-.center__text--padding {
-    padding-top: 160px;
-    position: relative;
-}
-
-.center__text--margin {
-    padding-top: 30px;
-    position: absolute;
-    width: 37%;
-}
 
 .infoblock__nav {
     padding-top: 20px;
@@ -795,7 +786,7 @@ h2.pod-text {
     text-align: center;
 }
 
-@media all and (max-width: 1366px) {
+@media (max-width: 1366px) {
     .pbd--frame img {
         width: 50%;
     }
@@ -840,10 +831,11 @@ h2.pod-text {
 
 .infoblock__page-11__double__content {
     overflow: hidden;
-    padding: 10px 10px 10px 0;
+    padding: 10px;
     background: #D0E6FC;
     margin: 5px;
     border-radius: 1.0rem;
+    text-align: center;
 }
 
 .infoblock__page-11__in-case-strong {
@@ -854,19 +846,21 @@ h2.pod-text {
 
 .infoblock__page-11__in-case-span {
     text-align: right;
-    font-size: 2.0rem;
-    line-height: 2.2rem;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
 }
 
 .infoblock__page-11__in-case-span--center {
     text-align: center;
     font-size: 2.6rem;
     line-height: 2.8rem;
+    font-weight: bold;
 }
 
 .infoblock__page-11__double__content__double {
     width: 50%;
     float: left;
+    text-align: center;
 }
 
 .infoblock .infoblock__page-11__in-case-enhance {
@@ -1158,7 +1152,7 @@ h2.pod-text {
 .infoblock__center {
     overflow: hidden;
     margin-top: -50px;
-    line-height: 1.8;
+    /*line-height: 1.8;*/
 }
 
 .infoblock .center__img {
@@ -1167,16 +1161,18 @@ h2.pod-text {
 }
 
 .infoblock .center__text--padding {
-    padding-top: 60px;
     position: relative;
     width: 38%;
+    margin-top: 20px;
 }
 
 .infoblock .center__text--margin {
     width: 52%;
-    padding-top: 0;
+    position: absolute;
 }
-
+.infoblock .center__text{
+    padding-top:60px;
+}
 .infoblock__nav {
     padding-top: 20px;
     overflow: hidden;
@@ -1604,13 +1600,48 @@ h2.pod-text {
     width: 56%;
 }
 
-@media all and (max-width: 1870px) {
+.seven-step__scan {
+    margin-top: -40px;
+}
+
+.book-excerpts {
+    text-align: left;
+    font-weight: bold;
+}
+
+.infoblock__page__sitalic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.two-step:after {
+    content: '';
+    position: absolute;
+    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/repeat.png") no-repeat;
+    width: 47px;
+    height: 33px;
+    bottom: 7px;
+    right: 50%;
+}
+
+.two-step:before {
+    content: '';
+    position: absolute;
+    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/book.png") no-repeat;
+    width: 115px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+
+@media (max-width: 1870px) {
     .for-study-p {
         margin-top: 0;
     }
 }
 
-@media all and (max-width: 1770px) {
+@media (max-width: 1770px) {
     .infoblock .label_smart {
         position: relative;
     }
@@ -1620,7 +1651,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1750px) {
+@media (max-width: 1750px) {
     .center__text--margin {
         padding-top: 0;
     }
@@ -1634,16 +1665,22 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1700px) {
+@media (max-width: 1700px) {
     .infoblock .true2_block_3 {
         width: 40%;
         margin-left: 12%;
         font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 
     }
+
+    .two-step:before {
+
+        width: 80px;
+        height: 50px;
+    }
 }
 
-@media all and (max-width: 1600px) {
+@media (max-width: 1600px) {
     html {
         font-size: 55%;
     }
@@ -1728,15 +1765,25 @@ h2.pod-text {
     .for-study-p {
         width: 35%;
     }
+
+    .seven-step__scan {
+        margin-top: -20px;
+    }
+
+    .two-step--w3 {
+        width: 52%;
+    }
+
 }
 
-@media all and (max-width: 1600px) and (min-width: 1460px) {
+@media (max-width: 1600px) and (min-width: 1460px) {
     .table__arow:before {
         left: 20px;
     }
+
 }
 
-@media all and (max-width: 1459px) and (min-width: 1360px) {
+@media (max-width: 1459px) and (min-width: 1360px) {
     .table__arow:before {
         left: 10px;
     }
@@ -1757,44 +1804,63 @@ h2.pod-text {
     .smart-dock__tree-img {
         margin-top: -15%;
     }
+
+    .seven-step:after {
+        padding: 10px 23px;
+    }
 }
 
-@media all and (max-width: 1359px) and (min-width: 1260px) {
+@media (max-width: 1400px) {
+    .two-step:after {
+        bottom: 0;
+        width: 26px;
+        height: 27px;
+        background-size: contain;
+    }
+
+    .two-step:before {
+        width: 66px;
+        height: 35px;
+    }
+
+}
+
+@media (max-width: 1359px) and (min-width: 1260px) {
     .table__arow:before {
         left: 0;
     }
 }
 
-@media all and (max-width: 1259px) and (min-width: 1200px) {
+@media (max-width: 1259px) and (min-width: 1200px) {
     .table__arow:before {
         width: 54px;
         left: 0;
     }
 }
 
-@media all and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .table__arow:before {
         left: 0;
     }
 }
 
-@media all and (max-width: 1465px) and (min-width: 1387px) {
+@media (max-width: 1465px) and (min-width: 1387px) {
     .infoblock__nav {
         margin-top: 5%;
     }
 }
 
-@media all and (max-width: 1420px) {
+@media (max-width: 1420px) {
     .infoblock .two-tel__text-top {
         font-size: 1.6rem;
         line-height: 1.8rem;
     }
 }
 
-@media all and (max-width: 1386px) {
+@media (max-width: 1386px) {
     .infoblock p {
         font-size: 1.4rem;
-        line-height: 1.6rem;
+        /*line-height: 1.6rem;*/
 
     }
 
@@ -1867,15 +1933,18 @@ h2.pod-text {
     .infoblock .true2_label {
         line-height: 2.6rem;
     }
+    .infoblock .center__text--padding {
+        margin-top: 20px;
+    }
 }
 
-@media all and (max-width: 1287px) and (min-width: 1200px) {
+@media (max-width: 1287px) and (min-width: 1200px) {
     .infoblock__nav {
         padding-top: 10px;
     }
 }
 
-@media all and (max-width: 1242px) and (min-width: 1200px) {
+@media (max-width: 1242px) and (min-width: 1200px) {
     .infoblock .click_click_mini {
         padding-left: 0;
     }
@@ -1886,13 +1955,13 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1200px) and (min-width: 1072px) {
+@media (max-width: 1200px) and (min-width: 1072px) {
     .infoblock .center__text--margin {
         margin-top: 5%;
     }
 }
 
-@media all and (max-width: 1071px) {
+@media (max-width: 1071px) {
     .infoblock .center__text--margin {
         margin-top: 0;
     }
@@ -1912,13 +1981,13 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1124px) and (min-width: 1092px) {
+@media (max-width: 1124px) and (min-width: 1092px) {
     .infoblock .label_smart13 {
         margin-top: -15%;
     }
 }
 
-@media all and (max-width: 1770px) {
+@media (max-width: 1770px) {
     .infoblock__page-11__for-study-p {
         margin-top: -117px;
         margin-right: 11%;
@@ -1929,28 +1998,28 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1685px) {
+@media (max-width: 1685px) {
     .infoblock__page-11-content-p {
         padding: 33px 0;
     }
 }
 
-@media all and (max-width: 1590px) {
+@media (max-width: 1590px) {
     .infoblock__page-11__for-study-p {
         margin-top: -113px;
         margin-right: 2%;
     }
 }
 
-@media all and (max-width: 1488px) {
+@media (max-width: 1488px) {
     .infoblock__page-11__for-study-p {
-        width: 120px;
+        width: 115px;
         float: right;
         margin-top: 5%;
     }
 }
 
-@media all and (max-width: 1370px) {
+@media (max-width: 1370px) {
     .infoblock__page-11-content-p {
         padding: 6px 0;
     }
@@ -1962,11 +2031,13 @@ h2.pod-text {
         padding-right: 10px;
         padding-top: 20px;
     }
+
     .infoblock .infoblock__label__searchable2 {
         width: 15%;
         float: left;
         margin-top: -18%;
     }
+
     .infoblock p {
         font-size: 1.4rem;
     }
@@ -1976,7 +2047,7 @@ h2.pod-text {
     }
 }
 
-@media all and (max-width: 1250px) {
+@media (max-width: 1250px) {
     .infoblock__page-11__for-study-p {
         width: 111px;
     }

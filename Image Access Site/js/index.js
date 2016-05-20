@@ -73,6 +73,8 @@ $(document).ready(function () {
         timeout = timeout || 0;
 
         setTimeout(function () {
+            var width = $(window).width() >= 1450 ? '7%' : '10%';
+
             if (blockName == 'dlsg') {
                 //Stop previous animation queue without forcing it to finish state
                 dlsgLogoClone.stop(true, false);
@@ -81,8 +83,8 @@ $(document).ready(function () {
                 bscanLogoClone.fadeOut({duration: animationDuration, queue: false});
                 //Animate block to new sizes and position
                 dlsgLogoClone.css({opacity: 1}).animate({
-                    top: 0,
-                    left: 0,
+                    top: 1,
+                    left: width,
                     width: '100%'
                 }, animationDuration, function onAnimationComplete() {
                     window.location.href = pageUrl;
@@ -95,8 +97,8 @@ $(document).ready(function () {
                 dlsgLogoClone.fadeOut({duration: animationDuration, queue: false});
                 //Animate block to new sizes and position
                 bscanLogoClone.css({opacity: 1}).animate({
-                    top: 0,
-                    left: 0,
+                    top: 1,
+                    left: width,
                     width: '100%'
                 }, animationDuration, function onAnimationComplete() {
                     window.location.href = pageUrl;

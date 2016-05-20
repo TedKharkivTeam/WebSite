@@ -5,7 +5,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0);
 }
 
-.infoblock__block-hidden{
+.infoblock__block-hidden {
     overflow: hidden;
 }
 
@@ -24,9 +24,6 @@
     text-align: left;
     padding: 14px 0 10px;
 }
-
-
-/*First page*/
 
 .left__link {
     float: right;
@@ -53,7 +50,6 @@
     line-height: 1;
     margin-top: -10px;
     text-align: center;
-
 }
 
 .infoblock__book-stack-and-feature-enumeration {
@@ -84,7 +80,6 @@
     float: left;
     width: 45%;
     margin-left: 5%;
-
 }
 
 .infoblock .feature-enumeration__unordered-list li {
@@ -103,7 +98,6 @@
     float: left;
     width: 44%;
     margin-left: 3%;
-
 }
 
 .infoblock__bottom-logos {
@@ -116,7 +110,6 @@
     float: right;
     display: inline-block;
     width: 30%;
-
 }
 
 .infoblock__bottom-logos p {
@@ -128,8 +121,6 @@
     color: gray;
 }
 
-/*Second page*/
-
 .infoblock__title {
     text-align: center;
 }
@@ -138,7 +129,7 @@ h2 {
     padding-bottom: 0;
 }
 
-h4{
+h4 {
     padding-bottom: 13px;
     font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
     font-size: 2.7rem;
@@ -181,8 +172,6 @@ h5 {
     font-weight: bold;
     padding-bottom: 3px;
 }
-
-/*Third Page*/
 
 .infoblock ul.opus_list {
     list-style: none;
@@ -235,18 +224,17 @@ h5 {
     line-height: 1.3;
 }
 
-/*Fourth page*/
 .infoblock__bottom-images {
     overflow: hidden;
 }
 
-.infoblock .infoblock__image--big-left-right-margin{
+.infoblock .infoblock__image--big-left-right-margin {
     margin-left: 7%;
     margin-right: 7%;
     width: 86%;
 }
 
-.infoblock__image--small-left-right-margin{
+.infoblock__image--small-left-right-margin {
     margin-left: 3%;
     margin-right: 3%;
     width: 94%;
@@ -261,12 +249,6 @@ h5 {
     float: left;
     width: 37%;
     margin-left: 3%;
-}
-
-/*Fiveth page*/
-/*Watch opus-freeflow.css*/
-.infoblock .content_stabilization {
-
 }
 
 .infoblock .content-stabilization__enumeration {
@@ -304,11 +286,9 @@ h5 {
 
 .infoblock .content_stabilization4 {
     width: 47%;
-    margin-left:2%;
+    margin-left: 2%;
     float: left;
 }
-
-/*Sixth page*/
 
 .infoblock__hierarchical-metadata_paragraph-with-image {
     overflow: hidden;
@@ -337,9 +317,9 @@ h5 {
     margin-left: 16%;
     margin-right: 16%;
     font-style: italic;
-    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 7px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 7px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 7px 0 rgba(0, 0, 0, 0.75);
 }
 
 .infoblock__bordered-block p {
@@ -349,13 +329,11 @@ h5 {
 .infoblock__hierarchical-metadata-bottom-block {
     margin-top: 3%;
     overflow: hidden;
-
 }
 
 .infoblock__hierarchical-metadata-bottom-block img {
     float: left;
     width: 70%;
-
 }
 
 .infoblock__hierarchical-metadata-bottom-paragraphs {
@@ -364,7 +342,6 @@ h5 {
     width: 25%;
 }
 
-/*Seventh page*/
 .infoblock__derivatives-top-columns {
     columns: 2;
     column-gap: 2em;
@@ -410,17 +387,16 @@ div .derivatives-pictures__bottom-paragraph {
     font-size: 70%;
 }
 
-.infoblock__logo {
-
-}
-
 .infoblock__logo img {
     width: 24%;
 }
+.blue-bullet li {
+    padding: 1px 0;
+}
 
-@media (min-width: 1400px) and (max-width: 1750px){
-    div .derivatives-pictures__bottom-paragraph{
-        margin-top:-258px;
+@media (min-width: 1400px) and (max-width: 1750px) {
+    div .derivatives-pictures__bottom-paragraph {
+        margin-top: -258px;
     }
 }
 
@@ -429,7 +405,7 @@ div .derivatives-pictures__bottom-paragraph {
         width: 50%;
     }
 
-    .content_stabilization4{
+    .content_stabilization4 {
         margin-top: 37px;
     }
 
@@ -445,13 +421,24 @@ div .derivatives-pictures__bottom-paragraph {
         width: 43%;
     }
 
-    div .derivatives-pictures__bottom-paragraph{
-        margin-top:-278px;
+    div .derivatives-pictures__bottom-paragraph {
+        margin-top: -278px;
         padding-bottom: 120px;
     }
 
-    .infoblock__book-stack-and-feature-enumeration img{
+    .infoblock__book-stack-and-feature-enumeration img {
         margin-top: 100px;
+    }
+}
+
+@media all and (max-width: 1399px) {
+    .white-rectangulars__articles h6 {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .white-rectangulars__articles p {
+        padding-left: 0;
     }
 }
 
@@ -460,7 +447,7 @@ div .derivatives-pictures__bottom-paragraph {
         font-size: 2.1rem;
     }
 
-    .content_stabilization4{
+    .content_stabilization4 {
         margin-top: 37px;
     }
 
@@ -480,15 +467,11 @@ div .derivatives-pictures__bottom-paragraph {
         width: 40%;
     }
 
-    div .derivatives-pictures__bottom-paragraph{
+    div .derivatives-pictures__bottom-paragraph {
         margin-top: -270px;
     }
 
-    .infoblock__book-stack-and-feature-enumeration img{
+    .infoblock__book-stack-and-feature-enumeration img {
         margin-top: 100px;
     }
-}
-
-@media (max-width: 941px) {
-    /*Stub for the future*/
 }
