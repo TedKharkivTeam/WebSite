@@ -257,13 +257,13 @@ function AnimateImagesLoading(callback) {
 }
 
 $(document).ready(function () {
-    setTimeout(function () {
+    fadeIn(function () {
         AnimateImagesLoading(function () {
             animate(function () {
                 simulateAnimation(function () {
                     redirect("Frame_4B.html");
                 });
             });
-        });
-    }, 500);
+        }, 2000);
+    });
 });

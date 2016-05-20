@@ -519,7 +519,7 @@
     font-size: 2.6rem;
     line-height: 2.6rem;
     text-align: center;
-    padding: 14px 0 10px;
+    padding: 14px 0 10px 0;
     width: 75%;
     margin: 0 0 0 13%;
 }
@@ -669,7 +669,7 @@
     margin: 0 auto;
 }
 
-.arrows--after:after {
+.infoblock .arrows--after:after {
     position: absolute;
     content: '';
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
@@ -1389,3 +1389,329 @@
 }
 
 /* ************************************************************************************************************** */
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    html {
+        font-size: 50%;
+    }
+
+    .infoblock .bg-image__text--left-top {
+        top: -358px;
+    }
+
+    .infoblock .bg-image__text--left-middle {
+        top: -228px;
+    }
+
+    .infoblock .bg-image__text--left {
+        top: -180px;
+    }
+
+    .infoblock .section__right-image-text {
+        margin-left: 72%;
+        margin-top: -349px;
+        text-align: left;
+    }
+
+    .infoblock .section__left-image-text {
+        margin-top: -289px;
+        padding-bottom: 115px;
+        margin-left: -8%;
+    }
+
+    .infoblock .column__section--background {
+        height: 443px;
+    }
+
+    .infoblock .blue-bullet--with-margin {
+        margin-left: 48%;
+    }
+
+    .infoblock .true-2-touch-wrapper__dual-screen-text {
+        margin: -35px 0 0 71%;
+        padding-bottom: 25px;
+    }
+
+    .infoblock .content-holder__text-section--smart-dock {
+        margin-top: -135px;
+        padding-left: 48%;
+    }
+
+    .infoblock .content-holder__text-p {
+        margin-top: 15px;
+        margin-left: 5%;
+        width: 35%;
+    }
+
+    .infoblock .for-public-libraries-section__panorama-image {
+        margin: -38px 1% 20px 0;
+    }
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -284px;
+        margin-left: 6%;
+        width: 58%;
+    }
+
+    .infoblock .triangle-pointer {
+        position: relative;
+        left: 0;
+    }
+
+    .infoblock .for-public-libraries-section__touching-fax-text {
+        margin-top: 20px;
+    }
+
+    .infoblock .triangle-pointer--3 {
+        position: relative;
+        top: -88px;
+        left: -37%;
+    }
+
+    .infoblock .for-public-libraries-section__sub-header {
+        padding-bottom: 10px;
+    }
+
+    .infoblock .arrows--after:after {
+        top: 381px;
+        left: 40px;
+        width: 85%;
+    }
+
+    .infoblock .reservation-app-wrapper__two-tels-section {
+        padding-top: 68px;
+    }
+
+    .infoblock .two-tels-section__text-p {
+        top: 60px;
+    }
+
+    .infoblock .header-section__logo {
+        width: 28%;
+        padding-bottom: 35px;
+    }
+
+    .infoblock .header-section__header {
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-top: 15px;
+    }
+
+    .infoblock .header-section__sub-header {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        margin-top: 10px;
+    }
+
+    .infoblock .text-section__centered-text--with-padding {
+        padding-top: 12px;
+    }
+
+    .infoblock .text-section__centered-text--with-margin {
+        padding-top: 42px;
+    }
+
+    .infoblock .column__text-p {
+        padding: 12px 0;
+    }
+
+    .infoblock .column__scan-large-maps-image {
+        margin: 14px auto 0 0;
+    }
+
+    .infoblock .common-header-h2 {
+        padding: 10px 0;
+    }
+
+    .infoblock .capture-area-comparison-wrapper__below-map-text {
+        margin-left: 0;
+    }
+
+    .infoblock .common-header-h2--smart-dock-sub-header {
+        width: 100%;
+        margin: 0 0 0 1%;
+    }
+
+    .infoblock .common-row__column--bottles-of-ink-text-wrapper {
+        width: 45%;
+    }
+
+    .infoblock .common-row__column--bottles-of-ink-image-wrapper {
+        width: 48%;
+    }
+
+    .infoblock .tr__arrow:before {
+        top: -12px;
+        right: 0;
+        height: 29px;
+    }
+
+    .infoblock .middle-content__logo {
+        width: 25%;
+        margin: -2px 5%;
+    }
+
+
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+    html {
+        font-size: 50%;
+    }
+
+    .infoblock .bg-image__text--left-top {
+        top: -312px;
+    }
+
+    .infoblock .bg-image__text--left-middle {
+        top: -212px;
+    }
+
+    .infoblock .bg-image__text--left {
+        top: -180px;
+    }
+
+    .infoblock .section__right-image-text {
+        margin-left: 72%;
+        margin-top: -349px;
+        text-align: left;
+    }
+
+    .infoblock .section__left-image-text {
+        margin-top: -289px;
+        padding-bottom: 115px;
+        margin-left: -8%;
+    }
+
+    .infoblock .column__section--background {
+        height: 443px;
+    }
+
+    .infoblock .blue-bullet--with-margin {
+        margin-left: 48%;
+    }
+
+    .infoblock .true-2-touch-wrapper__dual-screen-text {
+        margin: -57px 0 0 70%;
+        padding-bottom: 30px;
+    }
+
+    .infoblock .content-holder__text-section--smart-dock {
+        margin-top: -135px;
+        padding-left: 48%;
+    }
+
+    .infoblock .content-holder__text-p {
+        margin-top: 15px;
+        margin-left: 8%;
+        width: 35%;
+    }
+
+    .infoblock .for-public-libraries-section__panorama-image {
+        margin: -38px 1% 20px 0;
+    }
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -270px;
+    }
+
+    .infoblock .triangle-pointer {
+        position: relative;
+        left: 41%;
+    }
+
+    .infoblock .for-public-libraries-section__touching-fax-text {
+        margin-top: 0;
+    }
+
+    .infoblock .triangle-pointer--3 {
+        position: relative;
+        top: -80px;
+        left: -35%;
+    }
+
+    .infoblock .for-public-libraries-section__sub-header {
+        padding-bottom: 10px;
+    }
+
+    .infoblock .arrows--after:after {
+        top: 470px;
+        left: 40px;
+        width: 85%;
+    }
+
+    .infoblock .reservation-app-wrapper__two-tels-section {
+        padding-top: 68px;
+    }
+
+    .infoblock .two-tels-section__text-p {
+        top: 60px;
+    }
+
+    .infoblock .header-section__logo {
+        width: 28%;
+        padding-bottom: 35px;
+    }
+
+    .infoblock .header-section__header {
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-top: 15px;
+    }
+
+    .infoblock .header-section__sub-header {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        margin-top: 10px;
+    }
+
+    .infoblock .text-section__centered-text--with-padding {
+        padding-top: 12px;
+    }
+
+    .infoblock .text-section__centered-text--with-margin {
+        padding-top: 10px;
+    }
+
+    .infoblock .column__text-p {
+        padding: 5px 0;
+    }
+
+    .infoblock .column__scan-large-maps-image {
+        margin: 14px auto 0 0;
+    }
+
+    .infoblock .common-header-h2 {
+        padding: 10px 0;
+    }
+
+    .infoblock .capture-area-comparison-wrapper__below-map-text {
+        margin-left: 0;
+    }
+
+    .infoblock .common-header-h2--smart-dock-sub-header {
+        width: 100%;
+        margin: 0 0 0 1%;
+    }
+
+    .infoblock .common-row__column--bottles-of-ink-text-wrapper {
+        width: 45%;
+    }
+
+    .infoblock .common-row__column--bottles-of-ink-image-wrapper {
+        width: 48%;
+    }
+
+    .infoblock .tr__arrow:before {
+        top: -12px;
+        right: 0;
+        height: 29px;
+    }
+}
+
+/* tablets */
+@media (max-width: 941px) {
+
+}

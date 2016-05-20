@@ -7,8 +7,8 @@ function redirect(url) {
 }
 
 function fadeIn(onAnimationComplete) {
-    $("div.content").hide();
-    $("div.content").fadeIn(4000, onAnimationComplete);
+    $(".content").hide();
+    $(".content").fadeIn(4000, onAnimationComplete);
 }
 
 $(document).ready(function () {
@@ -19,6 +19,7 @@ $(document).ready(function () {
     });
 });
 
-function simulateAnimation(onAnimationComplete) {
-    setTimeout(onAnimationComplete, 4000);
+function simulateAnimation(onAnimationComplete, duration) {
+    duration = duration || 4000;
+    setTimeout(onAnimationComplete, duration);
 }

@@ -257,7 +257,7 @@ function AnimateImagesLoading(callback) {
 }
 
 $(document).ready(function () {
-    setTimeout(function () {
+    fadeIn(function () {
         AnimateImagesLoading(function () {
             animate(function () {
                 simulateAnimation(function () {
@@ -265,5 +265,5 @@ $(document).ready(function () {
                 });
             });
         });
-    }, 500);
+    }, 2000);
 });
