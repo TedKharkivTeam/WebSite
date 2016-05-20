@@ -246,10 +246,6 @@ img {
     height: 16px;
 }
 
-.infoblock p {
-    text-align: left;
-}
-
 div.infoblock span {
     display: inline-block;
 }
@@ -579,9 +575,10 @@ th .table--img {
     width: 40%;
 }
 
-#copy-diagram {
+.copy-diagram {
     float: left;
-    width: 30%;
+    width: 35%;
+    height: 35%;
 }
 
 #fax-diagram {
@@ -1586,11 +1583,6 @@ h2.pod-text {
     margin: 0 auto;
 }
 
-.infoblock p {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-}
-
 .cicle {
     border-radius: 100%;
     -moz-border-radius: 100%;
@@ -2369,27 +2361,25 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 
 .wrap-two-large-screens {
     float: left;
-    width: 60%;
+    width: 70%;
     margin-bottom: 40px;
 }
 
 .dual-screen-img {
-    width: 25% !important;
+    float: left;
+    width: 27% !important;
     padding-left: 15px;
+    position: relative;
 }
 
 .wrap-two-large-screens p {
     padding-bottom: 15px;
 }
 
-.wrap-dual-screen-img {
-    position: relative;
-}
-
 .wrap-dual-screen-img span {
     position: absolute;
-    top: 97%;
-    right: 203px;
+    bottom: -350px;
+    right: 73px;
     font-size: 1.6rem;
 }
 
@@ -2742,4 +2732,20 @@ img.click-mini {
     text-align: center;
     line-height: 18px;
     padding-bottom: 10px;
+}
+
+.brochure-title-center {
+    font-size: 3.1rem;
+    line-height: 3.3rem;
+}
+
+.dual-screen-text {
+    position: absolute;
+}
+
+p.media_fix_for1366 {
+    position: absolute;
+    width: 27%;
+    top: 210px;
+    right: 40px;
 }
