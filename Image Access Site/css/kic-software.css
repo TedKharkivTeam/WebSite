@@ -1878,7 +1878,6 @@ table.table__footer td {
 @media all and (max-width: 1320px) {
     .infoblock .infoblock__page-7__text-block-devices {
         width: 35%;
-
         font-size: 1.2rem;
     }
 }
@@ -1894,6 +1893,17 @@ table.table__footer td {
 
     .wrap-one-screen-with-hand-in-border span {
         top: 390px;
+    }
+
+    .big-tel {
+        margin-top: 30px;
+    }
+
+    .reservation__text-img.img__touch--after:after {
+        bottom: -120px;
+        left: 5px;
+        width: 80%;
+        height: 100%;
     }
 }
 
@@ -2514,6 +2524,13 @@ p.infoblock__page-5__block-p.--replace {
         margin: -290px 18px 0 0;
     }
 
+    .reservation__text-img.img__touch--after:after {
+        bottom: -115px;
+        left: 15px;
+        width: 80%;
+        height: 100%;
+    }
+
     .big-tel {
         margin-top: -70px;
     }
@@ -2675,6 +2692,12 @@ h2.brochure-title-kic-software__blue_label.--fleet {
         left: 30px;
         width: 47%;
     }
+
+    .reservation__text-img.img__touch--after:after {
+        bottom: -152px;;
+        width: 80%;
+        height: 100%;
+    }
 }
 
 img.click-mini {
@@ -2683,7 +2706,14 @@ img.click-mini {
 
 @media all and (max-width: 1280px) {
     .big-tel {
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+
+    .reservation__text-img.img__touch--after:after {
+        bottom: -120px;
+        left: 5px;
+        width: 80%;
+        height: 100%;
     }
 
     .first-paragraph {
@@ -2693,5 +2723,9 @@ img.click-mini {
     .wrap-one-screen-with-hand-in-border span {
         top: 390px;
         width: 43%;
+    }
+
+    .reservation__text-img.img__touch--after:after {
+        bottom: -113px;
     }
 }
