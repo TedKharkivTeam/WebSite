@@ -570,15 +570,15 @@ th .table--img {
     position: relative;
 }
 
-#scan-diagram {
+.scan-diagram {
     float: right;
-    width: 40%;
+    width: 40% !important;
 }
 
 .copy-diagram {
     float: left;
-    width: 35%;
-    height: 35%;
+    width: 35% !important;
+    height: 35% !important;
 }
 
 #fax-diagram {
@@ -609,6 +609,7 @@ th .table--img {
     width: 70%;
     margin: 0 auto;
     display: block;
+    padding: 10px 0;
 }
 
 .infoblock .text6 {
@@ -657,7 +658,7 @@ th .table--img {
     padding: 5px 10px;
     overflow: hidden;
     text-align: center;
-    min-height: 235px;
+    min-height: 242px;
 }
 
 .paragraph-padding {
@@ -691,6 +692,7 @@ th .table--img {
 .infoblock .infoblock__double__double-p {
     width: 50%;
     float: left;
+    padding: 10px 0 10px 10px;
 }
 
 .infoblock .bookeye-vs-copiers__span {
@@ -836,17 +838,18 @@ th .table--img {
 
 .infoblock__left-block {
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .infoblock .infoblock__right-img {
-    float: right;
-    width: 30%;
-    padding-left: 2%;
+    width: 90%;
+    padding-left: 60px;
+    box-sizing: content-box;
 }
 
 .infoblock .infoblock__right-images {
-    width: 30%;
+    width: 45%;
+    padding-top: 60px;
 }
 
 .infoblock .kic_software_hybrid_libraru_label_singleton {
@@ -906,8 +909,8 @@ div .infoblock__block {
 
 .infoblock .infoblock__true-2-touch {
     float: left;
-    width: 15%;
-    padding: 0 10px 10px 0;
+    width: 11%;
+    padding: 0 0 10px 0;
 }
 
 .infoblock .infoblock__ul {
@@ -938,20 +941,13 @@ div .infoblock__block {
 }
 
 .infoblock .kostil__with_image {
-    margin-top: -310px;
-}
-
-div .infoblock__homo-scanner {
-    float: left;
-    width: 60%;
-    height: 60%;
-    margin-right: 80px;
-
+    margin-top: -25px;
 }
 
 .infoblock .fix_size_homo-scanner {
     width: 37%;
-    height: auto;
+    height: 37%;
+    float: left;
 }
 
 .infoblock .kic_software__li_image_small {
@@ -1036,13 +1032,13 @@ div .infoblock__homo {
 }
 
 .infoblock .infoblock__map-planet {
-    width: 35%;
+    width: 45%;
     float: right;
-    margin: -150px 30px 0 0;
+    margin: -240px 80px 0 0;
 }
 
 .infoblock .kic_product_family_littleblock {
-    width: 58%;
+    width: 40%;
     float: left;
 }
 
@@ -1197,11 +1193,6 @@ div .infoblock__homo {
     float: left;
     word-wrap: break-word;
     border-left: 2px solid #E3E6DB;
-}
-
-#scan-diagram {
-    float: right;
-    width: 40%;
 }
 
 #copy-diagram {
@@ -1419,14 +1410,13 @@ div .infoblock__page-7__block-left {
 .infoblock .infoblock__page-7__scanner-bookeye-4-new {
     width: 90%;
     margin-left: 2%;
-    margin-top: -20%;
 }
 
 .infoblock .infoblock__page-7__text-block-devices {
     width: 30%;
     font-size: 1.6rem;
     position: absolute;
-    top: 451px;
+    top: 410px;
     right: 74px;
 }
 
@@ -1438,7 +1428,7 @@ div .infoblock__page-7__block-left {
     width: 30%;
     position: absolute;
     right: 80px;
-    top: 830px;
+    top: 780px;
     font-size: 1.6rem;
 }
 
@@ -1900,6 +1890,8 @@ table.table__footer td {
         width: 80%;
         height: 100%;
     }
+
+
 }
 
 @media all and (max-width: 1350px) {
@@ -2264,11 +2256,11 @@ table.table__footer td {
     width: 50%;
 }
 
-.--left {
+.left {
     float: left;
 }
 
-.--right {
+.right {
     float: right;
 }
 
@@ -2321,7 +2313,7 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 .first-paragraph {
     float: right;
     width: 85%;
-    padding: 40px 0 !important;
+    padding: 0 0 30px !important;
 }
 
 .wrap-paragraph {
@@ -2337,7 +2329,7 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 
 .one-screen-with-hand-in-border {
     float: left;
-    width: 25% !important;
+    width: 35% !important;
     padding: 120px 15px 0 0;
 }
 
@@ -2347,7 +2339,8 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 
 .wrap-one-screen-with-hand-in-border span {
     position: absolute;
-    top: 120px;
+    top: 160px;
+    left: 300px;
     width: 20%;
     font-style: italic;
 }
@@ -2465,11 +2458,11 @@ p.infoblock__page-5__block-p.--replace {
     }
 
     .infoblock .infoblock__right-images-clients {
-        width: 38%;
+        width: 57%;
     }
 
     .infoblock .infoblock__map-planet {
-        margin: -120px -12px 0 0;
+        margin: -130px -12px 0 0;
     }
 
     .row__column {
@@ -2510,6 +2503,14 @@ p.infoblock__page-5__block-p.--replace {
     .infoblock ul.blue-bullet li {
         font-size: 1.6rem;
         line-height: 2.2rem;
+    }
+
+    .hybrid-last-paragraph {
+        width: 140%;
+    }
+
+    p.paragraph-resize {
+        width: 160%;
     }
 }
 
@@ -2658,6 +2659,18 @@ h2.brochure-title-kic-software__blue_label.--fleet {
         min-height: 470px;
     }
 
+    .paragraph-padding {
+        padding: 0 0 15px 0 !important;
+    }
+
+    .infoblock__double__content__double p {
+        padding: 18px 0;
+    }
+
+    .infoblock__double__content {
+        min-height: 270px;
+    }
+
     img.infoblock__page-9__nav__img {
         padding-top: 60px;
         box-sizing: content-box;
@@ -2668,7 +2681,7 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     }
 
     p.infoblock__page-5__block-p.--replace {
-        margin-right: -130px;
+        margin-right: -160px;
         line-height: 2rem;
     }
 
@@ -2677,13 +2690,14 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     }
 
     .one-screen-with-hand-in-border {
-        width: 45% !important;
-        padding: 20px 15px 0 0;
+        width: 40% !important;
+        padding: 140px 15px 0 0;
     }
 
     .wrap-one-screen-with-hand-in-border span {
-        top: 490px;
-        left: 30px;
+        top: 130px;
+        left: 280px;
+        font-size: 1.4rem;
         width: 47%;
     }
 
@@ -2691,6 +2705,27 @@ h2.brochure-title-kic-software__blue_label.--fleet {
         bottom: -152px;;
         width: 80%;
         height: 100%;
+    }
+
+    p.media_fix_for1366 {
+        top: 190px !important;
+    }
+
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 33%;
+        top: 384px;
+        right: 46px;
+    }
+
+    .infoblock .infoblock__page-7__text-block-scanner {
+        top: 700px;
+    }
+
+    .wrap-dual-screen-img span {
+        position: absolute;
+        bottom: -300px;
+        right: 50px;
+        font-size: 1.6rem;
     }
 }
 
@@ -2748,4 +2783,41 @@ p.media_fix_for1366 {
     width: 27%;
     top: 210px;
     right: 40px;
+}
+
+.wrap-dual-screen-img {
+    position: relative;
+}
+
+.hybrid-last-paragraph {
+    float: left;
+    width: 50%;
+}
+
+img.infoblock__flash {
+    width: 37%;
+    float: right;
+}
+
+.smart_hard_block .triangle-pointer {
+    font-size: 5rem;
+    line-height: 3rem;
+    color: gray;
+    display: block;
+}
+
+.wrap-__text-block-right .triangle-pointer {
+    font-size: 5rem;
+    line-height: 3rem;
+    position: absolute;
+    color: gray;
+    margin-left: -30px;
+}
+
+.infoblock__homo .triangle-pointer {
+    font-size: 5rem;
+    line-height: 3rem;
+    position: absolute;
+    color: gray;
+    margin-left: -30px;
 }
