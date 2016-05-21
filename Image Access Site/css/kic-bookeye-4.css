@@ -729,15 +729,6 @@ div .infoblock__page-5__block-p {
     display: block;
 }
 
-.infoblock .triangle-pointer--3 {
-    position: relative;
-    top: -135px;
-    left: -35%;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-}
 
 div .infoblock__page-7_photo2 {
     width: 40%;
