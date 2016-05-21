@@ -944,8 +944,10 @@ h4 {
 }
 
 .table .table__big-img {
-    width: 60%;
-    height: 40%;
+    /*width: 60%;*/
+    /*height: 40%;*/
+    width: 100px;
+    height: 120px;
 }
 
 .left-block {
