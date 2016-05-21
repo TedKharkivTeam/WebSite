@@ -38,7 +38,7 @@
 
 .infoblock__center {
     overflow: hidden;
-    margin-top: -80px;
+    margin-top: -130px;
 }
 
 .infoblock .infoblock__center__img {
@@ -144,6 +144,9 @@
 @media all and (max-width: 1812px) {
     .infoblock .infoblock__center__text--padding {
         padding-top: 30px;
+    }
+    .infoblock__center {
+        margin-top: -80px;
     }
 }
 

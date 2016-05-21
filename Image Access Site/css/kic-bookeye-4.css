@@ -115,6 +115,7 @@ figure {
 
 .infoblock__page-13 {
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .infoblock__page-14 {
@@ -242,14 +243,18 @@ figure {
     float: left;
 }
 
+.infoblock__page-2__p-width{
+    width: 67%;
+}
+
 .infoblock .images--hand {
-    width: 50%;
+    width: 30%;
     float: left;
 }
 
 #hand-with-yellow-coin {
     float: left;
-    width: 48%;
+    width: 30%;
     padding-right: 5px;
 }
 
@@ -717,6 +722,22 @@ div .infoblock__page-5__block-p {
     margin-left:7%;
 
 }
+.infoblock .triangle-pointer {
+    font-size: 5rem;
+    line-height: 5rem;
+    color: gray;
+    display: block;
+}
+
+.infoblock .triangle-pointer--3 {
+    position: relative;
+    top: -135px;
+    left: -35%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
 
 div .infoblock__page-7_photo2 {
     width: 40%;
@@ -735,7 +756,7 @@ div .infoblock__page-7__text-right2 {
 
 div .infoblock__page-7__text-right {
     width: 65%;
-    margin-top: -330px;
+    margin-top: -380px;
     margin-right: -10%;
     text-align: right;
     font-style: italic;
@@ -936,7 +957,7 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-9__center {
     overflow: hidden;
-    margin-top: -80px;
+    margin-top: -130px;
 }
 
 .infoblock .infoblock__page-9__center__img {
@@ -1344,7 +1365,7 @@ h2.pod-text {
     background: rgba(0, 0, 0, 0.1);
 }
 
-*/
+
 
 .infoblock__page-13__left-block {
     float: left;
@@ -1430,8 +1451,78 @@ h2.pod-text {
 .infoblock__page-13__table-bg {
     background: rgba(0, 0, 0, 0.1);
 }
+*/
 
+.infoblock__page-13__top-block{
+    content:"";
+    display: block;
+    clear: both;
+}
 
+.infoblock__page-13 p{
+    margin-bottom: 10px;
+}
+
+.infoblock__page-13__bottom-block{
+    content:"";
+    display: block;
+    clear: both;
+}
+.bottom-block__right-block{
+    float:right;
+    width: 49%;
+}
+.top-block__left-block{
+    float:left;
+    width: 49%;
+}
+.bottom-block__left-block{
+    float:left;
+    width: 49%;
+}
+
+.top-block__left-block__p-width{
+    width: 85%;
+}
+
+.top-block__right-block{
+    float:right;
+    width: 49%;
+}
+.right-block__img{
+    margin-top: 19%;
+    margin-left: -33px;
+}
+.infoblock .left-block__text-block-h3 {
+    color: #000;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+}
+
+.infoblock .left-block__right-img{
+    float: right;
+    width: 26%;
+    margin-left: 11%;
+}
+.infoblock .bottom-block__right-block__img{
+    width: 70%;
+    margin-left: 10%;
+}
+.infoblock .bottom-block__right-block__img2{
+    width: 90%;
+    margin-top: 10%;
+}
+
+.left-block__bot-margin-right{
+    margin-right:5%;
+}
+
+.infoblock .left-block__bottom-p{
+    margin-bottom: 50px;
+}
+
+/* 14 page*/
 .infoblock .sitalic{
     font-style: italic;
     text-align: center;
@@ -1443,12 +1534,13 @@ h2.pod-text {
 .kic-product {
     text-align: right;
     padding-bottom: 15px;
+    margin-right: 1%;
 }
 .kic-product__row {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: calc(100% / 6);
+    width: calc(100% / 6.12);
 }
 .kic-product .row__title {
     text-align: center;
@@ -1474,7 +1566,7 @@ h2.pod-text {
 }
 
 .table {
-    width: 100%;
+    width: 99%;
     padding: 20px 0;
 }
 
@@ -1878,6 +1970,8 @@ th .table--img {
 }
 
 
+
+
 @media all and (max-width: 1480px){
     .table .table--ta-left {
         padding-right: 10px;
@@ -1965,6 +2059,9 @@ th .table--img {
 @media all and (max-width: 1812px){
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--padding {
         padding-top: 30px;
+    }
+    .infoblock__page-9__center{
+        margin-top: -130px;
     }
 }
 
