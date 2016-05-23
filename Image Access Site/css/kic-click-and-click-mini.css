@@ -291,7 +291,7 @@ h4 {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: calc(100% / 6);
+    width: calc(100% / 6.18);
 }
 
 .kic-product .row__title {
@@ -493,11 +493,11 @@ th .table--img {
     font-size: 0.8rem;
     line-height: 1rem;
     vertical-align: text-top;
-    color: #e8383b;
 }
 
 .align-right {
     text-align: right;
+    float: right;
 }
 
 .first-column {
@@ -1086,11 +1086,10 @@ h2.pod-text {
     font-size: 2.4rem;
     text-align: center;
     line-height: 1;
-    padding-top: 20px;
 }
 
 .infoblock .two_newspapers {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     display: block;
 }
@@ -1553,7 +1552,7 @@ h2.pod-text {
 }
 
 .infoblock__double-wrap figure img, .infoblock .diagram {
-    width: 80%;
+    width: 70%;
     height: 80%;
     display: block;
     margin: 0 auto;
