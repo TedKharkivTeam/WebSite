@@ -438,6 +438,43 @@
     left: 2%;
 }
 
+.common-row--with-background__kat-professor {
+    width: 45%;
+    height: 145px;
+    position: relative;
+    left: 54%;
+    top: 46px;
+    border-radius: 5px;
+    background-color: #DEDEDE;
+}
+
+.kat-professor__title {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+.kat-professor__description {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    position: relative;
+    right: 34%;
+    bottom: 55px;
+}
+
+.kat-professor__img {
+    width: 100%;
+}
+
+.kat-professor__text-below {
+    font-size: 1rem;
+    line-height: 1rem;
+    position: relative;
+    bottom: 40px;
+}
+
 /* Frames 5A, 5B Media Queries */
 
 /* 1280, 1366 */
@@ -490,6 +527,22 @@
 
     .common-row__common-column--kat-bookshelves {
         top: 90px;
+    }
+
+    .common-row--with-background__kat-professor {
+        height: 103px;
+    }
+
+    .kat-professor__title {
+        top: 7px;
+    }
+
+    .kat-professor__description {
+        bottom: 41px;
+    }
+
+    .kat-professor__text-below {
+        bottom: 30px;
     }
 }
 
@@ -551,6 +604,23 @@
 
     .common-row__common-column--kat-bookshelves {
         top: 80px;
+    }
+
+    .kat-professor__title {
+        top: 7px;
+    }
+
+    .kat-professor__description {
+        bottom: 38px;
+    }
+
+    .kat-professor__text-below {
+        bottom: 23px;
+    }
+
+    .common-row--with-background__kat-professor {
+        height: 100px;
+        top: 60px;
     }
 }
 
