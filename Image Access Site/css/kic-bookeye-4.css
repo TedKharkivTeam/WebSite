@@ -1512,7 +1512,96 @@ h2.pod-text {
 .infoblock .left-block__bottom-p{
     margin-bottom: 50px;
 }
+/* Technical Specification*/
+.page-13-2__top-block{
+    position: relative;
+    overflow: hidden;
+}
 
+.infoblock .page-13-2__top-block__img{
+    width: 90%;
+    height: 90%;
+}
+
+.infoblock__page-13-2__header_v2{
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+
+.infoblock__page-13-2__header_v3{
+    font-weight: bold;
+    right: 13%;
+    top: 10%;
+    position: absolute;
+}
+
+.central-block_padding-border{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.page-13-2__td-width{
+    width: 25px;
+}
+
+.infoblock .central-block__table__td--bg {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.infoblock .table__td-first-column{
+    width: 200px;
+    text-align: right;
+}
+
+.central-block__table{
+    padding: 10px;
+}
+
+.central-block_padding-border table tr td{
+    padding: 5px 10px;
+}
+.central-block_padding-border table{
+    width: 100%;
+}
+.bottom-block_padding-border table tr td{
+    padding: 5px 10px;
+}
+
+.bottom-block_padding-border{
+    width: 53%;
+    border: 1px solid #000;
+    padding: 10px;
+    float: left;
+}
+
+.padding-bottom-left-block{
+    padding-left: 1%;
+}
+
+.infoblock .grey-bg{
+    color: #9e9fa1;
+    text-align: right;
+}
+.low-fond-size{
+    font-size: 1.4rem;
+}
+
+.page-13-2__central-block__italic-text{
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.bottom-block__spec{
+    color: #000;
+    text-align: center;
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+}
+
+.bottom-block__bottom-sub-spec{
+    text-align: center;
+}
 /* 14 page*/
 .infoblock .sitalic{
     font-style: italic;
