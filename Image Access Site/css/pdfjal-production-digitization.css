@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.infoblock span, p {
+.infoblock span {
     font-weight: normal;
     line-height: 1.2;
 }
@@ -95,7 +95,7 @@
 }
 
 .title__mark {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: bold;
     background: transparent;
 }
@@ -187,13 +187,14 @@
     text-shadow: none;
     color: #000;
     font-size: 2.4rem;
-    padding-right: 20%;
+    padding-right: 10px;
 }
 
 .infoblock .seven-step__text {
     display: inline;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
+    font-size: 2.1rem;
+    line-height: 2.3rem;
+    font-weight: bold;
 }
 
 .seven-step__scan {
@@ -254,7 +255,7 @@
 }
 
 .two-step--w3 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2rem;
 }
 
@@ -291,14 +292,14 @@
 
 .page3__inline {
     display: inline-block;
-    padding: 9px 30px;
+    padding: 9px 20px;
     width: 48%;
     vertical-align: top;
 }
 
-.page3__inline li {
-    line-height: 2.2rem;
-    padding: 1px 0;
+.blue-bullet li {
+    line-height: 2.4rem;
+    padding: 0;
 }
 
 .page3--right {
@@ -339,6 +340,14 @@
     position: relative;
     text-align: center;
     margin-left: 17%;
+    vertical-align: top;
+}
+
+.steep-h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: left;
 }
 
 .method2:before {
@@ -434,6 +443,7 @@ h4 {
     border: 2px solid #000;
     text-align: center;
     background: #bfdae2;
+    margin-bottom: 15px;
 }
 
 .infoblock .block-grey__ul {
@@ -474,6 +484,7 @@ h4 {
     width: 50%;
     float: right;
     clear: both;
+    margin-left: 10px;
 }
 
 .infoblock__center--text {
@@ -583,6 +594,7 @@ span.green-cicle {
 .two-circule {
     padding-top: 10px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 th .table--img {
@@ -901,7 +913,11 @@ th .table--img {
 
 .bogdan-kostil {
     position: relative;
-    padding: 25px 0;
+    padding: 0;
+}
+
+.brochure-title-center {
+    padding: 20px 0 10px;
 }
 
 .bogdan-kostil:after {
@@ -939,8 +955,10 @@ th .table--img {
 }
 
 h4 {
-    padding-bottom: 10px;
-    line-height: 1.2;
+    font-style: italic;
+    line-height: 2.2rem;
+    font-size: 2rem;
+    padding-bottom: 5px;
 }
 
 .table .table__big-img {
@@ -1009,6 +1027,11 @@ h4 {
     width: 49%;
 }
 
+.infoblock .triangle-pointer {
+    font-size: 2.2rem;
+    line-height: 1;
+    color: gray;
+}
 /*end of new image*/
 @media all and (max-width: 1725px) {
     .top-title__send {
@@ -1127,7 +1150,7 @@ h4 {
 
     .two-step:after {
         right: 48%;
-        bottom: 7px;
+        bottom: -1px;
     }
 
     .page__inline--left {
@@ -1150,5 +1173,9 @@ h4 {
 @media all and (max-width: 1200px) {
     .two-step:after {
         bottom: 0;
+    }
+    .two-step:before {
+        width: 92px;
+        height: 60px;
     }
 }
