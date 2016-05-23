@@ -429,7 +429,7 @@ div .infoblock__page-4__homo-text {
 
     margin-top: 4%;
     width: 20%;
-
+position: relative;
     display: inline-block;
     margin-left: 15%;
 }
@@ -437,6 +437,12 @@ div .infoblock__page-4__homo-text {
 div .infoblock__page-4__homo {
     font-style: italic;
     margin-right: 5%;
+    position: relative;
+}
+
+.page-4__arrow-1{
+    position: absolute;
+    right: 36%;
 }
 
 .infoblock .infoblock__page-4__text-block-left {
@@ -729,6 +735,10 @@ div .infoblock__page-5__block-p {
     display: block;
 }
 
+.page-4__arrow-2{
+    position: absolute;
+    left: -15%;
+}
 
 div .infoblock__page-7_photo2 {
     width: 40%;
@@ -928,8 +938,8 @@ div .infoblock__page-7__block-left {
     text-align: center;
     color: #000;
     text-shadow: none;
-    font-size: 6.4rem;
-    line-height: 6.6rem;
+    font-size: 5rem;
+    line-height: 5.2rem;
     margin: 0;
 }
 
@@ -1268,6 +1278,7 @@ h2.pod-text {
 
     font-size: 2.6rem;
     line-height: 2.8rem;
+    margin-top: 15px;
 }
 
 
@@ -2099,14 +2110,24 @@ th .table--img {
     padding-bottom: 15px;
 }
 
+.infoblock__page-12 .infoblock__page-12__margin-header{
+    margin-top: 0;
+}
+
 #KIC_Bookeye_4_True_2_Touch .story-text {
     padding-top: 20px;
     font-size: 1.6rem;
-    line-height: 2.4rem;
-    text-align: center;
-    font-style:italic ;
-    width: 40%;
-    margin-left: 15%;
+    /* line-height: 2.4rem; */
+    /* text-align: center; */
+    font-style: italic;
+    /* width: 40%; */
+    width: 48%;
+    margin-left: 10%;
+    position: relative;
+}
+.page-6-arrow{
+    position: absolute;
+    right: -6%;
 }
 
 .planet-with-map {
