@@ -242,6 +242,391 @@
     right: -70px;
 }
 
+/* Frames 5A, 5B */
+
+.common-row {
+    width: 100%
+}
+
+.common-row--kat-students {
+    position: relative;
+    right: 15px;
+}
+
+.common-row--with-border {
+    margin: 10px 2%;
+    width: 45%;
+    height: 370px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.common-row--with-background {
+    background: url("../images/frames/kat_phones.png") no-repeat;
+    background-size: cover;
+}
+
+.common-row__common-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+.common-row__common-column--second-column {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-bottom: -15px;
+}
+
+.common-row__common-column--kat-bookshelves {
+    position: relative;
+    top: 115px;
+}
+
+.common-column__figure {
+    margin: 0;
+}
+
+.common-column__figure--kat-bookshelves {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.common-column__figure--kat-students {
+
+}
+
+.common-column__figure--kat-stacks-view-screen {
+
+}
+
+.figure--kat-bookshelves__img {
+    width: 85%;
+}
+
+.figure--kat-bookshelves__text-below {
+    text-align: left;
+    padding-left: 12%;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: italic;
+    width: 85%;
+}
+
+.common-row__common-column--kat-students-text {
+    width: 35%;
+}
+
+.figure--kat-students__text-left {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: italic;
+    text-align: right;
+}
+
+.common-row__common-column--kat-students-img {
+    width: 60%;
+}
+
+.figure--kat-students__img {
+    width: 100%;
+}
+
+.figure--kat-stacks-view-screen__img-title-text {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    position: relative;
+    right: 10%;
+    top: 15px;
+}
+
+.figure--kat-stacks-view-screen__img {
+    width: 100%;
+}
+
+.figure--kat-stacks-view-screen__text-below {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: italic;
+    text-align: left;
+    width: 52%;
+    position: relative;
+    left: 7%;
+    bottom: 65px;
+}
+
+/* RIGHT PART OF THIS SHI.. Ghm, I mean - of this cool frame */
+
+.common-row--with-background__search-screen {
+
+}
+
+.common-row--with-background__bibliography-view-screen {
+
+}
+
+.common-row--with-background__shelf-view-screen {
+
+}
+
+.phone-title-common {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: left;
+}
+
+.search-screen__title {
+    position: relative;
+    top: 7px;
+    left: 16%;
+}
+
+.bibliography-view-screen__title {
+    position: relative;
+    top: 35px;
+    left: 54%;
+}
+
+.shelf-view-screen__title {
+    position: relative;
+    top: 54px;
+    left: 14%;
+}
+
+.phone-description-common {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.search-screen__description {
+    width: 35%;
+    position: relative;
+    top: 115px;
+    left: 2%;
+}
+
+.bibliography-view-screen__description_1 {
+    width: 12%;
+    text-align: left;
+    position: relative;
+    left: 86%;
+    top: 50px;
+}
+
+.bibliography-view-screen__description_2 {
+    width: 15%;
+    text-align: left;
+    position: relative;
+    top: 58px;
+    left: 86%;
+}
+
+.shelf-view-screen__description {
+    width: 26%;
+    position: relative;
+    top: 165px;
+    left: 2%;
+}
+
+.common-row--with-background__kat-professor {
+    width: 45%;
+    height: 145px;
+    position: relative;
+    left: 54%;
+    top: 46px;
+    border-radius: 5px;
+    background-color: #DEDEDE;
+}
+
+.kat-professor__title {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+.kat-professor__description {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    position: relative;
+    right: 34%;
+    bottom: 55px;
+}
+
+.kat-professor__img {
+    width: 100%;
+}
+
+.kat-professor__text-below {
+    font-size: 1rem;
+    line-height: 1rem;
+    position: relative;
+    bottom: 40px;
+}
+
+/* Frames 5A, 5B Media Queries */
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .common-row--with-border {
+        height: 280px;
+    }
+
+    .common-row__common-column--second-column {
+        left: 7px;
+    }
+
+    .figure--kat-stacks-view-screen__img-title-text {
+        top: 12px;
+    }
+
+    .figure--kat-stacks-view-screen__text-below {
+        bottom: 50px;
+    }
+
+    .search-screen__description {
+        top: 88px;
+        left: 4%;
+    }
+
+    .shelf-view-screen__description {
+        top: 140px;
+        left: 3%;
+    }
+
+    .bibliography-view-screen__title {
+        top: 24px;
+        left: 55%;
+    }
+
+    .bibliography-view-screen__description_1 {
+        top: 42px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .bibliography-view-screen__description_2 {
+        width: 13%;
+        top: 51px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .common-row__common-column--kat-bookshelves {
+        top: 90px;
+    }
+
+    .common-row--with-background__kat-professor {
+        height: 103px;
+    }
+
+    .kat-professor__title {
+        top: 7px;
+    }
+
+    .kat-professor__description {
+        bottom: 41px;
+    }
+
+    .kat-professor__text-below {
+        bottom: 30px;
+    }
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+    .common-row--with-border {
+        height: 265px;
+    }
+
+    .common-row__common-column--second-column {
+        left: 7px;
+    }
+
+    .figure--kat-stacks-view-screen__img-title-text {
+        top: 12px;
+    }
+
+    .figure--kat-stacks-view-screen__text-below {
+        bottom: 45px;
+    }
+
+    .search-screen__description {
+        top: 82px;
+        left: 4%;
+    }
+
+    .shelf-view-screen__description {
+        top: 140px;
+        left: 2%;
+    }
+
+    .bibliography-view-screen__title {
+        top: 27px;
+        left: 56%;
+    }
+
+    .bibliography-view-screen__description_1 {
+        top: 45px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .bibliography-view-screen__description_2 {
+        width: 13%;
+        top: 54px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .search-screen__title {
+        top: 6px;
+    }
+
+    .shelf-view-screen__title {
+        top: 61px;
+    }
+
+    .common-row__common-column--kat-bookshelves {
+        top: 80px;
+    }
+
+    .kat-professor__title {
+        top: 7px;
+    }
+
+    .kat-professor__description {
+        bottom: 38px;
+    }
+
+    .kat-professor__text-below {
+        bottom: 23px;
+    }
+
+    .common-row--with-background__kat-professor {
+        height: 100px;
+        top: 60px;
+    }
+}
+
+/* END Frames 5A, 5B */
+
+
 /*end of frames 5*/
 /*pod*/
 .wrapper-pod {
