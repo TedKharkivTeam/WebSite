@@ -179,14 +179,13 @@
     font-family: 'LilyUPC', Arial, sans-serif;
     margin: 0;
     font-size: 5.3rem;
-    line-height: 1;
+    line-height: 4rem;
     font-weight: normal;
 }
 
 .text--frame5A-h5 {
     text-align: center;
     font-size: 3rem;
-    font-family: 'LilyUPC', Arial, sans-serif;
     font-weight: normal;
     font-style: italic;
     margin: 0;
@@ -246,10 +245,6 @@
 
 .text--frame5A--sub {
     line-height: 4rem;
-}
-
-.text--frame5A-h5--custom {
-    font-family: inherit;
 }
 
 .common-row {
