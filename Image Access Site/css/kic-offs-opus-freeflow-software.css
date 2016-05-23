@@ -244,6 +244,7 @@ h5 {
 .infoblock .table1_freeflow {
     width: 70%;
     float: right;
+    padding-bottom: 10px;
 }
 
 .infoblock .table2_freeflow {
@@ -440,7 +441,12 @@ h5 {
     .infoblock .table1_freeflow {
         width: 75%;
         float: right;
-        padding-top: 5%
+    }
+
+    .infoblock .opus_output_absolute_text {
+        width: 27%;
+        position: absolute;
+        margin-top: -26%;
     }
 
     .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {

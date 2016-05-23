@@ -45,7 +45,7 @@
 }
 
 .blue-bullet li {
-    padding: 1px 0;
+   line-height: 2.4rem;
 }
 
 /*First page*/
@@ -342,6 +342,7 @@ h5 {
 .infoblock__hierarchical-metadata_paragraph-with-image img {
     width: 70%;
     float: right;
+    padding-bottom: 10px;
 }
 
 .infoblock__hierarchical-metadata_paragraph-with-image p {
@@ -422,12 +423,9 @@ h5 {
 }
 
 div .derivatives-pictures__bottom-paragraph {
-    margin-left: 4%;
-    width: 25%;
-    z-index: 5;
-    line-height: 1.1;
-    margin-top: -380px;
-    padding-bottom: 190px;
+    width: 27%;
+    position: absolute;
+    margin-top: -19%;
 }
 
 .infoblock .little_label_for_image_metadata {
@@ -485,7 +483,6 @@ div .derivatives-pictures__bottom-paragraph {
         position: absolute;
         line-height: 1.4rem;
         margin-left: -1%;
-        bottom: -60px;
     }
 
     .infoblock__book-stack-and-feature-enumeration img {
@@ -543,7 +540,6 @@ div .derivatives-pictures__bottom-paragraph {
         position: absolute;
         line-height: 1.4rem;
         margin-left: -1%;
-        bottom: -60px;
     }
 
     .infoblock__book-stack-and-feature-enumeration img {
