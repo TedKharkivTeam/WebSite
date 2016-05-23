@@ -152,12 +152,6 @@
 
 }
 
-.content__blue-bullet li {
-    padding: 1px 0;
-    line-height: 2.2rem;
-    /*font-weight: bold;*/
-}
-
 .content__green-arrow li {
     position: relative;
 }
@@ -266,10 +260,6 @@
 .infoblock .blue-doth {
     padding-left: 50px;
     list-style: none;
-}
-
-.infoblock .blue-doth li {
-    line-height: 20px;
 }
 
 .blue-doth li {
@@ -481,10 +471,11 @@ h4 {
 }
 
 .page3__inline .inline__books {
-    width: 50%;
+    width: 45%;
     float: right;
     clear: both;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .infoblock__center--text {
@@ -917,7 +908,7 @@ th .table--img {
 }
 
 .brochure-title-center {
-    padding: 20px 0 10px;
+    padding: 20px 0 0;
 }
 
 .bogdan-kostil:after {
@@ -958,7 +949,7 @@ h4 {
     font-style: italic;
     line-height: 2.2rem;
     font-size: 2rem;
-    padding-bottom: 5px;
+    padding-bottom: 0;
 }
 
 .table .table__big-img {
@@ -1032,6 +1023,13 @@ h4 {
     line-height: 1;
     color: gray;
 }
+
+.padding--bottom {
+    padding-bottom: 10px;
+}
+.page3__inline--padding{
+    padding: 10px;
+}
 /*end of new image*/
 @media all and (max-width: 1725px) {
     .top-title__send {
@@ -1041,6 +1039,14 @@ h4 {
     .seven-step__h3 {
         padding-right: 10%;
     }
+}
+
+.brochure-title-left {
+    padding: 20px 0 0;
+}
+
+.no-padding {
+    padding-top: 10px;
 }
 
 @media all and (max-width: 1700px) {
@@ -1174,6 +1180,7 @@ h4 {
     .two-step:after {
         bottom: 0;
     }
+
     .two-step:before {
         width: 92px;
         height: 60px;
