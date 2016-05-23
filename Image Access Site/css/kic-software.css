@@ -2,15 +2,15 @@
     clear: both;
 }
 
+.brochure-title-center {
+    padding: 20px 0 0 !important;
+}
+
 h4 {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 10px;
     text-align: left;
-}
-
-.brochure-title-center {
-    padding-bottom: 20px !important;
 }
 
 .infoblock__page1-Header {
@@ -206,10 +206,6 @@ h4 {
     display: block;
 }
 
-.infoblock ul li {
-    line-height: 2.4rem;
-}
-
 .infoblock ul {
     padding: 0 0 0 24px;
     list-style: disc;
@@ -303,9 +299,11 @@ div.infoblock span {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.4rem !important;
+    line-height: 2.6rem !important;
     color: #000;
     text-align: center;
+    padding-top: 15px !important;
 }
 
 .infoblock__center--text {
@@ -543,7 +541,7 @@ th .table--img {
 .reservation__text {
     text-align: left;
     width: 49%;
-    padding: 10px;
+    padding: 0 10px;
     display: inline-block;
     vertical-align: top;
     font-size: 1.6rem;
@@ -672,28 +670,25 @@ th .table--img {
 }
 
 .infoblock__double-wrap figure {
-    width: 50%;
-    float: left;
+    width: 25%;
+    float: right;
     margin: 0;
+    display: inline;
+    padding: 0 30px 10px 30px;
+    box-sizing: content-box;
 }
 
-.infoblock__double-wrap figure img, .infoblock .diagram {
-    width: 80%;
-    height: 80%;
-    display: block;
-    margin: 0 auto;
+.infoblock__double__double-p .redsign {
+    width: 25%;
+    float: right;
+    padding: 0 0 10px 20px;
+    box-sizing: content-box;
 }
 
 .infoblock__double-wrap figure figcaption {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.4rem;
-}
-
-.infoblock .infoblock__double__double-p {
-    width: 50%;
-    float: left;
-    padding: 10px 0 10px 10px;
 }
 
 .infoblock .bookeye-vs-copiers__span {
@@ -866,13 +861,12 @@ th .table--img {
 }
 
 .infoblock .kic_software_label_italic {
-    font-size: 2.3rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     display: block;
     font-style: italic;
     text-align: center;
-    padding-bottom: 20px;
-    margin-top: -15px;
+    padding-bottom: 10px;
 }
 
 .infoblock__block .infoblock__number {
@@ -1053,7 +1047,7 @@ div .infoblock__homo {
     text-align: center;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    padding: 0 0 10px 0;
+    padding: 15px 0 0 0;
     display: block;
 
 }
@@ -1225,7 +1219,7 @@ div .infoblock__homo {
 .wrap-text .hand-yellow-coin {
     float: left;
     width: 30%;
-    padding: 5px 10px 0 0;
+    padding: 5px 10px 10px 0;
 }
 
 .block_text2 {
@@ -1283,15 +1277,13 @@ div .infoblock__homo {
     font-size: 3.3rem;
     line-height: 3.5rem;
     margin-top: 0;
-    float: left;
+    display: inline-block;
     font-weight: bold;
-    margin-left: 15%;
 }
 
 div .infoblock__page-5__block-p {
-    float: left;
-    margin-top: 1%;
-    margin-left: 3%;
+    display: inline-block;
+    font-weight: bold;
 }
 
 .infoblock .infoblock__page-5__seven-step--border {
@@ -1329,10 +1321,6 @@ div .infoblock__page-7__text-right2 {
     text-align: right;
     font-style: italic;
     margin-left: 1%;
-}
-
-span.kic_software_label_italic.--move {
-    padding-top: 10px;
 }
 
 .reservation__text-img.img__touch--after:after {
@@ -1892,6 +1880,64 @@ table.table__footer td {
         height: 100%;
     }
 
+    .infoblock__block-3 {
+        top: 450px !important;
+    }
+
+    img.infoblock__number {
+        padding-bottom: 10px;
+    }
+
+    .infoblock__double__content__double p {
+        padding: 43px 0 !important;
+    }
+
+    .infoblock .in-case-enhance--left {
+        padding-bottom: 60px !important;
+    }
+
+    .infoblock__double__content p.media_fix_for1366 {
+        top: 240px !important;
+        right: 180px !important;
+    }
+
+    img.resize {
+        width: 70%;
+    }
+
+    .block1 .infoblock__page-4__icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 35% !important;
+        top: 660px !important;
+        right: 20px !important;
+    }
+
+    .reservation__text-img.img__touch--after:after {
+        bottom: -125px !important;
+    }
+
+    .transfer {
+        display: none !important;
+    }
+
+    .no-transfer {
+        display: block !important;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 430px !important;
+        left: 3px !important;
+        text-align: center;
+    }
+
+    .wrap-dual-screen-img span {
+        bottom: -255px !important;
+        right: 30px !important;
+    }
 
 }
 
@@ -2248,7 +2294,6 @@ table.table__footer td {
     text-align: left;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    padding: 0 0 10px 0;
     display: block;
 }
 
@@ -2347,10 +2392,11 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 }
 
 .border {
-    padding: 10px;
-    border: 1px solid #000;
     font-style: italic;
-    font-weight: bold;
+    font-weight: normal;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
 }
 
 .wrap-two-large-screens {
@@ -2396,8 +2442,7 @@ h3.infoblock__page-5__block-header-3.--replace {
 }
 
 p.infoblock__page-5__block-p.--replace {
-    float: right;
-    margin-right: -130px;
+    display: inline-block;
     line-height: 3rem;
     padding-bottom: 20px;
 }
@@ -2560,11 +2605,58 @@ p.infoblock__page-5__block-p.--replace {
     .bscan-ill--h2 {
         text-align: center;
     }
+
+    .infoblock__double__content__double .paragraph-padding {
+        padding: 15px 0 40px 0 !important;
+    }
+
+    .infoblock__double__content__double p {
+        padding: 25px 0 !important;
+    }
+
+    .infoblock__double__content p.media_fix_for1366 {
+        right: 110px !important;
+    }
+
+    .infoblock .in-case-enhance--left {
+        padding-bottom: 90px !important;
+    }
+
+    .infoblock .infoblock__page-7__text-block-scanner {
+        top: 330px;
+        right: -20px;
+    }
+
+    .infoblock .infoblock__page-7__text-block-devices {
+        top: 320px !important;
+    }
+
+    .reservation__text-img.img__touch--after:after {
+        bottom: -118px !important;
+    }
+
+    .kit-fleet-paragraph {
+        width: 50%;
+    }
+
+    .infoblock .infoblock__page-9__nav__img {
+        padding-top: 90px;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 450px !important;
+        left: 23px !important;
+    }
+
+    .wrap-dual-screen-img span {
+        bottom: -235px !important;
+        right: 40px !important;
+    }
 }
 
 .brochure-title-center-fleet {
-    font-size: 6.4rem;
-    line-height: 6.6rem;
+    font-size: 5rem;
+    line-height: 5.2rem;
     font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
     text-align: center;
 }
@@ -2697,7 +2789,7 @@ h2.brochure-title-kic-software__blue_label.--fleet {
 
     .wrap-one-screen-with-hand-in-border span {
         top: 130px;
-        left: 280px;
+        left: 293px;
         font-size: 1.4rem;
         width: 47%;
     }
@@ -2709,7 +2801,8 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     }
 
     p.media_fix_for1366 {
-        top: 190px !important;
+        top: 170px !important;
+        width: 50% !important;
     }
 
     .infoblock .infoblock__page-7__text-block-devices {
@@ -2719,12 +2812,12 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     }
 
     .infoblock .infoblock__page-7__text-block-scanner {
-        top: 700px;
+        top: 720px;
     }
 
     .wrap-dual-screen-img span {
         position: absolute;
-        bottom: -300px;
+        bottom: -305px;
         right: 50px;
         font-size: 1.6rem;
     }
@@ -2944,12 +3037,35 @@ img.click-mini {
     }
 
     .infoblock .infoblock__double__double-p {
-        padding: 10px 10px 0 0;
+        padding: 10px 10px 10px 0;
     }
 
     .infoblock .infoblock__page-9__nav__img {
         padding-top: 70px;
         margin-top: 0;
+    }
+
+    .infoblock__block-3 {
+        top: 450px;
+    }
+
+    .infoblock span {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .infoblock__page-4__icon {
+        width: 15px !important;
+        height: 15px !important;
+        line-height: 1.8rem !important;
+    }
+
+    .map-icon {
+        font-size: 1.4rem;
+    }
+
+    .infoblock__homo .triangle-pointer {
+        margin-left: -20px !important;
     }
 }
 
@@ -2974,8 +3090,8 @@ img.click-mini {
 
 p.media_fix_for1366 {
     position: absolute;
-    width: 27%;
-    top: 210px;
+    width: 41%;
+    top: 195px;
     right: 40px;
 }
 
@@ -3018,4 +3134,18 @@ img.infoblock__flash {
 
 .wrap-one-screen-with-hand-in-border .no-transfer {
     display: none;
+}
+
+h2.brochure-title-center.resize {
+    font-size: 3.1rem;
+    line-height: 3.3rem;
+}
+
+.border .triangle-pointer {
+    position: absolute;
+    left: 102%;
+    top: 20px;
+    font-size: 5rem;
+    line-height: 3rem;
+    color: gray;
 }
