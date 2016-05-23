@@ -255,11 +255,19 @@
 
 .common-row--with-border {
     margin: 10px 2%;
-    width: 47%;
+    width: 45%;
+    height: 370px;
+    display: inline-block;
+    vertical-align: middle;
     border: 1px solid #000000;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+}
+
+.common-row--with-background {
+    background: url("../images/frames/kat_phones.png") no-repeat;
+    background-size: cover;
 }
 
 .common-row__common-column {
@@ -275,20 +283,27 @@
     margin-bottom: -15px;
 }
 
-.common-column__figure {
-    margin: 0;
-}
-
-
-
 .common-row__common-column--kat-bookshelves {
     position: relative;
     top: 115px;
 }
 
+.common-column__figure {
+    margin: 0;
+}
+
 .common-column__figure--kat-bookshelves {
     width: 100%;
     margin: 0 auto;
+}
+
+
+.common-column__figure--kat-students {
+
+}
+
+.common-column__figure--kat-stacks-view-screen {
+
 }
 
 .figure--kat-bookshelves__img {
@@ -302,12 +317,6 @@
     line-height: 1rem;
     font-style: italic;
     width: 85%;
-}
-
-
-
-.common-column__figure--kat-students {
-
 }
 
 .common-row__common-column--kat-students-text {
@@ -327,12 +336,6 @@
 
 .figure--kat-students__img {
     width: 100%;
-}
-
-
-
-.common-column__figure--kat-stacks-view-screen {
-
 }
 
 .figure--kat-stacks-view-screen__img-title-text {
@@ -356,8 +359,85 @@
     width: 52%;
     position: relative;
     left: 7%;
-    bottom: 70px;
+    bottom: 65px;
 }
+
+/* RIGHT PART OF THIS SHI.. Ghm, I mean - of this cool frame */
+
+.common-row--with-background__search-screen {
+
+}
+
+.common-row--with-background__bibliography-view-screen {
+
+}
+
+.common-row--with-background__shelf-view-screen {
+
+}
+
+.phone-title-common {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: left;
+}
+
+.search-screen__title {
+    position: relative;
+    top: 7px;
+    left: 16%;
+}
+
+.bibliography-view-screen__title {
+    position: relative;
+    top: 35px;
+    left: 54%;
+}
+
+.shelf-view-screen__title {
+    position: relative;
+    top: 54px;
+    left: 14%;
+}
+
+.phone-description-common {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.search-screen__description {
+    width: 35%;
+    position: relative;
+    top: 115px;
+    left: 2%;
+}
+
+.bibliography-view-screen__description_1 {
+    width: 12%;
+    text-align: left;
+    position: relative;
+    left: 86%;
+    top: 50px;
+}
+
+.bibliography-view-screen__description_2 {
+    width: 15%;
+    text-align: left;
+    position: relative;
+    top: 58px;
+    left: 86%;
+}
+
+.shelf-view-screen__description {
+    width: 26%;
+    position: relative;
+    top: 165px;
+    left: 2%;
+}
+
 
 /* END Frames 5A, 5B */
 
