@@ -1,13 +1,74 @@
+.infoblock ul.blue-bullet li {
+    position: relative;
+    list-style: none;
+    line-height: 24px;
+}
+
+.infoblock ul.green-bullet li {
+    position: relative;
+    list-style: none;
+}
+
+.infoblock ul.blue-bullet li:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -23px;
+    background: url("../images/BlueBullet.png") no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.infoblock ul.green-bullet li:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -23px;
+    background: url("../images/GreenBullet.png") no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
 .infoblock__opus-freeflow-freedom {
     color: #2c89c6;
     line-height: 3.8rem;
     font-size: 3.6rem;
 }
 
+.infoblock .h3_class_tittle {
+    color: #000;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: left;
+    font-weight: bold;
+    display: block;
+    clear: both;
+
+}
+
+.infoblock .brochure-title-center {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding: 20px 0 10px;
+    font-weight: bold;
+}
+
+.infoblock .title__subtitle {
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding: 20px;
+    text-align: center;
+}
+
 .infoblock_inscription {
-    font-size: large;
     float: right;
-    width: 52%;
+    width: 40%;
     text-align: center;
 }
 
@@ -15,6 +76,14 @@
     font-weight: bold;
     padding-bottom: 5px;
     display: block;
+}
+
+.infoblock .infoblock_photos_documents {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: block;
+    font-size: 2.4rem;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
 }
 
 .infoblock ul.opus_list li span {
@@ -119,7 +188,7 @@ h5 {
 }
 
 .infoblock__highlights-wrapper li {
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
 .infoblock .logos {
@@ -146,9 +215,9 @@ h5 {
 }
 
 .infoblock .infoblock_banner {
-    width: 51%;
-    margin-left: 47%;
-    margin-top: -6%;
+    width: 48%;
+    margin-top: -1%;
+    float: right;
 }
 
 .hierarchical {
@@ -174,19 +243,6 @@ h5 {
     float: left;
 }
 
-.infoblock .opus_output_block4 {
-    font-size: larger;
-    font-weight: 600;
-    float: left;
-}
-
-.infoblock .opus_output_block5 {
-    float: left;
-    font-size: larger;
-    font-weight: 600;
-    margin-left: 1%;
-}
-
 .images_metadata {
     margin-left: 1%;
 }
@@ -207,10 +263,14 @@ h5 {
 }
 
 .infoblock .content-stabilization__enumeration {
-    overflow: hidden;
-    width: 45%;
     float: left;
-    padding-left: 3rem;
+    padding-left: 2.4rem;
+}
+
+.infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
+    float: left;
+    width: 45%;
+    margin-top: -6%;
 }
 
 .infoblock .content-stabilization__enumeration div {
@@ -327,6 +387,19 @@ h5 {
     width: 48%;
 }
 
+.infoblock .infoblock__opus-freeflow-image-treatment-ancient-image {
+    margin: 0 auto;
+    width: 92%;
+    display: block;
+}
+
+.infoblock .little_label_for_image_metadata {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-top: -7%;
+    float: left;
+}
+
 .infoblock .opus_output_absolute_text {
     width: 27%;
     position: absolute;
@@ -339,25 +412,9 @@ h5 {
     margin-top: 1%;
 }
 
-.infoblock .templates_software1 {
-    text-align: center;
-    width: 100%;
-    float: left;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    font-weight: normal;
-}
-
 .OAI5_Software {
     width: 100%;
     float: left;
-}
-
-.OAI_Software {
-    float: left;
-    width: 100%;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
 }
 
 .infoblock .content_stabilization_software {
@@ -375,7 +432,16 @@ h5 {
     .infoblock .table1_freeflow {
         width: 75%;
         float: right;
-        padding-top: 0;
+        padding-top: 5%
+    }
+    .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
+        margin-top: -6%;
+    }
+
+    .infoblock .content_stabilization_software {
+        width: 53%;
+        float: right;
+        margin-top: 0;
     }
 
     .infoblock .table2_freeflow {
@@ -399,8 +465,12 @@ h5 {
         margin-top: 0;
     }
 
-    .infoblock .opus_output_absolute_text {
+    .infoblock .little_label_for_image_metadata {
         font-size: 1rem;
+    }
+
+    .infoblock .opus_output_absolute_text {
+        font-size: 1.2rem;
     }
 
     .infoblock .infoblock__white-pages {
@@ -411,6 +481,7 @@ h5 {
         width: 25%;
         float: left;
         margin-left: 2rem;
+        padding-top: 0;
     }
 
     .infoblock .table1_freeflow {
@@ -418,6 +489,7 @@ h5 {
         float: right;
         padding-top: 3rem;
     }
+
     .infoblock__highlights-wrapper ul {
         padding-left: 4%;
     }
