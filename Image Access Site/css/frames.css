@@ -242,6 +242,126 @@
     right: -70px;
 }
 
+/* Frames 5A, 5B */
+
+.common-row {
+    width: 100%
+}
+
+.common-row--kat-students {
+    position: relative;
+    right: 15px;
+}
+
+.common-row--with-border {
+    margin: 10px 2%;
+    width: 47%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.common-row__common-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+.common-row__common-column--second-column {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-bottom: -15px;
+}
+
+.common-column__figure {
+    margin: 0;
+}
+
+
+
+.common-row__common-column--kat-bookshelves {
+    position: relative;
+    top: 115px;
+}
+
+.common-column__figure--kat-bookshelves {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.figure--kat-bookshelves__img {
+    width: 85%;
+}
+
+.figure--kat-bookshelves__text-below {
+    text-align: left;
+    padding-left: 12%;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: italic;
+    width: 85%;
+}
+
+
+
+.common-column__figure--kat-students {
+
+}
+
+.common-row__common-column--kat-students-text {
+    width: 35%;
+}
+
+.figure--kat-students__text-left {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: italic;
+    text-align: right;
+}
+
+.common-row__common-column--kat-students-img {
+    width: 60%;
+}
+
+.figure--kat-students__img {
+    width: 100%;
+}
+
+
+
+.common-column__figure--kat-stacks-view-screen {
+
+}
+
+.figure--kat-stacks-view-screen__img-title-text {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    position: relative;
+    right: 10%;
+    top: 15px;
+}
+
+.figure--kat-stacks-view-screen__img {
+    width: 100%;
+}
+
+.figure--kat-stacks-view-screen__text-below {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-style: italic;
+    text-align: left;
+    width: 52%;
+    position: relative;
+    left: 7%;
+    bottom: 70px;
+}
+
+/* END Frames 5A, 5B */
+
+
 /*end of frames 5*/
 /*pod*/
 .wrapper-pod {
