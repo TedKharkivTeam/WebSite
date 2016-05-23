@@ -6,6 +6,10 @@
     padding: 20px 0 0 !important;
 }
 
+h1 {
+    display: none;
+}
+
 h4 {
     font-size: 2rem;
     font-weight: bold;
@@ -656,7 +660,7 @@ th .table--img {
     padding: 5px 10px;
     overflow: hidden;
     text-align: center;
-    min-height: 242px;
+    min-height: 257px;
     position: relative;
 }
 
