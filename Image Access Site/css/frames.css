@@ -438,6 +438,121 @@
     left: 2%;
 }
 
+/* Frames 5A, 5B Media Queries */
+
+/* 1280, 1366 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .common-row--with-border {
+        height: 280px;
+    }
+
+    .common-row__common-column--second-column {
+        left: 7px;
+    }
+
+    .figure--kat-stacks-view-screen__img-title-text {
+        top: 12px;
+    }
+
+    .figure--kat-stacks-view-screen__text-below {
+        bottom: 50px;
+    }
+
+    .search-screen__description {
+        top: 88px;
+        left: 4%;
+    }
+
+    .shelf-view-screen__description {
+        top: 140px;
+        left: 3%;
+    }
+
+    .bibliography-view-screen__title {
+        top: 24px;
+        left: 55%;
+    }
+
+    .bibliography-view-screen__description_1 {
+        top: 42px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .bibliography-view-screen__description_2 {
+        width: 13%;
+        top: 51px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .common-row__common-column--kat-bookshelves {
+        top: 90px;
+    }
+}
+
+/* 1024 */
+@media (max-width: 1199px) {
+    .common-row--with-border {
+        height: 265px;
+    }
+
+    .common-row__common-column--second-column {
+        left: 7px;
+    }
+
+    .figure--kat-stacks-view-screen__img-title-text {
+        top: 12px;
+    }
+
+    .figure--kat-stacks-view-screen__text-below {
+        bottom: 45px;
+    }
+
+    .search-screen__description {
+        top: 82px;
+        left: 4%;
+    }
+
+    .shelf-view-screen__description {
+        top: 140px;
+        left: 2%;
+    }
+
+    .bibliography-view-screen__title {
+        top: 27px;
+        left: 56%;
+    }
+
+    .bibliography-view-screen__description_1 {
+        top: 45px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .bibliography-view-screen__description_2 {
+        width: 13%;
+        top: 54px;
+        left: 88%;
+        font-size: 0.8rem;
+        line-height: 0.8;
+    }
+
+    .search-screen__title {
+        top: 6px;
+    }
+
+    .shelf-view-screen__title {
+        top: 61px;
+    }
+
+    .common-row__common-column--kat-bookshelves {
+        top: 80px;
+    }
+}
 
 /* END Frames 5A, 5B */
 
