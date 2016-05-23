@@ -244,6 +244,14 @@
 
 /* Frames 5A, 5B */
 
+.text--frame5A--sub {
+    line-height: 4rem;
+}
+
+.text--frame5A-h5--custom {
+    font-family: inherit;
+}
+
 .common-row {
     width: 100%
 }
@@ -619,8 +627,8 @@
     }
 
     .common-row--with-background__kat-professor {
-        height: 100px;
-        top: 60px;
+        height: 98px;
+        top: 56px;
     }
 }
 
