@@ -163,7 +163,9 @@ h6.pod-text {
     text-align: justify;
     padding: 10px 20px;
 }
-
+.content__pod{
+    overflow: hidden;
+}
 @media all and (max-width: 1366px) {
     .pbd--frame img {
         width: 50%;

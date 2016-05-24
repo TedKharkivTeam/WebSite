@@ -264,6 +264,8 @@ th .table--img {
 
 .align-right {
     text-align: right;
+    display: block;
+    padding: 3px 0;
 }
 
 .first-column {

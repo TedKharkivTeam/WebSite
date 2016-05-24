@@ -66,12 +66,8 @@ div .infoblock__block {
 
 }
 
-.block_text2{
-    padding-top: 3%;
-}
 
 .infoblock__block-3 div .block_text2{
-    width: 50%;
     padding-top: 1%;
 }
 .infoblock .infoblock__img{
@@ -84,6 +80,8 @@ div .infoblock__block {
 .infoblock__block-3{
     position: absolute;
     bottom: 15%;
+    overflow: hidden;
+    width: 29%;
 
 }
 div #infoblock__management{

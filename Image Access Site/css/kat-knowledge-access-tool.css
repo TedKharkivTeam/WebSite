@@ -199,9 +199,9 @@ img {
     font-weight: bold;
     font-size: 4.4rem;
     text-shadow: none;
-    margin-bottom: 25px;
+    margin-bottom: 2px;
     text-align: center;
-    padding: 15px 0;
+    padding:0;
     line-height: 4.4rem;
 }
 
@@ -317,7 +317,6 @@ img {
 
 .infoblock .bibliography-view-screen__bvs-info-block {
     margin-top: -260px;
-    padding-bottom: 25px;
 }
 
 .infoblock .bvs-info-block__text {
@@ -406,11 +405,13 @@ img {
     position: relative;
     left: 0;
     margin-left: 0;
-    margin-top: -225px;
+    top: -190px;
     padding-bottom: 15px;
     font-style: normal;
 }
-
+.bvs-section{
+    margin-top: -190px;
+}
 .infoblock .bvs-section__image-title {
     font-weight: bold;
     position: relative;
@@ -830,7 +831,6 @@ img {
     .infoblock .infoblock__header {
         font-size: 3rem;
         line-height: 3rem;
-        margin-top: 25px;
     }
 
     /******************** PAGE 4 ********************/
@@ -840,7 +840,7 @@ img {
     }
 
     .infoblock .infoblock__sub-header--PYPC-FBL {
-        margin-top: 35px;
+        margin-top: 60px;
         font-size: 2.5rem;
     }
 
@@ -876,11 +876,6 @@ img {
     .infoblock .image-title--PYPC {
         left: 38%;
         padding-bottom: 20px;
-    }
-
-    .infoblock .collage__info {
-        margin-bottom: -110px;
-        width: 68%;
     }
 
     .infoblock .bvs-section__image {
@@ -961,7 +956,12 @@ img {
     /******************** PAGE 9 ********************/
 
 }
-
+@media all and (max-width: 1560px){
+    .infoblock .collage__info {
+        margin-bottom: -105px;
+        width: 50%;
+    }
+}
 /* 1024 */
 @media (max-width: 1199px) {
 
@@ -1072,7 +1072,6 @@ img {
     .infoblock .infoblock__header {
         font-size: 3rem;
         line-height: 3rem;
-        padding-top: 25px;
     }
 
     /******************** PAGE 4 ********************/

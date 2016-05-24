@@ -251,8 +251,22 @@
 }
 
 /*end blue and green bullet in list*/
-
+/*video*/
+.video {
+    margin-left: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+@media all and (max-width: 1400px) {
+    .video{
+        margin: 20px auto 0;
+        display: block;
+        width: 70%;
+    }
+}
+/*end of video*/
 /* 1280, 1366 */
+@
 @media (min-width: 1200px) and (max-width: 1399px) {
 
 }
