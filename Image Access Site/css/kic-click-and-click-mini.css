@@ -3,6 +3,9 @@ h3 {
     font-size: 2.4rem;
     line-height: 2.6rem;
     padding-top: 15px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
 }
 
 .infoblock__page-2__column {
@@ -269,12 +272,6 @@ div.infoblock h2 {
     background-size: contain;
     width: 154px;
     height: 111px;
-}
-
-h3 {
-    font-size: 3rem;
-    color: #000;
-    text-align: center;
 }
 
 h4 {
@@ -1011,7 +1008,7 @@ h2.pod-text {
 }
 
 .infoblock .images--hand {
-    width: 35%;
+    width: 25%;
     float: left;
     padding-bottom: 10px;
 }
@@ -1103,7 +1100,7 @@ h2.pod-text {
 .infoblock .block1 {
     width: 50%;
     float: left;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .infoblock .text10 {
@@ -1270,13 +1267,20 @@ h2.pod-text {
 
 }
 
-.infoblock .true2_label {
+.infoblock .true2_label-technical,
+.infoblock .true2_label2-technical{
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    text-align: center;
-    margin-left: 5%;
+    float: left;
+    margin-left: 15%;
     padding: 15px 0 0 0;
+}
+
+.infoblock .true2_label-technical {
+    margin-left: 0;
+    margin-right: 20%;
+    float: right;
 }
 
 .infoblock .true2_block_usb {
@@ -1486,6 +1490,7 @@ h2.pod-text {
     margin: 1% auto 0;
     text-align: center;
     display: inline-block;
+    font-weight: bold;
 }
 
 .infoblock .back_ground_super_click {
@@ -1538,10 +1543,13 @@ h2.pod-text {
 }
 
 .infoblock__double__content1 {
-    padding: 5px 10px;
+    padding: 0 10px 0 0;
     overflow: hidden;
-    margin: 5px;
     border-radius: 10px;
+}
+
+.infoblock__double__content2 {
+    padding: 0 0 0 10px;
 }
 
 .double-wrap__column {
@@ -1600,6 +1608,7 @@ h2.pod-text {
     text-align: center;
     font-size: 2.6rem;
     line-height: 1.2;
+    font-weight: bold;
 }
 
 .smart_hard_block__to-left {
@@ -2126,4 +2135,24 @@ h2.pod-text {
     position: absolute;
     left: 105%;
     top: 70px;
+}
+
+h3.true2_label.move {
+    padding: 0;
+}
+
+@media (max-width: 1280px) {
+    .infoblock .center__text--margin {
+        margin-top: -6%;
+    }
+
+    .infoblock__nav {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .infoblock .center__text--margin {
+        margin-top: -6%;
+    }
 }
