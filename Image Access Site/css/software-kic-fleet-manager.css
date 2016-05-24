@@ -18,8 +18,8 @@
     text-align: center;
     color: #000;
     text-shadow: none;
-    font-size: 6.4rem;
-    line-height: 6.6rem;
+    font-size: 5rem;
+    line-height: 5.2rem;
     margin: 0;
 }
 
@@ -133,12 +133,6 @@
     padding-top: 5%;
     width: 42%;
 
-}
-
-.infoblock__top__h1 {
-    font-size: 4.4rem;
-    margin: 0;
-    margin-top: 10%;
 }
 
 @media all and (max-width: 1812px) {
