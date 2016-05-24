@@ -306,7 +306,8 @@
 }
 
 .common-column__figure--kat-stacks-view-screen {
-
+    position: relative;
+    bottom: 10px;
 }
 
 .figure--kat-bookshelves__img {
