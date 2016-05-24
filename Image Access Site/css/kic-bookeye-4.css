@@ -2416,6 +2416,9 @@ th .table--img {
     .infoblock__page-9__center__text--margin {
         padding-top: 0;
     }
+    .infoblock__page-5__two-step--w3{
+        margin-top: 20px;
+    }
 }
 
 @media all and (max-width:1710px) and (min-width:1530px){
