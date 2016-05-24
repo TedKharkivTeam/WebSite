@@ -135,13 +135,10 @@ div.infoblock h2 {
     padding: 0;
 }
 
-.bscan-ill--h2 {
-    font-size: 2.8rem;
+.infoblock .bscan-ill--h2 {
     color: #000;
     padding: 0;
-    line-height: 3rem;
-    font-weight: bold;
-    margin: 0;
+    margin: 25px 0 10px 0;
 }
 
 .bscan-ill__arrow:before {
@@ -503,7 +500,7 @@ th .table--img {
 }
 
 .first-column {
-    width: 200px;
+    width: 240px;
     text-align: right;
 }
 
@@ -1071,10 +1068,14 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .map-marker mark {
-    background: #888;
+    background: #505050;
     color: #fff;
     font-weight: bold;
-    padding: 0 2px;
+    padding: 2px 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 5px;
 }
 
 .map-marker i {
@@ -1279,7 +1280,7 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .infoblock .true2_label-technical,
-.infoblock .true2_label2-technical{
+.infoblock .true2_label2-technical {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -1616,7 +1617,7 @@ p.click_click_mini.brochure-overflow--line {
     font-weight: bold;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -2225,6 +2226,7 @@ div .infoblock__page-5__block-p {
 .infoblock__page-5__two-step--w1 {
     width: 14%;
 }
+
 .infoblock__page-5__two-step--inline {
     padding: 0 4px;
     display: inline-block;
@@ -2348,6 +2350,7 @@ img.infoblock__page-6.scanner-picture {
     color: gray;
     display: block;
 }
+
 .page-6-arrow {
     position: absolute;
     right: -6%;
@@ -2494,4 +2497,8 @@ h3.h-app {
     font-weight: normal;
     margin: 0;
     padding: 0 0 10px 0;
+}
+
+.infoblock .text-nocenter {
+    text-align: left;
 }
