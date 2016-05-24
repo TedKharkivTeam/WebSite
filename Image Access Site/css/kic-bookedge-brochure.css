@@ -1441,7 +1441,7 @@
     .infoblock .big-logo-text__sub-header {
         font-size: 2.2rem;
         line-height: 2.2rem;
-        margin-top: -35px;
+        margin-top: -85px;
         padding-right: 0;
     }
 
@@ -1488,7 +1488,8 @@
     }
 
     .infoblock .content-holder__text-p {
-        margin-top: 15px;
+        margin-top: 40px;
+        margin-bottom: 0;
         margin-left: 5%;
         width: 35%;
     }
@@ -1515,7 +1516,7 @@
     .infoblock .triangle-pointer--3 {
         position: relative;
         top: -88px;
-        left: -37%;
+        left: -46%;
     }
 
     .infoblock .for-public-libraries-section__sub-header {
@@ -1523,7 +1524,7 @@
     }
 
     .infoblock .arrows--after:after {
-        top: 381px;
+        top: 389px;
         left: 40px;
         width: 85%;
     }
@@ -1558,11 +1559,11 @@
     }
 
     .infoblock .text-section__centered-text--with-margin {
-        padding-top: 42px;
+        padding-top: 53px;
     }
 
     .infoblock .column__text-p {
-        padding: 12px 0;
+        padding: 16px 0;
     }
 
     .infoblock .column__scan-large-maps-image {
@@ -1612,6 +1613,16 @@
     .infoblock .kic-product-wrapper__common-features-table__td {
         padding: 10px 2%;
     }
+
+    .infoblock .triangular-copy__image {
+        margin: 52px 2%;
+    }
+
+    .infoblock .triangular-fax__image {
+        margin: 43px 2%;
+    }
+
+
 }
 
 /* 1024 */
@@ -1623,7 +1634,7 @@
     .infoblock .big-logo-text__sub-header {
         font-size: 2.2rem;
         line-height: 2.2rem;
-        margin-top: -35px;
+        margin-top: -60px;
         padding-right: 0;
     }
 
@@ -1694,8 +1705,8 @@
 
     .infoblock .triangle-pointer--3 {
         position: relative;
-        top: -80px;
-        left: -35%;
+        top: -71px;
+        left: -50%;
     }
 
     .infoblock .for-public-libraries-section__sub-header {
@@ -1703,7 +1714,7 @@
     }
 
     .infoblock .arrows--after:after {
-        top: 389px;
+        top: 392px;
         left: 40px;
         width: 85%;
     }
@@ -1734,7 +1745,7 @@
     }
 
     .infoblock .text-section__centered-text--with-padding {
-        padding-top: 12px;
+        padding-top: 25px;
     }
 
     .infoblock .text-section__centered-text--with-margin {
@@ -1742,7 +1753,7 @@
     }
 
     .infoblock .column__text-p {
-        padding: 5px 0;
+        padding: 10px 0;
     }
 
     .infoblock .column__scan-large-maps-image {
@@ -1786,6 +1797,24 @@
 
     .infoblock .kic-product-wrapper__common-features-table__td {
         padding: 10px 2%;
+    }
+
+    .infoblock .section__scan-large-maps-header {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .infoblock .column__enhance-reports-image {
+        width: 86%;
+    }
+
+    .infoblock .triangular-copy__image {
+        margin: 24px 2%;
+    }
+
+    .infoblock .common-header-h2--big-logo-text {
+        margin-right: 7%;
+        margin-top: 45px;
     }
 }
 
