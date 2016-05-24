@@ -691,8 +691,7 @@
     font-size: 2rem;
     line-height: 2rem;
     font-weight: bold;
-    margin: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
     width: 100%;
 }
 
@@ -987,8 +986,7 @@
 }
 
 .infoblock .section__many-citizens-text {
-    padding: 0 10px;
-    padding-bottom: 5px;
+    padding: 0 10px 5px 0;
     font-style: italic;
     display: inline-block;
 }
