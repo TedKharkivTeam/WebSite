@@ -73,6 +73,10 @@ div .infoblock__block {
 .infoblock .infoblock__img{
     width: 100%;
 }
+
+.infoblock .infoblock__img-2{
+    width: 66%;
+}
 #infoblock__man_pdf{
     padding-left: 5%;
 }
