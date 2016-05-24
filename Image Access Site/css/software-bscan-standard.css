@@ -7,8 +7,7 @@ div.content span {
 }
 
 div.content span.title {
-    color: #323275;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -54,9 +53,8 @@ div.content div.indent {
 .paragraph-title-left {
     font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
     text-align: left;
-    font-size: 1.8rem;
-    line-height: 20px;
-    color: #3C2E95;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 .width-seventy-percent{
     width: 70%;

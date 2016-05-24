@@ -1,21 +1,16 @@
-
 .infoblock .infoblock__bscan-de-header-h2 {
     text-align: center;
     display: block;
     text-transform: uppercase;
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 2.2rem;
-    margin-bottom: 25px;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    padding: 20px 0 10px;
 }
 
 .infoblock .infoblock__bscan-de-top-text {
     margin: 10px auto;
     display: block;
     width: 70%;
-}
-
-.infoblock .infoblock__content-holder {
-
 }
 
 .infoblock .content-holder__content-row {
@@ -37,14 +32,13 @@
 }
 
 .infoblock .content-column__header-big {
-    font-family: AvenirLTStdBlackOblique;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 3.6rem;
     padding: 15px 2%;
 }
 
 .infoblock .content-column__header-normal {
-    color: #3C2E95;
-    font-family: AvenirLTStdBookOblique;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
     font-size: 3.2rem;
     padding: 10px 2%;
 }
