@@ -12,3 +12,24 @@
     margin-top: -22px;
     padding-bottom: 22px;
 }
+
+@media all and (min-width: 1400px) and (max-width: 1600px) {
+    .infoblock .infoblock__support-team-header-h2 {
+        left: 37%;
+    }
+
+}
+
+@media all and (max-width: 1400px) {
+    .infoblock .infoblock__support-team-header-h2 {
+        left: 27%;
+        top: 15px
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .infoblock .infoblock__support-team-header-h2 {
+        left: 29%;
+        top: 15px
+    }
+}

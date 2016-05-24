@@ -1,14 +1,18 @@
-.service-bg {
-    background: url("../images/serviceSupportBG.png") no-repeat 0 219px;
-    padding: 20px 20px 514px 20px;
-    background-size: contain;
+.fly-img{
+    margin-top: -125px;
+    z-index: 0;
 }
 
 .infoblock__double-check-order-status {
     width: 100%;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
-
+.text-fly{
+    position: relative;
+    z-index: 1;
+}
 .double-check-order-status__form {
     width: 50%;
     float: left;
@@ -103,18 +107,14 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 300px;
-        padding: 20px 20px 363px 20px;
-        background-size: contain;
+    .fly-img{
+        margin-top: -100px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .service-bg {
-        background: url("../images/serviceSupportBG.png") no-repeat 0 336px;
-        padding: 20px 20px 375px 20px;
-        background-size: contain;
+    .fly-img{
+        margin-top: -90px;
     }
 
     .double-check-order-status__form {
