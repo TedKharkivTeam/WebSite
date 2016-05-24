@@ -2140,3 +2140,19 @@ h2.pod-text {
 h3.true2_label.move {
     padding: 0;
 }
+
+@media (max-width: 1280px) {
+    .infoblock .center__text--margin {
+        margin-top: -6%;
+    }
+
+    .infoblock__nav {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .infoblock .center__text--margin {
+        margin-top: -6%;
+    }
+}
