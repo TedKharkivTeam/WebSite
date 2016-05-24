@@ -1704,6 +1704,9 @@ h2.pod-text {
 
 .bottom-block__bottom-sub-spec{
     text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 2.2rem;
     padding-bottom: 10px;
 }
 /* 14 page*/
