@@ -290,7 +290,7 @@
 .infoblock .little_label_for_image_metadata {
     font-size: 1.2rem;
     line-height: 1.4rem;
-    margin-top: -10%;
+    margin-top: -7%;
     float: left;
 }
 
@@ -569,7 +569,6 @@
     .infoblock .little_label_for_image_metadata {
         font-size: 1rem;
         line-height: 1.2rem;
-        margin-top: -14%;
         float: left;
     }
 

@@ -565,3 +565,11 @@ div .derivatives-pictures__bottom-paragraph {
         padding-top: 10px;
     }
 }
+
+@media all and (max-width: 1380px) and  (min-width: 1350px) {
+    .white-rectangulars__articles {
+        float: left;
+        width: calc(9% - 4.3px);
+        margin-left: 5px;
+    }
+}
