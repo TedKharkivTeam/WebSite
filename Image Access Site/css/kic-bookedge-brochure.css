@@ -465,7 +465,7 @@
     color: #000;
     font-size: 3.6rem;
     line-height: 3.8rem;
-    text-align: left;
+    text-align: center;
     padding: 20px 0 10px 0;
     font-weight: bold;
 }
@@ -633,7 +633,7 @@
     position: relative;
     text-align: right;
     bottom: 70px;
-    left: 10%;
+    left: 4%;
 }
 
 .infoblock .triangle-pointer--1 {
