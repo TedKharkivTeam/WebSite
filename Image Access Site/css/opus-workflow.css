@@ -44,8 +44,16 @@
     padding: 20px 0 10px;
 }
 
+.infoblock .brochure-title-special {
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .blue-bullet li {
-   line-height: 2.4rem;
+    line-height: 2.4rem;
 }
 
 /*First page*/
@@ -237,8 +245,8 @@ h5 {
 
 .infoblock__highlights-wrapper ul {
     float: left;
-    width: 47%;
-    margin-left: 3%;
+    width: 49%;
+    padding-left-left: 3%;
 }
 
 .infoblock__highlights-wrapper li {
@@ -456,6 +464,10 @@ div .derivatives-pictures__bottom-paragraph {
 
     .content_stabilization4 {
         margin-top: 37px;
+    }
+
+    .infoblock__highlights-wrapper ul {
+        padding-left: 4%;
     }
 
     .infoblock .little_label_for_image_metadata {

@@ -18,7 +18,6 @@
     display: block;
 }
 
-
 .infoblock .brochure-title-left {
     color: #000;
     font-size: 3.6rem;
@@ -230,8 +229,8 @@ h5 {
 
 .infoblock__highlights-wrapper ul {
     float: left;
-    width: 47%;
-    margin-left: 3%;
+    width: 49%;
+    padding-left: 3%;
 }
 
 .infoblock__highlights-wrapper li {
@@ -478,7 +477,7 @@ div .derivatives-pictures__bottom-paragraph {
     }
 
     div .derivatives-pictures__bottom-paragraph {
-        margin-top: -218px;
+        margin-top: -195px;
     }
 
     .infoblock__book-stack-and-feature-enumeration img {
@@ -495,6 +494,10 @@ div .derivatives-pictures__bottom-paragraph {
     .infoblock__hierarchical-metadata_paragraph-with-image p {
         width: 35%;
         padding-top: 0;
+    }
+
+    .infoblock__highlights-wrapper ul {
+        padding-left: 4%;
     }
 
     .white-rectangulars__articles p {
