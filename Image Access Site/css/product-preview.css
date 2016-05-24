@@ -21,10 +21,10 @@
 
 .product-preview-title {
     font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    padding: 20px 0 10px;
-    color: black;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: #093C8B;
+    padding: 20px 0;
 }
 
 .product_preview p {
