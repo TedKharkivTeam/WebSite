@@ -7,7 +7,14 @@ div.content span {
 }
 
 div.content span.title {
-    font-size: 16px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.button_special {
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
@@ -56,7 +63,8 @@ div.content div.indent {
     font-size: 2.4rem;
     line-height: 2.6rem;
 }
-.width-seventy-percent{
+
+.width-seventy-percent {
     width: 70%;
     margin-left: 15%;
 }
