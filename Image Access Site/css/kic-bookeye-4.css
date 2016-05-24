@@ -243,6 +243,14 @@ figure {
     float: left;
 }
 
+.infoblock__page-2__brochure-title-center{
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
 .infoblock__page-2__p-width{
     width: 67%;
 }
@@ -747,8 +755,9 @@ div .infoblock__page-5__block-p {
 
 div .infoblock__page-7_photo2 {
     width: 40%;
-    margin-left: 20%;
-    margin-bottom: 2%;
+    margin-left: 22%;
+    margin-bottom: 0;
+    margin-top: 4%;
 }
 
 div .infoblock__page-7__text-right2 {
@@ -863,7 +872,7 @@ div .infoblock__page-7__block-left {
     padding-bottom: 10px;
 }
 
-.infoblock__page-8__reservation__h3 {
+.infoblock .infoblock__page-8__reservation__h3 {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -1616,6 +1625,7 @@ h2.pod-text {
 
 .bottom-block__bottom-sub-spec{
     text-align: center;
+    padding-bottom: 10px;
 }
 /* 14 page*/
 .infoblock .sitalic{
@@ -2108,6 +2118,14 @@ th .table--img {
     padding-top: 32px;
 }
 
+
+
+@media all and (max-width: 1742px) and (min-width: 1680px){
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+        margin-right: 8%;
+    }
+}
+
 @media all and (max-width: 1880px) and (min-width: 1650px){
     .table__arow:before {
 
@@ -2162,11 +2180,15 @@ th .table--img {
     }
 }
 @media all and (max-width: 1812px){
-    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--padding {
-        padding-top: 30px;
-    }
+
     .infoblock__page-9__center{
         margin-top: -130px;
+    }
+}
+
+@media all and (max-width: 1766px) and (min-width: 1400px){
+    .infoblock__page-9__nav {
+        padding-top: 90px;
     }
 }
 
@@ -2267,10 +2289,6 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1291px){
-
-}
-
 @media all and (max-width: 1606px) {
     .infoblock .infoblock__page-5__margin-text {
         margin-right: 49%
@@ -2294,7 +2312,21 @@ th .table--img {
 
         min-height: 540px;
     }
+    .infoblock div .infoblock__page-1__h2__p{
+        top: 100px;
+        bottom:0;
+    }
+    .infoblock__page-13-2__header_v2{
+        left: 30%;
+        top: 9%;
+    }
+
+    .infoblock__page-13-2__header_v3{
+        right: 12%;
+        top: 9%;
+    }
 }
+
 
 @media all and (max-width: 1510px){
     .infoblock__page-9__center__text--padding {
@@ -2328,11 +2360,6 @@ th .table--img {
 }
 
 @media all and (max-width: 1640px)  and (min-width: 1400px){
-    .infoblock__page-1 .infoblock__page-1__header_2 {
-
-        margin-top:20px;
-        margin-right: 10%;
-    }
     .infoblock__page-3__block-3 {
         bottom: 8%;
     }
@@ -2353,7 +2380,7 @@ th .table--img {
 @media all and (max-width:1445px) and (min-width:1285px){
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 0%;
-        margin-top:20px
+        margin-top:30px
     }
 }
 
@@ -2365,6 +2392,17 @@ th .table--img {
 
     }
 
+    .infoblock .infoblock__page-13-2__header_v2{
+         font-size: 2rem;
+        left: 30%;
+        top: 6%;
+     }
+
+    .infoblock .infoblock__page-13-2__header_v3{
+        font-size: 2rem;
+        right: 12%;
+        top: 6%;
+    }
     .infoblock .infoblock__page-1__center-p{
         bottom: -20px;
         font-size: 2rem;
@@ -2388,7 +2426,9 @@ th .table--img {
     .infoblock ul li {
         line-height: 2.1rem;
     }
-
+div .infoblock__page-7__text-right{
+    margin-top: -39%;
+}
 
     .infoblock .infoblock__page-1__h3__p{
         bottom: -32%;
@@ -2407,6 +2447,10 @@ th .table--img {
 
     .infoblock .infoblock__page-3__img {
         width: 100%;
+    }
+
+    .infoblock .infoblock__page-3__img-2 {
+        width: 66%;
     }
     .infoblock__page-3__block-3 {
         bottom: 5%;
@@ -2534,12 +2578,15 @@ th .table--img {
     .pbd--frame img{
         width: 50%;
     }
+    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin{
+             width: 42%;
+         }
     h2.pod-text{
         font-size: 2.2rem;
     }
 }
 
-@media all and (max-width:1350px) {
+@media all and (max-width   :1350px) {
     div .infoblock__page-4__homo-text {
         margin-top: 2%;
         width: 28%;
@@ -2560,9 +2607,6 @@ th .table--img {
 }
 
 @media all and (max-width: 1337px) and (min-width: 1200px){
-    .infoblock div .infoblock__page-1__h2__p h2 {
-        font-size: 2.1rem;
-    }
 
     .infoblock .infoblock__page-9__nav__img {
 
@@ -2574,6 +2618,10 @@ th .table--img {
         line-height: 1.7rem;
     }
 
+    .infoblock .infoblock__page-1__text {
+        bottom: 140px;
+
+    }
 }
 
 @media all and (max-width: 1337px) and (min-width: 1300px){
@@ -2624,10 +2672,20 @@ th .table--img {
 
 }
 
-@media all and (max-width:1285px) {
+@media all and (max-width:1288px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 0;
         margin-top:17px;
+    }
+    .infoblock__page-1 .infoblock__page-1__header_2{
+        font-size: 8rem;
+    }
+    .infoblock div .infoblock__page-1__h2__p h2 {
+        font-size: 3.2rem;
+    }
+    .infoblock .infoblock__page-1__center-p {
+        font-size: 1.8rem;
+
     }
 }
 
@@ -2636,9 +2694,16 @@ th .table--img {
         width: 4.5%;
     }
 
-    .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
-        font-size: 1.7rem;
-        padding: 0;
+    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin{
+        width: 38%;
+    }
+
+    .infoblock .infoblock__page-9__center__img {
+        width: 65%;
+        margin-top: 10%;
+    }
+    .infoblock .infoblock__page-1__h2__p h2 {
+        font-size: 3.2rem;
     }
     .infoblock ul li {
         line-height: 1.7rem;
@@ -2686,12 +2751,21 @@ th .table--img {
     }
 
     .infoblock .infoblock__page-1__h3__p p {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
 
+    .infoblock .infoblock__page-1__text{
+        bottom: 155px;
+    }
+.infoblock .infoblock__page-1__center-p{
+    bottom: 10px;
+}
+    .infoblock .infoblock__page-1__h3__p{
+        bottom: -60px;
+    }
     .infoblock .infoblock__page-3__img {
-        width: 100%;
+        width: 66%;
     }
     .infoblock__page-3__block-3 {
         bottom: 10%;
@@ -2712,7 +2786,9 @@ th .table--img {
         padding-bottom: 0;
     }
 
-
+    .infoblock div .infoblock__page-1__h2__p {
+        top: 88px;
+    }
 }
 
 @media all and (max-width: 1178px){
@@ -2736,7 +2812,9 @@ th .table--img {
     .infoblock__page-9__top__h1 {
         font-size: 4.4rem;
     }
-
+    .infoblock .infoblock__page-9__center__img {
+        margin-top: 15%;
+    }
     div .infoblock__page-3__diagram {
         margin-top: 20%;
 
@@ -2751,10 +2829,7 @@ th .table--img {
 
     }
 
-    .infoblock .infoblock__page-9__center__img {
-        width: 65%;
-        margin-top: 10%;
-    }
+
 
 
     .infoblock__page-11__for-study-p {
@@ -2836,6 +2911,7 @@ th .table--img {
         width: 100%;
     }
 
+
     div .infoblock__page-3__diagram {
         width: 48%;
         float: left;
@@ -2862,7 +2938,7 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1270px) and (min-width: 1201px){
+@media all and (max-width: 1350px) and (min-width: 1201px){
     .row__column {
         min-height: 350px;
     }
