@@ -16,6 +16,7 @@
     text-align: center;
     clear: both;
     display: block;
+    padding-bottom: 10px;
 }
 
 .infoblock .h3_class_tittle {
@@ -50,6 +51,7 @@
     line-height: 3.8rem;
     text-align: center;
     padding-top: 20px;
+    font-weight: bold;
 }
 
 .blue-bullet li {
