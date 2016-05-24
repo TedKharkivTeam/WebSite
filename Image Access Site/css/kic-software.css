@@ -739,6 +739,7 @@ p.infoblock__double__double-p.move {
     text-align: center;
     font-size: 2.6rem;
     line-height: 1.2;
+    display: inline-block;
 }
 
 @media all and (max-width: 1870px) {
@@ -958,7 +959,7 @@ div .infoblock__block {
 }
 
 .infoblock .kic_software__li_image_small {
-    width: 30%;
+    width: 37%;
     padding-left: 10rem;
 }
 
@@ -1223,7 +1224,6 @@ div .infoblock__homo {
 
 .infoblock .columnKIC_Bookeye_4 {
     float: left;
-    padding-left: 9px;
     padding-right: 9px;
     width: 50%;
 }
@@ -1275,7 +1275,6 @@ div .infoblock__homo {
 
 .infoblock__page-5__two-step--w3 {
     width: 49%;
-    padding-top: 50px;
 }
 
 .infoblock .infoblock__page-5__text-block {
@@ -2429,7 +2428,7 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 
 .wrap-dual-screen-img span {
     position: absolute;
-    bottom: -350px;
+    bottom: -360px;
     right: 73px;
     font-size: 1.6rem;
 }
@@ -3171,7 +3170,34 @@ p.infoblock__double__double-p.resize {
     margin-top: -20px;
 }
 
-.color-free-p {
+h3.brochure-subtitle-center.move {
+    padding: 0 !important;
+}
+
+.wrap-face {
     float: left;
-    width: 50%;
+    margin: -10px 0 -35px 150px;
+}
+
+.wrap-block {
+    margin-top: 30px;
+}
+
+p.infoblock__page-9__center__text.infoblock__page-9__center__text--padding.resize-fleet-paragraph {
+    padding-bottom: 40px;
+}
+
+i.fa.fa-star.tabl-star.black {
+    color: #000;
+    font-size: .8rem !important;
+}
+
+span.fa.fa-star.tabl-star.black {
+    color: #000;
+    font-size: .8rem !important;
+    margin-top: -2px;
+}
+
+.center {
+    text-align: center;
 }
