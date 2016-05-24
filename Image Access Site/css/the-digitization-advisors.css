@@ -1,92 +1,42 @@
-
+.infoblock__box{
+    position: relative;
+}
 .infoblock .infoblock__advisors-header-h2 {
     font-family: AvenirLTStdBlack; /* font-weight: bold; */
     font-size: 3.5rem;
     padding: 15px 0 25px 0;
 }
 
-.infoblock .infoblock__advisors-image {
-
-}
-
-.infoblock .infoblock__advisors {
-
-}
-
 .infoblock .advisors__advisor {
     color: #1E3A6D;
     font-family: AvenirLTStdBlackOblique;
-    position: relative;
-    left: 13%;
+    text-align: center;
+    padding-top:15px;
 }
-
-.infoblock .advisors__advisor--keith {
-    margin-top: -715px;
-    padding-bottom: 715px;
+.infoblock__advisors{
+    width: 33%;
+    position: absolute;
+    top:0;
+    left: 0;
 }
-
-.infoblock .advisors__advisor--diana {
-    margin-top: -435px;
-    padding-bottom: 435px;
+.advisors__block{
+    padding: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    border: 1px solid #888;
+    -webkit-box-shadow:0 10px 20px #000;
+    -moz-box-shadow:0 10px 20px #000;
+    box-shadow:0 10px 20px #000;
+    margin-bottom: 10%;
 }
-
-.infoblock .advisors__advisor--leandro {
-    left: 12%;
-    margin-top: -171px;
-    padding-bottom: 171px;
-}
-
 /* 1280, 1366 */
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .infoblock .advisors__advisor {
-        left: 11%;
-    }
+@media all and (min-width: 1200px) and (max-width: 1399px) {
 
-    .infoblock .advisors__advisor--keith {
-        margin-top: -510px;
-        padding-bottom: 510px;
-    }
-
-    .infoblock .advisors__advisor--diana {
-        margin-top: -317px;
-        padding-bottom: 317px;
-    }
-
-    .infoblock .advisors__advisor--leandro {
-        left: 9%;
-        margin-top: -136px;
-        padding-bottom: 136px;
-    }
 }
 
 /* 1024 */
-@media (max-width: 1199px) {
-    html {
-        font-size: 60%;
-    }
-
-    .infoblock .advisors__advisor {
-        left: 11%;
-    }
-
-    .infoblock .advisors__advisor--keith {
-        margin-top: -476px;
-        padding-bottom: 476px;
-    }
-
-    .infoblock .advisors__advisor--diana {
-        margin-top: -298px;
-        padding-bottom: 298px;
-    }
-
-    .infoblock .advisors__advisor--leandro {
-        left: 9%;
-        margin-top: -128px;
-        padding-bottom: 128px;
-    }
-}
-
-/* tablets */
-@media (max-width: 941px) {
+@media all and (max-width: 1199px) {
 
 }
+
