@@ -3,7 +3,7 @@
 }
 
 .brochure-title-center {
-    padding: 20px 0 0 !important;
+    padding: 20px 0 10px !important;
 }
 
 h1 {
@@ -124,8 +124,13 @@ h4 {
 
 .infoblock__double__content1 {
     overflow: hidden;
-    padding: 10px 10px 10px 0;
-    margin: 5px;
+    padding: 0 10px 5px 0;
+    border-radius: 10px;
+}
+
+.infoblock__double__content2 {
+    overflow: hidden;
+    padding: 0 0 5px 10px;
     border-radius: 10px;
 }
 
@@ -504,7 +509,7 @@ th .table--img {
 }
 
 .align-left {
-    text-align: left;
+    text-align: left !important;
 }
 
 .first-column {
@@ -643,7 +648,7 @@ th .table--img {
 
 .brochure-overflow {
     position: relative;
-    padding: 10px 15px;
+    padding: 10px 0;
 }
 
 .brochure-overflow:after {
@@ -674,19 +679,23 @@ th .table--img {
 }
 
 .infoblock__double-wrap figure {
-    width: 25%;
+    width: 35%;
     float: right;
     margin: 0;
-    display: inline;
     padding: 0 30px 10px 30px;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .infoblock__double__double-p .redsign {
-    width: 25%;
+    width: 45%;
     float: right;
     padding: 0 0 10px 20px;
     box-sizing: content-box;
+    margin-top: -20px;
+}
+
+p.infoblock__double__double-p.move {
+    padding-top: 20px;
 }
 
 .infoblock__double-wrap figure figcaption {
@@ -720,7 +729,6 @@ th .table--img {
 }
 
 .infoblock .rainbow-text {
-
     background: #ff0000;
     background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
     background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
@@ -730,7 +738,7 @@ th .table--img {
     color: transparent;
     text-align: center;
     font-size: 2.6rem;
-    line-height: 2.8rem;
+    line-height: 1.2;
 }
 
 @media all and (max-width: 1870px) {
@@ -983,7 +991,7 @@ div .infoblock__homo {
 .infoblock .block1 {
     width: 50%;
     float: left;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .infoblock .infoblock__arrow-devices {
@@ -1287,7 +1295,6 @@ div .infoblock__homo {
 
 div .infoblock__page-5__block-p {
     display: inline-block;
-    font-weight: bold;
 }
 
 .infoblock .infoblock__page-5__seven-step--border {
@@ -1451,7 +1458,7 @@ div .infoblock__page-7__block-left {
 
 .infoblock .infoblock__page-9__center__img {
     float: right;
-    width: 65%;
+    width: 60%;
     padding-left: 20px;
 }
 
@@ -2730,7 +2737,7 @@ h2.brochure-title-kic-software__blue_label.--fleet {
 }
 
 .resize-fleet-paragraph {
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     line-height: 2.2rem !important;
 }
 
@@ -3083,11 +3090,6 @@ img.click-mini {
     padding-bottom: 10px;
 }
 
-.brochure-title-center {
-    font-size: 3.1rem;
-    line-height: 3.3rem;
-}
-
 .dual-screen-text {
     position: absolute;
 }
@@ -3152,4 +3154,24 @@ h2.brochure-title-center.resize {
     font-size: 5rem;
     line-height: 3rem;
     color: gray;
+}
+
+.with-span {
+    padding: 20px 0 0 0 !important;
+}
+
+p.infoblock__double__double-p.resize {
+    width: 65%;
+    float: left;
+}
+
+.bottles-img {
+    float: right;
+    width: 35% !important;
+    margin-top: -20px;
+}
+
+.color-free-p {
+    float: left;
+    width: 50%;
 }
