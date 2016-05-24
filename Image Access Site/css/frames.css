@@ -629,6 +629,191 @@
 
 /* END Frames 5A, 5B */
 
+/* Frame 5B */
+
+
+.blocks {
+    font-size: 1rem;
+    line-height: 1rem;
+    height: 140px;
+}
+
+.blocks--1 {
+
+}
+
+.blocks--2 {
+    margin-bottom: 30px;
+}
+
+.blocks__block-item {
+    display: inline-block;
+    height: 185px;
+    width: 50%;
+    vertical-align: top;
+}
+
+.blocks__block-item--1 {
+    background: url("../images/KIC_KAT/kat_7_img_1.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 159px;
+    width: 365px;
+}
+
+.blocks__block-item--2 {
+    background: url("../images/KIC_KAT/kat_7_img_2.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 166px;
+    width: 345px;
+}
+
+.blocks__block-item--3 {
+    background: url("../images/KIC_KAT/kat_7_img_3.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 195px;
+    width: 301px;
+}
+
+.blocks__block-item--4 {
+    background: url("../images/KIC_KAT/kat_7_img_4.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 246px;
+    width: 318px;
+    bottom: 30px;
+}
+
+.blocks__block-item--5 {
+    background: url("../images/KIC_KAT/kat_7_img_5.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 181px;
+    width: 365px;
+}
+
+.blocks__block-item--6 {
+    background: url("../images/KIC_KAT/kat_7_img_6.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 194px;
+    width: 365px;
+}
+
+.blocks__block-item--7 {
+    background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 172px;
+    width: 365px;
+}
+
+.block__title {
+    margin-left: 118px;
+    padding-top: 0;
+    font-weight: bold;
+}
+
+.block__title--1 {
+    position: relative;
+    right: 22%;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+.block__title--2 {
+    margin-top: 22px;
+    padding-bottom: 3px;
+    position: relative;
+    right: 29%;
+}
+
+.block__title--3 {
+    margin-top: 0;
+    position: relative;
+    right: 32%;
+    top: 23px;
+}
+
+.block__title--4 {
+    position: relative;
+    top: 60px;
+    right: 31%;
+}
+
+.block__title--5 {
+    padding-top: 45px;
+    position: relative;
+    right: 27%;
+}
+
+.block__title--6 {
+    padding-top: 56px;
+    position: relative;
+    right: 23%;
+    bottom: 5px;
+}
+
+.block__title--7 {
+    position: relative;
+    right: 27%;
+    top: 38px;
+}
+
+.block__info {
+    margin-left: 118px;
+    width: 100%;
+    text-align: left;
+}
+
+.block__info--1 {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.block__info--2 {
+    margin-left: 25%;
+}
+
+.block__info--3 {
+    width: 42%;
+    margin-left: 21%;
+    margin-top: 27px;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.block__info--4 {
+    position: relative;
+    top: 65px;
+    right: 14%;
+    width: 45%;
+}
+
+.block__info--5 {
+    position: relative;
+    right: 8%;
+    top: 10px;
+    width: 35%;
+}
+
+.block__info--6 {
+    width: 44%;
+    position: relative;
+    right: 6%;
+}
+
+.block__info--7 {
+    position: relative;
+    top: 42px;
+    right: 7%;
+    width: 43%;
+}
+
+
+/* END Frame 5B */
 
 /*end of frames 5*/
 /*pod*/
