@@ -132,7 +132,6 @@ div.infoblock h2 {
     font-size: 2rem;
     line-height: 2.2rem;
     font-weight: bold;
-    margin-bottom: 5px;
     padding: 0;
 }
 
@@ -283,6 +282,8 @@ h4 {
 
 .infoblock__center--text {
     text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
 }
 
 .kic-product {
@@ -509,6 +510,7 @@ th .table--img {
 .table__footer {
     font-size: 1.4rem;
     line-height: 1.6rem;
+    width: 100%;
 }
 
 .table__footer td {
@@ -933,7 +935,7 @@ h2.pod-text {
 #copy-diagram {
     float: left;
     width: 30%;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 #fax-diagram {
@@ -959,13 +961,22 @@ h2.pod-text {
     color: #0000F0;
 }
 
-.infoblock .brochure-overflow--line {
+p.click_click_mini.brochure-overflow--line {
     display: inline-block;
     padding-left: 3%;
+    font-family: 'LilyUPC', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #0d5cab;
+    padding: 0;
+    margin-left: 35px;
 }
 
 .infoblock .brochure-overflow--top {
-    padding-top: 4%;
+    margin-top: 30px;
+    font-size: 7rem;
+    font-family: 'LilyUPC', Arial, sans-serif;
+    margin-left: 470px;
 }
 
 .infoblock .label2 {
@@ -1171,13 +1182,12 @@ h2.pod-text {
 
 .infoblock .center__img {
     float: right;
-    width: 58%;
+    width: 63%;
 }
 
 .infoblock .center__text--padding {
     position: relative;
-    width: 38%;
-    margin-top: 20px;
+    width: 100%;
 }
 
 .infoblock .center__text--margin {
@@ -1187,6 +1197,8 @@ h2.pod-text {
 
 .infoblock .center__text {
     padding-top: 60px;
+    line-height: 2.4rem;
+    position: relative;
 }
 
 .infoblock__nav {
@@ -1337,6 +1349,8 @@ h2.pod-text {
     padding-bottom: 10px;
     display: block;
     font-weight: normal;
+    width: 51%;
+    margin: 0 auto;
 }
 
 .infoblock .smart_hard_block {
@@ -1346,21 +1360,12 @@ h2.pod-text {
     margin-top: 2%;
 }
 
-.reservation__h2--center {
-    text-align: center;
-    color: #8ca1c9;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    line-height: 2.5rem;
-    letter-spacing: 0;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
-}
-
 .infoblock .label_smart9 {
     font-size: 3.6rem;
     line-height: 3.8rem;
     margin-left: 3%;
     margin-top: 2%;
+    font-weight: bold;
 }
 
 .infoblock .label_smart10 {
@@ -1511,7 +1516,6 @@ h2.pod-text {
 .brochure-overflow__smart-dock {
     position: relative;
     margin-top: -4%;
-    padding-top: 4%;
 }
 
 .smart-dock__tree-img {
@@ -1578,6 +1582,7 @@ h2.pod-text {
 .infoblock .infoblock__double__double-p {
     width: 50%;
     float: left;
+    padding: 0 0 0 30px;
 }
 
 .infoblock .bookeye-vs-copiers__strong {
@@ -1606,8 +1611,13 @@ h2.pod-text {
     color: transparent;
     text-align: center;
     font-size: 2.6rem;
+    display: inline-block;
     line-height: 1.2;
     font-weight: bold;
+}
+
+.center{
+    text-align: center;
 }
 
 .smart_hard_block__to-left {
@@ -2097,16 +2107,13 @@ h2.pod-text {
     }
 }
 
-.wrap-face {
-    padding-top: 20px;
-}
-
 .infoblock__top .label2-fleet {
     font-size: 5rem;
     line-height: 5.2rem;
     text-align: center;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 0 0;
     margin: 0;
+    font-weight: normal;
 }
 
 #KIC_Click_and_Mini_Reservation_App .resize {
@@ -2153,4 +2160,338 @@ h3.true2_label.move {
     .infoblock .center__text--margin {
         margin-top: -6%;
     }
+}
+
+h2.label2.with-subh.resize {
+    padding-bottom: 0;
+}
+
+h2.label2.resize {
+    padding-bottom: 0;
+}
+
+h3.text5.resize,
+h3.text10.resize,
+h3.dvfu2.resize {
+    padding-top: 0;
+}
+
+.infoblock .infoblock__page-5__seven-step--border {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    min-height: 270px;
+}
+
+.infoblock__page-5__seven-step {
+    text-align: center;
+    position: relative;
+}
+
+.wrap-face {
+    float: left;
+    margin: -10px 0 -35px 150px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.infoblock .infoblock__page-5__block-header-3 {
+    color: #000;
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+    margin-top: 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div .infoblock__page-5__block-p {
+    display: inline-block;
+}
+
+.two-step {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.seven-step--border {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.infoblock__page-5__two-step--w1 {
+    width: 14%;
+}
+.infoblock__page-5__two-step--inline {
+    padding: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.infoblock__page-5__two-step--w2 {
+    width: 35%;
+}
+
+.infoblock__page-5__two-step--w3 {
+    width: 49%;
+}
+
+.wrap-block {
+    margin-top: 30px;
+}
+
+.infoblock__page-5__two-step:before {
+    content: '';
+    position: absolute;
+    background: url("../images/brochure-pictures/FaceUp.png") no-repeat;
+    width: 10%;
+    top: 0;
+    right: 0;
+    background-size: contain;
+    height: 15%;
+}
+
+.infoblock .infoblock__page-5__two-step {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.infoblock .infoblock__page-5__seven-step--border {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    min-height: 270px;
+}
+
+.infoblock__page-5__seven-step:after {
+    content: 'VS';
+    position: absolute;
+    color: #fff;
+    font-size: 200%;
+    background: #000;
+    border-radius: 100%;
+    bottom: -26px;
+    right: 50%;
+    padding: 1.2% 3%;
+    margin: 0 -3%;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.infoblock .infoblock__page-6__true-2-touch {
+    float: left;
+    width: 20%;
+    margin-right: 4%;
+}
+
+.infoblock .infoblock__page-6__scanner-other {
+    float: right;
+    width: 35%;
+    height: 75%;
+    margin-right: 7%;
+    padding-bottom: 15px;
+}
+
+img.infoblock__page-6__image-hand {
+    width: 43%;
+    margin-top: 30px;
+}
+
+.infoblock__page-6__left-block {
+    float: right;
+    width: 50%;
+    margin-top: -25px;
+    clear: both;
+}
+
+img.infoblock__page-6.scanner-picture {
+    padding: 0 0 10px 20px;
+    box-sizing: content-box;
+    margin-top: 0;
+}
+
+.story-text {
+    padding-top: 20px;
+    font-size: 1.6rem;
+    font-style: italic;
+    width: 48%;
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.infoblock__page-6__position-relative {
+    position: relative;
+    float: right;
+    width: 25%;
+    padding-right: 25px;
+}
+
+.infoblock__page-6__under-text {
+    position: absolute;
+    bottom: -5%;
+    left: 18%;
+}
+
+.infoblock .triangle-pointer {
+    font-size: 5rem;
+    line-height: 5rem;
+    color: gray;
+    display: block;
+}
+.page-6-arrow {
+    position: absolute;
+    right: -6%;
+}
+
+h3.reservation__h2.reservation__h2--center.resize {
+    padding-bottom: 0;
+}
+
+.infoblock__page-8__reservation__h2 {
+    color: #000;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+.infoblock .label_smart2 {
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: normal;
+    width: 51%;
+    margin: 0 auto;
+}
+
+h2.label2.move {
+    padding-bottom: 0;
+}
+
+h3.reservation__h2.reservation__h2--center.move {
+    padding-bottom: 0;
+}
+
+.reservation__h2--center {
+    text-align: center;
+    color: #8ca1c9;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 2.7rem;
+    margin-top: auto;
+    letter-spacing: 0;
+    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-weight: normal;
+}
+
+.reservation__text1 {
+    padding: 0 10px 5px 0;
+    float: left;
+    width: 50%;
+}
+
+.reservation__text2 {
+    padding: 0 0 5px 10px;
+    float: right;
+    width: 50%;
+}
+
+p.label_smart10.lib {
+    margin-left: 0;
+    text-align: center;
+}
+
+h3.label_smart9.lib {
+    margin-left: 0;
+}
+
+h2.label2.clearfix.resize.bottom-down {
+    padding-bottom: 10px;
+}
+
+.infoblock .infoblock__page-9__top__logo {
+    max-width: 340px;
+    float: left;
+}
+
+.infoblock .infoblock__page-9 .infoblock__page-9__center__text--padding {
+    padding-top: 90px;
+    line-height: 2.4rem;
+    position: relative;
+}
+
+.infoblock__page-9__center {
+    overflow: hidden;
+    margin-top: -130px;
+}
+
+.infoblock .infoblock__page-9__center__img {
+    float: right;
+    width: 65%;
+    padding-left: 20px;
+}
+
+.infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
+    position: absolute;
+    padding-top: 10px;
+    line-height: 2.4rem;
+    width: 37%;
+}
+
+.infoblock .infoblock__page-9__nav__img {
+    float: left;
+    width: 60%;
+}
+
+.infoblock__page-9__nav {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.infoblock .infoblock__page-9__nav__li {
+    float: left;
+    width: 38%;
+}
+
+.infoblock ul {
+    padding: 0 0 0 24px;
+    list-style: disc;
+}
+
+p.center__text.center__text--margin.fleet {
+    position: absolute;
+    padding-top: 40px;
+}
+
+h3.h-app {
+    color: #000;
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    margin: 0;
+    padding-top: 0;
+}
+
+.italic-font {
+    color: #000;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 10px 0;
 }
