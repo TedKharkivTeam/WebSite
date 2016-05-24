@@ -1,11 +1,15 @@
 
+.infoblock p {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding-bottom: 5px;
+}
+
+.infoblock .blue-bullet li {
+    line-height: 2.4rem;
+}
 
 /* ------------------------------------- COMMON STYLES ------------------------------------ */
-
-
-.infoblock p {
-    line-height: 2rem;
-}
 
 .content-holder {
     position: relative;
@@ -16,10 +20,12 @@
 
 .infoblock .common-header-h2 {
     color: #000;
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     text-align: center;
-    padding: 20px 0;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .infoblock .common-row {
@@ -34,7 +40,7 @@
 }
 
 .infoblock .common-text-p {
-    padding: 10px 0;
+    padding-bottom: 10px;
 }
 
 .infoblock .column__image {
@@ -42,9 +48,11 @@
 }
 
 .infoblock .common-header-h3 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     line-height: 2.6rem;
-    padding: 10px 1%;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 
@@ -52,25 +60,27 @@
 
 
 .infoblock .big-logo-text__image-logo {
-    width: 24%;
-    height: 24%;
-    float: left;
+    width: 40%;
 }
 
 .infoblock .common-header-h2--big-logo-text {
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 10rem;
+    font-family: 'LilyUPC', Arial, sans-serif;
+    float: right;
+    margin-right: 16%;
+    margin-top: 30px;
+    font-weight: normal;
 }
 
 
 .infoblock .big-logo-text__sub-header {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 2.4rem;
     text-align: right;
     color: #3E4793;
     font-weight: bold;
     float: right;
-    margin-top: -50px;
+    margin-top: -150px;
     padding-right: 3%;
 }
 
@@ -149,6 +159,10 @@
 
 /* PAGE 2 ******************************************************************************************************* */
 
+.infoblock .common-header-h2--long {
+    font-size: 3rem;
+    line-height: 3rem;
+}
 
 .infoblock .content-holder__triangular-section {
 
@@ -188,7 +202,7 @@
 .infoblock .triangular-copy__image {
     float: left;
     width: 30%;
-    margin: 25px 2%;
+    margin: 48px 2%;
 }
 
 .infoblock .many-articles-section__triangular-fax {
@@ -198,7 +212,7 @@
 .infoblock .triangular-fax__image {
     float: right;
     width: 30%;
-    margin: 25px 2%;
+    margin: 35px 2%;
 }
 
 .infoblock .many-articles-section__triangular-hand {
@@ -233,8 +247,7 @@
     text-shadow: none;
     font-weight: normal;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .infoblock .page-3-content-wrapper__text-section {
@@ -250,7 +263,7 @@
 }
 
 .infoblock .blue-bullet--with-padding li {
-    padding: 5px 0;
+    line-height: 2.4rem;
 }
 
 .infoblock .page-3-content-wrapper__relative-block {
@@ -338,10 +351,11 @@
 .infoblock .section__section-header {
     font-size: 2.5rem;
     line-height: 2.5rem;
+    font-weight: bold;
     text-align: center;
     color: black;
-    padding-top: 20px;
-    padding-bottom: 2rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .infoblock .section__section-header--align-left {
@@ -458,6 +472,7 @@
     line-height: 3.6rem;
     text-align: left;
     padding: 14px 0 10px;
+    font-weight: bold;
 }
 
 .infoblock .content-holder__true-2-touch-wrapper {
@@ -476,6 +491,7 @@
     text-align: center;
     margin-top: 0;
     padding: 15px 12% 20px 48%;
+    font-weight: bold;
 }
 
 .infoblock .blue-bullet--with-margin {
@@ -500,10 +516,11 @@
 
 .infoblock .true-2-touch-wrapper__display-screens-text {
     font-style: italic;
-    text-align: center;
-    font-size: 1.9rem;
-    line-height: 1.9rem;
-    width: 63%;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    width: 48%;
+    margin: 20px 0 50px 10%;
 }
 
 .infoblock .true-2-touch-wrapper__dual-screen-text {
@@ -519,11 +536,11 @@
 .infoblock .common-header-h2--smart-dock-sub-header {
     color: #000;
     font-size: 2.6rem;
-    line-height: 2.6rem;
+    line-height: 2.8rem;
     text-align: center;
-    padding: 14px 0 10px 0;
+    padding-bottom: 10px;
     width: 75%;
-    margin: 0 0 0 13%;
+    margin-left: 13%;
 }
 
 .infoblock .content-holder__text-section--smart-dock {
@@ -624,8 +641,8 @@
 
 .infoblock .triangle-pointer--3 {
     position: relative;
-    top: -135px;
-    left: -35%;
+    bottom: 120px;
+    right: 47%;
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
@@ -652,8 +669,8 @@
 
 .infoblock .reservation-app-wrapper__cursive-sub-header {
     color: #000;
-    font-size: 2.4rem;
-    line-height: 2.4rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     font-style: italic;
     margin: 0 0 0 14%;
     padding: 3px 0;
@@ -675,8 +692,8 @@
     position: absolute;
     content: '';
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
-    top: 538px;
-    left: 100px;
+    top: 483px;
+    left: 39px;
     background-size: contain;
     width: 100%;
     height: 130px;
@@ -720,6 +737,15 @@
 
 /* PAGE 8 ******************************************************************************************************* */
 
+.header-section__header--kic-fleet {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.header-section__sub-header--kic-fleet {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+}
 
 .infoblock .content-holder__kic-fleet-manager-wrapper {
 
@@ -913,11 +939,19 @@
 }
 
 .infoblock .section__section-header--ICYDK {
-    font-size: 2.6rem;
-    line-height: 2.6rem;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
     font-weight: bold;
     text-align: center;
     padding: 5px 0;
+}
+
+.infoblock .section__section-header--book-excerpts {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    padding-top: 15px;
+    font-weight: normal;
+    text-align: left;
 }
 
 .infoblock .column__text-p {
@@ -940,6 +974,7 @@
 
 .infoblock .section__many-citizens-text {
     padding: 0 10px;
+    padding-bottom: 5px;
     font-style: italic;
     display: inline-block;
 }
@@ -1035,6 +1070,7 @@
     font-size: 2.6rem;
     line-height: 2.6rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .infoblock .common-row__column--bottles-of-ink-image-wrapper {
@@ -1150,7 +1186,8 @@
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    width: calc(100% / 6);
+    width: calc(100% / 6.14);
+    padding-right: 3px;
 }
 
 /* PAGE 13 ****************************************************************************************************** */
@@ -1160,7 +1197,9 @@
     width: 85%;
     margin-left: 7%;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .infoblock .content-holder__kic-product-wrapper {
@@ -1216,6 +1255,7 @@
 
 .infoblock .kic-sub-table__p {
     text-align: center;
+    padding-top: 5px;
 }
 
 .infoblock .kic-sub-table__th--align-left {
@@ -1364,7 +1404,7 @@
 
 .infoblock .kic-product-wrapper__features-stars-wrapper {
     font-style: italic;
-    padding-bottom: 5px;
+    padding: 10px;
     display: block;
     float: right;
 }
