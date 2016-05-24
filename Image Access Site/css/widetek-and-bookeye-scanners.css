@@ -245,6 +245,15 @@ a {
     padding: 20px 0 10px;
 }
 
+.infoblock .infoblock__scanners-header-compliance {
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
+    margin: 0;
+    color: #093C8B;
+    padding: 20px 0 10px;
+}
+
 .infoblock .infoblock__scanners-p {
     padding-bottom: 15px;
 }
@@ -252,6 +261,14 @@ a {
 .infoblock .infoblock__scanners-header-h3 {
     font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
     color: black;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin: 15px 0;
+}
+
+.infoblock .infoblock__scanners-header-h3-compliance {
+    font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
+    color: #093C8B;
     font-size: 2.4rem;
     line-height: 2.6rem;
     margin: 15px 0;
