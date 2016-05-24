@@ -64,7 +64,8 @@ a {
 
 .infoblock .scrolled_pic .images .image .back_text_pdf a {
     color: #093C8B;
-    font-size: 20px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-weight: bold;
 }
 
@@ -120,6 +121,7 @@ a {
 
 .infoblock .table_documentation tbody tr :nth-child(1) {
     font-weight: bold;
+    line-height: 2.4rem;
 }
 
 .infoblock .table_documentation {
@@ -165,7 +167,8 @@ a {
 
 .infoblock .technical_data_pdf .back_text_pdf a {
     color: #093C8B;
-    font-size: 12px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-weight: bold;
 }
 
@@ -211,7 +214,8 @@ a {
 
 .infoblock .scrolled_pic .images .image .back_text span {
     color: #093C8B;
-    font-size: 18px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .scrolled_pic .images .image .back_text {
@@ -233,13 +237,12 @@ a {
 /* ******************** NEW STYLES ******************** */
 
 .infoblock .infoblock__scanners-header-h2 {
-    font-size: 1.8rem;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
     margin: 0;
-    color: rgb(9, 60, 139);
-    padding-top: 5px;
-    padding-bottom: 32px;
-    height: 23px;
+    color: black;
+    padding: 20px 0 10px;
 }
 
 .infoblock .infoblock__scanners-p {
@@ -248,8 +251,9 @@ a {
 
 .infoblock .infoblock__scanners-header-h3 {
     font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
-    color: rgb(9, 60, 139);
-    font-size: 1.6rem;
+    color: black;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     margin: 15px 0;
 }
 
