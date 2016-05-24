@@ -535,6 +535,28 @@
 .infoblock .common-header-h2--smart-dock-sub-header {
     color: #000;
     text-align: center;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoblock .common-header-h2--special {
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoblock .common-header-h2--smart-dock-sub-header--special-2 {
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.infoblock .common-header-h2-tech-spec {
+    padding-bottom: 0;
 }
 
 .infoblock .content-holder__text-section--smart-dock {
@@ -661,6 +683,7 @@
 
 .infoblock .common-header-h2--reservation-app {
     width: 100%;
+    padding-bottom: 0px;
 }
 
 .infoblock .reservation-app-wrapper__bold-sub-header {
@@ -668,19 +691,17 @@
     font-size: 2.4rem;
     line-height: 2.4rem;
     font-weight: bold;
-    margin: 10px 0 5px 0;
     width: 100%;
     padding: 0;
 }
 
 .infoblock .reservation-app-wrapper__cursive-sub-header {
-    color: #000;
-    font-size: 2rem;
-    line-height: 2.2rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     font-style: italic;
-    margin: 0 0 0 0;
-    padding: 3px 0;
+    margin: 0 auto;
     width: 100%;
+    display: block;
 }
 
 .infoblock .reservation-app-wrapper__three-images-header {
@@ -700,7 +721,7 @@
     position: absolute;
     content: '';
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
-    top: 486px;
+    top: 470px;
     left: 39px;
     background-size: contain;
     width: 100%;
@@ -717,9 +738,7 @@
 }
 
 .infoblock .reservation-app-wrapper__text-p {
-    text-align: left;
     width: 49%;
-    padding: 10px;
     display: inline-block;
     vertical-align: top;
     font-size: 1.6rem;
@@ -799,7 +818,7 @@
 .infoblock .text-section__right-side-image {
     float: right;
     width: 65%;
-    padding-left: 20px;
+    padding-left: 5px;
 }
 
 .infoblock .text-section__centered-text--with-padding {
@@ -884,13 +903,13 @@
     text-align: center;
 }
 
-.infoblock .pod-library__header {
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-    color: #000;
-    margin: 0;
-    padding: 15px 0;
-}
+/*.infoblock .pod-library__header {*/
+    /*font-size: 2.4rem;*/
+    /*line-height: 2.4rem;*/
+    /*color: #000;*/
+    /*margin: 0;*/
+    /*padding: 15px 0;*/
+/*}*/
 
 .infoblock .pod-library__image {
     width: 51%;
