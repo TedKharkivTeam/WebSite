@@ -824,7 +824,6 @@ h2.pod-text {
 }
 
 .infoblock span {
-    font-weight: bold;
     padding-bottom: 5px;
     display: block;
 }
@@ -909,14 +908,14 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 199px;
+    height: 219px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    height: 171px;
+    height: 180px;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -1601,7 +1600,6 @@ h2.pod-text {
     text-align: center;
     font-size: 2.6rem;
     line-height: 1.2;
-    font-weight: bold;
 }
 
 .smart_hard_block__to-left {
@@ -2110,4 +2108,25 @@ h2.pod-text {
 #KIC_Click_and_Mini_Reservation_App .resize {
     font-size: 3.2rem;
     line-height: 3.4rem;
+}
+
+.with-subh {
+    padding-bottom: 0;
+}
+
+.triangle-pointer {
+    font-size: 5rem;
+    line-height: 3rem;
+    color: gray;
+    display: block;
+}
+
+.true2_block_3 {
+    position: relative;
+}
+
+.true2_block_3 .triangle-pointer {
+    position: absolute;
+    left: 105%;
+    top: 70px;
 }
