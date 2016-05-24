@@ -609,6 +609,11 @@ div .infoblock__page-5__block-p {
     margin-top: -25px;
     clear: both;
 }
+.infoblock__page-6__position-relative{
+    position: relative;
+    float: right;
+    width: 30%;
+}
 
 .infoblock__page-6__left-header{
     font-weight: bold;
@@ -1498,7 +1503,6 @@ h2.pod-text {
 .infoblock .left-block__text-block-h3 {
     color: #000;
     text-align: left;
-    margin-bottom: 10px;
     font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
 }
 
@@ -2040,69 +2044,19 @@ th .table--img {
     margin: 0;
 }
 
-@media all and (max-width: 1880px) and (min-width: 1650px){
-    .table__arow:before {
-
-        left: 20px;
-
-    }
-}
-
-
-@media all and (max-width: 1651px){
-    .table__arow:before {
-        left: 0px;
-
-    }
-    .row__column {
-
-        min-height: 450px;
-    }
-}
-
-
-
-
-@media all and (max-width: 1480px){
-    .table .table--ta-left {
-        padding-right: 10px;
-    }
-
-    .row__column {
-
-        min-height: 420px;
-    }
-
-}
-
-@media all and (max-width: 1270px) and (min-width: 1201px){
-    .row__column {
-        min-height: 350px;
-    }
-
-    .table .table--ta-left {
-        padding-right: 0px;
-    }
-}
-
-@media all and (max-width: 1080px) {
-    .row__column {
-        min-height: 350px;
-    }
-
-    .table .table--ta-left {
-        padding-right: 0px;
-    }
-}
-
 /* поменять*/
 
 #KIC_Bookeye_4_True_2_Touch .scanner-picture {
     float: right;
-    width: 30%;
+    width: 86%;
     padding: 0 0 10px 20px;
     box-sizing: content-box;
     margin-top: 0;
+
+}
+
+.paragraph-padding {
+    padding-bottom: 20px !important;
 }
 
 #KIC_Bookeye_4_True_2_Touch .large-screens-paragraph-one,
@@ -2124,10 +2078,17 @@ th .table--img {
     width: 48%;
     margin-left: 10%;
     position: relative;
+    margin-bottom: 50px;
 }
 .page-6-arrow{
     position: absolute;
     right: -6%;
+}
+
+.infoblock__page-6__under-text{
+    position: absolute;
+    bottom: -5%;
+    left: 28%;
 }
 
 .planet-with-map {
@@ -2147,8 +2108,51 @@ th .table--img {
     padding-top: 32px;
 }
 
-.paragraph-padding {
-    padding-bottom: 20px !important;
+@media all and (max-width: 1880px) and (min-width: 1650px){
+    .table__arow:before {
+
+        left: 20px;
+
+    }
+}
+
+@media all and (max-width: 1680px){
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+        margin-right: 4%;
+    }
+}
+
+@media all and (max-width: 1651px){
+    .table__arow:before {
+        left: 0px;
+
+    }
+    .row__column {
+
+        min-height: 450px;
+    }
+}
+
+@media all and (max-width: 1480px){
+    .table .table--ta-left {
+        padding-right: 10px;
+    }
+
+    .row__column {
+
+        min-height: 420px;
+    }
+
+}
+
+@media all and (max-width: 1080px) {
+    .row__column {
+        min-height: 350px;
+    }
+
+    .table .table--ta-left {
+        padding-right: 0px;
+    }
 }
 
 @media all and (max-width: 1880px)
@@ -2217,13 +2221,6 @@ th .table--img {
 
 }
 
-
-
-@media all and(max-width: 1427px){
-
-}
-
-
 @media all and (max-width: 1800px) and (min-width: 1607px) {
     .infoblock .infoblock__page-5__margin-text {
         margin-right: 55%;
@@ -2259,7 +2256,6 @@ th .table--img {
     }
 }
 
-
 @media all and (max-width: 1332px) {
     .infoblock div .infoblock__page-7__text-block1 {
         font-size: 1.8rem;
@@ -2271,9 +2267,6 @@ th .table--img {
     }
 }
 
-
-
-
 @media all and (max-width: 1291px){
 
 }
@@ -2283,16 +2276,19 @@ th .table--img {
         margin-right: 49%
     }
 }
+
 @media all and (max-width: 1740px) and (min-width: 1511px){
     .infoblock__page-9__center__text--margin {
         padding-top: 3%;
     }
 }
+
 @media all and (max-width: 1720px){
     .infoblock .infoblock__page-3__man_pdf {
         width: 100%;
     }
 }
+
 @media all and (max-width: 1600px) and (min-width: 1401px){
     .infoblock__page-14__row__column {
 
@@ -2309,17 +2305,20 @@ th .table--img {
         padding-top: 0;
     }
 }
+
 @media all and (max-width:1710px) and (min-width:1530px){
     .infoblock .infoblock__page-6__text-block {
 
         margin-bottom: 10%;
     }
 }
+
 @media all and (max-width: 1529px) and (min-width: 1401px){
     .infoblock .infoblock__page-6__text-block {
         margin-bottom: 20%;
     }
 }
+
 @media all and (max-width:1550px) and (min-width: 1320px){
     .infoblock .infoblock__page-7__text-block-devices {
 
@@ -2327,7 +2326,6 @@ th .table--img {
 
     }
 }
-
 
 @media all and (max-width: 1640px)  and (min-width: 1400px){
     .infoblock__page-1 .infoblock__page-1__header_2 {
@@ -2339,6 +2337,7 @@ th .table--img {
         bottom: 8%;
     }
 }
+
 @media all and (max-width: 1489px) and (min-width: 1401px){
     .infoblock__page-5 .infoblock__page-5__margin-text {
         margin-right: 54%;
@@ -2350,12 +2349,11 @@ th .table--img {
         font-size: 1.5rem;
     }
 }
+
 @media all and (max-width:1445px) and (min-width:1285px){
     .infoblock__page-1 .infoblock__page-1__header_2 {
-
-        margin-right: 4%;
+        margin-right: 0%;
         margin-top:20px
-
     }
 }
 
@@ -2367,24 +2365,33 @@ th .table--img {
 
     }
 
+    .infoblock .infoblock__page-1__center-p{
+        bottom: -20px;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .infoblock div .infoblock__page-1__h2__p h2{
+        font-size: 3.6rem;
+    }
+
     div .infoblock__page-3__block_text23 {
         margin-top: 9%;
     }
+.infoblock .infoblock__page-1__text__bottom{
+    font-size: 1.2rem;
+}
 
-
+.infoblock .infoblock__page-1__text__top{
+    font-size: 1.6rem;
+}
 
     .infoblock ul li {
         line-height: 2.1rem;
     }
 
 
-    .infoblock .infoblock__page-1 .infoblock__page-1_relative-block .infoblock__page-1__h2__p h2 {
-        color: #000000;
-        padding: 0;
-    }
-
     .infoblock .infoblock__page-1__h3__p{
-        top:75%;
+        bottom: -32%;
     }
 
 
@@ -2514,6 +2521,7 @@ th .table--img {
     }
 
 }
+
 @media all and (max-width: 1320px){
     .infoblock .infoblock__page-7__text-block-devices {
         width: 35%;
@@ -2521,6 +2529,7 @@ th .table--img {
         font-size: 1.2rem;
     }
 }
+
 @media all and (max-width: 1366px){
     .pbd--frame img{
         width: 50%;
@@ -2529,6 +2538,7 @@ th .table--img {
         font-size: 2.2rem;
     }
 }
+
 @media all and (max-width:1350px) {
     div .infoblock__page-4__homo-text {
         margin-top: 2%;
@@ -2540,6 +2550,7 @@ th .table--img {
     }
 
 }
+
 @media all and (max-width:1536px) and (min-width: 1401px){
     .infoblock__page-9__top__h1 {
 
@@ -2547,6 +2558,7 @@ th .table--img {
 
     }
 }
+
 @media all and (max-width: 1337px) and (min-width: 1200px){
     .infoblock div .infoblock__page-1__h2__p h2 {
         font-size: 2.1rem;
@@ -2563,7 +2575,6 @@ th .table--img {
     }
 
 }
-
 
 @media all and (max-width: 1337px) and (min-width: 1300px){
     .infoblock__page-9__center__text--margin {
@@ -2602,6 +2613,7 @@ th .table--img {
         margin-top: 0;
     }
 }
+
 @media all and (max-width: 1272px) and (min-width: 1200px) {
     .infoblock__page-9__center__text--margin {
         padding-top: 1%;
@@ -2611,12 +2623,14 @@ th .table--img {
 
 
 }
+
 @media all and (max-width:1285px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 0;
         margin-top:17px;
     }
 }
+
 @media all and (max-width: 1200px) and (min-width: 992px) {
     .width-td {
         width: 4.5%;
@@ -2709,6 +2723,7 @@ th .table--img {
     }
 
 }
+
 @media all and (max-width: 1125px) and (min-width: 1024px){
     div .infoblock__page-4__homo-text {
         margin-top: 2%;
@@ -2793,6 +2808,7 @@ th .table--img {
         margin-top: 30px;
     }
 }
+
 @media all and (max-width: 991px) and (min-width: 768px) {
 
     .infoblock div .infoblock__page-1__h2__p h2 {
@@ -2846,6 +2862,22 @@ th .table--img {
     }
 }
 
+@media all and (max-width: 1270px) and (min-width: 1201px){
+    .row__column {
+        min-height: 350px;
+    }
+
+    .table .table--ta-left {
+        padding-right: 0px;
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1100px){
+    .infoblock__page-14__row__column {
+        min-height: 490px;
+    }
+}
+
 @media all and (max-width: 767px) {
 
     .infoblock div .infoblock__page-1__h2__p h2 {
@@ -2893,11 +2925,5 @@ th .table--img {
         text-align: center;
 
         padding-bottom: 0;
-    }
-}
-
-@media all and (max-width: 1199px) and (min-width: 1100px){
-    .infoblock__page-14__row__column {
-        min-height: 490px;
     }
 }
