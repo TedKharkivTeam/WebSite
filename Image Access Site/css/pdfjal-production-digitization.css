@@ -1027,9 +1027,11 @@ h4 {
 .padding--bottom {
     padding-bottom: 10px;
 }
-.page3__inline--padding{
-    padding:0 10px;
+
+.page3__inline--padding {
+    padding: 0 10px;
 }
+
 /*end of new image*/
 @media all and (max-width: 1725px) {
     .top-title__send {
@@ -1095,10 +1097,6 @@ h4 {
 }
 
 @media all and (max-width: 1500px) {
-    html {
-        font-size: 50%;
-    }
-
     .two-step--inline {
         padding-top: 20px;
     }
@@ -1174,6 +1172,9 @@ h4 {
     .header__left {
         padding-bottom: 20px;
     }
+    .top-title__send {
+        right: -10px;
+    }
 }
 
 @media all and (max-width: 1200px) {
@@ -1184,5 +1185,8 @@ h4 {
     .two-step:before {
         width: 92px;
         height: 60px;
+    }
+    .top-title__send {
+        right: -20px;
     }
 }

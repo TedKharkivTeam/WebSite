@@ -1697,9 +1697,6 @@ h2.pod-text {
 }
 
 @media (max-width: 1600px) {
-    html {
-        font-size: 55%;
-    }
 
     .smart-dock__tree-img {
         width: 100%;

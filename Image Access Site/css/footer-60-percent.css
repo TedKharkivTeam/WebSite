@@ -4,15 +4,19 @@
     line-height: 3.8rem;
     text-align: center;
     padding: 14px 0 10px;
-    font-family: 'AvenirLTStdHeavy';
 }
 
 .content__block{
     width: 80%;
-    margin-left: 15%;
+    margin-left: auto;
     margin-top: 10px;
 }
 
 .content__formatter{
     width: 90%;
+}
+@media all and (max-width: 1200px){
+    .content__block{
+        margin-left: 24%;
+    }
 }

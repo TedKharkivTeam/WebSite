@@ -820,7 +820,8 @@ footer ul:nth-last-child(1):after {
     max-width: 120px;
     height: auto;
 }
-.footer--bottom .intertek-logo{
+
+.footer--bottom .intertek-logo {
     width: 120%;
     max-width: 150px;
 }
@@ -828,6 +829,11 @@ footer ul:nth-last-child(1):after {
 /*end footer*/
 
 /*media enquiries*/
+@media all and (max-width: 1400px) {
+    html {
+        font-size: 60%;
+    }
+}
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .header-top {

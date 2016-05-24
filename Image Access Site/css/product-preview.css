@@ -31,4 +31,10 @@
     font-size: 1.6rem;
     line-height: 2rem;
 }
+@media all and (max-width: 1600px) {
+    .product_preview div {
+        width: 50%;
+        padding: 0;
+    }
+}
 
