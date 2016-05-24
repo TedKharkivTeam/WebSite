@@ -16,3 +16,17 @@
 .content__formatter{
     width: 90%;
 }
+
+@media all and (max-width: 1850px){
+    .content__block {
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 1150px){
+    .content__block {
+        margin-left: 22%;
+        margin-top: 20px;
+    }
+}

@@ -1,6 +1,8 @@
 .infoblock span, p {
     font-weight: normal;
-    line-height: 24px;
+    line-height: 2.4rem;
+    text-align: right;
+    display: block;
 }
 
 .bscan-ill--h2 {
