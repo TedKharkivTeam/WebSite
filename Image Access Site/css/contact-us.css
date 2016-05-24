@@ -203,7 +203,24 @@ input, textarea {
     text-shadow: none !important;
 }
 
+.parkin__box {
+    overflow: hidden;
+}
+
 .parkin {
+    width: 33%;
+    text-align: center;
+}
+
+.parkin--left {
+    float: left;
+}
+
+.parkin--right {
+    float: right;
+}
+
+.img-holder {
     width: 100%;
 }
 
@@ -247,19 +264,16 @@ input, textarea {
 }
 
 .contactus-holder {
-    width: 80%;
-    overflow: hidden;
-    margin: 10px auto 0;
+    width: 71%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .contactus-holder__triple {
-    width: 33%;
-    float: left;
-
-}
-
-.contactus-holder__triple.--left {
-    padding-top: 20px;
+    width: 32%;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .contactus-holder__triple__image--right {
@@ -267,28 +281,11 @@ input, textarea {
     height: 100%;
 }
 
-.contactus-holder__triple__image.--left {
-    float: left;
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-}
-
-.contactus-holder__triple.--center {
-    float: none;
-    margin: 40px auto 0;
-}
-
-.contactus-holder__triple.--right {
-    float: right;
-    margin-top: -260px;
-}
-
 .contactus-holder__triple__strong {
     position: relative;
-    line-height: 80px;
-    font-size: 40px;
-    padding: 0 0 10px 90px;
+    line-height: 1.8;
+    font-size: 3.6rem;
+    padding-left: 40px;
     display: block;
 }
 
@@ -299,7 +296,7 @@ input, textarea {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 6px;
+    top: 0;
     left: 0;
 }
 
@@ -314,7 +311,7 @@ input, textarea {
 
 .contactus-holder__triple__div--contact {
     margin-top: 10px;
-    float: right;
+    float: left;
     width: calc(80% - 10px);
 }
 
@@ -325,7 +322,12 @@ input, textarea {
 }
 
 .wrap-text {
-    margin-bottom: 25px;
+}
+
+.wrap-text:after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .contactus-holder__triple__div--contact span {
@@ -370,22 +372,9 @@ input, textarea {
         margin-left: -5px;
     }
 
-    .contactus-holder__triple__strong:before {
-        top: 14px;
-    }
-
     .contactus-holder__triple__div--contact span,
     .contactus-holder__triple__div--contact a {
         font-size: 14px !important;
-    }
-
-    .contactus-holder__triple__strong {
-        font-size: 34px;
-        padding: 0 0 10px 70px;
-    }
-
-    .contactus-holder__triple.--left {
-        padding-top: 8%;
     }
 
     .mainform input {
@@ -511,4 +500,25 @@ input {
 
 .input-move {
     margin-right: 50px;
+}
+
+@media all and (max-width: 1400px) {
+    .contactus-holder {
+        width: 67%;
+        text-align: center;
+        margin: 5px auto 0;
+    }
+
+    .contactus-holder__triple__strong {
+        line-height: 1.5;
+        font-size: 3.1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contactus-holder {
+        width: 67%;
+        text-align: center;
+        margin: 20px 0 0 22%;
+    }
 }
