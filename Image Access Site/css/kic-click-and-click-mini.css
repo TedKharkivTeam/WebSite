@@ -790,11 +790,7 @@ h2.pod-text {
     }
 }
 
-.in-case-span--center {
-    text-align: center;
-    font-size: 26px;
-    line-height: 28px;
-}
+
 
 .infoblock .in-case-enhance {
     width: 70%;
@@ -835,7 +831,12 @@ h2.pod-text {
     line-height: 4.0rem;
     padding: 0;
 }
-
+.infoblock .in-case-span--center {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
 .infoblock__page-11__in-case-span {
     text-align: right;
     font-size: 2.0rem;
@@ -897,7 +898,7 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 219px;
+    height: 199px;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -1173,7 +1174,6 @@ p.click_click_mini.brochure-overflow--line {
 .infoblock__center {
     overflow: hidden;
     margin-top: -50px;
-    /*line-height: 1.8;*/
 }
 
 .infoblock .center__img {
@@ -1598,7 +1598,6 @@ p.click_click_mini.brochure-overflow--line {
     background: -moz-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
     background: -webkit-linear-gradient(left, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
     background: linear-gradient(to right, #ff0000 0%, #ff00ff 16%, #0000ff 33%, #00ffff 50%, #00ff00 67%, #ffff00 83%, #ff0004 100%, #ff0000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000', GradientType=1);
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
@@ -1880,8 +1879,6 @@ p.click_click_mini.brochure-overflow--line {
 @media (max-width: 1386px) {
     .infoblock p {
         font-size: 1.4rem;
-        /*line-height: 1.6rem;*/
-
     }
 
     .infoblock .top__logo {
@@ -1905,9 +1902,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     .infoblock__center {
-
         margin-top: -40px;
-
     }
 
     .column__ul_fond {
@@ -2506,4 +2501,11 @@ img.redsign {
 
 h2.label2.resize.top-padding {
     padding-top: 30px;
+}
+
+@media screen and (min-width: 0\0) {
+    .infoblock .rainbow-text {
+       background:none;
+        color: black;
+    }
 }
