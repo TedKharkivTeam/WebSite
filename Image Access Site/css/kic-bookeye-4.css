@@ -41,13 +41,15 @@ figure {
 
 
 .infoblock span {
-    font-weight: bold;
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
     padding-bottom: 5px;
     display: block;
 }
+
 .infoblock ul li {
     line-height: 24px;
 }
+
 .infoblock ul {
     padding: 0 0 0 24px;
     list-style: disc;
@@ -70,7 +72,7 @@ figure {
 
 
 .brochure-title-center {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
@@ -78,7 +80,7 @@ figure {
 }
 
 .brochure-title-left{
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align:left;
@@ -202,14 +204,13 @@ figure {
     padding-left: 67%;
     bottom: -70px;
     text-align: center;
-    font-weight: bold;
-    font-style: italic;
+    font-family: 'LatoBoldItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__page-1__h3__p h3 {
     font-size: 1.875rem;
-    font-weight: bold;
-    color: #000000;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    color: #000;
 }
 
 
@@ -219,7 +220,7 @@ figure {
     position: absolute;
     left: 50%;
     bottom: 25px;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2.5rem;
     line-height: 2.7rem;
 }
@@ -248,13 +249,12 @@ figure {
 .infoblock .infoblock__page-1__text__top{
     font-size: 2rem;
     text-align: center;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
-    font-weight: bold;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     color:#58585a;
 }
 
 .infoblock .infoblock__page-1__text__bottom{
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 1.4rem;
     text-align: center;
 }
@@ -265,7 +265,7 @@ figure {
 }
 
 .infoblock__page-2__brochure-title-center{
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     font-size: 3.2rem;
     line-height: 3.4rem;
     text-align: center;
@@ -293,15 +293,16 @@ figure {
 }
 
 .infoblock__page-2__h3{
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
+
 .infoblock__page-2 .infoblock__page-2__h3-margin-none{
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin-top: 1px;
 }
 
 .infoblock__page-2__h3_center{
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     width: 85%;
     text-align: center;
     padding-left: 18%;
@@ -319,7 +320,7 @@ figure {
 }
 
 .infoblock .infoblock__page-3__block-title {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2.1rem;
     color: #000000;
     text-shadow: none;
@@ -330,11 +331,11 @@ figure {
 
 
 .infoblock__page-3__brochure-title-center{
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
-    padding: 20px 0 0px;
+    padding: 20px 0 0;
 }
 
 .infoblock__page-3__text-block {
@@ -420,25 +421,22 @@ div .infoblock__page-3__block {
 }
 
 .infoblock .infoblock__page-4__text6 {
-    font-style: italic;
-    font-weight: 300;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: center;
 }
 .infoblock .infoblock__page-4__italic-text {
-    font-style: italic;
-    font-weight: 300;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: center;
     padding-bottom: 10px;
     line-height: 2.2rem;
     font-size: 2rem;
-    display:block;
+    display: block;
 }
 
 .infoblock .infoblock__page-4__text5 {
-
     font-size: x-large;
     text-align: center;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__page-4__block1 {
@@ -468,17 +466,16 @@ div .infoblock__page-4__homo-scanner {
 }
 
 div .infoblock__page-4__homo-text {
-    font-style: italic;
-
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     margin-top: 4%;
     width: 20%;
-position: relative;
+    position: relative;
     display: inline-block;
     margin-left: 15%;
 }
 
 div .infoblock__page-4__homo {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     margin-right: 5%;
     position: relative;
 }
@@ -518,7 +515,7 @@ div .infoblock__page-4__homo {
     content: 'VS';
     position: absolute;
     color: #fff;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 200%;
     background: #000;
     border-radius: 100%;
@@ -653,7 +650,7 @@ div .infoblock__page-5__block-p {
 }
 
 .infoblock__page-5__wrap-text{
-    margin: 0px 0 0 170px;
+    margin: 0 0 0 170px;
      overflow: hidden;
     text-align: left;
 }
@@ -694,7 +691,7 @@ div .infoblock__page-5__block-p {
 }
 
 .infoblock__page-6__left-header{
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: center;
 }
 .infoblock_page-6 ul li {
@@ -746,7 +743,7 @@ div .infoblock__page-5__block-p {
     color: #000;
     font-size: 3.6rem;
     line-height: 3.8rem;
-    font-family:'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family:'LatoBold', helvetica, arial, sans-serif;
 
     text-align: center;
     float: right;
@@ -802,13 +799,13 @@ div .infoblock__page-5__block-p {
     color: #898b8a;
     margin-right: 40%;
     text-align: center;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 
 .infoblock__page-7__text-left{
-    font-style: italic;
-    margin-left:7%;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    margin-left: 7%;
 
 }
 .infoblock .triangle-pointer {
@@ -835,7 +832,7 @@ div .infoblock__page-7__text-right2 {
     margin-top: 8%;
     margin-bottom: 50px;
     text-align: right;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     margin-left: 1%;
 }
 
@@ -844,7 +841,7 @@ div .infoblock__page-7__text-right {
     margin-top: -380px;
     margin-right: -10%;
     text-align: right;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__page-7__seven-step--border {
@@ -863,7 +860,7 @@ div .infoblock__page-7_photo {
 .infoblock div .infoblock__page-7__text-block1 {
     font-size: 2.5rem;
     font-weight: normal;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     line-height: 120%;
 }
 
@@ -872,7 +869,7 @@ div .infoblock__page-7_photo {
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: left;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 div .infoblock__page-7__block-left {
@@ -882,13 +879,12 @@ div .infoblock__page-7__block-left {
 }
 
 .infoblock .infoblock__page-7__header-3 {
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: center;
     width: 51%;
     font-size: 2rem;
     line-height: 2.2rem;
     margin-left: 22%;
-
     font-weight: normal;
 }
 
@@ -939,7 +935,7 @@ div .infoblock__page-7__block-left {
     color: #000;
     font-size: 2.6rem;
     line-height: 2.8rem;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -948,7 +944,7 @@ div .infoblock__page-7__block-left {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -999,7 +995,7 @@ div .infoblock__page-7__block-left {
     right: 0;
     width: 45%;
     text-align: center;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 
@@ -1038,7 +1034,7 @@ div .infoblock__page-7__block-left {
     line-height: 2.7rem;
     margin-top: auto;
     letter-spacing: 0;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     font-weight:normal;
 }
 
@@ -1143,7 +1139,7 @@ h2.pod-text {
     color: #000;
     padding:0;
     line-height: 1.2;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin:0;
 }
 
@@ -1158,10 +1154,6 @@ h2.pod-text {
     text-align: center;
 }
 
-
-
-
-
 .infoblock__page-11__double {
     width: 50%;
     float: left;
@@ -1173,7 +1165,7 @@ h2.pod-text {
     padding: 10px 10px 10px 0;
     background: #D0E6FC;
     margin: 5px;
-    border-radius: 1.0rem;
+    border-radius: 1rem;
 }
 
 .infoblock__page-11__in-case-strong {
@@ -1186,12 +1178,14 @@ h2.pod-text {
     text-align: right;
     font-size: 2.0rem;
     line-height: 2.2rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial !important;
 }
 
 .infoblock__page-11__in-case-span--center {
     text-align: center;
     font-size: 2.6rem;
     line-height: 2.8rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial !important;
 }
 
 .infoblock__page-11__double__content__double {
@@ -1225,11 +1219,12 @@ h2.pod-text {
     text-align: center;
     font-size: 26px;
     line-height: 28px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial !important;
 }
 
 .infoblock__page-11__in-case-p--italic {
     padding: 10px;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     display: inline-block;
 }
 
@@ -1266,8 +1261,7 @@ h2.pod-text {
 
 }
 .infoblock__page-11 h4{
-    font-weight: bold;
-
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 
@@ -1277,7 +1271,7 @@ h2.pod-text {
 
 .infoblock__page-12__subtitle-center{
 
-    font-family:'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family:'LatoBold', helvetica, arial, sans-serif;
     text-align: center;
     font-size: 2.6rem;
     line-height: 2.8rem;
@@ -1285,7 +1279,7 @@ h2.pod-text {
 
 .infoblock__page-12__subtitle-left{
 
-    font-family:'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family:'LatoBold', helvetica, arial, sans-serif;
     font-size: 2.6rem;
     line-height: 2.8rem;
 }
@@ -1332,7 +1326,7 @@ h2.pod-text {
 .infoblock .infoblock__page-12__bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 1.2rem;
 }
 
@@ -1362,7 +1356,7 @@ h2.pod-text {
     line-height: 2.6rem;
     text-align: center;
     display: inline-block;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .infoblock h3 {
@@ -1386,7 +1380,7 @@ h2.pod-text {
 
 .infoblock .infoblock__page-13_text-block-after-table {
     text-align: right;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__page-13__text-block-h3 {
@@ -1394,7 +1388,7 @@ h2.pod-text {
     font-size: 2.2rem;
     text-align: left;
     margin-top: 0;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .infoblock .infoblock__page-13__right-images {
@@ -1443,7 +1437,7 @@ h2.pod-text {
     text-align: left;
     margin-top: 0;
     margin-left: 52%;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .infoblock .infoblock__page-13__rel {
@@ -1473,7 +1467,7 @@ h2.pod-text {
 
 .infoblock .infoblock__page-13_text-block-after-table {
     text-align: right;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__page-13__text-block-h3 {
@@ -1481,7 +1475,7 @@ h2.pod-text {
     font-size: 2.2rem;
     text-align: left;
     margin-top: 0;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .infoblock .infoblock__page-13__right-images {
@@ -1530,7 +1524,7 @@ h2.pod-text {
     text-align: left;
     margin-top: 0;
     margin-left: 52%;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .infoblock .infoblock__page-13__rel {
@@ -1589,7 +1583,7 @@ h2.pod-text {
 .infoblock .left-block__text-block-h3 {
     color: #000;
     text-align: left;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .infoblock .left-block__right-img{
@@ -1625,14 +1619,14 @@ h2.pod-text {
 }
 
 .infoblock__page-13-2__header_v2{
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     position: absolute;
     top: 10%;
     left: 32%;
 }
 
 .infoblock__page-13-2__header_v3{
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     right: 13%;
     top: 10%;
     position: absolute;
@@ -1690,25 +1684,25 @@ h2.pod-text {
 
 .page-13-2__central-block__italic-text{
     font-size: 1.4rem;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .bottom-block__spec{
     color: #000;
     text-align: center;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .bottom-block__bottom-sub-spec{
     text-align: center;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2rem;
     line-height: 2.2rem;
     padding-bottom: 10px;
 }
 /* 14 page*/
 .infoblock .sitalic{
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: center;
 }
 
@@ -1729,7 +1723,7 @@ h2.pod-text {
 .kic-product .row__title {
     text-align: center;
     font-size: 13px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 .row__column {
     padding: 10px 5px 5px;
@@ -1743,7 +1737,7 @@ h2.pod-text {
 .row__column .column__mini-title {
     font-size: 11px;
     margin-top: 5px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     line-height: 1.2;
     padding: 0;
@@ -1758,9 +1752,8 @@ h2.pod-text {
     width: calc(100% / 6);
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 0 0 5px 0;
     text-align: center;
-    padding-bottom: 5px;
     vertical-align: middle;
 }
 
@@ -1861,7 +1854,7 @@ th .table--img {
 }
 
 .bold-line {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 33px;
 }
 
@@ -1880,7 +1873,7 @@ th .table--img {
 }
 
 .bold-dollar {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .dollar-size-mini {
@@ -1964,15 +1957,14 @@ th .table--img {
 .selection {
     font-size: 13px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border: 1px solid;
     padding: 5px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
 .selection--bold td {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     background: rgba(0, 0, 0, 0.2);
 }
 
@@ -2058,7 +2050,7 @@ th .table--img {
 
 .infoblock .line--bold-text {
     text-align: center;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .line__persent1 {
@@ -2074,7 +2066,7 @@ th .table--img {
     position: absolute;
     top: 25px;
     right: -74px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     width: 78px;
     text-align: center;
 }
@@ -2084,7 +2076,7 @@ th .table--img {
     position: absolute;
     left: -58px;
     bottom: 41px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     width: 99px;
     text-align: center;
 }
@@ -2111,7 +2103,7 @@ th .table--img {
 }
 
 .infoblock .sitalic{
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: center;
 }
 
@@ -2130,7 +2122,7 @@ th .table--img {
     color: #000;
     padding: 0;
     line-height: 1.2;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0;
 }
 
@@ -2161,10 +2153,7 @@ th .table--img {
 #KIC_Bookeye_4_True_2_Touch .story-text {
     padding-top: 20px;
     font-size: 1.6rem;
-    /* line-height: 2.4rem; */
-    /* text-align: center; */
-    font-style: italic;
-    /* width: 40%; */
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     width: 48%;
     margin-left: 10%;
     position: relative;
@@ -2222,7 +2211,7 @@ th .table--img {
 
 @media all and (max-width: 1651px){
     .table__arow:before {
-        left: 0px;
+        left: 0;
 
     }
     .row__column {
@@ -2249,7 +2238,7 @@ th .table--img {
     }
 
     .table .table--ta-left {
-        padding-right: 0px;
+        padding-right: 0;
     }
 }
 
@@ -2462,7 +2451,7 @@ th .table--img {
 
 @media all and (max-width:1445px) and (min-width:1285px){
     .infoblock__page-1 .infoblock__page-1__header_2 {
-        margin-right: 0%;
+        margin-right: 0;
         margin-top:30px
     }
 }
@@ -2605,8 +2594,7 @@ div .infoblock__page-7__text-right{
 
     .infoblock__page-9__top__h1 {
         font-size: 4.4rem;
-        margin: 0;
-        margin-top: 10%;
+        margin: 10% 0 0 0;
     }
 
 
@@ -2629,7 +2617,7 @@ div .infoblock__page-7__text-right{
 
 
     .text-vertical-bold {
-        font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+        font-family: 'LatoBold', helvetica, arial, sans-serif;
         font-size: 3rem;
         line-height: 3.5rem;
         margin-top: 7%;
@@ -2821,7 +2809,7 @@ div .infoblock__page-7__text-right{
 
     .infoblock .infoblock__page-1__h3__p h3 {
         font-size: 1rem;
-        font-weight: bold;
+        font-family: 'LatoBold', sans-serif, helvetica, arial;
         color: #000000;
     }
 
@@ -2959,7 +2947,7 @@ div .infoblock__page-7__text-right{
 @media all and (max-width: 991px) and (min-width: 768px) {
 
     .infoblock div .infoblock__page-1__h2__p h2 {
-        color: #000000;
+        color: #000;
         padding: 0;
     }
 
@@ -2970,8 +2958,8 @@ div .infoblock__page-7__text-right{
 
     .infoblock .infoblock__page-1__h3__p h3 {
         font-size: 0.9rem;
-        font-weight: bold;
-        color: #000000;
+        font-family: 'LatoBold', sans-serif, helvetica, arial;
+        color: #000;
     }
 
     .infoblock .infoblock__page-1__h3__p p {
@@ -3013,7 +3001,7 @@ div .infoblock__page-7__text-right{
     }
 
     .table .table--ta-left {
-        padding-right: 0px;
+        padding-right: 0;
     }
 }
 
@@ -3038,8 +3026,8 @@ div .infoblock__page-7__text-right{
 
     .infoblock .infoblock__page-1__h3__p h3 {
         font-size: 1rem;
-        font-weight: bold;
-        color: #000000;
+        font-family: 'LatoBold', sans-serif, helvetica, arial;
+        color: #000;
     }
 
     .infoblock .infoblock__page-1__h3__p p {
