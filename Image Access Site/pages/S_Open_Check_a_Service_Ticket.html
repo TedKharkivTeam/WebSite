@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Open/Check a Service Ticket :: Image Access 2016</title>
+    <link rel="shortcut icon" href="../images/icon.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/s-open-check-a-service-ticket.css">
-    <link rel="shortcut icon" href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js"></script>
     <script src="../js/include.js"></script>
 </head>
@@ -43,15 +43,13 @@
                         <input type="text" id="software" value="">
                         <label for="hardware">Hardware:</label>
                         <input type="text" id="hardware" value="">
-                        <div id="Wrapp">
-                            <div id="tt">
-                                <div class="close" onclick="openbox('Wrapp')">x</div>
-                                Error during open
+                        <a class="service-support-button" href="#popup1">Open New Service Ticket</a>
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <h2>Invalid request</h2>
+                                <a class="close" href="#">&times;</a>
                             </div>
                         </div>
-                        <button id="inval" class="service-support-button" onclick="openbox('Wrapp');return false;">
-                            Open New Service Ticket
-                        </button>
                     </form>
                 </fieldset>
                 <p>If you have questions, please <a href="Contact_Us.html">contact our Service Department</a> or call
@@ -61,15 +59,13 @@
                     <form>
                         <label for="ticket">Exiting Service Ticket Number:</label>
                         <input type="text" id="ticket" value="">
-                        <div id="Wrapp1">
-                            <div id="tt1">
-                                <div class="close" onclick="openbox('Wrapp1')">x</div>
-                                Error during open
+                        <a class="service-support-button" href="#popup2">Find Service Ticket</a>
+                        <div id="popup2" class="overlay">
+                            <div class="popup">
+                                <h2>Nonexistent ticket</h2>
+                                <a class="close" href="#">&times;</a>
                             </div>
                         </div>
-                        <button class="service-support-button" onclick="openbox('Wrapp1');return false;">
-                            Find Service Ticket
-                        </button>
                     </form>
                 </fieldset>
                 <p>If you have questions, please <a href="Contact_Us.html">contact our Service Department</a> or call

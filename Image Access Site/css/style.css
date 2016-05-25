@@ -141,7 +141,6 @@ body {
     margin: 2px auto;
     background-color: #262E39;
     justify-content: space-between;
-    z-index: 10000000;
     cursor: pointer;
 }
 
@@ -184,7 +183,7 @@ body {
 .dropdown {
     display: none;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-left: -15px;
 }
 
@@ -330,7 +329,7 @@ body {
     width: 190px;
     position: absolute;
     right: 10px;
-    z-index: 100000;
+    z-index: 1;
 }
 
 .loginDropdown a {
