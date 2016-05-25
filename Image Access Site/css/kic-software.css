@@ -5,6 +5,9 @@
 .brochure-title-center {
     padding: 20px 0 10px !important;
     font-family: 'LatoBold', sans-serif, helvetica, arial !important;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: center;
 }
 
 h1 {

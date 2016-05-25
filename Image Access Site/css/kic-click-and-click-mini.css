@@ -2503,3 +2503,7 @@ img.redsign {
     height: 50%;
     padding: 0 0 0 20px;
 }
+
+h2.label2.resize.top-padding {
+    padding-top: 30px;
+}
