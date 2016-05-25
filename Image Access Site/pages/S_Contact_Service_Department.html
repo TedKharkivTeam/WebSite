@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/s-contact-service-department.css">
-    <script src="../js/jquery-1.12.2.min.js"></script>
+    <link rel="stylesheet" href="../css/slick.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="../js/include.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/gallery-contact-service.js"></script>
 </head>
 <body>
 <header>
@@ -34,47 +38,107 @@
         </ul>
     </div>
     <div class="infoblock">
-        <h2 class="brochure-title-center">Image Access Service & Support Team</h2>
-        <a class="infoblock__email"
-           href="mailto:ServiceDepartment@ImageAccess.com">ServiceDepartment@ImageAccess.com</a>
-        <strong class="infoblock__phone">+1-561-995-6939</strong>
-        <div class="gallery-holder1">
-            <div class="infoblock_gallery-holder">
-                <div class="contactGallery">
-                    <ul class="contact-service-list" id="slide_contact">
-                        <li><img src="../images/s_contact_service_department/contact_service_department_01.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_02.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_03.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_04.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_05.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_06.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_07.jpg"
-                                 alt="Contact Service Department"></li>
-                    </ul>
+        <div class="wrapper-gallery">
+            <div class="wrapper-gallery__img">
+                <img src="../images/s_contact_service_department/man.png" alt="man">
+            </div>
+            <h2 class="wrapper-gallery__title">Image Access Service & Support Team</h2>
+            <div class="wrapper-gallery__contact">
+                <div class="contact--box">
+                    <a href=""><img class="contact__img" src="../images/s_contact_service_department/masseges.png"
+                                    alt="email">
+                        ServiceDepartment@ImageAccess.com</a>
                 </div>
-                <div class="contactGallery2">
-                    <ul class="contact-service-list" id="slide_contact2">
-                        <li><img src="../images/s_contact_service_department/contact_service_department_08.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_09.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_10.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_11.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_12.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_13.jpg"
-                                 alt="Contact Service Department"></li>
-                        <li><img src="../images/s_contact_service_department/contact_service_department_14.jpg"
-                                 alt="Contact Service Department"></li>
-                    </ul>
+                <div class="contact--box">
+                    <img class="contact__img" src="../images/s_contact_service_department/phone.png" alt="phone">
+                    +1-561-995-6939
+                </div>
+            </div>
+            <!--slick-->
+            <div class="slider">
+                <div class="slider-nav slider-nav--horisontal">
+                    <div><img src="../images/s_contact_service_department/contact_service_department_01.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_02.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_03.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_05.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_06.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_07.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_08.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_09.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_10.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_11.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_12.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_13.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_14.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slider-for slider-for--top">
+                    <div><img src="../images/s_contact_service_department/contact_service_department_01.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_02.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_03.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_05.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_06.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_07.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_08.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_09.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_10.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_11.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_12.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_13.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_14.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slider-nav slider-nav--horisontal">
+                    <div><img src="../images/s_contact_service_department/contact_service_department_01.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_02.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_03.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_05.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_06.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_07.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_08.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_09.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_10.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_11.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_12.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_13.jpg" alt="">
+                    </div>
+                    <div><img src="../images/s_contact_service_department/contact_service_department_14.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,6 +150,5 @@
 <script>
     window.currentTab = '#service_support';
 </script>
-<script src="../js/responsiveslides.js" type="text/javascript"></script>
 </body>
 </html>

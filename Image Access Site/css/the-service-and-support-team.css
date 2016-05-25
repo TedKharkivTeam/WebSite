@@ -1,7 +1,7 @@
-
 .infoblock .infoblock__support-team-header-h2 {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
-    font-size: 3.8rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     padding: 15px 0 25px 0;
     position: absolute;
     top: 25px;

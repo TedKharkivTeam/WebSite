@@ -8,7 +8,6 @@
 }
 
 .infoblock span {
-    font-weight: bold;
     padding-bottom: 5px;
     display: block;
 }
@@ -16,12 +15,6 @@
 .infoblock ul {
     padding: 0 0 0 24px;
     list-style: disc;
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-    text-decoration: none;
 }
 
 .infoblock ul li {
@@ -35,21 +28,25 @@ a {
     z-index: 1;
 }
 
-.infoblock .scrolled_pic {
-    display: block;
-    overflow: visible;
-    align-items: baseline;
-    border: none;
-    box-shadow: none;
+.text--bold {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
-.gallery {
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #E3E6DB;
-    box-shadow: 0 0 5px #000;
-}
+/*.infoblock .scrolled_pic {*/
+/*display: block;*/
+/*overflow: visible;*/
+/*align-items: baseline;*/
+/*border: none;*/
+/*box-shadow: none;*/
+/*}*/
+
+/*.gallery {*/
+/*overflow: hidden;*/
+/*display: flex;*/
+/*align-items: center;*/
+/*border-bottom: 1px solid #E3E6DB;*/
+/*box-shadow: 0 0 5px #000;*/
+/*}*/
 
 .infoblock .scrolled_pic .images .image .back_text_pdf {
     width: 20%;
@@ -57,21 +54,11 @@ a {
     margin: 100px 10px 0 0;
 }
 
-.infoblock .scrolled_pic .images .image .back_pdf {
-    width: 75%;
-    margin: 10px;
-}
-
 .infoblock .scrolled_pic .images .image .back_text_pdf a {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     color: #093C8B;
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.8rem;
-    font-weight: bold;
-}
-
-.infoblock .scrolled_pic .images .image .back_pdf embed {
-    width: 100%;
-    height: 525px;
 }
 
 .infoblock .scrolled_pic > .images {
@@ -214,8 +201,8 @@ a {
 
 .infoblock .scrolled_pic .images .image .back_text span {
     color: #093C8B;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .infoblock .scrolled_pic .images .image .back_text {
@@ -225,7 +212,8 @@ a {
 }
 
 .infoblock .table_video .video-links a {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    color: #093C8B;
 }
 
 .infoblock img.mainpage_img {
@@ -234,15 +222,20 @@ a {
     margin: 2px;
 }
 
+.download-video {
+    display: inline-block;
+    margin-left: 5px;
+    width: 40%;
+}
+
+
 /* ******************** NEW STYLES ******************** */
 
 .infoblock .infoblock__scanners-header-h2 {
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
-    margin: 0;
-    color: black;
-    padding: 20px 0 10px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    padding: 20px 0 20px;
 }
 
 .infoblock .infoblock__scanners-header-compliance {
@@ -259,11 +252,10 @@ a {
 }
 
 .infoblock .infoblock__scanners-header-h3 {
-    font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
-    color: black;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    margin: 15px 0;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    padding: 10px 0 5px;
 }
 
 .infoblock .infoblock__scanners-header-h3-compliance {
@@ -277,6 +269,44 @@ a {
 .infoblock .infoblock__scanners-header-h4 {
     font-size: 1.2rem;
     margin: 0;
+}
+
+.technical_data_pdf {
+    width: 100%;
+    overflow: hidden;
+}
+
+.back_pdf {
+    float: left;
+    box-shadow: 3px 3px 5px #8E8E8E;
+    width: 75% !important;
+    margin: 10px;
+}
+
+.back_pdf embed {
+    width: 100%;
+    float: left;
+    height: 635px;
+}
+
+.download-pdf {
+    display: inline-block;
+    margin-left: 5px;
+    width: 75%;
+}
+
+.back_text_pdf i {
+    vertical-align: top;
+}
+
+.back_text_pdf span {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.text--blue {
+    color: #093C8B;
 }
 
 /* ******************** PRODUCT PHOTOS ******************** */
