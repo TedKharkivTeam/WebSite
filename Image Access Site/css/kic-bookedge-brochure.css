@@ -391,6 +391,7 @@
     font-size: 1.7rem;
     line-height: 1.7rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    display: block;
 }
 
 .infoblock .column-cursive-text--special {
@@ -434,7 +435,7 @@
     line-height: 1.5rem;
     margin-top: -310px;
     padding-bottom: 245px;
-    margin-left: 8%;
+    margin-left: 3%;
 }
 
 .infoblock .section__below-image-text {
