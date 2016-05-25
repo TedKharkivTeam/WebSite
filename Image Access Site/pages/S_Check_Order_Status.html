@@ -48,15 +48,13 @@
                         <input type="text" id="POnumber" value="">
                         <label for="ZIPcode">Billing ZIP Code:</label>
                         <input type="text" id="ZIPcode" value="">
-                        <div id="Wrapp">
-                            <div id="tt">
-                                <div class="close" onclick="openbox('Wrapp')">x</div>
-                                Error during open
+                        <a class="service-support-button" href="#popup1">Submit</a>
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <h2>Wrong PO Number or ZIP Code</h2>
+                                <a class="close" href="#">&times;</a>
                             </div>
                         </div>
-                        <button class="service-support-button" onclick="openbox('Wrapp');return false;">
-                            Submit
-                        </button>
                     </form>
                 </fieldset>
             </div>
@@ -65,20 +63,19 @@
                     <form>
                         <label for="OrderNumber">Order Number:</label>
                         <input type="text" id="OrderNumber" value="">
-                        <div id="Wrapp1">
-                            <div id='tt1'>
-                                <div class="close" onclick="openbox('Wrapp1')">x</div>
-                                Error during open
+                        <a class="service-support-button" href="#popup2">Submit</a>
+                        <div id="popup2" class="overlay">
+                            <div class="popup">
+                                <h2>Wrong Order Number</h2>
+                                <a class="close" href="#">&times;</a>
                             </div>
                         </div>
-                        <button class="service-support-button" onclick="openbox('Wrapp1');return false;">
-                            Submit
-                        </button>
                     </form>
                 </fieldset>
             </div>
         </div>
-        <p class="text-fly">If you have a questions about an order, please <a href="Contact_Us.html">contact Customers Service</a>.</p>
+        <p class="text-fly">If you have a questions about an order, please <a href="Contact_Us.html">contact Customers
+            Service</a>.</p>
         <img class="fly-img" src="../images/serviceSupportBG.png" alt="">
     </div>
 </div>

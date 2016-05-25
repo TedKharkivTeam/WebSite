@@ -9,11 +9,11 @@
 }
 
 .brochure-title-left {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 3.4rem;
     line-height: 3.6rem;
     text-align: left;
-    padding: 14px 0 10px;
+    padding: 20px 0 10px;
 }
 
 .content-holder__pictures {
@@ -23,6 +23,7 @@
 }
 
 .content-holder__forms input {
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
     font-size: 1.6rem;
     line-height: 3rem;
     height: 30px;
@@ -43,7 +44,7 @@
     margin: 5px 2px;
 }
 
-.content-holder__forms button {
+.content-holder__forms a.service-support-button {
     background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
     background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
     background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
@@ -58,40 +59,57 @@
     font-size: 1.4rem;
     line-height: 2rem;
     padding: 5px;
+    display: inline-block;
+    text-align: center;
 }
-
-#Wrapp, #Wrapp1 {
-    display: none;
-    left: 30%;
-    top: 7%;
+.overlay {
     position: fixed;
-    background-color: rgba(64, 154, 213, 0.8);
-    width: 60%;
-    height: 85%;
-    z-index: 10000;
-    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
 }
 
-#tt, #tt1 {
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
     position: relative;
-    background-color: #fff;
-    width: 200px;
-    padding: 25px;
-    height: 80px;
-    border: none;
-    margin: 17% auto;
-    border-radius: 10px;
+    transition: all 5s ease-in-out;
 }
 
-.infoblock .close {
-    cursor: pointer;
-    position: absolute;
-    font-weight: 700;
-    right: 7px;
-    top: 2px;
-    text-shadow: none;
-    color: #02307E;
+.popup h2 {
+    color: #333;
+    text-align: center;
 }
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
 
 .bottom-img {
     margin: 15px auto 0;

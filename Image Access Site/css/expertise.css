@@ -1,50 +1,3 @@
-/*.white-papers-title {*/
-/*font-family: 'LatoBold', sans-serif, helvetica, arial;*/
-/*font-size: 2.8rem;*/
-/*line-height: 3rem;*/
-/*padding: 20px 0 20px;*/
-/*}*/
-
-/*.technical_data_pdf {*/
-/*width: 100%;*/
-/*overflow: hidden;*/
-/*}*/
-
-/*.back_pdf {*/
-/*width: 65%;*/
-/*float: left;*/
-/*box-shadow: 3px 3px 5px #8E8E8E;*/
-/*}*/
-
-/*.back_pdf embed {*/
-/*width: 100%;*/
-/*float: left;*/
-/*height: 525px;*/
-/*}*/
-/*.download-pdf {*/
-/*display: inline-block;*/
-/*margin-left: 5px;*/
-/*}*/
-/*.back_text_pdf {*/
-/*float: left;*/
-/*margin: 100px 10px 0 0;*/
-/*padding-left: 2%;*/
-/*}*/
-
-/*.back_text_pdf a {*/
-/*font-family: 'LatoBold', sans-serif, helvetica, arial;*/
-/*color: #093C8B;*/
-/*font-size: 1.6rem;*/
-/*line-height: 1.8rem;*/
-/*}*/
-
-/*.back_text_pdf span {*/
-/*font-family: 'LatoBold', sans-serif, helvetica, arial;*/
-/*font-size: 1.4rem;*/
-/*line-height: 1.6rem;*/
-/*display: block;*/
-/*}*/
-
 .expertise-title {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 2.8rem;
@@ -58,9 +11,11 @@
     line-height: 2.4rem;
     padding: 10px 0 5px;
 }
+
 .align-center {
     text-align: center;
 }
+
 .infoblock__ul-disc {
     padding-left: 24px;
     list-style: disc;
@@ -73,14 +28,17 @@
 .infoblock .infoblock__p {
     padding: 10px 0;
 }
+
 .question_text {
     font-family: 'LatoBoldItalic', sans-serif, helvetica, arial;
     display: inline-block;
 }
+
 .span--red--italic {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     color: #d50026;
 }
+
 .text--bold {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
