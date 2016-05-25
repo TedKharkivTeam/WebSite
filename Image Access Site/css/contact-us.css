@@ -2,30 +2,12 @@
     width: 400px;
     height: auto;
     float: left;
-    margin-left: 30px;
-    margin-top: 60px;
-}
-
-#head {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 18px;
-    margin-bottom: 0;
+    margin: 60px 30px 0 0;
 }
 
 #address {
-    font-size: 16px;
-    margin-bottom: 18px;
-}
-
-#contacts {
-    font-size: 16px;
-    margin-bottom: 18px;
-}
-
-#caption {
-    font-size: 90%;
-    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 1.8rem;
 }
 
 .mainform .star {
@@ -36,7 +18,7 @@
     content: '*';
     position: absolute;
     top: 10px;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #f00;
     padding-left: 2px;
 }
@@ -54,23 +36,6 @@ input, textarea {
     border-radius: 4px;
 }
 
-.content .brochure-block .contact_list {
-    list-style-image: none;
-    margin: 0;
-}
-
-.content .brochure-block .contact_list li {
-    font-size: 35px;
-    margin: 0;
-    font-weight: bold;
-}
-
-.content .brochure-block .contact_list li i {
-    display: inline;
-    padding: 0 20px 0 0;
-    color: #2487D6;
-}
-
 .mainform .main {
     background: #fff;
     position: absolute;
@@ -80,8 +45,9 @@ input, textarea {
 }
 
 .mainform .main label {
-    font-size: 20px;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    font-size: 2rem;
+    line-height: 2.2rem;
     font-weight: normal;
 }
 
@@ -94,7 +60,7 @@ input, textarea {
 }
 
 .mainform .form-left {
-    min-height: 308px;
+    min-height: 320px;
 }
 
 .mainform fieldset {
@@ -108,7 +74,9 @@ input, textarea {
 }
 
 .send {
-    font-size: 18px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 1.8rem;
+    line-height: 2rem;
     border: none;
     background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
     background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
@@ -117,7 +85,6 @@ input, textarea {
     background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
     color: #fff;
     padding: 10px 20px;
-    font-weight: bold;
     margin: 0 10px;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -139,6 +106,7 @@ input, textarea {
 
 .field label {
     font-size: 1.4rem;
+    line-height: 1.6rem;
     padding-top: 10px;
     font-weight: normal;
     margin-right: -7px;
@@ -158,35 +126,8 @@ input, textarea {
     align-items: flex-end !important;
 }
 
-.tag {
-    font-size: 20px;
-}
-
-.tag p {
-    color: #000;
-    padding: 0 10px !important;
-}
-
-.tag span {
-    font-size: 25px;
-    padding-left: 25px;
-}
-
-.tag .little {
-    font-size: 12px;
-}
-
-.tag a {
-    color: #0000F0;
-}
-
 .tag a:hover {
     text-decoration: underline;
-}
-
-.tag .mini-p {
-    font-size: 12px;
-    font-style: italic;
 }
 
 .text-area {
@@ -239,7 +180,7 @@ input, textarea {
 }
 
 .adr-top span {
-    font-family: "Arial Narrow", SansSerif;
+    font-family: "Arial Narrow", sans-serif, helvetica, arial;
     font-size: 3.8rem;
     line-height: 4rem;
     color: #fff;
@@ -251,17 +192,7 @@ input, textarea {
     left: 2%;
     color: #fff;
     font-size: 2.8rem;
-}
-
-.sub--images {
-    position: relative;
-}
-
-.text--sub--images {
-    position: absolute;
-    bottom: -50px;
-    left: 0;
-    font-size: 14px;
+    line-height: 3rem;
 }
 
 .contactus-holder {
@@ -283,9 +214,11 @@ input, textarea {
 }
 
 .contactus-holder__triple__strong {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-weight: normal;
     position: relative;
-    line-height: 1.8;
     font-size: 3.6rem;
+    line-height: 1.8;
     padding-left: 40px;
     display: block;
 }
@@ -314,15 +247,14 @@ input, textarea {
     margin-top: 10px;
     float: left;
     width: calc(80% - 10px);
+    text-align: left;
 }
 
 .contactus-holder__triple__p {
     width: 100%;
     display: inline-block;
     margin-top: 4%;
-}
-
-.wrap-text {
+    text-align: justify;
 }
 
 .wrap-text:after {
@@ -352,10 +284,6 @@ input, textarea {
     .contactus-holder__triple__div--contact span,
     .contactus-holder__triple__div--contact a {
         font-size: 18px !important;
-    }
-
-    .contactus-holder__triple.--left {
-        padding-top: 5%;
     }
 }
 
