@@ -393,6 +393,11 @@
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
+.infoblock .column-cursive-text--special {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
 .infoblock .column__cursive-text--center {
     text-align: center;
     width: 75%;
@@ -417,7 +422,7 @@
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    margin-left: 61%;
+    margin-left: 69%;
     margin-top: -461px;
     padding-bottom: 468px;
 }
@@ -429,7 +434,7 @@
     line-height: 1.5rem;
     margin-top: -310px;
     padding-bottom: 245px;
-    margin-left: -4%;
+    margin-left: 8%;
 }
 
 .infoblock .section__below-image-text {
@@ -511,7 +516,7 @@
 }
 
 .infoblock .true-2-touch-wrapper__dual-screen-text {
-    margin: -39px 0 -58px 76%;
+    margin: -31px 0 -53px 76%;
     font-size: 2rem;
     line-height: 2rem;
     position: relative;
