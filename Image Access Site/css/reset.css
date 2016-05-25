@@ -14,8 +14,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    line-height: 120%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -153,7 +151,6 @@ a:hover {
 abbr[title] {
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -180,16 +177,6 @@ strong {
 
 dfn {
     font-style: italic;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
 }
 
 /**
@@ -296,7 +283,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'AvenirLTStdBook', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0; /* 2 */
 }
 

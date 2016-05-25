@@ -9,130 +9,110 @@
 }
 
 @font-face {
-    font-family: 'AvenirLTStdBlack';
-    src: url('../fonts/AvenirLTStdBlack.eot');
-    src: url('../fonts/AvenirLTStdBlack.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdBlack.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdBlack.woff') format('woff'),
-    url('../fonts/AvenirLTStdBlack.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdBlack.svg#AvenirLTStdBlack') format('svg');
+    font-family: 'LatoBlack';
+    src: url('../fonts/LatoBlack.eot');
+    src: url('../fonts/LatoBlack.eot') format('embedded-opentype'),
+    url('../fonts/LatoBlack.woff2') format('woff2'),
+    url('../fonts/LatoBlack.woff') format('woff'),
+    url('../fonts/LatoBlack.ttf') format('truetype'),
+    url('../fonts/LatoBlack.svg#LatoBlack') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdBlackOblique';
-    src: url('../fonts/AvenirLTStdBlackOblique.eot');
-    src: url('../fonts/AvenirLTStdBlackOblique.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdBlackOblique.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdBlackOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStdBlackOblique.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdBlackOblique.svg#AvenirLTStdBlackOblique') format('svg');
+    font-family: 'LatoBlackItalic';
+    src: url('../fonts/LatoBlackItalic.eot');
+    src: url('../fonts/LatoBlackItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoBlackItalic.woff2') format('woff2'),
+    url('../fonts/LatoBlackItalic.woff') format('woff'),
+    url('../fonts/LatoBlackItalic.ttf') format('truetype'),
+    url('../fonts/LatoBlackItalic.svg#LatoBlackItalic') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdBook';
-    src: url('../fonts/AvenirLTStdBook.eot');
-    src: url('../fonts/AvenirLTStdBook.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdBook.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdBook.woff') format('woff'),
-    url('../fonts/AvenirLTStdBook.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdBook.svg#AvenirLTStdBook') format('svg');
+    font-family: 'LatoBold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+    url('../fonts/LatoBold.woff2') format('woff2'),
+    url('../fonts/LatoBold.woff') format('woff'),
+    url('../fonts/LatoBold.ttf') format('truetype'),
+    url('../fonts/LatoBold.svg#LatoBold') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdBookOblique';
-    src: url('../fonts/AvenirLTStdBookOblique.eot');
-    src: url('../fonts/AvenirLTStdBookOblique.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdBookOblique.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdBookOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStdBookOblique.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdBookOblique.svg#AvenirLTStdBookOblique') format('svg');
+    font-family: 'LatoBoldItalic';
+    src: url('../fonts/LatoBoldItalic.eot');
+    src: url('../fonts/LatoBoldItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoBoldItalic.woff2') format('woff2'),
+    url('../fonts/LatoBoldItalic.woff') format('woff'),
+    url('../fonts/LatoBoldItalic.ttf') format('truetype'),
+    url('../fonts/LatoBoldItalic.svg#LatoBoldItalic') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdHeavy';
-    src: url('../fonts/AvenirLTStdHeavy.eot');
-    src: url('../fonts/AvenirLTStdHeavy.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdHeavy.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdHeavy.woff') format('woff'),
-    url('../fonts/AvenirLTStdHeavy.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdHeavy.svg#AvenirLTStdHeavy') format('svg');
+    font-family: 'LatoHairline';
+    src: url('../fonts/LatoHairline.eot');
+    src: url('../fonts/LatoHairline.eot') format('embedded-opentype'),
+    url('../fonts/LatoHairline.woff2') format('woff2'),
+    url('../fonts/LatoHairline.woff') format('woff'),
+    url('../fonts/LatoHairline.ttf') format('truetype'),
+    url('../fonts/LatoHairline.svg#LatoHairline') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdHeavyOblique';
-    src: url('../fonts/AvenirLTStdHeavyOblique.eot');
-    src: url('../fonts/AvenirLTStdHeavyOblique.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdHeavyOblique.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdHeavyOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStdHeavyOblique.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdHeavyOblique.svg#AvenirLTStdHeavyOblique') format('svg');
+    font-family: 'LatoHairlineItalic';
+    src: url('../fonts/LatoHairlineItalic.eot');
+    src: url('../fonts/LatoHairlineItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoHairlineItalic.woff2') format('woff2'),
+    url('../fonts/LatoHairlineItalic.woff') format('woff'),
+    url('../fonts/LatoHairlineItalic.ttf') format('truetype'),
+    url('../fonts/LatoHairlineItalic.svg#LatoHairlineItalic') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdLight';
-    src: url('../fonts/AvenirLTStdLight.eot');
-    src: url('../fonts/AvenirLTStdLight.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdLight.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdLight.woff') format('woff'),
-    url('../fonts/AvenirLTStdLight.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdLight.svg#AvenirLTStdLight') format('svg');
+    font-family: 'LatoItalic';
+    src: url('../fonts/LatoItalic.eot');
+    src: url('../fonts/LatoItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoItalic.woff2') format('woff2'),
+    url('../fonts/LatoItalic.woff') format('woff'),
+    url('../fonts/LatoItalic.ttf') format('truetype'),
+    url('../fonts/LatoItalic.svg#LatoItalic') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdLightOblique';
-    src: url('../fonts/AvenirLTStdLightOblique.eot');
-    src: url('../fonts/AvenirLTStdLightOblique.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdLightOblique.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdLightOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStdLightOblique.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdLightOblique.svg#AvenirLTStdLightOblique') format('svg');
+    font-family: 'LatoLight';
+    src: url('../fonts/LatoLight.eot');
+    src: url('../fonts/LatoLight.eot') format('embedded-opentype'),
+    url('../fonts/LatoLight.woff2') format('woff2'),
+    url('../fonts/LatoLight.woff') format('woff'),
+    url('../fonts/LatoLight.ttf') format('truetype'),
+    url('../fonts/LatoLight.svg#LatoLight') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdMedium';
-    src: url('../fonts/AvenirLTStdMedium.eot');
-    src: url('../fonts/AvenirLTStdMedium.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdMedium.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdMedium.woff') format('woff'),
-    url('../fonts/AvenirLTStdMedium.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdMedium.svg#AvenirLTStdMedium') format('svg');
+    font-family: 'LatoLightItalic';
+    src: url('../fonts/LatoLightItalic.eot');
+    src: url('../fonts/LatoLightItalic.eot') format('embedded-opentype'),
+    url('../fonts/LatoLightItalic.woff2') format('woff2'),
+    url('../fonts/LatoLightItalic.woff') format('woff'),
+    url('../fonts/LatoLightItalic.ttf') format('truetype'),
+    url('../fonts/LatoLightItalic.svg#LatoLightItalic') format('svg');
 }
 
 @font-face {
-    font-family: 'AvenirLTStdMediumOblique';
-    src: url('../fonts/AvenirLTStdMediumOblique.eot');
-    src: url('../fonts/AvenirLTStdMediumOblique.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdMediumOblique.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdMediumOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStdMediumOblique.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdMediumOblique.svg#AvenirLTStdMediumOblique') format('svg');
-}
-
-@font-face {
-    font-family: 'AvenirLTStdOblique';
-    src: url('../fonts/AvenirLTStdOblique.eot');
-    src: url('../fonts/AvenirLTStdOblique.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdOblique.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStdOblique.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdOblique.svg#AvenirLTStdOblique') format('svg');
-}
-
-@font-face {
-    font-family: 'AvenirLTStdRoman';
-    src: url('../fonts/AvenirLTStdRoman.eot');
-    src: url('../fonts/AvenirLTStdRoman.eot') format('embedded-opentype'),
-    url('../fonts/AvenirLTStdRoman.woff2') format('woff2'),
-    url('../fonts/AvenirLTStdRoman.woff') format('woff'),
-    url('../fonts/AvenirLTStdRoman.ttf') format('truetype'),
-    url('../fonts/AvenirLTStdRoman.svg#AvenirLTStdRoman') format('svg');
+    font-family: 'LatoRegular';
+    src: url('../fonts/LatoRegular.eot');
+    src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
+    url('../fonts/LatoRegular.woff2') format('woff2'),
+    url('../fonts/LatoRegular.woff') format('woff'),
+    url('../fonts/LatoRegular.ttf') format('truetype'),
+    url('../fonts/LatoRegular.svg#LatoRegular') format('svg');
 }
 
 /*body*/
 body {
     font-size: 1.6rem;
     line-height: 1.8rem;
-    font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
     color: #434343;
     position: relative;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -652,7 +632,7 @@ body {
     position: fixed;
     margin: 10px 0 0 0;
     padding: 14px 0;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     background-color: white;
     text-align: center;
     width: 247px;
@@ -937,328 +917,3 @@ footer ul:nth-last-child(1):after {
 @media (max-width: 991px) {
 
 }
-
-/*end media enquiries*/
-
-/*h1 {*/
-/*font-size: 22px;*/
-/*color: #02307E;*/
-/*text-shadow: 2px 3px 7px #3371b3;*/
-/*font-weight: bold;*/
-/*margin: 0 0 20px;*/
-/*}*/
-
-/*h2 {*/
-/*font-size: 18px;*/
-/*color: #093C8B;*/
-/*padding: 5px 0 30px 0;*/
-/*line-height: 1.4;*/
-/*font-weight: bold;*/
-/*}*/
-
-/*h3 {*/
-/*color: #093C8B;*/
-/*font-size: 14px;*/
-/*margin: 18pt 0 6pt 0;*/
-/*font-weight: bold;*/
-/*}*/
-
-/*h4 {*/
-/*font-size: 12px;*/
-/*color: #fff;*/
-/*}*/
-
-/*h5 {*/
-/*color: #9C9E9F;*/
-/*font-size: 14px;*/
-/*margin: 0 0 20px;*/
-/*}*/
-
-/*h6 {*/
-/*color: #093C8B;*/
-/*font-size: 12px;*/
-/*margin: 9px 0 5px 0;*/
-/*}*/
-
-/*th {*/
-/*text-align: left;*/
-/*font-weight: normal;*/
-/*}*/
-
-/*td, th {*/
-/*vertical-align: top;*/
-/*margin: 5px;*/
-/*padding: 7px 5px 3px 5px;*/
-/*height: 23px;*/
-/*border: 0;*/
-/*}*/
-
-/*.back-white {*/
-/*background-color: rgb(255, 255, 255);*/
-/*}*/
-
-/*.back-blue {*/
-/*background-color: rgb(4, 123, 203);*/
-/*color: rgb(255, 255, 255);*/
-/*}*/
-
-/*#container {*/
-/*position: relative;*/
-/*top: 0;*/
-/*z-index: 0;*/
-/*}*/
-
-/*#slides .slidesNext, #slides .slidesPrevious {*/
-/*position: absolute;*/
-/*top: 50%;*/
-/*left: -40px;*/
-/*width: 24px;*/
-/*height: 0;*/
-/*margin-top: -32px;*/
-/*padding-top: 32px;*/
-/*display: block;*/
-/*z-index: 101;*/
-/*overflow: hidden;*/
-/*background: url(../images/resources/navigation-previous.png) no-repeat 0 0;*/
-/*}*/
-
-/*#slides .slidesNext {*/
-/*left: 798px;*/
-/*background: url(../images/resources/navigation-next.png) no-repeat 0 0;*/
-/*}*/
-
-/*!**/
-/*Pagination*/
-/**!*/
-
-/*.slidesPagination {*/
-/*margin: 10px 0 0;*/
-/*float: right;*/
-/*}*/
-
-/*.slidesPagination li {*/
-/*float: left;*/
-/*margin: 0 1px;*/
-/*list-style: none;*/
-/*}*/
-
-/*.slidesPagination li a {*/
-/*display: block;*/
-/*width: 14px;*/
-/*height: 0;*/
-/*padding-top: 14px;*/
-/*background-image: url(../images/resources/pagination.png);*/
-/*background-position: 0 0;*/
-/*overflow: hidden;*/
-/*}*/
-
-/*.slidesPagination li.slidesCurrent a {*/
-/*background-position: 0 -14px;*/
-/*}*/
-
-/*.viewer {*/
-/*width: 50%;*/
-/*height: 600px;*/
-/*}*/
-
-/*html {*/
-/*overflow-x: hidden;*/
-/*}*/
-
-/*.noselect {*/
-/*-webkit-touch-callout: none; !* iOS Safari *!*/
-/*-webkit-user-select: none; !* Chrome/Safari/Opera *!*/
-/*-khtml-user-select: none; !* Konqueror *!*/
-/*-moz-user-select: none; !* Firefox *!*/
-/*-ms-user-select: none; !* IE/Edge *!*/
-/*user-select: none;*/
-/*!* non-prefixed version, currently*/
-/*not supported by any browser *!*/
-/*}*/
-
-/*.animated {*/
-/*-webkit-animation-duration: 1s;*/
-/*animation-duration: 1s;*/
-/*-webkit-animation-fill-mode: both;*/
-/*animation-fill-mode: both;*/
-/*}*/
-
-/*@-webkit-keyframes fadeIn {*/
-/*from {*/
-/*opacity: 0;*/
-/*}*/
-
-/*to {*/
-/*opacity: 1;*/
-/*}*/
-/*}*/
-
-/*@keyframes fadeIn {*/
-/*from {*/
-/*opacity: 0;*/
-/*}*/
-
-/*to {*/
-/*opacity: 1;*/
-/*}*/
-/*}*/
-
-/*.fadeIn {*/
-/*-webkit-animation-name: fadeIn;*/
-/*animation-name: fadeIn;*/
-/*}*/
-
-/*@-webkit-keyframes fadeInDown {*/
-/*from {*/
-/*opacity: 0;*/
-/*-webkit-transform: translate3d(0, -100%, 0);*/
-/*transform: translate3d(0, -100%, 0);*/
-/*}*/
-
-/*to {*/
-/*opacity: 1;*/
-/*-webkit-transform: none;*/
-/*transform: none;*/
-/*}*/
-/*}*/
-
-/*@keyframes fadeInDown {*/
-/*from {*/
-/*opacity: 0;*/
-/*-webkit-transform: translate3d(0, -100%, 0);*/
-/*transform: translate3d(0, -100%, 0);*/
-/*}*/
-
-/*to {*/
-/*opacity: 1;*/
-/*-webkit-transform: none;*/
-/*transform: none;*/
-/*}*/
-/*}*/
-
-/*.fadeInDown {*/
-/*-webkit-animation-name: fadeInDown;*/
-/*animation-name: fadeInDown;*/
-/*}*/
-
-/*.logo-frame-block {*/
-/*overflow: hidden;*/
-/*padding: 6px 1%;*/
-/*}*/
-
-/*.logo-frame-block__dlsg-logo {*/
-/*float: left;*/
-/*padding-left: 14%;*/
-/*padding-top: 2px;*/
-/*}*/
-
-/*.logo-frame-block__dlsg-logo images_for_slides {*/
-/*height: 135px;*/
-/*padding-right: 10px;*/
-/*border-right: 1px solid #000;*/
-/*}*/
-
-/*.logo-frame-block__caption {*/
-/*margin-left: 10px;*/
-/*display: inline-block;*/
-/*background: url("../images/frames/map-bg.png") no-repeat;*/
-/*background-size: cover;*/
-/*}*/
-
-/*.caption__h {*/
-/*text-shadow: none;*/
-/*color: #000;*/
-/*font-size: 70px;*/
-/*line-height: 72px;*/
-/*font-weight: normal;*/
-/*margin: 0;*/
-/*padding: 0;*/
-/*}*/
-
-/*.caption--bold {*/
-/*font-weight: bold;*/
-/*}*/
-
-/*.flip-horizontal {*/
-/*transform: scaleX(-1);*/
-/*}*/
-
-/*.clearfix:after {*/
-/*content: "";*/
-/*display: table;*/
-/*clear: both;*/
-/*}*/
-
-/*.valign-middle {*/
-/*vertical-align: middle;*/
-/*}*/
-
-/*.font-weight-normal {*/
-/*font-weight: normal;*/
-/*}*/
-
-/*#Wrapp, #Wrapp2, #Wrapp3, #Wrapp4, #Wrapp5, #Wrapp6 {*/
-/*top: 0;*/
-/*left: 0;*/
-/*position: fixed;*/
-/*background-color: rgba(64, 154, 213, 0.8);*/
-/*width: 100%;*/
-/*height: 100%;*/
-/*z-index: 10000;*/
-/*border-radius: 10px;*/
-/*}*/
-
-/*#tt, #tt2, #tt3, #tt4, #tt5 {*/
-/*position: relative;*/
-/*background-color: #fff;*/
-/*width: 150px;*/
-/*padding: 25px;*/
-/*height: 100px;*/
-/*margin: 20% auto auto auto;*/
-/*border: navy solid 1px;*/
-/*border-radius: 10px;*/
-/*}*/
-
-/*div.close {*/
-/*cursor: pointer;*/
-/*position: absolute;*/
-/*font-weight: 700;*/
-/*text-shadow: #000 1px 1px 0;*/
-/*color: navy;*/
-/*right: 7px;*/
-/*top: 2px;*/
-/*}*/
-
-/*.infoblock .brochure-title-center {*/
-/*color: #000;*/
-/*font-size: 3.6rem;*/
-/*line-height: 3.8rem;*/
-/*text-align: center;*/
-/*padding: 14px 0 10px;*/
-/*}*/
-
-/*.infoblock .brochure-title-left {*/
-/*color: #000;*/
-/*font-size: 3.6rem;*/
-/*line-height: 3.8rem;*/
-/*text-align: left;*/
-/*padding: 14px 0 10px;*/
-/*}*/
-
-/*.infoblock .brochure-subtitle-center {*/
-/*color: #000;*/
-/*font-size: 2.6rem;*/
-/*line-height: 2.8rem;*/
-/*text-align: center;*/
-/*padding: 14px 0 10px;*/
-/*margin: 0;*/
-/*}*/
-
-/*.infoblock .brochure-subtitle-left {*/
-/*color: #000;*/
-/*font-size: 2.6rem;*/
-/*line-height: 2.8rem;*/
-/*text-align: left;*/
-/*padding: 14px 0 10px;*/
-/*margin: 0;*/
-/*}*/
