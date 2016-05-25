@@ -688,7 +688,6 @@ body {
 /*infoblock*/
 
 .infoblock {
-    margin: 2px 0 0;
     padding: 20px;
     width: 75%;
     text-align: left;
@@ -809,11 +808,6 @@ footer ul:nth-last-child(1):after {
 /*end footer*/
 
 /*media enquiries*/
-@media all and (max-width: 1400px) {
-    html {
-        font-size: 60%;
-    }
-}
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .header-top {

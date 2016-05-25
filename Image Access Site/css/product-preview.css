@@ -20,17 +20,17 @@
 }
 
 .product-preview-title {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 2.8rem;
     line-height: 3rem;
     color: #093C8B;
-    padding: 20px 0;
+    padding: 20px 0 10px;
 }
 
 .product_preview p {
-    font-size: 1.6rem;
     line-height: 2rem;
 }
+
 @media all and (max-width: 1600px) {
     .product_preview div {
         width: 50%;
