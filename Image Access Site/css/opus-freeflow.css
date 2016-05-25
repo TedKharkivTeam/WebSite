@@ -35,7 +35,7 @@
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     display: block;
     clear: both;
     text-align: left;
@@ -54,11 +54,11 @@
     line-height: 3.8rem;
     text-align: center;
     padding: 20px 0 10px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .title__subtitle {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2rem;
     line-height: 2.2rem;
     text-align: center;
@@ -73,8 +73,7 @@
 }
 
 .infoblock_photos_documents {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
-    font-weight: bold;
+    font-family: 'LatoBoldItalic',sans-serif, helvetica, arial;
     padding-bottom: 5px;
     display: block;
     font-size: 2.4rem;
@@ -132,7 +131,7 @@
     line-height: 2.6rem;
     text-align: center;
     color: #000;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock_do_before_2 {
@@ -395,7 +394,7 @@
 }
 
 .infoblock .brochure-title-center-free-flow {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
@@ -428,7 +427,7 @@
 }
 
 .infoblock .infoblock__opus-freeflow-photos {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2rem;
     line-height: 2.2rem;
     color: #959595;
@@ -480,7 +479,7 @@
 .infoblock .infoblock__opus-freeflow-features-table-scanning th {
     font-size: 2rem;
     background: #2487D6;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     padding: 4px;
     color: white;
 }
@@ -508,7 +507,7 @@
 .infoblock .infoblock__opus-freeflow-features-table-Image_Treatment th {
     font-size: 2rem;
     background: #2487D6;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     padding: 4px;
     color: white;
 }
@@ -532,7 +531,7 @@
 .infoblock .infoblock__opus-freeflow-features-table-Collection th {
     font-size: 2rem;
     background: #2487D6;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     padding: 4px;
     color: white;
 }
@@ -543,7 +542,7 @@
     line-height: 3.8rem;
     text-align: center;
     padding-top: 20px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__opus-freeflow-features-clear-fix {
@@ -625,13 +624,6 @@
         float: left;
         padding-top: 0;
         margin-left: 0;
-    }
-
-    .infoblock .brochure-title-center-free-flow {
-        color: #000;
-        font-size: 3.6rem;
-        line-height: 3.8rem;
-        text-align: center;
     }
 }
 

@@ -42,7 +42,7 @@
     font-size: 2.4rem;
     line-height: 2.6rem;
     text-align: left;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     display: block;
     clear: both;
 
@@ -54,7 +54,7 @@
     line-height: 3.8rem;
     text-align: center;
     padding: 20px 0 10px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 .infoblock .brochure-title-special {
     color: #000;
@@ -62,11 +62,11 @@
     line-height: 3.8rem;
     text-align: center;
     padding-top: 20px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .title__subtitle {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2rem;
     line-height: 2.2rem;
     text-align: center;
@@ -81,18 +81,17 @@
 }
 
 .infoblock span {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     padding-bottom: 5px;
     display: block;
 }
 
 .infoblock .infoblock_photos_documents {
-    font-weight: bold;
     padding-bottom: 5px;
     display: block;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoBoldItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock .brochure-title-center-special {
@@ -101,7 +100,7 @@
     line-height: 3.8rem;
     text-align: center;
     padding-top: 20px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock ul.opus_list li span {
@@ -119,7 +118,7 @@ h2 {
 }
 
 h5 {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .bottom-images__removing-artifacts {
@@ -168,7 +167,7 @@ h5 {
     line-height: 9pt;
     font-size: 9pt;
     color: black;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 /*Third Page*/
@@ -247,7 +246,7 @@ h5 {
 
 .metadata_capture {
     font-size: 2.4rem;
-    font-weight: 600;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     float: left;
     padding-top: 2rem;
     width: 100%;

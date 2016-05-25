@@ -10,7 +10,7 @@
 }
 
 .infoblock .title__subtitle {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2rem;
     line-height: 2.2rem;
     text-align: center;
@@ -23,7 +23,7 @@
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     display: block;
     clear: both;
     text-align: left;
@@ -51,7 +51,7 @@
     line-height: 3.8rem;
     text-align: center;
     padding-top: 20px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .blue-bullet li {
@@ -105,7 +105,7 @@
 .infoblock__book-stack-and-feature-enumeration h3 {
     color: black;
     text-align: center;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin-left: -25%;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -159,7 +159,7 @@
     vertical-align: middle;
     margin-left: 8px;
     font-size: 140%;
-    font-weight: bolder;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     color: gray;
 }
 
@@ -171,18 +171,6 @@
 
 h2 {
     padding-bottom: 0;
-}
-
-h4 {
-    padding-bottom: 13px;
-    font-family: 'AvenirLTStdRoman', helvetica, arial, sans-serif;
-    font-size: 2.7rem;
-    font-weight: normal;
-    line-height: 29px;
-}
-
-h5 {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
 }
 
 .infoblock__white-rectangulars {
@@ -214,7 +202,7 @@ h5 {
     line-height: 9pt;
     font-size: 9pt;
     color: black;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 /*Third Page*/
@@ -385,13 +373,11 @@ h5 {
 .infoblock__hierarchical-metadata-bottom-block {
     margin-top: 3%;
     overflow: hidden;
-
 }
 
 .infoblock__hierarchical-metadata-bottom-block img {
     float: left;
     width: 70%;
-
 }
 
 .infoblock__hierarchical-metadata-bottom-paragraphs {
