@@ -1,17 +1,17 @@
 /*!* ******************** OLD AND UGLY SHIT ******************** *!*/
 
 /*.infoblock span.new {*/
-    /*padding: 0;*/
-    /*font-style: italic;*/
-    /*display: inline-block;*/
-    /*color: #f00;*/
+/*padding: 0;*/
+/*font-style: italic;*/
+/*display: inline-block;*/
+/*color: #f00;*/
 /*}*/
 
 /*#plugin {*/
-    /*height: 100%;*/
-    /*position: fixed;*/
-    /*width: 100%;*/
-    /*z-index: 1;*/
+/*height: 100%;*/
+/*position: fixed;*/
+/*width: 100%;*/
+/*z-index: 1;*/
 /*}*/
 
 /*!*.infoblock .scrolled_pic {*!*/
@@ -50,30 +50,30 @@
 /*!* new *!*/
 
 /*.infoblock .table_comliance .conf_sing h2 {*/
-    /*width: 75px;*/
-    /*height: auto;*/
-    /*margin: 20px auto;*/
+/*width: 75px;*/
+/*height: auto;*/
+/*margin: 20px auto;*/
 /*}*/
 
 /*.infoblock img.mainpage_img {*/
-    /*float: right;*/
-    /*width: 235px;*/
-    /*margin: 2px;*/
+/*float: right;*/
+/*width: 235px;*/
+/*margin: 2px;*/
 /*}*/
 
 /*!* ******************** NEW STYLES ******************** *!*/
 
 /*.infoblock .infoblock__scanners-header-h3-compliance {*/
-    /*font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; !* font-weight: bold; *!*/
-    /*color: #093C8B;*/
-    /*font-size: 2.4rem;*/
-    /*line-height: 2.6rem;*/
-    /*margin: 15px 0;*/
+/*font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; !* font-weight: bold; *!*/
+/*color: #093C8B;*/
+/*font-size: 2.4rem;*/
+/*line-height: 2.6rem;*/
+/*margin: 15px 0;*/
 /*}*/
 
 /*.infoblock .infoblock__scanners-header-h4 {*/
-    /*font-size: 1.2rem;*/
-    /*margin: 0;*/
+/*font-size: 1.2rem;*/
+/*margin: 0;*/
 /*}*/
 
 /*total new css*/
@@ -115,6 +115,10 @@
 
 .text--blue {
     color: #093C8B;
+}
+
+.text--inline {
+    display: inline !important;
 }
 
 /*compliance styles*/
@@ -250,6 +254,7 @@
 /*end product presentation styles*/
 
 /*product videos styles*/
+
 .infoblock .table_video .video-preview {
     /*width: 50%;*/
     float: left;
@@ -259,6 +264,10 @@
     width: 90%;
     height: 90%;
     box-shadow: 3px 3px 5px #8E8E8E;
+}
+
+.infoblock .table_video .video-links {
+    display: inline-block;
 }
 
 .download-video {
