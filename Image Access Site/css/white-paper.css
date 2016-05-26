@@ -11,7 +11,7 @@
 }
 
 .back_pdf {
-    width: 65%;
+    width: 70%;
     float: left;
     box-shadow: 3px 3px 5px #8E8E8E;
 }
@@ -25,14 +25,14 @@
 .download-pdf {
     display: inline-block;
     margin-left: 5px;
-    width: 85%;
+    width: 80%;
 }
 
 .back_text_pdf {
     float: left;
     margin: 100px 10px 0 0;
     padding-left: 2%;
-    width: 34%;
+    width: 29%;
 }
 
 .back_text_pdf i {
@@ -42,13 +42,13 @@
 .back_text_pdf a {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     color: #093C8B;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .back_text_pdf span {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     display: block;
 }
