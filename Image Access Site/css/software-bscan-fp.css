@@ -155,7 +155,7 @@ ol#using-barcode-separator-sheets-list li:before {
 }
 
 .paragraph-title-left {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family:'LatoBold', helvetica, arial, sans-serif;
     text-align: left;
     font-size: 2.4rem;
     line-height: 2.6rem;
@@ -163,7 +163,7 @@ ol#using-barcode-separator-sheets-list li:before {
 }
 
 .paragraph-title-center {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     text-align: center;
 }
 
