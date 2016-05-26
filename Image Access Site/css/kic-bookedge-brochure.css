@@ -75,14 +75,17 @@
     margin-top: 30px;
     font-weight: normal;
 }
-
+.common-header-h2--big-logo-text:after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .infoblock .big-logo-text__sub-header {
     font-size: 2.2rem;
     line-height: 2.4rem;
     text-align: right;
     color: #3E4793;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
-    float: right;
     margin-top: -130px;
     padding-right: 3%;
 }
