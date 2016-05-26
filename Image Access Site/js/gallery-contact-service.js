@@ -12,7 +12,7 @@ jQuery(function () {
         autoplaySpeed:2000
     });
     $('.slider-nav').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         arrows: false,
@@ -20,5 +20,16 @@ jQuery(function () {
         focusOnSelect: true,
         autoplay: true,
         autoplaySpeed:2000
+    });
+    $('.slider-nav--vertical').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        arrows: false,
+        centerMode: true,
+        focusOnSelect: true,
+        autoplay: true,
+        autoplaySpeed:2000,
+        vertical:true
     });
 });
