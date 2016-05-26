@@ -2167,6 +2167,10 @@ h3.true2_label.move {
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
         padding-top: 110px;
     }
+
+    #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__scanner-other {
+        padding-bottom: 30px;
+    }
 }
 
 h2.label2.with-subh.resize {
