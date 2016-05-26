@@ -1849,3 +1849,10 @@
 .cursive-subtitle {
 
 }
+
+@media screen and (min-width: 0\0) {
+    .infoblock .common-header-h3--rainbow{
+        background:none;
+        color: black;
+    }
+}
