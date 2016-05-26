@@ -2,6 +2,7 @@
 padding: 14px 0 0;
 }
 
+
 .infoblock ul li {
     line-height: 24px;
 }
@@ -25,12 +26,13 @@ padding: 14px 0 10px;
 }
 .infoblock__block-title{
     font-style: italic;
-    font-size: 2.1rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     color: #000000;
     text-shadow: none;
     font-weight: normal;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .infoblock__text-block {
     float: left;
@@ -83,9 +85,9 @@ div .infoblock__block {
 
 .infoblock__block-3{
     position: absolute;
-    bottom: 15%;
+    bottom: 14%;
     overflow: hidden;
-    width: 29%;
+    width: 23%;
 
 }
 div #infoblock__management{
