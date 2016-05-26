@@ -1,191 +1,85 @@
-/* ******************** OLD AND UGLY SHIT ******************** */
+/*!* ******************** OLD AND UGLY SHIT ******************** *!*/
 
-.infoblock span.new {
-    padding: 0;
-    font-style: italic;
-    display: inline-block;
-    color: #f00;
-}
+/*.infoblock span.new {*/
+    /*padding: 0;*/
+    /*font-style: italic;*/
+    /*display: inline-block;*/
+    /*color: #f00;*/
+/*}*/
 
+/*#plugin {*/
+    /*height: 100%;*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*z-index: 1;*/
+/*}*/
+
+/*!*.infoblock .scrolled_pic {*!*/
+/*!*display: block;*!*/
+/*!*overflow: visible;*!*/
+/*!*align-items: baseline;*!*/
+/*!*border: none;*!*/
+/*!*box-shadow: none;*!*/
+/*!*}*!*/
+
+/*!*.gallery {*!*/
+/*!*overflow: hidden;*!*/
+/*!*display: flex;*!*/
+/*!*align-items: center;*!*/
+/*!*border-bottom: 1px solid #E3E6DB;*!*/
+/*!*box-shadow: 0 0 5px #000;*!*/
+/*!*}*!*/
+
+/*!*.infoblock .scrolled_pic {*!*/
+/*!*display: block;*!*/
+/*!*overflow: visible;*!*/
+/*!*align-items: baseline;*!*/
+/*!*border: none;*!*/
+/*!*box-shadow: none;*!*/
+/*!*}*!*/
+
+/*!*.infoblock .table_video {*!*/
+/*!*overflow: hidden;*!*/
+/*!*margin: 10px 0;*!*/
+/*!*}*!*/
+
+/*!*.infoblock .technical_data tbody tr th {*!*/
+/*!*font-weight: bold;*!*/
+/*!*}*!*/
+
+/*!* new *!*/
+
+/*.infoblock .table_comliance .conf_sing h2 {*/
+    /*width: 75px;*/
+    /*height: auto;*/
+    /*margin: 20px auto;*/
+/*}*/
+
+/*.infoblock img.mainpage_img {*/
+    /*float: right;*/
+    /*width: 235px;*/
+    /*margin: 2px;*/
+/*}*/
+
+/*!* ******************** NEW STYLES ******************** *!*/
+
+/*.infoblock .infoblock__scanners-header-h3-compliance {*/
+    /*font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; !* font-weight: bold; *!*/
+    /*color: #093C8B;*/
+    /*font-size: 2.4rem;*/
+    /*line-height: 2.6rem;*/
+    /*margin: 15px 0;*/
+/*}*/
+
+/*.infoblock .infoblock__scanners-header-h4 {*/
+    /*font-size: 1.2rem;*/
+    /*margin: 0;*/
+/*}*/
+
+/*total new css*/
 .infoblock span {
     padding-bottom: 5px;
     display: block;
-}
-
-.infoblock ul {
-    padding: 0 0 0 24px;
-    list-style: disc;
-}
-
-.infoblock ul li {
-    line-height: 24px;
-}
-
-#plugin {
-    height: 100%;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-.text--bold {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-}
-
-/*.infoblock .scrolled_pic {*/
-/*display: block;*/
-/*overflow: visible;*/
-/*align-items: baseline;*/
-/*border: none;*/
-/*box-shadow: none;*/
-/*}*/
-
-/*.gallery {*/
-/*overflow: hidden;*/
-/*display: flex;*/
-/*align-items: center;*/
-/*border-bottom: 1px solid #E3E6DB;*/
-/*box-shadow: 0 0 5px #000;*/
-/*}*/
-
-.infoblock .scrolled_pic .images .image .back_text_pdf {
-    width: 20%;
-    float: right;
-    margin: 100px 10px 0 0;
-}
-
-.infoblock .scrolled_pic .images .image .back_text_pdf a {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-    color: #093C8B;
-    font-size: 2rem;
-    line-height: 1.8rem;
-}
-
-.infoblock .scrolled_pic > .images {
-    overflow: visible;
-    display: block;
-    align-items: center;
-    border-bottom: 1px solid #E3E6DB;
-    box-shadow: 0 0 5px #000;
-    margin: 0 0 14px;
-}
-
-.infoblock .scrolled_pic {
-    display: block;
-    overflow: visible;
-    align-items: baseline;
-    border: none;
-    box-shadow: none;
-}
-
-.infoblock .scrolled_pic .images .image .back_image {
-    width: 50%;
-    background-size: contain;
-    margin: 20px;
-}
-
-.infoblock .scrolled_pic .images .image .back_image {
-    width: 50%;
-    background-size: contain;
-    margin: 20px;
-}
-
-.infoblock .table_video .video-preview {
-    width: 50%;
-    float: left;
-}
-
-.infoblock .table_video .video-preview img {
-    width: 90%;
-    height: auto;
-    box-shadow: 3px 3px 5px #8E8E8E;
-}
-
-.infoblock .table_video {
-    overflow: hidden;
-    margin: 10px 0;
-}
-
-.infoblock .table_documentation tbody tr :nth-child(1) {
-    font-weight: bold;
-    line-height: 2.4rem;
-}
-
-.infoblock .table_documentation {
-    width: 100%;
-}
-
-.infoblock .technical_data {
-    width: 100%;
-    margin: 0;
-}
-
-.infoblock .technical_data tbody tr th {
-    font-weight: bold;
-}
-
-.infoblock .technical_data_pdf {
-    width: 100%;
-    overflow: hidden;
-}
-
-.infoblock div.pdf_preview {
-    padding: 20px 0;
-}
-
-.infoblock .technical_data_pdf .back_pdf {
-    width: 70%;
-    margin: 10px;
-    float: left;
-    box-shadow: 3px 3px 5px #8E8E8E;
-}
-
-.infoblock .technical_data_pdf .back_pdf embed {
-    width: 100%;
-    float: left;
-    height: 525px;
-}
-
-.infoblock .technical_data_pdf .back_text_pdf {
-    width: 26%;
-    float: left;
-    margin: 100px 10px 0 0;
-}
-
-.infoblock .technical_data_pdf .back_text_pdf a {
-    color: #093C8B;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    font-weight: bold;
-}
-
-.infoblock .technical_data_pdf .back_text_pdf span {
-    color: #000;
-    font-size: 12px;
-}
-
-/* new */
-
-.infoblock .table_comliance {
-    overflow: hidden;
-    margin: 10px 0;
-}
-
-.infoblock .table_comliance .conf_sing {
-    width: 15%;
-    float: left;
-}
-
-.infoblock .table_comliance .conf_sing img {
-    margin: 20px auto;
-    display: block;
-    width: 75px;
-    height: auto;
-}
-
-.infoblock .table_comliance .conf_description {
-    width: 85%;
-    float: left;
 }
 
 .infoblock ul {
@@ -193,90 +87,94 @@
     list-style: disc;
 }
 
-.infoblock .table_comliance .conf_sing h2 {
-    width: 75px;
-    height: auto;
-    margin: 20px auto;
+.infoblock ul li {
+    line-height: 24px;
 }
 
-.infoblock .scrolled_pic .images .image .back_text span {
-    color: #093C8B;
-    font-size: 2rem;
-    line-height: 2.2rem;
-}
-
-.infoblock .scrolled_pic .images .image .back_text {
-    width: 39%;
-    float: right;
-    margin: 100px 10px 0 0;
-}
-
-.infoblock .table_video .video-links a {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-    color: #093C8B;
-}
-
-.infoblock img.mainpage_img {
-    float: right;
-    width: 235px;
-    margin: 2px;
-}
-
-.download-video {
-    display: inline-block;
-    margin-left: 5px;
-    width: 40%;
-}
-
-
-/* ******************** NEW STYLES ******************** */
-
-.infoblock .infoblock__scanners-header-h2 {
+.infoblock__scanners-header-h2 {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 2.8rem;
     line-height: 3rem;
     padding: 20px 0 20px;
 }
 
-.infoblock .infoblock__scanners-header-compliance {
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
-    margin: 0;
-    color: #093C8B;
-    padding: 20px 0 10px;
-}
-
-.infoblock .infoblock__scanners-p {
-    padding-bottom: 15px;
-}
-
-.infoblock .infoblock__scanners-header-h3 {
+.infoblock__scanners-header-h3 {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 2.2rem;
     line-height: 2.4rem;
     padding: 10px 0 5px;
 }
 
-.infoblock .infoblock__scanners-header-h3-compliance {
-    font-family: AvenirLTStdBlack, helvetica, arial, sans-serif; /* font-weight: bold; */
+.infoblock .infoblock__scanners-p {
+    padding-bottom: 15px;
+}
+
+.text--bold {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.text--blue {
     color: #093C8B;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    margin: 15px 0;
 }
 
-.infoblock .infoblock__scanners-header-h4 {
-    font-size: 1.2rem;
-    margin: 0;
-}
+/*compliance styles*/
 
-.technical_data_pdf {
-    width: 100%;
+.table_comliance {
     overflow: hidden;
+    margin: 10px 0;
 }
 
-.back_pdf {
+.conf_sing {
+    width: 15%;
+    float: left;
+}
+
+.conf_sing img {
+    margin: 20px auto;
+    display: block;
+    width: 75px;
+    height: auto;
+}
+
+.conf_description {
+    width: 85%;
+    float: left;
+}
+
+.infoblock__scanners-header-compliance {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    padding: 20px 0 10px;
+}
+
+/* end compliance styles*/
+
+/*documentation styles*/
+
+.table_documentation {
+    width: 100%;
+}
+
+.table_documentation tbody tr :nth-child(1) {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    line-height: 2.4rem;
+}
+
+/*end documentation styles*/
+
+/*product brochures*/
+
+.infoblock .scrolled_pic > .images {
+    /*overflow: visible;*/
+    /*display: block;*/
+    /*align-items: center;*/
+    /*border-bottom: 1px solid #E3E6DB;*/
+    box-shadow: 0 0 5px #000;
+    margin: 0 0 14px;
+}
+
+.image .back_pdf {
     float: left;
     box-shadow: 3px 3px 5px #8E8E8E;
     width: 75% !important;
@@ -295,8 +193,21 @@
     width: 75%;
 }
 
+.back_text_pdf {
+    width: 20%;
+    float: right;
+    margin: 100px 10px 0 0;
+}
+
 .back_text_pdf i {
     vertical-align: top;
+}
+
+.back_text_pdf a {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    color: #093C8B;
+    font-size: 2rem;
+    line-height: 1.8rem;
 }
 
 .back_text_pdf span {
@@ -305,9 +216,113 @@
     line-height: 1.8rem;
 }
 
-.text--blue {
-    color: #093C8B;
+/*end product brochures*/
+
+/*product photos styles*/
+
+.infoblock .scrolled_pic .images .image .back_image {
+    width: 50%;
+    background-size: contain;
+    margin-left: 20px;
 }
+
+.infoblock .scrolled_pic .images .image .back_text {
+    width: 39%;
+    float: right;
+    margin: 100px 10px 0 0;
+}
+
+.infoblock .scrolled_pic .images .image .back_text span {
+    color: #093C8B;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+/*end product photos styles*/
+
+/*product presentation styles*/
+
+.frame-presentation {
+    margin: 0 auto;
+    display: block;
+}
+
+/*end product presentation styles*/
+
+/*product videos styles*/
+.infoblock .table_video .video-preview {
+    /*width: 50%;*/
+    float: left;
+}
+
+.infoblock .table_video .video-preview img {
+    width: 90%;
+    height: 90%;
+    box-shadow: 3px 3px 5px #8E8E8E;
+}
+
+.download-video {
+    display: inline-block;
+    margin-left: 5px;
+    width: 40%;
+}
+
+/*end product videos styles*/
+
+/*technical data styles*/
+
+.technical_data_pdf {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pdf_preview {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.technical_data_pdf .back_pdf {
+    width: 70%;
+    margin: 10px;
+    float: left;
+    box-shadow: 3px 3px 5px #8E8E8E;
+}
+
+.technical_data_pdf .back_pdf embed {
+    width: 100%;
+    float: left;
+    height: 525px;
+}
+
+.technical_data_pdf .back_text_pdf {
+    width: 26%;
+    float: left;
+    margin: 100px 10px 0 0;
+    padding-left: 2%;
+}
+
+.infoblock .technical_data {
+    width: 100%;
+    margin: 0;
+}
+
+.back-blue {
+    border-bottom: 5px solid #047BCB;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    padding: 20px 0 6px 0;
+}
+
+.technical_data tbody tr td {
+    line-height: 2.4rem;
+}
+
+.technical_data tbody tr th:nth-child(1) {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+/*end technical data styles*/
 
 /* ******************** PRODUCT PHOTOS ******************** */
 
