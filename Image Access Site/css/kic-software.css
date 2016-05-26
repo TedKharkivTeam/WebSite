@@ -21,9 +21,13 @@ h4 {
     text-align: left;
 }
 
-.infoblock__page1-Header {
-    overflow: hidden;
-    margin-top: 8px;
+.infoblock__page1-Header {;
+    width: 100%;
+}
+
+.infoblock__page1-Header-h2 {
+    width: 70%;
+    float: right;
 }
 
 .infoblock .infoblock__page1-Header img {
@@ -82,10 +86,6 @@ h4 {
     text-align: center;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     padding: 10px 0;
-}
-
-.infoblock__central-image {
-    margin-top: -5%;
 }
 
 .infoblock .kic_software_smart_doc_photo2 {
@@ -160,10 +160,9 @@ h4 {
     text-align: center;
 }
 
-.infoblock .in-case-enhance {
-    width: 70%;
-    height: 70%;
-    margin: 0 auto;
+.infoblock__page-11__double__content__double .in-case-enhance {
+    width: 80%;
+    height: 80%;
     display: block;
 }
 
@@ -1933,7 +1932,7 @@ table.table__footer td {
 
     .infoblock .infoblock__page-7__text-block-devices {
         width: 35% !important;
-        top: 630px !important;
+        top: 610px !important;
         right: 20px !important;
     }
 
@@ -1966,6 +1965,35 @@ table.table__footer td {
 
     img.infoblock__page-9__nav__img {
         padding-top: 70px !important;
+    }
+
+    .columnKIC_Bookeye_4 .hand-yellow-coin {
+        padding: 5px 10px 20px 0;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
+        width: 215px;
+        float: right;
+        margin-top: -85px;
+        margin-right: 1%;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .in-case-enhance {
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content .infoblock__page-11__for-study-p {
+        margin-top: -85px;
+        margin-right: 0;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
+        padding: 0;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double  .infoblock__page-11__in-case-scan-artwork {
+        height: 213px;
     }
 }
 
@@ -2300,7 +2328,7 @@ table.table__footer td {
     }
 }
 
-.brochure-title-center.--software-color-h {
+.brochure-title-center.software-color-h {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 1.8rem;
     color: #0000ff;
@@ -2309,7 +2337,7 @@ table.table__footer td {
     padding: 20px 0 0 !important;
 }
 
-.brochure-title-center.--software-h {
+.brochure-title-center.software-h {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 3.2rem;
     line-height: 3.4rem;
@@ -2790,6 +2818,20 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     p.infoblock__page-9__center__text.infoblock__page-9__center__text--padding.resize-fleet-paragraph {
         padding-bottom: 0;
     }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
+        margin-top: -115px;
+        margin-right: 3%;
+    }
+
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
+        padding: 15px 0;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
+        height: 264px;
+    }
 }
 
 img.click-mini {
@@ -3258,4 +3300,167 @@ span.fa.fa-star.tabl-star.black {
 
 .sitalic {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
+}
+
+.infoblock__page1-Header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.brochure-overflow {
+    position: relative;
+    padding: 0 15px;
+}
+
+.infoblock__page-11__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+#KIC_Click_and_Mini_In_Case_You_Didnt_Know .label2-in-case {
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    padding: 0;
+}
+
+.infoblock__page-11__in-case-span {
+    text-align: right;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+    padding-bottom: 5px;
+    display: block;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.infoblock__page-11__double__content {
+    overflow: hidden;
+    padding: 10px;
+    background: #D0E6FC;
+    margin: 5px;
+    border-radius: 1.0rem;
+    text-align: center;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock__page-11__double__content__double {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.infoblock__page-11__double__content {
+    overflow: hidden;
+    padding: 10px;
+    background: #D0E6FC;
+    margin: 5px;
+    border-radius: 1.0rem;
+    text-align: center;
+}
+
+.infoblock__page-11__double {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 15px 2%;
+    display: block;
+}
+
+.infoblock__page-11__for-study-p {
+    width: 115px;
+    float: right;
+    margin-top: 5%;
+}
+
+.infoblock .left-text {
+    padding: 20px 0 0 10px;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--right {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock .infoblock__page-11__in-case-enhance--left {
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 15px 2%;
+    display: block;
+}
+
+.infoblock .in-case-enhance {
+    width: 70%;
+    height: 70%;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-artwork {
+    height: 232px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock__page-11__for-study-p {
+    width: 225px;
+    float: right;
+    margin-top: -125px;
+    margin-right: 11%;
+}
+
+.book-excerpts {
+    text-align: left;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.infoblock__page-11-content-p {
+    padding: 50px 0;
+}
+
+.infoblock .infoblock__page-11__in-case-scan-map {
+    height: 180px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.infoblock__page-11__in-case-p--italic {
+    padding: 10px;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    display: inline-block;
+}
+
+.infoblock .personal-document {
+    padding: 40px 0 0 0;
+}
+
+img.infoblock__page-11__in-case-scan-map.resize {
+    width: 90%;
+    height: 90%;
+    padding-left: 10px;
+    box-sizing: content-box;
+}
+
+@media screen and (min-width: 0\0) {
+    .infoblock .rainbow-text {
+        background:none;
+        color: black;
+    }
 }

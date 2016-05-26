@@ -16,20 +16,20 @@ jQuery(function () {
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         arrows: false,
-        centerMode: true,
+        centerMode: false,
         focusOnSelect: true,
         autoplay: true,
         autoplaySpeed:2000
     });
-    $('.slider-nav--vertical').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        asNavFor: '.slider-for',
-        arrows: false,
-        centerMode: true,
-        focusOnSelect: true,
-        autoplay: true,
-        autoplaySpeed:2000,
-        vertical:true
-    });
+    // $('.slider-nav--vertical').slick({
+    //     slidesToShow: 5,
+    //     slidesToScroll: 5,
+    //     asNavFor: '.slider-for',
+    //     arrows: false,
+    //     centerMode: true,
+    //     focusOnSelect: true,
+    //     autoplay: true,
+    //     autoplaySpeed:2000,
+    //     vertical:true
+    // });
 });
