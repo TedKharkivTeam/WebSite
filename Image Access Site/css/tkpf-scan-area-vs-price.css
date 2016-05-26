@@ -12,12 +12,11 @@
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     writing-mode: bt-rl;
-    font-family: 'AvenirLTStdHeavy';
     font-size: 3.2rem;
     line-height: 3.4rem;
     text-align: justify;
     margin-top: 154px;
-
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
 }
 
 .width-td {
