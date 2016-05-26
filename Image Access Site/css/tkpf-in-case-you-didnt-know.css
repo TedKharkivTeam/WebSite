@@ -55,7 +55,7 @@
 
 .in-case-p--italic {
     padding: 10px;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     display: inline-block;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .infoblock span {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     padding-bottom: 5px;
     display: block;
 }
@@ -159,7 +159,7 @@
 
 .infoblock__page-11__in-case-p--italic {
     padding: 10px;
-    font-style: italic;
+    font-family: 'LatoItalic', sans-serif, helvetica, aril;
     display: inline-block;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 199px;
+    height: 211px;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -257,4 +257,8 @@
     .infoblock__page-11__for-study-p {
         width: 111px;
     }
+}
+
+.with-italic {
+    padding-bottom: 0;
 }
