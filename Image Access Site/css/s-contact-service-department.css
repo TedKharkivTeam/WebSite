@@ -2,12 +2,13 @@
 .wrapper-gallery {
     overflow: hidden;
     padding-left: 60px;
-    padding-top: 6%;
+    padding-top: 4%;
 }
 
 .wrapper-gallery__img {
     float: right;
     padding-right: 6%;
+    padding-top: 8%;
 }
 
 .wrapper-gallery__title {
@@ -68,11 +69,11 @@
 }
 
 .slider-nav{
-    width: 84%;
+    /*width: 84%;*/
 }
 
 .slider-for{
-    width: 84%;
+    /*width: 84%;*/
 }
 
 .slick-arrow {
@@ -84,7 +85,7 @@
 .slick-prev {
     position: absolute;
     top: -30px;
-    right: -14%;
+    right: 30px;
     width: 0;
     height: 0;
     border-top: 7px solid transparent;
@@ -95,7 +96,7 @@
 .slick-next {
     position: absolute;
     top: -30px;
-    right: -21%;
+    right: -12px;
     width: 0;
     height: 0;
     border-top: 7px solid transparent;
