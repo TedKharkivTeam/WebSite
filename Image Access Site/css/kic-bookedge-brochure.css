@@ -5,6 +5,13 @@
     padding: 0 5px 5px 0;
 }
 
+.relative{
+    position: relative;
+    float:right;
+    width: 30%;
+}
+
+
 .infoblock .blue-bullet li {
     line-height: 2.4rem;
 }
@@ -61,7 +68,7 @@
 }
 
 .infoblock .common-header-h2--big-logo-text {
-    font-size: 10rem;
+    font-size: 9.5rem;
     font-family: 'LilyUPC', Arial, sans-serif;
     float: right;
     margin-right: 16%;
@@ -273,7 +280,7 @@
 }
 
 .infoblock .block__float-number {
-    width: 10%;
+    width: 15%;
     display: inline-block;
     vertical-align: top;
     padding: 10px 0;
@@ -306,16 +313,15 @@
 .infoblock .block__sub-block--third {
     position: relative;
     margin-top: -323px;
-    padding-bottom: 249px;
 }
 
 .infoblock .block__float-number--second {
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 .infoblock .block__float-number--third {
-    width: 7%;
-    margin-left: 3%;
+    width: 10%;
+    margin-left: 0;
 }
 
 .infoblock .block__image--bottom-image {
@@ -498,9 +504,10 @@
 }
 
 .infoblock .true-2-touch-wrapper__two-large-screens-image {
-    width: 26%;
+    width: 100%;
     float: right;
     text-align: center;
+    padding: 0 0 10px 20px;
 }
 
 .infoblock .true-2-touch-wrapper__text-section {
@@ -517,11 +524,10 @@
 }
 
 .infoblock .true-2-touch-wrapper__dual-screen-text {
-    margin: -31px 0 -53px 76%;
-    font-size: 2rem;
-    line-height: 2rem;
-    position: relative;
-    bottom: 50px;
+    position: absolute;
+    bottom: -7%;
+    right: 20%;
+
 }
 
 /* PAGE 6 ******************************************************************************************************* */
@@ -666,14 +672,7 @@
 }
 
 .infoblock .triangle-pointer--3 {
-    position: relative;
-    bottom: 128px;
-    right: 44%;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
 }
 
 /* PAGE 7 ******************************************************************************************************* */
@@ -712,16 +711,18 @@
 
 .infoblock .reservation-app-wrapper__three-images-wrapper {
     margin: 0 auto;
+    position: relative;
 }
 
 .infoblock .arrows--after:after {
     position: absolute;
     content: '';
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
-    top: 470px;
-    left: 39px;
+
+    bottom: -121px;
+    left: 0px;
     background-size: contain;
-    width: 100%;
+    width: 91%;
     height: 130px;
 }
 
@@ -1444,14 +1445,77 @@
     line-height: 2.2rem;
 }
 
-/*.infoblock .kic-product-wrapper__common-features-table__td {
-    padding: 10px 1%;
-}*/
+
 
 /* ************************************************************************************************************** */
+@media all and (max-width: 1700px) and (min-width: 1399px){
+    .infoblock .big-logo-text__sub-header {
+        margin-top: -90px;
+    }
+    .infoblock .bg-image__text--left-middle{
+        top: -280px;
+    }
+    .infoblock .bg-image__text--left{
+       top: -200px;
+    }
+
+    .infoblock .section__left-image-text {
+        margin-top: -236px;
+        margin-left: 0%;
+    }
+    .infoblock .block__sub-block--third{
+        margin-top: -250px;
+    }
+
+}
+@media all and (max-width: 1600px){
+    .infoblock .for-public-libraries-section__sub-header{
+        margin-left: 1%;
+    }
+    .infoblock .for-public-libraries-section__touching-copy-text{
+        margin-top: -338px;
+    }
+
+}
+
+@media all and (max-width: 1470px){
+    .section__left-image-text br{
+        display: none;
+    }
+
+    .infoblock .section__left-image-text {
+
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 1580px) and (min-width: 1399px){
+    .infoblock .common-header-h2--big-logo-text {
+        margin-right: 8%;
+    }
+}
+
+@media all and (max-width: 1495px) and (min-width: 1399px){
+    .infoblock .big-logo-text__sub-header{
+        padding-right: 0;
+    }
+    .infoblock .common-header-h2--big-logo-text{
+        margin-right: 3%;
+    }
+    .infoblock .bg-image__text--left{
+        top: -170px;
+    }
+    .infoblock .big-logo-text__sub-header {
+        margin-top: -63px;
+    }
+    .infoblock .bg-image__text--left-middle {
+        top: -289px;
+    }
+}
+
 
 /* 1280, 1366 */
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media all and (min-width: 1200px) and (max-width: 1399px) {
     html {
         font-size: 50%;
     }
@@ -1471,6 +1535,9 @@
         top: -228px;
     }
 
+    .infoblock .block__sub-block--third{
+        margin-top: -200px;
+    }
     .infoblock .bg-image__text--left {
         top: -180px;
     }
@@ -1482,9 +1549,9 @@
     }
 
     .infoblock .section__left-image-text {
-        margin-top: -289px;
         padding-bottom: 115px;
-        margin-left: -8%;
+        margin-left: 0%;
+        margin-bottom: -6%;
     }
 
     .infoblock .column__section--background {
@@ -1495,10 +1562,12 @@
         margin-left: 48%;
     }
 
-    .infoblock .true-2-touch-wrapper__dual-screen-text {
-        margin: -35px 0 0 71%;
-        padding-bottom: 25px;
+    .infoblock .triangle-pointer--3{
+
+        padding-left: 40%;
+
     }
+
 
     .infoblock .content-holder__text-section--smart-dock {
         margin-top: -135px;
@@ -1523,19 +1592,14 @@
     }
 
     .infoblock .triangle-pointer {
-        position: relative;
-        left: 0;
+        padding-top: 4%;
     }
 
     .infoblock .for-public-libraries-section__touching-fax-text {
         margin-top: 20px;
     }
 
-    .infoblock .triangle-pointer--3 {
-        position: relative;
-        top: -88px;
-        left: -46%;
-    }
+
 
     .infoblock .for-public-libraries-section__sub-header {
         padding-bottom: 10px;
@@ -1577,7 +1641,7 @@
     }
 
     .infoblock .text-section__centered-text--with-margin {
-        padding-top: 53px;
+        padding-top: 82px;
     }
 
     .infoblock .column__text-p {
@@ -1632,9 +1696,6 @@
         padding: 10px 0;
     }
 
-    .infoblock .kic-product-wrapper__common-features-table__td {
-        padding: 10px 2%;
-    }
 
     .infoblock .triangular-copy__image {
         margin: 52px 2%;
@@ -1646,10 +1707,25 @@
 
 }
 
+@media all and (max-width: 1312px) and (min-width: 1200px){
+    .infoblock .common-header-h2--big-logo-text{
+        margin-right: 5%;
+        margin-top: 15px;
+    }
+
+    .infoblock .bg-image__text--left-middle {
+        top: -200px;
+    }
+
+}
+
 /* 1024 */
 @media (max-width: 1199px) {
     html {
         font-size: 50%;
+    }
+    .infoblock .block__sub-block--third {
+        margin-top: -170px;
     }
 
     .infoblock .big-logo-text__sub-header {
@@ -1660,7 +1736,7 @@
     }
 
     .infoblock .bg-image__text--left-top {
-        top: -322px;
+        top: -450px;
     }
 
     .infoblock .bg-image__text--left-middle {
@@ -1680,7 +1756,7 @@
     .infoblock .section__left-image-text {
         margin-top: -289px;
         padding-bottom: 115px;
-        margin-left: -8%;
+        margin-left: -1%;
     }
 
     .infoblock .column__section--background {
@@ -1691,10 +1767,7 @@
         margin-left: 48%;
     }
 
-    .infoblock .true-2-touch-wrapper__dual-screen-text {
-        margin: -57px 0 0 70%;
-        padding-bottom: 30px;
-    }
+
 
     .infoblock .content-holder__text-section--smart-dock {
         margin-top: -135px;
@@ -1712,23 +1785,20 @@
     }
 
     .infoblock .for-public-libraries-section__touching-copy-text {
-        margin-top: -270px;
-    }
-
-    .infoblock .triangle-pointer {
-        position: relative;
-        left: 41%;
+        margin-top: -310px;
+        padding-bottom: 6%;
     }
 
     .infoblock .for-public-libraries-section__touching-fax-text {
         margin-top: 0;
     }
 
-    .infoblock .triangle-pointer--3 {
-        position: relative;
-        top: -71px;
-        left: -50%;
+    .infoblock .triangle-pointer{
+        margin-top: 4%;
     }
+
+
+
 
     .infoblock .for-public-libraries-section__sub-header {
         padding-bottom: 10px;
@@ -1739,6 +1809,7 @@
         left: 40px;
         width: 85%;
     }
+
 
     .infoblock .reservation-app-wrapper__two-tels-section {
         padding-top: 68px;
@@ -1770,7 +1841,7 @@
     }
 
     .infoblock .text-section__centered-text--with-margin {
-        padding-top: 10px;
+        padding-top: 56px;
     }
 
     .infoblock .column__text-p {
@@ -1816,9 +1887,7 @@
         padding: 10px 0;
     }
 
-    .infoblock .kic-product-wrapper__common-features-table__td {
-        padding: 10px 2%;
-    }
+
 
     .infoblock .section__scan-large-maps-header {
         font-size: 2rem;
@@ -1839,6 +1908,14 @@
     }
 }
 
+
+@media all and (max-width: 1135px){
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -285px;
+    }
+
+
+}
 /* tablets */
 @media (max-width: 941px) {
 
