@@ -2,7 +2,7 @@
     position: relative;
 }
 .infoblock .infoblock__advisors-header-h2 {
-    font-family: AvenirLTStdBlack; /* font-weight: bold; */
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 3.5rem;
     padding: 15px 0 25px 0;
 }
