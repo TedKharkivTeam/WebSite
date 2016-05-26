@@ -1,126 +1,133 @@
 .infoblock .brochure-title-center {
-padding: 14px 0 0;
+    padding: 14px 0 0;
 }
-
 
 .infoblock ul li {
     line-height: 24px;
 }
 
 .infoblock .brochure-title-left {
-color: #000;
-font-size: 3.6rem;
-line-height: 3.8rem;
-text-align: left;
-padding: 14px 0 10px;
+    color: #000;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+    text-align: left;
+    padding: 14px 0 10px;
 }
 
 
 .infoblock__block-title2{
-    font: 14px "Arial",Helvetica,Arial,Verdana,sans-serif;
-    font-size: 39px;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     color:#000000;
     text-shadow: none;
     text-align: center;
 }
 .infoblock__block-title{
-    font-style: italic;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     font-size: 2rem;
     line-height: 2.2rem;
     color: #000000;
     text-shadow: none;
     font-weight: normal;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
+
 .infoblock__text-block {
     float: left;
     width: 55%;
 }
-.infoblock__text-block-2{
+
+.infoblock__text-block-2 {
     float: left;
     width: 45%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
+
 .infoblock .infoblock__peppermint2 {
     list-style-image: url(../images/bluebullet.png);
 }
+
 div .infoblock__block {
-    padding-top: 0%;
-    float:left;
+    padding-top: 0;
+    float: left;
     width: 49%;
 }
 
-.infoblock__block .infoblock__number{
-     width: auto;
-     float:left;
- }
-.infoblock__block-3 .infoblock__number{
+.infoblock__block .infoblock__number {
     width: auto;
-    float:left;
+    float: left;
 }
 
-.infoblock__block-1{
-    float:left;
+.infoblock__block-3 .infoblock__number {
+    width: auto;
+    float: left;
+}
+
+.infoblock__block-1 {
+    float: left;
     width: 70%;
-
 }
 
-
-.infoblock__block-3 div .block_text2{
+.infoblock__block-3 div .block_text2 {
     padding-top: 1%;
 }
-.infoblock .infoblock__img{
+
+.infoblock .infoblock__img {
     width: 100%;
 }
 
-.infoblock .infoblock__img-2{
+.infoblock .infoblock__img-2 {
     width: 66%;
 }
-#infoblock__man_pdf{
+
+#infoblock__man_pdf {
     padding-left: 5%;
 }
 
-.infoblock__block-3{
+.infoblock__block-3 {
     position: absolute;
-    bottom: 14%;
+    bottom: 15%;
     overflow: hidden;
-    width: 23%;
+    width: 29%;
 
 }
-div #infoblock__management{
+
+div #infoblock__management {
     width: 48%;
-    float:left;
+    float: left;
 }
-div .infoblock__diagram{
+
+div .infoblock__diagram {
     width: 45%;
-    float:left;
+    float: left;
 }
+
 div .infoblock__block_text23 {
     margin-right: -15%;
     margin-top: 3%;
 }
 
-.infoblock__relative-block{
+.infoblock__relative-block {
     position: relative;
 }
 
-.block_text23{
+.block_text23 {
     margin-right: 1%;
 }
 
-.small-brochure-title-center{
+.small-brochure-title-center {
     color: #000;
-    font-family: 'AvenirLTStdHeavy';
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
     padding: 14px 0 10px;
 }
 
-@media all and (min-width: 1401px) and (max-width: 1681px){
+@media all and (min-width: 1401px) and (max-width: 1681px) {
     .infoblock__block-3 {
         bottom: 9%;
     }
@@ -130,8 +137,8 @@ div .infoblock__block_text23 {
     }
 }
 
-@media all and (min-width: 1200px) and (max-width: 1400px){
-    div .infoblock__diagram{
+@media all and (min-width: 1200px) and (max-width: 1400px) {
+    div .infoblock__diagram {
         width: 48%;
         float: left;
         margin-top: 75px;
@@ -143,19 +150,17 @@ div .infoblock__block_text23 {
         bottom: 3%;
     }
 
-     .small-brochure-title-center{
+    .small-brochure-title-center {
         color: #000;
         font-size: 3.3rem;
-        /* line-height: 38px; */
         text-align: center;
-        /* padding: 14px 0 10px; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 }
 
-@media all and (min-width: 922px) and (max-width: 1199px){
+@media all and (min-width: 922px) and (max-width: 1199px) {
 
-    div .infoblock__diagram{
+    div .infoblock__diagram {
         width: 49%;
         float: left;
         margin-top: 69px;
@@ -167,21 +172,19 @@ div .infoblock__block_text23 {
         bottom: 4%;
     }
 
-    .small-brochure-title-center{
+    .small-brochure-title-center {
         color: #000;
         font-size: 3.3rem;
-        /* line-height: 38px; */
         text-align: center;
-        /* padding: 14px 0 10px; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 921px){
+@media all and (min-width: 768px) and (max-width: 921px) {
 
-    div .infoblock__diagram{
+    div .infoblock__diagram {
         width: 48%;
-        float:left;
+        float: left;
         margin-top: 60%;
         margin-left: 2%;
     }
@@ -191,19 +194,17 @@ div .infoblock__block_text23 {
         bottom: 5%;
     }
 
-    .small-brochure-title-center{
+    .small-brochure-title-center {
         color: #000;
         font-size: 3.3rem;
-        /* line-height: 38px; */
         text-align: center;
-        /* padding: 14px 0 10px; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
 }
 
-@media all and (max-width: 767px){
+@media all and (max-width: 767px) {
 
-    div .infoblock__diagram{
+    div .infoblock__diagram {
         width: 48%;
         margin-top: 60%;
         margin-left: 2%;
@@ -214,12 +215,14 @@ div .infoblock__block_text23 {
         bottom: 5%;
     }
 
-    .small-brochure-title-center{
+    .small-brochure-title-center {
         color: #000;
         font-size: 3.3rem;
-        /* line-height: 38px; */
         text-align: center;
-        /* padding: 14px 0 10px; */
-        padding-bottom: 0%;
+        padding-bottom: 0;
     }
+}
+
+.with-italic {
+    padding-bottom: 0;
 }
