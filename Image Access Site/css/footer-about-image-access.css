@@ -49,15 +49,15 @@
     background: url("../images/brochure-pictures/family-scan.png") no-repeat;
     background-size: contain;
     width: 100%;
-    bottom: 10%;
-    left: 19%;
+    bottom: 0%;
+    right: -14%;
     height: 100%;
 }
 
 @media screen and (max-width: 1600px ) and (min-width: 1200px) {
     .history:after {
         left: 0;
-        top: 0;
+        bottom: -10%;
     }
 
     .country-wrapper {
@@ -65,12 +65,19 @@
         padding-left: 17%;
     }
 
+
+}
+@media screen and (max-width: 1400px){
     .history:after {
-        top: 95px;
+        width: 90%;
+        height: 90%;
+    }
+    .history:after {
+        left: 12%;
+        bottom: -14%;
     }
 }
-
-@media screen and (max-width: 1199px) {
+    @media screen and (max-width: 1199px) {
     .country-wrapper {
         overflow: hidden;
         padding-left: 20%;
