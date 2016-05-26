@@ -1932,7 +1932,7 @@ table.table__footer td {
 
     .infoblock .infoblock__page-7__text-block-devices {
         width: 35% !important;
-        top: 630px !important;
+        top: 610px !important;
         right: 20px !important;
     }
 
@@ -3456,4 +3456,11 @@ img.infoblock__page-11__in-case-scan-map.resize {
     height: 90%;
     padding-left: 10px;
     box-sizing: content-box;
+}
+
+@media screen and (min-width: 0\0) {
+    .infoblock .rainbow-text {
+        background:none;
+        color: black;
+    }
 }

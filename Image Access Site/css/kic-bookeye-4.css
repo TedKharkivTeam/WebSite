@@ -2207,6 +2207,19 @@ th .table--img {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 4%;
     }
+
+    .infoblock__page-11-content-p {
+        padding: 40px 0;
+    }
+
+    .infoblock__page-11__for-study-p {
+        margin-top: -115px;
+        margin-right: 11%;
+    }
+
+    .infoblock__page-11 .in-case-enhance {
+        width: 77%;
+    }
 }
 
 @media all and (max-width: 1651px){
@@ -2641,11 +2654,33 @@ div .infoblock__page-7__text-right{
     .pbd--frame img{
         width: 50%;
     }
+
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin{
              width: 42%;
          }
     h2.pod-text{
         font-size: 2.2rem;
+    }
+
+    .infoblock__page-11-content-p {
+        padding: 0;
+    }
+
+    .infoblock .infoblock__page-11__in-case-scan-artwork {
+        height: 230px;
+        padding-left: 5px;
+    }
+
+    .infoblock .images--hand {
+        padding-bottom: 30px;
+    }
+
+    #hand-with-yellow-coin {
+        padding-bottom: 20px;
+    }
+
+    #KIC_Bookeye_4_True_2_Touch .story-text {
+        margin-bottom: 10px;
     }
 }
 
@@ -3054,5 +3089,12 @@ div .infoblock__page-7__text-right{
         text-align: center;
 
         padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 0\0) {
+    .infoblock .rainbow-text {
+        background:none;
+        color: black;
     }
 }
