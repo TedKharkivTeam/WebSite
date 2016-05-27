@@ -2345,9 +2345,13 @@ th .table--img {
         line-height: 1.6rem;
     }
 
-    .infoblock p, li, td, th {
+    .infoblock p, li {
         font-size: 1.4rem;
         line-height: 1.6rem;
+    }
+
+    .infoblock th,td {
+        font-size: 1.4rem;
     }
 
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--padding {
@@ -2756,7 +2760,19 @@ th .table--img {
     }
 
     #copy-diagram {
-        padding-bottom: 90px;
+        padding-bottom: 45px;
+        margin-top: 40px;
+    }
+    .infoblock__page-2__h3_center{
+        width: 95%;
+    }
+
+    #fax-diagram {
+
+        padding-top: 30px;
+    }
+    .infoblock .left-block__bottom-p {
+        margin-bottom: 0px;
     }
 
     .infoblock .infoblock__page-6__true-2-touch {
