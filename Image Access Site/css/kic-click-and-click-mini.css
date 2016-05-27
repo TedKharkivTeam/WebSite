@@ -1707,7 +1707,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .smart-dock__tree-img {
         width: 100%;
-        position: initial;
+        position: static;
     }
 
     .tree-img__inline {
@@ -1953,7 +1953,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     .infoblock .center__text--padding {
-        margin-top: 20px;
+        margin-top: -20px;
     }
 }
 
@@ -2286,7 +2286,7 @@ h3.true2_label.move {
         padding: 30px 3px;
     }
 
-    img.infoblock__page-6__image-hand {
+    #KIC_Click_and_Mini_True_2_Touch_User_Interface img.infoblock__page-6__image-hand {
         margin-top: 100px;
     }
 }
@@ -2678,6 +2678,10 @@ figcaption {
     .infoblock .rainbow-text {
         background: none;
         color: black;
+    }
+
+    .smart-dock__tree-img {
+        margin-top: -15%;
     }
 }
 
