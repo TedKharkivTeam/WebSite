@@ -2270,6 +2270,25 @@ h3.true2_label.move {
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
         height: 203px;
     }
+
+    .infoblock .images--hand {
+        width: 35%;
+        padding: 10px 3px;
+        box-sizing: content-box;
+    }
+
+    #copy-diagram {
+        padding: 45px 2px;
+        box-sizing: content-box;
+    }
+
+    #fax-diagram {
+        padding: 30px 3px;
+    }
+
+    img.infoblock__page-6__image-hand {
+        margin-top: 100px;
+    }
 }
 
 h2.label2.with-subh.resize {
