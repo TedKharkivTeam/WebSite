@@ -20,10 +20,13 @@
 .content-holder {
     position: relative;
     width: 100%;
-    overflow: hidden;
     margin-bottom: 10px;
 }
-
+.content-holder:after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .infoblock .common-header-h2 {
     color: #000;
     font-size: 3.6rem;
@@ -1535,6 +1538,22 @@
     .infoblock .middle-content__photo {
         padding-top: 11%;
     }
+
+    .infoblock .true-2-touch-wrapper__save-to-usb-image {
+        padding-top: 15%;
+    }
+
+    .common-header-h2--bottom {
+        margin-top: -60px!important;
+    }
+
+    .infoblock .column__text-p {
+        padding: 10px 0;
+    }
+
+    .infoblock .blue-bullet--tech-details-list {
+        margin: 0 0 0 10%;
+    }
 }
 
 @media all and (max-width: 1580px) and (min-width: 1399px) {
@@ -1766,25 +1785,31 @@
     }
 
 }
+
 @media all and ( max-width: 1400px) {
     .transform {
-         -webkit-transform: translateY(0);
+        -webkit-transform: translateY(0);
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
         transform: translateY(0);
     }
+
     .infoblock .middle-content__photo {
         padding-top: 1%;
     }
+
 }
-@media all and (max-width: 1300px){
+
+@media all and (max-width: 1300px) {
     .infoblock .content-holder__text-p {
         margin-top: -20px;
     }
+
     .infoblock .text-section__centered-text--with-margin {
         padding-top: 50px;
     }
+
     .infoblock .blue-bullet--tech-details-list {
         margin: 10px 0 0 10%;
     }
