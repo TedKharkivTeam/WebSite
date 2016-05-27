@@ -203,7 +203,7 @@
     padding: 40px 0 0 0;
 }
 
-@media all and (max-width: 1770px){
+@media all and (max-width: 1770px) {
     .infoblock__page-11__for-study-p {
         margin-top: -117px;
         margin-right: 11%;
@@ -220,29 +220,37 @@
     }
 }
 
-@media all and (max-width: 1590px){
+@media all and (max-width: 1590px) {
     .infoblock__page-11__for-study-p {
         margin-top: -113px;
         margin-right: 2%;
     }
 }
 
-@media all and (max-width: 1488px){
+@media all and (max-width: 1488px) {
     .infoblock__page-11__for-study-p {
         width: 120px;
         float: right;
         margin-top: 5%;
 
     }
+
+    .infoblock__page-11-content-p {
+        padding: 10px 0;
+    }
+
+    .infoblock .personal-document {
+        padding: 10px 0 0 0;
+    }
 }
 
-@media all and (max-width: 1370px){
+@media all and (max-width: 1370px) {
     .infoblock__page-11-content-p {
         padding: 6px 0;
 
     }
 
-    .infoblock p{
+    .infoblock p {
         font-size: 1.4rem;
     }
 
@@ -251,9 +259,13 @@
         padding-top: 53px;
 
     }
+    .brochure-subtitle-center {
+        font-size: 2.1rem;
+        line-height: 2.3rem;
+    }
 }
 
-@media all and (max-width:1250px){
+@media all and (max-width: 1250px) {
     .infoblock__page-11__for-study-p {
         width: 111px;
     }
