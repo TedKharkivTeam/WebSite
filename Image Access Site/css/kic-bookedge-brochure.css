@@ -1917,7 +1917,16 @@
         margin-top: -285px;
     }
 
+}
 
+@media all and (max-width: 1050px){
+    .infoblock .bg-image__text--left-top {
+        top: -400px;
+    }
+
+    .infoblock .blue-bullet--tech-details-list {
+        margin: 13px 0 0 10%;
+    }
 }
 /* tablets */
 @media (max-width: 941px) {
