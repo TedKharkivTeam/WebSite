@@ -5,12 +5,11 @@
     padding: 0 5px 5px 0;
 }
 
-.relative{
+.relative {
     position: relative;
-    float:right;
+    float: right;
     width: 30%;
 }
-
 
 .infoblock .blue-bullet li {
     line-height: 2.4rem;
@@ -75,11 +74,13 @@
     margin-top: 30px;
     font-weight: normal;
 }
-.common-header-h2--big-logo-text:after{
+
+.common-header-h2--big-logo-text:after {
     content: '';
     display: table;
     clear: both;
 }
+
 .infoblock .big-logo-text__sub-header {
     font-size: 2.2rem;
     line-height: 2.4rem;
@@ -127,6 +128,7 @@
     margin-left: 3%;
     position: relative;
     top: -567px;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
 }
 
 .infoblock .bg-image__text--left-middle {
@@ -226,7 +228,7 @@
 .infoblock .triangular-hand__image {
     float: left;
     width: 30%;
-    margin: 25px 2%;
+    margin: 0 2%;
 }
 
 /* PAGE 3 ******************************************************************************************************* */
@@ -345,6 +347,7 @@
 
 .infoblock .column__section {
     text-align: left;
+    padding: 0 15px;
 }
 
 .infoblock .section__section-header {
@@ -723,7 +726,7 @@
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
 
     bottom: -121px;
-    left: 0px;
+    left: 0;
     background-size: contain;
     width: 91%;
     height: 130px;
@@ -981,7 +984,7 @@
 }
 
 .infoblock .column__text-p {
-    padding: 35.5px 0;
+    padding: 35px 0;
 }
 
 .infoblock .column__enhance-reports-image {
@@ -1448,41 +1451,63 @@
     line-height: 2.2rem;
 }
 
-
-
 /* ************************************************************************************************************** */
-@media all and (max-width: 1700px) and (min-width: 1399px){
+@media all and (max-width: 1700px) {
+    .infoblock .true-2-touch-wrapper__display-screens-text {
+        font-family: 'LatoItalic', sans-serif, helvetica, arial;
+        text-align: justify;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        width: 48%;
+        margin: 20px 0 0 10%;
+    }
+
+    .infoblock .text-section__centered-text--with-margin {
+        padding-top: 30px;
+    }
+}
+
+@media all and (max-width: 1700px) and (min-width: 1399px) {
     .infoblock .big-logo-text__sub-header {
         margin-top: -90px;
     }
-    .infoblock .bg-image__text--left-middle{
+
+    .infoblock .bg-image__text--left-middle {
         top: -280px;
     }
-    .infoblock .bg-image__text--left{
-       top: -200px;
+
+    .infoblock .bg-image__text--left {
+        top: -200px;
     }
 
     .infoblock .section__left-image-text {
         margin-top: -236px;
-        margin-left: 0%;
+        margin-left: 0;
     }
-    .infoblock .block__sub-block--third{
+
+    .infoblock .block__sub-block--third {
         margin-top: -250px;
     }
 
 }
-@media all and (max-width: 1600px){
-    .infoblock .for-public-libraries-section__sub-header{
+
+@media all and (max-width: 1600px) {
+    .infoblock .for-public-libraries-section__sub-header {
         margin-left: 1%;
     }
-    .infoblock .for-public-libraries-section__touching-copy-text{
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
         margin-top: -338px;
+    }
+
+    .infoblock .section__left-image-text {
+        margin-left: -3%;
     }
 
 }
 
-@media all and (max-width: 1470px){
-    .section__left-image-text br{
+@media all and (max-width: 1470px) {
+    .section__left-image-text br {
         display: none;
     }
 
@@ -1490,32 +1515,55 @@
 
         width: 30%;
     }
+
+    .transform {
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .infoblock .text-section__centered-text--with-padding {
+        padding-top: 36px;
+    }
+
+    .infoblock .text-section__centered-text--with-margin {
+        padding-top: 0;
+    }
+
+    .infoblock .middle-content__photo {
+        padding-top: 11%;
+    }
 }
 
-@media all and (max-width: 1580px) and (min-width: 1399px){
+@media all and (max-width: 1580px) and (min-width: 1399px) {
     .infoblock .common-header-h2--big-logo-text {
         margin-right: 8%;
     }
 }
 
-@media all and (max-width: 1495px) and (min-width: 1399px){
-    .infoblock .big-logo-text__sub-header{
+@media all and (max-width: 1495px) and (min-width: 1399px) {
+    .infoblock .big-logo-text__sub-header {
         padding-right: 0;
     }
-    .infoblock .common-header-h2--big-logo-text{
+
+    .infoblock .common-header-h2--big-logo-text {
         margin-right: 3%;
     }
-    .infoblock .bg-image__text--left{
+
+    .infoblock .bg-image__text--left {
         top: -170px;
     }
+
     .infoblock .big-logo-text__sub-header {
         margin-top: -63px;
     }
+
     .infoblock .bg-image__text--left-middle {
         top: -289px;
     }
 }
-
 
 /* 1280, 1366 */
 @media all and (min-width: 1200px) and (max-width: 1399px) {
@@ -1538,9 +1586,10 @@
         top: -228px;
     }
 
-    .infoblock .block__sub-block--third{
+    .infoblock .block__sub-block--third {
         margin-top: -200px;
     }
+
     .infoblock .bg-image__text--left {
         top: -180px;
     }
@@ -1553,7 +1602,7 @@
 
     .infoblock .section__left-image-text {
         padding-bottom: 115px;
-        margin-left: 0%;
+        margin-left: 0;
         margin-bottom: -6%;
     }
 
@@ -1565,12 +1614,11 @@
         margin-left: 48%;
     }
 
-    .infoblock .triangle-pointer--3{
+    .infoblock .triangle-pointer--3 {
 
         padding-left: 40%;
 
     }
-
 
     .infoblock .content-holder__text-section--smart-dock {
         margin-top: -135px;
@@ -1601,8 +1649,6 @@
     .infoblock .for-public-libraries-section__touching-fax-text {
         margin-top: 20px;
     }
-
-
 
     .infoblock .for-public-libraries-section__sub-header {
         padding-bottom: 10px;
@@ -1699,7 +1745,6 @@
         padding: 10px 0;
     }
 
-
     .infoblock .triangular-copy__image {
         margin: 52px 2%;
     }
@@ -1710,8 +1755,8 @@
 
 }
 
-@media all and (max-width: 1312px) and (min-width: 1200px){
-    .infoblock .common-header-h2--big-logo-text{
+@media all and (max-width: 1312px) and (min-width: 1200px) {
+    .infoblock .common-header-h2--big-logo-text {
         margin-right: 5%;
         margin-top: 15px;
     }
@@ -1721,12 +1766,36 @@
     }
 
 }
+@media all and ( max-width: 1400px) {
+    .transform {
+         -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .infoblock .middle-content__photo {
+        padding-top: 1%;
+    }
+}
+@media all and (max-width: 1300px){
+    .infoblock .content-holder__text-p {
+        margin-top: -20px;
+    }
+    .infoblock .text-section__centered-text--with-margin {
+        padding-top: 50px;
+    }
+    .infoblock .blue-bullet--tech-details-list {
+        margin: 10px 0 0 10%;
+    }
+}
 
 /* 1024 */
 @media (max-width: 1199px) {
     html {
         font-size: 50%;
     }
+
     .infoblock .block__sub-block--third {
         margin-top: -170px;
     }
@@ -1770,8 +1839,6 @@
         margin-left: 48%;
     }
 
-
-
     .infoblock .content-holder__text-section--smart-dock {
         margin-top: -135px;
         padding-left: 48%;
@@ -1796,12 +1863,9 @@
         margin-top: 0;
     }
 
-    .infoblock .triangle-pointer{
+    .infoblock .triangle-pointer {
         margin-top: 4%;
     }
-
-
-
 
     .infoblock .for-public-libraries-section__sub-header {
         padding-bottom: 10px;
@@ -1812,7 +1876,6 @@
         left: 40px;
         width: 85%;
     }
-
 
     .infoblock .reservation-app-wrapper__two-tels-section {
         padding-top: 68px;
@@ -1890,8 +1953,6 @@
         padding: 10px 0;
     }
 
-
-
     .infoblock .section__scan-large-maps-header {
         font-size: 2rem;
         line-height: 2rem;
@@ -1911,15 +1972,14 @@
     }
 }
 
-
-@media all and (max-width: 1135px){
+@media all and (max-width: 1135px) {
     .infoblock .for-public-libraries-section__touching-copy-text {
         margin-top: -285px;
     }
 
 }
 
-@media all and (max-width: 1050px){
+@media all and (max-width: 1050px) {
     .infoblock .bg-image__text--left-top {
         top: -400px;
     }
@@ -1928,6 +1988,7 @@
         margin: 13px 0 0 10%;
     }
 }
+
 /* tablets */
 @media (max-width: 941px) {
 
@@ -1939,9 +2000,10 @@
 
 }
 
-@media screen and (min-width: 0\0) {
-    .infoblock .common-header-h3--rainbow{
-        background:none;
+@media screen and (min-width: 0\0
+) {
+    .infoblock .common-header-h3--rainbow {
+        background: none;
         color: black;
     }
 }

@@ -1037,12 +1037,15 @@ h4 {
     text-align: left;
     padding-left: 15%;
 }
-.wrapper__step--down{
+
+.wrapper__step--down {
     margin-bottom: -15px;
 }
-.padding--top{
-    padding-top:10px;
+
+.padding--top {
+    padding-top: 10px;
 }
+
 /*end of new image*/
 @media all and (max-width: 1725px) {
     .top-title__send {
@@ -1108,6 +1111,23 @@ h4 {
     .two-step--inline {
         padding-top: 20px;
     }
+
+    .wrapper__step {
+        padding-left: 11%;
+        padding-bottom: 7px;
+    }
+
+    .seven-step__h3 {
+        font-size: 2.8rem;
+        padding-right: 8px;
+    }
+
+    .infoblock .seven-step__text {
+        font-size: 2rem;
+    }
+    .line__persent1:after {
+        right: -58px;
+    }
 }
 
 @media all and (max-width: 1400px) {
@@ -1115,21 +1135,30 @@ h4 {
         width: 22%;
         height: 90%;
     }
+
     .wrapper__step {
         text-align: left;
         padding-left: 10%;
     }
+
     .seven-step__scan {
         margin-top: -20px;
     }
+
     .seven-step__h3 {
         font-size: 2.6rem;
     }
+
     .infoblock .seven-step__text {
         font-size: 2rem;
     }
+
     .page3__inline {
         width: 90%;
+    }
+
+    .padding--top {
+        text-align: center;
     }
 
     .seven-step__scan {
@@ -1189,9 +1218,24 @@ h4 {
     .top-title__send {
         right: -10px;
     }
+
     .two-step:before {
         width: 95px;
         height: 56px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .table .table--ta-left {
+        padding-right: 2px;
+    }
+
+    .table__arow:after {
+        right: 25px;
+    }
+
+    .top-title__send {
+        right: -30px;
     }
 }
 
@@ -1209,20 +1253,25 @@ h4 {
         right: -20px;
         font-size: 2.6rem;
     }
+
     .seven-step__h3 {
         font-size: 2.3rem;
     }
+
     .infoblock .seven-step__text {
         font-size: 1.9rem;
         line-height: 2.1rem;
     }
+
     .infoblock .woman_abs {
         height: 69%;
         top: 31%;
     }
+
     .seven-step--border {
         padding-bottom: 20px;
     }
+
     .method2:before {
         font-size: 2.3rem;
         top: -10px;
@@ -1230,6 +1279,7 @@ h4 {
         height: 120px;
         background-size: auto;
     }
+
     .method1:before {
         font-size: 2.3rem;
         top: -10px;
