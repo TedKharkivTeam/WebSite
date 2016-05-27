@@ -1814,7 +1814,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock .nav__li {
         width: 32%;
-        margin-top: -2%;
+        margin-top: 2%;
     }
 
     .infoblock .true2_block_3 {
@@ -2242,7 +2242,8 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
-        padding-top: 110px;
+        padding-top: 60px;
+        width: 67%;
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__scanner-other {
@@ -2439,7 +2440,6 @@ img.infoblock__page-6__image-hand {
 .infoblock__page-6__left-block {
     float: right;
     width: 50%;
-    margin-top: -25px;
     clear: both;
 }
 
