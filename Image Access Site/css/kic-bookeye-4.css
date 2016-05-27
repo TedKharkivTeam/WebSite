@@ -2707,6 +2707,13 @@ th .table--img {
         width: 50%;
     }
 
+    img.repeat-img {
+        position: absolute;
+        width: 7%;
+        left: 93%;
+        bottom: -16%;
+    }
+
     .infoblock .infoblock__page-11__in-case-scan-artwork {
         width: 75%;
         margin: 26px auto;
