@@ -1157,11 +1157,12 @@ h4 {
 
     .method1:before {
         left: -143px;
+        font-size: 2.6rem;
     }
 
     .method2:before {
         left: -143px;
-
+        font-size: 2.6rem;
     }
 
     .two-step:after {
@@ -1206,6 +1207,7 @@ h4 {
 
     .top-title__send {
         right: -20px;
+        font-size: 2.6rem;
     }
     .seven-step__h3 {
         font-size: 2.3rem;
@@ -1213,5 +1215,26 @@ h4 {
     .infoblock .seven-step__text {
         font-size: 1.9rem;
         line-height: 2.1rem;
+    }
+    .infoblock .woman_abs {
+        height: 69%;
+        top: 31%;
+    }
+    .seven-step--border {
+        padding-bottom: 20px;
+    }
+    .method2:before {
+        font-size: 2.3rem;
+        top: -10px;
+        width: 146px;
+        height: 120px;
+        background-size: auto;
+    }
+    .method1:before {
+        font-size: 2.3rem;
+        top: -10px;
+        background-size: auto;
+        width: 153px;
+        height: 139px;
     }
 }

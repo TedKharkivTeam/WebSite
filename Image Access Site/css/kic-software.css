@@ -2149,6 +2149,9 @@ table.table__footer td {
         line-height: 3.5rem;
         margin-top: 6%;
     }
+    p.infoblock__page-9__center__text.infoblock__page-9__center__text--padding.resize-fleet-paragraph {
+        padding-bottom: 3px;
+    }
 }
 
 @media all and (max-width: 1125px) and (min-width: 1024px) {
