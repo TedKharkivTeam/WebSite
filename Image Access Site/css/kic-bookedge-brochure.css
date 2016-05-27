@@ -22,11 +22,13 @@
     width: 100%;
     margin-bottom: 10px;
 }
-.content-holder:after{
+
+.content-holder:after {
     content: '';
     display: table;
     clear: both;
 }
+
 .infoblock .common-header-h2 {
     color: #000;
     font-size: 3.6rem;
@@ -1544,7 +1546,7 @@
     }
 
     .common-header-h2--bottom {
-        margin-top: -60px!important;
+        margin-top: -60px !important;
     }
 
     .infoblock .column__text-p {
@@ -1553,6 +1555,10 @@
 
     .infoblock .blue-bullet--tech-details-list {
         margin: 0 0 0 10%;
+    }
+
+    .common-header-h2--bottom-2 {
+        margin-top: -20px !important;
     }
 }
 
@@ -1581,6 +1587,20 @@
 
     .infoblock .bg-image__text--left-middle {
         top: -289px;
+    }
+
+    .infoblock .for-public-libraries-section__header {
+        font-size: 3.1rem;
+    }
+
+    .infoblock .for-public-libraries-section__sub-header {
+        font-size: 2.1rem;
+    }
+    .infoblock .content-holder__text-section--smart-dock {
+        margin-top: -140px;
+    }
+    .infoblock .content-holder__text-p {
+         padding-top: 0;
     }
 }
 
@@ -1645,7 +1665,7 @@
     }
 
     .infoblock .content-holder__text-p {
-        margin-top: 40px;
+        margin-top: -40px;
         margin-bottom: 0;
         margin-left: 5%;
         width: 35%;
@@ -1705,11 +1725,13 @@
     }
 
     .infoblock .text-section__centered-text--with-padding {
-        padding-top: 12px;
+        padding-top: 40px;
+        line-height: 1.3;
     }
 
     .infoblock .text-section__centered-text--with-margin {
-        padding-top: 82px;
+        padding-top: 12px;
+        line-height: 1.3;
     }
 
     .infoblock .column__text-p {
@@ -1717,7 +1739,7 @@
     }
 
     .infoblock .column__scan-large-maps-image {
-        margin: 14px auto 0 0;
+        margin: 0 auto;
     }
 
     .infoblock .common-header-h2 {
@@ -1807,11 +1829,14 @@
     }
 
     .infoblock .text-section__centered-text--with-margin {
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     .infoblock .blue-bullet--tech-details-list {
         margin: 10px 0 0 10%;
+    }
+    .infoblock .true-2-touch-wrapper__save-to-usb-image {
+        padding-top: 5%;
     }
 }
 
@@ -1870,7 +1895,7 @@
     }
 
     .infoblock .content-holder__text-p {
-        margin-top: 15px;
+        margin-top: 0;
         margin-left: 8%;
         width: 35%;
     }
@@ -1931,16 +1956,8 @@
         padding-top: 25px;
     }
 
-    .infoblock .text-section__centered-text--with-margin {
-        padding-top: 56px;
-    }
-
     .infoblock .column__text-p {
         padding: 10px 0;
-    }
-
-    .infoblock .column__scan-large-maps-image {
-        margin: 14px auto 0 0;
     }
 
     .infoblock .common-header-h2 {
@@ -2001,6 +2018,9 @@
     .infoblock .for-public-libraries-section__touching-copy-text {
         margin-top: -285px;
     }
+    .infoblock .text-section__centered-text--with-margin {
+        padding-top: 30px;
+    }
 
 }
 
@@ -2011,6 +2031,9 @@
 
     .infoblock .blue-bullet--tech-details-list {
         margin: 13px 0 0 10%;
+    }
+    .infoblock .content-holder__text-p {
+        margin-top: -30px;
     }
 }
 
