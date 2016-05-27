@@ -971,8 +971,8 @@ p.click_click_mini.brochure-overflow--line {
 
 .infoblock .brochure-overflow--top {
     margin-top: 30px;
-    font-size: 7rem;
-    line-height: 7.2rem;
+    font-size: 6.5rem;
+    line-height: 6.7rem;
     font-family: 'LilyUPC', Arial, sans-serif;
     margin-left: 470px;
 }
@@ -2242,7 +2242,19 @@ h3.true2_label.move {
     p.click_click_mini.brochure-overflow--line {
         margin-left: 55px;
         width: 50%;
+        margin-top: -20px;
         text-align: center;
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+
+    p.infoblock__page-6__under-text {
+        bottom: -6%;
+        left: 11%;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
+        height: 203px;
     }
 }
 
