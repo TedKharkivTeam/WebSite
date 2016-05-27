@@ -2748,7 +2748,7 @@ th .table--img {
 
 
     .infoblock .images--hand {
-        padding-bottom: 30px;
+        width: 38%;
     }
 
     #hand-with-yellow-coin {
@@ -2764,7 +2764,7 @@ th .table--img {
         margin-top: 40px;
     }
 
-    .two-step--w1__text{
+     .infoblock .two-step--w1__text{
         font-size: 1.1rem;
     }
     .infoblock__page-2__h3_center{
