@@ -2760,8 +2760,12 @@ th .table--img {
     }
 
     #copy-diagram {
-        padding-bottom: 45px;
+        padding-bottom: 55px;
         margin-top: 40px;
+    }
+
+    .two-step--w1__text{
+        font-size: 1.1rem;
     }
     .infoblock__page-2__h3_center{
         width: 95%;
