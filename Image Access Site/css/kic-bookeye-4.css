@@ -12,6 +12,10 @@
     margin-top: 0;
 }
 
+.margin--bot{
+    margin-bottom: 0;
+}
+
 .position-relative {
     position: relative;
 }
@@ -834,6 +838,8 @@ div .infoblock__page-7__text-right2 {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     margin-left: 1%;
 }
+
+
 
 div .infoblock__page-7__text-right {
     width: 65%;
@@ -1712,8 +1718,6 @@ h2.pod-text {
     padding-bottom: 10px;
 }
 
-
-
 /* 14 page*/
 .infoblock .sitalic {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
@@ -2350,7 +2354,7 @@ th .table--img {
         line-height: 1.6rem;
     }
 
-    .infoblock th,td {
+    .infoblock th, td {
         font-size: 1.4rem;
     }
 
@@ -2707,6 +2711,14 @@ th .table--img {
         width: 50%;
     }
 
+
+    div .infoblock__page-7__text-right2 {
+        margin-bottom: 0;
+    }
+    .bottom-block_padding-border {
+        width: 60%;
+    }
+
     img.repeat-img {
         position: absolute;
         width: 7%;
@@ -2724,11 +2736,12 @@ th .table--img {
         margin: 0 auto;
     }
 
-    .bscan-ill--h4{
+    .bscan-ill--h4 {
         font-size: 1.8rem;
         line-height: 2rem;
     }
-    .infoblock__page-13-2__ul{
+
+    .infoblock__page-13-2__ul {
         margin-top: 7px;
     }
 
@@ -2737,7 +2750,7 @@ th .table--img {
         margin-top: 100px;
     }
 
-    .infoblock .infoblock__page-9__nav__li{
+    .infoblock .infoblock__page-9__nav__li {
         margin-top: -20px;
     }
 
@@ -2752,7 +2765,6 @@ th .table--img {
     .infoblock__page-11-content-p {
         padding: 0;
     }
-
 
     .infoblock .images--hand {
         width: 38%;
@@ -2771,10 +2783,11 @@ th .table--img {
         margin-top: 40px;
     }
 
-     .infoblock .two-step--w1__text{
+    .infoblock .two-step--w1__text {
         font-size: 1.1rem;
     }
-    .infoblock__page-2__h3_center{
+
+    .infoblock__page-2__h3_center {
         width: 95%;
     }
 
@@ -2782,6 +2795,7 @@ th .table--img {
 
         padding-top: 30px;
     }
+
     .infoblock .left-block__bottom-p {
         margin-bottom: 0px;
     }
@@ -2790,7 +2804,7 @@ th .table--img {
         margin-bottom: 20px;
     }
 
-    .infoblock .infoblock__page-6__scanner-other{
+    .infoblock .infoblock__page-6__scanner-other {
         width: 50%;
         margin-top: 30px;
         margin-right: 0;
@@ -3223,7 +3237,45 @@ th .table--img {
 
 @media (max-width: 1280px) {
     #copy-diagram {
-        padding-bottom: 105px;
+        padding-bottom: 75px;
+    }
+
+    .infoblock__page-12__double-wrap figure figcaption {
+        width: 79%;
+        margin-left: 11%;
+    }
+
+    .infoblock .images--hand {
+        padding-bottom: 20px;
+    }
+
+    .infoblock .infoblock__page-3__block-title {
+        font-size: 2rem;
+    }
+
+    .infoblock h3 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+        margin-top: 15px;
+    }
+
+    .infoblock .infoblock__page-7__header-3 {
+
+        width: 56%;
+
+    }
+
+    .infoblock .infoblock__page-9__top__h1 {
+        margin-top: 20px;
+    }
+
+    .infoblock__page-11__in-case-span--center {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+
+    .infoblock .two-step--w1__text {
+        font-size: 1rem;
     }
 
     .infoblock .infoblock__page-6__true-2-touch {
@@ -3259,7 +3311,8 @@ th .table--img {
     clear: both;
 }
 
-@media screen and (min-width: 0\0 ) {
+@media screen and (min-width: 0\0
+) {
     .infoblock .rainbow-text {
         background: none;
         color: black;
