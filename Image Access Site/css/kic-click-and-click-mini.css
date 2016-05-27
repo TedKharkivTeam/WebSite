@@ -2594,9 +2594,12 @@ h3.h-app {
 
 img.redsign {
     float: right;
-    width: 50%;
-    height: 50%;
-    padding: 0 0 0 20px;
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    display: block;
+    padding-right: 20px;
+    box-sizing: content-box;
 }
 
 h2.label2.resize.top-padding {
@@ -2630,5 +2633,14 @@ figcaption {
        background:none;
         color: black;
     }
+}
+
+.paragraph-pb {
+    padding-bottom: 18px !important;
+}
+
+.wrap-double-p {
+    float: left;
+    width: 50%;
 }
 
