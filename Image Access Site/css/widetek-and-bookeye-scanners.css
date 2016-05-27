@@ -1,12 +1,5 @@
 /*!* ******************** OLD AND UGLY SHIT ******************** *!*/
 
-/*.infoblock span.new {*/
-/*padding: 0;*/
-/*font-style: italic;*/
-/*display: inline-block;*/
-/*color: #f00;*/
-/*}*/
-
 /*#plugin {*/
 /*height: 100%;*/
 /*position: fixed;*/
@@ -82,6 +75,13 @@
     display: block;
 }
 
+.infoblock span.new {
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    padding: 0;
+    display: inline-block;
+    color: #f00;
+}
+
 .infoblock ul {
     padding: 0 0 10px 25px;
     list-style: disc;
@@ -113,12 +113,28 @@
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
+.text--italic {
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+}
+
 .text--blue {
     color: #093C8B;
 }
 
 .text--inline {
     display: inline !important;
+}
+
+.infoblock .money_picture {
+    float: right;
+    width: 350px;
+    margin: 5px;
+}
+
+.infoblock .money_picture--left {
+    float: left;
+    width: 380px;
+    margin: 2px;
 }
 
 /*compliance styles*/
