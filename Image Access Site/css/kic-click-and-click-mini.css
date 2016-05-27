@@ -791,8 +791,6 @@ h2.pod-text {
     }
 }
 
-
-
 .infoblock .in-case-enhance {
     width: 70%;
     height: 70%;
@@ -832,12 +830,14 @@ h2.pod-text {
     line-height: 4rem;
     padding: 0;
 }
+
 .infoblock .in-case-span--center {
     text-align: center;
     font-size: 2.4rem;
     line-height: 2.6rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
+
 .infoblock__page-11__in-case-span {
     text-align: right;
     font-size: 2rem;
@@ -1814,7 +1814,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock .nav__li {
         width: 32%;
-        margin-top: -2%;
+        margin-top: 2%;
     }
 
     .infoblock .true2_block_3 {
@@ -1862,6 +1862,7 @@ p.click_click_mini.brochure-overflow--line {
     .table__arow:before {
         left: 0;
     }
+
 }
 
 @media (max-width: 1465px) and (min-width: 1387px) {
@@ -2011,6 +2012,19 @@ p.click_click_mini.brochure-overflow--line {
 
     .reservation__h2--center {
         margin-top: 20px;
+    }
+
+    .infoblock .infoblock__page-5__seven-step--border {
+        padding: 20px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        min-height: 210px;
+    }
+    .infoblock .center__text {
+        line-height: 1.8rem;
+    }
+    .row__column {
+        min-height: 380px;
     }
 }
 
@@ -2228,7 +2242,8 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
-        padding-top: 110px;
+        padding-top: 60px;
+        width: 67%;
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__scanner-other {
@@ -2425,7 +2440,6 @@ img.infoblock__page-6__image-hand {
 .infoblock__page-6__left-block {
     float: right;
     width: 50%;
-    margin-top: -25px;
     clear: both;
 }
 
@@ -2659,9 +2673,10 @@ figcaption {
     line-height: 1.2rem;
 }
 
-@media screen and (min-width: 0\0) {
+@media screen and (min-width: 0\0
+) {
     .infoblock .rainbow-text {
-       background:none;
+        background: none;
         color: black;
     }
 
