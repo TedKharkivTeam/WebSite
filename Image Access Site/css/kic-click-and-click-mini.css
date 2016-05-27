@@ -556,7 +556,7 @@ th .table--img {
     color: #000;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -613,7 +613,7 @@ th .table--img {
     text-align: center;
     font-size: 1.6rem;
     line-height: 1.8rem;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
 }
 
 .infoblock__top {
@@ -1169,7 +1169,7 @@ p.click_click_mini.brochure-overflow--line {
 
 .top__h2 {
     text-align: left;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     font-size: larger;
     font-weight: 500;
     color: #000000;
@@ -1301,7 +1301,7 @@ p.click_click_mini.brochure-overflow--line {
 .infoblock .true2_block_3 {
     width: 30%;
     margin-left: 15%;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     padding-top: 30px;
 }
 
@@ -1337,7 +1337,7 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .infoblock .label_smart2 {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     font-size: 2rem;
     line-height: 2.2rem;
     text-align: center;
@@ -1356,8 +1356,8 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .infoblock .label_smart9 {
-    font-size: 3.6rem;
-    line-height: 3.8rem;
+    font-size: 3.4rem;
+    line-height: 3.6rem;
     margin-left: 3%;
     margin-top: 2%;
 }
@@ -1388,17 +1388,17 @@ p.click_click_mini.brochure-overflow--line {
 .infoblock .label_smart11 {
     width: 28%;
     margin-left: 36%;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     text-align: right;
     position: absolute;
-    padding-top: 2%;
+    padding-top: 3%;
 }
 
 .infoblock .label_smart12 {
     width: 19%;
     margin-left: 35%;
-    margin-top: 21%;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    margin-top: 23%;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     text-align: right;
 }
 
@@ -1406,7 +1406,7 @@ p.click_click_mini.brochure-overflow--line {
     width: 30%;
     margin-left: 6%;
     margin-top: -8%;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     text-align: left;
 }
 
@@ -1692,7 +1692,7 @@ p.click_click_mini.brochure-overflow--line {
     .infoblock .true2_block_3 {
         width: 40%;
         margin-left: 12%;
-        font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+        font-family: 'LatoItalic', helvetica, arial, sans-serif;
 
     }
 
@@ -1897,7 +1897,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     .infoblock__page-3-italic-label {
-        font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+        font-family: 'LatoItalic', helvetica, arial, sans-serif;
         font-size: 1.8rem;
         line-height: 2rem;
         text-align: center;
@@ -2475,7 +2475,7 @@ img.infoblock__page-6.scanner-picture {
 
 .infoblock .triangle-pointer {
     font-size: 5rem;
-    line-height: 5rem;
+    line-height: 3rem;
     color: gray;
     display: block;
 }
@@ -2493,7 +2493,7 @@ h3.reservation__h2.reservation__h2--center.resize {
     color: #000;
     font-size: 2.6rem;
     line-height: 2.8rem;
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
     margin: 0;
 }
 
@@ -2526,7 +2526,7 @@ h3.reservation__h2.reservation__h2--center.move {
     line-height: 2.7rem;
     margin-top: auto;
     letter-spacing: 0;
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     font-weight: normal;
 }
 
