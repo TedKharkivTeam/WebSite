@@ -2200,7 +2200,8 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
-        padding-top: 110px;
+        padding-top: 110px !important;
+        width: 60% !important;
     }
 
     .infoblock .brochure-overflow--top {
@@ -2233,6 +2234,54 @@ h3.true2_label.move {
     .infoblock .infoblock__page-11__in-case-scan-map {
         height: 158px;
         padding-left: 10px;
+    }
+
+    #KIC_Click_and_KIC_Click_Mini p.click_click_mini.brochure-overflow--line {
+        margin-left: 40px;
+        width: auto;
+        font-size: 2.7rem;
+        line-height: 2.9rem;
+    }
+
+    .infoblock .infoblock__page-6__true-2-touch {
+        padding-bottom: 30px;
+    }
+
+    #KIC_Click_and_Mini_True_2_Touch_User_Interface .overflow_hidden .infoblock__page-6__image-hand {
+        margin-top: 140px;
+    }
+
+    ul.smart-dock__tree-img {
+        margin-top: -17%;
+    }
+
+    figcaption.move {
+        margin-left: -35px;
+    }
+
+    .infoblock .label_smart9 {
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+    }
+
+    h3.reservation__h2.reservation__h2--center.move {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+    }
+
+    span.italic-font.resize-app {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    ul.nav__li.blue-bullet {
+        margin-top: 60px;
+    }
+
+    .infoblock__double-wrap figure figcaption {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
     }
 }
 
