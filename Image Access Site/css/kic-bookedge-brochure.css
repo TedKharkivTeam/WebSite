@@ -723,7 +723,7 @@
     background: url("../images/brochure-pictures/arrows.png") no-repeat;
 
     bottom: -121px;
-    left: 0px;
+    left: 0;
     background-size: contain;
     width: 91%;
     height: 130px;
@@ -734,7 +734,7 @@
     width: 31%;
     display: inline-block;
     font-size: 1.6rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     padding: 0 5px;
 }
 
@@ -743,7 +743,7 @@
     display: inline-block;
     vertical-align: top;
     font-size: 1.6rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .reservation-app-wrapper__two-tels-section {
@@ -758,7 +758,7 @@
     width: 45%;
     text-align: center;
     font-size: 1.6rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
@@ -795,14 +795,14 @@
     color: #000;
     text-shadow: none;
     font-size: 2.5rem;
-    line-height: 3rem;
+    line-height: 2.7rem;
 }
 
 .infoblock .header-section__sub-header {
     text-align: center;
     color: #8ca1c9;
     font-size: 2.5rem;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
     text-transform: uppercase;
     padding: 0;
     margin-top: 5px;
@@ -926,14 +926,14 @@
     width: 90%;
     margin: 0 auto;
     font-size: 1.6rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .pod-section__text-p {
     width: 95%;
     margin: 10px auto;
     font-size: 1.9rem;
-    line-height: 1.9rem;
+    line-height: 2.1rem;
 }
 
 /* PAGE 10 ****************************************************************************************************** */
@@ -954,7 +954,7 @@
 
 .infoblock .in-case-you-didnt-know-wrapper__header {
     font-size: 3.8rem;
-    line-height: 3.8rem;
+    line-height: 4rem;
     padding: 0;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
@@ -962,12 +962,13 @@
 .infoblock .in-case-you-didnt-know-wrapper__sub-header {
     text-align: right;
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .section__section-header--ICYDK {
     font-size: 2.4rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: center;
     padding: 5px 0;
@@ -975,7 +976,7 @@
 
 .infoblock .section__section-header--book-excerpts {
     font-size: 1.6rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: left;
 }
@@ -1070,7 +1071,7 @@
 .infoblock .adf-attachment-figure__description {
     text-align: center;
     font-size: 1.4rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     margin-bottom: 5px;
 }
 
@@ -1107,7 +1108,7 @@
     text-align: center;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 1.4rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     padding: 5px 0;
 }
 
@@ -1227,7 +1228,7 @@
 .infoblock .common-row--tech-details__row-header {
     text-align: center;
     font-size: 1.3rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
@@ -1245,11 +1246,11 @@
 }
 
 .infoblock .column__small-header {
-    font-size: 11px;
+    font-size: 1.1rem;
     margin-top: 5px;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
-    line-height: 1.2;
+    line-height: 1.3rem;
     padding: 0;
 }
 
@@ -1278,7 +1279,7 @@
 .infoblock .kic-sub-table__th--align-left {
     text-align: right;
     font-size: 1.2rem;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     padding-right: 2rem;
     width: 180px;
 }
@@ -1381,6 +1382,7 @@
 .infoblock .th__bold-line {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 3.3rem;
+    line-height: 3.5rem;
 }
 
 .infoblock .th__dollar {
@@ -1389,18 +1391,22 @@
 
 .infoblock .th__dollar--mini {
     font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .infoblock .th__dollar--middle {
     font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .infoblock .th__dollar--big {
     font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .infoblock .th__dollar--huge {
     font-size: 2.8rem;
+    line-height: 3rem;
 }
 
 .infoblock .p__table-star {
@@ -1525,7 +1531,7 @@
 
     .infoblock .big-logo-text__sub-header {
         font-size: 2.2rem;
-        line-height: 2.2rem;
+        line-height: 2.4rem;
         margin-top: -85px;
         padding-right: 0;
     }
@@ -1629,13 +1635,13 @@
 
     .infoblock .header-section__header {
         font-size: 5rem;
-        line-height: 5rem;
+        line-height: 5.2rem;
         margin-top: 15px;
     }
 
     .infoblock .header-section__sub-header {
         font-size: 2.2rem;
-        line-height: 2.2rem;
+        line-height: 2.4rem;
         margin-top: 10px;
     }
 
@@ -1649,10 +1655,6 @@
 
     .infoblock .column__text-p {
         padding: 16px 0;
-    }
-
-    .infoblock .column__scan-large-maps-image {
-        margin: 14px auto 0 0;
     }
 
     .infoblock .common-header-h2 {
@@ -1733,7 +1735,7 @@
 
     .infoblock .big-logo-text__sub-header {
         font-size: 2.2rem;
-        line-height: 2.2rem;
+        line-height: 2.4rem;
         margin-top: -60px;
         padding-right: 0;
     }
@@ -1829,13 +1831,13 @@
 
     .infoblock .header-section__header {
         font-size: 5rem;
-        line-height: 5rem;
+        line-height: 5.2rem;
         margin-top: 15px;
     }
 
     .infoblock .header-section__sub-header {
         font-size: 2.2rem;
-        line-height: 2.2rem;
+        line-height: 2.4rem;
         margin-top: 10px;
     }
 
@@ -1894,7 +1896,7 @@
 
     .infoblock .section__scan-large-maps-header {
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 2.2rem;
     }
 
     .infoblock .column__enhance-reports-image {
@@ -1911,13 +1913,37 @@
     }
 }
 
+@media (max-width: 1280px) {
+    #KIC_BookEdge_SmartDock .content-holder__for-public-libraries-section .for-public-libraries-section__touching-copy-text {
+        margin-top: -280px;
+    }
+
+    .infoblock .column__scan-artwork-image {
+        width: 77%;
+    }
+
+    #KIC_BookEdge_SmartDock .content-holder__for-public-libraries-section .column__scan-large-maps-image {
+        width: 75%;
+    }
+
+    #KIC_BookEdge_In_Case_You_Didnt_Know .column__scan-large-maps-image {
+        width: 87%;
+    }
+
+    #KIC_BookEdge_In_Case_You_Didnt_Know .column__text-p {
+        padding: 15px 0;
+    }
+
+    #KIC_BookEdge_In_Case_You_Didnt_Know .in-case-you-didnt-know-wrapper__text-p {
+        margin-right: 2%;
+        padding-top: 40px;
+    }
+}
 
 @media all and (max-width: 1135px){
     .infoblock .for-public-libraries-section__touching-copy-text {
         margin-top: -285px;
     }
-
-
 }
 /* tablets */
 @media (max-width: 941px) {
@@ -1930,9 +1956,60 @@
 
 }
 
+@media (max-width: 1680px) {
+    .infoblock .triangular-hand__image {
+        width: 15%;
+        margin: 0 25px 2%;
+    }
+
+    .infoblock .true-2-touch-wrapper__display-screens-text {
+        margin: 20px 0 0 10%;
+    }
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -350px;
+    }
+
+    .infoblock .column__text-p {
+        padding: 20px 0;
+    }
+
+    .infoblock .in-case-you-didnt-know-wrapper__text-p {
+        margin-right: 12%;
+    }
+
+    .infoblock .many-articles-section__triangular-scan {
+        margin: 0 2%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -290px;
+    }
+
+    .infoblock .column__personal-and-family-documents-image {
+        width: 80%;
+    }
+}
+
 @media screen and (min-width: 0\0) {
     .infoblock .common-header-h3--rainbow{
         background:none;
         color: black;
     }
+}
+
+@media (max-width: 1024px) {
+    #KIC_BookEdge_In_Case_You_Didnt_Know .column__scan-artwork-image {
+        width: 106%;
+    }
+
+    #KIC_BookEdge_In_Case_You_Didnt_Know .column__scan-large-maps-image {
+        margin: 0 auto;
+    }
+}
+
+.with-italic {
+    padding-bottom: 0 !important;
 }

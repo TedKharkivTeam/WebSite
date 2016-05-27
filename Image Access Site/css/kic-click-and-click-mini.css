@@ -163,7 +163,7 @@ div.infoblock h2 {
     position: absolute;
     color: #fff;
     font-size: 4rem;
-    line-height: 1.2;
+    line-height: 4.2rem;
     background: #000;
     border-radius: 50%;
     bottom: -35px;
@@ -247,9 +247,9 @@ div.infoblock h2 {
 .method1:before {
     position: absolute;
     content: 'METHOD';
-    font-size: 32px;
+    font-size: 3.2rem;
     top: -10px;
-    line-height: 1;
+    line-height: 3.4rem;
     left: -152px;
     background-size: contain;
     width: 153px;
@@ -787,6 +787,7 @@ h2.pod-text {
 
     h2.pod-text {
         font-size: 2.2rem;
+        line-height: 2.4rem;
     }
 }
 
@@ -828,7 +829,7 @@ h2.pod-text {
 
 .infoblock__page-11__in-case-strong {
     font-size: 3.8rem;
-    line-height: 4.0rem;
+    line-height: 4rem;
     padding: 0;
 }
 .infoblock .in-case-span--center {
@@ -839,7 +840,7 @@ h2.pod-text {
 }
 .infoblock__page-11__in-case-span {
     text-align: right;
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: 2.2rem;
     padding-bottom: 5px;
     display: block;
@@ -913,6 +914,7 @@ h2.pod-text {
 
 .infoblock .infoblock__click_mini_label {
     font-size: 3.2rem;
+    line-height: 3.4rem;
 }
 
 .infoblock .personal-document {
@@ -957,6 +959,7 @@ p.click_click_mini.brochure-overflow--line {
     display: inline-block;
     font-family: 'LilyUPC', Arial, sans-serif;
     font-size: 4rem;
+    line-height: 4.2rem;
     color: #0d5cab;
     padding: 0;
     margin-left: 35px;
@@ -969,6 +972,7 @@ p.click_click_mini.brochure-overflow--line {
 .infoblock .brochure-overflow--top {
     margin-top: 30px;
     font-size: 7rem;
+    line-height: 7.2rem;
     font-family: 'LilyUPC', Arial, sans-serif;
     margin-left: 470px;
 }
@@ -1095,7 +1099,7 @@ p.click_click_mini.brochure-overflow--line {
     font-weight: 600;
     font-size: 2.4rem;
     text-align: center;
-    line-height: 1;
+    line-height: 2.6rem;
 }
 
 .infoblock .two_newspapers {
@@ -1212,10 +1216,6 @@ p.click_click_mini.brochure-overflow--line {
     width: 60%;
     margin-right: 20px;
     padding-top: 20px;
-}
-
-.infoblock .li--width {
-    width: 80%;
 }
 
 .nav__li li:first-child {
@@ -1364,7 +1364,7 @@ p.click_click_mini.brochure-overflow--line {
 
 .infoblock .label_smart10 {
     font-size: 2.1rem;
-    line-height: 1.2;
+    line-height: 2.3rem;
     margin-left: 3%;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
@@ -1603,7 +1603,7 @@ p.click_click_mini.brochure-overflow--line {
     text-align: center;
     font-size: 2.6rem;
     display: inline-block;
-    line-height: 1.2;
+    line-height: 2.8rem;
 }
 
 .center {
@@ -1775,6 +1775,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .in-case-strong {
         font-size: 2.8rem;
+        line-height: 3rem;
     }
 
     .infoblock .in-case-enhance--left {
@@ -1879,6 +1880,7 @@ p.click_click_mini.brochure-overflow--line {
 @media (max-width: 1386px) {
     .infoblock p {
         font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 
     .infoblock .top__logo {
@@ -1990,6 +1992,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock .infoblock__click_mini_label {
         font-size: 2.4rem;
+        line-height: 2.6rem;
     }
 
     #fax-diagram {
@@ -2025,6 +2028,32 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock__page-11-content-p {
         padding: 50px 0;
+    }
+}
+
+@media (max-width: 1680px) {
+    .infoblock .brochure-overflow--top {
+        margin-left: 410px
+    }
+
+    p.click_click_mini.brochure-overflow--line {
+        margin-left: 25px;
+    }
+
+    .img__touch--after:after {
+        width: 80%;
+    }
+
+    .infoblock .nav__img {
+        padding-top: 40px;
+    }
+
+    .infoblock .infoblock__page-11__in-case-scan-map {
+        height: 158px;
+    }
+
+    .infoblock .infoblock__page-11__in-case-scan-artwork {
+        height: 178px;
     }
 }
 
@@ -2069,6 +2098,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock .infoblock__click_mini_label {
         font-size: 2.6rem;
+        line-height: 2.8rem;
     }
 
     .infoblock .infoblock__label__searchable2 {
@@ -2079,6 +2109,7 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock p {
         font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 
     .infoblock .infoblock__page-11__in-case-enhance--right {
@@ -2157,6 +2188,38 @@ h3.true2_label.move {
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
         padding-top: 110px;
     }
+
+    .infoblock .brochure-overflow--top {
+        font-size: 6rem;
+        line-height: 6.2rem;
+    }
+
+    p.click_click_mini.brochure-overflow--line {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .infoblock .brochure-title-left {
+        padding: 20px 0 0;
+    }
+
+    .infoblock .li--width {
+        padding-left: 10px;
+    }
+
+    .infoblock .in-case-enhance {
+        width: 85%;
+    }
+
+    .infoblock .infoblock__page-11__in-case-scan-artwork {
+        height: 222px;
+        margin-left: -5px;
+    }
+
+    .infoblock .infoblock__page-11__in-case-scan-map {
+        height: 158px;
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -2170,6 +2233,16 @@ h3.true2_label.move {
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__scanner-other {
         padding-bottom: 30px;
+    }
+
+    .infoblock .brochure-overflow--top {
+        margin-left: 278px;
+    }
+
+    p.click_click_mini.brochure-overflow--line {
+        margin-left: 55px;
+        width: 50%;
+        text-align: center;
     }
 }
 
@@ -2334,6 +2407,7 @@ img.infoblock__page-6.scanner-picture {
 .story-text {
     padding-top: 20px;
     font-size: 1.6rem;
+    line-height: 1.8rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     width: 48%;
     margin-left: 10%;
@@ -2514,7 +2588,7 @@ h3.h-app {
 
 #KIC_Click_and_Mini_In_Case_You_Didnt_Know .label2-in-case {
     font-size: 3.8rem;
-    line-height: 4.0rem;
+    line-height: 4rem;
     padding: 0;
 }
 
@@ -2529,9 +2603,32 @@ h2.label2.resize.top-padding {
     padding-top: 30px;
 }
 
+@media (max-width: 1024px) {
+    #copy-diagram {
+        padding-bottom: 85px;
+    }
+
+    #hand-with-yellow-coin {
+        padding-bottom: 10px;
+    }
+
+    .smart-dock__tree-img {
+        margin-top: -120px;
+    }
+
+    .infoblock .infoblock__page-11__in-case-scan-artwork {
+        height: 213px;
+    }
+}
+
+figcaption {
+    line-height: 1.2rem;
+}
+
 @media screen and (min-width: 0\0) {
     .infoblock .rainbow-text {
        background:none;
         color: black;
     }
 }
+
