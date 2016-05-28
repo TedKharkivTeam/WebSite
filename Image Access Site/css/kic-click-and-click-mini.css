@@ -1819,11 +1819,11 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .nav__img {
-        padding-top: 85px;
+        padding-top: 45px;
     }
 
     ul.nav__li.blue-bullet {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     p.floorstand {
@@ -1857,6 +1857,10 @@ p.click_click_mini.brochure-overflow--line {
 
     #fax-diagram {
         padding-bottom: 30px;
+    }
+
+    #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
+        padding-top: 0;
     }
 }
 
