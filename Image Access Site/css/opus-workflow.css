@@ -326,7 +326,8 @@ h2 {
 }
 
 .infoblock .content_stabilization4 {
-    width: 47%;
+    width: 43%;
+    padding-top: 20px;
     margin-left: 2%;
     float: left;
 }
@@ -574,13 +575,13 @@ div .derivatives-pictures__bottom-paragraph {
     div .derivatives-pictures__bottom-paragraph {
         bottom: 170px;
     }
+
+    .infoblock .content_stabilization4 {
+        width: 50%;
+    }
 }
 
 @media (max-width: 1366px) {
-    .infoblock__hierarchical-metadata_paragraph-with-image p {
-        margin-top: 10px;
-    }
-
     #Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata div .derivatives-pictures__bottom-paragraph {
         bottom: 155px;
         width: 23%;
