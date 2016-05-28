@@ -575,3 +575,15 @@ div .derivatives-pictures__bottom-paragraph {
         bottom: 170px;
     }
 }
+
+@media (max-width: 1366px) {
+    .infoblock__hierarchical-metadata_paragraph-with-image p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    div .derivatives-pictures__bottom-paragraph {
+        bottom: 130px;
+    }
+}
