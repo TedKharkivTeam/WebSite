@@ -553,3 +553,39 @@ div .derivatives-pictures__bottom-paragraph {
         float: left;
     }
 }
+
+@media (max-width: 1680px) {
+    .infoblock__hierarchical-metadata_paragraph-with-image p {
+        padding-top: 20px;
+    }
+
+    #Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata .derivatives-pictures__bottom-paragraph {
+        margin-top: -328px;
+        width: 24%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .infoblock__hierarchical-metadata_paragraph-with-image p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .derivatives-pictures__bottom-paragraph {
+        margin-top: -235px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .infoblock__derivatives-pictures .derivatives-pictures__bottom-paragraph {
+        bottom: 130px;
+        width: 25%;
+    }
+}
+
+@media (max-width: 1600px) {
+    div .derivatives-pictures__bottom-paragraph {
+        margin-top: -288px;
+        width: 25%;
+    }
+}
