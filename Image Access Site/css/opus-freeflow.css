@@ -1,4 +1,9 @@
-﻿.infoblock ul.blue-bullet li {
+﻿.infoblock .padding-bottom--none{
+    padding-bottom: 0;
+}
+
+
+.infoblock ul.blue-bullet li {
     position: relative;
     list-style: none;
     line-height: 24px;
@@ -735,6 +740,16 @@
 
         margin-right: 14%;
 
+    }
+}
+
+@media all and (max-width: 1600px){
+    .infoblock .content-stabilization__enumeration {
+        padding-bottom: 20px;
+    }
+
+    .versus4 {
+        margin-top: -38px;
     }
 }
 
