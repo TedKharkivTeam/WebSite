@@ -962,7 +962,7 @@ p.click_click_mini.brochure-overflow--line {
     line-height: 4.2rem;
     color: #0d5cab;
     padding: 0;
-    margin-left: 35px;
+    margin-left: 60px;
 }
 
 .normal {
@@ -970,11 +970,11 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .infoblock .brochure-overflow--top {
-    margin-top: 30px;
-    font-size: 6.5rem;
-    line-height: 6.7rem;
+    margin-top: 40px;
+    font-size: 8.5rem;
+    line-height: 2.7rem;
     font-family: 'LilyUPC', Arial, sans-serif;
-    margin-left: 470px;
+    margin-left: 440px;
 }
 
 .infoblock .label2 {
@@ -2318,7 +2318,14 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
-        height: 203px;
+        height: 70%;
+        width: 70%;
+        padding-top: 26px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-map {
+        width: 80%;
+        height: 80%;
     }
 
     .infoblock .images--hand {
@@ -2338,6 +2345,53 @@ h3.true2_label.move {
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface img.infoblock__page-6__image-hand {
         margin-top: 100px;
+    }
+
+    h2.brochure-title-left.brochure-overflow--line.brochure-overflow--top.normal {
+        font-size: 6.2rem;
+        line-height: 6.4rem;
+        padding-left: 45px;
+    }
+
+    p.click_click_mini.brochure-overflow--line {
+        margin-left: 50px;
+        width: auto;
+        margin-top: -10px;
+        text-align: center;
+        font-size: 3.0rem;
+        line-height: 2.7rem;
+    }
+
+    h2.brochure-title-left.brochure-overflow--line.brochure-overflow--top.normal.with-italic {
+        padding-bottom: 0;
+    }
+
+    #hand-with-yellow-coin {
+        padding-bottom: 20px;
+    }
+
+    #KIC_Click_and_Mini_KIC_Face_Down_vs_Face_Up .infoblock__page-5__seven-step--border {
+        min-height: 220px;
+    }
+
+    p.floorstand {
+        margin-left: -50px;
+    }
+
+    figcaption.move {
+        margin-left: -30px;
+    }
+
+    p.label_smart2.with-subh.smartdock {
+        width: 70%;
+    }
+
+    figure.printer {
+        margin-top: 25px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .in-case-enhance {
+        width: 85%;
     }
 }
 
