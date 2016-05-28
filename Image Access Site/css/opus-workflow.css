@@ -580,10 +580,22 @@ div .derivatives-pictures__bottom-paragraph {
     .infoblock__hierarchical-metadata_paragraph-with-image p {
         margin-top: 10px;
     }
+
+    #Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata div .derivatives-pictures__bottom-paragraph {
+        bottom: 155px;
+        width: 23%;
+    }
 }
 
 @media (max-width: 1280px) {
-    div .derivatives-pictures__bottom-paragraph {
+    #Opus_WorkFlow_Opus_Output_Image_Derivatives_Metadata .infoblock__derivatives-pictures .derivatives-pictures__bottom-paragraph {
         bottom: 130px;
+    }
+}
+
+@media (max-width: 1600px) {
+    div .derivatives-pictures__bottom-paragraph {
+        bottom: 180px;
+        width: 25%;
     }
 }
