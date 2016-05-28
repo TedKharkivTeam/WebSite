@@ -3261,6 +3261,11 @@ th .table--img {
         padding-bottom: 75px;
     }
 
+    .infoblock__page-12__double-wrap figure img, .infoblock .diagram {
+        margin-top: 25px;
+    }
+
+
     .infoblock__page-12__double-wrap figure figcaption {
         width: 79%;
         margin-left: 11%;
