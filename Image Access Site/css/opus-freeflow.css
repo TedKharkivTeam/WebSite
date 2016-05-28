@@ -742,6 +742,8 @@
 
     }
 
+
+
     .infoblock_inscription {
         margin-right: 5%;
     }
@@ -758,7 +760,16 @@
     }
 
     .versus4 {
-        margin-top: -38px;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        margin-left: 55%;
+        margin-top: -26px;
+    }
+    .versus3 {
+        color: black;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        margin-left: 26%;
     }
 }
 
@@ -788,6 +799,10 @@
         width: 47%;
     }
 
+    .infoblock .table1_freeflow {
+        padding-top: 10px;
+    }
+
     .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
         margin-top: -8%;
     }
@@ -800,7 +815,12 @@
         padding-bottom: 2px;
     }
     .versus4 {
-        margin-top: -36px;
+        margin-top: -28px;
+        margin-left: 53%;
+    }
+
+    .versus3{
+        margin-left: 24%;
     }
 
     .infoblock .infoblock__opus-freeflow-features-diagram {
@@ -852,4 +872,12 @@
     .infoblock .infoblock__opus-freeflow-features-label {
         margin-right: 2%;
     }
+}
+
+@media all and (max-width: 1024px){
+
+        .versus4 {
+            margin-top: -36px;
+            margin-left: 53%;
+        }
 }
