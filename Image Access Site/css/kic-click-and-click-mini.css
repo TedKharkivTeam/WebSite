@@ -2160,6 +2160,12 @@ p.click_click_mini.brochure-overflow--line {
     p.floorstand {
         margin-left: -60px;
     }
+
+    #copy-diagram {
+        float: left;
+        width: 30%;
+        padding-bottom: 60px;
+    }
 }
 
 @media (max-width: 1685px) {
