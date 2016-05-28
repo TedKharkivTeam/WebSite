@@ -1313,6 +1313,10 @@ h2.pod-text {
     margin: 0;
 }
 
+.infoblock__page-12__top-div{
+    margin-top: 1%;
+}
+
 .infoblock__page-12__double-wrap figure img, .infoblock .diagram {
     width: 80%;
     height: 80%;
@@ -2944,12 +2948,15 @@ th .table--img {
 
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
         width: 36%;
-        margin-top: 20px;
+        padding-top: 40px;
+        margin-top: 0;
+
     }
 
     .infoblock .infoblock__page-9__center__img {
         width: 65%;
         margin-top: 10%;
+
     }
 
     .infoblock .infoblock__page-1__h2__p h2 {
@@ -3118,6 +3125,7 @@ th .table--img {
 @media all and (max-width: 1050px) {
     .infoblock .infoblock__page-6__text-block {
         margin-bottom: 20%;
+        margin-right: 5%;
     }
 
     .infoblock .infoblock__page-9__nav__img {
@@ -3330,6 +3338,36 @@ th .table--img {
 @media (max-width: 1024px) {
     div .infoblock__page-7__text-right {
         margin-top: -39%;
+    }
+    .infoblock .infoblock__page-1__text__top {
+        font-size: 1.8rem;
+
+        line-height: 1.9rem;
+    }
+
+    .infoblock .infoblock__page-3__block-title {
+        font-size: 2rem;
+    }
+
+    .infoblock .infoblock__page-8__reservation__h3 {
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+
+    .infoblock__page-12 .infoblock__page-12__margin-header {
+        margin-top: 4px;
+    }
+
+    .infoblock__page-12__top-p{
+        margin-top: 1px;
+    }
+
+    .infoblock__page-12__top-div{
+        margin-top: 0;
+    }
+
+    .bottom-block_padding-border {
+        width: 65%;
     }
 }
 
