@@ -1,7 +1,6 @@
-﻿.infoblock .padding-bottom--none{
+﻿.infoblock .padding-bottom--none {
     padding-bottom: 0;
 }
-
 
 .infoblock ul.blue-bullet li {
     position: relative;
@@ -79,7 +78,7 @@
 }
 
 .infoblock_photos_documents {
-    font-family: 'LatoBoldItalic',sans-serif, helvetica, arial;
+    font-family: 'LatoBoldItalic', sans-serif, helvetica, arial;
     padding-bottom: 5px;
     display: block;
     font-size: 2.4rem;
@@ -295,7 +294,7 @@
 .infoblock .little_label_for_image_metadata {
     font-size: 1.2rem;
     line-height: 1.4rem;
-    margin-top: -7%;
+    margin-top: -10%;
     float: left;
 }
 
@@ -726,7 +725,7 @@
     }
 }
 
-@media all and (max-width: 1680px){
+@media all and (max-width: 1680px) {
     .infoblock .content-stabilization__enumeration {
         padding-bottom: 10px;
     }
@@ -751,10 +750,9 @@
         margin-right: 5%;
     }
 
-
 }
 
-@media all and (max-width: 1600px){
+@media all and (max-width: 1600px) {
     .infoblock .content-stabilization__enumeration {
         padding-bottom: 20px;
     }
@@ -784,8 +782,32 @@
     }
 }
 
-@media all and (max-width: 1366px){
+@media all and (max-width: 1366px) {
     .infoblock .infoblock_inscription {
         width: 47%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
+        margin-top: -8%;
+    }
+
+    .infoblock .content-stabilization__enumeration {
+        padding-bottom: 0;
+    }
+
+    .infoblock .versus3 {
+        padding-bottom: 2px;
+    }
+    .versus4 {
+        margin-top: -36px;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-diagram {
+        margin-right: 7%;
+        width: 43%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-label {
+        margin-right: 9%;
     }
 }
