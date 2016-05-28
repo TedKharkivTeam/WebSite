@@ -2712,6 +2712,10 @@ th .table--img {
     }
 
 
+    #KIC_Bookeye_4_True_2_Touch .scanner-picture {
+        padding: 55px 0 10px 20px;
+    }
+
     div .infoblock__page-7__text-right2 {
         margin-bottom: 0;
     }
@@ -3245,8 +3249,12 @@ th .table--img {
         margin-left: 11%;
     }
 
+    #hand-with-yellow-coin {
+        padding-bottom: 35px;
+    }
+
     .infoblock .images--hand {
-        padding-bottom: 20px;
+        padding-bottom: 35px;
     }
 
     .infoblock .infoblock__page-3__block-title {
@@ -3288,7 +3296,7 @@ th .table--img {
     }
 
     div .infoblock__page-4__homo-scanner {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .infoblock__page-6__under-text {
