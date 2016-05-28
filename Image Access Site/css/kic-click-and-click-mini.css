@@ -1730,7 +1730,6 @@ p.click_click_mini.brochure-overflow--line {
     .infoblock .center__text--padding {
         position: relative;
         width: 100%;
-        padding-top: 25px;
     }
 
     .infoblock .label_smart13 {
@@ -1766,7 +1765,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     .infoblock .in-case-enhance {
-        width: 96%;
+        width: 65%;
     }
 
     .infoblock .label_smart2 {
@@ -1794,6 +1793,71 @@ p.click_click_mini.brochure-overflow--line {
         width: 52%;
     }
 
+    #KIC_Click_and_KIC_Click_Mini .brochure-overflow--top {
+        margin-left: 350px;
+        font-size: 7rem;
+        line-height: 7.2rem;
+    }
+
+    p.click_click_mini.brochure-overflow--line {
+        font-size: 3.5rem;
+        line-height: 3.7rem;
+        margin-left: 20px;
+    }
+
+    h2.brochure-title-left.brochure-overflow--line.brochure-overflow--top.normal.with-italic {
+        padding-bottom: 0;
+    }
+
+    #KIC_Click_and_Mini_True_2_Touch_User_Interface img.infoblock__page-6__image-hand {
+        width: 43%;
+        margin-top: 160px;
+    }
+
+    ul.smart-dock__tree-img {
+        margin-top: -20%;
+    }
+
+    #KIC_Click_and_Mini_KIC_Fleet_Manager .nav__img {
+        padding-top: 85px;
+    }
+
+    ul.nav__li.blue-bullet {
+        margin-top: 50px;
+    }
+
+    p.floorstand {
+        margin-left: -50px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
+        padding: 15px 0;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
+        height: 190px;
+        padding-top: 25px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-map {
+        height: 138px;
+    }
+
+    figure.printer {
+        padding-top: 25px;
+    }
+
+    figcaption.move {
+        margin-left: -30px;
+    }
+
+    #copy-diagram {
+        padding-bottom: 70px;
+    }
+
+    #fax-diagram {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 1600px) and (min-width: 1460px) {
@@ -2275,7 +2339,7 @@ h3.true2_label.move {
     }
 
     ul.nav__li.blue-bullet {
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     .infoblock__double-wrap figure figcaption {
