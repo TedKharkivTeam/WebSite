@@ -2117,11 +2117,14 @@ p.click_click_mini.brochure-overflow--line {
 
 @media (max-width: 1680px) {
     .infoblock .brochure-overflow--top {
-        margin-left: 410px
+        margin-left: 360px;
+        font-size: 8rem;
+        line-height: 7.8rem;
     }
 
     p.click_click_mini.brochure-overflow--line {
-        margin-left: 25px;
+        margin-left: 15px;
+        margin-top: -20px;
     }
 
     .img__touch--after:after {
@@ -2138,6 +2141,30 @@ p.click_click_mini.brochure-overflow--line {
 
     .infoblock .infoblock__page-11__in-case-scan-artwork {
         height: 178px;
+    }
+
+    #KIC_Click_and_Mini_True_2_Touch_User_Interface img.infoblock__page-6__image-hand {
+        width: 43%;
+        margin-top: 120px;
+    }
+
+    figcaption.move {
+        margin-left: -20px;
+    }
+
+    #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
+        position: absolute;
+        padding-top: 20px;
+    }
+
+    p.floorstand {
+        margin-left: -60px;
+    }
+
+    #copy-diagram {
+        float: left;
+        width: 30%;
+        padding-bottom: 60px;
     }
 }
 
