@@ -2169,7 +2169,7 @@ th .table--img {
 }
 
 .infoblock__page-12 .infoblock__page-12__margin-header {
-    margin-top: 0;
+    margin-top: 1px;
 }
 
 #KIC_Bookeye_4_True_2_Touch .story-text {
@@ -2712,6 +2712,12 @@ th .table--img {
     }
 
 
+    .infoblock .infoblock__page-7__header-3 {
+
+        width: 56%;
+
+    }
+
     #KIC_Bookeye_4_True_2_Touch .scanner-picture {
         padding: 55px 0 10px 20px;
     }
@@ -2756,6 +2762,10 @@ th .table--img {
 
     .infoblock .infoblock__page-9__nav__li {
         margin-top: -20px;
+    }
+
+    .infoblock__page-9__margin-right-p{
+        margin-right: 13%;
     }
 
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
@@ -2902,8 +2912,8 @@ th .table--img {
 
 @media all and (max-width: 1288px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
-        margin-right: 0;
-        margin-top: 17px;
+        margin-right: 5%;
+        margin-top: 20px;
     }
 
     .infoblock__page-1 .infoblock__page-1__header_2 {
@@ -2919,6 +2929,13 @@ th .table--img {
 
     }
 }
+@media all and (max-width: 1270px) {
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+        margin-right: 0;
+        margin-top: 17px;
+    }
+}
+
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
     .width-td {
@@ -3267,11 +3284,7 @@ th .table--img {
         margin-top: 15px;
     }
 
-    .infoblock .infoblock__page-7__header-3 {
 
-        width: 56%;
-
-    }
 
     .infoblock .infoblock__page-9__top__h1 {
         margin-top: 20px;
