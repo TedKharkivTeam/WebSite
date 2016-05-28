@@ -326,7 +326,8 @@ h2 {
 }
 
 .infoblock .content_stabilization4 {
-    width: 47%;
+    width: 43%;
+    padding-top: 20px;
     margin-left: 2%;
     float: left;
 }
@@ -573,6 +574,10 @@ div .derivatives-pictures__bottom-paragraph {
 
     div .derivatives-pictures__bottom-paragraph {
         bottom: 170px;
+    }
+
+    .infoblock .content_stabilization4 {
+        width: 50%;
     }
 }
 
