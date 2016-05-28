@@ -810,4 +810,45 @@
     .infoblock .infoblock__opus-freeflow-features-label {
         margin-right: 9%;
     }
+
+    .infoblock .infoblock__opus-freeflow-features-diagram {
+        margin-right: 4%;
+        margin-top: 71px;
+        width: 47%;
+    }
+ }
+
+@media all and (max-width: 1280px){
+    .infoblock .infoblock_inscription {
+        width: 53%;
+    }
+
+
+    .infoblock .content-stabilization__enumeration {
+        padding-bottom: 10px;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-label {
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media all and (max-width: 1150px){
+
+    .infoblock .table2_freeflow {
+        padding-top: 23px;
+    }
+
+    .infoblock .versus3 {
+        padding-bottom: 10px;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-diagram {
+        margin-right: 1%;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-label {
+        margin-right: 2%;
+    }
 }
