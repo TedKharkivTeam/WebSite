@@ -430,6 +430,7 @@
     color: #959595;
     line-height: 3rem;
     font-size: 2.8rem;
+    display: block;
 }
 
 .infoblock .infoblock__opus-freeflow-photos {
@@ -741,6 +742,16 @@
         margin-right: 14%;
 
     }
+
+    .infoblock_inscription {
+        margin-right: 5%;
+    }
+
+    .infoblock .infoblock_scanpages {
+        margin-right: 5%;
+    }
+
+
 }
 
 @media all and (max-width: 1600px){
@@ -771,4 +782,8 @@
     .infoblock .table1_freeflow {
         padding-top: 0;
     }
+}
+
+@media all and (max-width: 1366px){
+
 }
