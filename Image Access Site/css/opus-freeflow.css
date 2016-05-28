@@ -785,5 +785,7 @@
 }
 
 @media all and (max-width: 1366px){
-
+    .infoblock .infoblock_inscription {
+        width: 47%;
+    }
 }
