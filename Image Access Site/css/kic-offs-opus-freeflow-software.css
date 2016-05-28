@@ -560,14 +560,23 @@ h5 {
         margin-top: -5%;
     }
 
-    .infoblock .block_hierarchical_metadata_table {
-        padding-top: 55px;
-        font-size: 1rem;
-    }
-
     .infoblock__opus-freeflow-freedom {
         line-height: 3.3rem;
         font-size: 3.1rem;
+    }
+
+    .infoblock .infoblock_photos_documents {
+        font-size: 2rem;
+        line-height: 2.2rem
+    }
+
+    .infoblock .block_hierarchical_metadata_table {
+        width: 28%;
+        padding-top: 0;
+    }
+
+    .infoblock .table1_freeflow {
+        width: 70%;
     }
 }
 
@@ -584,4 +593,20 @@ h5 {
     .infoblock .little_label_for_image_metadata {
         margin-top: -25px;
     }
+
+    .infoblock .infoblock_photos_documents {
+        font-size: 1.9rem;
+        line-height: 2.1rem;
+    }
+
+    .infoblock__highlights-wrapper ul {
+        width: 49%;
+        padding-left: 4%;
+}
+
+@media (max-width: 1024px) {
+    .infoblock .table1_freeflow {
+        width: 67%;
+        padding-top: 10px;
+    }}
 }
