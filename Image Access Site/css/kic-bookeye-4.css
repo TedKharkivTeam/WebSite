@@ -1102,6 +1102,10 @@ div .infoblock__page-7__block-left {
     width: 32%;
 }
 
+.infoblock__page-9__margin-right-p{
+    margin-right: 13%;
+}
+
 .infoblock__page-9__bottom li p {
     text-align: center;
 }
@@ -2445,6 +2449,23 @@ th .table--img {
         min-height: 540px;
     }
 
+    .bottom-block_padding-border {
+        width: 55%;
+        padding: 5px 10px 10px 10px;
+    }
+
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+        margin-right: 7%;
+    }
+
+    .infoblock .images--hand {
+        margin-right: 5px;
+    }
+
+    .infoblock .infoblock__page-9__nav__li {
+        margin-top: -14px;
+    }
+
     .infoblock div .infoblock__page-1__h2__p {
         top: 100px;
         bottom: 0;
@@ -2768,13 +2789,12 @@ th .table--img {
         margin-top: -20px;
     }
 
-    .infoblock__page-9__margin-right-p{
-        margin-right: 13%;
-    }
+
 
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
         width: 42%;
     }
+
 
     h2.pod-text {
         font-size: 2.2rem;
@@ -3345,7 +3365,6 @@ th .table--img {
     }
     .infoblock .infoblock__page-1__text__top {
         font-size: 1.8rem;
-
         line-height: 1.9rem;
     }
 
