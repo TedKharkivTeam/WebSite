@@ -720,6 +720,23 @@
     }
 }
 
+@media all and (max-width: 1680px){
+    .infoblock .content-stabilization__enumeration {
+        padding-bottom: 10px;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-diagram {
+        margin-right: 12%;
+        margin-top: 16px;
+    }
+
+    .infoblock .infoblock__opus-freeflow-features-label {
+
+        margin-right: 14%;
+
+    }
+}
+
 @media all and (min-width: 768px) and (max-width: 991px) {
     .infoblock .opus_output_absolute_text {
         font-size: 0.5rem;
