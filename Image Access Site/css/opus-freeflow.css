@@ -788,6 +788,10 @@
         width: 47%;
     }
 
+    .infoblock .table1_freeflow {
+        padding-top: 10px;
+    }
+
     .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
         margin-top: -8%;
     }
