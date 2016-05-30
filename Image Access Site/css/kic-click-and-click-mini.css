@@ -932,12 +932,13 @@ h2.pod-text {
 #scan-diagram {
     float: right;
     width: 40%;
+    padding-bottom: 30px;
 }
 
 #copy-diagram {
     float: left;
     width: 30%;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 #fax-diagram {
@@ -2998,4 +2999,8 @@ figcaption.floorstand {
 .tree-img__inline figcaption.move{
     width: 180%;
     margin-left: -45px;
+}
+
+span.click_click_mini.brochure-overflow--line {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }

@@ -87,6 +87,8 @@ h4 {
     text-align: center;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     padding: 10px 0;
+    display: block;
+    margin: 0 auto;
 }
 
 .infoblock .kic_software_smart_doc_photo2 {
@@ -632,6 +634,8 @@ th .table--img {
     font-style: italic;
     margin-left: -2%;
     text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .infoblock .text5 {
@@ -2450,6 +2454,8 @@ p.infoblock__homo-text.responsible_fix_block_text span {
     left: 310px;
     width: 20%;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .border {
@@ -2463,13 +2469,6 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 .wrap-two-large-screens {
     float: left;
     width: 70%;
-}
-
-.dual-screen-img {
-    float: left;
-    width: 22% !important;
-    padding-left: 15px;
-    position: relative;
 }
 
 .wrap-two-large-screens p {
@@ -3335,11 +3334,11 @@ span.fa.fa-star.tabl-star.black {
 
 .infoblock__page-11__in-case-span {
     text-align: right;
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: 2.2rem;
     padding-bottom: 5px;
     display: block;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock__page-11__double__content {
@@ -3501,4 +3500,30 @@ p.floorstand {
 .printer figcaption {
     width: 90%;
     margin: 0 auto;
+}
+
+p.map-icon {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+}
+
+figcaption {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    text-align: center;
+}
+
+figcaption.floorstand {
+    margin-left: -50px;
+}
+
+.wrap-dual-screen-img {
+    width: 30%;
+    float: right;
+}
+
+figure {
+    margin: 0 40px;
 }
