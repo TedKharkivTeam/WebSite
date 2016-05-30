@@ -1357,7 +1357,7 @@ h2.pod-text {
     font-weight: normal;
     text-align: center;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .infoblock .infoblock__page-12__bookeye-vs-copiers__strong {
@@ -2298,7 +2298,7 @@ th .table--img {
     }
 
     #copy-diagram {
-        padding-bottom: 68px;
+        padding-bottom: 70px;
     }
 }
 
@@ -2460,7 +2460,7 @@ th .table--img {
 
 @media all and (max-width: 1740px) and (min-width: 1511px) {
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
-        padding-top: 3%;
+        padding-top: 0;
     }
 }
 
@@ -2476,6 +2476,21 @@ th .table--img {
         min-height: 540px;
     }
 
+    .infoblock__page-12__double-wrap figure img, .infoblock .diagram {
+        width: 78%;
+        height: 78%;
+    }
+
+    #copy-diagram {
+        padding-bottom: 80px;
+    }
+
+    #hand-with-yellow-coin {
+        padding-bottom: 40px;
+    }
+    .infoblock__page-6 .infoblock__page-6__image-hand {
+        margin-top: 80px;
+    }
     div .infoblock__page-4__homo-scanner {
         margin-bottom: 60px;
     }
@@ -2500,7 +2515,7 @@ th .table--img {
 
     .infoblock .images--hand {
         margin-right: 5px;
-        margin-bottom: 35px;
+        margin-bottom: 36px;
     }
 
     .infoblock .infoblock__page-9__nav__li {
@@ -2585,7 +2600,7 @@ th .table--img {
 
 @media all and (max-width: 1445px) and (min-width: 1285px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
-        margin-right: 4%;
+        margin-right: 0;
         margin-top: 30px
     }
 }
@@ -2770,9 +2785,27 @@ th .table--img {
     .pbd--frame img {
         width: 50%;
     }
+
+    div .infoblock__page-7_photo {
+        width: 57%;
+    }
+
+    .infoblock .infoblock__page-9__top__h1 {
+        font-size: 5.2rem;
+        line-height: 5.4rem;
+    }
+
+    .page-12__figure-under-text {
+        width: 80%;
+
+    }
     .infoblock .two-step--w1__text{
-        font-size: 1.3rem;
-        line-height: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .infoblock .infoblock__page-9__nav__img {
+        margin-top: 38px;
     }
     .infoblock__page-3__block .infoblock__page-3__number {
         margin-bottom: 5px;
@@ -2799,8 +2832,8 @@ th .table--img {
     }
 
     .infoblock__page-12__double-wrap figure img, .infoblock .diagram {
-        width: 80%;
-        height: 80%;
+        width: 85%;
+        height: 85%;
     }
     #KIC_Bookeye_4_True_2_Touch .scanner-picture {
         padding: 47px 0 10px 20px;
@@ -2879,8 +2912,9 @@ th .table--img {
         margin-bottom: 10px;
     }
 
-    #copy-diagram {
-        padding-bottom: 55px;
+
+        #copy-diagram {
+        padding-bottom: 110px;
         margin-top: 40px;
     }
 
@@ -2986,23 +3020,11 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1272px) and (min-width: 1200px) {
-    .infoblock__page-9__center__text--margin {
-        padding-top: 1%;
-        width: 42%;
-
-    }
-
-}
-
 @media all and (max-width: 1288px) {
-    .infoblock__page-1 .infoblock__page-1__header_2 {
-        margin-right: 9%;
-        margin-top: 20px;
-    }
 
     .infoblock .infoblock__page-1 .infoblock__page-1__header_2 {
         font-size: 8rem;
+        line-height: 4.2rem;
     }
 
     .infoblock div .infoblock__page-1__h2__p h3 {
@@ -3105,7 +3127,7 @@ th .table--img {
     }
 
     .infoblock__page-3__block-3 {
-        bottom: 10%;
+        bottom: 4%;
     }
 
     div .infoblock__page-3__diagram {
@@ -3348,12 +3370,19 @@ th .table--img {
 
 @media (max-width: 1280px) {
     #copy-diagram {
-        padding-bottom: 75px;
+        padding-bottom: 140px;
     }
 
+    .infoblock .infoblock__page-9__nav__img {
+        margin-top: 50px;
+    }
+    .infoblock__page-1 .infoblock__page-1__header_2 {
+        margin-right: 3%;
+        margin-top: 20px;
+    }
     .infoblock .two-step--w1__text{
-        font-size: 1.2rem;
-        line-height: 1.4rem;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
     }
     .brochure-title-center br{
         display: block;
@@ -3381,7 +3410,7 @@ th .table--img {
 
     .infoblock__page-3__block .infoblock__page-3__number {
         margin-bottom: 26px;
-    }
+     }
     .infoblock__page-4 .infoblock__page-4__figure-p{
         font-size: 1.4rem;
     }
@@ -3399,7 +3428,7 @@ th .table--img {
 
 
     .infoblock__page-12__double-wrap figure figcaption {
-        width: 79%;
+        width: 84%;
         margin-left: 11%;
     }
 
@@ -3448,6 +3477,11 @@ th .table--img {
         line-height: 3.4rem;
     }
 
+    .infoblock .brochure-title-left{
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+    }
+
     .infoblock__page-6__under-text {
         bottom: -10%;
         left: 20%;
@@ -3462,6 +3496,10 @@ th .table--img {
     .infoblock .infoblock__page-1__text {
         width: 34%;
         right: 12%;
+    }
+
+    #hand-with-yellow-coin {
+        padding-bottom: 60px;
     }
 
     .infoblock .infoblock__page-9__nav__li {
@@ -3502,7 +3540,7 @@ th .table--img {
     }
 
     .bottom-block_padding-border {
-        width: 64%;
+        width: 62%;
     }
 }
 
