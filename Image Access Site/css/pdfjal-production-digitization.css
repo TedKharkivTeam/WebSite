@@ -1132,7 +1132,7 @@ h4 {
 
 @media all and (max-width: 1400px) {
     .infoblock .woman_abs {
-        width: 22%;
+        width: 30%;
         height: 90%;
     }
 
@@ -1264,8 +1264,8 @@ h4 {
     }
 
     .infoblock .woman_abs {
-        height: 69%;
-        top: 31%;
+        height: 90%;
+        width: 30%;
     }
 
     .seven-step--border {
