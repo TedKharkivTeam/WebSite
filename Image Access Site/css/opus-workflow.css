@@ -474,8 +474,9 @@ div .derivatives-pictures__bottom-paragraph {
         width: 55%;
     }
 
-    .infoblock__hierarchical-metadata_paragraph-with-image p {
+    .infoblock .infoblock__hierarchical-metadata_paragraph-with-image p {
         width: 35%;
+        margin-top: 0;
         padding-top: 0;
     }
 
@@ -523,9 +524,10 @@ div .derivatives-pictures__bottom-paragraph {
         padding-top: 15px;
     }
 
-    .infoblock__hierarchical-metadata_paragraph-with-image p {
+    .infoblock .infoblock__hierarchical-metadata_paragraph-with-image p {
         width: 35%;
         padding-top: 0;
+        margin-top: 0;
     }
 
     .infoblock__hierarchical-metadata-bottom-block img {
@@ -552,6 +554,12 @@ div .derivatives-pictures__bottom-paragraph {
     .infoblock__hierarchical-metadata_paragraph-with-image img {
         width: 55%;
         padding-top: 10px;
+    }
+
+    .infoblock .infoblock__highlights-wrapper ul {
+        float: left;
+        width: 49%;
+        padding-left: 4%;
     }
 }
 
