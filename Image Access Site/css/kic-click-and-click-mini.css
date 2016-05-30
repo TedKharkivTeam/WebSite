@@ -907,14 +907,14 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 199px;
+    height: 193px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    height: 180px;
+    height: 167px;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -1847,7 +1847,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
-        height: 190px;
+        height: 181px;
         padding-top: 25px;
     }
 
@@ -1873,6 +1873,18 @@ p.click_click_mini.brochure-overflow--line {
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
         padding-top: 0 !important;
+    }
+
+    #copy-diagram {
+        padding-bottom: 85px !important;
+    }
+
+    #fax-diagram {
+        padding-bottom: 40px !important;
+    }
+
+    .tree-img__inline figcaption.move {
+        margin-left: -75px !important;
     }
 }
 
@@ -2148,11 +2160,11 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     .infoblock .infoblock__page-11__in-case-scan-map {
-        height: 158px;
+        height: 147px;
     }
 
     .infoblock .infoblock__page-11__in-case-scan-artwork {
-        height: 178px;
+        height: 172px;
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface img.infoblock__page-6__image-hand {
@@ -2184,6 +2196,10 @@ p.click_click_mini.brochure-overflow--line {
         height: 68%;
         display: block;
         margin: 0 auto;
+    }
+
+    #fax-diagram {
+        padding-bottom: 10px;
     }
 }
 
@@ -2726,7 +2742,7 @@ img.infoblock__page-6.scanner-picture {
 .infoblock__page-6__position-relative {
     position: relative;
     float: right;
-    width: 25%;
+    width: 35%;
     padding-right: 25px;
 }
 
