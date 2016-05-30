@@ -7,6 +7,12 @@
 .center {
     text-align: center;
 }
+figure figcaption{
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
 
 .infoblock .margin-top-none {
     margin-top: 0;
@@ -603,6 +609,10 @@ div .infoblock__page-5__block-p {
     border-radius: 10px;
 }
 
+.infoblock .two-step--w1__text {
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
+}
+
 .infoblock .infoblock__page-5__two-step {
     text-align: center;
     position: relative;
@@ -867,7 +877,7 @@ div .infoblock__page-7_photo {
     font-size: 2.5rem;
     font-weight: normal;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    line-height: 120%;
+    line-height: 2.7rem;
 }
 
 .infoblock .infoblock__page-7-title-left {
@@ -1191,7 +1201,6 @@ h2.pod-text {
     text-align: right;
     font-size: 2.0rem;
     line-height: 2.2rem;
-    font-family: 'LatoBold', sans-serif, helvetica, arial !important;
 }
 
 .infoblock__page-11__in-case-span--center {
@@ -1330,10 +1339,7 @@ h2.pod-text {
     margin: 0 auto;
 }
 
-.infoblock__page-12__double-wrap figure figcaption {
-    text-align: center;
-    font-size: 1.2rem;
-}
+
 
 .infoblock .infoblock__page-12__double__double-p {
     width: 50%;
@@ -1609,7 +1615,7 @@ h2.pod-text {
 
 .infoblock .left-block__right-img {
     float: right;
-    width: 26%;
+    width: 24%;
     margin-left: 11%;
 }
 
@@ -2198,9 +2204,7 @@ th .table--img {
 }
 
 .infoblock__page-6__under-text {
-    position: absolute;
-    bottom: -5%;
-    left: 28%;
+    margin-left: 13%;
 }
 
 .planet-with-map {
@@ -2385,10 +2389,10 @@ th .table--img {
         line-height: 1.6rem;
     }
 
-    .infoblock p, li {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-    }
+    /*.infoblock p, li {*/
+        /*font-size: 1.4rem;*/
+        /*line-height: 1.6rem;*/
+    /*}*/
 
     .infoblock th, td {
         font-size: 1.4rem;
@@ -2857,9 +2861,7 @@ th .table--img {
         margin-top: 40px;
     }
 
-    .infoblock .two-step--w1__text {
-        font-size: 1.1rem;
-    }
+
 
     .infoblock__page-2__h3_center {
         width: 95%;
@@ -3369,9 +3371,7 @@ th .table--img {
         line-height: 2.4rem;
     }
 
-    .infoblock .two-step--w1__text {
-        font-size: 1rem;
-    }
+
 
     .infoblock .infoblock__page-6__true-2-touch {
         margin-bottom: 48px;
