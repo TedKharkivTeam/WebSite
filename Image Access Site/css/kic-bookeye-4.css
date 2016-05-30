@@ -2238,6 +2238,9 @@ th .table--img {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 9%;
     }
+    .infoblock div .infoblock__page-1__h2__p {
+        top: 87px;
+    }
 
     .infoblock__page-12__double-wrap figure {
         width: 50%;
@@ -2479,9 +2482,6 @@ th .table--img {
     }
     .infoblock .infoblock__page-1__center-p {
         bottom: 15px;
-    }
-    .infoblock div .infoblock__page-1__h2__p {
-        top: 107px;
     }
     .bottom-block_padding-border {
         width: 55%;
@@ -3096,7 +3096,7 @@ th .table--img {
     }
 
     .infoblock div .infoblock__page-1__h2__p {
-        top: 88px;
+        top: 75px;
     }
 }
 
