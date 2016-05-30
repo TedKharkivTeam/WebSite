@@ -695,9 +695,12 @@ body {
     border-left: 2px solid #E3E6DB;
 }
 
+p,
 .infoblock p {
     padding-bottom: 5px;
     text-align: justify;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .infoblock img {
@@ -807,6 +810,11 @@ footer ul:nth-last-child(1):after {
 /*end footer*/
 
 /*media enquiries*/
+@media all and (max-width: 1399px) {
+    html {
+        font-size: 56.8%;
+    }
+}
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .header-top {
