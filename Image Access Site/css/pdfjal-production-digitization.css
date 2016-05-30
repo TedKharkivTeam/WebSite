@@ -361,7 +361,7 @@
 }
 
 .block3__top span {
-    font-size: 20px;
+    font-size: 3rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
@@ -389,13 +389,6 @@ h3 {
     line-height: 3.2rem;
     color: #000;
     text-align: center;
-}
-
-h4 {
-    font-size: 23px;
-    color: #000;
-    text-align: center;
-    font-weight: normal;
 }
 
 .infoblock .brochure-title-left {
@@ -950,6 +943,7 @@ h4 {
     line-height: 2.2rem;
     font-size: 2rem;
     padding-bottom: 0;
+    text-align: center;
 }
 
 .table .table__big-img {
@@ -1125,6 +1119,7 @@ h4 {
     .infoblock .seven-step__text {
         font-size: 2rem;
     }
+
     .line__persent1:after {
         right: -58px;
     }
@@ -1237,6 +1232,21 @@ h4 {
     .top-title__send {
         right: -30px;
     }
+
+    .infoblock .brochure-title-left {
+        line-height: 3.4rem;
+        font-size: 3.2rem;
+    }
+
+    h4 {
+        line-height: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .steep-h3 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
 }
 
 @media all and (max-width: 1200px) {
@@ -1286,5 +1296,9 @@ h4 {
         background-size: auto;
         width: 153px;
         height: 139px;
+    }
+
+    .block3__top span {
+        font-size: 2.3rem;
     }
 }
