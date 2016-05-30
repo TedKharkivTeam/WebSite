@@ -1860,7 +1860,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
-        padding-top: 0;
+        padding-top: 0 !important;
     }
 }
 
@@ -2164,7 +2164,7 @@ p.click_click_mini.brochure-overflow--line {
     #copy-diagram {
         float: left;
         width: 30%;
-        padding-bottom: 60px;
+        padding-bottom: 65px;
     }
 }
 
@@ -2385,6 +2385,7 @@ h3.true2_label.move {
         font-size: 6rem;
         line-height: 6.2rem;
         padding-left: 0;
+        margin-left: 280px;
     }
 
     h3.infoblock__page-6__left-header.true-two-touch {
@@ -2410,7 +2411,7 @@ h3.true2_label.move {
 
 @media (max-width: 1366px) {
     .infoblock .center__text--margin {
-        margin-top: -6%;
+        margin-top: -1%;
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
@@ -2471,9 +2472,9 @@ h3.true2_label.move {
     }
 
     h2.brochure-title-left.brochure-overflow--line.brochure-overflow--top.normal {
-        font-size: 6.2rem;
-        line-height: 6.4rem;
-        padding-left: 45px;
+        font-size: 5.8rem !important;
+        line-height: 6rem !important;
+        padding-left: 0;
     }
 
     p.click_click_mini.brochure-overflow--line {
@@ -2515,6 +2516,14 @@ h3.true2_label.move {
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .in-case-enhance {
         width: 85%;
+    }
+
+    #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__center .center__text--padding {
+        margin-top: -50px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
+        padding: 5px 0;
     }
 }
 

@@ -602,11 +602,12 @@ h5 {
     .infoblock__highlights-wrapper ul {
         width: 49%;
         padding-left: 4%;
+    }
 }
 
 @media (max-width: 1024px) {
     .infoblock .table1_freeflow {
         width: 67%;
         padding-top: 10px;
-    }}
+    }
 }
