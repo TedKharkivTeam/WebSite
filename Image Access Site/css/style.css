@@ -810,12 +810,6 @@ footer ul:nth-last-child(1):after {
 /*end footer*/
 
 /*media enquiries*/
-@media all and (max-width: 1399px) {
-    html {
-        font-size: 56.8%;
-    }
-}
-
 @media (min-width: 1200px) and (max-width: 1399px) {
     .header-top {
         font-size: 1.4rem;
