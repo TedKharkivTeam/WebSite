@@ -7,6 +7,14 @@
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
+h5 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+}
+
 .infoblock__page-2__column {
     width: 49%;
     float: left;
@@ -269,8 +277,8 @@ div.infoblock h2 {
 }
 
 h4 {
-    font-size: 2.4rem;
-    line-height: 2.6rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     color: #000;
     text-align: center;
     font-weight: normal;
@@ -844,7 +852,7 @@ h2.pod-text {
     line-height: 2.2rem;
     padding-bottom: 5px;
     display: block;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock__page-11__in-case-span--center {
@@ -1067,6 +1075,7 @@ p.click_click_mini.brochure-overflow--line {
     font-size: 1.4rem;
     line-height: 1.6rem;
     padding: 0;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .map-marker mark {
@@ -1093,6 +1102,8 @@ p.click_click_mini.brochure-overflow--line {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     margin-left: -2%;
     text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .infoblock .text5 {
@@ -2584,8 +2595,8 @@ h3.dvfu2.resize {
 
 .infoblock .infoblock__page-5__block-header-3 {
     color: #000;
-    font-size: 3.3rem;
-    line-height: 3.5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     margin-top: 0;
     display: inline-block;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
@@ -2624,10 +2635,6 @@ div .infoblock__page-5__block-p {
 
 .infoblock__page-5__two-step--w3 {
     width: 49%;
-}
-
-.wrap-block {
-    margin-top: 30px;
 }
 
 .infoblock__page-5__two-step:before {
@@ -2725,7 +2732,9 @@ img.infoblock__page-6.scanner-picture {
 .infoblock__page-6__under-text {
     position: absolute;
     bottom: -5%;
-    left: 18%;
+    left: 26%;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    font-size: 1.4rem;
 }
 
 .infoblock .triangle-pointer {
@@ -2975,3 +2984,18 @@ figcaption {
     width: 50%;
 }
 
+figcaption {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    text-align: center;
+}
+
+figcaption.floorstand {
+    margin-left: -55px;
+}
+
+.tree-img__inline figcaption.move{
+    width: 180%;
+    margin-left: -45px;
+}
