@@ -295,10 +295,15 @@
     display: block;
 }
 
+@media all and (max-width: 1600px) {
+    .video {
+        margin: 20px 0 20px 19%;
+    }
+}
+
 @media all and (max-width: 1400px) {
     .video {
         width: 70% !important;
-        display: block;
     }
 }
 
@@ -310,9 +315,14 @@
 
 }
 
-/* 1024 */
 @media (max-width: 1199px) {
     .infoblock .back_pdf {
         width: 65%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .video {
+        margin: 20px 0 20px 24%;
     }
 }
