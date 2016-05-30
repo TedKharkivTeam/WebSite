@@ -28,6 +28,7 @@ h4 {
 .infoblock__page1-Header-h2 {
     width: 70%;
     float: right;
+    padding-top: 20px;
 }
 
 .infoblock .infoblock__page1-Header img {
@@ -593,6 +594,7 @@ th .table--img {
     float: left;
     width: 35% !important;
     height: 35% !important;
+    padding-bottom: 30px;
 }
 
 #fax-diagram {
@@ -684,11 +686,9 @@ th .table--img {
 }
 
 .infoblock__double-wrap figure {
-    width: 35%;
+    width: 50%;
     float: right;
     margin: 0;
-    padding: 0 30px 10px 30px;
-    box-sizing: border-box;
 }
 
 .infoblock__double__double-p .redsign {
@@ -859,6 +859,7 @@ p.infoblock__double__double-p.move {
 .infoblock .infoblock__right-img {
     width: 90%;
     padding-left: 60px;
+    padding-top: 10px;
     box-sizing: content-box;
 }
 
@@ -1219,6 +1220,7 @@ div .infoblock__homo {
 #fax-diagram {
     float: right;
     width: 30%;
+    padding-top: 30px;
 }
 
 #dollar-and-card {
@@ -2435,7 +2437,7 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 .one-screen-with-hand-in-border {
     float: left;
     width: 35% !important;
-    padding: 120px 15px 0 0;
+    padding: 30px 15px 0 0;
 }
 
 .wrap-one-screen-with-hand-in-border {
@@ -2444,8 +2446,8 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 
 .wrap-one-screen-with-hand-in-border span {
     position: absolute;
-    top: 160px;
-    left: 320px;
+    top: 80px;
+    left: 310px;
     width: 20%;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
@@ -2461,12 +2463,11 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 .wrap-two-large-screens {
     float: left;
     width: 70%;
-    padding-bottom: 30px;
 }
 
 .dual-screen-img {
     float: left;
-    width: 27% !important;
+    width: 22% !important;
     padding-left: 15px;
     position: relative;
 }
@@ -2477,8 +2478,8 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 
 .wrap-dual-screen-img span {
     position: absolute;
-    bottom: -360px;
-    right: 73px;
+    bottom: -290px;
+    right: 100px;
     font-size: 1.6rem;
 }
 
@@ -2712,7 +2713,7 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     margin-left: 10px;
 }
 
-@media all and (max-width: 1680px) {
+@media (max-width: 1680px) {
     .infoblock .smart_hard_block {
         min-height: 470px;
     }
@@ -2834,6 +2835,10 @@ h2.brochure-title-kic-software__blue_label.--fleet {
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
         height: 264px;
+    }
+
+    .copy-diagram {
+        padding-bottom: 50px;
     }
 }
 
@@ -3151,7 +3156,7 @@ h2.brochure-title-center.resize {
 }
 
 p.infoblock__double__double-p.resize {
-    width: 65%;
+    width: 50%;
     float: left;
 }
 
@@ -3415,10 +3420,11 @@ span.fa.fa-star.tabl-star.black {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    height: 232px;
+    height: 231px;
     width: auto;
     margin: 0 auto;
     display: block;
+    padding-top: 25px;
 }
 
 .infoblock__page-11__for-study-p {
@@ -3466,4 +3472,33 @@ img.infoblock__page-11__in-case-scan-map.resize {
         background:none;
         color: black;
     }
+}
+
+span.brochure-title-center.software-color-h.lh-h1 {
+    display: block;
+}
+
+span.kic_software_label_italic.smartdock {
+    width: 50%;
+    margin: 0 auto;
+}
+
+p.floorstand {
+    margin-left: -65px;
+}
+
+.paragraph-pb {
+    padding-bottom: 18px !important;
+}
+
+.printer img {
+    width: 58%;
+    height: 58%;
+    display: block;
+    margin: 0 auto;
+}
+
+.printer figcaption {
+    width: 90%;
+    margin: 0 auto;
 }
