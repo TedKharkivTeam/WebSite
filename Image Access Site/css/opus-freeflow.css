@@ -314,7 +314,7 @@
     font-size: 3.6rem;
     line-height: 3.8rem;
     margin-left: 53%;
-    margin-top: -4%;
+    margin-top: -39px;
 }
 
 .table_1 {
@@ -800,7 +800,7 @@
     }
 
     .infoblock .table1_freeflow {
-        padding-top: 10px;
+        padding-top: 3px;
     }
 
     .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
@@ -848,6 +848,9 @@
     .infoblock .content-stabilization__enumeration {
         padding-bottom: 10px;
     }
+    .infoblock .table1_freeflow {
+        padding-top: 25px;
+    }
 
     .infoblock .infoblock__opus-freeflow-features-label {
         width: 45%;
@@ -880,4 +883,7 @@
             margin-top: -36px;
             margin-left: 53%;
         }
+    .infoblock .table1_freeflow {
+        padding-top: 0px;
+    }
 }
