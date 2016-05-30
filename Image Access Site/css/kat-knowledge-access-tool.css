@@ -33,7 +33,7 @@ img {
     text-align: center;
     padding-bottom: 15px;
     color: black;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     line-height: 2.6rem;
 }
 
@@ -66,7 +66,8 @@ img {
 .infoblock .image-text {
     margin-left: 4%;
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .image-title--stacks-view {
@@ -81,9 +82,12 @@ img {
 
 .infoblock .image-bottom-header {
     font-weight: normal;
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
     margin-left: 15%;
     margin-top: -122px;
     padding-bottom: 12px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
     width: 50%;
 }
 
@@ -194,11 +198,14 @@ img {
 .infoblock .infoblock__header {
     color: black;
     font-family: 'LatoBold', helvetica, arial, sans-serif;
-    font-size: 4.4rem;
+    font-size: 3.6rem;
     text-shadow: none;
     text-align: center;
-    padding:0;
-    line-height: 4.6rem;
+    padding: 0;
+    line-height: 3.8rem;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
 }
 
 .infoblock .infoblock__image {
@@ -239,7 +246,7 @@ img {
     margin-left: 12%;
     width: 75%;
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
 
 /*************************************************************************************************************/
@@ -278,7 +285,7 @@ img {
 .infoblock .infoblock__sub-header--PYPC-FBL {
     margin-top: 185px;
     padding-bottom: 40px;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
 }
 
 .infoblock .infoblock__sub-header--PYPC-SBDB {
@@ -293,6 +300,8 @@ img {
     margin-top: -25px;
     margin-left: 12%;
     width: 80%;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .infoblock .search-screen__image-title--PYPC {
@@ -397,7 +406,7 @@ img {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
-.bvs-section{
+.bvs-section {
     margin-top: -190px;
     position: relative;
 }
@@ -944,12 +953,14 @@ img {
     /******************** PAGE 9 ********************/
 
 }
-@media all and (max-width: 1560px){
+
+@media all and (max-width: 1560px) {
     .infoblock .collage__info {
         margin-bottom: -105px;
         width: 50%;
     }
 }
+
 /* 1024 */
 @media (max-width: 1199px) {
 
