@@ -61,6 +61,7 @@ img {
 .infoblock .image-title {
     position: relative;
     font-family: 'LatoBold', helvetica, arial, sans-serif;
+    display: block;
 }
 
 .infoblock .image-text {
@@ -71,7 +72,6 @@ img {
 }
 
 .infoblock .image-title--stacks-view {
-    margin-left: 30%;
     margin-bottom: -22px;
 }
 
@@ -120,12 +120,13 @@ img {
 .infoblock .image-title--bibliography-view {
     text-align: right;
     right: 30%;
-    top: 130px;
+    display: block;
+    top: 135px;
 }
 
 .infoblock .image-title--shelf-view {
     left: 13%;
-    top: 288px;
+    top: 297px;
 }
 
 .infoblock .kat-phones__note--left {
@@ -219,8 +220,9 @@ img {
     margin-bottom: -30px;
     margin-left: 12%;
     width: 75%;
+    text-align: center;
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
 
 .infoblock .infoblock__centered-text {
@@ -234,6 +236,7 @@ img {
     margin-top: -135px;
     padding-bottom: 100px;
     width: 41%;
+    display: block;
 }
 
 /*************************************************************************************************************/
@@ -245,6 +248,7 @@ img {
     margin-bottom: -25px;
     margin-left: 12%;
     width: 75%;
+    text-align: center;
     font-size: 2rem;
     line-height: 2.2rem;
 }
@@ -284,8 +288,9 @@ img {
 
 .infoblock .infoblock__sub-header--PYPC-FBL {
     margin-top: 228px;
-    padding-bottom: 40px;
     font-size: 3.6rem;
+    line-height: 3.8rem;
+    padding-bottom: 0;
 }
 
 .infoblock .infoblock__sub-header--PYPC-SBDB {
@@ -297,7 +302,6 @@ img {
 
 .infoblock .infoblock__sub-header--MBDE {
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
-    margin-top: -25px;
     margin-left: 12%;
     width: 80%;
     font-size: 2rem;
@@ -307,13 +311,15 @@ img {
 .infoblock .search-screen__image-title--PYPC {
     position: relative;
     left: 35%;
-    margin-bottom: -65px
+    margin-bottom: -60px;
+    display: block;
 }
 
 .infoblock .image-title--PYPC {
     position: relative;
     left: 42%;
-    margin-bottom: -45px;
+    margin-bottom: -40px;
+    display: block;
 }
 
 .infoblock .bibliography-view-screen__image {
@@ -359,11 +365,6 @@ img {
 /************************************************** KAT sixth page *******************************************/
 /*************************************************************************************************************/
 
-.beautiful-girl-bg {
-    box-sizing: border-box;
-    background: url("../images/KIC_KAT/kat_6_img_bg.png") no-repeat;
-    background-size: cover;
-}
 
 .infoblock .collage__info {
     width: 38%;
@@ -415,6 +416,7 @@ img {
     font-family: 'LatoBold', helvetica, arial, sans-serif;
     position: absolute;
     left: 44%;
+    display: block;
     top: 110px;
 }
 
@@ -430,6 +432,12 @@ img {
 /*************************************************************************************************************/
 /************************************************* KAT seventh page ******************************************/
 /*************************************************************************************************************/
+
+
+.blocks__block-item h4{
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
+}
+
 
 .infoblock .infoblock__blocks {
     text-align: center;
