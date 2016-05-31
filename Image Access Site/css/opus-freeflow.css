@@ -834,6 +834,20 @@
     }
 
 
+    .infoblock .brochure-title-center{
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+    }
+    .content .infoblock h3{
+        font-size:2rem;
+        line-height: 2.2rem;
+    }
+
+    .content .infoblock h4{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
     .infoblock .content-stabilization__enumeration {
         padding-bottom: 10px;
     }
