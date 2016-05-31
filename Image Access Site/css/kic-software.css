@@ -721,6 +721,8 @@ p.infoblock__double__double-p.move {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 1.2rem;
     line-height: 1.4rem;
+    display: block;
+    margin: 0 auto;
 }
 
 .infoblock .bookeye-vs-copiers__strong {
@@ -2341,9 +2343,9 @@ table.table__footer td {
 }
 
 .brochure-title-center.software-color-h {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
-    font-size: 1.8rem;
-    color: #0000ff;
+    color: #0d5cab;
+    font-family: 'LilyUPC', sans-serif, helvetica, arial !important;
+    font-size: 3.2rem;
     line-height: 2rem;
     text-align: center;
     padding: 20px 0 0 !important;
@@ -3536,4 +3538,9 @@ figcaption.floorstand {
 
 figure {
     margin: 0 40px;
+}
+
+span.elem-table {
+    font-size: 1.3rem;
+    display: block !important;
 }
