@@ -1065,6 +1065,12 @@ h4 {
     .infoblock .bscan-ill--width {
         width: 75%;
     }
+
+    .two-step:before {
+        width: 100px;
+        height: 65px;
+    }
+
 }
 
 @media all and (max-width: 1630px) {

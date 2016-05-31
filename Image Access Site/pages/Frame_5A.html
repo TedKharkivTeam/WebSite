@@ -13,13 +13,13 @@
     <script src="../js/include.js"></script>
     <script src="../js/frames.js"></script>
     <script>
-        $(document).ready(function () {
-            fadeIn(function () {
-                simulateAnimation(function () {
-                    redirect("Frame_5B.html");
+                $(document).ready(function () {
+                    fadeIn(function () {
+                        simulateAnimation(function () {
+                            redirect("Frame_5B.html");
+                        });
+                    });
                 });
-            });
-        });
     </script>
 </head>
 <body>
@@ -97,9 +97,11 @@
                 </div>
             </div>
             <div class="common-row common-row--with-border common-row--with-background">
+                <h5 class="phone-title-common search-screen__title">Search Screen</h5>
                 <!--<img class="img-frame" src="../images/frames/frame5a_2.jpg" alt="preview3">-->
+                <img src="../images/frames/kat_phones.png" alt="frame5a">
                 <div class="common-row--with-background__search-screen">
-                    <h5 class="phone-title-common search-screen__title">Search Screen</h5>
+
                     <p class="phone-description-common search-screen__description">
                         Use KAT's Library Search screen to find a book by keyword, title or author, then
                         touch to view bibliographic information for any book in the search results.
@@ -107,30 +109,35 @@
                 </div>
                 <div class="common-row--with-background__bibliography-view-screen">
                     <h5 class="phone-title-common bibliography-view-screen__title">Bibliography View Screen</h5>
-                    <p class="phone-description-common bibliography-view-screen__description_1">
+                </div>
+                <div class="bibliography">
+                    <p class="phone-description-common ">
                         KAT reports book availability if supported by your ILS
                     </p>
-                    <p class="phone-description-common bibliography-view-screen__description_2">
+                    <p class="phone-description-common">
                         KAT displays book cover images when available
                     </p>
                 </div>
                 <div class="common-row--with-background__shelf-view-screen">
                     <h5 class="phone-title-common shelf-view-screen__title">Shelf View Screen</h5>
-                    <p class="phone-description-common shelf-view-screen__description">
-                        Zoom from Stacks View to Shelf View and touch to view bibliographic information for any book.
-                    </p>
+
                 </div>
+                <p class="phone-description-common shelf-view-screen__description">
+                    Zoom from Stacks View to Shelf View and touch to view bibliographic information for any book.
+                </p>
                 <div class="common-row--with-background__kat-professor">
-                    <h5 class="kat-professor__title">Faculty Member's Recommended Reading List</h5>
-                    <img class="kat-professor__img"
-                         src="../images/frames/kat_professor.png" alt="KAT Professor">
-                    <p class="kat-professor__description">
-                        Professor: G. Patterson<br>
-                        Course ID: QMB4061
-                    </p>
-                    <p class="kat-professor__text-below">
-                        Faculty selects volumes and KAT does the rest.
-                    </p>
+                    <div class="pos-rel">
+                        <h5 class="kat-professor__title">Faculty Member's Recommended Reading List</h5>
+                        <img class="kat-professor__img"
+                             src="../images/frames/kat_professor.png" alt="KAT Professor">
+                        <p class="kat-professor__description">
+                            Professor: G. Patterson<br>
+                            Course ID: QMB4061
+                        </p>
+                        <p class="kat-professor__text-below">
+                            Faculty selects volumes and KAT does the rest.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
