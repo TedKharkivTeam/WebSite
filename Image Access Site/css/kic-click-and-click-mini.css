@@ -2472,7 +2472,9 @@ h3.true2_label.move {
     }
 
     .infoblock .brochure-overflow--top {
-        margin-left: 278px;
+        margin-left: 288px !important;
+        font-size: 6.5rem !important;
+        line-height: 6.7rem !important;
     }
 
     p.click_click_mini.brochure-overflow--line {
@@ -2572,6 +2574,10 @@ h3.true2_label.move {
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
         padding: 5px 0;
+    }
+
+    .wrap-block.wrap-face-up {
+        margin-top: 20px;
     }
 }
 
@@ -2906,6 +2912,7 @@ h3.h-app {
     font-weight: normal;
     margin: 0;
     padding: 0 0 10px 0;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 .infoblock .text-nocenter {
