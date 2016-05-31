@@ -89,6 +89,8 @@ h4 {
     padding: 10px 0;
     display: block;
     margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .infoblock .kic_software_smart_doc_photo2 {
@@ -929,7 +931,7 @@ div .infoblock__block {
 .infoblock .infoblock__true-2-touch {
     float: left;
     width: 20%;
-    padding: 0 0 10px 0;
+    padding: 10px 0 10px 0;
     margin-right: 4%;
 }
 
@@ -991,6 +993,7 @@ div .infoblock__block {
     line-height: 3rem;
     text-transform: uppercase;
     padding: 0;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
 span.arrow-brochure {
@@ -2622,7 +2625,7 @@ p.infoblock__page-5__block-p.--replace {
 .brochure-title-center-fleet {
     font-size: 5rem;
     line-height: 5.2rem;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
     text-align: center;
 }
 
@@ -3137,8 +3140,8 @@ img.infoblock__flash {
 }
 
 h2.brochure-title-center.resize {
-    font-size: 3.1rem;
-    line-height: 3.3rem;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
 }
 
 .border .triangle-pointer {
@@ -3152,6 +3155,10 @@ h2.brochure-title-center.resize {
 
 .with-span {
     padding: 20px 0 0 0 !important;
+}
+
+.with-italic {
+    padding-bottom: 0 !important;
 }
 
 p.infoblock__double__double-p.resize {
@@ -3307,6 +3314,8 @@ span.fa.fa-star.tabl-star.black {
 
 .sitalic {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .infoblock__page1-Header:after {
@@ -3355,6 +3364,7 @@ span.fa.fa-star.tabl-star.black {
     height: 70%;
     margin: 0 auto;
     display: block;
+    padding-top: 10px;
 }
 
 .infoblock__page-11__double__content__double {
