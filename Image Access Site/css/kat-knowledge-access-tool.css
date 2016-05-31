@@ -283,7 +283,7 @@ img {
 }
 
 .infoblock .infoblock__sub-header--PYPC-FBL {
-    margin-top: 185px;
+    margin-top: 228px;
     padding-bottom: 40px;
     font-size: 3.6rem;
 }
@@ -503,12 +503,10 @@ img {
 }
 
 .infoblock .block__title {
-    margin-left: 118px;
     padding-top: 0;
 }
 
 .infoblock .block__title--1 {
-    margin-left: 100px;
     padding-top: 17px;
 }
 
@@ -551,7 +549,6 @@ img {
 }
 
 .infoblock .block__info--2 {
-    margin-top: -6px;
     margin-left: 100px;
 }
 
