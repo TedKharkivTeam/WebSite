@@ -60,8 +60,8 @@
                 <li><a href="pages/Bookeye-4-V1A.html">Bookeye 4 V1A </a></li>
                 <li><a href="pages/Bookeye-4-V1A-C35.html">Bookeye 4 V1A-C35</a></li>
                 <li class="group_link"><a href="pages/Scanners_Flatbed_Scanners.html">Scan2Net Flatbed Scanners</a></li>
-                <li><a href="pages/WideTEK_12.html">WideTEK 12</a></li>
-                <li><a href="pages/WideTEK_25.html">WideTEK 25</a></li>
+                <li><a href="pages/WideTEK-12.html">WideTEK 12</a></li>
+                <li><a href="pages/WideTEK-25.html">WideTEK 25</a></li>
                 <li class="group_link"><a href="pages/Scanners_Wide_Format_Scanners.html">Scan2Net Wide Format
                     Scanners</a></li>
                 <li><a href="pages/WideTEK_36.html">WideTEK 36</a></li>
@@ -110,7 +110,7 @@
         <ul class="topbar">
             <li><a href="../index.html">Home</a></li>
             <li id="sitemap">
-                <a class="fl-right" style="cursor: default;">Site Map</a>
+                <a class="fl-right">Site Map</a>
                 <div class="menu ncase fast-nav fadeIn animated">
                     <div class="fast-nav-content menu_last">
                         <div class="column">
@@ -181,7 +181,8 @@
                             <a href="pages/S_Global_Service_Areas.html" class="sitemap-item">Global Service Areas</a>
                             <a href="pages/S_The_Service_and_Support_Team.html" class="sitemap-item">The Service &
                                 Support Team</a>
-                            <a href="pages/S_The_Digitization_Advisors.html" class="sitemap-item">The Digitization Advisors</a>
+                            <a href="pages/S_The_Digitization_Advisors.html" class="sitemap-item">The Digitization
+                                Advisors</a>
 
                             <div class="horizontal-divider"></div>
                             <h4>Expertise</h4>
@@ -217,14 +218,13 @@
                         <span>Portal Login</span>
                         <input type="text" maxlength="64" name="AnmeldeName" placeholder="Login">
                         <input type="password" maxlength="64" name="Passwort" placeholder="Password">
-                        <div id="Wrapp3" style="display:none">
-                            <div id='tt3'>
-                                <div class="close" onclick="openbox('Wrapp3')">x</div>
-                                Invalid login or password
+                        <a class="login__submit-button" href="#popup-login">Submit</a>
+                        <div id="popup-login" class="overlay-login">
+                            <div class="popup-login-div">
+                                <p>Invalid Login or Password</p>
+                                <a class="close" href="">&times;</a>
                             </div>
                         </div>
-                        <input type="submit" class="submit" value="Login" onclick="openbox('Wrapp3');return false;">
-                        <a href="" class="">Password change</a>
                     </fieldset>
                 </form>
             </div>

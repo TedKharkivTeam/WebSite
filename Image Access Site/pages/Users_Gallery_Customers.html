@@ -5,11 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Do Copiers Belong in the Library :: Image Access 2016</title>
+    <link rel="shortcut icon" href="../images/icon.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/video-js.css">
     <link rel="stylesheet" href="../css/common-styles.css">
-    <link rel="shortcut icon"href="../images/icon.png">
     <script src="../js/jquery-1.12.2.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/videojs-ie8.js"></script>
     <script src="../js/include.js"></script>
 </head>
 <body>
@@ -23,9 +26,18 @@
         </a>
         <div class="botlogo">Customers</div>
     </div>
-    <video class="video" loop = "loop" autoplay="autoplay" width="960" height="540"  controls="controls">
-        <source src="../video/Customer_List.mp4"
-                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <video id="my-video" class="video-js video" controls autoplay preload="auto"
+           poster="../images/video-poster-customers.jpg" data-setup="{}">
+        <source src="http://upload.ted-kteam.com/video/Customer_List.webm"
+                type='video/webm'>
+        <source src="http://upload.ted-kteam.com/video/Customer_List.mp4"
+                type='video/mp4'>
+        <source src="http://upload.ted-kteam.com/video/Customer_List.ogv"
+                type='video/ogg'>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
     </video>
 </div>
 <footer>

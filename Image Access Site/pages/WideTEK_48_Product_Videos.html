@@ -9,11 +9,14 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/video-js.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/widetek-and-bookeye-scanners.css">
     <script src="../js/jquery-1.12.2.min.js"></script>
     <script src="../js/gallery.js"></script>
     <script src="../js/gallery-init.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/videojs-ie8.js"></script>
     <script src="../js/hammer.min.js"></script>
     <script src="../js/include.js"></script>
 </head>
@@ -48,14 +51,30 @@
         <div class="gallery scrolled_pic">
             <div class="images">
                 <div class="image active">
-                    <video width="100%" height="auto" controls="controls">
-                        <source src="../video/WideTEK_48.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <video id="my-video1" class="video-js" controls autoplay preload="auto"
+                           poster="../images/video-poster.jpg" data-setup="{}">
+                        <source src="http://upload.ted-kteam.com/video/WideTEK_48.webm" type='video/webm'>
+                        <source src="http://upload.ted-kteam.com/video/WideTEK_48.mp4" type='video/mp4'>
+                        <source src="http://upload.ted-kteam.com/video/WideTEK_48.ogv" type='video/ogg'>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
                     </video>
                 </div>
                 <div class="image">
-                    <video width="100%" height="auto" controls="controls">
-                        <source src="../video/Universal_Multi_Function_Stand.mp4"
-                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <video id="my-video2" class="video-js" controls autoplay preload="auto"
+                           poster="../images/video-poster.jpg" data-setup="{}">
+                        <source src="http://upload.ted-kteam.com/video/Universal_Multi_Function_Stand.webm"
+                                type='video/webm'>
+                        <source src="http://upload.ted-kteam.com/video/Universal_Multi_Function_Stand.mp4"
+                                type='video/mp4'>
+                        <source src="http://upload.ted-kteam.com/video/Universal_Multi_Function_Stand.ogv"
+                                type='video/ogg'>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
                     </video>
                 </div>
             </div>
@@ -69,13 +88,13 @@
                             </a>
                         </div>
                         <div class="video-links">
-                            <h3 class="infoblock__scanners-header-h3">WideTEK Wide Format Scanner Product Video</h3>
+                            <h3 class="infoblock__scanners-header-h3">WideTEK 48<sup>&reg;</sup> Product Video</h3>
                             <i class="fa fa-file-video-o fa-4x" aria-hidden="true"></i>
                             <div class="download-video">
                                 <span>English</span>
                                 <span>Time: 05:29 Min</span>
-                                <a class="text--blue text--bold" href="../video/WideTEK_48.mp4" download>Download
-                                    MP4</a>
+                                <a class="text--blue text--bold" href="http://upload.ted-kteam.com/video/WideTEK_48.mp4"
+                                   download>Download MP4</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +112,8 @@
                             <div class="download-video">
                                 <span>English</span>
                                 <span>Time: 06:44 Min</span>
-                                <a class="text--blue text--bold" href="../video/Universal_Multi_Function_Stand.mp4"
+                                <a class="text--blue text--bold"
+                                   href="http://upload.ted-kteam.com/video/Universal_Multi_Function_Stand.mp4"
                                    download>Download MP4</a>
                             </div>
                         </div>

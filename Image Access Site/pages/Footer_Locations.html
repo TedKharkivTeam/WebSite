@@ -6,11 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Locations :: Image Access 2016</title>
     <link rel="shortcut icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/video-js.css">
+    <link rel="stylesheet" href="../css/common-styles.css">
     <script src="../js/jquery-1.12.2.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/videojs-ie8.js"></script>
     <script src="../js/include.js"></script>
-    <link href="../css/reset.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/common-styles.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -18,13 +21,22 @@
 </header>
 <div class="content">
     <div class="logo">
-        <a href="../index.html"><img src="../images/logo/ImageAccess-logo.png"
-                                     alt="Image Access"></a>
+        <a href="../index.html">
+            <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
+        </a>
         <div class="botlogo">Locations</div>
     </div>
-    <video class="video" loop="loop" autoplay="autoplay" width="960" height="540" controls="controls">
-        <source src="../video/US_Book_Scanner_Installation_Locations.mp4"
-                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <video id="my-video" class="video-js video" controls autoplay preload="auto" data-setup="{}">
+        <source src="http://upload.ted-kteam.com/video/US_Book_Scanner_Installation_Locations.webm"
+                type='video/webm'>
+        <source src="http://upload.ted-kteam.com/video/US_Book_Scanner_Installation_Locations.mp4"
+                type='video/mp4'>
+        <source src="http://upload.ted-kteam.com/video/US_Book_Scanner_Installation_Locations.ogv"
+                type='video/ogg'>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
     </video>
 </div>
 <footer>

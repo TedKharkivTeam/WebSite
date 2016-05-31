@@ -258,6 +258,7 @@ body {
 
 .fl-right {
     margin: 0 20px 0 60px;
+    cursor: default;
 }
 
 .fast-nav {
@@ -603,6 +604,74 @@ body {
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
     }
+}
+
+.loginDropdown .show a.login__submit-button {
+    background: linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -moz-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -webkit-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -o-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    background: -ms-linear-gradient(top, rgb(2, 48, 126), rgb(36, 135, 214));
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    border: none;
+    width: 100px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.loginDropdown .show .overlay-login {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+.loginDropdown .show .overlay-login:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.loginDropdown .show .popup-login-div {
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    position: relative;
+}
+
+.loginDropdown .show .popup-login-div p {
+    color: #333;
+    text-align: center;
+}
+
+.loginDropdown .show .popup-login-div .close {
+    position: absolute;
+    top: -7px;
+    right: 7px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.loginDropdown .show .popup-login-div .close:hover {
+    color: #06D85F;
 }
 
 /*end login*/
