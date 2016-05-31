@@ -1215,8 +1215,13 @@ h2.pod-text {
 .infoblock__page-11__in-case-span--center {
     text-align: center;
     font-size: 2.4rem;
+
     line-height: 2.6rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial !important;
+}
+
+.infoblock__page-11__padding-bottom{
+    padding-bottom: 10px;
 }
 
 .infoblock__page-11__double__content__double {
@@ -1275,13 +1280,13 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    width: 60%;
+    width: 68%;
     margin: 2px auto;
     display: block;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    width: 60%;
+    width: 79%;
     margin: 0 auto;
     display: block;
 }
