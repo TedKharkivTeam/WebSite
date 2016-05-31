@@ -1838,50 +1838,65 @@ figcaption {
     }
 }
 
-@media (max-width: 1210px){
+@media (max-width: 1210px) {
     .infoblock .common-header-h2--big-logo-text {
         font-size: 9rem;
     }
 }
-@media (max-width: 1199px){
+
+@media (max-width: 1199px) {
     .infoblock .big-logo-text__sub-header {
         margin-top: 0;
     }
+
     .infoblock .true-2-touch-wrapper__save-to-usb-image {
         margin-top: 11%;
     }
+
     .infoblock .for-public-libraries-section__touching-copy-text {
         margin-top: -334px;
     }
+
     .infoblock .text-section__centered-text--with-margin {
         bottom: 0;
     }
+
     .infoblock .middle-content__photo {
         padding-top: 6%;
     }
 
+    .infoblock .common-row--tech-details__column {
+        min-height: 350px;
+    }
+
 }
 
-@media (max-width: 1050px){
+@media (max-width: 1050px) {
     .infoblock .true-2-touch-wrapper__save-to-usb-image {
         margin-top: 23%;
     }
+
     .infoblock .for-public-libraries-section__touching-copy-text {
         margin-top: -295px;
     }
+
     .infoblock .two-tels-section__text-p {
         top: 80px;
     }
+
     .infoblock .header-section__header--kic-fleet {
         font-size: 4rem !important;
         line-height: 4.7rem !important;
     }
+
     .infoblock .text-section__centered-text--with-margin {
         bottom: -64px;
     }
+
     .infoblock .middle-content__photo {
         padding-top: 13%;
     }
+
     .infoblock .big-logo-text__sub-header {
         margin-top: -33px;
     }
