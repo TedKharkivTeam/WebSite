@@ -168,15 +168,9 @@ input, textarea {
 
 .adr-top {
     position: absolute;
-    top: 100px;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 50px;
+    left: 28%;
     width: 100%;
-    text-align: center;
 }
 
 .adr-top span {
@@ -199,6 +193,7 @@ input, textarea {
     width: 71%;
     text-align: center;
     margin: 0 auto;
+    padding: 15px 0;
 }
 
 .contactus-holder__triple {
@@ -207,7 +202,9 @@ input, textarea {
     display: inline-block;
     vertical-align: middle;
 }
-
+.triple--top{
+    vertical-align: top;
+}
 .contactus-holder__triple__image--right {
     width: 100%;
     height: 100%;
@@ -236,11 +233,10 @@ input, textarea {
 
 .contactus-holder__triple__div--text {
     text-align: right;
-    margin-right: 10px;
     font-size: 22px;
     float: left;
     width: 20%;
-    margin-left: -19px;
+    padding-right: 12px;
 }
 
 .contactus-holder__triple__div--contact {
@@ -285,6 +281,7 @@ input, textarea {
     .contactus-holder__triple__div--contact a {
         font-size: 18px !important;
     }
+
 }
 
 @media all and (max-width: 1430px) and (min-width: 1024px) {
@@ -327,17 +324,35 @@ input, textarea {
     .--input-resize {
         min-width: 179px;
     }
+    .contactus-holder {
+        width: 68%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
 }
-
+@media all and (max-width: 1567px){
+    .contactus-holder {
+        width: 76%;
+        margin: 0 0 0 20%;
+        padding: 30px 0 0;
+    }
+}
 @media all and (max-width: 1566px) and (min-width: 1497px) {
     .mainform input {
         max-width: 159px;
     }
+
 }
 
 @media all and (max-width: 1496px) and (min-width: 1397px) {
     .mainform input {
         max-width: 139px;
+    }
+    .contactus-holder {
+        width: 76%;
+        margin: 0 0 0 20%;
+        padding: 30px 0 0;
     }
 }
 
@@ -383,15 +398,10 @@ input, textarea {
 
 @media all and (max-width: 1550px) and (min-width: 1024px) {
     .mainform {
-        padding: 2vw 90px 0 90px;
+        padding: 0 90px;
     }
 }
 
-@media all and (max-width: 1550px) and (min-width: 1024px) {
-    .mainform {
-        padding: 3vw 0 0 0;
-    }
-}
 
 @media all and (max-width: 1095px) and (min-width: 1024px) {
     .field label {
@@ -433,9 +443,9 @@ input {
 
 @media all and (max-width: 1400px) {
     .contactus-holder {
-        width: 67%;
-        text-align: center;
-        margin: 5px auto 0;
+        width: 76%;
+        margin: 0 0 0 17%;
+        padding: 30px 0 15px;
     }
 
     .contactus-holder__triple__strong {
@@ -446,8 +456,14 @@ input {
 
 @media (max-width: 1200px) {
     .contactus-holder {
-        width: 67%;
-        text-align: center;
-        margin: 20px 0 0 22%;
+        width: 76%;
+        margin: 0 0 0 21%;
+        padding: 30px 0 15px;
+    }
+    .contactus-holder__triple {
+        vertical-align: top;
+    }
+    .mainform {
+        padding:0;
     }
 }
