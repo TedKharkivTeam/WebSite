@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/video-js.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/widetek-and-bookeye-scanners.css">
     <script src="../js/jquery-1.12.2.min.js"></script>
     <script src="../js/gallery.js"></script>
     <script src="../js/gallery-init.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/videojs-ie8.js"></script>
     <script src="../js/hammer.min.js"></script>
     <script src="../js/include.js"></script>
 </head>
@@ -55,9 +58,14 @@
         <div class="gallery scrolled_pic">
             <div class="images">
                 <div class="image active">
-                    <video width="100%" height="auto" controls="controls">
-                        <source src="../video/Bookeye_4_V2_Kiosk_Book_Scanner_in_A2_Format.mp4"
-                                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <video id="my-video" class="video-js" controls preload="auto" width="1100px" height="659px"
+                           data-setup="{}">
+                        <source src="../video/Bookeye_4_V2_Kiosk_Book_Scanner_in_A2_Format.webm" type='video/webm'>
+                        <source src="../video/Bookeye_4_V2_Kiosk_Book_Scanner_in_A2_Format.mp4" type='video/mp4'>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
                     </video>
                 </div>
                 <div class="image">
