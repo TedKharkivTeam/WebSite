@@ -1,16 +1,3 @@
-.infoblock strong {
-    text-align: center;
-    display: block;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-
-.infoblock__p--center-text {
-    margin: 10px auto;
-    display: block;
-    width: 70%;
-}
-
 .infoblock__content-holder {
     width: 100%;
     overflow: hidden;
@@ -24,12 +11,6 @@
 .infoblock__content-holder--right {
     width: 48%;
     float: right;
-}
-
-.blue-shadow-title {
-    padding: 0;
-    text-align: left;
-    color: #291769;
 }
 
 .infoblock__content-holder__content {
@@ -96,16 +77,15 @@
     color: #000000;
 }
 
-.tile-center {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
-    font-size: 3.2rem;
-    line-height: 3.6rem;
-    text-align: center;
-    padding: 20px 0 10px;
-}
-
 .paragraph-title-left--margin {
     margin-left: 0;
+}
+
+.width-seventy-percent {
+    font-family: 'LatoItalic', helvetica, arial, sans-serif;
+    width: 70%;
+    text-align: center !important;
+    margin: 0 auto;
 }
 
 @media (min-width: 1590px) {

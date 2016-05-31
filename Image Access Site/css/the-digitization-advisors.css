@@ -1,35 +1,40 @@
-.infoblock__box{
+.infoblock__box {
     position: relative;
 }
+
 .infoblock .infoblock__advisors-header-h2 {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
+    line-height: 3.8rem;
     padding: 15px 0 25px 0;
 }
 
 .infoblock .advisors__advisor {
     color: #1E3A6D;
-    font-family: 'LatoBold';
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: center;
-    padding-top:15px;
+    padding-top: 15px;
 }
-.infoblock__advisors{
+
+.infoblock__advisors {
     width: 33%;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
 }
-.advisors__block{
+
+.advisors__block {
     padding: 10px;
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     border: 1px solid #888;
-    -webkit-box-shadow:0 10px 20px #000;
-    -moz-box-shadow:0 10px 20px #000;
-    box-shadow:0 10px 20px #000;
+    -webkit-box-shadow: 0 10px 20px #000;
+    -moz-box-shadow: 0 10px 20px #000;
+    box-shadow: 0 10px 20px #000;
     margin-bottom: 10%;
 }
+
 /* 1280, 1366 */
 @media all and (min-width: 1200px) and (max-width: 1399px) {
 

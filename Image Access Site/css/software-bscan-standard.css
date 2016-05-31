@@ -6,28 +6,9 @@ div.content span {
     display: inline;
 }
 
-div.content span.title {
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
-
 .button_special {
     font-size: 1.6rem;
     font-weight: bold;
-}
-
-div.content span.heading {
-    color: #000000;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-div.content div.indent {
-    padding-left: 3%;
 }
 
 #bscan-standard-production-capture {
@@ -58,14 +39,15 @@ div.content div.indent {
 }
 
 .paragraph-title-left {
-    font-family: 'LatoBold', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: left;
     font-size: 2.4rem;
     line-height: 2.6rem;
 }
 
 .width-seventy-percent {
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     width: 70%;
     margin-left: 15%;
+    text-align: center !important;
 }
-
