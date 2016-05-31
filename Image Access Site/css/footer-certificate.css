@@ -26,19 +26,19 @@
 }
 
 .infoblock__epigraph p {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: right;
     padding-bottom: 20px;
 }
 
 .infoblock__epigraph strong {
-    font-family: 'AvenirLTStdHeavy', helvetica, arial, sans-serif;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: right;
     display: block;
 }
 
 .infoblock__epigraph span {
-    font-family: 'AvenirLTStdOblique', helvetica, arial, sans-serif;
+    font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: right;
     display: block;
 }

@@ -291,6 +291,8 @@
 
 /*end blue and green bullet in list*/
 .video {
+    width: 1060px;
+    height: 596px;
     margin: 20px auto;
     display: block;
 }
