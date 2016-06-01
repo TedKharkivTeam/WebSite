@@ -506,7 +506,7 @@ img {
     background: url("../images/KIC_KAT/kat_7_img_7.png") no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 30%;
+    margin-left: 0;
     height: 172px;
     width: 500px;
 }
