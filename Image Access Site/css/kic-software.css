@@ -4,9 +4,9 @@
 
 .brochure-title-center {
     padding: 20px 0 10px !important;
-    font-family: 'LatoBold', sans-serif, helvetica, arial !important;
-    font-size: 4rem !important;
-    line-height: 4.2rem !important;
+    font-family: 'LilyUPC', Arial, sans-serif !important;
+    font-size: 6rem !important;
+    line-height: 6.2rem !important;
     text-align: center;
 }
 
@@ -632,8 +632,8 @@ th .table--img {
     font-style: italic;
     margin-left: -2%;
     text-align: center;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .text5 {
@@ -707,16 +707,16 @@ p.infoblock__double__double-p.move {
 
 .infoblock__double-wrap figure figcaption {
     text-align: center;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .infoblock .bookeye-vs-copiers__span {
     font-weight: normal;
     text-align: center;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     display: block;
     margin: 0 auto;
 }
@@ -2455,8 +2455,8 @@ p.infoblock__homo-text.responsible_fix_block_text span {
     left: 310px;
     width: 20%;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 
 .border {
@@ -3512,8 +3512,8 @@ p.floorstand {
 }
 
 p.map-icon {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
 }
 
