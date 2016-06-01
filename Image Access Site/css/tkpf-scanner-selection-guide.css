@@ -1,4 +1,4 @@
-.infoblock span, p {
+.infoblock span,p {
     font-weight: normal;
     line-height: 2.4rem;
     text-align: right;
@@ -6,7 +6,8 @@
 }
 
 .bscan-ill--h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: #000;
     padding: 0;
     line-height: 1.2;
@@ -86,6 +87,7 @@ h4 {
     text-align: center;
     font-size: 13px;
     font-weight: bold;
+    line-height: 1.8rem;
 }
 
 .row__column {
@@ -264,11 +266,7 @@ th .table--img {
     vertical-align: text-top;
 }
 
-.align-right {
-    text-align: right;
-    display: block;
-    padding: 3px 0;
-}
+
 
 .first-column {
     width: 200px;
@@ -278,6 +276,7 @@ th .table--img {
 
 .table__footer {
     font-size: 14px;
+    line-height: 22px;
 }
 
 .line__persent1:after {
@@ -315,6 +314,8 @@ th .table--img {
 .infoblock .sitalic {
     font-style: italic;
     text-align: center;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .row__column .column__image--shorter {
