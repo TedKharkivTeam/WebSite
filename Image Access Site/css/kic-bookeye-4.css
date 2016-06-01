@@ -16,8 +16,8 @@
 }
 figure figcaption{
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
 }
 
@@ -974,10 +974,19 @@ div .infoblock__page-7__block-left {
     padding: 0;
 }
 
-.infoblock__page-8__reservation__text {
+.infoblock__page-8__reservation__text-1 {
     text-align: left;
     width: 49%;
-    padding: 10px;
+    padding-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.infoblock__page-8__reservation__text-2 {
+    text-align: left;
+    width: 49%;
+    padding-left: 5px;
     display: inline-block;
     vertical-align: top;
 }
@@ -1024,8 +1033,6 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-9__top {
     overflow: hidden;
-
-    padding-bottom: 5%;
 }
 
 .infoblock .infoblock__page-9__top__logo {
@@ -1044,6 +1051,8 @@ div .infoblock__page-7__block-left {
     font-size: 5rem;
     line-height: 5.2rem;
     margin: 0;
+    padding: 20px 0 0 0;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__page-9__top__h2 {
@@ -1061,23 +1070,25 @@ div .infoblock__page-7__block-left {
 
 .infoblock__page-9__center {
     overflow: hidden;
-    margin-top: -130px;
+    margin-top: -50px;
 }
 
 .infoblock .infoblock__page-9__center__img {
     float: right;
-    width: 65%;
+    width: 63%;
     padding-left: 20px;
 }
 
 .infoblock .infoblock__page-9 .infoblock__page-9__center__text--padding {
-    padding-top: 90px;
+    padding-top: 60px;
     position: relative;
+    line-height: 2.4rem;
 }
 
 .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
     position: absolute;
-    padding-top: 70px;
+    padding-top: 40px;
+    line-height: 2.4rem;
     width: 37%;
 }
 
@@ -1758,6 +1769,9 @@ h2.pod-text {
 
 .infoblock__center--text {
     text-align: center;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    padding-bottom: 10px;
 }
 
 .kic-product {
@@ -2171,11 +2185,9 @@ th .table--img {
     vertical-align: text-top;
 }
 
-.bscan-ill--h4 {
-    font-size: 2rem;
+.infoblock .bscan-ill--h4 {
     color: #000;
     padding: 0;
-    line-height: 1.2;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0;
 }
