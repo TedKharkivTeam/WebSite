@@ -3037,3 +3037,7 @@ span.click_click_mini.brochure-overflow--line {
     float: right;
     width: 65%;
 }
+
+h3.reservation__h2--center.uppercase {
+    text-transform: uppercase;
+}

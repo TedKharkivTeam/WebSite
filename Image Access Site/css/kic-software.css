@@ -4,9 +4,9 @@
 
 .brochure-title-center {
     padding: 20px 0 10px !important;
-    font-family: 'LilyUPC', Arial, sans-serif !important;
-    font-size: 6rem !important;
-    line-height: 6.2rem !important;
+    font-family: 'LatoBold', Arial, sans-serif !important;
+    font-size: 3.6rem !important;
+    line-height: 3.8rem !important;
     text-align: center;
 }
 
@@ -2625,6 +2625,7 @@ p.infoblock__page-5__block-p.--replace {
     line-height: 5.2rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     text-align: center;
+    padding-top: 20px;
 }
 
 h2.brochure-title-kic-software__blue_label.--fleet {
@@ -2693,7 +2694,7 @@ h2.brochure-title-kic-software__blue_label.--fleet {
 
 .resize-fleet-paragraph {
     font-size: 1.6rem !important;
-    line-height: 2.2rem !important;
+    line-height: 2.4rem !important;
 }
 
 .exclusive-feature {
@@ -3549,4 +3550,13 @@ h2.brochure-title-center.with-italic.case {
 
 span.infoblock__page-11__in-case-span.case {
     padding: 0 !important;
+}
+
+h1.brochure-title-center.with-italic.title-h1 {
+    font-family: 'LilyUPC', sans-serif, helvetica, arial !important;
+    font-size: 6rem !important;
+}
+
+h3.brochure-title-kic-software__blue_label.--fleet.padding-fleet {
+    padding-top: 0 !important;
 }
