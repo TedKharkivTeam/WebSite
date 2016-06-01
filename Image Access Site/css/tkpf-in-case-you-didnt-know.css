@@ -4,6 +4,9 @@
     overflow: hidden;
 }
 
+h4{
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
 .infoblock__double__content {
     overflow: hidden;
     padding: 10px 10px 10px 0;
@@ -95,8 +98,8 @@
     display: block;
 }
 
+
 .infoblock span {
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
     padding-bottom: 5px;
     display: block;
 }
