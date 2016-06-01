@@ -1,5 +1,6 @@
+.figcaption-imit,
 figcaption {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     text-align: center;
 }
@@ -109,12 +110,13 @@ figcaption {
 }
 
 .infoblock .big-logo-text__sub-header {
-    font-size: 3.6rem;
-    line-height: 3.8rem;
-    text-align: right;
+    font-size: 4rem;
+    line-height: 1;
     color: #0d5cab;
+    padding: 0;
+    text-align: right;
     font-family: 'LilyUPC', Arial, sans-serif;
-    padding-right: 3%;
+    /*padding-right: 3%;*/
     float: right;
 }
 
@@ -735,7 +737,7 @@ figcaption {
     font-size: 2rem;
     line-height: 2rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
-    margin: 0 0 15px 0;
+    margin: 0;
     width: 100%;
 }
 
@@ -899,7 +901,7 @@ figcaption {
     width: 32%;
 }
 
-.infoblock .item__text-label{
+.infoblock .item__text-label {
     text-align: center;
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -949,15 +951,15 @@ figcaption {
 .infoblock .pod-section__text-p {
     width: 90%;
     margin: 0 auto;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
 }
 
-.infoblock .pod-section__text-p {
-    width: 95%;
-    margin: 10px auto;
-    font-size: 1.9rem;
-    line-height: 1.9rem;
+h2.pod-text {
+    font-size: 2.6rem;
+    color: #000;
+    padding: 0;
+    line-height: 1.2;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    margin: 0;
 }
 
 /* PAGE 10 ****************************************************************************************************** */
@@ -1250,8 +1252,7 @@ figcaption {
 
 .infoblock .common-row--tech-details__row-header {
     text-align: center;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+    font-size: 13px;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
@@ -1620,7 +1621,7 @@ figcaption {
     .infoblock .in-case-you-didnt-know-wrapper__text-p {
         width: 210px;
         position: absolute;
-        right: 0%;
+        right: 0;
         bottom: 0;
     }
 
@@ -1840,6 +1841,15 @@ figcaption {
     .infoblock .common-row__column {
         vertical-align: middle;
     }
+
+    h2.pod-text {
+        font-size: 2.2rem;
+        color: #000;
+        padding: 0;
+        line-height: 1.2;
+        font-family: 'LatoBold', sans-serif, helvetica, arial;
+        margin: 0;
+    }
 }
 
 @media (max-width: 1210px) {
@@ -1902,6 +1912,11 @@ figcaption {
     }
 
     .infoblock .big-logo-text__sub-header {
-        margin-top: -33px;
+        margin-top: -15px;
+    }
+
+    .infoblock .big-logo-text__sub-header {
+        font-size: 3rem;
+
     }
 }
