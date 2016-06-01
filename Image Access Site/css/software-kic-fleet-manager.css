@@ -1,7 +1,5 @@
 .infoblock__top {
     overflow: hidden;
-
-    padding-bottom: 5%;
 }
 
 figure {
@@ -16,8 +14,8 @@ figure {
 
 figure figcaption{
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
 }
 
@@ -31,7 +29,8 @@ figure figcaption{
     text-shadow: none;
     font-size: 5rem;
     line-height: 5.2rem;
-    margin: 0;
+    padding: 20px 0 0 0;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__top__h2 {
@@ -49,12 +48,12 @@ figure figcaption{
 
 .infoblock__center {
     overflow: hidden;
-    margin-top: -130px;
+    margin-top: -50px;
 }
 
 .infoblock .infoblock__center__img {
     float: right;
-    width: 65%;
+    width: 63%;
     padding-left: 20px;
 }
 
@@ -75,15 +74,15 @@ figure figcaption{
 }
 
 .infoblock .infoblock__center__text--padding {
-    padding-top: 90px;
-    line-height: 1.8rem;
+    padding-top: 60px;
+    line-height: 2.4rem;
     position: relative;
 }
 
 .infoblock .infoblock__center__text--margin {
-    padding-top: 70px;
     position: absolute;
-    line-height: 1.8rem;
+    padding-top: 40px;
+    line-height: 2.4rem;
     width: 37%;
 }
 
