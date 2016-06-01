@@ -38,7 +38,7 @@
 }
 
 .htable {
-    font-family: 'AvenirLTStdHeavy';
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 
 }
 
@@ -64,7 +64,7 @@
 }
 
 .infoblock .htable__font{
-    font-family: 'AvenirLTStdRoman';
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
 }
 
 .infoblock .infoblock__fond-size-span-text{
@@ -125,3 +125,10 @@ h2 span {
     }
 }
 
+tr.htable {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+}
+
+.scan-area tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.1);
+}

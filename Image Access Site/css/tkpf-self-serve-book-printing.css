@@ -1,9 +1,9 @@
 h1.pod-text {
-    font-size: 34px;
+    font-size: 3.4rem;
     color: #000;
     padding: 0;
     line-height: 1.2;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0;
 }
 
@@ -18,17 +18,16 @@ h1.pod-text {
 
 
 h2.pod-text {
-    font-size: 26px;
+    font-size: 2.6rem;
     color: #000;
-    padding: 0;
+    padding: 25px 0 0 0;
     line-height: 1.2;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0;
-	padding-top: 25px;
 }
 
 h3.pod-text {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #000;
     padding: 0;
     line-height: 1.2;
@@ -37,19 +36,19 @@ h3.pod-text {
 }
 
 h4.pod-text {
-    font-size: 20px;
+    font-size: 2rem;
     color: #000;
 }
 
 h5.pod-text {
     color: #9C9E9F;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin: 0 0 20px;
 }
 
 h6.pod-text {
     color: #093C8B;
-    font-size: 12px;
+    font-size: 1.2rem;
     margin: 9px 0 5px 0;
 }
 
@@ -69,7 +68,7 @@ h6.pod-text {
 }
 
 .content__pod-text p {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 20px 0 10px 20px;
 }
 
@@ -97,8 +96,8 @@ h6.pod-text {
 
 .infoblock .text-grey-pbd {
     display: inline-block;
-    font-size: 22px;
-    padding: 0px 2% 0px 5%;
+    font-size: 2.2rem;
+    padding: 0 2% 0 5%;
 }
 
 .infoblock {
@@ -110,7 +109,7 @@ h6.pod-text {
 .new-red {
     color: #fff;
     background: #ca3731;
-    font-size: 20px;
+    font-size: 2rem;
     position: absolute;
     left: 11px;
     -moz-transform: rotate(-45deg);
@@ -156,7 +155,7 @@ h6.pod-text {
 .custom__aline .custom__aline--text {
     width: 90%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
 }
 .frame--text {
