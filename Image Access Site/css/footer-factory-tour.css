@@ -15,6 +15,7 @@
 
 .infoblock .table_video .video-links {
     display: inline-block;
+    width: 40%;
 }
 
 .download-video {
