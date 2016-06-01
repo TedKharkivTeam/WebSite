@@ -293,10 +293,11 @@ body {
 }
 
 .fast-nav-content h4 {
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
+
     font-size: 16px;
     color: rgb(255, 255, 255);
     margin: 0;
-    font-weight: bold;
 }
 
 .fast-nav-content .sitemap-item {

@@ -11,7 +11,9 @@
 }
 
 .single-item__title {
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 28px;
+    line-height: 30px;
     position: absolute;
     top: 7px;
     padding: 16px 0;
@@ -19,7 +21,7 @@
     right: 0;
     text-align: center;
     color: #fff;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(40, 95, 181, 0.9);
 }
 
 .content__news-wrapper {
@@ -39,13 +41,13 @@
 
 .popup__text {
     color: #fff;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(40, 95, 181, 0.9);
     border-radius: 3px;
     display: block;
     padding: 10px 0;
-    font-size: 27px;
-    font-weight: bold;
-    font-style: italic;
+    font-size: 26px;
+    line-height: 28px;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .text--popup {
@@ -60,7 +62,7 @@
 
 .news_item {
     position: relative;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 3px;
     margin: 9px 0;
     padding: 8px 0;
@@ -72,11 +74,11 @@
 }
 
 .popup__menu time {
-    width: 60px;
-    margin-left: 30px;
-    margin-right: 5px;
+    width: 65px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: inline-block;
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .a__text {
@@ -250,7 +252,9 @@
 }
 
 .events-block__events--coming {
-    height: 55%;
+    height: 45%;
+    margin-bottom: 15%;
+    margin-top: 5%;
 }
 
 .events-block__events--past {
@@ -260,13 +264,13 @@
 .events__block-title {
     text-align: center;
     color: #fff;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(40, 95, 181, 0.9);
     border-radius: 3px;
     display: block;
     padding: 10px 0;
-    font-size: 2.3rem;
-    font-weight: bold;
-    font-style: italic;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
     max-height: 40px;
 }
 
@@ -290,13 +294,13 @@
 .text--pull-left {
     position: absolute;
     left: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     color: #fff;
     padding: 1px 3px;
 }
 
 .text--bold {
-    font-weight: bold;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .text--padding {
