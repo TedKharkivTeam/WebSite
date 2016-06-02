@@ -337,8 +337,13 @@ figure figcaption{
     .infoblock__nav {
         margin-top: 50px;
     }
+
+    .infoblock .infoblock__top__h1 {
+        font-size: 4.4rem;
+        line-height: 4.6rem;
+    }
     .infoblock .infoblock__center__text--padding {
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
     .infoblock .infoblock__center__img {
