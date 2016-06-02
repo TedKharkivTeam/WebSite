@@ -1525,6 +1525,10 @@ h2.pod-text {
     .infoblock .triangular-copy__image {
         margin: 6% 1% 50px;
     }
+
+    .infoblock .big-logo-text__sub-header {
+        margin-top: -50px;
+    }
 }
 
 @media all and (max-width: 1660px) {
