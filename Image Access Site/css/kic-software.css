@@ -1926,7 +1926,7 @@ table.table__footer td {
     }
 
     img.infoblock__number {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .infoblock__double__content__double p {
@@ -1954,7 +1954,7 @@ table.table__footer td {
 
     .infoblock .infoblock__page-7__text-block-devices {
         width: 35% !important;
-        top: 610px !important;
+        top: 638px !important;
         right: 20px !important;
     }
 
@@ -1990,7 +1990,7 @@ table.table__footer td {
     }
 
     .columnKIC_Bookeye_4 .hand-yellow-coin {
-        padding: 5px 10px 20px 0;
+        padding: 5px 10px 30px 0;
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
@@ -2633,6 +2633,25 @@ p.infoblock__page-5__block-p.--replace {
     p.paragraph-resize {
         width: 160%;
     }
+
+    .infoblock__page-11__in-case-enhance {
+        width: 80% !important;
+        height: 80% !important;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
+        padding: 0 !important;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .in-case-enhance {
+        width: 80% !important;
+        padding-top: 30px;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 330px !important;
+        width: 36% !important;
+    }
 }
 
 .brochure-title-center-fleet {
@@ -2873,6 +2892,18 @@ h2.brochure-title-kic-software__blue_label.--fleet {
         top: 100px;
         left: 320px;
     }
+
+    .wrap-two-large-screens p:nth-child(-n+2) {
+        width: 140%;
+    }
+
+    .wrap-dual-screen-img {
+        margin-top: 170px;
+    }
+
+    .infoblock__double-wrap figure {
+        padding-top: 55px;
+    }
 }
 
 img.click-mini {
@@ -2910,7 +2941,7 @@ img.click-mini {
 
     .infoblock__block .infoblock__number,
     .infoblock__block-3 .infoblock__number {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .wrap-man-and-diagram {
@@ -3104,6 +3135,32 @@ img.click-mini {
     .infoblock .infoblock__page-9__nav__img {
         padding-top: 110px !important;
         margin-top: 0;
+    }
+
+    #KIC_Software h1.brochure-title-center.with-italic.title-h1 {
+        padding: 0 0 10px !important;
+        font-size: 5.3rem !important;
+    }
+
+    .brochure-title-center.software-color-h {
+        color: #0d5cab;
+        font-size: 3.8rem !important;
+    }
+
+    .wrap-text .hand-yellow-coin {
+        padding: 5px 10px 50px 0 !important;
+    }
+
+    #KIC_Software_KIC_SmartDock .infoblock__page-7__text-block-devices {
+        top: 601px !important;
+    }
+
+    .infoblock .label_smart11 {
+        padding-top: 1%;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 310px !important;
     }
 }
 
