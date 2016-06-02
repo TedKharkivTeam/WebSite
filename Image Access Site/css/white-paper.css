@@ -52,3 +52,8 @@
     line-height: 1.8rem;
     display: block;
 }
+@media all and (max-width: 1700px){
+    .back_pdf {
+        width: 68%;
+    }
+}
