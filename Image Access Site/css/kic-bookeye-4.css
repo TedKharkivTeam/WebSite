@@ -2180,7 +2180,7 @@ th .table--img {
 
 .infoblock .sitalic {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    text-align: center;
+    text-align: justify;
 }
 
 .row__column .column__image--shorter {
@@ -2649,7 +2649,7 @@ th .table--img {
     }
 
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .infoblock .infoblock__page-13-2__header_v2 {
@@ -2966,7 +2966,7 @@ th .table--img {
     }
 
     .infoblock .left-block__bottom-p {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .infoblock .infoblock__page-6__true-2-touch {
@@ -3432,17 +3432,17 @@ th .table--img {
 
     .infoblock h3 {
         font-size: 2rem;
-        font-size: 2.2rem;
+        line-height: 2.2rem;
     }
 
     .infoblock h3 {
         font-size: 2rem;
-        font-size: 2.2rem;
+        line-height: 2.2rem;
     }
 
     .infoblock h4 {
         font-size: 1.8rem;
-        font-size: 2rem;
+        line-height: 2rem;
     }
 
     .infoblock__page-9__nav {

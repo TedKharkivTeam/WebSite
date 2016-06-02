@@ -3311,6 +3311,7 @@ span.fa.fa-star.tabl-star.black {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 2rem;
     line-height: 2.2rem;
+    text-align: justify;
 }
 
 .infoblock__page1-Header:after {

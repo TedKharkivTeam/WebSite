@@ -1240,10 +1240,10 @@ h2.pod-text {
 
 .infoblock .content-holder__the-kic-product-family-text-p {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    width: 85%;
-    margin-left: 7%;
-    text-align: center;
+    text-align: justify;
     padding-bottom: 20px;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .infoblock .content-holder__kic-product-wrapper {
