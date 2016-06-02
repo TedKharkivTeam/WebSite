@@ -2825,6 +2825,23 @@ th .table--img {
         width: 50%;
     }
 
+    .infoblock .page-13-2__top-block__img {
+        margin-left: 5%;
+    }
+
+    .infoblock .infoblock__page-13-2__header_v3 {
+        right: 8%;
+    }
+
+    .infoblock .infoblock__page-13-2__header_v2 {
+        left: 36%;
+    }
+
+    .infoblock__page-11__double .brochure-title-left {
+        font-size: 3.4rem;
+        line-height: 3.6rem;
+    }
+
     div .infoblock__page-7_photo {
         width: 57%;
     }
@@ -3411,6 +3428,12 @@ th .table--img {
         padding-bottom: 140px;
     }
 
+    .infoblock .infoblock__page-13-2__header_v3 {
+        right: 7%;
+    }
+
+
+
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
         width: 40%;
     }
@@ -3543,6 +3566,14 @@ th .table--img {
     .infoblock .infoblock__page-1__text {
         width: 34%;
         right: 12%;
+    }
+
+    .infoblock .infoblock__page-13-2__header_v3 {
+        right: 6%;
+    }
+
+    .infoblock .infoblock__page-13-2__header_v2 {
+        left: 34%;
     }
 
     .infoblock .infoblock__page-9__top__h1 {
