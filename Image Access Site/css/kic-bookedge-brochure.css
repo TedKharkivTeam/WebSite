@@ -1671,6 +1671,12 @@ h2.pod-text {
     .infoblock .text-section__centered-text--with-margin {
         bottom: -70px;
     }
+
+    .infoblock .in-case-you-didnt-know-wrapper__header {
+        font-size: 3.2rem;
+    }
+
+
 }
 
 @media (max-width: 1400px) {
@@ -1752,6 +1758,15 @@ h2.pod-text {
     .infoblock .for-public-libraries-section__panorama-image {
         margin: -58px 2% 40px 0;
         width: 53%;
+    }
+
+    .infoblock .header-section__sub-header {
+        font-size: 2.1rem;
+    }
+
+    .infoblock .header-section__header--kic-fleet {
+        font-size: 4.1rem !important;
+        line-height: 4.2rem !important;
     }
 
 }
@@ -1927,5 +1942,9 @@ h2.pod-text {
     .infoblock .big-logo-text__sub-header {
         font-size: 3rem;
 
+    }
+
+    .infoblock .header-section__sub-header {
+        font-size: 1.9rem;
     }
 }
