@@ -543,6 +543,7 @@
         top: 27px;
         left: 56%;
     }
+
     .shelf-view-screen__title {
         top: 61px;
     }
@@ -1256,6 +1257,7 @@ h2.pod-text {
     .inf--padding {
         top: 79%;
     }
+
     .figure--kat-stacks-view-screen__text-below {
         bottom: 52px;
     }
@@ -1281,6 +1283,7 @@ h2.pod-text {
     .inform__images {
         max-width: 250px;
     }
+
     .figure--kat-stacks-view-screen__text-below {
         bottom: 50px;
     }
@@ -1302,12 +1305,15 @@ h2.pod-text {
     .green-line__text--right {
         padding-right: 4%;
     }
+
     .bibliography {
         bottom: 45%;
     }
+
     .figure--kat-stacks-view-screen__img-title-text {
         top: 12px;
     }
+
     .common-row--with-background__shelf-view-screen {
         bottom: 48%;
     }
@@ -1318,8 +1324,21 @@ h2.pod-text {
         padding-top: 10px;
     }
 
-    html {
-        font-size: 50%;
+    .h4--frames {
+        font-size: 6rem
+    }
+
+    .span--bold {
+        font-size: 3.7rem;
+    }
+
+    .text--frame5A {
+        font-size: 4.4rem;
+        line-height: 1;
+    }
+
+    .text--frame5A-h5 {
+        font-size: 2.5rem;
     }
 
     .logo-frame-block {
@@ -1358,11 +1377,18 @@ h2.pod-text {
     .logo-frame-block__dlsg-logo {
         padding-top: 3px;
     }
+
     .kat-professor__description {
-        left: 0;
+        left: -10px;
     }
+
     .figure--kat-stacks-view-screen__text-below {
         bottom: 43px;
+    }
+
+    .phone-description-common {
+        font-style: italic;
+        font-size: 0.8rem;
     }
 }
 
