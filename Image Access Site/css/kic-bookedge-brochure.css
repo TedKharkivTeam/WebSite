@@ -110,13 +110,13 @@ figcaption {
 }
 
 .infoblock .big-logo-text__sub-header {
-    font-size: 4rem;
-    line-height: 1;
+    font-size: 3.4rem;
+    line-height: 2rem;
     color: #0d5cab;
     padding: 0;
     text-align: right;
     font-family: 'LilyUPC', Arial, sans-serif;
-    /*padding-right: 3%;*/
+    margin-right: 80px;
     float: right;
 }
 
@@ -734,8 +734,8 @@ figcaption {
 
 .infoblock .reservation-app-wrapper__three-images-header {
     color: #000;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0;
     width: 100%;
@@ -825,6 +825,7 @@ figcaption {
     text-shadow: none;
     font-size: 2.5rem;
     line-height: 3rem;
+    font-family: 'LatoBold', sans-serif, helvetica, arial;
 }
 
 .infoblock .header-section__sub-header {
@@ -1794,8 +1795,8 @@ h2.pod-text {
     }
 
     .infoblock h4 {
-        font-size: 1.8rem;
-        line-height: 2rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
     }
 
     .infoblock .column__section--background {

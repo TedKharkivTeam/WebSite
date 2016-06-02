@@ -594,16 +594,12 @@ th .table--img {
     float: left;
     width: 35% !important;
     height: 35% !important;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #fax-diagram {
     float: right;
     width: 30%;
-}
-
-.infoblock .text4 {
-
 }
 
 .column__number1:before {
@@ -1430,7 +1426,7 @@ div .infoblock__page-7__block-left {
     width: 30%;
     font-size: 1.6rem;
     position: absolute;
-    top: 410px;
+    top: 420px;
     right: 74px;
 }
 
@@ -1442,7 +1438,7 @@ div .infoblock__page-7__block-left {
     width: 30%;
     position: absolute;
     right: 80px;
-    top: 780px;
+    top: 800px;
     font-size: 1.6rem;
 }
 
@@ -2341,7 +2337,7 @@ table.table__footer td {
 .brochure-title-center.software-color-h {
     color: #0d5cab;
     font-family: 'LilyUPC', sans-serif, helvetica, arial !important;
-    font-size: 3.5rem !important;
+    font-size: 4.3rem !important;
     line-height: 3.7rem !important;
     text-align: center;
     padding: 0 0 0 !important;
@@ -2452,7 +2448,7 @@ p.infoblock__homo-text.responsible_fix_block_text span {
 .wrap-one-screen-with-hand-in-border span {
     position: absolute;
     top: 80px;
-    left: 310px;
+    left: 320px;
     width: 20%;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     font-size: 1.6rem;
@@ -3325,7 +3321,6 @@ span.fa.fa-star.tabl-star.black {
 
 .brochure-overflow {
     position: relative;
-    padding: 0 15px;
 }
 
 .infoblock__page-11__double {
@@ -3346,7 +3341,7 @@ span.fa.fa-star.tabl-star.black {
     line-height: 2.2rem;
     padding-bottom: 5px;
     display: block;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
     padding-top: 10px;
 }
 
@@ -3422,8 +3417,8 @@ span.fa.fa-star.tabl-star.black {
 }
 
 .infoblock .in-case-enhance {
-    width: 80%;
-    height: 80%;
+    width: 76.5%;
+    height: 76.5%;
     display: block;
 }
 
