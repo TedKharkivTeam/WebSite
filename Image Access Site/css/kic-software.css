@@ -806,15 +806,6 @@ p.infoblock__double__double-p.move {
 
     .infoblock .label_smart11 {
         margin-left: 34%;
-        font-size: 1.2rem;
-    }
-
-    .infoblock .label_smart13 {
-        font-size: 1.2rem;
-    }
-
-    .infoblock .label_smart12 {
-        font-size: 1.2rem;
     }
 
     .infoblock .label3 {
@@ -848,6 +839,34 @@ p.infoblock__double__double-p.move {
 
     .for-study-p {
         width: 35%;
+    }
+
+    .wrap-text .hand-yellow-coin {
+        padding: 5px 10px 20px 0 !important;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
+        padding: 11px 0 !important;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
+        height: 202px !important;
+    }
+
+    .infoblock__page-7__text-block-devices {
+        top: 357px !important;
+    }
+
+    .infoblock__page-7__text-block-scanner {
+        top: 680px !important;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        left: 290px !important;
+    }
+
+    #KIC_Software_True_2_Touch_User_Interface  .one-screen-with-hand-in-border {
+        width: 35% !important;
     }
 }
 
@@ -2753,7 +2772,6 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     .wrap-one-screen-with-hand-in-border span {
         top: 130px;
         left: 293px;
-        font-size: 1.4rem;
         width: 47%;
     }
 
@@ -2831,11 +2849,29 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
-        height: 264px;
+        height: 209px;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-map {
+        height: 160px;
     }
 
     .copy-diagram {
         padding-bottom: 50px;
+    }
+
+    .infoblock .kic_software__li_image_small {
+        padding-top: 40px;
+    }
+
+    .one-screen-with-hand-in-border {
+        width: 40% !important;
+        padding: 40px 15px 0 0;
+    }
+
+    .wrap-one-screen-with-hand-in-border span {
+        top: 100px;
+        left: 320px;
     }
 }
 
@@ -3181,7 +3217,7 @@ h3.brochure-subtitle-center.move {
 }
 
 p.infoblock__page-9__center__text.infoblock__page-9__center__text--padding.resize-fleet-paragraph {
-    padding-bottom: 40px;
+    padding-bottom: 0;
 }
 
 i.fa.fa-star.tabl-star.black {
