@@ -1230,10 +1230,62 @@ img.bvs-section__image {
 }
 
 @media (max-width: 1680px) {
-    .infoblock .rows__row {
-        width: 69%;
-        height: 69%;
+    .infoblock .infoblock__huge-header {
+        font-size: 6.5rem;
+        line-height: 6.7rem;
     }
+
+    .infoblock .infoblock__sub-header--italic {
+        text-align: center;
+        width: 100%;
+        float: right;
+    }
+
+    .infoblock .image-bottom-header {
+        margin-top: -108px;
+    }
+
+    .infoblock .image-title--stacks-view {
+        margin-bottom: -22px;
+    }
+
+    .infoblock .infoblock__kat-phones {
+        margin-top: -122px;
+    }
+
+    .infoblock .reading-list__professor-info-block p {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+
+    .infoblock .search-screen__image-title--PYPC {
+        margin-bottom: -30px;
+        position: relative;
+        top: 20px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-FBL {
+        margin-top: 135px;
+    }
+
+    .infoblock .professor-photo__text {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        margin-top: -220px;
+    }
+
+    .infoblock .image-title--PYPC {
+        margin-bottom: -34px;
+    }
+
+    .infoblock .search-screen__info {
+        margin-top: -362px;
+    }
+
+    /*.infoblock .rows__row {*/
+        /*width: 48%;*/
+        /*height: 48%;*/
+    /*}*/
 
     img.rows__row.rows__row--collage {
         padding-left: 0;
@@ -1250,7 +1302,11 @@ img.bvs-section__image {
     }
 
     .infoblock .kit-kat-go__image-title--kic-srs {
-        top: 200px;
+        top: 191px;
+    }
+
+    .infoblock .image-section__info {
+        margin-top: -125px;
     }
 
     .infoblock .image-text--SW {
