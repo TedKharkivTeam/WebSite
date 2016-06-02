@@ -1529,6 +1529,10 @@ h2.pod-text {
     .infoblock .big-logo-text__sub-header {
         margin-top: -50px;
     }
+
+    .infoblock .text-section__centered-text--with-margin {
+        bottom: -20px;
+    }
 }
 
 @media all and (max-width: 1660px) {
