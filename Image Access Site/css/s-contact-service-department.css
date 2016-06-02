@@ -151,4 +151,12 @@
     .slick-next {
         top: -75px;
     }
+    .contact--box {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+    .wrapper-gallery__title {
+        font-size: 2.7rem;
+        line-height: 2.9rem;
+    }
 }

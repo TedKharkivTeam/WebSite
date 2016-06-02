@@ -753,12 +753,24 @@
 
 /* 1280, 1366 */
 @media (min-width: 1200px) and (max-width: 1399px) {
-
+    .infoblock__scanners-header-h3 {
+        font-size: 1.9rem;
+        line-height: 2.1rem;
+    }
+    .technical_data_pdf .back_pdf {
+        width: 68%;
+    }
 }
 
 /* 1024 */
 @media (max-width: 1199px) {
-
+    .infoblock__scanners-header-h3 {
+        font-size: 1.9rem;
+        line-height: 2.1rem;
+    }
+    .technical_data_pdf .back_pdf {
+        width: 68%;
+    }
 }
 
 /* tablets */

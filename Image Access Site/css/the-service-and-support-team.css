@@ -16,6 +16,7 @@
 @media all and (min-width: 1400px) and (max-width: 1600px) {
     .infoblock .infoblock__support-team-header-h2 {
         left: 37%;
+        top: 6px;
     }
 
 }
@@ -23,7 +24,7 @@
 @media all and (max-width: 1400px) {
     .infoblock .infoblock__support-team-header-h2 {
         left: 27%;
-        top: 15px
+        top: 5px
     }
 }
 
