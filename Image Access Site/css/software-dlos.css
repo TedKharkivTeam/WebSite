@@ -235,7 +235,9 @@ img.flash-hand {
     padding-bottom: 5px;
 }
 
-@media all and (max-width: 1679px) and (min-width: 1024px) {
+
+
+@media all and (max-width: 1680px) and (min-width: 1024px) {
     .frame7-content__inform {
         width: 100%;
     }
