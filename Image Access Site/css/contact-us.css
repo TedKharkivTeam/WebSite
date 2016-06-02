@@ -133,6 +133,8 @@ input, textarea {
 .text-area {
     margin-left: 38px;
     width: 100%;
+    min-width: 380px;
+    height: 100px;
     max-width: 500px;
 
 }
@@ -283,11 +285,14 @@ input, textarea {
     }
 
 }
-
+@media all and (max-width: 1440px){
+    .text-area {
+        min-width: 320px;
+    }
+}
 @media all and (max-width: 1430px) and (min-width: 1024px) {
     .contactus-holder__triple__div--text {
         font-size: 16px;
-        margin-left: -12px;
     }
 
     .--input-resize {
@@ -398,7 +403,7 @@ input, textarea {
 
 @media all and (max-width: 1550px) and (min-width: 1024px) {
     .mainform {
-        padding: 0 90px;
+        padding: 10px 50px;
     }
 }
 
