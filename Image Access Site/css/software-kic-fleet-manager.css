@@ -152,15 +152,24 @@ figure figcaption{
 @media all and (max-width: 1812px) {
 
     .infoblock__center {
-        margin-top: -120px;
+        margin-top: -60px;
     }
 }
 
 @media all and (max-width: 1720px) {
     .infoblock .infoblock__center__text--margin {
-        padding-top: 0px;
+        padding-top: 0;
+    }
+    .infoblock__nav {
+        padding-top: 30px;
     }
 
+}
+
+@media all and (max-width: 1600px){
+    .infoblock__nav {
+        padding-top: 70px;
+    }
 }
 
 @media all and (max-width: 1543px) {
@@ -199,6 +208,8 @@ figure figcaption{
         margin-bottom: 10%;
         margin-top: 15%;
     }
+
+
     .infoblock .infoblock__top__logo {
         max-width: 303px;
         float: left;
@@ -306,11 +317,11 @@ figure figcaption{
     }
 
     .infoblock .infoblock__center__text--padding {
-        padding-top: 63px;
+        padding-top: 35px;
     }
 
     .infoblock .infoblock__nav__img {
-        margin-top: 65px;
+        margin-top: 75px;
     }
     .infoblock ul li {
         line-height: 2.1rem;
@@ -324,9 +335,17 @@ figure figcaption{
 
 @media all and (max-width: 1024px){
     .infoblock__nav {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .infoblock .infoblock__center__text--padding {
         padding-top: 80px;
+    }
+
+    .infoblock .infoblock__center__img {
+        width: 57%;
+    }
+
+    .infoblock .infoblock__center__text--margin {
+        width: 41%;
     }
 }
