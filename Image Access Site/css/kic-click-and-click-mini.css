@@ -855,7 +855,7 @@ h2.pod-text {
     line-height: 2.2rem;
     padding-bottom: 5px;
     display: block;
-    font-family: 'LatoBold', sans-serif, helvetica, arial;
+    font-family: 'LatoRegular', sans-serif, helvetica, arial;
 }
 
 .infoblock__page-11__in-case-span--center {
@@ -962,9 +962,8 @@ h2.pod-text {
 }
 
 .infoblock .click_click_mini {
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 2.2rem;
-    font-weight: 600;
     color: #0d5cab;
 }
 
