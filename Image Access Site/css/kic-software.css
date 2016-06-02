@@ -2341,7 +2341,7 @@ table.table__footer td {
 .brochure-title-center.software-color-h {
     color: #0d5cab;
     font-family: 'LilyUPC', sans-serif, helvetica, arial !important;
-    font-size: 3.5rem !important;
+    font-size: 4.3rem !important;
     line-height: 3.7rem !important;
     text-align: center;
     padding: 0 0 0 !important;
@@ -3325,7 +3325,6 @@ span.fa.fa-star.tabl-star.black {
 
 .brochure-overflow {
     position: relative;
-    padding: 0 15px;
 }
 
 .infoblock__page-11__double {
@@ -3422,8 +3421,8 @@ span.fa.fa-star.tabl-star.black {
 }
 
 .infoblock .in-case-enhance {
-    width: 80%;
-    height: 80%;
+    width: 76.5%;
+    height: 76.5%;
     display: block;
 }
 
