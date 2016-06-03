@@ -261,7 +261,7 @@ $(document).ready(function () {
         AnimateImagesLoading(function () {
             animate(function () {
                 simulateAnimation(function () {
-                    redirect("Frame_3.html");
+                    redirect("Frame-3.html");
                 });
             });
         });
