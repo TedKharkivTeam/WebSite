@@ -2314,7 +2314,7 @@ var defaultIAData = {
     companyName: "Image Access USA",
     contacts: [{
         type: 'site',
-        value: '../pages/Contact_Us.html'
+        value: '../pages/Contact-Us.html'
     }, {
         type: 'tel:sales',
         value: '+1-561-886-2900'
