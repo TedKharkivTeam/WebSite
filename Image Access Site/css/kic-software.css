@@ -1990,7 +1990,7 @@ table.table__footer td {
     }
 
     .columnKIC_Bookeye_4 .hand-yellow-coin {
-        padding: 5px 10px 30px 0;
+        padding: 5px 10px 30px 0 !important;
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
@@ -2016,6 +2016,10 @@ table.table__footer td {
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double  .infoblock__page-11__in-case-scan-artwork {
         height: 213px;
+    }
+
+    .infoblock .infoblock__true-2-touch {
+        margin-top: 30px;
     }
 }
 
@@ -2904,6 +2908,10 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     .infoblock__double-wrap figure {
         padding-top: 55px;
     }
+
+    #KIC_Software_KIC_Fleet_Manager p.kit-fleet-paragraph.resize-fleet-paragraph {
+        padding-top:0;
+    }
 }
 
 img.click-mini {
@@ -3162,6 +3170,8 @@ img.click-mini {
     .wrap-one-screen-with-hand-in-border span {
         top: 310px !important;
     }
+
+
 }
 
 .infoblock__page-4__icon {
@@ -3648,4 +3658,8 @@ h1.brochure-title-center.with-italic.title-h1 {
 
 h3.brochure-title-kic-software__blue_label.--fleet.padding-fleet {
     padding-top: 0 !important;
+}
+
+p.kit-fleet-paragraph.resize-fleet-paragraph {
+    padding-top: 20px;
 }
