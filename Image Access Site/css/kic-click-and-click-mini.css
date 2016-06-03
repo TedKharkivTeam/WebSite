@@ -796,6 +796,10 @@ h2.pod-text {
         width: 50%;
     }
 
+    .infoblock__nav {
+        padding-top: 65px;
+    }
+
     h2.pod-text {
         font-size: 2.2rem;
         line-height: 2.4rem;
@@ -959,6 +963,7 @@ h2.pod-text {
 .infoblock .logo_kic {
     width: 35%;
     float: left;
+    padding-top: 20px;
 }
 
 .infoblock .click_click_mini {
@@ -1810,9 +1815,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     #KIC_Click_and_KIC_Click_Mini .brochure-overflow--top {
-        margin-left: 350px;
         font-size: 7rem;
-        line-height: 7.2rem;
     }
 
     p.click_click_mini.brochure-overflow--line {
@@ -1867,9 +1870,6 @@ p.click_click_mini.brochure-overflow--line {
         margin-left: -30px;
     }
 
-    #copy-diagram {
-        padding-bottom: 70px;
-    }
 
     #fax-diagram {
         padding-bottom: 30px;
@@ -1879,16 +1879,10 @@ p.click_click_mini.brochure-overflow--line {
         padding-top: 0 !important;
     }
 
-    #copy-diagram {
-        padding-bottom: 85px !important;
-    }
+
 
     #fax-diagram {
         padding-bottom: 40px !important;
-    }
-
-    .tree-img__inline figcaption.move {
-        margin-left: -75px !important;
     }
 }
 
@@ -1896,6 +1890,7 @@ p.click_click_mini.brochure-overflow--line {
     .table__arow:before {
         left: 20px;
     }
+
 
 }
 
@@ -1975,10 +1970,6 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 @media (max-width: 1386px) {
-    .infoblock p {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-    }
 
     .infoblock .top__logo {
         max-width: 30%;
@@ -2006,27 +1997,13 @@ p.click_click_mini.brochure-overflow--line {
 
     .column__ul_fond {
         line-height: 1.6rem;
-        font-size: 1.4rem;
     }
 
     .infoblock .nav__li {
         line-height: 1.6rem;
-        font-size: 1.4rem;
-    }
-
-    .sitalic {
-        line-height: 1.6rem;
-        font-size: 1.4rem;
-    }
-
-    .custom__aline .custom__aline--text {
-        line-height: 1.6rem;
-        font-size: 1.4rem;
     }
 
     .infoblock .super_click_table {
-        line-height: 1.6rem;
-        font-size: 1.4rem;
         height: 180px;
     }
 
@@ -2034,15 +2011,6 @@ p.click_click_mini.brochure-overflow--line {
         padding-bottom: 15px;
     }
 
-    .infoblock .super_middle_table_click {
-        line-height: 1.6rem;
-        font-size: 1.4rem;
-    }
-
-    .table__footer {
-        line-height: 1.6rem;
-        font-size: 1.4rem;
-    }
 
     .infoblock .true2_label {
         line-height: 2.6rem;
@@ -2064,10 +2032,6 @@ p.click_click_mini.brochure-overflow--line {
         padding-left: 0;
     }
 
-    .seven-step__text {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-    }
 }
 
 @media (max-width: 1200px) and (min-width: 1072px) {
@@ -2145,9 +2109,7 @@ p.click_click_mini.brochure-overflow--line {
 
 @media (max-width: 1680px) {
     .infoblock .brochure-overflow--top {
-        margin-left: 360px;
         font-size: 8rem;
-        line-height: 7.8rem;
     }
 
     p.click_click_mini.brochure-overflow--line {
@@ -2257,10 +2219,7 @@ p.click_click_mini.brochure-overflow--line {
         margin-top: -18%;
     }
 
-    .infoblock p {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-    }
+
 
     .infoblock .infoblock__page-11__in-case-enhance--right {
         padding-top: 53px;
@@ -2315,6 +2274,21 @@ h3.true2_label.move {
 @media (max-width: 1280px) {
     .infoblock .center__text--margin {
         margin-top: -6%;
+    }
+
+    .content .infoblock h2{
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+    }
+
+    .infoblock h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .infoblock h4{
+        font-size: 1.8rem;
+        line-height: 2rem;
     }
 
     .infoblock__nav {
@@ -2476,9 +2450,20 @@ h3.true2_label.move {
     }
 
     .infoblock .brochure-overflow--top {
-        margin-left: 288px !important;
-        font-size: 6.5rem !important;
-        line-height: 6.7rem !important;
+        font-size: 6rem !important;
+    }
+
+    .infoblock .click_click_mini {
+        font-size: 4rem;
+    }
+
+    .infoblock .label_smart9 {
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    .infoblock__page-5__two-step--w3 {
+        margin-top: 15px;
     }
 
     p.click_click_mini.brochure-overflow--line {
@@ -2513,7 +2498,7 @@ h3.true2_label.move {
     }
 
     #copy-diagram {
-        padding: 45px 2px;
+        padding: 60px 2px;
         box-sizing: content-box;
     }
 
@@ -2711,6 +2696,7 @@ div .infoblock__page-5__block-p {
     width: 20%;
     margin-right: 4%;
     padding-top: 10px;
+    margin-bottom: 40px;
 }
 
 .infoblock .infoblock__page-6__scanner-other {
@@ -3024,8 +3010,7 @@ figcaption.floorstand {
 }
 
 .tree-img__inline figcaption.move{
-    width: 180%;
-    margin-left: -45px;
+    width: 100%;
 }
 
 span.click_click_mini.brochure-overflow--line {
