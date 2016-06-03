@@ -261,7 +261,7 @@ $(document).ready(function () {
         AnimateImagesLoading(function () {
             animate(function () {
                 simulateAnimation(function () {
-                    redirect("Frame_4B.html");
+                    redirect("Frame-4B.html");
                 });
             });
         }, 2000);
