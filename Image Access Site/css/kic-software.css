@@ -1893,7 +1893,8 @@ table.table__footer td {
 @media all and (max-width: 1320px) {
     .infoblock .infoblock__page-7__text-block-devices {
         width: 35%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 }
 
@@ -3018,8 +3019,9 @@ img.click-mini {
     }
 
     .infoblock .infoblock__page-7__text-block-scanner {
-        top: 560px;
-        font-size: 1.2rem;
+        top: 560px !important;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 
     .kit-fleet-paragraph {
@@ -3036,8 +3038,8 @@ img.click-mini {
     }
 
     .infoblock .infoblock__true-2-touch {
-        width: 14%;
-        padding: 24px 0 10px 0;
+        width: 20%;
+        padding: 40px 0 20px 0;
     }
 
     p.third-paragraph {
@@ -3171,7 +3173,25 @@ img.click-mini {
         top: 310px !important;
     }
 
+    .brochure-title-center {
+        font-size: 3.2rem !important;
+        line-height: 3.4rem !important;
+    }
 
+    .infoblock .kic_software_label_italic {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem !important;
+        line-height: 2.2rem !important;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know h2.brochure-title-center.with-italic.case {
+        font-size: 3.2rem !important;
+        line-height: 3.4rem !important;
+    }
 }
 
 .infoblock__page-4__icon {
@@ -3332,11 +3352,11 @@ span.fa.fa-star.tabl-star.black {
     }
 
     .infoblock .infoblock__map-planet {
-        margin: -360px 18px 0 0;
+        margin: 10px 20px 0 0;
     }
 
     .infoblock .kic_product_family_littleblock {
-        width: auto;
+        width: 40%;
     }
 
     .infoblock .kic_software_label_label_big_left {
@@ -3370,7 +3390,7 @@ span.fa.fa-star.tabl-star.black {
     }
 
     #KIC_Software_KIC_SmartDock .infoblock__page-7__text-block-devices {
-        top: 320px !important;
+        top: 300px !important;
     }
 
     .reservation__text-img.img__touch--after:after {
@@ -3386,8 +3406,8 @@ span.fa.fa-star.tabl-star.black {
     }
 
     .wrap-one-screen-with-hand-in-border span {
-        top: 450px !important;
-        left: 23px !important;
+        top: 310px !important;
+        left: 0 !important;
     }
 
     .wrap-dual-screen-img span {
