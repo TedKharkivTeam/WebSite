@@ -4,20 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Factory Tour :: Image Access 2016</title>
+    <title>Scan2Net Factory Tour :: Image Access 2016</title>
     <link rel="shortcut icon" href="../images/icon.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/gallery.css">
     <link rel="stylesheet" href="../css/video-js.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/footer-factory-tour.css">
+    <link rel="stylesheet" href="../css/common-styles.css">
     <script src="../js/jquery-1.12.2.min.js"></script>
-    <script src="../js/gallery.js"></script>
-    <script src="../js/gallery-init.js"></script>
     <script src="../js/video.js"></script>
     <script src="../js/videojs-ie8.js"></script>
-    <script src="../js/hammer.min.js"></script>
     <script src="../js/include.js"></script>
 </head>
 <body>
@@ -29,64 +24,20 @@
         <a href="../index.html">
             <img src="../images/logo/ImageAccess-logo.png" width="890" height="498" alt="Image Access">
         </a>
-        <div class="botlogo">Factory Tour</div>
+        <div class="botlogo">Scan2Net Factory Tour</div>
     </div>
-    <div class="leftsidemenu-holder">
-        <ul class="leftsidemenu">
-            <li><a href="Footer_Factory_Tour_Scan2Net.html">Scan2Net</a></li>
-            <li><a href="Footer_Factory_Tour_Scan2iPF.html">Scan2iPF</a></li>
-            <li><a href="Opus_FreeFlow.html">Opus FreeFlow</a></li>
-        </ul>
-    </div>
-    <div class="infoblock">
-        <div class="gallery scrolled_pic">
-            <div class="images">
-                <div class="image active">
-                    <video id="my-video" class="video-js" controls autoplay preload="auto"
-                           poster="../images/video-poster.jpg" data-setup="{}">
-                        <source src="http://upload.ted-kteam.com/video/Factory_Tour.webm"
-                                type='video/webm'>
-                        <source src="http://upload.ted-kteam.com/video/Factory_Tour.mp4"
-                                type='video/mp4'>
-                        <source src="http://upload.ted-kteam.com/video/Factory_Tour.ogv"
-                                type='video/ogg'>
-                        <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a web browser that
-                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                        </p>
-                    </video>
-                </div>
-            </div>
-            <p>Image Access has the copyright on all images shown below. </p>
-            <div class="thumbs">
-                <div class="thumb brochure active">
-                    <div class="table_video">
-                        <div class="video-preview">
-                            <a href="#">
-                                <img src="../images/factory_tour.jpg" width="523" height="290"
-                                     alt="Factory Tour">
-                            </a>
-                        </div>
-                        <div class="video-links">
-                            <h3 class="infoblock__scanners-header-h3">Factory Tour</h3>
-                            <i class="fa fa-file-video-o fa-4x" aria-hidden="true"></i>
-                            <div class="download-video">
-                                <span>English</span>
-                                <span>Time: 08:06 Min</span>
-                                <a class="text--bold text--blue"
-                                   href="http://upload.ted-kteam.com/video/Factory_Tour.mp4"
-                                   download> Download MP4</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <p>
-                <a href="http://www.youtube.com/user/ImageAccessScanners" target="_blank">Click here to visit us on
-                    YouTube!</a>
-            </p>
-        </div>
-    </div>
+    <video id="my-video" class="video-js video" controls autoplay preload="auto" data-setup="{}">
+        <source src="http://upload.ted-kteam.com/video/Factory_Tour.webm"
+                type='video/webm'>
+        <source src="http://upload.ted-kteam.com/video/Factory_Tour.mp4"
+                type='video/mp4'>
+        <source src="http://upload.ted-kteam.com/video/Factory_Tour.ogv"
+                type='video/ogg'>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
 </div>
 <footer>
     <div id="includeFooter"></div>
