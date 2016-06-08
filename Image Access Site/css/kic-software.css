@@ -1015,6 +1015,9 @@ span.arrow-brochure {
 
 div .infoblock__homo {
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
+    width: 50%;
+    float: right;
+    padding-top: 20px;
 }
 
 .infoblock .block1 {
@@ -3567,7 +3570,7 @@ span.fa.fa-star.tabl-star.black {
 }
 
 .infoblock__page-11-content-p {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {

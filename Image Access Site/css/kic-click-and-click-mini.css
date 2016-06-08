@@ -904,7 +904,7 @@ h2.pod-text {
     width: 225px;
     float: right;
     margin-top: -125px;
-    margin-right: 21%;
+    margin-right: 4%;
 }
 
 .infoblock .infoblock__page-11__in-case-enhance--right {
@@ -1488,11 +1488,11 @@ p.click_click_mini.brochure-overflow--line {
 
 .infoblock .super_middle_table_click td {
     vertical-align: middle;
-    padding: 5px 0;
+    padding: 5px 5px;
 }
 
 .infoclock__td-center-align {
-    text-align: center;
+    text-align: left;
 }
 
 .infoblock .bullet_click_label {

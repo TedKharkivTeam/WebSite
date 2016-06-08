@@ -382,7 +382,7 @@ figcaption {
 }
 
 .infoblock .section--background__table-wrapper {
-
+    padding-top: 10px;
 }
 
 .infoblock .table-wrapper__text-p {
@@ -1947,4 +1947,21 @@ h2.pod-text {
     .infoblock .header-section__sub-header {
         font-size: 1.9rem;
     }
+}
+
+.common-row__column--small.second {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+p.reservation-app-wrapper__text-p.right {
+    padding-left: 5px;
+}
+
+p.reservation-app-wrapper__text-p.left {
+    padding-right: 5px;
+}
+
+span.item__text-label.kic-fleet {
+    margin-left: -70px;
 }

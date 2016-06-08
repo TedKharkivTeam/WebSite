@@ -3639,3 +3639,7 @@ th .table--img {
         color: black;
     }
 }
+
+span.align-right.padding-bottom-none.feature-table {
+    padding-right: 10px;
+}
