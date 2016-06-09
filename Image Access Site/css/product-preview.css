@@ -7,6 +7,7 @@
 .product_preview img {
     float: left;
     width: 50%;
+    padding: 5px;
 }
 
 .opus-picture {

@@ -2332,6 +2332,10 @@ th .table--img {
     #copy-diagram {
         padding-bottom: 70px;
     }
+
+    .images--hand {
+        padding-bottom: 30px;
+    }
 }
 
 @media all and (max-width: 1651px) {
@@ -3625,6 +3629,10 @@ th .table--img {
 
     .bottom-block_padding-border {
         width: 62%;
+    }
+
+    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
+        width: 40%;
     }
 }
 

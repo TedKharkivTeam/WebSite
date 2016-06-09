@@ -2967,6 +2967,42 @@ h2.label2.resize.top-padding {
         height: 71%;
         width: 71%;
     }
+
+    #KIC_Click_and_KIC_Click_Mini .brochure-title-left {
+        font-size: 6rem;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .infoblock .click_click_mini {
+        font-size: 3.5rem;
+        margin-left: -34px !important;
+    }
+
+    .infoblock__page-2__column .images--hand {
+        padding-bottom: 30px;
+    }
+
+    .infoblock .number3-label {
+        padding-bottom: 20px;
+    }
+
+    .infoblock .map-marker {
+        font-size: 1.5rem;
+    }
+
+    .infoblock__page-6__position-relative {
+        position: absolute;
+        float: right;
+        width: 35%;
+        padding-right: 25px;
+        padding-top: 150px;
+        right: 10px;
+    }
+
+    p.large-screens-paragraph-tree {
+        width: 65%;
+    }
 }
 
 figcaption {
