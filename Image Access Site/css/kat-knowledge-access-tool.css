@@ -1343,11 +1343,6 @@ img.bvs-section__image {
         padding-left: 0;
     }
 
-    .infoblock .rows__row {
-        width: 69%;
-        height: 69%;
-    }
-
     .infoblock .collage__info {
         left: 180px;
         top: 35px;
@@ -1372,11 +1367,6 @@ img.bvs-section__image {
 }
 
 @media (max-width: 1280px) {
-    .infoblock .rows__row {
-        width: 69%;
-        height: 69%;
-    }
-
     img.bvs-section__image {
         padding-top: 50px;
         padding-bottom: 20px;
@@ -1402,6 +1392,46 @@ img.bvs-section__image {
 
     .kat-go__image-title--kic-srs {
         top: 140px;
+    }
+
+    .infoblock .infoblock__kat-phones {
+        margin-top: -50px;
+    }
+
+    .infoblock .note--left__top {
+        top: -8px;
+    }
+
+    .infoblock .note--left__bottom {
+        top: 155px;
+    }
+
+    .infoblock .reading-list__professor-info-block {
+        margin-top: -15px;
+    }
+
+    ul.list-stacks {
+        margin: 20px 0 20px 25px !important;
+    }
+
+    .infoblock .search-screen__info {
+        margin-top: -280px;
+    }
+
+    .infoblock .infoblock__sub-header--PYPC-SBDB {
+        margin-top: 105px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        top: 363px;
+    }
+
+    .infoblock .image-section__info {
+        margin-top: -95px;
+    }
+
+    .infoblock .professor-photo__text {
+        margin-top: -175px;
     }
 }
 
