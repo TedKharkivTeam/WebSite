@@ -1385,7 +1385,7 @@ h2.pod-text {
     font-weight: normal;
     text-align: center;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .infoblock .infoblock__page-12__bookeye-vs-copiers__strong {
@@ -2956,7 +2956,7 @@ th .table--img {
     }
 
     .infoblock__page-11-content-p {
-        padding: 0;
+        padding: 0 0 10px 0 !important;
     }
 
     .infoblock .images--hand {
@@ -3003,6 +3003,23 @@ th .table--img {
         margin-right: 0;
     }
 
+    .infoblock .infoblock__page-11__in-case-enhance {
+        width: 80%;
+        height: 80%;
+    }
+
+    .infoblock .bottom-block__right-block__img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .infoblock .bottom-block__right-block__img2 {
+        margin-top: 60%;
+    }
+
+    .infoblock .left-block__right-img {
+        width: 35%;
+    }
 }
 
 @media all and (max-width: 1350px) {

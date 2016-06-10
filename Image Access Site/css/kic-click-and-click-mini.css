@@ -2493,7 +2493,7 @@ h3.true2_label.move {
 
     .infoblock .images--hand {
         width: 35%;
-        padding: 10px 3px;
+        padding: 20px 3px;
         box-sizing: content-box;
     }
 
@@ -2503,7 +2503,7 @@ h3.true2_label.move {
     }
 
     #fax-diagram {
-        padding: 30px 3px;
+        padding: 45px 3px;
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface img.infoblock__page-6__image-hand {
@@ -2567,6 +2567,52 @@ h3.true2_label.move {
 
     .wrap-block.wrap-face-up {
         margin-top: 20px;
+    }
+
+    #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__position-relative {
+        position: absolute;
+        float: right;
+        width: 32%;
+        padding-right: 25px;
+        right: 0;
+        margin-top: 140px;
+    }
+
+    p.large-screens-paragraph-tree {
+        width: 70%;
+    }
+
+    .infoblock .label_smart11,
+    .infoblock .label_smart12,
+    .infoblock .label_smart13 {
+        font-size: 1.6rem;
+        line-height: 1.4rem;
+    }
+
+    #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
+        padding-top: 110px;
+    }
+
+    .infoblock .li--width {
+        width: 90%;
+    }
+
+    ul.nav__li.blue-bullet {
+        margin-top: 60px;
+    }
+
+    figure figcaption.floorstand {
+        margin-left: -25px;
+    }
+
+    .infoblock .infoblock__page-11__in-case-enhance {
+        width: 80%;
+        height: 80%;
+    }
+
+    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double .label2-in-case {
+        font-size: 3.4rem;
+        line-height: 3.6rem;
     }
 }
 

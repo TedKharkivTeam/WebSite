@@ -416,8 +416,8 @@ figcaption {
 }
 
 .infoblock .column__cursive-text {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     display: block;
 }
@@ -429,7 +429,6 @@ figcaption {
 
 .infoblock .column__cursive-text--center {
     text-align: center;
-    width: 75%;
     margin: 0 auto;
 }
 
@@ -1964,4 +1963,22 @@ p.reservation-app-wrapper__text-p.left {
 
 span.item__text-label.kic-fleet {
     margin-left: -70px;
+}
+
+@media (max-width: 1366px) {
+    .infoblock .triangular-copy__image {
+        margin: 15% 0 70px;
+    }
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -300px;
+    }
+
+    span.item__text-label.kic-fleet {
+        margin-left: -40px;
+    }
+
+    .infoblock .column__enhance-reports-image {
+        width: 85%;
+    }
 }
