@@ -2562,7 +2562,7 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
-        padding: 5px 0;
+        padding: 5px 0 !important;
     }
 
     .wrap-block.wrap-face-up {
@@ -2575,7 +2575,6 @@ h3.true2_label.move {
         width: 32%;
         padding-right: 25px;
         right: 0;
-        margin-top: 140px;
     }
 
     p.large-screens-paragraph-tree {
@@ -2606,13 +2605,17 @@ h3.true2_label.move {
     }
 
     .infoblock .infoblock__page-11__in-case-enhance {
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
 
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double .label2-in-case {
-        font-size: 3.4rem;
-        line-height: 3.6rem;
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+    }
+
+    #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
+        padding-top: 5px !important;
     }
 }
 
