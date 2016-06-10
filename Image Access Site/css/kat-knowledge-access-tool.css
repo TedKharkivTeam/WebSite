@@ -69,9 +69,8 @@ img {
 }
 
 .infoblock .image-text {
-    margin-left: 4%;
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.8rem;
 }
 
@@ -1335,6 +1334,50 @@ img.bvs-section__image {
 
     img.bvs-section__image {
         padding-top: 50px;
+    }
+
+    .infoblock .image-bottom-header {
+        margin-top: -88px;
+    }
+
+    .infoblock .image-bottom-header {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .infoblock .kat-phones__note--left {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        padding-top: 10px;
+    }
+
+    .infoblock .reading-list__professor-info-block {
+        margin-top: -15px;
+    }
+
+    #KAT_Without_Imagery_of_Your_Stacks ul.list-stacks {
+        margin: 20px 0 20px 50px;
+    }
+
+    .infoblock .search-screen__info {
+        margin-top: -330px;
+    }
+
+    .infoblock .professor-photo__text {
+        margin-top: -186px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        top: 155px;
+    }
+
+    .infoblock .image-section__info {
+        margin-top: -105px;
+    }
+
+    .infoblock .image-title--bibliography-view {
+        right: 28%;
+        top: 88px;
     }
 }
 
