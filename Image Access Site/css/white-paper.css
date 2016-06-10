@@ -57,3 +57,15 @@
         width: 68%;
     }
 }
+
+@media (max-width: 1024px) {
+    .back_text_pdf i {
+        display: inline-block;
+    }
+
+    .download-pdf {
+        display: inline-block;
+        margin-left: 5px;
+        width: auto;
+    }
+}

@@ -774,6 +774,16 @@
 }
 
 /* tablets */
-@media (max-width: 941px) {
+@media (max-width: 1024px) {
+    .technical_data_pdf .back_text_pdf {
+        width: auto;
+    }
 
+    .back_text_pdf i {
+        display: inline-block;
+    }
+
+    .download-pdf {
+        width: auto;
+    }
 }
