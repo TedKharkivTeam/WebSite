@@ -1313,3 +1313,9 @@ h4 {
 ol {
     list-style: decimal;
 }
+
+@media (max-width: 1024px) {
+    i.fa.fa-caret-left.triangle-pointer.rotate {
+        transform: rotate(90deg);
+    }
+}

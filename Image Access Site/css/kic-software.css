@@ -2,6 +2,10 @@
     clear: both;
 }
 
+ul.header-top {
+    font-size: 1.6rem;
+}
+
 .brochure-title-center {
     padding: 20px 0 10px !important;
     font-family: 'LatoBold', Arial, sans-serif !important;
@@ -845,11 +849,11 @@ p.infoblock__double__double-p.move {
         padding: 5px 10px 20px 0 !important;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
         padding: 11px 0 !important;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
         height: 202px !important;
     }
 
@@ -1997,28 +2001,28 @@ table.table__footer td {
         padding: 5px 10px 30px 0 !important;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
         width: 215px;
         float: right;
         margin-top: -85px;
         margin-right: 1%;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .in-case-enhance {
+    #KIC_Software_In_Case_You_Didnt_Know .in-case-enhance {
         width: 100%;
         margin-left: -5px;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content .infoblock__page-11__for-study-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__double__content .infoblock__page-11__for-study-p {
         margin-top: -85px;
         margin-right: 0;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
         padding: 0;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double  .infoblock__page-11__in-case-scan-artwork {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double  .infoblock__page-11__in-case-scan-artwork {
         height: 213px;
     }
 
@@ -2647,11 +2651,11 @@ p.infoblock__page-5__block-p.--replace {
         height: 80% !important;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
         padding: 0 !important;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .in-case-enhance {
+    #KIC_Software_In_Case_You_Didnt_Know .in-case-enhance {
         width: 80% !important;
         padding-top: 30px;
     }
@@ -2869,21 +2873,21 @@ h2.brochure-title-kic-software__blue_label.--fleet {
         padding-bottom: 0;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
         margin-top: -115px;
         margin-right: 3%;
     }
 
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11-content-p {
         padding: 15px 0;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
         height: 209px;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-map {
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-map {
         height: 160px;
     }
 
@@ -3195,7 +3199,7 @@ img.click-mini {
         line-height: 2.2rem !important;
     }
 
-    #KIC_Click_and_Mini_In_Case_You_Didnt_Know h2.brochure-title-center.with-italic.case {
+    #KIC_Software_In_Case_You_Didnt_Know h2.brochure-title-center.with-italic.case {
         font-size: 3.2rem !important;
         line-height: 3.4rem !important;
     }
@@ -3329,7 +3333,7 @@ span.fa.fa-star.tabl-star.black {
     text-align: center;
 }
 
-@media all and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .infoblock .infoblock__map-planet {
         margin: -290px 18px 0 0;
     }
@@ -3421,6 +3425,19 @@ span.fa.fa-star.tabl-star.black {
         bottom: -235px !important;
         right: 40px !important;
     }
+
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__in-case-enhance {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11-content-p {
+        padding-bottom: 7px !important;
+    }
+
+    .infoblock__page-5__seven-step:after {
+        bottom: -27px;
+    }
 }
 
 /*artem hotfix*/
@@ -3460,13 +3477,13 @@ span.fa.fa-star.tabl-star.black {
     overflow: hidden;
 }
 
-#KIC_Click_and_Mini_In_Case_You_Didnt_Know .label2-in-case {
+#KIC_Software_In_Case_You_Didnt_Know .label2-in-case {
     font-size: 3.8rem;
     line-height: 4.0rem;
     padding: 0;
 }
 
-#KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__in-case-span {
+#KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__in-case-span {
     text-align: right;
     font-size: 2rem;
     line-height: 2.2rem;

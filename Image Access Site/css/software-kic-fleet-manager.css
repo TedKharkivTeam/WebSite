@@ -333,6 +333,18 @@ figure figcaption{
     }
 }
 
+@media (max-width: 1366px) {
+    .infoblock .infoblock__top__h1 {
+        font-size: 4.5rem;
+        line-height: 4.7rem;
+        padding-top: 45px;
+    }
+
+    .infoblock .infoblock__nav__li {
+        margin-top: -30px;
+    }
+}
+
 @media all and (max-width: 1024px){
     .infoblock__nav {
         margin-top: 50px;
@@ -353,16 +365,9 @@ figure figcaption{
     .infoblock .infoblock__center__text--margin {
         width: 41%;
     }
-}
 
-@media (max-width: 1366px) {
     .infoblock .infoblock__top__h1 {
-        font-size: 4.5rem;
-        line-height: 4.7rem;
-        padding-top: 45px;
-    }
-
-    .infoblock .infoblock__nav__li {
-        margin-top: -30px;
+        font-size: 4.3rem;
+        line-height: 4.5rem;
     }
 }
