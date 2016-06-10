@@ -21,7 +21,9 @@
     width: 40%;
     float: left;
 }
-
+.content-holder__pictures img {
+    padding: 5px 0;
+}
 .content-holder__forms input {
     font-family: 'LatoRegular', sans-serif, helvetica, arial;
     font-size: 1.6rem;
@@ -30,7 +32,7 @@
     padding: 2px 5px;
     color: #202020;
     display: block;
-    width: 100%;
+    width: 75%;
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
