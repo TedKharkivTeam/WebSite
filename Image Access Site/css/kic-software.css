@@ -2660,6 +2660,10 @@ p.infoblock__page-5__block-p.--replace {
         top: 330px !important;
         width: 36% !important;
     }
+
+    #KIC_Software_The_Hybrid_Library .infoblock__map-planet {
+        margin: -110px 10px 0 0;
+    }
 }
 
 .brochure-title-center-fleet {
