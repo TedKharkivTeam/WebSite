@@ -1861,10 +1861,6 @@ h2.pod-text {
         margin-top: 28%;
     }
 
-    .infoblock .common-row__column {
-        vertical-align: middle;
-    }
-
     h2.pod-text {
         font-size: 2.2rem;
         color: #000;
@@ -1967,7 +1963,7 @@ span.item__text-label.kic-fleet {
 
 @media (max-width: 1366px) {
     .infoblock .triangular-copy__image {
-        margin: 15% 0 70px;
+        margin: 17% 0 70px;
     }
 
     .infoblock .for-public-libraries-section__touching-copy-text {
@@ -1979,6 +1975,15 @@ span.item__text-label.kic-fleet {
     }
 
     .infoblock .column__enhance-reports-image {
-        width: 85%;
+        width: 100%;
+    }
+
+    .infoblock .text-section__centered-text--with-margin {
+        bottom: -66px;
+    }
+
+    p.capture-area-comparison-wrapper__below-map-text {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 }

@@ -42,7 +42,7 @@ a {
 /*magnifire in 1400px !important*/
 @media all and (max-width: 1400px){
     .example {
-        width: 400px!important;
+        width: 600px!important;
         height: 420px!important;
     }
     .spritezoom-view{

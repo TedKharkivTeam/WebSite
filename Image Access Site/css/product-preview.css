@@ -39,3 +39,9 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .product_preview img {
+        padding: 120px 5px 5px 5px;
+    }
+}
+
