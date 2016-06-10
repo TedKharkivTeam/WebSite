@@ -354,3 +354,15 @@ figure figcaption{
         width: 41%;
     }
 }
+
+@media (max-width: 1366px) {
+    .infoblock .infoblock__top__h1 {
+        font-size: 4.5rem;
+        line-height: 4.7rem;
+        padding-top: 45px;
+    }
+
+    .infoblock .infoblock__nav__li {
+        margin-top: -30px;
+    }
+}
