@@ -160,3 +160,14 @@
         line-height: 2.9rem;
     }
 }
+
+@media (max-width: 1024px) {
+    .wrapper-gallery__title {
+        font-size: 2.6rem;
+        line-height: 2.8rem;
+    }
+
+    .wrapper-gallery__contact .fa-envelope {
+        padding-right: 0;
+    }
+}

@@ -1,8 +1,7 @@
 .gallery .images .image {
     position: relative;
     width: 100%;
-    padding-bottom: 60%;
-    height: 0;
+    height: 100%;
     overflow: hidden;
     display: none;
     /*border-radius: 3px;*/
@@ -182,4 +181,18 @@
     background: white;
     left: 0;
     width: 100%;
+}
+
+@media (max-width: 1366px) {
+    .gallery .images .image {
+        width: 767px;
+        height: 432px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .gallery .images .image {
+        width: 713px;
+        height: 402px;
+    }
 }
