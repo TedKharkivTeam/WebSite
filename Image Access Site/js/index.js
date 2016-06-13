@@ -3,7 +3,7 @@ var animationDuration = 1500;
 var animationStartDelay = 2000;
 
 //Urls to redirect
-var nonEduRedirectUrl = "pages/Frame-8.html";
+var nonEduRedirectUrl = "pages/Frame-7.html";
 var eduRedirectUrl = "pages/Frame-2A.html";
 
 'use strict';
