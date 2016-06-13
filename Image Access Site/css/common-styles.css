@@ -328,3 +328,17 @@
         margin: 20px 0 20px 24%;
     }
 }
+
+@media (max-width: 1366px) {
+    .video {
+        height: 426px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video {
+        height: 456px;
+        margin-top: 20px;
+    }
+}

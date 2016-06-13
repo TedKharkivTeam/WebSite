@@ -190,7 +190,7 @@
     }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1024px) {
     .gallery .images .image {
         width: 713px;
         height: 402px;
