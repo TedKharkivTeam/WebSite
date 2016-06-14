@@ -2538,7 +2538,7 @@ th .table--img {
     }
 
     .infoblock .infoblock__page-1__center-p {
-        bottom: 15px;
+        bottom: 0;
     }
 
     .bottom-block_padding-border {
@@ -2620,6 +2620,9 @@ th .table--img {
 @media all and (max-width: 1640px)  and (min-width: 1400px) {
     .infoblock__page-3__block-3 {
         bottom: 8%;
+    }
+    .infoblock .infoblock__page-1__h3__p {
+        bottom: -54px;
     }
 }
 
@@ -3046,11 +3049,19 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1536px) and (min-width: 1401px) {
+@media all and (max-width: 1536px) {
     .infoblock__page-9__top__h1 {
 
         font-size: 5.4rem;
 
+    }
+    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--padding {
+        line-height: 2rem;
+    }
+
+    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
+        position: absolute;
+        line-height: 2rem;
     }
 }
 
@@ -3206,9 +3217,6 @@ th .table--img {
         bottom: 155px;
     }
 
-    .infoblock .infoblock__page-1__center-p {
-        bottom: 10px;
-    }
 
     .infoblock .infoblock__page-1__h3__p {
         bottom: -60px;
@@ -3240,6 +3248,10 @@ th .table--img {
         font-size: 3.3rem;
         line-height: 3.5rem;
         margin-top: 6%;
+    }
+
+    .infoblock .infoblock__page-1__center-p {
+        bottom: 0;
     }
 
 }
