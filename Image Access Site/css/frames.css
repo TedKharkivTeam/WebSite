@@ -1298,13 +1298,6 @@ h2.pod-text {
         max-width: 170px;
     }
 
-    .green-line__text--left {
-        padding-left: 4%;
-    }
-
-    .green-line__text--right {
-        padding-right: 4%;
-    }
 
     .bibliography {
         bottom: 45%;
@@ -1389,6 +1382,24 @@ h2.pod-text {
     .phone-description-common {
         font-style: italic;
         font-size: 0.8rem;
+    }
+
+    .green-line__text--left {
+        padding-left: 4%;
+    }
+
+    .green-line__text--right {
+        padding-right: 4%;
+    }
+}
+@media all and (max-width: 1260px){
+    .green-line__text {
+        font-size: 2.1rem;
+        line-height: 2.3rem;
+    }
+    .text-grey{
+        font-size: 2.1rem;
+        line-height: 2.3rem;
     }
 }
 
