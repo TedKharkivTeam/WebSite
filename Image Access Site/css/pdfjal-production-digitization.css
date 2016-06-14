@@ -259,25 +259,6 @@
 
 .infoblock .blue-doth {
     padding-left: 50px;
-    list-style: none;
-}
-
-.blue-doth li {
-    position: relative;
-}
-
-.blue-doth li:before {
-    position: absolute;
-    content: '';
-    background: #3052ad;
-    top: 4px;
-    left: -20px;
-    width: 14px;
-    height: 14px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    box-shadow: inset 0 3px 6px #fff;
 }
 
 .page3__inline {

@@ -369,11 +369,8 @@ img {
 /*************************************************************************************************************/
 
 .infoblock .collage__info {
-    width: 38%;
-    float: right;
-    position: absolute;
-    left: 310px;
-    top: 35px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .infoblock .infoblock__sub-header--GHH {
@@ -396,7 +393,7 @@ img {
     font-family: 'LatoBold', helvetica, arial, sans-serif;
     position: absolute;
     left: 63%;
-    top: 220px;
+    top: 214px;
 }
 
 .infoblock .image-text--SW {
@@ -964,12 +961,6 @@ img {
 
 }
 
-@media all and (max-width: 1560px) {
-    .infoblock .collage__info {
-        margin-bottom: -105px;
-        width: 50%;
-    }
-}
 
 /* 1024 */
 @media (max-width: 1199px) {
@@ -1124,21 +1115,12 @@ img {
         padding-bottom: 20px;
     }
 
-    .infoblock .collage__info {
-        margin-bottom: -110px;
-        width: 48%;
-    }
 
     .infoblock .kit-kat-go__image-title--kic-stations {
         position: relative;
         left: 13%;
     }
 
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        left: 58%;
-        margin-top: -220px;
-        padding-bottom: 280px;
-    }
 
     .infoblock .bvs-section__image-title {
         position: relative;
@@ -1196,6 +1178,8 @@ img {
         width: 55%;
     }
 
+
+
 }
 
 /* empty, for tablets */
@@ -1204,12 +1188,11 @@ img {
 }
 
 .infoblock__collage {
-    margin-top: -30px;
     position: relative;
 }
 
 img.rows__row.rows__row--collage {
-    float: left;
+    margin-top: -100px;
     box-sizing: content-box;
     padding-left: 70px;
 }
@@ -1290,12 +1273,6 @@ img.bvs-section__image {
         padding-left: 0;
     }
 
-    .infoblock .collage__info {
-        width: 38%;
-        left: 270px;
-        top: 40px;
-    }
-
     .infoblock .bvs-section__image-title {
         top: 100px;
     }
@@ -1312,6 +1289,26 @@ img.bvs-section__image {
         top: -165px;
     }
 }
+@media (max-width: 1550px) {
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        top: 175px;
+    }
+
+    .infoblock .bvs-section__image-title {
+        top: 80px;
+    }
+
+    .infoblock .image-text--SW {
+        margin: 0;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        position: absolute;
+        top: 27%;
+        right: 0;
+    }
+}
+
 
 @media (max-width: 1366px) {
     .infoblock .collage__info {
@@ -1324,9 +1321,6 @@ img.bvs-section__image {
         top: -130px;
     }
 
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        top: 160px;
-    }
 
     .infoblock .bvs-section__image-title {
         top: 0;
@@ -1367,17 +1361,15 @@ img.bvs-section__image {
         margin-top: -186px;
     }
 
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        top: 155px;
-    }
-
-    .infoblock .image-section__info {
-        margin-top: -105px;
-    }
 
     .infoblock .image-title--bibliography-view {
         right: 28%;
         top: 88px;
+    }
+}
+@media (max-width: 1320px){
+    .infoblock .kit-kat-go__image-title--kic-srs {
+        top: 24%;
     }
 }
 
@@ -1386,15 +1378,6 @@ img.bvs-section__image {
         padding-left: 0;
     }
 
-    .infoblock .collage__info {
-        left: 180px;
-        top: 35px;
-        width: 70%;
-    }
-
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        top: 150px;
-    }
 
     .infoblock .image-text--SW {
         top: -122px;
@@ -1407,9 +1390,11 @@ img.bvs-section__image {
     .infoblock .bvs-section__image-text {
         top: 130px;
     }
-}
 
-@media (max-width: 1280px) {
+    img.rows__row.rows__row--collage {
+        margin-top: -80px;
+    }
+
     img.bvs-section__image {
         padding-top: 50px;
         padding-bottom: 20px;
@@ -1421,9 +1406,6 @@ img.bvs-section__image {
         padding-top: 60px;
     }
 
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        top: 370px;
-    }
 
     .infoblock .bvs-section__image-title {
         top: -20px;
@@ -1465,9 +1447,6 @@ img.bvs-section__image {
         margin-top: 105px;
     }
 
-    .infoblock .kit-kat-go__image-title--kic-srs {
-        top: 363px;
-    }
 
     .infoblock .image-section__info {
         margin-top: -95px;
