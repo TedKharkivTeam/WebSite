@@ -322,6 +322,18 @@
         margin-right: 14px;
     }
 }
+@media all and (max-width: 1640px){
+    /*.popup__menu {*/
+
+        /*height: 500px;*/
+    /*}*/
+
+    .news-wrapper__popup {
+        height: 70%;
+    }
+}
+
+
 @media all and (max-width: 1366px) {
     .news-wrapper__events-block {
         width: 285px;
@@ -334,7 +346,7 @@
     }
 
     .popup__menu {
-        height: 430px;
+        height: 410px;
     }
 
     .news-wrapper__popup {
@@ -344,7 +356,7 @@
 
 @media all and (max-width: 1025px) {
     .popup__menu {
-        height: 280px;
+        height: 388px;
         font-size: 1.3rem;
     }
 

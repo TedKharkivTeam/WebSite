@@ -2338,6 +2338,10 @@ th .table--img {
     .images--hand {
         padding-bottom: 30px;
     }
+
+    .infoblock .infoblock__page-6__scanner-other {
+        margin-top: 7%;
+    }
 }
 
 @media all and (max-width: 1651px) {
@@ -2428,17 +2432,6 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1720px) {
-
-    /*.infoblock p, li {*/
-    /*font-size: 1.4rem;*/
-    /*line-height: 1.6rem;*/
-    /*}*/
-    /*.infoblock th, td {*/
-    /*font-size: 1.4rem;*/
-    /*}*/
-
-}
 
 @media all and (max-width: 1543px) {
     .infoblock__page-9__nav {
