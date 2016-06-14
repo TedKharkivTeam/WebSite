@@ -1839,9 +1839,10 @@ h2.pod-text {
     }
 
     .infoblock .section__left-image-text {
-        left: -43px;
+        left: -30px;
         top: auto;
         bottom: 20px;
+        font-size: 14px;
     }
 
     .infoblock .column__section--background {

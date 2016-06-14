@@ -1289,6 +1289,20 @@ h2.pod-text {
     }
 }
 
+@media all and (max-width: 1500px) {
+    .green-line__text--left {
+        padding-left: 5%;
+    }
+
+    .green-line__text--right {
+        padding-right: 5%;
+    }
+
+    .caption__h {
+        font-size: 4.6rem;
+    }
+}
+
 @media all and (min-width: 1366px) and (max-width: 1534px) {
     .h4__frames--pull-left {
         font-size: 5.2rem;
@@ -1297,7 +1311,6 @@ h2.pod-text {
     .imgbook--big {
         max-width: 170px;
     }
-
 
     .bibliography {
         bottom: 45%;
@@ -1391,13 +1404,25 @@ h2.pod-text {
     .green-line__text--right {
         padding-right: 4%;
     }
+
+    .caption__h {
+        font-size: 4.4rem;
+    }
 }
-@media all and (max-width: 1260px){
+@media all and (max-width: 1300px){
+    .caption__h {
+        font-size: 4.1rem;
+    }
+}
+
+
+@media all and (max-width: 1260px) {
     .green-line__text {
         font-size: 2.1rem;
         line-height: 2.3rem;
     }
-    .text-grey{
+
+    .text-grey {
         font-size: 2.1rem;
         line-height: 2.3rem;
     }
@@ -1434,7 +1459,7 @@ h2.pod-text {
 
 @media all and (max-width: 1100px) {
     html {
-        font-size: 45%;
+        font-size: 55%;
     }
 
     .green-line__text--left {

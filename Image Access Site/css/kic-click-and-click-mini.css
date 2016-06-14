@@ -2977,6 +2977,17 @@ h2.label2.resize.top-padding {
     padding-top: 30px;
 }
 
+@media all and (max-width: 1300px) {
+    .row__column {
+        min-height: 360px;
+    }
+    .infoblock__label-search-on .column__number3{
+        font-size: 14px;
+    }
+    .infoblock .number3-label {
+        margin-top: 10px;
+    }
+}
 @media (max-width: 1024px) {
     #copy-diagram {
         padding-bottom: 60px;
