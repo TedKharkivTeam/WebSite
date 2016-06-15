@@ -784,3 +784,7 @@
 @media (max-width: 1024px) {
 
 }
+
+.image.active.product-photos {
+    height: 530px;
+}
