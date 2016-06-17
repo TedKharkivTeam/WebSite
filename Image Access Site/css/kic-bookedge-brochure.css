@@ -495,7 +495,7 @@ figcaption {
 }
 
 .infoblock .content-holder__true-2-touch-wrapper {
-
+    padding-top: 20px;
 }
 
 .infoblock .true-2-touch-wrapper__save-to-usb-image {
@@ -1158,6 +1158,7 @@ h2.pod-text {
 
 .infoblock .capture-area-comparison-wrapper__below-map-text {
     line-height: 2rem;
+    font-family: 'LatoItalic', arial, helvetica, sans-serif;
 }
 
 .infoblock .below-map-text__icon {

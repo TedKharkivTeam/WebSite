@@ -515,6 +515,7 @@ th .table--img {
     font-size: 1.4rem;
     line-height: 1.6rem;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .table__footer td {
@@ -1379,8 +1380,6 @@ p.click_click_mini.brochure-overflow--line {
 .infoblock .label_smart9 {
     font-size: 3.6rem;
     line-height: 3.8rem;
-    margin-left: 3%;
-    margin-top: 2%;
 }
 
 .infoblock .label_smart10 {
@@ -1482,7 +1481,7 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .infoblock .super_middle_table_click {
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
 }
 
@@ -3125,3 +3124,7 @@ h3.reservation__h2--center.uppercase {
     font-family: 'LatoRegular', sans-serif, helvetica, arial;
 }
 
+.smart_hard_block__to-left h4 {
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+}

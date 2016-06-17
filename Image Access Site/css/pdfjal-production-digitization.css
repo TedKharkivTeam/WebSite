@@ -348,7 +348,9 @@
 }
 
 .block3__top .top--width {
-    width: 60%;
+    width: 50%;
+    float: left;
+    margin-left: -10px;
 }
 
 .block3__top {
@@ -1299,4 +1301,16 @@ ol {
     i.fa.fa-caret-left.triangle-pointer.rotate {
         transform: rotate(90deg);
     }
+}
+
+.block3__top-span {
+    float: left;
+    margin-left: -14px;
+}
+
+.block3__top-p {
+    text-align: initial;
+    width: 90px;
+    float: right;
+    margin-right: 16px;
 }
