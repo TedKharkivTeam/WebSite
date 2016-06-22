@@ -24,11 +24,11 @@ img {
 }
 
 .infoblock .rows__row--kat-logo {
-    width: 44%;
+    width: 37%;
 }
 
 .infoblock .rows__row--kat-logo-desc {
-    width: 55%;
+    width: 62%;
 }
 
 .infoblock .infoblock__huge-header {
@@ -39,7 +39,6 @@ img {
     text-align: center;
     text-shadow: none;
     color: black;
-    margin: 0 0 15px 0;
 }
 
 .infoblock .huge-header__image {
