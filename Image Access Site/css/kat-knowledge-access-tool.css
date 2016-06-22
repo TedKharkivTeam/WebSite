@@ -12,11 +12,25 @@ img {
 
 }
 
+.infoblock .infoblock__rows--phones {
+    position: relative;
+    bottom: 450px;
+}
+
+.infoblock .rows--phones--dozen-p {
+    margin-top: 40px;
+}
+
 .infoblock .rows__row {
     display: inline-block;
     vertical-align: top;
     width: 49%;
     height: 49%;
+}
+
+.infoblock .row--kat__p {
+    position: relative;
+    bottom: 235px;
 }
 
 .infoblock .infoblock__rows--huge-header-block {
@@ -93,7 +107,9 @@ img {
 }
 
 .infoblock .image-title--stacks-view {
-    margin-bottom: -22px;
+    position: relative;
+    bottom: 202px;
+    right: 8%;
 }
 
 .infoblock .figure__image--120 {
@@ -104,12 +120,13 @@ img {
 .infoblock .image-bottom-header {
     font-weight: normal;
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
-    margin-left: 15%;
-    margin-top: -122px;
-    padding-bottom: 12px;
+    margin-left: 14%;
+    margin-top: -25px;
+    /* margin-top: -122px; */
+    /* padding-bottom: 12px; */
     font-size: 1.4rem;
     line-height: 1.6rem;
-    width: 50%;
+    width: 43%;
 }
 
 .infoblock .right-middle-block__text {
@@ -117,8 +134,8 @@ img {
     text-align: right;
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
     position: relative;
-    margin-top: 45px;
-    left: -4%;
+    top: 50px;
+    right: 33%;
 }
 
 .infoblock .right-middle-block__image {
@@ -129,7 +146,7 @@ img {
     height: 670px;
     background: url("../images/KIC_KAT/kat_phones.png") no-repeat;
     background-size: 100% 670px;
-    margin-top: -148px;
+    margin-top: -485px;
     margin-bottom: 105px;
 }
 
