@@ -9,6 +9,16 @@
 }
 
 @font-face {
+    font-family: 'AudiowideRegular';
+    src: url('../fonts/AudiowideRegular.eot');
+    src: url('../fonts/AudiowideRegular.eot') format('embedded-opentype'),
+    url('../fonts/AudiowideRegular.woff2') format('woff2'),
+    url('../fonts/AudiowideRegular.woff') format('woff'),
+    url('../fonts/AudiowideRegular.ttf') format('truetype'),
+    url('../fonts/AudiowideRegular.svg#AudiowideRegular') format('svg');
+}
+
+@font-face {
     font-family: 'LatoBlack';
     src: url('../fonts/LatoBlack.eot');
     src: url('../fonts/LatoBlack.eot') format('embedded-opentype'),
