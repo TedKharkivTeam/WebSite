@@ -788,3 +788,7 @@
 .image.active.product-photos {
     height: 530px;
 }
+
+.gallery .resize.image {
+    height: 450px;
+}
