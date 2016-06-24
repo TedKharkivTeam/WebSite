@@ -119,7 +119,7 @@ figure figcaption{
 .infoblock .infoblock__bottom {
     text-align: justify;
     padding: 0;
-    margin: 0;
+    margin: 25px 0;
 }
 
 .infoblock__margin-right-p {

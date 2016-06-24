@@ -152,6 +152,7 @@
 
 .infoblock__photo .photo__table {
     width: 55%;
+    margin-top: 15px;
 }
 
 .infoblock__photo .photo__double {

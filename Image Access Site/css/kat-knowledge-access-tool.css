@@ -30,7 +30,7 @@ img {
 
 .infoblock .row--kat__p {
     position: relative;
-    bottom: 235px;
+    bottom: 216px;
 }
 
 .infoblock .infoblock__rows--huge-header-block {
@@ -204,6 +204,7 @@ img {
     margin-top: -370px;
     left: 52%;
     width: 47%;
+    position: relative;
 }
 
 .infoblock .reading-list__header {
@@ -216,9 +217,11 @@ img {
 }
 
 .infoblock .reading-list__footer {
-    position: relative;
-    top: 20px;
-    left: 15%;
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .infoblock .reading-list__professor-info-block {
@@ -226,10 +229,13 @@ img {
     font-size: 1.5rem;
     left: 1%;
     margin-top: -85px;
-    padding-bottom: 55px;
+    padding-bottom: 45px;
     line-height: 1rem;
 }
-
+.reading-list__professor-info-block p{
+    padding: 0;
+    font-size: 14px;
+}
 /*************************************************************************************************************/
 /************************************************** KAT second page *******************************************/
 /*************************************************************************************************************/
@@ -1245,7 +1251,9 @@ img.bvs-section__image {
     display: block;
     clear: both;
 }
-
+.image-text{
+    padding-top: 10px;
+}
 @media (max-width: 1680px) {
     .infoblock .infoblock__huge-header {
         font-size: 6.5rem;

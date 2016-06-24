@@ -34,7 +34,7 @@
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
-    padding: 20px 0 10px;
+    padding: 20px 0;
 }
 
 .infoblock .brochure-title-left {
@@ -113,8 +113,8 @@
 
 .book-stack-and-feature-enumeration__feature-enumeration {
     float: left;
-    width: 45%;
-    margin-left: 5%;
+    width: 34%;
+    margin-left: 10%;
 
 }
 
