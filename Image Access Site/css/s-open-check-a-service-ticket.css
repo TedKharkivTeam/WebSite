@@ -15,7 +15,9 @@
     text-align: left;
     padding: 20px 0 10px;
 }
-
+.padding--top{
+    padding-top: 7%
+}
 .content-holder__pictures {
     padding: 20px 10px 0;
     width: 40%;
@@ -114,7 +116,7 @@
 
 
 .bottom-img {
-    margin: 15px auto 0;
+    margin: 11% auto 0;
     width: 80% !important;
     display: block;
 }

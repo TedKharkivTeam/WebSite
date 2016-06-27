@@ -1,4 +1,7 @@
-
+.infoblock--to-footer{
+    padding-bottom: 0;
+    margin-bottom: -3px;
+}
 img {
     width: 100%;
     height: 100%;

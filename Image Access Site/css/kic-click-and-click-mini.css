@@ -947,7 +947,7 @@ h2.pod-text {
 #copy-diagram {
     float: left;
     width: 30%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 #fax-diagram {
@@ -1024,6 +1024,7 @@ p.click_click_mini.brochure-overflow--line {
     display: inline-block;
     float: left;
     padding-left: 4%;
+    padding-top: 40px;
 }
 
 .infoblock .column1 {
@@ -1032,6 +1033,7 @@ p.click_click_mini.brochure-overflow--line {
     vertical-align: top;
     float: right;
     padding-left: 3%;
+    padding-top: 40px;
 }
 
 .infoblock .images--hand {
@@ -1372,7 +1374,7 @@ p.click_click_mini.brochure-overflow--line {
 
 .infoblock .smart_hard_block {
     border: solid 3px;
-    border-radius: 2%;
+    border-radius: 12px;
     background: linear-gradient(to bottom, #97a29c, #e2e3e5);
     margin-top: 2%;
 }

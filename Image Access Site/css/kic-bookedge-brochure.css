@@ -64,6 +64,7 @@ figcaption {
     display: inline-block;
     width: 49%;
     vertical-align: top;
+    padding: 0 10px;
 }
 
 .infoblock .common-text-p {
@@ -612,7 +613,7 @@ figcaption {
 
 .infoblock .content-holder__for-public-libraries-section {
     border: solid 3px;
-    border-radius: 2%;
+    border-radius: 10px;
     margin-top: 5%;
     background: linear-gradient(to bottom, #97a29c, #e2e3e5);
     position: relative;
@@ -738,6 +739,7 @@ figcaption {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin: 0;
     width: 100%;
+    padding-top: 10px;
 }
 
 .infoblock .reservation-app-wrapper__three-images-wrapper {

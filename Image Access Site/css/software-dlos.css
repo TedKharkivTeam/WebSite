@@ -199,6 +199,11 @@ img.flash-hand {
 }
 
 .text-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-section--pb{
     padding-bottom: 80px;
 }
 

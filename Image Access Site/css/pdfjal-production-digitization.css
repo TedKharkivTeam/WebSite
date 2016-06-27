@@ -275,7 +275,7 @@
 
 .page3--right {
     text-align: right;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .page3__block2 {
@@ -348,17 +348,19 @@
 }
 
 .block3__top .top--width {
-    width: 50%;
+    width: 42%;
     float: left;
-    margin-left: -10px;
 }
 
 .block3__top {
     display: inline-block;
     width: 20%;
     vertical-align: middle;
+    text-align: left;
 }
-
+..block3__top p{
+    text-align: left;
+}
 .top--w2 {
     width: 35%;
 }
