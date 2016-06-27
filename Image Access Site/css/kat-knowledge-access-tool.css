@@ -1,7 +1,8 @@
-.infoblock--to-footer{
+.infoblock--to-footer {
     padding-bottom: 0;
     margin-bottom: -3px;
 }
+
 img {
     width: 100%;
     height: 100%;
@@ -124,7 +125,7 @@ img {
     font-weight: normal;
     font-family: 'LatoItalic', helvetica, arial, sans-serif;
     margin-left: 14%;
-    margin-top: -25px;
+    margin-top: -45px;
     /* margin-top: -122px; */
     /* padding-bottom: 12px; */
     font-size: 1.4rem;
@@ -235,10 +236,12 @@ img {
     padding-bottom: 45px;
     line-height: 1rem;
 }
-.reading-list__professor-info-block p{
+
+.reading-list__professor-info-block p {
     padding: 0;
     font-size: 14px;
 }
+
 /*************************************************************************************************************/
 /************************************************** KAT second page *******************************************/
 /*************************************************************************************************************/
@@ -253,7 +256,7 @@ img {
     padding: 20px 0 0 0;
     width: 90%;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .infoblock .infoblock__image {
@@ -643,7 +646,7 @@ img {
     line-height: 3.2rem;
 }
 
-.infoblock .infoblock__width-header{
+.infoblock .infoblock__width-header {
     width: 54%;
 }
 
@@ -779,6 +782,55 @@ img {
 /* 1280, 1366 */
 @media (min-width: 1200px) and (max-width: 1399px) {
 
+    .infoblock .rows--phones--dozen-p {
+        margin-top: -35px!important;
+    }
+
+    .infoblock .infoblock__kat-phones {
+        margin-top: -310px!important;
+    }
+
+    .infoblock .reading-list__professor-info-block p {
+        font-size: 1.1rem!important;
+        line-height: 1.3rem!important;
+        position: relative;
+        bottom: 48px;
+    }
+
+    .infoblock .image-bottom-header {
+        font-size: 1.1rem!important;
+        line-height: 1.2rem!important;
+        position: relative;
+        top: 20px;
+    }
+
+    .infoblock .image-title--stacks-view {
+        position: relative;
+        bottom: 155px;
+        right: 18%;
+    }
+
+    .infoblock .rows--phones--dozen-p {
+        margin-top: -50px;
+    }
+
+    .infoblock .row--kat__p {
+        top: -177px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .infoblock .infoblock__sub-header--bold {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-top: -25px;
+    }
+
+    .infoblock .infoblock__rows--phones {
+        position: relative;
+        top: -310px;
+    }
+
     /******************** PAGE 1 ********************/
     .infoblock .infoblock__huge-header {
         font-size: 4.5rem;
@@ -796,12 +848,12 @@ img {
     }
 
     .infoblock .right-middle-block__text {
-        width: 88%;
-        text-align: left;
+        width: 36%;
+        text-align: right;
         position: relative;
-        margin-top: 0;
-        margin-bottom: 5px;
-        left: 14%;
+        margin-top: -25px;
+        margin-bottom: 6px;
+        right: 31%;
     }
 
     .infoblock .right-middle-block__image {
@@ -841,7 +893,7 @@ img {
 
     .infoblock .image-title--shelf-view {
         left: 10%;
-        top: 193px;
+        top: 200px;
     }
 
     .infoblock .note--left__bottom {
@@ -1005,9 +1057,50 @@ img {
 
 }
 
-
 /* 1024 */
 @media (max-width: 1199px) {
+
+    .infoblock .reading-list__professor-info-block p {
+        font-size: 1.1rem!important;
+        line-height: 1.3rem!important;
+        position: relative;
+        bottom: 48px;
+    }
+
+    .infoblock .image-bottom-header {
+        font-size: 1.1rem!important;
+        line-height: 1.2rem!important;
+        position: relative;
+        top: 20px;
+    }
+
+    .infoblock .image-title--stacks-view {
+        position: relative;
+        bottom: 155px;
+        right: 18%;
+    }
+
+    .infoblock .rows--phones--dozen-p {
+        margin-top: -50px;
+    }
+
+    .infoblock .row--kat__p {
+        position: relative;
+        top: -145px;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+
+    .infoblock .infoblock__sub-header--bold {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-top: -25px;
+    }
+
+    .infoblock .infoblock__rows--phones {
+        position: relative;
+        top: -310px;
+    }
 
     /******************** PAGE 1 ********************/
     .infoblock .infoblock__huge-header {
@@ -1026,12 +1119,14 @@ img {
     }
 
     .infoblock .right-middle-block__text {
-        width: 88%;
-        text-align: left;
+        width: 35%;
+        text-align: right;
         position: relative;
-        margin-top: 0;
-        margin-bottom: 5px;
-        left: 14%;
+        margin-top: -13px;
+        /* margin-bottom: 6px; */
+        left: -31%;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
     }
 
     .infoblock .right-middle-block__image {
@@ -1048,7 +1143,7 @@ img {
 
     .infoblock .kat-phones__note--right {
         left: 82%;
-        top: 73px;
+        top: 97px;
         padding: 5px 0;
         width: 19%;
         line-height: 1.5rem;
@@ -1159,12 +1254,10 @@ img {
         padding-bottom: 20px;
     }
 
-
     .infoblock .kit-kat-go__image-title--kic-stations {
         position: relative;
         left: 13%;
     }
-
 
     .infoblock .bvs-section__image-title {
         position: relative;
@@ -1222,8 +1315,6 @@ img {
         width: 55%;
     }
 
-
-
 }
 
 /* empty, for tablets */
@@ -1254,19 +1345,24 @@ img.bvs-section__image {
     display: block;
     clear: both;
 }
-.image-text{
+
+.image-text {
     padding-top: 10px;
 }
+
 @media (max-width: 1680px) {
     .infoblock .infoblock__huge-header {
-        font-size: 6.5rem;
-        line-height: 6.7rem;
+        font-size: 5.5rem;
+        line-height: 5.7rem;
+        margin-top: -12px;
     }
 
     .infoblock .infoblock__sub-header--italic {
         text-align: center;
         width: 100%;
         float: right;
+        font-size: 1.8rem;
+        line-height: 2rem;
     }
 
     .infoblock .image-bottom-header {
@@ -1274,7 +1370,8 @@ img.bvs-section__image {
     }
 
     .infoblock .image-title--stacks-view {
-        margin-bottom: -22px;
+        margin-bottom: 50px;
+        margin-top: -35px;
     }
 
     .infoblock .infoblock__kat-phones {
@@ -1311,10 +1408,9 @@ img.bvs-section__image {
     }
 
     /*.infoblock .rows__row {*/
-        /*width: 48%;*/
-        /*height: 48%;*/
+    /*width: 48%;*/
+    /*height: 48%;*/
     /*}*/
-
     img.rows__row.rows__row--collage {
         padding-left: 0;
     }
@@ -1335,6 +1431,7 @@ img.bvs-section__image {
         top: -165px;
     }
 }
+
 @media (max-width: 1550px) {
     .infoblock .kit-kat-go__image-title--kic-srs {
         top: 175px;
@@ -1355,7 +1452,6 @@ img.bvs-section__image {
     }
 }
 
-
 @media (max-width: 1366px) {
     .infoblock .collage__info {
         left: 190px;
@@ -1366,7 +1462,6 @@ img.bvs-section__image {
     .infoblock .image-text--SW {
         top: -130px;
     }
-
 
     .infoblock .bvs-section__image-title {
         top: 0;
@@ -1383,6 +1478,7 @@ img.bvs-section__image {
     .infoblock .image-bottom-header {
         font-size: 1.6rem;
         line-height: 1.8rem;
+        margin-top: -110px;
     }
 
     .infoblock .kat-phones__note--left {
@@ -1407,13 +1503,13 @@ img.bvs-section__image {
         margin-top: -186px;
     }
 
-
     .infoblock .image-title--bibliography-view {
         right: 28%;
         top: 88px;
     }
 }
-@media (max-width: 1320px){
+
+@media (max-width: 1320px) {
     .infoblock .kit-kat-go__image-title--kic-srs {
         top: 24%;
     }
@@ -1423,7 +1519,6 @@ img.bvs-section__image {
     img.rows__row.rows__row--collage {
         padding-left: 0;
     }
-
 
     .infoblock .image-text--SW {
         top: -122px;
@@ -1452,7 +1547,6 @@ img.bvs-section__image {
         padding-top: 60px;
     }
 
-
     .infoblock .bvs-section__image-title {
         top: -20px;
     }
@@ -1466,15 +1560,19 @@ img.bvs-section__image {
     }
 
     .infoblock .infoblock__kat-phones {
-        margin-top: -50px;
+        margin-top: -320px;
     }
 
     .infoblock .note--left__top {
-        top: -14px;
+        top: 10px;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
     }
 
     .infoblock .note--left__bottom {
-        top: 155px;
+        top: 185px;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
     }
 
     .infoblock .reading-list__professor-info-block {
@@ -1492,7 +1590,6 @@ img.bvs-section__image {
     .infoblock .infoblock__sub-header--PYPC-SBDB {
         margin-top: 105px;
     }
-
 
     .infoblock .image-section__info {
         margin-top: -95px;
