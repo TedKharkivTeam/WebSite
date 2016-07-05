@@ -80,7 +80,7 @@ figcaption {
     line-height: 2.6rem;
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 /* PAGE 1 ******************************************************************************************************** */
@@ -230,7 +230,7 @@ figcaption {
 .infoblock .triangular-copy__image {
     float: left;
     width: 30%;
-    margin: 15px 1% 55px;
+    margin: 58px 1% 20px;
     display: block;
 }
 

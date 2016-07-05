@@ -324,7 +324,7 @@ figure {
 #copy-diagram {
     float: left;
     width: 30%;
-    padding-bottom: 30px;
+    margin: 58px 1% 20px;
 }
 
 #fax-diagram {
@@ -1352,7 +1352,7 @@ h2.pod-text {
 .infoblock__page-12__double-wrap__column {
     float: left;
     width: 47%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .infoblock__page-12__double-wrap figure {
@@ -1401,10 +1401,7 @@ h2.pod-text {
     overflow: hidden;
 }
 
-.infoblock__page-12__column__bookeye-scans {
-    width: 90%;
-    margin-left: 5%;
-}
+
 
 .rainbow-text {
 

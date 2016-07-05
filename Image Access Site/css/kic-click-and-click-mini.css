@@ -2571,7 +2571,6 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__position-relative {
-        position: absolute;
         float: right;
         width: 32%;
         padding-right: 25px;
@@ -2775,14 +2774,13 @@ img.infoblock__page-6.scanner-picture {
 }
 
 .story-text {
-    padding-top: 20px;
+    padding-top: 65px;
     font-size: 1.6rem;
     line-height: 1.8rem;
     font-family: 'LatoItalic', sans-serif, helvetica, arial;
     width: 48%;
     margin-left: 10%;
     position: relative;
-    margin-bottom: 50px;
 }
 
 .infoblock__page-6__position-relative {
@@ -2977,7 +2975,11 @@ img.redsign {
 h2.label2.resize.top-padding {
     padding-top: 30px;
 }
-
+@media all and (max-width: 1700px){
+    .story-text {
+        padding-top: 10px;
+    }
+}
 @media all and (max-width: 1300px) {
     .row__column {
         min-height: 360px;
