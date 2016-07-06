@@ -339,7 +339,7 @@ figure {
     text-shadow: none;
     font-weight: normal;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .infoblock__page-3__brochure-title-center {
@@ -347,7 +347,7 @@ figure {
     font-size: 3.6rem;
     line-height: 3.8rem;
     text-align: center;
-    padding: 20px 0 0;
+    padding: 25px 0 0;
 }
 
 .infoblock__page-3__text-block {
@@ -1169,7 +1169,7 @@ div .infoblock__page-7__block-left {
 
 .custom__aline--text {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 5px;
     font-size: 16px;
 }
 

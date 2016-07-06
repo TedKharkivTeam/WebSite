@@ -455,8 +455,8 @@
 }
 
 .infoblock .infoblock__opus-freeflow-features-textblock {
-    margin-left: 4%;
-    width: 40%;
+    margin-left: 0;
+    width: 50%;
     float: left;
     padding-top: 2%;
 }
@@ -468,7 +468,7 @@
 }
 
 .infoblock .infoblock__opus-freeflow-features-textblock-part2 {
-    margin-left: 4%;
+    margin-left: 0;
     width: 92%;
     float: left;
 }

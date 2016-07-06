@@ -358,7 +358,7 @@
     vertical-align: middle;
     text-align: left;
 }
-..block3__top p{
+.block3__top p{
     text-align: left;
 }
 .top--w2 {
@@ -1025,7 +1025,16 @@ h4 {
 .padding--top {
     padding-top: 10px;
 }
-
+.page3__inline--right{
+    padding-right: 0;
+    float: right;
+    margin-bottom: 20px;
+}
+.page3--right:before{
+    content: '';
+    display: table;
+    clear: both;
+}
 /*end of new image*/
 @media all and (max-width: 1725px) {
     .top-title__send {
@@ -1142,6 +1151,10 @@ h4 {
 
     .page3__inline {
         width: 90%;
+    }
+
+    .page3__inline--right {
+        float: none;
     }
 
     .padding--top {

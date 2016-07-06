@@ -952,7 +952,7 @@ figcaption {
 
 .infoblock .pod-section__text-p {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 h2.pod-text {
