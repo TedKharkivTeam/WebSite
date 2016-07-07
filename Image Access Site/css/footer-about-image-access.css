@@ -31,6 +31,7 @@
 .history {
     position: relative;
     padding-bottom: 30%;
+    margin-bottom: -100px;
 }
 
 .infoblock .history__w1 {
@@ -93,5 +94,30 @@
         left: 12%;
         height: 95%;
         top: 234px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .history:after {
+        bottom: 10%;
+        right: -30%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .history {
+        margin-bottom: -80px;
+    }
+
+    .history:after {
+        left: 25%;
+        bottom: -8%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .history:after {
+        bottom: -15%;
     }
 }
