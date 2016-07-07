@@ -1,0 +1,142 @@
+#build_your_kic{height:auto; }
+#build_your_kic p.warning{color:#f00; text-align:center; }
+#build_your_kic .intro{width:570px; margin:0 10px 0 15px; float: left; }
+#build_your_kic .intro h1{font:bolder 42px/48px "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;text-align: left;float: clear;margin: 3px 0 3px -3px;}
+#build_your_kic .intro h3{font-size:15px; margin: -0.5em 0.5em 0.5em 0em;}
+#build_your_kic .intro p{font-size: 100%; text-align: left;float: clear;margin:0 10px;line-height:120%;}
+#build_your_kic .intro .select_country {position:absolute; top:15px; left:310px; width:290px; font-size:120%; }
+#build_your_kic .intro .select_country option.region {margin-top:6px;font-size:135%;background-color:#eee;}
+#build_your_kic .intro .select_country option.selected {font-weight:bold;}
+#build_your_kic .intro .select_country option.country {margin-left:14px;}
+#build_your_kic #notifier {position:absolute; top:35px; left:700px; width:498px; height:75px; border: 1px solid #000; border-radius: 20px; z-index: 10; background:rgba(222,222,222,0.9);}
+#build_your_kic #notifier p {color:#f00; padding:28px 20px; font-size:140%; text-align:center;}
+#build_your_kic .page-summary{position:relative;width: 580px; height: 140px; margin: 20px 0px 0 618px; border: 1px solid #aaa; border-radius: 5px; background: #c9ddff;}
+#build_your_kic .page-summary .flabel{position:absolute;width:auto;bottom:-7px; left:-7px;border:1px solid #f00;border-radius:7px;padding:3px;background: #c9ddff;}
+#build_your_kic .page-summary .flabel p.caption {color:#e11;font-size: 120%;font-weight:bold;margin: 2px 15px 2px 10px; }
+#build_your_kic .flabel.highlight{color:#e11;}
+#build_your_kic .page-summary .sys-count {float: left; height: 100%; width:200px; }
+#build_your_kic .page-summary .sys-count label p {width:140px; margin: 3px; text-align: right; float: left;}
+#build_your_kic .page-summary .sys-count input {width:40px; float: left; margin: 3px;}
+#build_your_kic .page-summary .system-summary {float: left; width:380px; }
+#build_your_kic .page-summary .system-summary div {width:auto;margin:1px;}
+#build_your_kic .page-summary .system-summary div label p {width:190px; margin: 4px; text-align: right; float: left; font-size: 130%;}
+#build_your_kic .page-summary .system-summary div input {width:165px; float: left; margin: 4px; font-size: 130%;text-align: right;}
+#build_your_kic .qty-disc-table {width:auto; height:auto; padding: 25px; position: absolute; top:120px; left:200px; border: 1px solid #000; border-radius: 20px; z-index: 10;background:#fff;}
+#build_your_kic .qty-disc-table p.head {text-decoration:underline;}
+#build_your_kic .qty-disc-table ul {margin: 0 20px;}
+#build_your_kic .qty-disc-table li {margin:0 10px;}
+.qty-disc-table li p {display:block;float: left; padding:0 5px;width: 80px;text-align:right;}
+.qty-disc-table li p.sysnum{width: 30px;text-align:center;}
+.qty-disc-table li p.inum{width: 30px;text-align:center;}
+.qty-disc-table li p.qty{width: 30px;text-align:center;}
+.qty-disc-table li p.instdiscrate{width: 30px;text-align:center;}
+.qty-disc-table li p.qtydiscrate{width: 30px;text-align:center;}
+.qty-disc-table li p.qtydiscamt{width: 50px;text-align:right;}
+.qty-disc-table li p.serv{width: 60px;text-align:right;}
+.qty-disc-table li p.priceserv{width: 90px;text-align:right;}
+.qty-disc-table li p.discpriceserv{width: 90px;text-align:right;}
+.qty-disc-table li p.model {text-align:center;}
+#build_your_kic .expand{height:auto; }
+#build_your_kic .hide{display:none; }
+#build_your_kic .formset{width:auto; margin:0;}
+#build_your_kic .build-btn{display:none; }
+#build_your_kic .build-fieldset{width:1198px; height:30px; margin:10px 0px; overflow:hidden; border:1px solid #aaa; border-radius:5px; }
+#build_your_kic .build-fieldset.expand{min-height:25px; height:auto; }
+#build_your_kic .build-fieldset fieldset{border:none; position:relative; overflow:hidden;}
+#build_your_kic .build-fieldset legend{width:auto; padding-left:25px; font-size:150%; background:#fff; background:url(../images/showhide-plus.png) 5px 5px no-repeat; cursor:pointer; }
+#build_your_kic .build-fieldset.print legend{background:url(../images/showhide-plus.green.png) 5px 5px no-repeat;}
+#build_your_kic .build-fieldset.expand legend{background:url(../images/showhide-minus.png) 5px 5px no-repeat; }
+#build_your_kic .build-fieldset.expand.print legend{background:url(../images/showhide-minus.green.png) 5px 5px no-repeat; }
+#build_your_kic .build-fieldset div{float:left; height: 918px; margin:0px 0px; border:1px solid #aaa; border-radius:5px; }
+#build_your_kic .build-fieldset div.options{width:280px; }
+#build_your_kic .build-fieldset div.options p.label{height:25px;text-align:center; font-size:125%; font-style:italic; margin:0; background:#ddd; border:0px solid #aaa; border-radius:3px; }
+#build_your_kic .build-fieldset div.options div.models{height:254px; width: 100%;margin:0; border:none; }
+#build_your_kic .build-fieldset div.options div.model{height:115px; width: 92px; margin:0; border:none; }
+#build_your_kic .build-fieldset div.options div.model p{text-align:center; font-size:95%; margin:0px;}
+#build_your_kic .build-fieldset div.options div.model img{width:63px; height:63px; margin:0 0 0 9px; }
+#build_your_kic .build-fieldset div.options div.model input{margin:0 0 15px 35px; }
+#build_your_kic .build-fieldset div.options div.colors{height:110px; width: 100%; margin:0; border:none; }
+#build_your_kic .build-fieldset div.options div.color{height:20px; margin:0px 32px; padding:3px; border:none; }
+#build_your_kic .build-fieldset div.options div.color p{width:auto; float:right; margin:1px 5px; text-align:center; }
+#build_your_kic .build-fieldset div.options div.color input{float:left; margin:3px 3px 0 5px; }
+#build_your_kic .build-fieldset div.options div.color div.swatch{float:right; width:60px; height:20px; margin:0; border:1px solid #aaa; border-radius:5px; }
+#build_your_kic .build-fieldset div.options div.color div.swatch.Black{background:#444; }
+#build_your_kic .build-fieldset div.options div.color div.swatch.White{background:#e8e8e8; }
+#build_your_kic .build-fieldset div.options div.color div.swatch.Pearl{background:#fff; }
+#build_your_kic .build-fieldset div.options div.furniture{height:154px; margin:0; border:none;}
+#build_your_kic .build-fieldset div.options div.furniture .furn{height:25px; margin:0 0px; border:none; }
+#build_your_kic .build-fieldset div.options div.furniture .furn input{float:left; margin:7px; }
+#build_your_kic .build-fieldset div.options div.furniture .furn p{float:left; margin:5px; }
+#build_your_kic .build-fieldset div.options div.features{height: 306px; margin:0; border:none; }
+#build_your_kic .build-fieldset div.options div.feature{height:23px; width: 100%; margin:1px 0; border:none; }
+#build_your_kic .build-fieldset div.options div.feature input{float:left; margin:7px; }
+#build_your_kic .build-fieldset div.options div.feature p{float:left; margin:5px; }
+#build_your_kic .build-fieldset div.options div.feature.be_intl_disabled p{font-style:italic; color:#666;}
+#build_your_kic .build-fieldset div.options div.feature p span.caption{font-size:66%;}
+#build_your_kic .build-fieldset div.options div.services{height:112px; margin:0; border:none; }
+#build_your_kic .build-fieldset div.options div.service {height:21px; margin: 0 0 0 7px; border:none;}
+#build_your_kic .build-fieldset div.options div.service input{float:left; margin:5px; }
+#build_your_kic .build-fieldset div.options div.service p{float:left; margin:5px; }
+#build_your_kic .build-fieldset div.images{position:relative; width:590px; margin:10px 0px; border:none; overflow:hidden;}
+#build_your_kic .build-fieldset div.images .img-model{width:590px; height:600px; margin:0 0px; border:none; }
+#build_your_kic .build-fieldset div.images .img-model img{width:590px; height:600px; }
+#build_your_kic .build-fieldset div.images .active{display:block; }
+#build_your_kic .build-fieldset div.images .inactive{display:none; }
+div#scannerfuzz.intl_roaming {position:absolute; top:70px; left:20px; width:300px; height:240px; border:0px; margin:0px; float:clear;}
+div#scannerfuzz div.blotter {position:absolute; top:0px; left:85px; width:205px; height:230px; background:#fff;background:rgba(255,255,255,0.666); border-radius: 4px; border:0px; box-shadow:2px 3px 2px 1px #ddd; z-index:1; margin:0px;}
+div#scannerfuzz div.blotter.Bookeye4V2 {left:95px; width:194px; }
+div#scannerfuzz div.blotter.Bookeye4V3 {left:95px; width:155px; }
+div#scannerfuzz div.textholder {position:relative; height:auto; border:0px; z-index:2;}
+div#scannerfuzz p {font-style:italic; width:130px;margin:15px;}
+
+footer div.lower-kic-module-pic.active{display:block; }
+footer div.lower-kic-module-pic.inactive{display:none; }
+#build_your_kic .build-fieldset div.neck_view_note{width:500px; height: 1px; margin: 55px 0px 0px 0px; border:none; }
+#build_your_kic .build-fieldset div.neck_view_note p {font-size:11px; }
+#build_your_kic .build-fieldset div.PC_note{width:500px; height: 1px; margin: 0px 0px 3px 0px; border:none; }
+#build_your_kic .build-fieldset div.PC_note p {font-size:11px;color:rgb(256,0,0); }
+#build_your_kic .build-fieldset div.printer_note{width:500px; height: 1px; margin: 0px 0px 0px 0px; border:none; }
+#build_your_kic .build-fieldset div.printer_note p {font-size:11px; }
+#build_your_kic .build-fieldset div.summary{margin: 1px; width:293px; height: 705px; position:relative; overflow:hidden; background: #c9ddff;}
+#build_your_kic .build-fieldset div.summary .nameplate p {font-size: 120%; text-align: center;}
+#build_your_kic .build-fieldset div.summary div{width:100%; height:auto; margin:0; border:none; text-align:right;line-height:100%;}
+#build_your_kic .build-fieldset div.summary .caption.dis_currency {text-align: right;font-size: 11px;margin-right:5px;float:right;}
+#build_your_kic .build-fieldset div.summary .caption.sysdisc {text-align: right;font-size: 14px;margin-right:5px;float:right;}
+#build_your_kic .build-fieldset div.summary .caption.dis_customs {text-align: justify;font-size: 11px;margin:15px 14px;float:right;}
+#build_your_kic .build-fieldset div.summary .caption.summary {font-size: 70%; position:absolute; bottom:1px; width:100%; text-align:center;}
+#build_your_kic .build-fieldset div.summary .option{margin:0; }
+#build_your_kic .build-fieldset div.summary .option.service{margin:1px 0 0 0; }
+#build_your_kic .build-fieldset div.summary div p.label {width: 145px;float: left;font-size: 12px;margin-left:3px;}
+#build_your_kic .build-fieldset div.summary div p.msign {width: 20px;float: left;font-size: 12px;}
+#build_your_kic .build-fieldset div.summary div p.amount {width: 90px; display:inline;font-size: 12px;margin-right:7px;}
+#build_your_kic .build-fieldset div.summary div.option p.label {float: left;font-size: 12px;}
+#build_your_kic .build-fieldset div.summary .option p.amount {width: 90px; display:inline;font-size: 12px;}
+#build_your_kic .build-fieldset div.summary .baseprice-sub p.label {float: left;font-size: 14px;height:17px;}
+#build_your_kic .build-fieldset div.summary .baseprice-sub p.amount {width: 90px; display:inline;font-size: 14px;height:17px;}
+#build_your_kic .build-fieldset div.summary .quantity {height:17px;}
+#build_your_kic .build-fieldset div.summary .quantity p.label {float: left;font-size: 14px;}
+#build_your_kic .build-fieldset div.summary .quantity p.amount {width: 90px; display:inline;font-size: 14px;}
+#build_your_kic .build-fieldset div.summary .quantity input {height:17px;}
+#build_your_kic .build-fieldset div.summary .discount {height:19px;}
+#build_your_kic .build-fieldset div.summary .discount p.label {font-weight:bold;float: left;font-size: 15px;}
+#build_your_kic .build-fieldset div.summary .discount p.amount {font-weight:bold;width: 90px; display:inline;font-size: 15px;}
+#build_your_kic .build-fieldset div.summary .totalprice.ad p.label {color:#383;font-weight:bold;float: left;font-size: 14px;height:19px;}
+#build_your_kic .build-fieldset div.summary .totalprice.ad p.amount {color:#383;font-weight:bold;width: 90px; display:inline;font-size: 15px;height:19px;}
+#build_your_kic .build-fieldset div.summary .totalprice.final p.label {float: left;font-size: 14px;}
+#build_your_kic .build-fieldset div.summary label{width: 150px;float: left;}
+#build_your_kic .build-fieldset div.summary input{width: 80px; margin-right: 10px;text-align:right;}
+#build_your_kic .build-fieldset div.summary .discount .discount input {color: #080; font-size: 120%;}
+#build_your_kic .build-fieldset div.summary .spacer{height:10px; }
+#build_your_kic .build-fieldset div.summary .mathbar{width: 125px;height:1px;border: 1px solid #000; float: right; margin: 2px 7px 0 0;}
+#build_your_kic .build-fieldset div.logo.dlsg{margin: 0 50px;width:180px; height: 50px; position:relative; overflow:hidden; background: #fff;border:none;}
+#build_your_kic .build-fieldset div.logo.kic{margin: -20px 0 0 0;width:275px; height: 171px; position:relative; overflow:hidden; background: #fff;border:none;}
+#build_your_kic .discount-box{width:600px; height:70px; margin-left:300px; border:1px solid #aaa; border-radius:5px; }
+#build_your_kic .discount-box h3{margin:10px 20px 5px 20px; padding:0; float:left; }
+#build_your_kic .discount-box label{display:none; }
+#build_your_kic .discount-box input{margin:10px; float:left; width:125px;}
+#build_your_kic .discount-box .captchabox{width:190px; height:40px; margin:4px 10px; float:left; border:1px solid #aaa; border-radius:5px; }
+#build_your_kic .discount-box .captchabox .code{margin:0 30px;}
+#build_your_kic .discount-box .discount-rates{width: 200px;}
+#build_your_kic .discount-box input.apply-discount{margin:13px 10px 10px 10px; float:left; }
+#build_your_kic .discount-box p.caption{clear: both; width:100%; text-align: center; font-style: italic; font-size: 80%;}
+#build_your_kic .discount-box p.notification{text-align:center; font-style:italic; color:#888; font-size:80%;padding: 8px;}
