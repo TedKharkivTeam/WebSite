@@ -389,53 +389,53 @@ var furniture_validate = function(sys_id) {
           } 
         }        	  	  	
     break ;
-    case "ClickMini":  	     
-           $('#'+sys_id+' .images .PC_note').addClass('hide');
-           if (      ($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked') ) 
-                 ||  ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked') )    )  
-     	   {
-     	   	$('#'+sys_id+' .images .printer_note').addClass('hide');
-     	   	
-		$('#'+sys_id+' .feature .dualvideo').parent().removeClass('hide'); 
-		$('#'+sys_id+' .feature .dualvideo').removeClass('hide');      	
-		
-		if($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked') )
-		{
-		  $('#'+sys_id+' .feature .dualvideo').prop('checked', true);	
-		}
-		else
-		{
-		  $('#'+sys_id+' .feature .dualvideo').prop('checked', false);		  		                         
-                  $('#'+sys_id+' .images .PC_note p').text( get_PC_note(3) );            	  
-		  $('#'+sys_id+' .images .PC_note').removeClass('hide');
-		}
-		
-    	     $('#'+sys_id+' .feature .dualpc').parent().removeClass('hide'); 
-	     $('#'+sys_id+' .feature .dualpc').removeClass('hide');
-	     $('#'+sys_id+' .feature.dualpc input').prop('checked', true);				
-	   }
-	   else	   
-	   {
-	     if	($('#'+sys_id+' .furn.tabletop.touch-on-top input').prop('checked') )
-	     {
-	       $('#'+sys_id+' .images .printer_note').addClass('hide');	
-	     }
-	     else
-	     {
-	       //$('#'+sys_id+' .images .printer_note').removeClass('hide');
-	     }
-	   	
-     	     $('#'+sys_id+' .feature .dualvideo').prop('checked', false);
-	     $('#'+sys_id+' .feature .dualvideo').parent().addClass('hide');
-	     $('#'+sys_id+' .feature .dualvideo').addClass('hide');			   	
-		
-	     $('#'+sys_id+' .feature.dualpc input').prop('checked', false);				
-    	     $('#'+sys_id+' .feature .dualpc').parent().addClass('hide'); 
-	     $('#'+sys_id+' .feature .dualpc').addClass('hide');		
-	   } ; 
-	   	                   	        
-    break ;  	
-    
+    case "ClickMini":
+      var furn = get_furn(sys_id);  	     
+      $('#'+sys_id+' .images .PC_note').addClass('hide');
+      if (($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked')) || ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked')) || ($('#'+sys_id+' .furn.wide_stand input').prop('checked'))) {
+     	  $('#'+sys_id+' .images .printer_note').addClass('hide');
+     	  $('#'+sys_id+' .feature .dualvideo').parent().removeClass('hide'); 
+		    $('#'+sys_id+' .feature .dualvideo').removeClass('hide');      	
+		    //if($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked')){
+		      $('#'+sys_id+' .feature .dualvideo').prop('checked', true);
+        //  }
+        //  else {
+		    //    $('#'+sys_id+' .feature .dualvideo').prop('checked', false);		  		                         
+        //    $('#'+sys_id+' .images .PC_note p').text( get_PC_note(3) );            	  
+		    //    $('#'+sys_id+' .images .PC_note').removeClass('hide');
+		    //  }
+		    $('#'+sys_id+' .feature .dualpc').parent().removeClass('hide'); 
+	      $('#'+sys_id+' .feature .dualpc').removeClass('hide');
+	      $('#'+sys_id+' .feature.dualpc input').prop('checked', true);				
+	    }
+	    else {
+	      //if	($('#'+sys_id+' .furn.tabletop.touch-on-top input').prop('checked')) {
+        if (($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked')) || ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked')) || ($('#'+sys_id+' .furn.wide_stand input').prop('checked'))) {
+	        $('#'+sys_id+' .images .printer_note').addClass('hide');	
+	      } 
+        else {
+	        //$('#'+sys_id+' .images .printer_note').removeClass('hide');
+	      }
+	   	  $('#'+sys_id+' .feature .dualvideo').prop('checked', false);
+	      $('#'+sys_id+' .feature .dualvideo').parent().addClass('hide');
+	      $('#'+sys_id+' .feature .dualvideo').addClass('hide');			   	
+	      //$('#'+sys_id+' .feature.dualpc input').prop('checked', false);				
+    	  //$('#'+sys_id+' .feature .dualpc').parent().addClass('hide'); 
+	      //$('#'+sys_id+' .feature .dualpc').addClass('hide');		
+	    } ;
+      if ((furn == "touch_only") || (furn == "touch_on_table") || (furn == "wide_stand")) {				        
+          $('#'+sys_id+' .feature .dualpc').prop('checked', true);              	
+		      $('#'+sys_id+' .feature .dualpc').parent().removeClass('hide'); 
+		      $('#'+sys_id+' .feature .dualpc').removeClass('hide');
+          $('#'+sys_id+' .feature .dualvideo').prop('checked', true);
+          $('#'+sys_id+' .feature .dualvideo').parent().removeClass('hide'); 
+		      $('#'+sys_id+' .feature .dualvideo').removeClass('hide');
+        } else {
+		      $('#'+sys_id+' .feature .dualpc').parent().addClass('hide');
+		      $('#'+sys_id+' .feature .dualpc').addClass('hide');
+		      $('#'+sys_id+' .feature .dualpc').prop('checked', false);		
+        }; 	   	                   	        
+      break ;  	
     case "Click":     
            $('#'+sys_id+' .images .PC_note').addClass('hide');
            if (      ($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked') ) 
@@ -653,42 +653,40 @@ var option_validate = function(sys_id) {
                       		          
         break;
         
-      case "ClickMini":      
-        if ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked') )
-        {        	
-          if ($('#'+sys_id+' .feature .dualvideo').prop('checked') ) {
-             $('#'+sys_id+' .images .PC_note').addClass('hide');       	             
+      case "ClickMini":
+        //what a mess...
+        /*      
+        if ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked')) {
+          if ($('#'+sys_id+' .feature .dualvideo').prop('checked')) {
+            $('#'+sys_id+' .images .PC_note').addClass('hide');       	             
           } else {         	                                        
-             $('#'+sys_id+' .images .PC_note p').text( get_PC_note(3) );             
-             $('#'+sys_id+' .images .PC_note').removeClass('hide');          		  		                 
+            $('#'+sys_id+' .images .PC_note p').text( get_PC_note(3) );             
+            $('#'+sys_id+' .images .PC_note').removeClass('hide');          		  		                 
           }               
-        }
-        else
-        if ($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked') ) 
-        {
-         if ($('#'+sys_id+' .feature .dualvideo').prop('checked') ) {
-             $('#'+sys_id+' .images .PC_note').addClass('hide');       	             
-         } else {         	             
-             $('#'+sys_id+' .images .PC_note p').text( get_PC_note(2) );            
-             $('#'+sys_id+' .images .PC_note').removeClass('hide');          		  		                 
-         }        	
-        }
-        else
-        {
-          $('#'+sys_id+' .images .PC_note').addClass('hide');	
-        }
-        
-        if (      ($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked') ) 
-              ||  ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked') )    ) {				        
-                  $('#'+sys_id+' .feature .dualpc').prop('checked', true);              	
-		  $('#'+sys_id+' .feature .dualpc').parent().removeClass('hide'); 
-		  $('#'+sys_id+' .feature .dualpc').removeClass('hide');
+        } else if ($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked')) {
+          if ($('#'+sys_id+' .feature .dualvideo').prop('checked')) {
+            $('#'+sys_id+' .images .PC_note').addClass('hide');       	             
+          } else {         	             
+            $('#'+sys_id+' .images .PC_note p').text( get_PC_note(2) );            
+            $('#'+sys_id+' .images .PC_note').removeClass('hide');          		  		                 
+          }        	
         } else {
-		$('#'+sys_id+' .feature .dualpc').parent().addClass('hide');
-		$('#'+sys_id+' .feature .dualpc').addClass('hide');
-		$('#'+sys_id+' .feature .dualpc').prop('checked', false);		
+        */
+        $('#'+sys_id+' .images .PC_note').addClass('hide');                     //this may need to be changed back to conditional if "TG forced PC option" below is overruled	        
+        var furn = get_furn(sys_id);
+        if ((furn == "touch_only") || (furn == "touch_on_table") || (furn == "wide_stand")) {				        
+          $('#'+sys_id+' .feature .dualpc').prop('checked', true);              	
+		      $('#'+sys_id+' .feature .dualpc').parent().removeClass('hide'); 
+		      $('#'+sys_id+' .feature .dualpc').removeClass('hide');
+          $('#'+sys_id+' .feature .dualvideo').prop('checked', true);           //just make the PC a forced option for now, per TG 7/11/2016
+          $('#'+sys_id+' .feature .dualvideo').parent().removeClass('hide'); 
+		      $('#'+sys_id+' .feature .dualvideo').removeClass('hide');
+        } else {
+		      $('#'+sys_id+' .feature .dualpc').parent().addClass('hide');
+		      $('#'+sys_id+' .feature .dualpc').addClass('hide');
+		      $('#'+sys_id+' .feature .dualpc').prop('checked', false);		
         };        
-      
+        
         break;
         
       case "Click":
@@ -1107,6 +1105,13 @@ var count_model_field = function(model,field) {
 var get_model = function(sys_id) {
   var model = $('#'+sys_id+' .models input:radio:checked').val();
   return model;
+}
+var get_furn = function(sys_id) {
+  var furn = "";
+  if ($('#'+sys_id+' .furn.tabletop.touch_only input').prop('checked')) { furn = "touch_only"; };
+  if ($('#'+sys_id+' .furn.tabletop.touch_on_table input').prop('checked')) { furn = "touch_on_table"; };
+  if ($('#'+sys_id+' .furn.wide_stand input').prop('checked')) { furn = "wide_stand"; };
+  return furn;
 }
 var get_best_model = function() {
   var model = "none";
@@ -1891,6 +1896,9 @@ $(document).ready(function() {
   $('.build-fieldset legend').click( function() {
     $(this).siblings().toggleClass('hide');
     $(this).parents('.build-fieldset').toggleClass('expand');
+    //update iframe height
+    hval = $(document).height();
+    $('iframe', window.parent.document).height(hval);
     lower_kic_visibility_swap();
   });
   

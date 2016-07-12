@@ -35,7 +35,7 @@ Sub ListPricing (sysid)
           case "Furniture"
             PricingData(sysid,0) = 5358     'On Stand Unit includes $304 furniture now (5054+304)
           case "WideStand"
-            PricingData(sysid,0) = 5494     'On Wide Stand includes $440 furniture now (5054+440)
+            PricingData(sysid,0) = 4899.2     'On Wide Stand includes $440 furniture now (4455.2+444)
           case "Tabletop1"
             PricingData(sysid,0) = 5054     'Touch On Top
           case "Tabletop2"
@@ -405,7 +405,7 @@ Sub ListPricingHV (sysid)
           case "Furniture"
             PricingData(sysid,30) = 5090     'On Stand Unit includes $304 furniture now (5054+304)
           case "WideStand"
-            PricingData(sysid,30) = 5244     'On Wide Stand includes $440 furniture now (5054+440)
+            PricingData(sysid,30) = 4686     'On Wide Stand includes $440 furniture now (4242+444)
           case "Tabletop1"
             PricingData(sysid,30) = 4801     'Touch On Top
           case "Tabletop2"
@@ -747,7 +747,7 @@ Sub InsDiscPricing (sysid)
           case "Furniture"
             PricingData(sysid,30) = 4822     'On Stand Unit includes $304 furniture now (5054+304)
           case "WideStand"
-            PricingData(sysid,30) = 4972     'On Wide Stand includes $440 furniture now (5054+440)
+            PricingData(sysid,30) = 4428     'On Wide Stand includes $440 furniture now (4029+399)
           case "Tabletop1"
             PricingData(sysid,30) = 4549     'Touch On Top
           case "Tabletop2"
@@ -1096,7 +1096,7 @@ Sub InsDiscPricingHV (sysid)
           case "Furniture"
             PricingData(sysid,30) = 4581     'On Stand Unit includes $304 furniture now (5054+304)
           case "WideStand"
-            PricingData(sysid,30) = 4732     'On Wide Stand includes $440 furniture now (5054+440)
+            PricingData(sysid,30) = 4237     'On Wide Stand includes $440 furniture now (3838+399)
           case "Tabletop1"
             PricingData(sysid,30) = 4321     'Touch On Top
           case "Tabletop2"

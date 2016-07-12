@@ -1,7 +1,7 @@
 <%@ LANGUAGE="VBScript" %><% 
   BlockFile = Request.QueryString("Request")
   
-  FileName = server.mappath("/builder/blocks/" & BlockFile)
+  FileName = server.mappath("../blocks/" & BlockFile)
   iMode = 1
   set oFs = server.createobject("Scripting.FileSystemObject")
 
