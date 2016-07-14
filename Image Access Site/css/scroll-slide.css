@@ -38,7 +38,7 @@
 }
 
 a.browse {
-    background: url("images/hori_large.png") /*tpa=http://www.dlsg.com/style/images/hori_large.png*/ no-repeat;
+    background: url("images/hori_large.png") /*tpa=http://www.dlsg.com/styhttp://upload.ted-kteam.com/IA/images/hori_large.png*/ no-repeat;
     display: block;
     width: 0;
     height: 30px;
@@ -75,7 +75,7 @@ a.left:active {
 }
 
 a.up, a.down {
-    background: url("images/vert_large.png") /*tpa=http://www.dlsg.com/style/images/vert_large.png*/ no-repeat;
+    background: url("images/vert_large.png") /*tpa=http://www.dlsg.com/styhttp://upload.ted-kteam.com/IA/images/vert_large.png*/ no-repeat;
     float: none;
     margin: 10px 50px;
 }

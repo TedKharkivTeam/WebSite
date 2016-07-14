@@ -57,7 +57,7 @@
 
 /* link inside the tab. uses a background image */
 .tabs a {
-    background: url("../images/tabs.png") /*tpa=http://www.dlsg.com/images/tabs.png*/ no-repeat -652px 0;
+    background: url("http://upload.ted-kteam.com/IA/images/tabs.png") /*tpa=http://www.dlsg.chttp://upload.ted-kteam.com/IA/images/tabs.png*/ no-repeat -652px 0;
     font-size: 11px;
     display: block;
     height: 30px;
@@ -376,7 +376,7 @@ span.feature-label {
 
 #product-content ul {
     list-style-type: square;
-    list-style-image: url("../images/green-bullet.png") /*tpa=http://www.dlsg.com/images/green-bullet.png*/;
+    list-style-image: url("http://upload.ted-kteam.com/IA/images/green-bullet.png") /*tpa=http://www.dlsg.chttp://upload.ted-kteam.com/IA/images/green-bullet.png*/;
     margin: 0px 75px;
 }
 

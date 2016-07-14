@@ -229,7 +229,7 @@ div.family-list li a:hover p {
     width: 8px;
     height: 8px;
     margin: 8px 6px;
-    background: url(../images/KIC_Build/navigator-green.png) 0 -16px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/navigator-green.png) 0 -16px no-repeat;
     display: inline;
     float: left;
     text-align: center;
@@ -327,7 +327,7 @@ a.left:hover {
 }
 
 a.up, a.down {
-    background: url(../images/KIC_Build/hori_large.png) no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/hori_large.png) no-repeat;
     float: none;
     margin: 10px 50px;
 }
@@ -385,7 +385,7 @@ div.panes input, div.panes textarea {
 .forward, .backward {
     float: left;
     margin-top: 140px;
-    background: #fff url(../images/KIC_Build/hori_large.png) no-repeat;
+    background: #fff url(http://upload.ted-kteam.com/IA/images/KIC_Build/hori_large.png) no-repeat;
     display: block;
     width: 0;
     height: 30px;
@@ -581,20 +581,20 @@ div.panes input, div.panes textarea {
     font-size: 2.4rem;
     line-height: 3.6rem;
     background: #fff;
-    background: url(../images/KIC_Build/showhide-plus.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.png) 5px 50% no-repeat;
     cursor: pointer;
 }
 
 #build_your_bscan .build-fieldset.print legend {
-    background: url(../images/KIC_Build/showhide-plus.green.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.green.png) 5px 50% no-repeat;
 }
 
 #build_your_bscan .build-fieldset.expand legend {
-    background: url(../images/KIC_Build/showhide-minus.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.png) 5px 50% no-repeat;
 }
 
 #build_your_bscan .build-fieldset.expand.print legend {
-    background: url(../images/KIC_Build/showhide-minus.green.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.green.png) 5px 50% no-repeat;
 }
 
 #build_your_bscan .build-fieldset div {

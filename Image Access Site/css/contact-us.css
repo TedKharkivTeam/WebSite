@@ -224,7 +224,7 @@ input, textarea {
 
 .contactus-holder__triple__strong:before {
     content: '';
-    background: url("../images/contact-us/email.jpg") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/contact-us/email.jpg") no-repeat;
     background-size: 18%;
     width: 100%;
     height: 100%;

@@ -39,10 +39,10 @@
 #build_your_opus .build-fieldset{width:1100px; height:30px; margin:10px 50px; overflow:hidden; border:1px solid #aaa; border-radius:5px; }
 #build_your_opus .build-fieldset.expand{min-height:25px; height:auto; }
 #build_your_opus .build-fieldset fieldset{border:none; position:relative; }
-#build_your_opus .build-fieldset legend{width:auto; padding-left:25px; font-size:150%; background:#fff; background:url(../images/KIC_Build/showhide-plus.png) 5px 5px no-repeat; cursor:pointer; }
-#build_your_opus .build-fieldset.print legend{background:url(../images/KIC_Build/showhide-plus.green.png) 5px 5px no-repeat;}
-#build_your_opus .build-fieldset.expand legend{background:url(../images/KIC_Build/showhide-minus.png) 5px 5px no-repeat; }
-#build_your_opus .build-fieldset.expand.print legend{background:url(../images/KIC_Build/showhide-minus.green.png) 5px 5px no-repeat; }
+#build_your_opus .build-fieldset legend{width:auto; padding-left:25px; font-size:150%; background:#fff; background:url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.png) 5px 5px no-repeat; cursor:pointer; }
+#build_your_opus .build-fieldset.print legend{background:url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.green.png) 5px 5px no-repeat;}
+#build_your_opus .build-fieldset.expand legend{background:url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.png) 5px 5px no-repeat; }
+#build_your_opus .build-fieldset.expand.print legend{background:url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.green.png) 5px 5px no-repeat; }
 #build_your_opus .build-fieldset div{float:left; height: 835px; margin:10px 10px; border:1px solid #aaa; border-radius:5px; }
 #build_your_opus .build-fieldset div.options{width:280px; }
 #build_your_opus .build-fieldset div.options p.label{height:25px;text-align:center; font-size:125%; font-style:italic; margin:0; background:#ddd; border:0px solid #aaa; border-radius:3px; }

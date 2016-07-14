@@ -6,7 +6,7 @@
 /* single tab */
 .tabs li{float:left;text-indent:0;padding:0;margin:0 !important;list-style-image:none !important;}
 /* link inside the tab. uses a background image */
-.tabs a{background:url(../images/tabs.png) no-repeat -652px 0;font-size:11px;display:block;height:30px;line-height:30px;width:111px;text-align:center;text-decoration:none;color:#000;padding:0px;margin:0px;position:relative;top:1px;}
+.tabs a{background:url(http://upload.ted-kteam.com/IA/images/tabs.png) no-repeat -652px 0;font-size:11px;display:block;height:30px;line-height:30px;width:111px;text-align:center;text-decoration:none;color:#000;padding:0px;margin:0px;position:relative;top:1px;}
 .tabs a:active{outline:none;}
 /* when mouse enters the tab move the background image */
 .tabs a:hover{background-position:-652px -31px;color:#fff;}
@@ -56,7 +56,7 @@ div.panes input.submit{position:absolute;margin:0;top:90%;left:51%;width:60px;}
 span.feature-label{font-weight:bold;font-size:120%;padding:2px 4px;}
 .doc-link a{font-size:120%;}
 #product-content h2{font:16px "Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;font-weight:bold;padding:10px 25px;clear:both;}
-#product-content ul{list-style-type:square;list-style-image:url(../images/green-bullet.png);margin:0px 75px;}
+#product-content ul{list-style-type:square;list-style-image:url(http://upload.ted-kteam.com/IA/images/green-bullet.png);margin:0px 75px;}
 #product-content li{font:13.5px "Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
 .product-techspec #click_label {position:absolute;top:32px;left:370px;width:50px;}
 .product-techspec #clickmini_label {position:absolute;top:32px;left:635px;width:90px;}

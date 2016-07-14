@@ -6,7 +6,7 @@ var m3D = function () {
         bar,
         selected,
         urlInfo,
-        imagesPath = "../images/usersGallery/",
+        imagesPath = "http://upload.ted-kteam.com/IA/images/usersGallery/",
         previewNumber = 1,
         camera = {x: 0, y: 0, z: -650, s: 0, fov: 500},
         nw = 0,

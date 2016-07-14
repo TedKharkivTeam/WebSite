@@ -128,7 +128,7 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .brochure-title-left {
         font-size: 2.2rem;
         line-height: 2.4rem;

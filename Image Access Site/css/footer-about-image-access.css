@@ -47,7 +47,7 @@
 .history:after {
     content: '';
     position: absolute;
-    background: url("../images/brochure-pictures/family-scan.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/family-scan.png") no-repeat;
     background-size: contain;
     width: 100%;
     bottom: 0%;
@@ -87,7 +87,7 @@
     .history:after {
         content: '';
         position: absolute;
-        background: url("../images/brochure-pictures/family-scan.png") no-repeat;
+        background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/family-scan.png") no-repeat;
         background-size: contain;
         width: 90%;
         bottom: 18%;

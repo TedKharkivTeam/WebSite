@@ -33,7 +33,7 @@ span.slanty {
 }
 
 ul.peppermint {
-    list-style-image: url(../images/blue-bullet.png);
+    list-style-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png);
 }
 
 ul.peppermint li {
@@ -269,7 +269,7 @@ hr {
 }
 
 .pane_text_overlay ul li {
-    background-image: url(../images/blue-bullet.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png);
     background-repeat: no-repeat;
     background-position: 0px 15px;
     padding-left: 24px;
@@ -300,7 +300,7 @@ hr {
 }
 
 .pane_text_overlay2 ul li {
-    background-image: url(../images/blue-bullet.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png);
     background-repeat: no-repeat;
     background-position: 0px 10px;
     padding-left: 24px;
@@ -331,7 +331,7 @@ hr {
 }
 
 .pane_text_overlay3 ul li {
-    background-image: url(../images/blue-bullet.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png);
     background-repeat: no-repeat;
     background-position: 0px 10px;
     padding-left: 24px;
@@ -405,7 +405,7 @@ hr {
     width: 8px;
     height: 8px;
     margin: 8px 6px;
-    background: url(../images/navigator-green.png) 0 -16px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/navigator-green.png) 0 -16px no-repeat;
     display: inline;
     float: left;
     text-align: center;
@@ -578,7 +578,7 @@ div.family-list li a img {
 
 div.family-list li a p {
     background: #a2b3a1;
-    background-image: url(../images/greengreenstrip.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/greengreenstrip.png);
     background-repeat: repeat-x;
     margin: 0 4px;
     padding: 4px;
@@ -659,7 +659,7 @@ ul.copyright li.copy a {
     margin-top: 5px;
     margin-left: 100px;
     width: 1100px;
-    background-image: url(../images/TimelineSwoop.980.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/TimelineSwoop.980.png);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     font: 14px Helvetica, Arial, Verdana, sans-serif;
@@ -680,7 +680,7 @@ ul.copyright li.copy a {
 #about_logo {
     width: 350px;
     height: 82px;
-    background-image: url(../images/DLSG_at_IA_Logo_small.jpg);
+    background-image: url(http://upload.ted-kteam.com/IA/images/DLSG_at_IA_Logo_small.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     margin: 20px 10px;
@@ -849,7 +849,7 @@ ul.copyright li.copy a {
 }
 
 #history {
-    background: url("../images/KIC Family Jan 2012.jpg") 900px 550px no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/KIC Family Jan 2012.jpg") 900px 550px no-repeat;
     position: relative;
 }
 
@@ -949,7 +949,7 @@ ul.copyright li.copy a {
 }
 
 #thankyou {
-    background: url(../images/Wing.png) bottom left no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/Wing.png) bottom left no-repeat;
     position: relative;
     text-align: center;
     height: 720px;
@@ -1010,7 +1010,7 @@ ul.copyright li.copy a {
 }
 
 .simple_overlay .close {
-    background-image: url(../images/close.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/close.png);
     position: absolute;
     right: -15px;
     top: -15px;
@@ -1057,7 +1057,7 @@ h2.ov_title {
 .mid-panel ul {
     margin: 10px 25px;
     list-style-type: square;
-    list-style-image: url(../images/green-bullet.png);
+    list-style-image: url(http://upload.ted-kteam.com/IA/images/green-bullet.png);
 }
 
 .mid-panel p {
@@ -1082,7 +1082,7 @@ tr {
 th {
     color: #000;
     background-color: #ccc;
-    background-image: url(../images/greengreenstrip.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/greengreenstrip.png);
     background-repeat: repeat-x;
     font-weight: bold;
     font-size: 110%;
@@ -2568,19 +2568,19 @@ td {
 }
 
 #cycle-control .play {
-    background: url(../images/play-pause.jpg) -20px -20px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) -20px -20px no-repeat;
 }
 
 #cycle-control .play.active {
-    background: url(../images/play-pause.jpg) 0px -20px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) 0px -20px no-repeat;
 }
 
 #cycle-control .pause {
-    background: url(../images/play-pause.jpg) -20px 0px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) -20px 0px no-repeat;
 }
 
 #cycle-control .pause.active {
-    background: url(../images/play-pause.jpg) 0px 0px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) 0px 0px no-repeat;
 }
 
 div.cycle {
@@ -2613,7 +2613,7 @@ div.cycle div {
     width: 8px;
     height: 8px;
     margin: 8px 6px;
-    background: url(../images/navigator-green.png) 0 -16px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/navigator-green.png) 0 -16px no-repeat;
     display: inline;
     float: left;
     text-align: center;
@@ -2691,7 +2691,7 @@ div.cycle div {
     border: 1px #333 solid;
     border-radius: 3px;
     background: #a2b3a1;
-    background-image: url(../images/greengreenstrip-text.png);
+    background-image: url(http://upload.ted-kteam.com/IA/images/greengreenstrip-text.png);
     background-repeat: repeat-x;
     cursor: pointer;
 }
@@ -3035,7 +3035,7 @@ div.cycle div {
 }
 
 #show_postcard {
-    background-image: url(../images/invite-kic.jpg);
+    background-image: url(http://upload.ted-kteam.com/IA/images/invite-kic.jpg);
     background-repeat: no-repeat;
     height: 1152px;
     width: 603px;

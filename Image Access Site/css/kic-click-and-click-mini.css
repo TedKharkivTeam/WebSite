@@ -115,7 +115,7 @@ img {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/BlueBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/BlueBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -126,7 +126,7 @@ img {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/GreenBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/GreenBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -604,7 +604,7 @@ th .table--img {
 .img__touch--after:after {
     position: absolute;
     content: '';
-    background: url("../images/brochure-pictures/arrows.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/arrows.png") no-repeat;
     bottom: -120px;
     left: 35px;
     background-size: contain;
@@ -1064,7 +1064,7 @@ p.click_click_mini.brochure-overflow--line {
 .column__number1:before {
     content: '';
     position: absolute;
-    background: url("../images/brochure-pictures/1.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/1.png") no-repeat;
     width: 7%;
     background-size: contain;
 }
@@ -1512,7 +1512,7 @@ p.click_click_mini.brochure-overflow--line {
 }
 
 .infoblock .back_ground_super_click {
-    background: url("../images/brochure-pictures/Page13_people-in-library.png") no-repeat bottom;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/Page13_people-in-library.png") no-repeat bottom;
     background-size: contain;
 }
 
@@ -1661,7 +1661,7 @@ p.click_click_mini.brochure-overflow--line {
 .two-step:after {
     content: '';
     position: absolute;
-    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/repeat.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/repeat.png") no-repeat;
     width: 47px;
     height: 33px;
     bottom: 7px;
@@ -1671,7 +1671,7 @@ p.click_click_mini.brochure-overflow--line {
 .two-step:before {
     content: '';
     position: absolute;
-    background: url("../images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/book.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/PDFJAL_Production_Digitization_for_Journal_Article_Lending/book.png") no-repeat;
     width: 115px;
     height: 70px;
     top: 0;
@@ -2700,7 +2700,7 @@ div .infoblock__page-5__block-p {
 .infoblock__page-5__two-step:before {
     content: '';
     position: absolute;
-    background: url("../images/brochure-pictures/FaceUp.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/FaceUp.png") no-repeat;
     width: 10%;
     top: 0;
     right: 0;

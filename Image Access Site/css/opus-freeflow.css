@@ -18,7 +18,7 @@
     position: absolute;
     top: 2px;
     left: -23px;
-    background: url("../images/BlueBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/BlueBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -29,7 +29,7 @@
     position: absolute;
     top: 2px;
     left: -23px;
-    background: url("../images/GreenBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/GreenBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -296,7 +296,7 @@
 .infoblock .little_label_for_image_metadata {
     font-size: 1.2rem;
     line-height: 1.4rem;
-    margin-top: -10%;
+    margin-top: -60px;
     float: left;
 }
 
@@ -304,7 +304,7 @@
     width: 97%;
 }
 
-.versus{
+.versus {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -618,17 +618,15 @@
     }
 
     /*.versus3 {*/
-        /*color: black;*/
-        /*font-size: 3.2rem;*/
-        /*line-height: 3.4rem;*/
+    /*color: black;*/
+    /*font-size: 3.2rem;*/
+    /*line-height: 3.4rem;*/
     /*}*/
-
     /*.versus4 {*/
-        /*color: black;*/
-        /*font-size: 3.2rem;*/
-        /*line-height: 3.4rem;*/
+    /*color: black;*/
+    /*font-size: 3.2rem;*/
+    /*line-height: 3.4rem;*/
     /*}*/
-
     .infoblock .block_hierarchical_metadata_table {
         width: 23%;
         float: left;
@@ -655,10 +653,9 @@
     }
 
     /*.versus3 {*/
-        /*font-size: 2.4rem;*/
-        /*line-height: 2.6rem*/
+    /*font-size: 2.4rem;*/
+    /*line-height: 2.6rem*/
     /*}*/
-
     .infoblock .infoblock__opus-freeflow-features-label {
         float: right;
         width: 45%;
@@ -682,13 +679,12 @@
     }
 
     /*.versus4 {*/
-        /*color: rgb(0, 0, 0);*/
-        /*font-size: 2.4rem;*/
-        /*line-height: 2.6rem;*/
-        /*margin-left: 52%;*/
-        /*margin-top: -4.5%;*/
+    /*color: rgb(0, 0, 0);*/
+    /*font-size: 2.4rem;*/
+    /*line-height: 2.6rem;*/
+    /*margin-left: 52%;*/
+    /*margin-top: -4.5%;*/
     /*}*/
-
     .infoblock .opus_output_absolute_text {
         font-size: 1.2rem;
     }
@@ -744,8 +740,6 @@
 
     }
 
-
-
     .infoblock_inscription {
         margin-right: 5%;
     }
@@ -766,6 +760,7 @@
         line-height: 2.6rem;
         margin-left: 5%;
     }
+
     .versus3 {
         font-size: 2.4rem;
         line-height: 2.6rem;
@@ -811,7 +806,6 @@
         padding-bottom: 0;
     }
 
-
     .infoblock .infoblock__opus-freeflow-features-diagram {
         margin-right: 7%;
         width: 43%;
@@ -826,24 +820,24 @@
         margin-top: 71px;
         width: 47%;
     }
- }
+}
 
-@media all and (max-width: 1280px){
+@media all and (max-width: 1280px) {
     .infoblock .infoblock_inscription {
         width: 53%;
     }
 
-
-    .infoblock .brochure-title-center{
+    .infoblock .brochure-title-center {
         font-size: 3.2rem;
         line-height: 3.4rem;
     }
-    .content .infoblock h3{
-        font-size:2rem;
+
+    .content .infoblock h3 {
+        font-size: 2rem;
         line-height: 2.2rem;
     }
 
-    .content .infoblock h4{
+    .content .infoblock h4 {
         font-size: 1.8rem;
         line-height: 2rem;
     }
@@ -851,6 +845,7 @@
     .infoblock .content-stabilization__enumeration {
         padding-bottom: 10px;
     }
+
     .infoblock .table1_freeflow {
         padding-top: 25px;
     }
@@ -861,7 +856,7 @@
     }
 }
 
-@media all and (max-width: 1150px){
+@media all and (max-width: 1150px) {
 
     .infoblock .table2_freeflow {
         padding-top: 23px;
@@ -876,7 +871,7 @@
     }
 }
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
 
     .infoblock .table1_freeflow {
         padding-top: 0;

@@ -249,20 +249,20 @@
     font-size: 2.4rem;
     line-height: 3.6rem;
     background: #fff;
-    background: url(../images/KIC_Build/showhide-plus.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.png) 5px 50% no-repeat;
     cursor: pointer;
 }
 
 #build_your_bscan .build-fieldset.print legend {
-    background: url(../images/KIC_Build/showhide-plus.green.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.green.png) 5px 50% no-repeat;
 }
 
 #build_your_bscan .build-fieldset.expand legend {
-    background: url(../images/KIC_Build/showhide-minus.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.png) 5px 50% no-repeat;
 }
 
 #build_your_bscan .build-fieldset.expand.print legend {
-    background: url(../images/KIC_Build/showhide-minus.green.png) 5px 50% no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.green.png) 5px 50% no-repeat;
 }
 
 #build_your_bscan .build-fieldset div {

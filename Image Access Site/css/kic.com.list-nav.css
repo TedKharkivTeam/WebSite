@@ -1,4 +1,4 @@
-.list-nav-wrap{min-height:24px; width:1200px; margin:0 0 5px 0; background:#a2b3a1;background-image:url(../images/greengreenstrip-text.png); background-repeat:repeat-x;border-radius:4px; box-shadow:2px 3px 2px 1px #ddd;  }
+.list-nav-wrap{min-height:24px; width:1200px; margin:0 0 5px 0; background:#a2b3a1;background-image:url(http://upload.ted-kteam.com/IA/images/greengreenstrip-text.png); background-repeat:repeat-x;border-radius:4px; box-shadow:2px 3px 2px 1px #ddd;  }
 .list-nav-offset{position:relative; display:block;margin:0; padding:0;clear:left; float:left;left:50%; z-index:500;}
 .list-nav{position:relative; display:block;clear:left; float:left; right:50%;padding:0px; text-align:left; z-index:51; width:1080px;}
 .list-nav ul{width:100%; margin-left:auto; margin-right:auto;   font-size:0; list-style-type:none;padding:0; z-index:52;}

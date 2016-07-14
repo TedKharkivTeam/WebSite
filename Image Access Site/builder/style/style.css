@@ -9,7 +9,7 @@ span.emphasis{font-weight:bold;font-style:italic;}
 span.slanty{font-style:italic;}
 .mint{text-shadow:2px 3px 7px #a2b3a1,1px 2px 3px #a2b3a1,0px 1px 2px #a2b3a1,0px 0px 1px #a2b3a1;}
 .peppermint{text-shadow:2px 3px 7px #8ad,1px 2px 3px #8ad,0px 1px 2px #8ad,0px 0px 1px #8ad;}
-ul.peppermint{list-style-image:url(../images/blue-bullet.png);}
+ul.peppermint{list-style-image:url(http://upload.ted-kteam.com/IA/images/blue-bullet.png);}
 ul.peppermint li{text-shadow:none;}
 a{color:#333;}
 hr{display:block;clear:both;margin:0;visibility:hidden;}
@@ -42,13 +42,13 @@ hr{display:block;clear:both;margin:0;visibility:hidden;}
 .pane_text_overlay{position:absolute;top:5px;right:10px;width:400px;}
 .pane_text_overlay p{font-size:180%;text-align:center;padding:4px;}
 .pane_text_overlay ul{font-size:210%;text-align:left;padding:4px;line-height:38px;list-style-type: none; padding: 0px; margin: 0px;}
-.pane_text_overlay ul li{background-image: url(../images/blue-bullet.png); background-repeat: no-repeat;background-position: 0px 15px; padding-left: 24px;}
+.pane_text_overlay ul li{background-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png); background-repeat: no-repeat;background-position: 0px 15px; padding-left: 24px;}
 .pane_text_overlay2{position:absolute;background:#ccc;background:rgba(222,222,222,0.7);z-index:7;border:1px solid #ccc;border-radius:4px;width:auto;display:block;}
 .pane_text_overlay2 ul{font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-weight:bold;font-style:italic;font-size:185%;text-align:left;padding:4px;line-height:30px;list-style-type: none; padding: 0px; margin: 0px;}
-.pane_text_overlay2 ul li{background-image: url(../images/blue-bullet.png); background-repeat: no-repeat;background-position: 0px 10px; padding-left: 24px;}
+.pane_text_overlay2 ul li{background-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png); background-repeat: no-repeat;background-position: 0px 10px; padding-left: 24px;}
 .pane_text_overlay3{position:absolute;background:#ccc;background:rgba(222,222,222,0.7);z-index:7;border:1px solid #ccc;border-radius:4px;width:auto;display:block;}
 .pane_text_overlay3 ul{font:14px "Arial Narrow",Helvetica,Arial,Verdana,sans-serif;font-weight:bold;font-style:italic;font-size:170%;text-align:left;padding:4px;line-height: 38px;list-style-type: none; padding: 0px; margin: 0px;}
-.pane_text_overlay3 ul li{background-image: url(../images/blue-bullet.png); background-repeat: no-repeat;background-position: 0px 10px; padding-left: 24px;}
+.pane_text_overlay3 ul li{background-image: url(http://upload.ted-kteam.com/IA/images/blue-bullet.png); background-repeat: no-repeat;background-position: 0px 10px; padding-left: 24px;}
 .pane_text_overlay.quote{background:#eee;border:none;}
 .pane_text_overlay.quote p{font-size:140%;text-align:left;padding:4px;font-style:italic;font-weight:bold;}
 .pane_text_overlay.quote p.attrib{font-size:110%;text-align:right;padding:4px;font-style:normal;font-weight:normal;}
@@ -57,7 +57,7 @@ hr{display:block;clear:both;margin:0;visibility:hidden;}
 .f5-navi-wrap{float:left;margin-top:-28px;width:100%;overflow:hidden;}
 .f5-navi-center{position:relative;display:block;margin:0;padding:0;clear:left;float:left;left:50%;}
 .f5-navi{position:relative;display:block;margin:0;padding:0;float:left;right:50%;height:22px;cursor:pointer;border-radius:5px;background-color:rgba(187,187,187,0.5);z-index:1;}
-.f5-navi a{position:relative;width:8px;height:8px;margin:8px 6px;background:url(../images/navigator-green.png) 0 -16px no-repeat;display:inline;float:left;text-align:center;font-size:1px;z-index:99;}
+.f5-navi a{position:relative;width:8px;height:8px;margin:8px 6px;background:url(http://upload.ted-kteam.com/IA/images/navigator-green.png) 0 -16px no-repeat;display:inline;float:left;text-align:center;font-size:1px;z-index:99;}
 .f5-navi a:hover{background-position:0 -8px;}
 .f5-navi a.active{background-position:0 0px;}
 #product-content{width:100%;padding-top:5px;padding-bottom:2px;margin-top:5px;margin-left:auto;margin-right:auto;height:auto !important;overflow:auto;}
@@ -83,7 +83,7 @@ div.family-list ul{list-style-type:none;height:30px;margin:auto;padding:0;}
 div.family-list li{width:auto;float:left;display:inline;margin:8px 10px;}
 div.family-list li a{text-decoration:none;}
 div.family-list li a img{width:105px;height:102px;display:block;margin-left:auto;margin-right:auto;align:center;}
-div.family-list li a p{background:#a2b3a1;background-image:url(../images/greengreenstrip.png);background-repeat:repeat-x;margin:0 4px;padding:4px;font-size:100%;font-weight:bold;line-height:20px;border:1px solid #888;border-radius:4px;text-align:center;box-shadow:1px 2px 1px 1px #ccc;}
+div.family-list li a p{background:#a2b3a1;background-image:url(http://upload.ted-kteam.com/IA/images/greengreenstrip.png);background-repeat:repeat-x;margin:0 4px;padding:4px;font-size:100%;font-weight:bold;line-height:20px;border:1px solid #888;border-radius:4px;text-align:center;box-shadow:1px 2px 1px 1px #ccc;}
 div.family-list li a:hover p{margin:0 0px;padding:4px 8px;line-height:22px;border-radius:8px;box-shadow:1px 2px 1px 1px #aaa;}
 #widetek_family_list li{float:right;}
 .w3c{width:51%;height:20px;margin:15px auto;border:1px solid #aaa;border-radius:4px;box-shadow:1px 2px 3px 1px #888;display:none;}
@@ -94,10 +94,10 @@ ul.copyright li{text-align:center;padding:0px 64px;}
 ul.copyright li p a{font:11px "Lucida Sans Unicode",arial,helvetica,sans-serif;float:left;padding:3px 4px;}
 ul.copyright li img{padding:4px 4px;float:right;}
 ul.copyright li.copy a{font:bold 13px "Lucida Sans Unicode",arial,helvetica,sans-serif;line-height:14px;padding:4px 4px;}
-#about{min-height:950px;margin-top:5px;margin-left:100px;width:1100px;background-image:url(../images/TimelineSwoop.980.png);background-repeat:no-repeat;background-position:0px 0px;font:14px Helvetica,Arial,Verdana,sans-serif;}
+#about{min-height:950px;margin-top:5px;margin-left:100px;width:1100px;background-image:url(http://upload.ted-kteam.com/IA/images/TimelineSwoop.980.png);background-repeat:no-repeat;background-position:0px 0px;font:14px Helvetica,Arial,Verdana,sans-serif;}
 #about h3{padding-top:1em;clear:left;}
 #about p{font-size:13px; padding-top:1em;text-indent:.1em;text-align:left;}
-#about_logo{width:350px;height:82px;background-image:url(../images/DLSG_at_IA_Logo_small.jpg);background-repeat:no-repeat;background-position:0px 0px;margin:20px 10px;float:left;clear:right;}
+#about_logo{width:350px;height:82px;background-image:url(http://upload.ted-kteam.com/IA/images/DLSG_at_IA_Logo_small.jpg);background-repeat:no-repeat;background-position:0px 0px;margin:20px 10px;float:left;clear:right;}
 #about_mask1{float:right;clear:right;width:640px;height:34px;border:solid 0px #eee;}
 #about_mask2{float:right;clear:right;width:640px;height:34px;border:solid 0px #eee;}
 #about_mask3{float:right;clear:right;width:640px;height:34px;border:solid 0px #eee;}
@@ -118,7 +118,7 @@ ul.copyright li.copy a{font:bold 13px "Lucida Sans Unicode",arial,helvetica,sans
 #about_mask18{float:right;clear:right;width:620px;height:38px;border:solid 0px #eee;}
 #about_mask19{float:right;clear:right;width:660px;height:38px;border:solid 0px #eee;}
 #about_mask20{float:right;clear:right;width:1080px;height:275px;border:solid 0px #eee;}
-#history{background:url("../images/KIC Family Jan 2012.jpg") 900px 550px no-repeat;position:relative;}
+#history{background:url("http://upload.ted-kteam.com/IA/images/KIC Family Jan 2012.jpg") 900px 550px no-repeat;position:relative;}
 #history p{margin:25px 10px;}
 #support_vp{height:auto;}
 .support-logo{margin-left:20px;margin-bottom:20px;float:right;text-align:center;width:553px;height:255px;border-style:solid;border-width:0px;}
@@ -135,7 +135,7 @@ ul.copyright li.copy a{font:bold 13px "Lucida Sans Unicode",arial,helvetica,sans
 .support-main h3{margin-top:30px;}
 .support-photo{margin:120px 0px 20px 20px;float:right;text-align:center;width:405px;height:270px;border-style:solid;border-width:0px}
 .support-triple{position:absolute;bottom:2px;left:2px;}
-#thankyou{background:url(../images/Wing.png) bottom left no-repeat;position:relative;text-align:center;height:720px;}
+#thankyou{background:url(http://upload.ted-kteam.com/IA/images/Wing.png) bottom left no-repeat;position:relative;text-align:center;height:720px;}
 #thankyou h1{font-size:300%;color:#666;margin:10px;}
 #thankyou p{font-size:100%;}
 #thankyou_upper{position:absolute;width:600px;height:200px;top:50px;left:300px;}
@@ -144,7 +144,7 @@ ul.copyright li.copy a{font:bold 13px "Lucida Sans Unicode",arial,helvetica,sans
 #thankyou_02{position:absolute;top:350px;left:100px;}
 #thankyou_03{position:absolute;top:20px;left:900px;}
 .simple_overlay{display:none;z-index:100;background-color:#333;width:880px;min-height:400px;border:1px solid #666;box-shadow:0 0 90px #000;}
-.simple_overlay .close{background-image:url(../images/close.png);position:absolute;right:-15px;top:-15px;cursor:pointer;height:35px;width:35px;}
+.simple_overlay .close{background-image:url(http://upload.ted-kteam.com/IA/images/close.png);position:absolute;right:-15px;top:-15px;cursor:pointer;height:35px;width:35px;}
 .simple_overlay h2{color:#333;margin:10px;}
 h2.ov_title{color:#bdb;}
 .invite_overlay{text-align:left;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;}
@@ -152,11 +152,11 @@ h2.ov_title{color:#bdb;}
 .mid-panel h1{font-size:250%;margin:15px 5px;}
 .mid-panel h2{margin:20px 6px;}
 .mid-panel img{margin:20px;}
-.mid-panel ul{margin:10px 25px;list-style-type:square;list-style-image:url(../images/green-bullet.png);}
+.mid-panel ul{margin:10px 25px;list-style-type:square;list-style-image:url(http://upload.ted-kteam.com/IA/images/green-bullet.png);}
 .mid-panel p{margin:5px 15px;}
 table{margin:5px auto 5px auto;padding:0;border-collapse:collapse;border:2px solid #333;border-radius:5px;overflow:hidden;display:table;empty-cells:show;}
 tr{display:table-row;}
-th{color:#000;background-color:#ccc;background-image:url(../images/greengreenstrip.png);background-repeat:repeat-x;font-weight:bold;font-size:110%;padding:.4em 5px .2em 5px;}
+th{color:#000;background-color:#ccc;background-image:url(http://upload.ted-kteam.com/IA/images/greengreenstrip.png);background-repeat:repeat-x;font-weight:bold;font-size:110%;padding:.4em 5px .2em 5px;}
 tr .odd{background:#bdb;}
 tr .even{background:#fff;}
 td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:middle;text-align:center;border:0;}
@@ -392,14 +392,14 @@ td{height:auto;color:#000;padding:.1em 4px;display:table-cell;vertical-align:mid
 #cycle-control{position:absolute;display:block;top:716px;left:4px;margin:0;cursor:pointer;border:1px solid #999;border-radius:5px;background-color:rgba(187,187,187,0.5);z-index:47;}
 #NewsEvents #cycle-control{top:686px;left:0px;}
 #cycle-control div{float:left;margin:6px;height:20px;width:20px;background:#888;border-radius:3px;overflow:hidden;}
-#cycle-control .play{background:url(../images/play-pause.jpg) -20px -20px no-repeat;}
-#cycle-control .play.active{background:url(../images/play-pause.jpg) 0px -20px no-repeat;}
-#cycle-control .pause{background:url(../images/play-pause.jpg) -20px 0px no-repeat;}
-#cycle-control .pause.active{background:url(../images/play-pause.jpg) 0px 0px no-repeat;}
+#cycle-control .play{background:url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) -20px -20px no-repeat;}
+#cycle-control .play.active{background:url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) 0px -20px no-repeat;}
+#cycle-control .pause{background:url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) -20px 0px no-repeat;}
+#cycle-control .pause.active{background:url(http://upload.ted-kteam.com/IA/images/play-pause.jpg) 0px 0px no-repeat;}
 div.cycle{z-index:0;display:block;}
 div.cycle div{z-index:0;display:block;}
 #cyclenav,.cyclenav{position:absolute;display:block;bottom:1px;left:10px;margin:0;padding:0;height:22px;cursor:pointer;border:1px solid #999;border-radius:5px;background-color:rgba(187,187,187,0.5);z-index:48;}
-#cyclenav a,.cyclenav a{position:relative;width:8px;height:8px;margin:8px 6px;background:url(../images/navigator-green.png) 0 -16px no-repeat;display:inline;float:left;text-align:center;font-size:1px;z-index:49;}
+#cyclenav a,.cyclenav a{position:relative;width:8px;height:8px;margin:8px 6px;background:url(http://upload.ted-kteam.com/IA/images/navigator-green.png) 0 -16px no-repeat;display:inline;float:left;text-align:center;font-size:1px;z-index:49;}
 #cyclenav a.activeSlide,.cyclenav a.activeSlide{background-position:0 0px;}
 #cyclenav a:hover,.cyclenav a:hover{background-position:0 -8px;}
 #NewsEvents{background:none;position:relative;height:720px;z-index:1;}
@@ -411,7 +411,7 @@ overflow:auto;background:#fff;border:1px solid #888;border-radius:4px;z-index:50
 #news_story_box.hide{display:none;}
 #news_story_box p{margin:6px;font-size:100%;}
 #news_story_box p.news_location{font-style:italic;font-size:110%;}
-#news_story_box .close_btn{position:absolute; top:1px;right:1px; width:auto;height:auto; padding:2px;border:1px #333 solid;border-radius:3px; background:#a2b3a1;background-image:url(../images/greengreenstrip-text.png); background-repeat:repeat-x;cursor:pointer;}
+#news_story_box .close_btn{position:absolute; top:1px;right:1px; width:auto;height:auto; padding:2px;border:1px #333 solid;border-radius:3px; background:#a2b3a1;background-image:url(http://upload.ted-kteam.com/IA/images/greengreenstrip-text.png); background-repeat:repeat-x;cursor:pointer;}
 #news_story_box li {margin: 3px 0 0 25px;}
 #news_story_box div.img-IFLA img{position:relative;display:block;margin:0;padding:0;clear:right;float:right;left:5%;width:auto;height:auto;text-align:left;}
 #news_story_box div.img-IFLA {text-align: justify; width:450px;}
@@ -457,7 +457,7 @@ overflow:auto;background:#fff;border:1px solid #888;border-radius:4px;z-index:50
 #commentForm p{clear:both;}
 #commentForm .submit{margin-left:12em;}
 #commentForm em{font-weight:bold;padding-right:1em;vertical-align:top;}
-#show_postcard{background-image:url(../images/invite-kic.jpg);background-repeat:no-repeat;height:1152px;width:603px;margin-top:10px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;}
+#show_postcard{background-image:url(http://upload.ted-kteam.com/IA/images/invite-kic.jpg);background-repeat:no-repeat;height:1152px;width:603px;margin-top:10px;margin-left:auto;margin-right:auto;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;}
 #show_postcard_title{padding-top:50px;padding-left:330px;font-size:1.6em;color:#666666;font-weight:bold;}
 #show_postcard_top_reg{margin-top:5px;padding-left:330px;font-size:1.3em;}
 #show_postcard_block_1a p{margin-top:40px;padding-left:40px;font-family:Georgia,Times,serif;font-size:2.1em;color:#fff;font-weight:bold;}

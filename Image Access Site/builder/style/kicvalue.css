@@ -33,7 +33,7 @@
 #kic_value .intro{position:relative;}
 #kic_value .intro h1{text-align: left;float: clear;margin: 3px 0 3px 0;}
 #kic_value .intro p{font-size: 100%; text-align: left;float: clear;margin:0 10px;line-height:120%;}
-#kic_value .intro .reset{cursor:pointer;position:absolute;top:10px;right:0;height:20px;width:auto;padding:0 10px;line-height:20px;background:url("../images/greengreenstrip-text.png") repeat-x scroll 0 0 #A2B3A1;border:1px solid #888;border-radius:3px;}
+#kic_value .intro .reset{cursor:pointer;position:absolute;top:10px;right:0;height:20px;width:auto;padding:0 10px;line-height:20px;background:url("http://upload.ted-kteam.com/IA/images/greengreenstrip-text.png") repeat-x scroll 0 0 #A2B3A1;border:1px solid #888;border-radius:3px;}
 #kic_value td div {width:70px;margin-left: auto;margin-right:auto;border:none;}
 #kic_value td div input{width:70px;}                 
 #kic_value div.usage{width:auto;padding:0px;}
@@ -100,8 +100,8 @@
 #kic_value .summary .legend.bar_equip{background:#833;background:rgba(128,48,48,1);}
 #kic_value .summary .legend.bar_paper{background:#fc2;background:rgba(240,192,32,1);}
 #kic_value .summary .legend.bar_labor{background:#018;background:rgba(0,16,128,1);}
-#kic_value .summary .legend .bar_cover{margin:0;padding:0;height:100%;width:100%;background:url(../images/bar-overlay-sm_round.png) 0 0 repeat-y;border:none;border-radius:0px;}
-#kic_value .summary .legend .bar_cover.highlight{margin:0;padding:0;height:100%;width:100%;background:url(../images/bar-overlay-sm_round_bright.png) 0 0 repeat-y;border:none;border-radius:0px;}
+#kic_value .summary .legend .bar_cover{margin:0;padding:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/IA/images/bar-overlay-sm_round.png) 0 0 repeat-y;border:none;border-radius:0px;}
+#kic_value .summary .legend .bar_cover.highlight{margin:0;padding:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/IA/images/bar-overlay-sm_round_bright.png) 0 0 repeat-y;border:none;border-radius:0px;}
 #kic_value .summary p.caption{position:absolute;width:64%;left:18%;text-align:left;bottom:6px;line-height:12px;}
 #kic_value #graph_header{height:70px;border:none;z-index:1;background:none;margin-top:25px;}
 #kic_value #graph_header p.grouplabel{width:100%;height:auto;text-align:center;background:none;margin: 0;font-size:300%;font-weight:bold;line-height:40px;}
@@ -109,8 +109,8 @@
 #kic_value #graph_header p.caption.explanation{width:1000px;text-align:left; margin:0 50px 0 50px;line-height:16px;font-size:90%;}
 #kic_value #cost_graph{position:relative;width:1100px; height:400px;margin: 25px 50px 0 50px;border:none;overflow:visible;z-index:2;}
 #kic_value #cost_graph .cell_wrap{position:absolute;border:none;border-radius:0;width:140px;margin: 0px 30px;height:100%;z-index:3;}
-#kic_value #cost_graph .bar_cover{margin:0;height:100%;width:100%;background:url(../images/bar-overlay_round_for-IE.png) 0 0 no-repeat;border:none;}
-#kic_value #cost_graph .highlight .bar_cover{margin:0;height:100%;width:100%;background:url(../images/bar-overlay_round_bright_for-IE.png) 0 0 repeat-y;border:none;border-radius:5px;}
+#kic_value #cost_graph .bar_cover{margin:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/IA/images/bar-overlay_round_for-IE.png) 0 0 no-repeat;border:none;}
+#kic_value #cost_graph .highlight .bar_cover{margin:0;height:100%;width:100%;background:url(http://upload.ted-kteam.com/IA/images/bar-overlay_round_bright_for-IE.png) 0 0 repeat-y;border:none;border-radius:5px;}
 #kic_value #cost_graph .cell_wrap.copier{left:0px;}
 #kic_value #cost_graph .cell_wrap.bookedge{left:220px;}
 #kic_value #cost_graph .cell_wrap.bookclick{left:440px;}

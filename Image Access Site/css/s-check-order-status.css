@@ -132,7 +132,7 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .fly-img {
         margin-top: -90px;
     }

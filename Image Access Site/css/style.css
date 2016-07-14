@@ -932,7 +932,7 @@ footer ul:nth-last-child(1):after {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
     .header-top {
         font-size: 1.4rem;
         line-height: 1.6rem;

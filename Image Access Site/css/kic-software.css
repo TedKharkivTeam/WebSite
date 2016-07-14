@@ -241,7 +241,7 @@ img {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/BlueBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/BlueBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -252,7 +252,7 @@ img {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/GreenBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/GreenBullet.png") no-repeat;
     background-size: 16px;
     width: 16px;
     height: 16px;
@@ -478,7 +478,7 @@ th .table--img {
 .table__arow:before {
     content: '';
     position: absolute;
-    background: url("../images/brochure-pictures/Arrow.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/Arrow.png") no-repeat;
     left: 7px;
     top: -18px;
     width: 64px;
@@ -952,7 +952,7 @@ div .infoblock__block {
 }
 
 .infoblock .infoblock__ul {
-    list-style-image: url("../images/BlueBullet.png");
+    list-style-image: url("http://upload.ted-kteam.com/IA/images/BlueBullet.png");
 }
 
 .infoblock .infoblock__scanner-other {
@@ -1213,7 +1213,7 @@ div .infoblock__homo {
     position: absolute;
     top: 4px;
     left: -23px;
-    background: url("../images/BlueBullet.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/BlueBullet.png") no-repeat;
     background-size: 16px;
     width: 20px;
     height: 21px;
@@ -1350,7 +1350,7 @@ div .infoblock__page-5__block-p {
 .infoblock__page-5__two-step:before {
     content: '';
     position: absolute;
-    background: url("../images/brochure-pictures/FaceUp.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/FaceUp.png") no-repeat;
     width: 10%;
     top: 0;
     right: 0;
@@ -1374,7 +1374,7 @@ div .infoblock__page-7__text-right2 {
 .reservation__text-img.img__touch--after:after {
     position: absolute;
     content: '';
-    background: url("../images/brochure-pictures/arrows.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/arrows.png") no-repeat;
     bottom: -120px;
     left: 35px;
     background-size: contain;

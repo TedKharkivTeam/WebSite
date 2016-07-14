@@ -19,16 +19,16 @@ h1.block-tag{visibility:hidden;position:absolute;top:-15px;left:10px;width:auto;
 .brochure-block .two-col ul{margin:0;width:99%;}
 .brochure-block p{margin-bottom:3px;padding:5px;text-align:left;line-height:1.3em;font-size:150%;color:#000;}
 .brochure-block p.caption{font-size:90%;font-style:italic;margin-top:0.2em;margin-bottom:0.2em;}
-.brochure-block ul{margin:2.5em 2em 1em 0;width:90%;float:left;list-style-image:url(../images/green-bullet.png);}
-.brochure-block ul.peppermint{list-style-image:url(../images/blue-bullet.png);}
-.brochure-block ul.peppermint2{list-style-image:url(../images/blue-bullet2.png);}
+.brochure-block ul{margin:2.5em 2em 1em 0;width:90%;float:left;list-style-image:url(http://upload.ted-kteam.com/IA/images/green-bullet.png);}
+.brochure-block ul.peppermint{list-style-image:url(http://upload.ted-kteam.com/IA/images/blue-bullet.png);}
+.brochure-block ul.peppermint2{list-style-image:url(http://upload.ted-kteam.com/IA/images/blue-bullet2.png);}
 .brochure-block ul.bullet{list-style-type:disc;list-style-image:none;}
 .brochure-block li{margin:0.6em 3em;font-size:120%;}
 .brochure-block ul.bullet li{margin:0.35em 3em;}
 .scanner-label{margin-left:175px;}
 .scanner-label p{font-size:200%;font-style:italic;color:#555;text-shadow:2px 3px 7px #a2b3a1, 1px 2px 3px #a2b3a1, 0px 1px 2px #a2b3a1, 0px 0px 1px #a2b3a1;}
-div.rt_arrow{width:46px;height:80px;background:url(../images/rt_arrow.png) no-repeat 10px 30px;float:left;}
-div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) no-repeat 0 0;float:left;}
+div.rt_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/IA/images/rt_arrow.png) no-repeat 10px 30px;float:left;}
+div.dn_arrow{width:46px;height:80px;background:url(http://upload.ted-kteam.com/IA/images/dn_arrow_thin.png) no-repeat 0 0;float:left;}
 #K-00 img{border-radius:0px;}
 #KBE-01{height:220px;}
 #KBE-01 img{height:200px;width:200px;}
@@ -133,7 +133,7 @@ div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) 
 #K-14 p{margin:0.1em 0.7em;}
 #K-14 img{margin:5px;float:left;}
 #K-14 h3{margin-top:15px;}
-#K-14r1{background:url(../images/kb-a1406.jpg) no-repeat 0 0;min-height:340px;}
+#K-14r1{background:url(http://upload.ted-kteam.com/IA/images/kb-a1406.jpg) no-repeat 0 0;min-height:340px;}
 #K-14r1 h3{margin-left:225px;margin-top:210px;}
 #K-14r1 p{margin-left:225px;margin-top:10px;padding:0;}
 #K-15{height:auto;width:1050px;padding:0 75px;}
@@ -147,7 +147,7 @@ div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) 
 #K-20{width:1100px;margin:0 50px;}
 #K-21{width:1200px;margin:0 0px;}
 #K-22{width:1100px;margin:0 50px;}
-#K-23{background:url(../images/3_points.jpg) no-repeat 0 0;height:1680px;margin-left:42px;width:1100px;}
+#K-23{background:url(http://upload.ted-kteam.com/IA/images/3_points.jpg) no-repeat 0 0;height:1680px;margin-left:42px;width:1100px;}
 #K-23 h1 {font-size:30px;text-align:left;line-height:98%;}
 #K-23 div.c01 {height:750px;}
 #K-23 div.c02 {height:450px;}
@@ -162,7 +162,7 @@ div.dn_arrow{width:46px;height:80px;background:url(../images/dn_arrow_thin.png) 
 #K-23 div.c03 h1.block-title-sub.c02 {font-size:19px;}
 #fleet-01 div {}
 #fleet-0103 {}
-#fleet-0103 ul {position:absolute;top:1080px;left:805px;margin:0;list-style:disc url("../images/green-bullet.png");}
+#fleet-0103 ul {position:absolute;top:1080px;left:805px;margin:0;list-style:disc url("http://upload.ted-kteam.com/IA/images/green-bullet.png");}
 #fleet-0103 li {margin:5px 2px;line-height:140%;}
 
 #ILL-01 p.delivery-list{font:14px "Arial",Helvetica,Arial,Verdana,sans-serif;text-align:left;font-weight:bold;font-style:normal;font-size:30px;line-height:95%;color:rgb(32,42,95);}

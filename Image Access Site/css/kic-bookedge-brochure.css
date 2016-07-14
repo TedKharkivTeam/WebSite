@@ -235,7 +235,7 @@ figcaption {
 }
 
 .infoblock .many-articles-section__triangular-fax {
-
+    padding-top: 5px;
 }
 
 .section__wrapper {
@@ -378,7 +378,7 @@ figcaption {
 .infoblock .column__section--background {
     position: relative;
     height: 510px;
-    background: url("../images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/BookEdge_Scanner_Phone_Ticket.png") no-repeat;
     background-size: 100% 100%;
 }
 
@@ -750,7 +750,7 @@ figcaption {
 .infoblock .arrows--after:after {
     position: absolute;
     content: '';
-    background: url("../images/brochure-pictures/arrows.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/arrows.png") no-repeat;
 
     bottom: -121px;
     left: 0;
@@ -1397,7 +1397,7 @@ h2.pod-text {
 .infoblock .tr__arrow:before {
     content: '';
     position: absolute;
-    background: url("../images/brochure-pictures/Arrow.png") no-repeat;
+    background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/Arrow.png") no-repeat;
     top: -18px;
     right: 27px;
     width: 100px;

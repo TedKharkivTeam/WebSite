@@ -276,20 +276,20 @@
     padding-left: 25px;
     font-size: 150%;
     background: #fff;
-    background: url(../images/KIC_Build/showhide-plus.png) 5px 5px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.png) 5px 5px no-repeat;
     cursor: pointer;
 }
 
 #build_your_kic .build-fieldset.print legend {
-    background: url(../images/KIC_Build/showhide-plus.green.png) 5px 5px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-plus.green.png) 5px 5px no-repeat;
 }
 
 #build_your_kic .build-fieldset.expand legend {
-    background: url(../images/KIC_Build/showhide-minus.png) 5px 5px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.png) 5px 5px no-repeat;
 }
 
 #build_your_kic .build-fieldset.expand.print legend {
-    background: url(../images/KIC_Build/showhide-minus.green.png) 5px 5px no-repeat;
+    background: url(http://upload.ted-kteam.com/IA/images/KIC_Build/showhide-minus.green.png) 5px 5px no-repeat;
 }
 
 #build_your_kic .build-fieldset div {
