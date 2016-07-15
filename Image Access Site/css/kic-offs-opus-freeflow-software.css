@@ -550,7 +550,11 @@ h5 {
         padding-top: 25px;
     }
 }
-
+@media all and  (max-width: 1500px){
+    .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
+        margin-top: 0;
+    }
+}
 @media (max-width: 1366px) {
     .infoblock .content_stabilization_software {
         width: 55%;

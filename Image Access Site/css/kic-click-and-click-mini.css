@@ -1814,7 +1814,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     #KIC_Click_and_KIC_Click_Mini .brochure-overflow--top {
-        font-size: 7rem;
+        font-size: 6.6rem;
     }
 
     p.click_click_mini.brochure-overflow--line {
@@ -1837,7 +1837,7 @@ p.click_click_mini.brochure-overflow--line {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .nav__img {
-        padding-top: 45px;
+        padding-top: 85px;
     }
 
     ul.nav__li.blue-bullet {
@@ -1918,6 +1918,7 @@ p.click_click_mini.brochure-overflow--line {
     .seven-step:after {
         padding: 10px 23px;
     }
+
 }
 
 @media (max-width: 1400px) {
@@ -2179,6 +2180,10 @@ p.click_click_mini.brochure-overflow--line {
         margin-top: -113px;
         margin-right: 2%;
     }
+    .infoblock .super_middle_table_click {
+        width: 71%;
+        margin: 5px auto;
+    }
 }
 
 @media (max-width: 1488px) {
@@ -2187,6 +2192,7 @@ p.click_click_mini.brochure-overflow--line {
         float: right;
         margin-top: 5%;
     }
+
 }
 
 @media (max-width: 1370px) {
@@ -2449,7 +2455,7 @@ h3.true2_label.move {
     }
 
     .infoblock .brochure-overflow--top {
-        font-size: 6rem !important;
+        font-size: 5.7rem !important;
     }
 
     .infoblock .click_click_mini {
@@ -2457,7 +2463,7 @@ h3.true2_label.move {
     }
 
     .infoblock .label_smart9 {
-        margin-left: 0%;
+        margin-left: 0;
         margin-top: 2%;
     }
 
@@ -2729,7 +2735,7 @@ div .infoblock__page-5__block-p {
     border-radius: 100%;
     bottom: -26px;
     right: 50%;
-    padding: 1.2% 3%;
+    padding: 2% 3.5%;
     margin: 0 -3%;
     z-index: 1;
 }
@@ -2976,6 +2982,20 @@ h2.label2.resize.top-padding {
 @media all and (max-width: 1700px){
     .story-text {
         padding-top: 10px;
+    }
+    .infoblock .infoblock__page-6__true-2-touch {
+
+        padding-top: 50px;
+    }
+}
+
+@media all and (max-width: 1400px){
+    .infoblock .infoblock__page-6__true-2-touch {
+        padding-top: 50px;
+    }
+    .infoblock .super_middle_table_click {
+        width: 74%;
+        margin: 5px auto;
     }
 }
 @media all and (max-width: 1300px) {
