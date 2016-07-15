@@ -124,6 +124,10 @@
     margin: 0 0 14px;
 }
 
+.fix-height {
+    height: 635px;
+}
+
 .image .back_pdf {
     float: left;
     box-shadow: 3px 3px 5px #8E8E8E;
@@ -757,6 +761,7 @@
         font-size: 1.9rem;
         line-height: 2.1rem;
     }
+
     .technical_data_pdf .back_pdf {
         width: 68%;
     }
@@ -768,6 +773,7 @@
         font-size: 1.9rem;
         line-height: 2.1rem;
     }
+
     .technical_data_pdf .back_pdf {
         width: 68%;
     }

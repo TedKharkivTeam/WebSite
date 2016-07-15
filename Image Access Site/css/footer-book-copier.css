@@ -30,7 +30,7 @@ h3 {
     width: 50%;
     float: left;
     margin: 0;
-    padding:0 4px;
+    padding: 0 4px;
     text-align: center;
 }
 
@@ -108,12 +108,12 @@ h3 {
     display: inline-block;
 }
 
-.rainbow-block{
+.rainbow-block {
     text-align: center;
 }
+
 @media all and (max-width: 1400px) {
     html {
-        font-size: 54%;
     }
 
     .blue-bullet--pull-right li {
