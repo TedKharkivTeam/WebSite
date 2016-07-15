@@ -747,6 +747,9 @@
     .infoblock .infoblock_scanpages {
         margin-right: 5%;
     }
+    .infoblock .infoblock__opus-freeflow-content-stabilization-left-block {
+         margin-top: 0;
+    }
 
 }
 
@@ -818,7 +821,7 @@
     .infoblock .infoblock__opus-freeflow-features-diagram {
         margin-right: 4%;
         margin-top: 71px;
-        width: 47%;
+        width: 45%;
     }
 }
 

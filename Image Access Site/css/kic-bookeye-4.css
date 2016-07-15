@@ -2975,7 +2975,8 @@ th .table--img {
 
     #copy-diagram {
         padding-bottom: 110px;
-        margin-top: 40px;
+        margin-top: 42px;
+        padding-top: 60px;
     }
 
     .infoblock__page-2__h3_center {
@@ -3467,7 +3468,8 @@ th .table--img {
 
 @media (max-width: 1280px) {
     #copy-diagram {
-        padding-bottom: 140px;
+        padding-bottom: 80px;
+        padding-top: 90px;
     }
 
     .infoblock .infoblock__page-13-2__header_v3 {
