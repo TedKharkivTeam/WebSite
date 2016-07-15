@@ -311,7 +311,7 @@ figure {
 
 .infoblock__page-2 .infoblock__page-2__h3-margin-none {
     font-family: 'LatoBold', sans-serif, helvetica, arial;
-    margin-top: 1px;
+    margin-top: 25px;
 }
 
 .infoblock__page-2__h3_center {
@@ -1300,13 +1300,13 @@ h2.pod-text {
 }
 
 .infoblock .infoblock__page-11__in-case-scan-artwork {
-    width: 68%;
+    width: 64%;
     margin: 2px auto;
     display: block;
 }
 
 .infoblock .infoblock__page-11__in-case-scan-map {
-    width: 79%;
+    width: 74%;
     margin: 0 auto;
     display: block;
 }

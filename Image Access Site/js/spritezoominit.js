@@ -108,5 +108,5 @@ $(function () {
         $('.spritezoom-view').css({
             'background-size': halfWidth + 'px ' + height + 'px'
         });
-    }, 500);
+    }, 1500);
 });
