@@ -289,6 +289,10 @@ input, textarea {
     .text-area {
         min-width: 320px;
     }
+    .adr-top {
+        left: 19%;
+    }
+
 }
 @media all and (max-width: 1430px) and (min-width: 1024px) {
     .contactus-holder__triple__div--text {
