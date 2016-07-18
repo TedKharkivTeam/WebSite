@@ -10,8 +10,8 @@ function IsIE() {
 
     return ms_ie;
 }
-onload = function () {
-    if (IsIE()) {
+window.onload = function () {
+    if (IsIE() || typeof navigator !== 'undefined' && /^(?!.*Seamonkey)(?=.*Firefox).*/i.test(navigator.userAgent)) {
         var rainbowTextDivs = document.getElementsByClassName("rainbow-text");
 
         for (var i = 0; i < 2;) {

@@ -234,13 +234,13 @@
                         <span>Portal Login</span>
                         <input type="text" maxlength="64" name="AnmeldeName" placeholder="Login">
                         <input type="password" maxlength="64" name="Passwort" placeholder="Password">
-                        <a class="login__submit-button" href="#popup-login">Submit</a>
-                        <div id="popup-login" class="overlay-login">
-                            <div class="popup-login-div">
-                                <p>Invalid Login or Password</p>
-                                <a class="close" href="">&times;</a>
+                        <div id="wrapp" style="display: none;">
+                            <div id="tt">
+                                <div class="close" onclick="openbox('wrapp')">x</div>
+                                Invalid Login or Password
                             </div>
                         </div>
+                        <button class="login__submit-button" id="inval" onclick="openbox('wrapp'); return false">Submit</button>
                     </fieldset>
                 </form>
             </div>
