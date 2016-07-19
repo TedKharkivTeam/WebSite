@@ -584,6 +584,13 @@ h5 {
     }
 }
 
+@media all and (max-width: 1199px) and (min-width: 1025px){
+    .infoblock .table1_freeflow {
+        width: 69%;
+    }
+}
+
+
 @media (max-width: 1280px) {
     .infoblock__opus-freeflow-freedom {
         line-height: 3rem;

@@ -157,7 +157,7 @@
 }
 
 .infoblock__photo .photo__double {
-    margin-top: -188px;
+    margin-top: -17%;
     width: 95%;
 }
 
@@ -239,6 +239,103 @@ img.flash-hand {
 .infoblock .DLOS_Icon {
     width: 90%;
 }
+
+/* media for table */
+
+@media all and (max-width: 1753px) and (min-width: 1683px){
+    .infoblock__photo .photo__table {
+        width: 53%;
+    }
+}
+@media all and (max-width: 1682px) and (min-width: 1618px){
+    .infoblock__photo .photo__table {
+        width: 51%;
+    }
+}
+@media all and (max-width: 1617px) and (min-width: 1558px){
+    .infoblock__photo .photo__table {
+        width: 49%;
+    }
+}
+@media all and (max-width: 1557px) and (min-width: 1503px){
+    .infoblock__photo .photo__table {
+        width: 45%;
+    }
+}
+@media all and (max-width: 1502px) and (min-width: 1451px){
+    .infoblock__photo .photo__table {
+        width: 43%;
+    }
+}
+@media all and (max-width: 1450px) and (min-width: 1403px){
+    .infoblock__photo .photo__table {
+        width: 42%;
+    }
+}
+@media all and (max-width: 1402px) and (min-width: 1381px){
+    .infoblock__photo .photo__table {
+        width: 40%;
+    }
+}
+@media all and (max-width: 1380px) and (min-width: 1338px){
+    .infoblock__photo .photo__table {
+        width: 39%;
+    }
+}
+@media all and (max-width: 1337px) and (min-width: 1297px){
+    .infoblock__photo .photo__table {
+        width: 37%;
+    }
+}
+@media all and (max-width: 1296px) and (min-width: 1259px){
+    .infoblock__photo .photo__table {
+        width: 36%;
+    }
+}
+@media all and (max-width: 1258px) and (min-width: 1231px){
+    .infoblock__photo .photo__table {
+        margin-top: 0;
+        width: 33%;
+    }
+}
+
+@media all and (max-width: 1230px) and (min-width: 1200px){
+    .infoblock__photo .photo__table {
+        width: 31%;
+    }
+}
+@media all and (max-width: 1199px) and (min-width: 1186px){
+    .infoblock__photo .photo__table {
+        width: 46%;
+    }
+}
+@media all and (max-width: 1185px) and (min-width: 1145px){
+    .infoblock__photo .photo__table {
+        width: 44%;
+    }
+}
+@media all and (max-width: 1144px) and (min-width: 1108px){
+    .infoblock__photo .photo__table {
+        width: 42%;
+    }
+}
+@media all and (max-width: 1107px) and (min-width: 1074px){
+    .infoblock__photo .photo__table {
+        width: 40%;
+    }
+}
+@media all and (max-width: 1073px) and (min-width: 1040px){
+    .infoblock__photo .photo__table {
+        width: 38%;
+    }
+}
+@media all and (max-width: 1039px) {
+    .infoblock__photo .photo__table {
+        width: 36%;
+    }
+
+}
+
 
 @media all and (max-width: 1680px) and (min-width: 1024px) {
     .frame7-content__inform {
