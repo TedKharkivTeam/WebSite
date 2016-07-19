@@ -855,15 +855,6 @@ p.infoblock__double__double-p.move {
     #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__in-case-scan-artwork {
         height: 202px !important;
     }
-
-    .infoblock__page-7__text-block-devices {
-        top: 357px !important;
-    }
-
-    .infoblock__page-7__text-block-scanner {
-        top: 680px !important;
-    }
-
     .wrap-one-screen-with-hand-in-border span {
         left: 290px !important;
     }
@@ -1097,6 +1088,12 @@ div .infoblock__homo {
     padding: 15px 0 10px 0;
     display: block;
 
+}
+
+@media all and (max-width: 1415px) and (min-width: 1281px) {
+    .kit-fleet-paragraph {
+        width: 56%;
+    }
 }
 
 @media all and (max-width: 1400px) and (min-width: 1199px) {
@@ -1453,7 +1450,7 @@ div .infoblock__page-7__block-left {
     width: 30%;
     font-size: 1.6rem;
     position: absolute;
-    top: 420px;
+    top: 28%;
     right: 74px;
 }
 
@@ -1703,6 +1700,16 @@ table.table__footer td {
     padding: 5px;
 }
 
+@media all and (max-width: 1749px) and (min-width: 1680px) {
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 33%;
+        font-size: 1.6rem;
+        position: absolute;
+        top: 27%;
+        right: 20px;
+    }
+}
+
 @media all and (max-width: 1740px) and (min-width: 1511px) {
     .infoblock__page-9__center__text--margin {
         padding-top: 3%;
@@ -1749,13 +1756,7 @@ table.table__footer td {
     }
 }
 
-@media all and (max-width: 1550px) and (min-width: 1320px) {
-    .infoblock .infoblock__page-7__text-block-devices {
 
-        width: 35%;
-
-    }
-}
 
 @media all and (max-width: 1586px)  and (min-width: 1420px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
@@ -1849,11 +1850,7 @@ table.table__footer td {
     }
 
     .infoblock .infoblock__page-7__text-block-devices {
-        width: 39%;
-        margin-top: -42%;
-        margin-right: 2%;
-        margin-left: 10%;
-        font-size: 1.6rem;
+        margin: 0;
     }
 
     .infoblock .infoblock__page-7__margin-top {
@@ -1961,12 +1958,6 @@ table.table__footer td {
         height: 15px;
     }
 
-    .infoblock .infoblock__page-7__text-block-devices {
-        width: 35% !important;
-        top: 638px !important;
-        right: 20px !important;
-    }
-
     .reservation__text-img.img__touch--after:after {
         bottom: -125px !important;
     }
@@ -1980,7 +1971,7 @@ table.table__footer td {
     }
 
     .wrap-one-screen-with-hand-in-border span {
-        top: 430px !important;
+        top: 430px;
         left: 3px !important;
         text-align: center;
     }
@@ -1991,11 +1982,11 @@ table.table__footer td {
     }
 
     .infoblock .infoblock__page-7__text-block-scanner {
-        top: 580px !important;
+        top: 580px;
     }
 
     img.infoblock__page-9__nav__img {
-        padding-top: 70px !important;
+        padding-top: 70px;
     }
 
     .columnKIC_Bookeye_4 .hand-yellow-coin {
@@ -2201,14 +2192,6 @@ table.table__footer td {
     .infoblock .kostil__with_image {
         margin-top: -240px;
     }
-
-    .infoblock .infoblock__page-7__text-block-scanner {
-        float: right;
-        margin-right: 14%;
-        width: 28%;
-        font-size: 1.6rem;
-    }
-
     div .infoblock__page-3__diagram {
         margin-top: 20%;
 
@@ -2560,7 +2543,13 @@ p.infoblock__page-5__block-p.--replace {
     .wrap-dual-screen-img span {
         right: 105px;
     }
-
+    .infoblock .infoblock__page-7__text-block-devices{
+        font-size: 1.4rem;
+        line-height:1.6rem;
+        width: 36%;
+        top: 26.5%;
+        right: 0;
+    }
     .infoblock .infoblock__page-5__seven-step--border {
         min-height: 220px;
     }
@@ -2662,12 +2651,23 @@ p.infoblock__page-5__block-p.--replace {
     }
 
     .wrap-one-screen-with-hand-in-border span {
-        top: 330px !important;
+        top: 330px;
         width: 36% !important;
     }
 
     #KIC_Software_The_Hybrid_Library .infoblock__map-planet {
         margin: -110px 10px 0 0;
+    }
+}
+
+@media all and (max-width: 1275px){
+    .infoblock .infoblock__page-7__text-block-devices {
+        top: 25.5%;
+    }
+}
+@media all and (max-width: 1199px) and (min-width: 1100px){
+    .infoblock .infoblock__page-7__text-block-devices {
+        top: 26.5%;
     }
 }
 
@@ -2765,9 +2765,43 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     margin-left: 10px;
 }
 
+p.kit-fleet-paragraph.resize-fleet-paragraph {
+    padding-top: 20px;
+}
+
+@media all and (max-width: 1829px) and (min-width: 1680px){
+    p.kit-fleet-paragraph.resize-fleet-paragraph {
+        padding-top: 0;
+    }
+    .kit-fleet-paragraph {
+        width: 56%;
+    }
+}
+@media all and (max-width: 1750px) and (min-width: 1681px){
+    .infoblock__page-9__center__text--padding {
+        padding-top: 65px;
+    }
+}
+@media all and (max-width: 1730px) and (min-width: 1681px){
+    .wrap-one-screen-with-hand-in-border span{
+        margin-left: -40px;
+    }
+}
+
+@media all and (max-width: 1680px) and (min-width: 1601px){
+    .wrap-one-screen-with-hand-in-border span{
+        margin-left: -30px;
+    }
+}
+
 @media (max-width: 1680px) {
     .infoblock .smart_hard_block {
         min-height: 470px;
+    }
+
+    .infoblock__page-9__center__text--padding {
+        padding-top: 60px;
+        position: relative;
     }
 
     .paragraph-padding {
@@ -2822,12 +2856,6 @@ h2.brochure-title-kic-software__blue_label.--fleet {
         width: 50% !important;
     }
 
-    .infoblock .infoblock__page-7__text-block-devices {
-        width: 33%;
-        top: 384px;
-        right: 46px;
-    }
-
     .infoblock .infoblock__page-7__text-block-scanner {
         top: 720px;
     }
@@ -2868,10 +2896,6 @@ h2.brochure-title-kic-software__blue_label.--fleet {
 
     .table__arow:before {
         left: -3px;
-    }
-
-    p.infoblock__page-9__center__text.infoblock__page-9__center__text--padding.resize-fleet-paragraph {
-        padding-bottom: 0;
     }
 
     #KIC_Software_In_Case_You_Didnt_Know .infoblock__page-11__for-study-p {
@@ -2923,7 +2947,44 @@ h2.brochure-title-kic-software__blue_label.--fleet {
     }
 
     #KIC_Software_KIC_Fleet_Manager p.kit-fleet-paragraph.resize-fleet-paragraph {
-        padding-top:0;
+        padding-top:10px;
+    }
+}
+
+@media all and (max-width: 1600px) and (min-width: 1366px) {
+    .infoblock .infoblock__page-7__text-block-scanner {
+        top: 680px;
+    }
+}
+
+@media all and (max-width: 1550px) and (min-width: 1395px) {
+    .wrap-one-screen-with-hand-in-border span {
+        margin-left: -50px;
+    }
+}
+@media all and (max-width: 1394px) and (min-width: 1367px) {
+    .wrap-one-screen-with-hand-in-border span {
+        margin-left: -60px;
+    }
+}
+
+@media all and (max-width: 1366px) {
+    .wrap-one-screen-with-hand-in-border span {
+        top: 340px;
+    }
+}
+
+@media all and (max-width: 1366px) and (min-width: 1280px){
+    .infoblock .infoblock__page-7__text-block-scanner {
+        top: 580px;
+    }
+}
+
+@media all and (max-width: 1570px) and (min-width: 1367px) {
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 37%;
+        top: 27%;
+        right: 0;
     }
 }
 
@@ -2931,9 +2992,20 @@ img.click-mini {
     width: 80%;
 }
 
+@media all and (max-width: 1300px) {
+    .infoblock .label_smart11 {
+        width: 30%;
+        padding-top: 0%;
+    }
+}
+
 @media all and (max-width: 1280px) {
     .big-tel {
         margin-top: 10px;
+    }
+
+    #KIC_Software_KIC_Fleet_Manager p.kit-fleet-paragraph.resize-fleet-paragraph {
+        padding-top: 0;
     }
 
     .reservation__text-img.img__touch--after:after {
@@ -3031,7 +3103,7 @@ img.click-mini {
     }
 
     .infoblock .infoblock__page-7__text-block-scanner {
-        top: 560px !important;
+        top: 560px;
         font-size: 1.4rem;
         line-height: 1.6rem;
     }
@@ -3148,14 +3220,8 @@ img.click-mini {
         right: 110px !important;
     }
 
-    #KIC_Software_KIC_SmartDock .infoblock__page-7__text-block-devices {
-        width: 35% !important;
-        top: 620px !important;
-        right: 0 !important;
-    }
-
     .infoblock .infoblock__page-9__nav__img {
-        padding-top: 110px !important;
+        padding-top: 110px;
         margin-top: 0;
     }
 
@@ -3173,16 +3239,13 @@ img.click-mini {
         padding: 5px 10px 50px 0 !important;
     }
 
-    #KIC_Software_KIC_SmartDock .infoblock__page-7__text-block-devices {
-        top: 601px !important;
-    }
 
     .infoblock .label_smart11 {
         padding-top: 1%;
     }
 
     .wrap-one-screen-with-hand-in-border span {
-        top: 310px !important;
+        top: 355px;
     }
 
     .brochure-title-center {
@@ -3205,6 +3268,37 @@ img.click-mini {
         line-height: 3.4rem !important;
     }
 }
+@media all and (max-width: 1208px) and (min-width: 1200px){
+    .kit-fleet-paragraph {
+        width: 64%;
+    }
+    .infoblock .infoblock__page-9__nav__img {
+        padding-top: 138px;
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1100px){
+    .infoblock .infoblock__page-7__text-block-scanner {
+        top: 640px;
+    }
+    .kit-fleet-paragraph {
+        width: 55%;
+    }
+
+
+}
+
+@media all and (max-width: 1099px){
+    .infoblock .infoblock__page-7__text-block-scanner {
+        top: 590px;
+    }
+    .kit-fleet-paragraph {
+        width: 52%;
+    }
+
+
+}
+
 
 .infoblock__page-4__icon {
     width: 20px;
@@ -3394,11 +3488,6 @@ span.fa.fa-star.tabl-star.black {
 
     .infoblock .in-case-enhance--left {
         padding-bottom: 90px !important;
-    }
-
-    .infoblock .infoblock__page-7__text-block-scanner {
-        top: 330px;
-        right: -20px;
     }
 
     #KIC_Software_KIC_SmartDock .infoblock__page-7__text-block-devices {
@@ -3705,6 +3794,3 @@ h3.brochure-title-kic-software__blue_label.--fleet.padding-fleet {
     padding-top: 0 !important;
 }
 
-p.kit-fleet-paragraph.resize-fleet-paragraph {
-    padding-top: 20px;
-}

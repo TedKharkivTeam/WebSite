@@ -2014,3 +2014,17 @@ span.item__text-label.kic-fleet {
         line-height: 1.6rem;
     }
 }
+@media all and (max-width: 1222px) and (min-width: 1200px){
+    .infoblock .text-section__centered-text--with-margin {
+        bottom: -117px;
+    }
+    .infoblock .kic-fleet-manager-wrapper__middle-content {
+        padding-top: 45px;
+    }
+}
+
+@media all and (max-width: 1999px) and (min-width: 1100px){
+    .infoblock .text-section__centered-text--with-margin {
+        bottom: -40px;
+    }
+}

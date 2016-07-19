@@ -2260,6 +2260,12 @@ th .table--img {
     padding-top: 32px;
 }
 
+@media all and (max-width: 1790px) and (min-width: 1680px){
+    .infoblock div .infoblock__page-1__h2__p h3{
+        margin-top: 0;
+    }
+}
+
 @media all and (max-width: 1742px) and (min-width: 1680px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 8%;
@@ -2431,7 +2437,7 @@ th .table--img {
 }
 
 
-@media all and (max-width: 1543px) {
+@media all and (max-width: 1675px) {
     .infoblock__page-9__nav {
         margin-top: 60px;
     }
@@ -2485,7 +2491,7 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1740px) and (min-width: 1511px) {
+@media all and (max-width: 1805px) and (min-width: 1511px) {
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
         padding-top: 0;
     }
@@ -2636,20 +2642,28 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1445px) and (min-width: 1285px) {
+@media all and (max-width: 1474px) and (min-width: 1285px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 0;
         margin-top: 30px
     }
 }
 
-@media all and (max-width: 1400px) and (min-width: 1200px) {
+@media all and (max-width: 1404px) and (min-width: 1200px){
+
+    .infoblock div .infoblock__page-1__h2__p h3 {
+        font-size: 3.6rem;
+    }
+}
+@media all and (max-width: 1550px){
     .infoblock__page-11__for-study-p {
         width: 33%;
         margin-right: 3%;
         margin-top: 0;
 
     }
+}
+@media all and (max-width: 1400px) and (min-width: 1200px) {
 
     .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
         padding-top: 0;
@@ -2671,10 +2685,6 @@ th .table--img {
         bottom: -20px;
         font-size: 2rem;
         line-height: 2.2rem;
-    }
-
-    .infoblock div .infoblock__page-1__h2__p h3 {
-        font-size: 3.6rem;
     }
 
     div .infoblock__page-3__block_text23 {
@@ -2809,9 +2819,12 @@ th .table--img {
     .infoblock__page-14__row__column {
         min-height: 490px;
     }
-
 }
-
+@media all and (max-width: 1275px) and (min-width: 1200px) {
+    div .infoblock__page-7__text-right{
+        margin-top: -44%;
+    }
+}
 @media all and (max-width: 1550px) {
     .infoblock__page-5__two-step--w2:after {
         width: 26px;
@@ -3118,12 +3131,14 @@ th .table--img {
     }
 }
 
-@media all and (max-width: 1288px) {
-
+@media all and (max-width: 1313px){
     .infoblock .infoblock__page-1 .infoblock__page-1__header_2 {
         font-size: 8rem;
         line-height: 4.2rem;
     }
+}
+
+@media all and (max-width: 1288px) {
 
     .infoblock div .infoblock__page-1__h2__p h3 {
         font-size: 3.2rem;
@@ -3606,6 +3621,19 @@ th .table--img {
     }
 }
 
+@media all and (max-width: 1200px){
+    .infoblock .infoblock__page-9 .infoblock__page-9__center__text--margin {
+        width: 41%;
+        padding-top: 20px;
+    }
+}
+
+@media all and (max-width: 1100px){
+    div .infoblock__page-7__text-right {
+        margin-top: -39%;
+    }
+}
+
 @media (max-width: 1024px) {
     .infoblock .infoblock__page-1__text {
         width: 34%;
@@ -3637,9 +3665,7 @@ th .table--img {
         margin-top: 10px;
     }
 
-    div .infoblock__page-7__text-right {
-        margin-top: -39%;
-    }
+
 
     .infoblock .infoblock__page-1__text__top {
         font-size: 1.8rem;
