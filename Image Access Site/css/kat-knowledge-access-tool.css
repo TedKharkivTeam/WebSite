@@ -451,6 +451,13 @@ img {
     top: 214px;
 }
 
+.infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
+    position: absolute;
+    left: 63%;
+    top: 214px;
+}
+
 .infoblock .image-text--SW {
     width: 26%;
     position: relative;
@@ -467,6 +474,14 @@ img {
 }
 
 .infoblock .bvs-section__image-title {
+    font-family: 'LatoBold', helvetica, arial, sans-serif;
+    position: absolute;
+    left: 44%;
+    display: block;
+    top: 110px;
+}
+
+.infoblock .bvs-section__image-title-stacks-view {
     font-family: 'LatoBold', helvetica, arial, sans-serif;
     position: absolute;
     left: 44%;
@@ -1743,6 +1758,93 @@ img.bvs-section__image {
 
     .infoblock .professor-photo__text {
         margin-top: -175px;
+    }
+}
+
+/* madia KAT-Stacks-View */
+
+@media all and (max-width: 1790px) and (min-width: 1680px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 100px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 200px;
+    }
+}
+
+@media all and (max-width: 1679px) and (min-width: 1551px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 90px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 185px;
+    }
+}
+
+@media all and (max-width: 1550px) and (min-width: 1431px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 83px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 170px;
+    }
+}
+
+@media all and (max-width: 1430px) and (min-width: 1367px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 75px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 160px;
+    }
+}
+
+@media all and (max-width: 1366px) and (min-width: 1350px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 110px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 160px;
+    }
+}
+
+@media all and (max-width: 1349px) and (min-width: 1200px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 100px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 140px;
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1100px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 100px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 170px;
+    }
+}
+@media all and (max-width: 1150px) and (min-width: 1050px){
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 155px;
+    }
+}
+
+@media all and (max-width: 1049px) {
+    .infoblock .bvs-section__image-title-stacks-view {
+        top: 105px;
+    }
+
+    .infoblock .kit-kat-go__image-title--kic-srs-stacks-view {
+        top: 145px;
     }
 }
 
