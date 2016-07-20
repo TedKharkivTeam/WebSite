@@ -1700,13 +1700,21 @@ table.table__footer td {
     padding: 5px;
 }
 
-@media all and (max-width: 1749px) and (min-width: 1680px) {
+@media all and (max-width: 1749px) and (min-width: 1681px) {
     .infoblock .infoblock__page-7__text-block-devices {
         width: 33%;
         font-size: 1.6rem;
         position: absolute;
         top: 27%;
         right: 20px;
+    }
+}
+
+@media all and (max-width: 1680px) and (min-width: 1571px) {
+    .infoblock .infoblock__page-7__text-block-devices {
+        width: 33%;
+        top: 27.8%;
+        right: 36px;
     }
 }
 
