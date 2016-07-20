@@ -55,52 +55,63 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1600px ) and (min-width: 1200px) {
-    .history:after {
-        left: 0;
-        bottom: -10%;
-    }
 
+
+
+
+@media all and  (max-width: 1920px) and (min-width: 1741px){
+    .history:after {
+        bottom: 10%;
+        right: -30%;
+    }
+}
+
+@media all and  (max-width: 1740px) and (min-width: 1661px)
+{
+    .history:after {
+        bottom: 7%;
+        right: -20%
+    }
+}
+
+@media all and  (max-width: 1660px) and (min-width: 1601px)
+{
+    .history:after {
+        bottom: 5%;
+        right: -20%;
+    }
+}
+
+@media screen and (max-width: 1600px ) and (min-width: 1501px) {
+    .history:after {
+        bottom: 6%;
+        width: 90%;
+        height: 90%;
+        right: -12%;
+    }
+}
+@media screen and (max-width: 1600px ) and (min-width: 1200px) {
     .country-wrapper {
         overflow: hidden;
         padding-left: 17%;
     }
-
-
 }
-@media screen and (max-width: 1400px){
+
+@media screen and (max-width: 1500px) and (min-width: 1401px) {
     .history:after {
+        bottom: 6%;
         width: 90%;
         height: 90%;
-    }
-    .history:after {
-        left: 12%;
-        bottom: -14%;
-    }
-}
-    @media screen and (max-width: 1199px) {
-    .country-wrapper {
-        overflow: hidden;
-        padding-left: 20%;
-    }
-
-    .history:after {
-        content: '';
-        position: absolute;
-        background: url("http://upload.ted-kteam.com/IA/images/brochure-pictures/family-scan.png") no-repeat;
-        background-size: contain;
-        width: 90%;
-        bottom: 18%;
-        left: 12%;
-        height: 95%;
-        top: 234px;
+        right: -8%;
     }
 }
 
-@media (max-width: 1920px) {
+@media screen and (max-width: 1400px) and (min-width: 1366px) {
     .history:after {
-        bottom: 10%;
-        right: -30%;
+        bottom: 6%;
+        width: 82%;
+        height: 82%;
+        right: -5%;
     }
 }
 
@@ -109,15 +120,72 @@
         margin-bottom: -80px;
     }
 
+}
+
+@media screen and (max-width: 1365px) and (min-width: 1320px) {
     .history:after {
-        left: 25%;
-        bottom: -8%;
-        width: 75%;
+        bottom: 4%;
+        width: 80%;
+        height: 80%;
+        right: -3%;
     }
 }
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1319px) and (min-width: 1300px) {
     .history:after {
-        bottom: -15%;
+        bottom: 2.5%;
+        width: 75%;
+        height: 75%;
+        right: -3%;
+    }
+}
+@media screen and (max-width: 1299px) and (min-width: 1229px) {
+    .history:after {
+        bottom: 0;
+        width: 73%;
+        height: 73%;
+        right: -3%;
+    }
+}
+@media screen and (max-width: 1228px) and (min-width: 1200px) {
+    .history:after {
+        bottom: -4%;
+        width: 73%;
+        height: 73%;
+        right: -3%;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1121px){
+    .history:after {
+        bottom: 4%;
+        width: 80%;
+        height: 80%;
+        right: -8%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .country-wrapper {
+        overflow: hidden;
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 1051px){
+    .history:after {
+        bottom: 4%;
+        width: 78%;
+        height: 78%;
+        right: -2%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .history:after {
+        bottom: 0%;
+        width: 75%;
+        height: 75%;
+        right: -2%;
     }
 }
