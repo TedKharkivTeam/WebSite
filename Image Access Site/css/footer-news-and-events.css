@@ -315,6 +315,17 @@
     width: 100%;
     height: 100%;
 }
+
+.news_par_1{
+    margin-left: 40px;
+}
+.news_par_1 i{
+    font-style: italic;
+}
+
+.new-events{
+    width: 300px;
+}
 @media all and (max-width: 1700px){
     .popup__menu time {
         width: 55px;
