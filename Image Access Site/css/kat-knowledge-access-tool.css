@@ -1379,11 +1379,13 @@ img.bvs-section__image {
     }
 
     .infoblock .image-bottom-header {
-        margin-top: -49px;
+        margin-top: 0;
     }
 
     .infoblock .image-title--stacks-view {
-        margin-top: 30px;
+        position: absolute;
+        top: 20px;
+        right: 200px;
     }
 
     .infoblock .infoblock__kat-phones {
