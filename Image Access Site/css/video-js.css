@@ -1269,3 +1269,27 @@ video::-webkit-media-text-track-display {
     height: 100%;
   }
 }
+
+@media all and (max-width: 1321px) and (min-width: 1200px) {
+    .video-js .vjs-big-play-button {
+        top: 8%;
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1100px) {
+    .video-js .vjs-big-play-button {
+        left: 32px;
+    }
+}
+
+@media all and (max-width: 1075px) and (min-width: 1025px) {
+    .video-js .vjs-big-play-button {
+        top: 25px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .video-js .vjs-big-play-button {
+        top: 45px;
+    }
+}
