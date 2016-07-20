@@ -2167,6 +2167,10 @@ p.click_click_mini.brochure-overflow--line {
     #fax-diagram {
         padding-bottom: 10px;
     }
+
+    #KIC_Click_and_Mini_KIC_SmartDock figcaption.move.touch-on-top-fix {
+        width: 180%;
+    }
 }
 
 @media (max-width: 1685px) {
