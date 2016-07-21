@@ -2446,6 +2446,28 @@ h3.true2_label.move {
         height: 80%;
     }
 }
+@media all and (max-width: 1420px) and (min-width: 1367px){
+    #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
+        padding-top: 110px;
+    }
+    .infoblock__nav {
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 1345px) and (min-width: 1281px){
+
+    .infoblock__nav {
+        margin-top: 70px;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 1200px){
+
+    .infoblock__nav {
+        margin-top: 40px;
+    }
+}
 
 @media (max-width: 1366px) {
     .infoblock .center__text--margin {
@@ -2465,11 +2487,6 @@ h3.true2_label.move {
         padding: 47px 0 10px 20px;
         box-sizing: content-box;
         margin-top: 0;
-    }
-
-    #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
-        padding-top: 60px;
-        width: 67%;
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__scanner-other {
@@ -2612,7 +2629,7 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
-        padding-top: 110px;
+        padding-top: 115px;
     }
 
     .infoblock .li--width {
