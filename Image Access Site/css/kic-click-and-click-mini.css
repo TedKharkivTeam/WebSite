@@ -745,6 +745,9 @@ h2.pod-text {
     line-height: 2.6rem;
     margin: 0;
 }
+.infoblock__page-6__position-relative-v2 {
+    display: none;
+}
 
 .infoblock {
     padding: 0;
@@ -2448,6 +2451,21 @@ h3.true2_label.move {
     .infoblock .center__text--margin {
         margin-top: -1%;
     }
+    .infoblock__page-6__position-relative-v2 {
+        display: block;
+        position: relative;
+        float: right;
+        width: 30%;
+        margin: 0;
+    }
+
+    .infoblock__page-6__position-relative-v2 img{
+        float: right;
+        width: 86%;
+        padding: 47px 0 10px 20px;
+        box-sizing: content-box;
+        margin-top: 0;
+    }
 
     #KIC_Click_and_Mini_KIC_Fleet_Manager .infoblock__nav .nav__img {
         padding-top: 60px;
@@ -2579,10 +2597,7 @@ h3.true2_label.move {
     }
 
     #KIC_Click_and_Mini_True_2_Touch_User_Interface .infoblock__page-6__position-relative {
-        float: right;
-        width: 32%;
-        padding-right: 25px;
-        right: 0;
+       display: none;
     }
 
     p.large-screens-paragraph-tree {
@@ -2797,6 +2812,8 @@ img.infoblock__page-6.scanner-picture {
     width: 35%;
     padding-right: 25px;
 }
+
+
 
 .infoblock__page-6__under-text {
     position: absolute;
@@ -3076,14 +3093,14 @@ h2.label2.resize.top-padding {
         font-size: 1.5rem;
     }
 
-    .infoblock__page-6__position-relative {
-        position: absolute;
-        float: right;
-        width: 35%;
-        padding-right: 25px;
-        padding-top: 150px;
-        right: 10px;
-    }
+    /*.infoblock__page-6__position-relative {*/
+        /*position: absolute;*/
+        /*float: right;*/
+        /*width: 35%;*/
+        /*padding-right: 25px;*/
+        /*padding-top: 150px;*/
+        /*right: 10px;*/
+    /*}*/
 
     p.large-screens-paragraph-tree {
         width: 65%;
