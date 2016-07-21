@@ -1704,6 +1704,13 @@ h2.pod-text {
 
 }
 
+@media all and (max-width: 1484px) and (min-width: 1450px){
+    .infoblock .big-logo-text__sub-header{
+        margin-top: 0;
+        margin-right: 30px;
+    }
+}
+
 @media (max-width: 1400px) {
     .infoblock .content-holder__text-section--smart-dock {
         width: 44%;
@@ -1795,12 +1802,29 @@ h2.pod-text {
     }
 
 }
+@media all and (max-width: 1350px) and (min-width: 1247px) {
+    .infoblock .big-logo-text__sub-header{
+        margin-right: 4%;
+    }
+}
+
+@media all and (max-width: 1246px) and (min-width: 1200px) {
+    .infoblock .big-logo-text__sub-header{
+        margin-right: 1%;
+    }
+    .infoblock .common-header-h2--big-logo-text{
+        padding-right: 0;
+    }
+}
+
+@media all and (max-width: 1109px) and (min-width: 1050px) {
+    .infoblock .big-logo-text__sub-header{
+        margin-right:  48px;
+    }
+}
+
 
 @media (max-width: 1350px) {
-    .infoblock .big-logo-text__sub-header {
-        margin-top: -45px;
-    }
-
     .infoblock .bg-image__text--left {
         bottom: 0;
     }
@@ -1812,6 +1836,12 @@ h2.pod-text {
 
     .infoblock .text-section__centered-text--with-padding {
         line-height: 1.1;
+    }
+}
+
+@media all and (max-width: 1382px) and (min-width: 1350px) {
+    .infoblock .big-logo-text__sub-header{
+        margin-right: 40px;
     }
 }
 
