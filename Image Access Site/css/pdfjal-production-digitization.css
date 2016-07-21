@@ -1336,3 +1336,9 @@ ol {
     float: right;
     margin-right: 16px;
 }
+
+@media all and (max-width: 1860px) {
+    .block3__top .top--width {
+        margin-bottom: 10px;
+    }
+}
