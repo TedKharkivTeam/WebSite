@@ -2260,7 +2260,7 @@ th .table--img {
     padding-top: 32px;
 }
 
-@media all and (max-width: 1790px) and (min-width: 1680px){
+@media all and (max-width: 1790px) and (min-width: 1681px){
     .infoblock div .infoblock__page-1__h2__p h3{
         margin-top: 0;
     }
@@ -2286,7 +2286,7 @@ th .table--img {
     }
 
     .infoblock div .infoblock__page-1__h2__p {
-        top: 87px;
+        top: 89px;
     }
 
     .infoblock__page-12__double-wrap figure {
