@@ -2280,6 +2280,12 @@ th .table--img {
     }
 }
 
+@media all and (max-width: 1862px) and (min-width: 1798px) {
+    #copy-diagram{
+        margin: 58px 1% 10px;
+    }
+}
+
 @media all and (max-width: 1680px) {
     .infoblock__page-1 .infoblock__page-1__header_2 {
         margin-right: 9%;
@@ -2336,7 +2342,7 @@ th .table--img {
     }
 
     #copy-diagram {
-        padding-bottom: 70px;
+        padding-bottom: 34px;
     }
 
     .images--hand {
@@ -2518,7 +2524,7 @@ th .table--img {
     }
 
     #copy-diagram {
-        padding-bottom: 80px;
+        padding-bottom: 64px;
     }
 
     #hand-with-yellow-coin {
@@ -2574,6 +2580,7 @@ th .table--img {
     }
 }
 
+
 @media all and (max-width: 1510px) {
     .infoblock__page-9__center__text--padding {
         padding-top: 5%;
@@ -2621,6 +2628,12 @@ th .table--img {
     }
 }
 
+@media all and (max-width: 1435px) and (min-width: 1400px) {
+    #copy-diagram {
+        padding-bottom: 100px;
+    }
+}
+
 @media all and (max-width: 1640px)  and (min-width: 1400px) {
     .infoblock__page-3__block-3 {
         bottom: 8%;
@@ -2635,6 +2648,7 @@ th .table--img {
         margin-right: 54%;
     }
 }
+
 
 @media all and (max-width: 1450px) {
     .infoblock .infoblock__page-1__h3__p p {
@@ -2987,7 +3001,7 @@ th .table--img {
     }
 
     #copy-diagram {
-        padding-bottom: 110px;
+        padding-bottom: 90px;
         margin-top: 42px;
         padding-top: 60px;
     }
@@ -2997,8 +3011,7 @@ th .table--img {
     }
 
     #fax-diagram {
-
-        padding-top: 30px;
+        padding: 45px 3px;
     }
 
     .infoblock .left-block__bottom-p {
@@ -3276,6 +3289,12 @@ th .table--img {
         width: 28%;
         margin-left: 10%;
     }
+}
+@media all and (max-width: 1151px) and (min-width: 1025px) {
+        #copy-diagram {
+        padding-bottom: 50px;
+    }
+
 }
 
 @media all and (max-width: 1100px) and (min-width: 992px) {
@@ -3638,6 +3657,10 @@ th .table--img {
     .infoblock .infoblock__page-1__text {
         width: 34%;
         right: 12%;
+    }
+    #copy-diagram {
+        padding-bottom: 80px;
+        padding-top: 100px;
     }
 
     .infoblock .infoblock__page-13-2__header_v3 {
