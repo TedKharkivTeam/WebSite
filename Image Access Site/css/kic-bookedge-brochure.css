@@ -2075,4 +2075,8 @@ span.item__text-label.kic-fleet {
     .infoblock .text-section__centered-text--with-margin {
         bottom: -20px;
     }
+
+    .infoblock .text-section__centered-text--with-padding {
+        padding-top: 30px;
+    }
 }
