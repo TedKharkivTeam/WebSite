@@ -1528,6 +1528,24 @@ h2.pod-text {
 }
 
 /* ************************************************************************************************************** */
+
+@media all and (max-width: 1800px) and (min-width: 1580px){
+    .infoblock .section__left-image-text {
+        left: -24px;
+    }
+}
+@media all and (max-width: 1579px) and (min-width: 1440px){
+    .infoblock .section__left-image-text {
+        left: -35px;
+    }
+}
+
+@media all and (max-width: 1579px) and (min-width: 1301px){
+    .infoblock .section__left-image-text {
+        left: -50px;
+    }
+}
+
 @media all and (max-width: 1790px) {
     .infoblock .triangular-copy__image {
         margin: 3% 1% 50px;
@@ -1708,6 +1726,22 @@ h2.pod-text {
     .infoblock .big-logo-text__sub-header{
         margin-top: 0;
         margin-right: 30px;
+    }
+}
+
+@media all and (max-width: 1466px) and (min-width: 1350px){
+    .infoblock .common-row__column--small {
+        width: 32%;
+    }
+}
+@media all and (max-width: 1349px) and (min-width: 1311px){
+    .infoblock .common-row__column--small {
+        width: 33%;
+    }
+}
+@media all and (max-width: 1310px) and (min-width: 1300px){
+    .infoblock .common-row__column--small {
+        width: 34%;
     }
 }
 
@@ -1898,7 +1932,7 @@ h2.pod-text {
     }
 
     .infoblock .section__left-image-text {
-        left: -30px;
+        left: -40px;
         top: auto;
         bottom: 20px;
         font-size: 14px;
