@@ -2061,10 +2061,18 @@ span.item__text-label.kic-fleet {
 
 @media all and (max-width: 1680px) {
     .infoblock .triangular-hand__image {
-        padding-bottom: 50px;
+        padding: 25px 0 25px 0;
     }
 
     .infoblock .common-row__column--bottles-of-ink-text-wrapper {
         width: 60%;
+    }
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -340px;
+    }
+
+    .infoblock .text-section__centered-text--with-margin {
+        bottom: -20px;
     }
 }
