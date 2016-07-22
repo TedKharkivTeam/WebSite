@@ -753,6 +753,14 @@
     background-image: url(http://upload.ted-kteam.com/IA/images/Scanners/WideTEK_48C/WT48C-600_RENDER_BACKWARD_big.png) !important;
 }
 
+.image.active.product-photos {
+    height: 530px;
+}
+
+.gallery .resize.image {
+    height: 450px;
+}
+
 /* ************************************* MEDIA QUERIES ************************************* */
 
 /* 1280, 1366 */
@@ -791,10 +799,8 @@
 
 }
 
-.image.active.product-photos {
-    height: 530px;
-}
-
-.gallery .resize.image {
-    height: 450px;
+@media (max-width: 768px) {
+    .gallery div.thumbs {
+        height: auto;
+    }
 }
