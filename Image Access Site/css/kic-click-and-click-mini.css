@@ -2512,8 +2512,8 @@ h3.true2_label.move {
     }
 
     .infoblock .label_smart9 {
-        margin-left: 0;
-        margin-top: 2%;
+        margin: 2% 0 10px 0;
+        width: 105%;
     }
 
     .infoblock__page-5__two-step--w3 {
@@ -2597,6 +2597,10 @@ h3.true2_label.move {
 
     figcaption.move {
         margin-left: -30px;
+    }
+
+    #KIC_Click_and_Mini_KIC_SmartDock figcaption.move.touch-on-top-fix {
+        width: 130%;
     }
 
     p.label_smart2.with-subh.smartdock {
