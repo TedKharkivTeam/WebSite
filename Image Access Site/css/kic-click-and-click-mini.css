@@ -2472,6 +2472,13 @@ h3.true2_label.move {
     }
 }
 
+@media all and (max-width: 1199px){
+    #KIC_Click_and_Mini_KIC_SmartDock figcaption.move.touch-on-top-fix {
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 1366px) {
     .infoblock .center__text--margin {
         margin-top: -1%;
@@ -3050,7 +3057,7 @@ h2.label2.resize.top-padding {
         margin-top: 10px;
     }
 }
-@media (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     #copy-diagram {
         padding-bottom: 60px;
     }
@@ -3072,7 +3079,7 @@ h2.label2.resize.top-padding {
         padding: 40px 3px;
     }
 
-    #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
+    .infoblock #KIC_Click_and_Mini_KIC_Fleet_Manager p.center__text.center__text--margin.fleet {
         padding-top: 50px;
     }
 
@@ -3088,6 +3095,11 @@ h2.label2.resize.top-padding {
     #KIC_Click_and_Mini_In_Case_You_Didnt_Know .infoblock__page-11__double__content__double .infoblock__page-11__in-case-scan-artwork {
         height: 71%;
         width: 71%;
+    }
+
+    .smart_hard_block .smart_hard_block__to-left .label_smart9{
+        font-size: 3rem;
+        line-height: 3.2rem;
     }
 
     #KIC_Click_and_KIC_Click_Mini .brochure-title-left {
@@ -3125,6 +3137,8 @@ h2.label2.resize.top-padding {
     p.large-screens-paragraph-tree {
         width: 65%;
     }
+
+
 }
 
 figcaption {

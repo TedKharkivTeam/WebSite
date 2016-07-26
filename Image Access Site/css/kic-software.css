@@ -3009,7 +3009,7 @@ img.click-mini {
 @media all and (max-width: 1300px) {
     .infoblock .label_smart11 {
         width: 30%;
-        padding-top: 0%;
+        padding-top: 0;
     }
 }
 
@@ -3542,6 +3542,26 @@ span.fa.fa-star.tabl-star.black {
 
     .infoblock__page-5__seven-step:after {
         bottom: -27px;
+    }
+
+    .infoblock .label_smart11 {
+        padding-top: 0;
+    }
+    .wrap-dual-screen-img {
+        margin-top: 210px;
+    }
+}
+
+@media all and (max-width: 999px){
+    .infoblock .infoblock__page-9__center__img {
+        width: 65%;
+        margin-top: 16%;
+    }
+}
+
+@media all and (max-width: 995px){
+    .infoblock .infoblock__page-7__text-block-devices {
+        top: 25.4%;
     }
 }
 

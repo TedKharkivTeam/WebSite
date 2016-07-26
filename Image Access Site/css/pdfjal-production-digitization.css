@@ -1323,6 +1323,17 @@ ol {
     i.fa.fa-caret-left.triangle-pointer.rotate {
         transform: rotate(90deg);
     }
+    .infoblock .right-block__img-right {
+        float: right;
+        width: 63%;
+        height: 50%;
+    }
+
+    .table__arow:after {
+        right: 21px;
+        width: 50px;
+        height: 48px;
+    }
 }
 
 .block3__top-span {
