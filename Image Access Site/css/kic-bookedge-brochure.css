@@ -2071,7 +2071,7 @@ span.item__text-label.kic-fleet {
 
 @media (max-width: 1366px) {
     .infoblock .triangular-copy__image {
-        margin: 17% 0 70px;
+        margin: 22% 0 70px;
     }
 
     span.item__text-label.kic-fleet {
@@ -2090,7 +2090,57 @@ span.item__text-label.kic-fleet {
         font-size: 1.4rem;
         line-height: 1.6rem;
     }
+
+    .infoblock .content-holder__text-section--smart-dock {
+        bottom: -35px;
+    }
+
+    .infoblock .for-public-libraries-section__header {
+        margin-left: 2%;
+    }
+
+    .infoblock .for-public-libraries-section__sub-header {
+        margin-left: 1%;
+    }
+
+    .infoblock .for-public-libraries-section__kic-has-a-special {
+        top: 0;
+        margin-top: -122px;
+    }
+
+    .infoblock .for-public-libraries-section__touching-copy-text {
+        margin-top: -290px;
+    }
+
+    .infoblock .for-public-libraries-section__two-screens-image {
+        width: 44%;
+    }
+
+    .infoblock .for-public-libraries-section__touching-fax-text {
+        margin-top: 0;
+    }
+
+    .infoblock .two-tels-section__text-p {
+        top: 55px;
+    }
+
+    #KIC_BookEdge_KIC_Fleet_Manager .text-section__centered-text--with-margin {
+        bottom: -110px;
+    }
+
+    .infoblock .middle-content__photo {
+        padding-top: 14%;
+    }
+
+    .infoblock .in-case-you-didnt-know-wrapper__header {
+        font-size: 3.1rem;
+    }
+
+    .infoblock .in-case-you-didnt-know-wrapper__text-p {
+        bottom: -18px;
+    }
 }
+
 @media all and (max-width: 1222px) and (min-width: 1200px){
     .infoblock .text-section__centered-text--with-margin {
         bottom: -117px;
