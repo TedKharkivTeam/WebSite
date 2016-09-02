@@ -812,6 +812,83 @@ img {
     width: 100%;
 }
 
+
+
+/*****************big title block***********************/
+.big-title{
+    font-size: 6rem;
+    line-height: 6.2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#KAT_Big_title{
+    position: relative;
+}
+
+.kat-tabs-links:after{
+   content: '';
+    display: table;
+    clear: both;
+}
+
+.kat-tabs-links li{
+    float: left;
+    width: calc(100% / 3);
+    font-weight:bold;
+    padding: 15px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.tab-content-hide{
+    display: block !important;
+}
+
+.kat-tabs-links li.active-tab {
+    position: relative;
+    background:#fff;
+    border: 1px solid;
+    border-bottom:none;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.kat-tabs-links--top li.active-tab:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    background: #fff;
+    height: 3px;
+    width: 100%;
+}
+
+.kat-tabs-links--bottom li.active-tab{
+    border-radius:0 0 5px 5px;
+    border: 1px solid;
+    border-top:none;
+}
+
+.kat-tabs-links--bottom li.active-tab:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+    background: #fff;
+    height: 3px;
+    width: 100%;
+}
+
+.tabs-for-kat{
+    border: 1px solid #000;
+    /*border-radius: 5px;*/
+}
 /*************************************************************************************************************/
 /************************************************** MEDIA QUERIES ********************************************/
 /*************************************************************************************************************/
