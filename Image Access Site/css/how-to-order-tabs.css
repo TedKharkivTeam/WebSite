@@ -144,7 +144,7 @@ img{
 
 .dlos-absolute--top-text {
     left: 30px;
-    bottom: 115px;
+    bottom: 140px;
 }
 
 .dlos-absolute--bottom-text {
@@ -324,6 +324,10 @@ sup {
     .content-links li {
         width: calc(100% /3.2);
         height: 200px;
+    }
+    .dlos-absolute--top-text {
+        left: 0;
+        bottom: 130px;
     }
 }
 
