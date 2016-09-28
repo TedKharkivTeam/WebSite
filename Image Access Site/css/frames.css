@@ -841,6 +841,11 @@ h2.pod-text {
 /*end of pod*/
 
 /*DLOS*/
+.ital-dlos-text {
+    margin: 0px 0 0 -20px;
+    font-style: italic;
+}
+
 .frame7-content {
     text-align: left;
     padding: 0 15px 2% 0;
@@ -1409,12 +1414,12 @@ h2.pod-text {
         font-size: 4.4rem;
     }
 }
-@media all and (max-width: 1300px){
+
+@media all and (max-width: 1300px) {
     .caption__h {
         font-size: 4.1rem;
     }
 }
-
 
 @media all and (max-width: 1260px) {
     .green-line__text {
