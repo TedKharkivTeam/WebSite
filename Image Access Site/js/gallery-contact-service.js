@@ -12,7 +12,7 @@ jQuery(function () {
         autoplaySpeed:2000
     });
     $('.slider-nav').slick({
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         arrows: false,
