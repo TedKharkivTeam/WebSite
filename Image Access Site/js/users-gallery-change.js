@@ -16,6 +16,9 @@ function changepart() {
         frame.src = "Users-Gallery5.html";
     }
     else if (frame.src.indexOf('Users-Gallery5.html') + 1) {
+        frame.src = "Users-Gallery6.html";
+    }
+    else if (frame.src.indexOf('Users-Gallery6.html') + 1) {
         frame.src = "Users-Gallery1.html";
     }
 }
