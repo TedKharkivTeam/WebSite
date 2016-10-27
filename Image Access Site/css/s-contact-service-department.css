@@ -1,7 +1,6 @@
 /*new marcup*/
 .wrapper-gallery {
     overflow: hidden;
-    padding-left: 60px;
     padding-top: 4%;
 }
 
@@ -19,7 +18,19 @@
     font-family: 'LatoBold', sans-serif, helvetica, arial;
     font-size: 3.6rem;
     line-height: 3.8rem;
+    margin-bottom: 20px;
 }
+
+.contact__title{
+    margin: -20px 0 0;
+    padding-left: 15px;
+    font-size: 1.8rem;
+}
+
+.contact__title--padding{
+    padding-left:60px;
+}
+
 
 .contact--box {
     padding: 0 0 15px 22px;
@@ -138,7 +149,60 @@
     overflow: hidden;
 }
 
+.contact__header {
+    position: relative;
+    margin-top: 10px;
+}
+
+.contact__header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header__tel {
+    float: left;
+    width: 47%;
+    padding: 8px 18px 0 0;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.header__tel .header__information{
+    font-size: 1.8rem;
+}
+
+.header__tel p {
+    text-align: right;
+    margin-left: auto;
+}
+
+.header__support{
+    width: 30%;
+    float: right;
+}
+
+.header__logo {
+    float: left;
+    width: 23%;
+    border-left: 2px solid #000;
+    padding-left: 18px;
+    margin-top: 30px;
+}
+
+.header__logo .header__information {
+    font-size: 1.7rem;
+}
+
+.header__logo .header__phone {
+    font-size: 2.4rem;
+}
+
 /*form style*/
+.support-form--pull-left{
+    float: left;
+}
+
 
 input, textarea, select {
     margin: 10px 10px 0 25px;
@@ -167,11 +231,12 @@ textarea {
 
 .support-form {
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .support-form fieldset {
     position: relative;
-    padding: 20px;
+    padding: 12px;
     border: 1px solid grey;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -187,6 +252,12 @@ textarea {
 .support-product {
     width: 98%;
     margin-top: 20px;
+}
+
+.support-product-other:before{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .support-product-other {
@@ -324,6 +395,15 @@ textarea {
     .wrapper-gallery__title {
         font-size: 2.7rem;
         line-height: 2.9rem;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    .header__tel {
+        width: 40%;
+    }
+    .header__logo {
+        width: 30%;
     }
 }
 
