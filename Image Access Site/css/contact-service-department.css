@@ -173,6 +173,11 @@
     line-height: 2.2rem;
 }
 
+.header__tel .header__information--font {
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+}
+
 .header__tel p {
     text-align: right;
     margin-left: auto;
@@ -205,6 +210,10 @@
 }
 
 /*form style*/
+
+.support-form--pull-left {
+    float: left;
+}
 
 input, textarea, select {
     margin: 10px 10px 0 25px;
@@ -373,10 +382,16 @@ textarea {
 @media screen and (max-width: 1470px) {
     .header__tel {
         width: 40%;
+        margin-top: 25px;
     }
 
     .header__logo {
         width: 30%;
+    }
+
+    .header__tel .header__information {
+        font-size: 1.8rem;
+        line-height: 2rem;
     }
 }
 
@@ -388,6 +403,11 @@ textarea {
     .support-agent {
         float: right;
         padding: 3% 0 0 0;
+    }
+
+    .support-agent--float{
+        float:left;
+        padding: 20% 0 0 0;
     }
 
     .slick-prev {
@@ -407,6 +427,11 @@ textarea {
         font-size: 2.7rem;
         line-height: 2.9rem;
     }
+
+    .contact__title {
+        margin: 0;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -419,8 +444,4 @@ textarea {
         padding-right: 0;
     }
 
-    .header__tel .header__information {
-        font-size: 1.8rem;
-        line-height: 2rem;
-    }
 }
