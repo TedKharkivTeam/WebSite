@@ -1,8 +1,8 @@
 /*new marcup*/
 .wrapper-gallery {
     overflow: hidden;
-    padding-left: 60px;
-    padding-top: 4%;
+    padding-top: 2%;
+    position: relative;
 }
 
 .support-agent {
@@ -23,13 +23,16 @@
 }
 
 .contact__title {
-    margin: -20px 0 0;
+    margin: -45px 0 0;
     padding-left: 15px;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    position: relative;
 }
 
-.contact__title--padding {
-    padding-left: 60px;
+.contact__title--service{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
 
 .contact--box {
@@ -160,6 +163,11 @@
     clear: both;
 }
 
+.wrapper-gallery--service{
+    margin-bottom: -25px;
+}
+
+
 .header__tel {
     float: right;
     width: 47%;
@@ -186,6 +194,10 @@
 .header__support {
     width: 27%;
     float: right;
+}
+
+.header__support--padding{
+    padding-right:20px;
 }
 
 .header__support img {
@@ -237,7 +249,6 @@ textarea {
 
 .support-form-wrapper {
     overflow: hidden;
-    padding-left: 60px;
 }
 
 .support-form {
@@ -261,7 +272,7 @@ textarea {
 }
 
 .support-product {
-    width: 98%;
+    width: 99%;
     margin-top: 20px;
 }
 
@@ -272,8 +283,9 @@ textarea {
 }
 
 .support-product-other {
-    width: 99%;
+    width: 100%;
     margin-top: 20px;
+    margin-left: 0;
 }
 
 .support-form legend {
@@ -319,6 +331,13 @@ textarea {
     cursor: pointer;
 }
 
+.form-about--left-block{
+    width: calc(36% - 4px);
+}
+
+.form-about--right-block{
+    width: 63%;
+}
 /*end form style*/
 
 /*bottom images style*/
@@ -379,6 +398,17 @@ textarea {
 }
 
 /*end bottom images style*/
+@media screen and (max-width: 1840px){
+    .form-about--right-block {
+        width: auto;
+        margin-top: 15px;
+    }
+
+    .form-about--left-block {
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 1470px) {
     .header__tel {
         width: 40%;
@@ -430,6 +460,10 @@ textarea {
 
     .contact__title {
         margin: 0;
+    }
+
+    .wrapper-gallery--service {
+        padding-bottom: 25px;
     }
 
 }
