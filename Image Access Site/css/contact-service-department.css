@@ -1,6 +1,7 @@
 /*new marcup*/
 .wrapper-gallery {
     overflow: hidden;
+    padding-left: 60px;
     padding-top: 4%;
 }
 
@@ -21,16 +22,15 @@
     margin-bottom: 20px;
 }
 
-.contact__title{
+.contact__title {
     margin: -20px 0 0;
     padding-left: 15px;
     font-size: 1.8rem;
 }
 
-.contact__title--padding{
-    padding-left:60px;
+.contact__title--padding {
+    padding-left: 60px;
 }
-
 
 .contact--box {
     padding: 0 0 15px 22px;
@@ -161,15 +161,16 @@
 }
 
 .header__tel {
-    float: left;
+    float: right;
     width: 47%;
-    padding: 8px 18px 0 0;
+    padding: 0 18px 0 0;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
-.header__tel .header__information{
-    font-size: 1.8rem;
+.header__tel .header__information {
+    font-size: 2.1rem;
+    line-height: 2.2rem;
 }
 
 .header__tel p {
@@ -177,13 +178,18 @@
     margin-left: auto;
 }
 
-.header__support{
-    width: 30%;
+.header__support {
+    width: 27%;
     float: right;
 }
 
+.header__support img {
+    width: 100%;
+    height: 100%;
+}
+
 .header__logo {
-    float: left;
+    float: right;
     width: 23%;
     border-left: 2px solid #000;
     padding-left: 18px;
@@ -199,10 +205,6 @@
 }
 
 /*form style*/
-.support-form--pull-left{
-    float: left;
-}
-
 
 input, textarea, select {
     margin: 10px 10px 0 25px;
@@ -254,7 +256,7 @@ textarea {
     margin-top: 20px;
 }
 
-.support-product-other:before{
+.support-product-other:before {
     content: '';
     display: table;
     clear: both;
@@ -368,6 +370,15 @@ textarea {
 }
 
 /*end bottom images style*/
+@media screen and (max-width: 1470px) {
+    .header__tel {
+        width: 40%;
+    }
+
+    .header__logo {
+        width: 30%;
+    }
+}
 
 @media screen and (max-width: 1400px) {
     .wrapper-gallery {
@@ -398,15 +409,6 @@ textarea {
     }
 }
 
-@media screen and (max-width: 1470px) {
-    .header__tel {
-        width: 40%;
-    }
-    .header__logo {
-        width: 30%;
-    }
-}
-
 @media (max-width: 1024px) {
     .wrapper-gallery__title {
         font-size: 2.6rem;
@@ -415,5 +417,10 @@ textarea {
 
     .wrapper-gallery__contact .fa-envelope {
         padding-right: 0;
+    }
+
+    .header__tel .header__information {
+        font-size: 1.8rem;
+        line-height: 2rem;
     }
 }
