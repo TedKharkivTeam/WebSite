@@ -12,8 +12,8 @@
 
 .contact__left {
     float: left;
-    width: 33%;
-    padding: 0 3px;
+    width: 31%;
+    padding: 0 10px 0 0;
 }
 
 .contact__right {
@@ -26,16 +26,18 @@
     font-size: 3.5rem;
     text-align: right;
     line-height: 1.2;
-    padding-right: 70px;
-    margin: 10px 0;
+    padding-right: 50px;
+    margin: 0 0 10px;
     font-weight: bold;
 }
 
 .contact__link {
     text-align: left;
     padding-top: 5px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .contact__link a{
@@ -55,19 +57,22 @@
 .header__tel {
     float: left;
     width: 47%;
-    padding: 8px 18px 0;
+    padding: 0 18px 0;
     text-align: right;
 }
 
 .header__tel p {
+    font-family: "LatoBold", arial, sans-serif;
     text-align: right;
     width: 77%;
     margin-left: auto;
 }
 
 .contact__title{
-    margin: 30px 0 25px;
-    font-size: 2.2rem;
+    font-family: "LatoBold", arial, sans-serif;
+    margin: 15px 0 25px;
+    font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .header__logo {
@@ -79,10 +84,12 @@
 
 .header__information {
     font-size: 2.2rem;
+    line-height: 2.8rem;
 }
 
 .header__phone {
     font-size: 2.4rem;
+    line-height: 2.8rem;
 }
 
 .contact__forms {

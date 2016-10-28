@@ -23,16 +23,12 @@
 }
 
 .contact__title {
+    font-family: "LatoBold", arial, sans-serif;
     margin: -45px 0 0;
     padding-left: 15px;
-    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     position: relative;
-}
-
-.contact__title--service{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
 }
 
 .contact--box {
@@ -163,27 +159,28 @@
     clear: both;
 }
 
-.wrapper-gallery--service{
+.wrapper-gallery--service {
     margin-bottom: -25px;
 }
 
-
 .header__tel {
     float: right;
-    width: 47%;
+    width: 44%;
     padding: 0 18px 0 0;
     text-align: right;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .header__tel .header__information {
-    font-size: 2.1rem;
-    line-height: 2.2rem;
+    font-family: "LatoBold", arial, sans-serif;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
 }
 
 .header__tel .header__information--font {
+    font-family: "LatoBold", arial, sans-serif;
     font-size: 2.2rem;
-    line-height: 2.3rem;
+    line-height: 2.8rem;
 }
 
 .header__tel p {
@@ -196,8 +193,8 @@
     float: right;
 }
 
-.header__support--padding{
-    padding-right:20px;
+.header__support--padding {
+    padding-right: 20px;
 }
 
 .header__support img {
@@ -222,10 +219,6 @@
 }
 
 /*form style*/
-
-.support-form--pull-left {
-    float: left;
-}
 
 input, textarea, select {
     margin: 10px 10px 0 25px;
@@ -258,12 +251,16 @@ textarea {
 
 .support-form fieldset {
     position: relative;
-    padding: 12px;
+    padding: 10px 20px;
     border: 1px solid grey;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     display: inline-block;
+}
+
+.fix-width {
+    width: 67%;
 }
 
 .about-company {
@@ -331,13 +328,6 @@ textarea {
     cursor: pointer;
 }
 
-.form-about--left-block{
-    width: calc(36% - 4px);
-}
-
-.form-about--right-block{
-    width: 63%;
-}
 /*end form style*/
 
 /*bottom images style*/
@@ -398,7 +388,7 @@ textarea {
 }
 
 /*end bottom images style*/
-@media screen and (max-width: 1840px){
+@media screen and (max-width: 1840px) {
     .form-about--right-block {
         width: auto;
         margin-top: 15px;
@@ -435,8 +425,8 @@ textarea {
         padding: 3% 0 0 0;
     }
 
-    .support-agent--float{
-        float:left;
+    .support-agent--float {
+        float: left;
         padding: 20% 0 0 0;
     }
 
