@@ -1,4 +1,5 @@
 var m3D = function () {
+    var randomClickInterval;
     /* ---- Переменные ---- */
     var diapo = [],
         imb,
@@ -56,7 +57,10 @@ var m3D = function () {
                 scr.appendChild(this.img);
             }
             /* ---- обработка событие onclick ---- */
-            this.img.onclick = function () {
+            this.img.onclick = function (e) {
+                if(randomClickInterval != null && e.isTrusted) {
+                    clearInterval(randomClickInterval);
+                }
                 var self = this;
 
                 if (camera.s) return;
@@ -134,9 +138,9 @@ var m3D = function () {
             var h = this.h * p;
             /* ---- рисуем HTML  ---- */
             this.css.left = Math.round(nw + x * p - w * .5) + 'px';
-            this.css.top = Math.round(nh + y * p - h * .5) + 'px';
-            this.css.width = Math.round(w) + 'px';
-            this.css.height = Math.round(h) + 'px';
+            this.css.top = Math.round(nh + y * p - h * .45) + 'px';
+            this.css.width = Math.round(w) * 0.9 + 'px';
+            this.css.height = Math.round(h) * 0.9+ 'px';
             this.css.zIndex = this.zi - Math.round(z);
         } else {
             /* ---- изображение загружено? ---- */
@@ -183,6 +187,8 @@ var m3D = function () {
     };
     /* ==== скрипт инициализации ==== */
     var init = function (data) {
+
+
         /* ---- контейнеры ---- */
         scr = document.getElementById("screen");
         bar = document.getElementById("bar");
@@ -207,8 +213,28 @@ var m3D = function () {
             }
         }
         /* ---- запуск движка ---- */
+
+        randomClickInterval = setInterval(function () {
+            var number = getRandomInt(0, diapo.length - 1);
+
+            while (!diapo[number].uuid){
+                number++;
+
+                if(number > diapo.length -1) {
+                    number = 0;
+                }
+            }
+
+            diapo[number].img.click();
+
+        }, 7000);
         run();
     };
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
     ////////////////////////////////////////////////////////////////////////////
     /* ==== основной цикл ==== */
     var run = function () {
@@ -270,5 +296,5 @@ var m3D = function () {
         ////////////////////////////////////////////////////////////////////////////
         /* ==== скрипт инициализации ==== */
         init: init
-    }
+    };
 }();

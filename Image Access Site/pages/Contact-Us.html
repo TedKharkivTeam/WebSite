@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contact-us.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <script src="../js/jquery-1.12.2.min.js"></script>
     <script src="../js/include.js"></script>
     <!--[if lt IE 9]>
@@ -33,128 +34,139 @@
         </a>
         <div class="botlogo">Contact Us</div>
     </div>
-    <div class="contactus-holder">
-        <div class="contactus-holder__triple contactus-holder__triple--left">
-            <img class="contactus-holder__triple__image--right"
-                 src="http://upload.ted-kteam.com/IA/images/contact-us/headset_people.jpg"
-                 alt="technical support in image access" title="technical support in image access">
+
+    <div class="contact">
+        <div class="contact__left">
+            <h1 class="contact-title">Contact Us</h1>
+            <img src="http://upload.ted-kteam.com/IA/images/contact-us/headset_people&#45;&#45;temp.jpg"
+                 alt="headset people">
+            <div class="contact__link">
+                This is a general information contact form.<br>
+                To contact our Service Department, <a href="S-Contact-Service-Department.html">click here</a>
+            </div>
         </div>
-        <div class="contactus-holder__triple ">
-            <strong class="contactus-holder__triple__strong">Contact Us</strong>
-            <div class="wrap-text">
-                <div class="contactus-holder__triple__div--text">Call<br>or<br>Email</div>
-                <div class="contactus-holder__triple__div--contact">
-                    <span>+1-800-378-5432</span><br>
-                    <a href="mailto:contactus@dlsg.com">ContactUs@ImageAccess.com</a>
+        <div class="contact__right">
+            <div class="contact__header">
+                <div class="header__tel">
+                    <p class="header__information">Contact Image Access by phone or submit the contact form below.</p>
+                </div>
+                <div class="header__logo">
+                    <p class="header__phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        561.995.6939
+                    </p>
+                    <p class="header__phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        888.247.3917
+                    </p>
                 </div>
             </div>
-            <p class="contactus-holder__triple__p">To receive more information, contact us directly at <span>800.378.5432</span>
-                or complete the form below and submit.<br> <i>Note: a
-                    red asterisk <span>(*)</span>, denotes a required field.</i></p>
-        </div>
-        <div class="contactus-holder__triple triple--top">
-            <img class="contactus-holder__triple__image--right"
-                 src="http://upload.ted-kteam.com/IA/images/logo/DSLG-and-IA-Logos.png" width="322"
-                 height="95"
-                 alt="logo dlsg image access" title="DLSG Logo">
-            <img class="contactus-holder__triple__image--right"
-                 src="http://upload.ted-kteam.com/IA/images/contact-us/service_tech_with_van.png"
-                 alt="lorry with scanners" title="Truck with scanners">
+            <div class="contact__forms">
+                <div class="contact__title">
+                    Contact Form
+                </div>
+                <form class="forms" id="commentForm" action="http://www.dlsg.com/script/formmail.asp" method="post">
+                    <input name="_recipients" type="hidden" value="contactus@dlsg.com">
+                    <input name="_subject" type="hidden" value="Message from the Contact Us web-form">
+                    <input name="_redirectUrl" type="hidden" value="http://www.imageaccess.com/pages/Contact_Us.html">
+                    <fieldset>
+                        <div class="forms__about forms__about--you">
+                            <span class="cursive-about">About You</span>
+                            <label class="forms__label">
+                                <span>First Name <sup>*</sup></span>
+                                <input class="forms__input" type="text" name="name" value="" required>
+                            </label>
+                            <label class="forms__label">
+                                <span>Last Name <sup>*</sup></span>
+                                <input class="forms__input" type="text" name="last" value="" required>
+                            </label>
+                            <label class="forms__label">
+                                <span>Title</span>
+                                <input class="forms__input" type="text" name="title" value="">
+                            </label>
+                            <label class="forms__label">
+                                <span>E-mail</span>
+                                <input class="forms__input" type="email" name="email" value="" required>
+                            </label>
+                            <div class="forms__sub-text">Note: a red asterisk (<sup>*</sup>), denotes a required field
+                            </div>
+                        </div>
+                        <div class="forms__about forms__about--company">
+                            <span class="cursive-about">About Your Company</span>
+                            <div class="company">
+                                <div class="forms__company">
+                                    <label class="forms__label">
+                                        <span>Company</span>
+                                        <input class="forms__input" type="text" name="company" value="">
+                                    </label>
+                                    <label class="forms__label">
+                                        <span>Telephone # <sup>*</sup></span>
+                                        <input class="forms__input" type="tel" name="telephone" value=""
+                                               required>
+                                    </label>
+                                    <label class="forms__label">
+                                        <span>Fax #</span>
+                                        <input class="forms__input" type="text" name="fax" value="">
+                                    </label>
+                                    <label class="forms__label">
+                                        <span>Address</span>
+                                        <input class="forms__input" type="text" name="address" value="">
+                                    </label>
+                                </div>
+                                <div class="forms__company forms__company--right">
+                                    <label class="forms__label">
+                                        <span>City</span>
+                                        <input class="forms__input" type="text" name="city" value="">
+                                    </label>
+                                    <label class="forms__label">
+                                        <span>State</span>
+                                        <input class="forms__input" type="text" name="state" value="">
+                                    </label>
+                                    <label class="forms__label">
+                                        <span>ZIP</span>
+                                        <input class="forms__input" type="text" name="zip" value="">
+                                    </label>
+                                    <label class="forms__label">
+                                        <span>Website</span>
+                                        <input class="forms__input" type="url" name="website" value="">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="forms__comment">
+                                <label class="forms__label">
+                                    <span>Comments:</span>
+                                    <textarea class="forms__input" name="comment" rows="5"></textarea>
+                                </label>
+                                <div class="comment__btn">
+                                    <button class="btn" type="submit">SUBMIT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
-    <form class="mainform" id="commentForm" action="http://www.dlsg.com/script/formmail.asp" method="post">
-        <input name="_recipients" type="hidden" value="contactus@dlsg.com">
-        <input name="_subject" type="hidden" value="Message from the Contact Us web-form">
-        <input name="_redirectUrl" type="hidden" value="http://www.imageaccess.com/pages/Contact_Us.html">
-        <!-- need some better user feedback -->
-        <fieldset class="form-left">
-            <div class="main">
-                <label>About You</label>
-            </div>
-            <div class="field">
-                <label class="star" for="name">First Name</label>
-                <input class="--input-resize" type="text" id="name" name="name" value="" required/>
-            </div>
-            <div class="field">
-                <label class="star" for="last">Last Name</label>
-                <input class="--input-resize" type="text" id="last" name="last" value="" required/>
-            </div>
-            <div class="field">
-                <label for="title">Title</label>
-                <input type="text" id="title" name="title" value=""/>
-            </div>
-            <div class="field">
-                <label class="star" for="email">E-mail</label>
-                <input type="email" id="email" name="email" value="" required/>
-            </div>
-        </fieldset>
-        <fieldset class="form-right">
-            <div class="main">
-                <label>About Your company</label>
-            </div>
-            <div class="one-form">
-                <div class="left">
-                    <div class="field">
-                        <label for="company">Company</label>
-                        <input class="input-move" type="text" id="company" name="company" value=""/>
-                    </div>
-                    <div class="field">
-                        <label class="star" for="telephone">Telephone #</label>
-                        <input class="input-move" type="tel" id="telephone" name="telephone" value="" required/>
-                    </div>
-                    <div class="field">
-                        <label for="fax">Fax #</label>
-                        <input class="input-move" type="text" id="fax" name="fax" value=""/>
-                    </div>
-                    <div class="field">
-                        <label for="address">Address</label>
-                        <input class="input-move" type="text" id="address" name="address" value=""/>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="field">
-                        <label for="city">City</label>
-                        <input type="text" id="city" name="city" value=""/>
-                    </div>
-                    <div class="field">
-                        <label for="state">State</label>
-                        <input class="--input-resize" type="text" id="state" name="state" value=""/>
-                    </div>
-                    <div class="field">
-                        <label for="zip">ZIP</label>
-                        <input type="text" id="zip" name="zip" value=""/>
-                    </div>
-                    <div class="field">
-                        <label for="website">Website</label>
-                        <input class="--input-resize-website" type="url" id="website" name="website" value=""/>
-                    </div>
-                </div>
-            </div>
-            <div class="one-form to-bottom">
-                <div class="field">
-                    <label for="comment">Comments:</label>
-                    <textarea id="comment" name="comment" class="text-area"></textarea>
-                </div>
-                <button type="submit" class="send">SUBMIT</button>
-            </div>
-        </fieldset>
-    </form>
-    <div class="brochure-block to-down address">
-        <img class="img-holder img-holder" src="http://upload.ted-kteam.com/IA/images/contact-us/parking_lot.jpg"
+
+    <div class="office-wrapper">
+        <img class="office-main-photo" src="http://upload.ted-kteam.com/IA/images/contact-us/parking_lot.jpg"
              alt="Image Access main office" title="Image Access main office">
-        <div class="adr-top">
-            <span>DLSG is a division of Image Access, Inc.</span>
+        <div class="office-address office-address-other">
+            <h2>DLSG is a division of Image Access, Inc.</h2>
             <p>543 NW 77th Street, Boca Raton, FL 33487</p>
         </div>
-        <span class="adr-bottom">Image Access, Inc.</span>
+        <span class="office-company-name">Image Access, Inc.</span>
     </div>
-    <div class="parkin__box">
-        <img class="parkin parkin--left" src="http://upload.ted-kteam.com/IA/images/contact-us/contact_us_002.jpg"
-             alt="Exhibition with scanners" title="Exhibition with scanners">
-        <img class="parkin" src="http://upload.ted-kteam.com/IA/images/contact-us/contact_us_003.jpg"
+
+    <div class="office-photos-wrapper">
+        <img class="office-photo office-photo--left"
+             src="http://upload.ted-kteam.com/IA/images/contact-us/contact_us_002.jpg" alt="Exhibition with scanners"
+             title="Exhibition with scanners">
+        <img class="office-photo" src="http://upload.ted-kteam.com/IA/images/contact-us/contact_us_003.jpg"
              alt="lorry with scanners" title="Lorry with scanners">
-        <img class="parkin parkin--right" src="http://upload.ted-kteam.com/IA/images/contact-us/contact_us_004.jpg"
-             alt="warehouse with scanners" title="warehouse with scanners">
+        <img class="office-photo office-photo--right"
+             src="http://upload.ted-kteam.com/IA/images/contact-us/contact_us_004.jpg" alt="warehouse with scanners"
+             title="warehouse with scanners">
     </div>
 </div>
 <footer>

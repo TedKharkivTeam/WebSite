@@ -165,15 +165,19 @@ body {
 }
 
 .header-top > li > a:hover {
-    color: #047BCB;
+    color: #2487d6;
 }
 
 .header-top > li:hover .dropdown {
     display: block;
 }
 
+.contact-dropdown {
+    width: 14%;
+}
+
 .header-top .dropdown li:hover > a {
-    text-shadow: 1px 1px 2px #fff, 0 0 1em #047BCB;
+    text-shadow: 1px 1px 2px #fff, 0 0 1em #2487d6;
 }
 
 .header-top ul li {
@@ -277,9 +281,9 @@ body {
     position: absolute;
     z-index: 100002;
     display: none;
-    right: 10px;
+    right: 1px;
     top: 50%;
-    padding: 18px 0 0 0;
+    padding: 17px 0 0 0;
 }
 
 .fast-nav-content {
@@ -304,7 +308,6 @@ body {
 
 .fast-nav-content h4 {
     font-family: 'LatoRegular', sans-serif, helvetica, arial;
-
     font-size: 16px;
     color: rgb(255, 255, 255);
     margin: 0;
@@ -791,6 +794,7 @@ body {
 .leftsidemenu {
     padding: 0 10px 0 0;
     position: relative;
+    background: rgba(255,255,255,0.7);
 }
 
 .leftsidemenu a {

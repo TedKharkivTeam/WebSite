@@ -1,3 +1,7 @@
+.ital-dlos-text{
+    margin: -8px 0 0 -16px;
+    font-style: italic;
+}
 .infoblock ul {
     padding: 10px 0 0 24px;
     font-size: 1.4rem;

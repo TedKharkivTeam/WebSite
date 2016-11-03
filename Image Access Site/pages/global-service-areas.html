@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name="description" content="Global Service Areas">
+    <meta name="keywords"
+          content="Image Access, KIC, DLSG, Global Service Areas, global map with ImageAccess office, library, librarians">
+    <meta name="author" content="Image Access">
+    <title>Global Service Areas :: Image Access 2016</title>
+    <link rel="shortcut icon" href="http://upload.ted-kteam.com/IA/images/icon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/leaflet.css">
+    <link rel="stylesheet" href="../css/s-global-service-areas.css">
+    <script src="../js/jquery-1.12.2.min.js"></script>
+    <script src="../js/include.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <div id="includeHeader"></div>
+</header>
+<div class="content">
+    <div class="logo">
+        <a href="../index.html">
+            <img src="http://upload.ted-kteam.com/IA/images/logo/ImageAccess-logo.png" width="600" height="336"
+                 alt="Image Access" title="Image Access">
+        </a>
+        <div class="botlogo">Global Service Areas</div>
+    </div>
+    <div class="leftsidemenu-holder">
+        <ul class="leftsidemenu">
+            <li data-region="WW" class="map_toggle selected">Whole world</li>
+            <li data-region="US" id="UnitedStates" class="map_toggle">United States &
+                Canada
+            </li>
+            <li data-region="CAR" class="map_toggle">Caribbean</li>
+            <li data-region="CEA" class="map_toggle">Central America</li>
+            <li data-region="SOA" class="map_toggle">South America</li>
+            <li data-region="EU" class="map_toggle">Europe</li>
+            <li data-region="ME" class="map_toggle">Middle-east</li>
+            <li data-region="AS" class="map_toggle">Asia</li>
+            <li data-region="AU" class="map_toggle">Australia &amp; New Zealand</li>
+            <li data-region="AF" class="map_toggle">Africa</li>
+        </ul>
+    </div>
+    <div class="infoblock support-block">
+        <div class="block-toggle">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="includeFooter"></div>
+</footer>
+<script>
+    window.currentTab = '#contact_us';
+</script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/service-other.js"></script>
+</body>
+</html>
