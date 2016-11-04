@@ -40,8 +40,9 @@
     line-height: 2.2rem;
 }
 
-.contact__link a{
-    color: #1457a8;
+.contact__link a {
+    color: #00f;
+    text-decoration: underline;
 }
 
 .contact__header {
@@ -68,7 +69,7 @@
     margin-left: auto;
 }
 
-.contact__title{
+.contact__title {
     font-family: "LatoBold", arial, sans-serif;
     margin: 15px 0 25px;
     font-size: 2rem;
@@ -145,24 +146,24 @@ fieldset {
     position: relative;
 }
 
-.forms__label:after{
+.forms__label:after {
     content: '';
     display: table;
     clear: both;
 }
 
-.forms__label span{
+.forms__label span {
     width: 100px;
     float: left;
     font-size: 14px;
 }
 
-.forms__input{
+.forms__input {
     float: left;
     border: solid 1px #ccc;
     padding: 4px;
     outline: 0;
-    width:calc(100% - 100px);
+    width: calc(100% - 100px);
     background: #F9F9F9;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -175,42 +176,42 @@ fieldset {
     top: 0;
 }
 
-.forms__sub-text{
+.forms__sub-text {
     margin-top: 30px;
     font-size: 14px;
     font-style: italic;
 }
 
-.forms__company{
+.forms__company {
     float: left;
     width: 50%;
 }
 
-.forms__company--right .forms__label span{
+.forms__company--right .forms__label span {
     width: 70px;
 }
 
-.forms__company--right .forms__input{
-    width:calc(100% - 70px);
+.forms__company--right .forms__input {
+    width: calc(100% - 70px);
 }
 
-.forms__company--right{
+.forms__company--right {
     margin-left: 30px;
     width: calc(50% - 30px);
 }
 
-.company{
+.company {
     overflow: hidden;
 }
 
-.forms__comment .forms__label{
+.forms__comment .forms__label {
     display: inline-block;
     width: 75%;
     vertical-align: bottom;
     margin-bottom: 0;
 }
 
-.comment__btn{
+.comment__btn {
     vertical-align: bottom;
     display: inline-block;
     width: 24%;
@@ -245,7 +246,6 @@ fieldset {
     padding-top: 10px;
     position: relative;
 }
-
 
 .office-address {
     position: absolute;
@@ -288,9 +288,10 @@ fieldset {
 }
 
 .office-photos-wrapper .office-photo {
-    width:calc(100% / 3 - 2px);
+    width: calc(100% / 3 - 2px);
     text-align: center;
 }
+
 .office-photos-wrapper .office-photo--left {
     float: left;
 }
@@ -299,10 +300,11 @@ fieldset {
     float: right;
 }
 
-@media all and (max-width: 1680px){
+@media all and (max-width: 1680px) {
     .contact-title {
-         padding-right:0;
+        padding-right: 0;
     }
+
     .header__logo {
         margin-top: 30px;
     }
@@ -318,22 +320,27 @@ fieldset {
     .forms__label span {
         width: 85px;
     }
+
     .forms__input {
 
         width: calc(100% - 85px);
     }
+
     .forms__about {
         padding: 10px;
     }
+
     .btn {
         padding: 8px 12px;
     }
 }
+
 @media all and (max-width: 1100px) {
     .header__logo {
         margin-top: 50px;
         padding: 0;
     }
+
     .contact-title {
         font-size: 2.4rem;
     }

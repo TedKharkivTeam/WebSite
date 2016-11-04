@@ -123,16 +123,19 @@
             </div>
         </div>
         <div class="support-form-wrapper">
-            <form action="" class="support-form">
+            <form class="support-form" action="http://www.dlsg.com/script/formmail.asp" method="post">
+                <input name="_recipients" type="hidden" value="contactus@dlsg.com">
+                <input name="_subject" type="hidden" value="Message from the Contact Service Department ImageAccess">
+                <input name="_redirectUrl" type="hidden" value="http://www.imageaccess.com/pages/thankyou.html">
                 <fieldset class="form-about">
                     <legend>About You</legend>
                     <div>
                         <label for="firstName">First Name <span>*</span></label>
-                        <input type="text" id="firstName" required>
+                        <input type="text" id="firstName" placeholder="Your Name" required>
                     </div>
                     <div>
                         <label for="lastName">Last Name <span>*</span></label>
-                        <input type="text" id="lastName" required>
+                        <input type="text" id="lastName" placeholder="Your Surname" required>
                     </div>
                     <div>
                         <label for="title">Title</label>
@@ -140,7 +143,7 @@
                     </div>
                     <div>
                         <label for="email">E-mail <span>*</span></label>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email" placeholder="example@example.com" required>
                     </div>
                 </fieldset>
                 <fieldset class="form-about fix-width">
@@ -152,7 +155,7 @@
                         </div>
                         <div>
                             <label for="phone">Telephone # <span>*</span></label>
-                            <input type="text" id="phone" required>
+                            <input type="text" id="phone" placeholder="+1 (111) 123 45 67" required>
                         </div>
                         <div>
                             <label for="fax">Fax #</label>
@@ -178,7 +181,7 @@
                         </div>
                         <div>
                             <label for="website">Website</label>
-                            <input type="url" id="website">
+                            <input type="text" id="website" placeholder="example.com">
                         </div>
                     </div>
                 </fieldset>
