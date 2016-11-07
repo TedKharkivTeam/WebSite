@@ -4,3 +4,7 @@
 footer {
     width: 100%;
 }
+
+footer ul:nth-last-child(1) {
+    width: 8%;
+}
