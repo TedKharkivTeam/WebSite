@@ -764,9 +764,12 @@
 .content-holder{
     position: relative;
     overflow: hidden;
-    margin-bottom: 30px;
 }
 
+hr{
+    margin: 20px 0;
+    border-color: rgba(0, 0, 0, 0.1);
+}
 
 /* ************************************* MEDIA QUERIES ************************************* */
 
