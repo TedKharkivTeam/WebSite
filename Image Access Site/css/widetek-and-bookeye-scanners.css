@@ -761,6 +761,13 @@
     height: 450px;
 }
 
+.content-holder{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
 /* ************************************* MEDIA QUERIES ************************************* */
 
 /* 1280, 1366 */

@@ -1,3 +1,4 @@
 $(function () {
-    $('.gallery').gallery();
+    $('.gallery-photo').gallery();
+    $('.gallery-video').gallery();
 });
