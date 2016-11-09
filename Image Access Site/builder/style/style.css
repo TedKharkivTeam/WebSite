@@ -16,7 +16,7 @@ hr{display:block;clear:both;margin:0;visibility:hidden;}
 .page-title{float:left;width:650px;margin:10px;}
 .page-title h1{text-align:center;font-size:200%;font-style:italic;}
 .container{width:1210px;padding-left:5px;min-height:600px;margin-left:auto;margin-right:auto;margin-top:1px;position:relative;background:#fff;z-index:0;overflow:hidden;}
-.viewport{width:1200px;height:720px;margin:0 auto;border:solid 0px #ccc;overflow:hidden;position:relative;color:#000;z-index:1;}
+.viewport{width:1200px;min-height:720px;margin:0 auto;border:solid 0px #ccc;overflow:hidden;position:relative;color:#000;z-index:1;}
 .viewport img{border-radius:6px;overflow:hidden;}
 .f5,.g5{margin-top:6px;z-index:1;height:860px;width:1200px;}
 .g5{height:720px;}
